@@ -1,4 +1,4 @@
-How to use.  Add the following to your html file utilizing the jquery code.
+### How to use.  Add the following to your html file utilizing the jquery code.
 
 ```
 <head>
@@ -6,7 +6,7 @@ How to use.  Add the following to your html file utilizing the jquery code.
 </head>
 ```
 
-OR,
+### OR,
 
 ```
 <head>
@@ -14,9 +14,9 @@ OR,
 </head> 
 ```
 
-## Functions In a Separate File
+### Functions In a Separate File
 
-### If your website contains a lot of pages, and you want your jQuery functions to be easy to maintain, you can put your jQuery functions in a separate .js file.
+#### If your website contains a lot of pages, and you want your jQuery functions to be easy to maintain, you can put your jQuery functions in a separate .js file.
 
 #### When we demonstrate jQuery in this tutorial, the functions are added directly into the <head> section. However, sometimes it is preferable to place them in a separate file, like this (use the src attribute to refer to the .js file):
 
