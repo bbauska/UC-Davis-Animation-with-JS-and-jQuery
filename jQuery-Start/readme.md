@@ -29,6 +29,17 @@
 </head>
 ```
 
+### Example
 
+#### And in the my_jquery_function.js I might use the following example; a user clicks on a button, the elements with class="test" will be hidden:
 
+### Example
+
+```
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".test").hide();
+  });
+});
+```
 `
