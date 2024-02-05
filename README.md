@@ -5,11 +5,20 @@ title: |
   taught by William Mead, Lecturer -- UC \@Davis
 ---
 
-![](images/image001.png){width="2.0in"
-height="1.3664534120734908in"}![](images/image002.png){width="1.7916666666666667in"
-height="1.5104166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  width="20%"
+  alt="." />
+<img src="./images/image002.png?raw=true"
+  width="20%"
+  alt="." />
+</p>
 
-## About this Course
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="about">About this Course</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 With the general introduction of JavaScript in the first course, this
 course will focus on JavaScript libraries, specifically jQuery. The
