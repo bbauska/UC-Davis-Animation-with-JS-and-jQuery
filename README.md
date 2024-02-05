@@ -1,3 +1,12 @@
+---
+title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
+author: "bbauska"
+date last editted: "2/5/2024 8+am"
+output: 
+  markdown:
+    with some style
+---
+
 # Animation-with-JS-and-jQuery
 UC Davis' Animation with JavaScript and jQuery.
 
