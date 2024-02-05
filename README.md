@@ -1,8 +1,7 @@
 ---
 title: |
-  **#2. Animation with JavaScript & jQuery**
-
-  taught by William Mead, Lecturer -- UC \@Davis
+  #2. Animation with JavaScript & jQuery
+  taught by William Mead, Lecturer -- UC &commat;Davis
 ---
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
