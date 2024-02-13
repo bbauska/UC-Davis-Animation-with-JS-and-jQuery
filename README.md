@@ -55,9 +55,9 @@ breakdown jQuery\'s ability to manipulate HTML and CSS.
 -   Demonstrate proficiency with both JavaScript and jQuery for
     accessing and manipulating elements on a web page.
 
-# Syllabus
+## Syllabus
 
-# Week/Module 1
+## Week/Module 1
 
 ## Manipulating Web Pages Elements with jQuery & JavaScript
 
@@ -208,7 +208,7 @@ both JavaScript and jQuery.
 
 -   PDF of Presentation 2.20-FileName.pdf
 
-# Week/Module 3
+## Week/Module 3
 
 ## Intermediate Document Manipulation & Animation
 
@@ -267,7 +267,7 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 ## PDF of Presentation 3.17-FileName.pdf
 
-# Week/Module 4
+## Week/Module 4
 
 ## Timers and Recursion in JavaScript & jQuery
 
@@ -317,7 +317,7 @@ interface element on any web page.
 
 12. Course Summary
 
-# A Note From UC Davis
+## A Note From UC Davis
 
 Welcome to this course!
 
@@ -382,9 +382,9 @@ We look forward to having you in this course. Happy learning!
 
 ***UC Davis Coursera Team***
 
-# Week/Module One:
+## Week/Module One:
 
-# Manipulating Web Pages Elements with jQuery & JS
+## Manipulating Web Pages Elements with jQuery & JS
 
 In this module, you will be introduced to jQuery and basic jQuery syntax
 and we will compare it to JavaScript syntax. You will be able to plug-in
@@ -397,7 +397,7 @@ project. You will be able to demonstrate proficiency with both
 JavaScript and jQuery for accessing and manipulating elements on a web
 page.
 
-# 1.00 Learning Objectives
+## 1.00 Learning Objectives
 
 -   Plug in the jQuery library either locally or through a CDN.
 
@@ -417,7 +417,7 @@ page.
 -   Demonstrate proficiency with both JavaScript and jQuery for
     accessing and manipulating elements on a web page.
 
-# 1.01. Introduction to jQuery (7:56)
+## 1.01. Introduction to jQuery (7:56)
 
 ![](images/image003.png){width="3.5in" height="2.1639424759405075in"}
 
