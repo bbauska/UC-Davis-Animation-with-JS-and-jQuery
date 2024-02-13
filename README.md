@@ -135,7 +135,7 @@ page.
 
 -   JavaScript and jQuery Challenge Activities 1.19-FileName.pdf
 
-# Week/Module 2 
+## Week/Module 2 
 
 ## Animating Web Page Elements with jQuery & JavaScript
 
@@ -545,7 +545,7 @@ basis.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery
 
-# Module 1.02. jQuery Libraries (6:00)
+## Module 1.02. jQuery Libraries (6:00)
 
 ![](images/image007.png){width="4.0in" height="2.473077427821522in"}
 
@@ -642,7 +642,7 @@ kilobytes). It\'s not that big. This is significantly larger
 So now we\'ve got jQuery, let\'s get it plugged into our HTML file.
 We\'ll plug it into our HTML file here.
 
-# Module 1.03. Plugging into jQuery Libraries (5:37)
+## Module 1.03. Plugging into jQuery Libraries (5:37)
 
 ![](images/image015.png){width="4.0in"
 height="2.473077427821522in"}
@@ -708,7 +708,7 @@ functionality from the older version in order to work. But generally
 we\'re going to use the newest version of jQuery, version 3.7.1 at the
 time of this recording.
 
-# Module 1.04. Basic jQuery Syntax (5:31)
+## Module 1.04. Basic jQuery Syntax (5:31)
 
 ![](images/image016.png){width="4.0in"
 height="2.473077427821522in"}
@@ -772,7 +772,7 @@ this array. Now I\'ve got an array and I\'m going to loop through it.
 It\'s a little bit of a pain. JQuery takes some of that pain away, and
 that\'s really a nice feature of jQuery.
 
-# Module 1.05. Using jQuery to Access Elements (8:39)
+## Module 1.05. Using jQuery to Access Elements (8:39)
 
 ![](images/image017.png){width="4.0in"
 height="2.473077427821522in"}
@@ -869,7 +869,7 @@ is, when you have a page and you have some elements, you need to get to
 be creative, use the documentation for jQuery to help you find the best
 way of getting to that element on the page.
 
-# Module 1.06. jQuery Events (5:55)
+## Module 1.06. jQuery Events (5:55)
 
 ![](images/image018.png){width="4.0in"
 height="2.473077427821522in"}
@@ -937,7 +937,7 @@ to use it with different projects.
 
 ### 1.06.Introduction-to-jQuery.pdf
 
-# Module 1.07. Intro to Folding Sidebar Menus Using JS (4:36)
+## Module 1.07. Intro to Folding Sidebar Menus Using JS (4:36)
 
 ![](images/image019.png){width="4.0in"
 height="2.473077427821522in"}
@@ -997,7 +997,7 @@ next video, we\'ll see how I did that.
 
 ### 1.07.JS-Folding-Sidebar-Menu-Start.zip
 
-# Module 1.08. Challenge 1 Solution (3:23)
+## Module 1.08. Challenge 1 Solution (3:23)
 
 ![](images/image020.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1034,7 +1034,7 @@ default behavior from that would result from clicking the link. But see
 if you can do that on your own without looking at my solution. But
 we\'ll do it together in the next video.
 
-# Module 1.09. Challenge 2 Solution (7:01)
+## Module 1.09. Challenge 2 Solution (7:01)
 
 ![](images/image021.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1103,7 +1103,7 @@ See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next video, I\'ll show you my
 solution for that.
 
-# Module 1.10. Challenge 3 Solution (2:46)
+## Module 1.10. Challenge 3 Solution (2:46)
 
 ![](images/image022.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1136,7 +1136,7 @@ do we do that? Try to figure out how you can do that on your own, and
 then come and see the answer on the next video. I\'ll show you how I did
 it.
 
-# Module 1.11. Challenge 4 Solution (2:29)
+## Module 1.11. Challenge 4 Solution (2:29)
 
 ![](images/image023.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1170,7 +1170,7 @@ out whether the menu has \'\'hide-menu\'\' or \'\'show-menu\'\' wanted.
 See if you can do it on your own. Then if you are successful or not,
 just come back to the next video and we\'ll see how I did it.
 
-# Module 1.12. Challenge 5 Solution (x:xx)
+## Module 1.12. Challenge 5 Solution (x:xx)
 
 ![](images/image024.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1215,7 +1215,7 @@ loop that closes all the all the menus. So see if we can add a lip that
 closes all the menus before showing the sub menu with the parent menu
 being collect.
 
-# Module 1.13. Challenge 6 Solution (x:xx)
+## Module 1.13. Challenge 6 Solution (x:xx)
 
 ![](images/image025.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1251,7 +1251,7 @@ hide sub menus or something like that. And, yeah, so see if you can make
 that function and make that work. And in the next video, we\'ll look at
 my solution for how I made it work.
 
-# Module 1.14. Challenge 7 Solution (2:39)
+## Module 1.14. Challenge 7 Solution (2:39)
 
 ![](images/image026.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1287,7 +1287,7 @@ do all of that and then come back to the next video and see if you are
 able to get the same answers I was able to do or that I will show you in
 the next video.
 
-# Module 1.15. Challenge 8 Solution (3:35)
+## Module 1.15. Challenge 8 Solution (3:35)
 
 ![](images/image027.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1330,7 +1330,7 @@ You\'ll see how much shorter and how much more compact that script is.
 
 ### 1.15.Folding-Sidebar-Menus-with-JS.pdf
 
-# Module 1.16. Intro to jQuery Sidebar Folding Navigation (4:35)
+## Module 1.16. Intro to jQuery Sidebar Folding Navigation (4:35)
 
 ![](images/image028.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1387,7 +1387,7 @@ all that fun stuff. We\'ll do that in the next video.
 
 ### 1.16.jQuery-Folding-Menus-Start.zip
 
-# Module 1.17. Getting the Next UL (4:40)
+## Module 1.17. Getting the Next UL (4:40)
 
 ![](images/image029.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1444,7 +1444,7 @@ script we really need to figure out is how to make it so that when I
 click on one menu, it closes all of the menus and then only opens the
 one that I clicked on. And we\'ll do that in the next video.
 
-# Module 1.18. The Whole Script (5:59)
+## Module 1.18. The Whole Script (5:59)
 
 ![](images/image030.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1513,7 +1513,7 @@ know I am.
 
 ### 1.18.Folding-Sidebar-Menus-with-jQuery.pdf
 
-# Module 1.19. JavaScript and jQuery Challenges (1:54)
+## Module 1.19. JavaScript and jQuery Challenges (1:54)
 
 ![](images/image031.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1547,9 +1547,9 @@ work.
 
 ### 1.19.JavaScript-and-jQuery-Challenges.pdf
 
-# Module/Week Two:
+## Module/Week Two:
 
-# Module 2.01. Module 2 Introduction (0:50)
+## Module 2.01. Module 2 Introduction (0:50)
 
 ![](images/image032.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1564,7 +1564,7 @@ each as you learn and work on projects. It\'s a lot of fun and you\'re
 really going to enjoy it. Buckle in and let\'s get started with learning
 about the effects library in jQuery.
 
-# Module 2.02. Intro to jQuery Effects Library (4:05)
+## Module 2.02. Intro to jQuery Effects Library (4:05)
 
 ![](images/image033.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1616,7 +1616,7 @@ affect the speed there.
 
 ### 2.02.jQuery-Animation-START.zip
 
-# Module 2.03. Example 1, cont'd (4:36)
+## Module 2.03. Example 1, cont'd (4:36)
 
 ![](images/image034.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1665,7 +1665,7 @@ and the animations can have a callback function that runs when the
 animation is complete and this is super useful. Let\'s take a look at
 the next example in the next video.
 
-# Module 2.04. Example 2 (5:35)
+## Module 2.04. Example 2 (5:35)
 
 ![](images/image035.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1727,7 +1727,7 @@ basic easing, but there\'s a plug-in and one of the strengths of jQuery
 is the plug-in architecture. We\'re going to talk about that in the next
 lesson.
 
-# Module 2.05. Example 2: Plugin Architecture (8:39)
+## Module 2.05. Example 2: Plugin Architecture (8:39)
 
 ![](images/image036.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1804,7 +1804,7 @@ it comes back and it says it\'s done. That\'s working great. That gives
 us a lot of information about how to work with these built-in
 animations, and we\'re going to do more in the next video.
 
-# Module 2.06. Example 3: Fading Buttons (4:00)
+## Module 2.06. Example 3: Fading Buttons (4:00)
 
 ![](images/image037.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1849,7 +1849,7 @@ animation is complete, it runs the alert and says that it\'s done.
 That\'s great. We can do all of that. Okay, cool. Now we just need to
 add these last two here and we can look at that in the next video.
 
-# Module 2.07. Example 3: Fade To (4:07)
+## Module 2.07. Example 3: Fade To (4:07)
 
 ![](images/image038.png){width="4.0in"
 height="2.473077427821522in"}
@@ -1898,7 +1898,7 @@ toggling, slide toggle and doing all these kinds of things that we
 commonly need to do. But sometimes you need to do a custom function, and
 we\'ll take a look at that in the next part of this lesson.
 
-# Module 2.08. Example 4: Custom Animations -- Part 1 (4:20)
+## Module 2.08. Example 4: Custom Animations -- Part 1 (4:20)
 
 ![](images/image039.png){width="4.0in"
 height="2.361538713910761in"}
@@ -1952,7 +1952,7 @@ That\'s cool. All right. We were able to pass that in and do that one.
 Let\'s take a look at growing the text and affecting the actual text
 inside the box in the next video.
 
-# Module 2.09. Example 4: Custom Animations - 2 (5:59)
+## Module 2.09. Example 4: Custom Animations - 2 (5:59)
 
 ![](images/image040.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2014,7 +2014,7 @@ pretty cool. Okay, great. We\'re able to adjust the amount of time and
 the amount that it moves in, what it does with the actual animation, all
 with custom animation.
 
-# Module 2.10. Doing All Animations at Once (6:30)
+## Module 2.10. Doing All Animations at Once (6:30)
 
 ![](images/image041.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2083,7 +2083,7 @@ doing something fairly quick, there\'s not a lot of reason not to use
 it. We\'ll see an example of when is a good place to use this effects
 library coming up when we create a tabbed interface.
 
-# Additional Resources
+### Additional Resources
 
 Here are resources related to these lessons:
 
@@ -2091,7 +2091,7 @@ Here are resources related to these lessons:
 
 -   [jQuery Easing](https://cdnjs.com/libraries/jquery-easing)
 
-# PDF of Presentation
+### PDF of Presentation
 
 Here is a PDF of the presentation slides used in the videos for this
 section: **Intro to jQuery Effects Library**.
@@ -2100,7 +2100,7 @@ section: **Intro to jQuery Effects Library**.
 
 [PDF File]{.underline}
 
-# Module 2.11. Intro to Tabbed Interface Using jQuery (x:xx)
+## Module 2.11. Intro to Tabbed Interface Using jQuery (x:xx)
 
 ![](images/image042.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2161,7 +2161,7 @@ great. We\'ve got that in place, and now my tabs are lining up next to
 each other, still doesn\'t look very good, but we\'re getting there.
 Great. We\'ll continue with the styling in the next video.
 
-# Start Files: Creating a Tabbed Interface with jQuery
+### Start Files: Creating a Tabbed Interface with jQuery
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -2177,7 +2177,7 @@ transmission, often carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# Module 2.12. Styling the Anchor Tags (x:xx)
+## Module 2.12. Styling the Anchor Tags (x:xx)
 
 ![](images/image043.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2251,12 +2251,12 @@ so it really starts to look like a tap and we want to get that styling
 in place. The next step will be to add the j query to make the thing
 actually work and we\'ll start working on that in the next video.
 
-# Module 2.13. Tab Styling and Colors (x:xx)
+## Module 2.13. Tab Styling and Colors (x:xx)
 
 ![](images/image044.png){width="4.0in"
 height="2.361538713910761in"}
 
-# Module 2.14. Clicking and Fading Tabs (x:xx)
+## Module 2.14. Clicking and Fading Tabs (x:xx)
 
 ![](images/image045.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2311,7 +2311,7 @@ tabs, it is actually changing and getting some different information in
 there. That\'s what we\'ll do in the next video and we\'ll finish this
 thing up and you\'ll see how the interface looks when we\'re done.
 
-# Module 2.15. Whole Script (7:40)
+## Module 2.15. Whole Script (7:40)
 
 ![](images/image046.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2393,7 +2393,7 @@ can go up. There we go. That should all work. Let\'s just test it really
 quickly and make sure it works. Refresh, and it\'s working great. We\'ve
 got a nice, clean, simple script that we can use using jQuery.
 
-# PDF of Presentation
+### PDF of Presentation
 
 Here is a PDF of the presentation slides used in the videos for this
 section: **Creating a Tabbed Interface with jQuery**.
@@ -2402,7 +2402,7 @@ section: **Creating a Tabbed Interface with jQuery**.
 
 [PDF File]
 
-# Module 2.16. Getting the CSS Ready (5:53)
+## Module 2.16. Getting the CSS Ready (5:53)
 
 ![](images/image047.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2480,7 +2480,7 @@ before. None of this is actually functioning yet. But the look is the
 same as what we had in the original in the original version of the Jacob
 version, and we\'ll start working on the JavaScript in the next video.
 
-# Start Files: Creating a Tabbed Interface with JavaScript
+### Start Files: Creating a Tabbed Interface with JavaScript
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -2496,7 +2496,7 @@ transmission, often carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# Module 2.17. Making the Tabs Work (6:52)
+## Module 2.17. Making the Tabs Work (6:52)
 
 ![](images/image048.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2570,7 +2570,7 @@ half our project. We\'ve made it so that you can click on these tabs and
 have the correct classes. It looks like it\'s doing that, now we have to
 actually make the content work. We\'ll do that in the next video.
 
-# Module 2.18. New Tab and Old Tab (7:20)
+## Module 2.18. New Tab and Old Tab (7:20)
 
 ![](images/image049.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2649,7 +2649,7 @@ say display blocking on and we\'ve transitioned it down to capacity
 zero. Now we can just set it so displaying nine instead of display block
 at that point.
 
-# Module 2.19. Handling the Switch (4:50)
+## Module 2.19. Handling the Switch (4:50)
 
 ![](images/image050.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2704,7 +2704,7 @@ what I was expecting at all. Alright, cool. I\'m going to refresh this,
 so I don\'t have that going on. Okay, we\'re going to fix this and look
 at sort of the solution for fixing that in the next video.
 
-# Module 2.20. Fixing a Bug (6:19)
+## Module 2.20. Fixing a Bug (6:19)
 
 ![](images/image051.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2775,7 +2775,7 @@ I think it\'s nice to sort of come into that kind of conversation with a
 little bit of experience with them. So we\'ll look at those features of
 Javascript next.
 
-# Module 2.21. Cleaning Up the Code (7:26)
+## Module 2.21. Cleaning Up the Code (7:26)
 
 ![](images/image052.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2863,7 +2863,7 @@ the jQuery. If you prefer to really learn the plain vanilla JavaScript
 because jQuery is starting to get phased out, then this is a really good
 example of the work you need for it with plain JavaScript.
 
-# PDF of Presentation
+### PDF of Presentation
 
 Here is a PDF of the presentation slides used in the videos for this
 section: **Creating a Tabbed Interface with JavaScript.**.
@@ -2873,7 +2873,7 @@ section: **Creating a Tabbed Interface with JavaScript.**.
 
 WEB1091_M02_JS Tabbed Interface.pdfPDF File
 
-# Module Three:
+## Module Three:
 
 ![](images/image053.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2886,7 +2886,7 @@ practice. Let\'s dive in and start working on these scripts. I think
 you\'re going to get a lot out of them and I look forward to going
 through them with you.
 
-# Module 3.01. Basic Slider (6:27)
+## Module 3.01. Basic Slider (6:27)
 
 ![](images/image054.png){width="4.0in"
 height="2.361538713910761in"}
@@ -2966,7 +2966,7 @@ additional slides. We\'re only seeing the one that\'s actually in the
 window. It\'s important to understand that that\'s how this project is
 set up because it has an effect on how we write our JavaScript.
 
-# Start Files: jQuery Image Sliders
+### Start Files: jQuery Image Sliders
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -2983,7 +2983,7 @@ WEB1091_Slider-V1-StartZIP File
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# Module 3.02. Making the Script General (5:41)
+## Module 3.02. Making the Script General (5:41)
 
 ![](images/image055.png){width="4.0in"
 height="2.361538713910761in"}
@@ -3042,7 +3042,7 @@ actually fine to use for now with the current version of jQuery that we
 have, but going forward, we should use the dot first method instead. I
 just wanted to show you that.
 
-# Module 3.03. Window Load Function (7:20)
+## Module 3.03. Window Load Function (7:20)
 
 ![](images/image056.png){width="4.0in"
 height="2.361538713910761in"}
@@ -3121,12 +3121,12 @@ quotes, left position we just change that. Left position and width needs
 to go in quotes, and there we go. Let\'s, stop the video here and then
 we\'ll talk about this more in the next video.
 
-# Module 3.04. Click Handler for Next Button (8:05)
+## Module 3.04. Click Handler for Next Button (8:05)
 
 ![](images/image057.png){width="4.0in"
 height="2.361538713910761in"}
 
-# Module 3.05. Next Click Handler with If Statement (3:03)
+## Module 3.05. Next Click Handler with If Statement (3:03)
 
 ![](images/image058.png){width="4.0in"
 height="2.361538713910761in"}
@@ -3166,7 +3166,7 @@ event listener for the previous click button. And then we\'ll take a
 look at it together in the next video and see if you got the same answer
 I got.
 
-# Module 3.06. Challenge Solution (5:03)
+## Module 3.06. Challenge Solution (5:03)
 
 ![](images/image059.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3233,7 +3233,7 @@ look at that in the next project.
 
 -   **3.06.jQuery-Image-Slider-Version-1.pdf**
 
-# Module 3.07. Strategy for Version 2 (4:08)
+## Module 3.07. Strategy for Version 2 (4:08)
 
 ![](images/image060.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3285,7 +3285,7 @@ going to add an else in here. Else like that. I\'m going to move this
 stuff Into the else. We\'re going to do something very different here,
 and we\'ll take a look at what\'s next in the next video.
 
-# Module 3.08. Cloning the Unordered List (4:58)
+## Module 3.08. Cloning the Unordered List (4:58)
 
 ![](images/image061.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3341,7 +3341,7 @@ that will put it in exactly the correct spot here on the page. That will
 put it so it shows up at the end. Okay? So now it is shown up on the
 end, and in the next video will actually handle the animation.
 
-# Module 3.09. Setting the Left Position (4:56)
+## Module 3.09. Setting the Left Position (4:56)
 
 ![](images/image062.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3389,7 +3389,7 @@ There we go. That will move both strips at the same times. Can animate
 them into their correct place. Then the last thing that we need to do is
 remove this one. We\'ll look at that in the next video.
 
-# Module 3.10. Adding a Callback Function (7:35)
+## Module 3.10. Adding a Callback Function (7:35)
 
 ![](images/image063.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3474,7 +3474,7 @@ badly about it. But now the question is, can you do the previous button?
 Link yourself, see if you can do that one, try it on your own and then
 we would come back. You\'ll see my solution for it in the next video.
 
-# Module 3.11. Previous Button Click Handler -- Part 1 (7:27)
+## Module 3.11. Previous Button Click Handler -- Part 1 (7:27)
 
 ![](images/image064.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3551,7 +3551,7 @@ a PX, on the end of that I believe, yep, there we go. Okay great so then
 we just need to get these two pieces in here and we\'ll do this in the
 next video.
 
-# Module 3.12. Previous Button Click Handler -- Part 2 (5:17)
+## Module 3.12. Previous Button Click Handler -- Part 2 (5:17)
 
 ![](images/image065.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3612,7 +3612,7 @@ different types of situations that come up
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation 
 
-# Module 3.13. Slider Using JavaScript (6:04)
+## Module 3.13. Slider Using JavaScript (6:04)
 
 ![](images/image066.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3692,7 +3692,7 @@ we\'ll see the actual animation for our slider.
 
 https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
 
-# Module 3.14. CSS for Slides and Adding Variables (8:01)
+## Module 3.14. CSS for Slides and Adding Variables (8:01)
 
 ![](images/image067.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3786,7 +3786,7 @@ setting slider style.width, that\'s the total width. We\'ll actually set
 the width of that element, and we\'ll talk about that and look at it a
 little bit more in the next video.
 
-# Module 3.15. Adding More Variables (5:49)
+## Module 3.15. Adding More Variables (5:49)
 
 ![](images/image068.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3852,7 +3852,7 @@ counter is the same as slide count, then we\'re going to do something in
 here and then we\'ve got an else in there. Then we\'ll pick up the rest
 of this next EventListener in the next video.
 
-# Module 3.16. Event Handler for the Next Button (7:11)
+## Module 3.16. Event Handler for the Next Button (7:11)
 
 ![](images/image069.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3925,7 +3925,7 @@ the, the jQuery one, but it\'s very similar to what we have here, except
 we\'re using the previous link and we\'re decrementing the counter but
 other than that it\'s very similar, see if you can do it on your own.
 
-# Module 3.17. Solution for the Previous Button Challenge (4:05) 
+## Module 3.17. Solution for the Previous Button Challenge (4:05) 
 
 ![](images/image070.png){width="4.0in"
 height="2.264957349081365in"}
@@ -3978,9 +3978,9 @@ for you and you\'ve learned a lot about JavaScript along the way.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation 
 
-# Module Four:
+## Module Four:
 
-# ![](images/image071.png){width="4.0in" height="2.264957349081365in"}
+## ![](images/image071.png){width="4.0in" height="2.264957349081365in"}
 
 Hello, you\'ve made it to the 4th module in our second course on
 JavaScript and jQuery. Congratulations, you\'ve learned a lot of
@@ -3996,7 +3996,7 @@ started on learning about timers and recursion in JavaScript and jQuery.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion 
 
-# Module 4.01. Example Script #1 -- Part 1 (5:37)
+## Module 4.01. Example Script #1 -- Part 1 (5:37)
 
 ![](images/image072.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4060,7 +4060,7 @@ the two paragraphs are on the page, and so on and so forth until the
 page is completely full with the paragraphs. We\'ll talk about the clear
 interval method in the next video.
 
-# Module 4.02. Example Script #1 -- Part 2 (4:13)
+## Module 4.02. Example Script #1 -- Part 2 (4:13)
 
 ![](images/image073.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4111,7 +4111,7 @@ putting them inside the div using innerHTML. So it\'s an important way
 of understanding how this one works. In the next video, we\'ll take a
 look at the next example.
 
-# Module 4.03. Example Script #2 (2:55)
+## Module 4.03. Example Script #2 (2:55)
 
 ![](images/image074.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4152,7 +4152,7 @@ class to it and change that element based on the styling associated with
 that class. It could have an animation in there and that\'s really
 pretty cool.
 
-# Module 4.04. Example Script #3: Recursion (5:25)
+## Module 4.04. Example Script #3: Recursion (5:25)
 
 ![](images/image075.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4221,7 +4221,7 @@ some timer.
 
 https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation
 
-# Module 4.05. Converting a Slider (2:55)
+## Module 4.05. Converting a Slider (2:55)
 
 ![](images/image076.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4258,7 +4258,7 @@ and it\'ll continue with the slides. See if you can do that on your own
 and if you get stuck or you want to see my solution, continue on with
 this presentation and with these videos.
 
-# Module 4.06. Putting Slides on a Timer Solution -- Part 1 (5:57) 
+## Module 4.06. Putting Slides on a Timer Solution -- Part 1 (5:57) 
 
 ![](images/image077.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4316,7 +4316,7 @@ that if you hover over this, it will stop sliding the slides while
 you\'re hovering your mouse over the slider. That\'s your next
 challenge.
 
-# Module 4.07. Putting Slides on a Timer Solution -- Part 2 (7:22) 
+## Module 4.07. Putting Slides on a Timer Solution -- Part 2 (7:22) 
 
 ![](images/image078.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4397,7 +4397,7 @@ other things that you could do.
 
 ### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> 
 
-# Module 4.08. Project Set-up (6:51)
+## Module 4.08. Project Set-up (6:51)
 
 ![](images/image079.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4481,7 +4481,7 @@ immediately invoked function expression set up to keep everything out of
 the global scope and we\'ve got our use strict directive in there. Okay,
 we\'re all set and ready to start working on our script.
 
-# Module 4.09. Starting the Script (4:56)
+## Module 4.09. Starting the Script (4:56)
 
 ![](images/image080.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4531,7 +4531,7 @@ function. So after we faded in, we\'re going to run a function and that
 function will set it to wait seven seconds, and then check to see if
 we\'re on the last paragraph or not.
 
-# Module 4.10. The If/Else Statement -- Part 1 (6:20)
+## Module 4.10. The If/Else Statement -- Part 1 (6:20)
 
 ![](images/image081.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4590,7 +4590,7 @@ to see if it\'s the last child, if it\'s not, it\'ll do this, it\'ll
 increment the counter, and it\'ll do it again, and it\'ll keep going
 around. Great. We\'ll finish out this part up here in the next video.
 
-# Module 4.11. The Else/If Statement -- Part 2 (5:49)
+## Module 4.11. The Else/If Statement -- Part 2 (5:49)
 
 ![](images/image082.png){width="4.0in"
 height="2.264957349081365in"}
@@ -4664,7 +4664,7 @@ the function runs itself and that can be very interesting.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation 
 
-# Module 4.12. Course Summary (0:52)
+## Module 4.12. Course Summary (0:52)
 
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You\'ve learned a lot of
