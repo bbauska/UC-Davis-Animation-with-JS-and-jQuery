@@ -6,6 +6,7 @@ output:
   markdown:
     with some style
 ---
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -57,7 +58,7 @@ breakdown jQuery\'s ability to manipulate HTML and CSS.
 -   Demonstrate proficiency with both JavaScript and jQuery for
     accessing and manipulating elements on a web page.
 
-<h3 id="syllabus">Syllabus</h3>
+<h2 id="syllabus">Syllabus</h2>
 
 <h2 id="ch1">Week/Module 1</h2>
 
@@ -76,7 +77,7 @@ page.
 
 <h4>19 videos, 10 readings</h4>
 
-<h2 id="ch1-00-note">1.00-A-Note-From-UC-Davis</h2>
+<h2 id="ch1-00-note">1.00 A Note From UC-Davis</h2>
 
 <ul>
 
