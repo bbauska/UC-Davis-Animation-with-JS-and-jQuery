@@ -77,14 +77,10 @@ page.
 
 <h4>19 videos, 10 readings</h4>
 
-<h2 id="ch1-00-note">1.00 A Note From UC-Davis</h2>
-
-<ul>
-
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i">
-    Welcome to this Course!</a></li>
-  <li><a href="ch1-00-intro">Module (1) Introduction 1.00-FileName.pdf</a></li>
-</ul>
+<h3 id="ch1-00-note">1.00 A Note From UC-Davis</h3>
+<h3 id="ch1-00-welcome">
+  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">1.00 Welcome to this Course!</a></h3>
+<h3<a href="ch1-00-intro">1.00 Module (1) Introduction 1.00-FileName.pdf</a></h3>
 
 <ol>
   <li>Introduction to jQuery</li>
@@ -93,55 +89,55 @@ page.
   <li>Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
 </ul>
 
-2.  **jQuery Libraries**
+<ol start="2">
+  <li>jQuery Libraries</li>
+  <li>Plugging Into jQuery Libraries</li>
+  <li>Basic jQuery Syntax</li>
+  <li>Using jQuery to Access Elements</li>
+  <li>jQuery Events</li>
+</ol>
+<ul>
+  <li>PDF of Presentation 1.06-FileName.pdf</li>
+</ul>
 
-3.  **Plugging Into jQuery Libraries**
-
-4.  **Basic jQuery Syntax**
-
-5.  **Using jQuery to Access Elements**
-
-6.  **jQuery Events**
-
--   PDF of Presentation 1.06-FileName.pdf
-
-7.  **Introduction to Folding Sidebar Menus Using JS**
-
--   Start Files: Folding Sidebar Menus with JavaScript
-    > 1.07-StartFile-FileName.pdf
-
-8.  **Challenge 1 Solution**
-
-9.  **Challenge 2 Solution**
-
-10. **Challenge 3 Solution**
-
-11. **Challenge 4 Solution**
-
-12. **Challenge 5 Solution**
-
-13. **Challenge 6 Solution**
-
-14. **Challenge 7 Solution**
-
-15. **Challenge 8 Solution**
-
--   PDF of Presentation 1.15.FileName.pdf
-
-16. **Introduction to jQuery Sidebar Folding Navigation**
-
--   Start Files: Folding Sidebar Menus with jQuery
-    > 1.16-StartFile-FileName.pdf
-
-17. **Getting the Next UL**
-
-18. **The Whole Script**
-
--   PDF of Presentation 1.18.FileName.pdf
-
-19. **JavaScript and jQuery Challenges Intro**
-
--   JavaScript and jQuery Challenge Activities 1.19-FileName.pdf
+<ol start="7">
+  <li>Introduction to Folding Sidebar Menus Using JS</li>
+</ol>
+<ul>
+  <li><a href="1.07-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with JavaScript</a></li>
+</ul>
+<ol start="8">
+  <li>Challenge 1 Solution</li>
+  <li>Challenge 2 Solution</li>
+  <li>Challenge 3 Solution</li>
+  <li>Challenge 4 Solution</li>
+  <li>Challenge 5 Solution</li>
+  <li>Challenge 6 Solution</li>
+  <li>Challenge 7 Solution</li>
+  <li>Challenge 8 Solution</li>
+</ol>
+<ul>
+  <li>1.15 PDF of Presentation 1.15-FileName.pdf</li>
+</ul>
+<ol start="16">
+  <li>Introduction to jQuery Sidebar Folding Navigation</li>
+</ol>
+<ul>
+  <li><a href="1.16-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with jQuery</a></li>
+</ul>
+<ol start="17">
+  <li>Getting the Next UL</li>
+  <li>The Whole Script</li>
+</ol>
+<ul>
+  <li>PDF of Presentation 1.18.FileName.pdf</li>
+</ul>
+<ol start="19">
+  <li>JavaScript and jQuery Challenges Intro</li>
+</ol>
+<ul>
+  <li>JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
+</ul>
 
 ## Week/Module 2 
 
