@@ -26,7 +26,9 @@ course will focus on JavaScript libraries, specifically jQuery. The
 scripts will be geared toward **Document Object Model (DOM)**
 manipulation. Learners will describe the top JavaScript libraries and
 differentiate which would work best to implement and accelerate
-development of web page animation. Course objectives include being
+development of web page animation. 
+
+Course objectives include being
 introduced to the end product of the course -- a landing page style
 website using jQuery elements to manipulate HTML documents and enhance
 user experience. Diving deeper into the landing page that will be
@@ -35,7 +37,7 @@ and effects will be covered while exploring more jQuery's relationship
 with HTML documents. Finally, a focus on plugins and continue to
 breakdown jQuery\'s ability to manipulate HTML and CSS.
 
-## Learning Objectives
+<h3 id="ch1-obj">Learning Objectives</h3>
 
 -   Plug in the jQuery library either locally or through a CDN.
 
@@ -55,11 +57,11 @@ breakdown jQuery\'s ability to manipulate HTML and CSS.
 -   Demonstrate proficiency with both JavaScript and jQuery for
     accessing and manipulating elements on a web page.
 
-## Syllabus
+<h3 id="syllabus">Syllabus</h3>
 
-## Week/Module 1
+<h2 id="ch1">Week/Module 1</h2>
 
-## Manipulating Web Pages Elements with jQuery & JavaScript
+<h2>Manipulating Web Pages Elements with jQuery & JavaScript</h2>
 
 In this module (1), you will be introduced to jQuery and basic jQuery
 syntax and we will compare it to JavaScript syntax. You will be able to
@@ -72,18 +74,23 @@ project. You will be able to demonstrate proficiency with both
 JavaScript and jQuery for accessing and manipulating elements on a web
 page.
 
-### 19 videos, 10 readings
+<h4>19 videos, 10 readings</h4>
 
-## 1.00-A-Note-From-UC-Davis
+<h2 id="ch1-00-note">1.00-A-Note-From-UC-Davis</h2>
 
--   [**Welcome to this
-    > Course!**](https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i)
+<ul>
 
--   Module (1) Introduction 1.00-FileName.pdf
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i">
+    Welcome to this Course!</a></li>
+  <li><a href="ch1-00-intro">Module (1) Introduction 1.00-FileName.pdf</a></li>
+</ul>
 
-1.  **Introduction to jQuery**
-
--   Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf
+<ol>
+  <li>Introduction to jQuery</li>
+</ol>
+<ul>
+  <li>Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
+</ul>
 
 2.  **jQuery Libraries**
 
