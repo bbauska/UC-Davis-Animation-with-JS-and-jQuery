@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "2/5/2024 8+am"
+date last editted: "3/9/2024 10+pm"
 output: 
   markdown:
     with some style
@@ -4852,3 +4852,5 @@ better at JavaScript. I look forward to seeing you there.
   alt="." />
 </p>
 -->
+
+<h6>Last Updated 3/9/2024 at 10:29pm</h6>
