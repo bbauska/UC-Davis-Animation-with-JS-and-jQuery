@@ -38,6 +38,17 @@ and effects will be covered while exploring more jQuery's relationship
 with HTML documents. Finally, a focus on plugins and continue to
 breakdown jQuery\'s ability to manipulate HTML and CSS.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~ Hoverable Dropdown Menu ~~-->
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
+
+### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
+>#### [**1.01 Welcome!**](#ch1-01)
+>#### [**1.02 Module 1 Introduction**](#ch1-02)
+>#### [**1.03 Intro to jQuery Plugins**](#ch1-03)
+>#### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
+>#### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
+>
 <h3 id="ch1-obj">Learning Objectives</h3>
 
 -   Plug in the jQuery library either locally or through a CDN.
