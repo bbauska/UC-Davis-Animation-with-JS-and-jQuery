@@ -4807,7 +4807,7 @@ the function runs itself and that can be very interesting.
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-12">Module 4.12. Course Summary (0:52)</h2>
+<h2 id="ch4-12">Module 4.12 Course Summary (0:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Congratulations for making it to the end of our second course on
@@ -4821,3 +4821,25 @@ JavaScript. We will get even deeper into the jQuery library, jQuery
 plugins, we\'ll create some more sophisticated scripts and some more
 complex scripts so that you can really develop your skills and get
 better at JavaScript. I look forward to seeing you there.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ XXX/XXX.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  alt="." />
+</p>
+-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ XXX/XXX.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:35%"
+  alt="." />
+<img src="./images/imageXXX.png?raw=true"
+  style="width:35%"
+  alt="." />
+</p>
+-->
