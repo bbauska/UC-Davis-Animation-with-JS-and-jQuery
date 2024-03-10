@@ -4672,9 +4672,14 @@ we\'re on the last paragraph or not.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image081.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 81. the if/else statement - part 1 (4.1) (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image081.png?raw=true"
+  style="width:40%"
+  title="4.10 The Else/If Statement, Part 1"
+  alt="4.10 The Else/If Statement, Part 1." />
+</p>
 
 Now that we\'ve faded in the first paragraph, and after that two second
 fadeIn has taken place, we\'re going to run a callback function. Inside
@@ -4733,9 +4738,13 @@ around. Great. We\'ll finish out this part up here in the next video.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image082.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~ 82. the else/if statement -- part 2 (4.11) (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+  style="width:40%"
+  title="4.11 The Else/If Statement, Part 2"
+  alt="4.11 The Else/If Statement, Part 2." />
+</p>
 
 In the last video, we set our setTimeout to wait seven seconds and then
 fade out the paragraph that\'s in there over two seconds and when
