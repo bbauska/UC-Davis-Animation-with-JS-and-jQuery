@@ -83,11 +83,12 @@ page.
 
 <h4>19 videos, 10 readings</h4>
 
-<h3 id="ch1-00-note">1.00 A Note From UC-Davis</h3>
-<h3 id="ch1-00-welcome">
+<ul>
+  <li><h3 id="ch1-00-note">1.00 A Note From UC-Davis</h3></li>
+  <li><h3 id="ch1-00-welcome">
   <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">1.00 Welcome to this Course!</a></h3>
-<h3<a href="ch1-00-intro">1.00 Module (1) Introduction 1.00-FileName.pdf</a></h3>
-
+<h3<a href="ch1-00-intro">1.00 Module (1) Introduction 1.00-FileName.pdf</a></h3></li>
+</ul>
 <ol>
   <li>Introduction to jQuery</li>
 </ol>
