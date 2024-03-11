@@ -310,7 +310,7 @@ elements that run on a timer. You practice using jQuery syntax and
 recursion to build a simple content rotator that could be used as an
 interface element on any web page.
 
-<h4>13 videos, 5 readings</h4>
+<h4>12 videos, 6 readings</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE">
