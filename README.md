@@ -12,9 +12,11 @@ output:
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:20%"
+  title="JavaScript logo"
   alt="JavaScript logo." />
 <img src="./images/image002.png?raw=true"
   style="width:20%"
+  title="UC Davis logo"
   alt="UC Davis logo." />
 </p>
 
