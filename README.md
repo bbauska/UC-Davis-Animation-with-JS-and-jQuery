@@ -8,14 +8,14 @@ output:
 ---
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 01/02. javascript and uc davis logos (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:20%"
-  alt="." />
+  alt="JavaScript logo." />
 <img src="./images/image002.png?raw=true"
   style="width:20%"
-  alt="." />
+  alt="UC Davis logo." />
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -143,9 +143,9 @@ page.
   <li>JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
 </ul>
 
-## Week/Module 2 
+<h2 id="ch2">Week/Module 2</h2>
 
-## Animating Web Page Elements with jQuery & JavaScript
+<h2>Animating Web Page Elements with jQuery & JavaScript</h2>
 
 In this module (2), you will be introduced to the jQuery effects
 library, helper functions, animations and callback functions. You will
@@ -154,15 +154,18 @@ will be able to use the callback functions to trigger a function when an
 animation is completed. You will be able to create a tabbed interface in
 both JavaScript and jQuery.
 
-### 20 videos, 7 readings
+<h4>20 videos, 7 readings</h4>
 
--   [Module (2)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi)
+<ul>
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi">
+    2.00 Module (2) Introduction</a></li>
+</ul>
 
 1.  <b>Introduction to the jQuery Effects Library</b>
 
--   <b>Start Files:</b> Introduction to the jQuery Effects Library
-    > 2.01-StartFile-FileName.pdf
+<ul>
+  <li><a href="">2.01 Start Files: Introduction to the jQuery Effects Library (2.01-StartFile-FileName.pdf)</a></li>
+</ul>
 
 2.  <b>Example 1 Continued</b>
 
@@ -180,14 +183,17 @@ both JavaScript and jQuery.
 
 9.  <b>Doing All Animations at Once</b>
 
--   <b>Additional Resources</b>
-
--   PDF of Presentation 2.09-NameFile.pdf
+<ul>
+  <li><a href="">
+    2.09 Additional Resources - PDF of Presentation 2.09-NameFile.pdf</a></li>
+</ul>
 
 10. <b>Introduction to Tabbed Interface Using jQuery</b>
 
--   Start Files: Creating a Tabbed Interface with jQuery --
-    > 2.10-StartFiles-FileName.pdf
+<ul>
+  <li><a href="">
+    2.10 Start Files: Creating a Tabbed Interface with jQuery -- 2.10-StartFiles-FileName.pdf</a></li>
+</ul>
 
 11. <b>Styling the Anchor Tags</b>
 
@@ -197,12 +203,17 @@ both JavaScript and jQuery.
 
 14. <b>Whole Script</b>
 
--   PDF of Presentation 2.14-NameFile.pdf
+<ul>
+  <li><a href="">2.14 PDF of Presentation 2.14-NameFile.pdf</a></li>
+</ul>
 
 15. <b>Getting the CSS Ready</b>
 
--   Start Files: Creating a Tabbed Interface with JavaScript
-    > 2.15-StartFiles-FileName.pdf
+<ul>
+  <li><a href="">
+    2.15 Start Files: Creating a Tabbed Interface with JavaScript - 
+	2.15-StartFiles-FileName.pdf</a></li>
+</ul>
 
 16. <b>Making the Tabs Work</b>
 
@@ -214,11 +225,13 @@ both JavaScript and jQuery.
 
 20. <b>Cleaning Up the Code</b>
 
--   PDF of Presentation 2.20-FileName.pdf
+<ul>
+  <li><a href="">2.20 PDF of Presentation 2.20-FileName.pdf</a></li>
+</ul>
 
-## Week/Module 3
+<h2 id="ch3">Week/Module 3</h2>
 
-## Intermediate Document Manipulation & Animation
+<h2>Intermediate Document Manipulation & Animation</h2>
 
 In this module (3), you will be able to use the jQuery syntax and the
 built-in effects library to create image sliders that could be
@@ -226,14 +239,18 @@ integrated into web pages. You will also be able to compare the jQuery
 syntax to the JavaScript syntax by building a similar image slider using
 only plain JavaScript syntax and using CSS to perform the animation.
 
-### 17 videos, 5 readings
+<h4>17 videos, 5 readings</h4>
 
--   [Module (3)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj)
+<ul>
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj">
+    Module (3) Introduction]</a></li>
+</ul>
 
 1.  <b>Basic Slider</b>
 
--   Start Files: jQuery Image Sliders 3.01-StartFiles-FileName.pdf
+<ul>
+  <li><a href="">3.01 Start Files: jQuery Image Sliders 3.01-StartFiles-FileName.pdf</a></li>
+</ul>
 
 2.  <b>Making the Script General</b>
 
@@ -245,7 +262,9 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 6.  <b>Challenge Solution</b>
 
-    -   PDF of Presentation 3.06-FileName.pdf
+<ul>
+  <li><a href="">3.06 PDF of Presentation 3.06-FileName.pdf</a></li>
+</ul>
 
 7.  <b>Strategy for Version 2</b>
 
@@ -259,11 +278,15 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 12. <b>Previous Button Click Handler - Part 2</b>
 
-    -   PDF of Presentation 3.12-FileName.pdf
+<ul>
+  <li><a href="">3.12 PDF of Presentation 3.12-FileName.pdf</a></li>
+</ul>
 
 13. <b>Slider Using JavaScript</b>
 
-    -   Start Files: JavaScript Image Sliders 3.13-StartFile.pdf
+<ul>
+  <li><a href="">3.13 Start Files: JavaScript Image Sliders 3.13-StartFile.pdf</a></li>
+</ul>
 
 14. <b>CSS for Slides and Adding Variables</b>
 
@@ -273,11 +296,13 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 17. <b>Solution for the Previous Button Challenge</b>
 
-## PDF of Presentation 3.17-FileName.pdf
+<ul>
+  <li><a href="">PDF of Presentation 3.17-FileName.pdf</a></li>
+</ul>
 
-## Week/Module 4
+<h2 id="ch4">Week/Module 4</h4>
 
-## Timers and Recursion in JavaScript & jQuery
+<h2>Timers and Recursion in JavaScript & jQuery</h2>
 
 In this module (4), you will be introduced to the use of timers and
 recursion in JavaScript and use these techniques to make interface
@@ -285,13 +310,13 @@ elements that run on a timer. You practice using jQuery syntax and
 recursion to build a simple content rotator that could be used as an
 interface element on any web page.
 
-13 videos, 5 readings
+<h4>13 videos, 5 readings</h4>
 
--   [Module (4)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE)
-
--   Start Files: Introduction to Timers & Recursion
-    > 4.00-StartFile-FileName.pdf
+<ul>
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE">
+    4.00 Module (4) Introduction</a></li>
+  <li><a href="">4.00 Start Files: Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
+</ul>
 
 1.  Example Script #1 - Part 1
 
@@ -301,7 +326,9 @@ interface element on any web page.
 
 4.  Example Script #3: Recursion
 
--   PDF of Presentation 4.04-FileName.pdf
+<ul>
+  <li><a href="">4.04 PDF of Presentation 4.04-FileName.pdf</a></li>
+</ul>
 
 5.  Converting a Slider
 
@@ -309,9 +336,10 @@ interface element on any web page.
 
 7.  Putting Slides on a Timer Solution - Part 2
 
--   PDF of Presentation 4.07-FileName.pdf
-
--   Start Files: Recursive Content Rotator 4.07-StartFile-FileName.pdf
+<ul>
+  <li><a href="">4.07 PDF of Presentation 4.07-FileName.pdf</a></li>
+  <li><a href="">4.07 Start Files: Recursive Content Rotator 4.07-StartFile-FileName.pdf</a></li>
+</ul>
 
 8.  Project Set-up
 
@@ -321,7 +349,9 @@ interface element on any web page.
 
 11. The If/Else Statement - Part 2
 
--   PDF of Presentation 4.11-FileName.pdf
+<ul>
+  <li><a href="">4.11 PDF of Presentation 4.11-FileName.pdf</a></li>
+</ul>
 
 12. Course Summary
 
@@ -337,6 +367,7 @@ interface element on any web page.
 >#### [<b>1.04 Basic jQuery Syntax</b>](#ch1-04)
 >#### [<b>1.05 Using jQuery to Access Elements</b>](#ch1-05)
 >#### [<b>1.06 jQuery Events</b>](#ch1-06)
+
 <ul>
   <li><a href=""
     target="_blank" rel="noopener noreferrer">
@@ -448,9 +479,9 @@ We look forward to having you in this course. Happy learning!
 
 <i><b>UC Davis Coursera Team</i></b>
 
-## Week/Module One:
+<h2 id="ch1">Week/Module One:</h2>
 
-## Manipulating Web Pages Elements with jQuery & JS
+<h2>Manipulating Web Pages Elements with jQuery & JS</h2>
 
 In this module, you will be introduced to jQuery and basic jQuery syntax
 and we will compare it to JavaScript syntax. You will be able to plug-in
@@ -463,7 +494,7 @@ project. You will be able to demonstrate proficiency with both
 JavaScript and jQuery for accessing and manipulating elements on a web
 page.
 
-## 1.00 Learning Objectives
+<h2 id="ch1-00-obj">1.00 Learning Objectives</h2>
 
 -   Plug in the jQuery library either locally or through a CDN.
 
@@ -505,7 +536,13 @@ websites are still using jQuery. It&apos;s less popular today than it was
 back in the early 2010s where it was at its height. But it&apos;s still an
 important tool to learn and good to know.
 
-![](images/image005.png){width="4.0in" height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.png?raw=true"
+  style="width:40%"
+  alt="." />
+</p>
 
 There are some specific advantages that came with jQuery when it was
 invented and some of these advantages exist today, but they are somewhat
@@ -538,8 +575,13 @@ Then finally, last but not least, jQuery provides a simpler syntax and
 that allows us to write shorter and more concise scripts and these were
 all huge advantages to jQuery and contributed to making it the most
 popular JavaScript library.
-
-![](images/image006.png){width="4.0in" height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  style="width:40%"
+  alt="." />
+</p>
 
 Today, jQuery is less useful than it used to be back in the early days.
 Some of the things that have been smoothed over is that, remember, in
@@ -614,20 +656,28 @@ jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
 basis.
 
-### 1.01.jQuery-Start.zip
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery
+<h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery">
+  1.01 jQuery-Start.zip</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image007.png){width="4.0in" height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. jquery libraries (1.02) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.png?raw=true"
+  style="width:40%"
+  title="1.02 jQuery Libraries"
+  alt="1.02 jQuery Libraries." />
+</p>
 
 What is a library anyway?
-
-![](images/image008.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.png?raw=true"
+  style="width:40%"
+  alt="" />
+</p>
 
 In programming, a library is just a file with a bunch of functions in
 it. Or it could be multiple files that you link up to your project. In
@@ -641,9 +691,13 @@ project, it&apos;s just a matter of finding out what those functions are and
 how to use them. And that&apos;s really how jQuery works. It&apos;s a file that
 you can add to your project, and when you do you have access to all the
 jQuery functions and all the functions that come along with jQuery.
-
-![](images/image009.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  style="width:40%"
+  alt="" />
+</p>
 
 There are two options for plugging in jQuery. The <b>first</b> is you can
 download the file, the actual jQuery library file, and put it in your
@@ -661,10 +715,16 @@ you. A CDN has servers all over the globe. And when you go to load a
 particular web page, it&apos;s looking at your IP address and figuring out
 where you are and then getting the file from the closest file server, so
 it will get it the fastest that it can.
-
-![](images/image010.png){width="3.5in"
-height="1.972115048118985in"}![](images/image011.png){width="3.5in"
-height="1.972115048118985in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10/11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.png?raw=true"
+  style="width:45%"
+  alt="" />
+<img src="./images/image011.png?raw=true"
+  style="width:45%"
+  alt="" />
+</p>
 
 First, we&apos;ll look at downloading jQuery, and to do that, you can go to
 <b>jquery.com</b>, and I have that website pulled up here, and you can
@@ -676,18 +736,26 @@ really clear exactly what it is you should actually be downloading. And
 then they&apos;ve got this stuff with npm and Yarn and Bower, and this
 migrate plugin and all this other stuff on the page. So it can be a
 little bit confusing.
-
-![](images/image012.png){width="5.0in"
-height="2.8173075240594927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.png?raw=true"
+  style="width:50%"
+  alt="" />
+</p>
 
 The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might be
 using if you&apos;re in a particular environment that&apos;s using these build
 tools. But we&apos;re just going to download the actual library file itself.
 And what we want is the compressed version. There will be a compressed
 version and an uncompressed version.
-
-![](images/image013.png){width="5.0in"
-height="2.8173075240594927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.png?raw=true"
+  style="width:50%"
+  alt="" />
+</p>
 
 The uncompressed version will look like this, and it looks kind of like
 Javascript that you&apos;ve seen before with <b>var</b> and all this kind of
@@ -704,9 +772,13 @@ here and do Save As, and I&apos;m going to save it in my Downloads into my
 jQuery Start folder, and that&apos;s where you should put it as well. So
 I&apos;m going to just put it in here and save this so that now I have a
 copy of jQuery in my jQuery Start folder here.
-
-![](images/image014.png){width="3.0in"
-height="1.474679571303587in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.png?raw=true"
+  style="width:30%"
+  alt="" />
+</p>
 
 Here it is, jQuery 3.7.1 min because the minified version has been
 compressed down. And, you want to get the minified version. This version
@@ -720,9 +792,12 @@ We&apos;ll plug it into our HTML file here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-03">1.03 Plugging into jQuery Libraries (5:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image015.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png?raw=true"
+  style="width:40%"
+  alt="" />
+</p>
 
 Plugging in the jQuery library, now we&apos;ve downloaded jQuery, all we
 need to do is add it to our file and I have those files open in my
@@ -788,9 +863,12 @@ time of this recording.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-04">Module 1.04 Basic jQuery Syntax (5:31)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image016.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png?raw=true"
+  style="width:40%"
+  alt="" />
+</p>
 
 Now that you have jQuery working, let&apos;s do something with it. Do
 something more than just to show that it&apos;s working. We&apos;ll use the same
