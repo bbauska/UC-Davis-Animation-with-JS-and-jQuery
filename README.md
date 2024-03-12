@@ -93,7 +93,7 @@ page.
   <li>Introduction to jQuery</li>
 </ol>
 <ul>
-  <li>Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
+  <li>1.01 Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
 </ul>
 
 <ol start="2">
@@ -104,14 +104,14 @@ page.
   <li>jQuery Events</li>
 </ol>
 <ul>
-  <li>PDF of Presentation 1.06-FileName.pdf</li>
+  <li>1.06 PDF of Presentation 1.06-FileName.pdf</li>
 </ul>
 
 <ol start="7">
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="1.07-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with JavaScript</a></li>
+  <li><a href="1.07-StartFile-FileName.pdf">1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
 </ul>
 <ol start="8">
   <li>Challenge 1 Solution</li>
@@ -130,7 +130,7 @@ page.
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="1.16-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with jQuery</a></li>
+  <li><a href="1.16-StartFile-FileName.pdf">1.16 Start Files: Folding Sidebar Menus with jQuery</a></li>
 </ul>
 <ol start="17">
   <li>Getting the Next UL</li>
@@ -143,7 +143,7 @@ page.
   <li>JavaScript and jQuery Challenges Intro</li>
 </ol>
 <ul>
-  <li>JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
+  <li>1.19 JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
 </ul>
 
 <h2 id="ch2">Week/Module 2</h2>
