@@ -393,12 +393,15 @@ interface element on any web page.
 >#### [<b>1.13 Challenge 6 Solution</b>](#ch1-13)
 >#### [<b>1.14 Challenge 7 Solution</b>](#ch1-14)
 >#### [<b>1.15 Challenge 8 Solution</b>](#ch1-15)
+
 <ul>
   <li><a href=""
     target="_blank" rel="noopener noreferrer">
 	1.15 PDF of Presentation (download)</a></li>
 </ul>
+
 >#### [<b>1.16 Intro to jQuery Folding SideBar Menu Navigation</b>](#ch1-16)
+
 <ul>
   <li><a href=""
     target="_blank" rel="noopener noreferrer">
@@ -407,12 +410,15 @@ interface element on any web page.
 
 >#### [<b>1.17 Getting the Next UL</b>](#ch1-17)
 >#### [<b>1.18 The Whole Script</b>](#ch1-18)
+
 <ul>
   <li><a href=""
     target="_blank" rel="noopener noreferrer">
 	1.18 PDF of Presentation (download)</a></li>
 </ul>
+
 >#### [<b>1.19 JavaScript and jQuery Challenge Activities</b>](#ch1-19)
+
 <ul>
   <li><a href=""
     target="_blank" rel="noopener noreferrer">
