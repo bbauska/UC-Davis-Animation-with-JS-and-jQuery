@@ -1316,8 +1316,13 @@ to put **this.html**. That should put in the console the HTML of the
 link that I clicked. Because it\'s going to put this in all of the
 links, I can only click one link at a time.
 
-![](.images/image051.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Let\'s see what this does. If I come back to my example page here and
 refresh it, and then turn on my inspector here, and turn on the console.
@@ -1329,9 +1334,13 @@ The thing to keep in mind is that **jQuery** is just plain JavaScript.
 It isn\'t a separate thing from JavaScript, it isn\'t a separate
 language, it is just JavaScript and you can mix in regular JavaScript
 with **jQuery.**
-
-![](.images/image052.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 In summary, you\'ve learned a lot of new stuff. You can plug **jQuery**,
 like plugging the **jQuery** library either by downloading the library
@@ -1357,14 +1366,22 @@ JavaScript, so it\'s a two-way street.
 ### https://d3c33hcgiwev3.cloudfront.net/4JYrxEZ4R0-WK8RGeCdP5g_890a1b5918f04ae19e53d4f91665e4f1_WEB1091_M01_Introduction-to-jQuery.pdf?Expires=1710288000&Signature=b-GEP5ws\~xfkhH7Y0GZAqPpdV3sTULnbaJiDI7X2e9M6dbn5YeppPq9wP-QSd40OACGkycuS4zHJqBUfUK\~7TR8950xpwO3pDJG4FeYMRIBdkhAITMyrVsXCRBXay1xYdS9E805m1fDLGNJkRWGafyHAWMbhO0olO46tqyyB50A\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A 
 
 <h2 id="ch1-07">1.07 Intro to Folding Sidebar Menus Using JS (4:36)</h2>
-
-![](.images/image053.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image053.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Folding sidebar menus using JavaScript.
-
-![](.images/image054.png){width="4.0in"
-height="2.2666666666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 You\'ve already learned a little bit of **jQuery**, but before we dive
 more into **jQuery**, we\'re going to do this project using plain
@@ -1393,9 +1410,13 @@ a certain number of options at once.
 
 We\'ll look at how to build this in plain JavaScript first, and then
 we\'ll do the exact same project using **jQuery**.
-
-![](.images/image057.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Just a few notes about the markup. If you look at the markup, you\'ll
 notice that the article comes first and the aside comes second. This is
@@ -1406,15 +1427,23 @@ Generally, we want the article higher up on the page. Also notice that
 the navigation is following a very common markup scheme inside of a
 menu. This embedded, unordered list goes entirely inside the list item
 for the parent item. This is important to get in HTML.
-
-![](.images/image058.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 I have my page open and you can see the article comes first right after
 my main section opens there.
-
-![](.images/image059.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image059.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Then the navigation is an unordered list with list items, but notice
 this list item is entirely enclosed in the parent list item. This is
@@ -1422,24 +1451,36 @@ important to get right, and a lot of web developers get it wrong. The
 only items you\'re allowed to have is children of the ordered or
 unordered lists of list items. This unordered list needs to be entirely
 enclosed in this parent list item.
-
-![](.images/image060.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 These are the items that will show on the page, so over here currently
 without any JavaScript, these items will just show in here.
-
-![](.images/image061.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 That gets us started, and we\'re using just a little bit of CSS here as
 demonstrated on the styles to display flex for this main element, but
 use flex-direction and row-reverse to get the navigation on the left and
 the main content on the right. Now, with all that in place, let\'s get
 started with making this project work.
-
-![](.images/image062.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image062.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 The basic strategy of the script is that the sub-menu will be initially
 hidden, and then when you click on a parent menu, it will show the
@@ -1473,18 +1514,31 @@ when we come back in the next lesson, we\'ll see how I did that.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript 
 
-# 1.08 Challenge 1 Solution (3:23)
-
-![](.images/image065.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-08">1.08 Challenge 1 Solution (3:23)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image065.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Were you successful? Were you able to do it? Let\'s do it together.
-
-![](.images/image066.png){width="5.0in"
-height="2.8333333333333335in"}
-
-![](.images/image067.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png"
+  style="width:50%"
+  alt="" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image067.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Down here, I\'m just going to make a variable, var **submenus**. Then
 assign that to **document.querySelectorAll**, and what I want to get are
@@ -1498,9 +1552,13 @@ submenus dot square bracket i. Each one of these, it\'s going to go
 through each one of these and then do **className** equals hide menu.
 Over here it\'s hide menu. Hide menu, display name, and that should go
 through and put that class on all of those elements.
-
-![](.images/image068.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image068.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Let\'s see if I did that right. Over here I\'ll go check my document
 here, and this is exactly what I did, **className**, hide menu. Let\'s
@@ -1510,9 +1568,13 @@ display none. I could do \"Inspect,\" and you can come in here and see.
 Click on this menu here or this one of these, one of these menus you can
 see it\'s got hide menu on it. Let\'s get that class on there. That\'s
 working great.
-
-![](.images/image069.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 Your next challenge is to add a click handler to the main links. These
 links here have a class on them of menulink. We want to gather those,
@@ -1522,15 +1584,24 @@ prevent the default behavior from that would result from clicking the
 link. But see if you can do that on your own without looking at my
 solution. But we\'ll do it together in the next lesson.
 
-# 1.09 Challenge 2 Solution (7:01)
-
-![](.images/image070.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-09">1.09 Challenge 2 Solution (7:01)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Let\'s do this together.
-
-![](.images/image071.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 First we need a variable, **var submenus = document.querySelectorAll('ul
 li ul');** and what do we want to get? We want to get these links here,
@@ -1546,9 +1617,13 @@ going to run an event unit run a function. Not run an event, we\'re
 going to run a function. We\'ve got this function here that runs. Then
 for right now all I want to do is pass in the event property, event
 object there, and do **event.preventDefault**.
-
-![](.images/image072.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 But I that an event listener for each of these, and you can test it by
 adding **console.log** or an alert or something like that large, collect
@@ -1609,11 +1684,15 @@ selector to find the unordered list that\'s inside the parent list-item.
 See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next lesson, I\'ll show you my
 solution for that.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
-
-![](.images/image073.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Were you able to figure that out? Hopefully you were. This is what I
 did, because I want to get, I\'m getting this, I\'ve got the anchor tags
@@ -1644,9 +1723,13 @@ then come and see the answer on the next lesson. I\'ll show you how I
 did it.
 
 <h2 id="ch1-11">1.11 Challenge 4 Solution (2:29)</h2>
-
-![](.images/image074.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Were you able to figure out the challenge? I hope you were. It
 shouldn\'t have been too difficult, but sometimes you have to work
