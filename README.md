@@ -1232,14 +1232,23 @@ that, to go through and turn each one of these red. Whereas in
 **jQuery** I can very simply just grab the group and apply the CSS to it
 and applies it.
 
-![](.images/image046.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 So this thing returns a **jQuery** object, with these elements inside it
 and then we can apply that CSS to it.
-
-![](.images/image047.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 There are more that you can try, so for example you can try Multiple
 selectors, like I could say I want the H two and the paragraphs. I
@@ -1256,21 +1265,36 @@ elements, you need to get to be creative, use the documentation for
 **jQuery** to help you find the best way of getting to that element on
 the page.
 
-# 1.06 jQuery Events (5:55)
-
-![](.images/image048.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-06">1.06 jQuery Events (5:55)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.png"
+  style="width:40%"
+  alt="" />
+</p>
 
 Let\'s look at how we can capture some events in **jQuery**.
 
-![](.images/image049.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image049.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 **jQuery** has its own special syntax for event handlers. So let\'s take
 a look at how to do that.
 
-![](.images/image050.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.png"
+  style="width:50%"
+  alt="" />
+</p>
 
 If we come back over to our test page here, you can just comment this, I
 already deleted just to get rid of it. But I\'m going to target anchor
