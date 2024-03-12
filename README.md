@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/10/2024 11+pm"
+date last editted: "3/11/2024 5+pm"
 output: 
   markdown:
     with some style
@@ -84,14 +84,19 @@ page.
 <h4>19 videos, 10 readings</h4>
 
 <ul>
-  <li><h4 id="ch1-00-note">1.00 A Note From UC-Davis</h4></li>
+  <li><h4 id="ch1-00-note">
+    1.00 A Note From UC-Davis</h4></li>
   <li><h4 id="ch1-00-welcome">
-  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">1.00 Welcome to this Course!</a></h3>
-<h3<a href="ch1-00-intro">1.00 Module (1) Introduction 1.00-FileName.pdf</a></h4></li>
+  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">
+    1.00 Welcome to this Course!</a></h4></li>
+  <li><h4 id="ch1-00-intro">
+    1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &ampp; JavaScript</h4></li>
 </ul>
+
 <ol>
   <li>Introduction to jQuery</li>
 </ol>
+
 <ul>
   <li>1.01 Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
 </ul>
@@ -111,7 +116,8 @@ page.
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="1.07-StartFile-FileName.pdf">1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
+  <li><a href="1.07-StartFile-FileName.pdf">
+    1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
 </ul>
 <ol start="8">
   <li>Challenge 1 Solution</li>
