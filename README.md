@@ -137,7 +137,7 @@ page.
   <li>The Whole Script</li>
 </ol>
 <ul>
-  <li>PDF of Presentation 1.18.FileName.pdf</li>
+  <li>1.18 PDF of Presentation 1.18-FileName.pdf</li>
 </ul>
 <ol start="19">
   <li>JavaScript and jQuery Challenges Intro</li>
@@ -246,7 +246,7 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj">
-    Module (3) Introduction]</a></li>
+    3.00 Module (3) Introduction]</a></li>
 </ul>
 
 1.  <b>Basic Slider</b>
@@ -300,7 +300,7 @@ only plain JavaScript syntax and using CSS to perform the animation.
 17. <b>Solution for the Previous Button Challenge</b>
 
 <ul>
-  <li><a href="">PDF of Presentation 3.17-FileName.pdf</a></li>
+  <li><a href="">3.17 PDF of Presentation 3.17-FileName.pdf</a></li>
 </ul>
 
 <h2 id="ch4">Week/Module 4</h4>
