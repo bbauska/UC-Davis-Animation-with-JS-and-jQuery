@@ -10,11 +10,11 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 01/02. javascript and uc davis logos (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image001.png"
   style="width:20%"
   title="JavaScript logo"
   alt="JavaScript logo." />
-<img src="./images/image002.png?raw=true"
+<img src="./images/image002.png"
   style="width:20%"
   title="UC Davis logo"
   alt="UC Davis logo." />
@@ -532,15 +532,12 @@ page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction to jQuery (7:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 03/04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. intro to jquery (1.01) (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
-  style="width:35%"
-  alt="." />
-<img src="./images/image004.png?raw=true"
-  style="width:35%"
-  alt="." />
-</p>
+<img src="./images/image003.png"
+  style="width:40%"
+  title="1.01 Intro to jQuery"
+  alt="1.01 Intro to jQuery." />
 
 Introduction to jQuery, a little bit of history.
 
@@ -552,11 +549,12 @@ back in the early 2010s where it was at its height. But it&apos;s still an
 important tool to learn and good to know.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. jquery advantages (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image005.png?raw=true"
+<img src="./images/image004.png"
   style="width:40%"
-  alt="." />
+  title="jQuery Advantages"
+  alt="jQuery Advantages." />
 </p>
 
 There are some specific advantages that came with jQuery when it was
@@ -591,9 +589,9 @@ that allows us to write shorter and more concise scripts and these were
 all huge advantages to jQuery and contributed to making it the most
 popular JavaScript library.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 05. jquery is less useful than 2010 (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.png?raw=true"
+<img src="./images/image005.png"
   style="width:40%"
   alt="." />
 </p>
@@ -677,9 +675,9 @@ basis.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. jquery libraries (1.02) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. jquery libraries (1.02) (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image007.png?raw=true"
+<img src="./images/image006.png"
   style="width:40%"
   title="1.02 jQuery Libraries"
   alt="1.02 jQuery Libraries." />
@@ -687,11 +685,11 @@ basis.
 
 What is a library anyway?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. what is a library, anyway? (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.png?raw=true"
+<img src="./images/image007.png"
   style="width:40%"
-  alt="" />
+  alt="What is a Library, Anyway?" />
 </p>
 
 In programming, a library is just a file with a bunch of functions in
@@ -707,11 +705,12 @@ how to use them. And that&apos;s really how jQuery works. It&apos;s a file that
 you can add to your project, and when you do you have access to all the
 jQuery functions and all the functions that come along with jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 08. two options for plugging in jquery (13) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image009.png?raw=true"
+<img src="./images/image008.png?raw=true"
   style="width:40%"
-  alt="" />
+  title="Two Options for Plugging in jQuery"
+  alt="Two Options for Plugging in jQuery." />
 </p>
 
 There are two options for plugging in jQuery. The <b>first</b> is you can
@@ -731,14 +730,16 @@ particular web page, it&apos;s looking at your IP address and figuring out
 where you are and then getting the file from the closest file server, so
 it will get it the fastest that it can.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10/11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09/10. jquery.com downloads (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  style="width:45%"
+  title="jQuery.com - what is jQuery"
+  alt="jQuery.com - what is jQuery." />
 <img src="./images/image010.png?raw=true"
   style="width:45%"
-  alt="" />
-<img src="./images/image011.png?raw=true"
-  style="width:45%"
-  alt="" />
+  title="Downloading jQuery"
+  alt="Downloading jQuery." />
 </p>
 
 First, we&apos;ll look at downloading jQuery, and to do that, you can go to
@@ -752,11 +753,12 @@ then they&apos;ve got this stuff with npm and Yarn and Bower, and this
 migrate plugin and all this other stuff on the page. So it can be a
 little bit confusing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 11. downloading using npm, yarn and bower (14) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image012.png?raw=true"
+<img src="./images/image011.png?raw=true"
   style="width:50%"
-  alt="" />
+  title="Downloading using npm, yarn, and/or bower"
+  alt="Downloading using npm, yarn, and/or bower." />
 </p>
 
 The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might be
@@ -765,11 +767,12 @@ tools. But we&apos;re just going to download the actual library file itself.
 And what we want is the compressed version. There will be a compressed
 version and an uncompressed version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript code in jquery (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image013.png?raw=true"
+<img src="./images/image012.png?raw=true"
   style="width:50%"
-  alt="" />
+  title="JavaScript code within jQuery"
+  alt="JavaScript code within jQuery." />
 </p>
 
 The uncompressed version will look like this, and it looks kind of like
@@ -788,11 +791,12 @@ jQuery Start folder, and that&apos;s where you should put it as well. So
 I&apos;m going to just put it in here and save this so that now I have a
 copy of jQuery in my jQuery Start folder here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 13. jquery-3.7.1.min.js in folder (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image014.png?raw=true"
+<img src="./images/image013.png?raw=true"
   style="width:30%"
-  alt="" />
+  title="jquery-3.7.1.min.js in folder"
+  alt="jquery-3.7.1.min.js in folder." />
 </p>
 
 Here it is, jQuery 3.7.1 min because the minified version has been
@@ -807,45 +811,72 @@ We&apos;ll plug it into our HTML file here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-03">1.03 Plugging into jQuery Libraries (5:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. plugging into jquery libraries (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.png?raw=true"
+<img src="./images/image014.png?raw=true"
   style="width:40%"
-  alt="" />
+  title="1.03 Plugging into jQuery Libraries"
+  alt="1.03 Plugging into jQuery Libraries." />
 </p>
 
 Plugging in the jQuery library, now we&apos;ve downloaded jQuery, all we
-need to do is add it to our file and I have those files open in my
-visual studio code here.
+need to do is add it to our file.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. example, plug in jquery library (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png?raw=true"
+  style="width:50%"
+  title="Plug in the jQuery Library"
+  alt="Plug in the jQuery Library." />
+</p>
+I want to add jQuery to my file here. I can come down here and I can add a 
+script tag script, and what I&apos;m going to put in here is 
+<b>src="js/jquery-3.7.1.min.js" (last updated 8/28/2023). js is my subdirectory.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png?raw=true"
+  style="width:50%"
+  alt="." />
+</p>
 
-This is the same file, there&apos;s jQuery, and I want to add jQuery to my
-file here. I can come down here and I can add a script tag script, and
-what I&apos;m going to put in here is &quot;"Source&quot;" SRC equals quote, and then
-I can actually just pick this file from list here, and there we go. Now
-jQuery is plugged in, and if I test this file over here, I come over
-here and open a new tab and do open and go into my jQuery Start folder
-and open this index file, it&apos;ll pop up and it&apos;ll say jQuery is loaded,
-if I were to remove that script, down here you can see if window dot
-jQuery, alert jQuery is loaded.
+Now jQuery is plugged in.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.png?raw=true"
+  style="width:50%"
+  alt="." />
+</p>
 
-If I were to remove this script, suppose I comment this out just for a
-minute here, and save this, and then come back and test it, it&apos;ll come
-back and it&apos;ll say jQuery is not uploaded. In order for this script to
-run, it requires jQuery, because we&apos;re testing to see if jQuery is
-here, there we go. Now jQuery is loaded and this statement is true and
-we&apos;re getting this alert box to pop up, so that&apos;s great. We can load
-jQuery by linking it here, downloading it and putting it in our files
-and linking to it. When you do it this way, you have an extra file to
-keep track of, you have to keep track of this jQuery library file and
-make sure that it doesn&apos;t go missing from all your folders and files.
-Not that bigger deal, but it&apos;s one more file to keep track of. Even
-easier is to use a CDN to load jQuery, and the CDN I prefer to use is
+If I test this file over here, I come over here and open a new tab and do open and 
+go into my jQuery Start folder and open this index file, it&apos;ll pop up and 
+it&apos;ll say jQuery is loaded.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+  style="width:50%"
+  alt="." />
+</p>
+
+Even easier is to use a CDN to load jQuery, and the CDN I prefer to use is
 the Google CDN, and I have that pulled up over here, and if you want to
 get to the CDN, the easy way to get to it is just to Google. Google
 jQuery I type CDN there we go, and you&apos;ll see Hosted Libraries on
 Google. That&apos;s this link right here, and over here they&apos;ve got a lot
 of libraries that you can access through Google that they host on their
-CDN, and one of them is jQuery. We can actually go to this link here, to
+CDN, and one of them is jQuery. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  style="width:50%"
+  alt="." />
+</p>
+https://developers.google.com/speed/libraries/#libraries
+
+We can actually go to this link here, to
 jQuery, and you can see that jQuery has three different versions, three
 flavors of jQuery that include different features. The version 1X
 snippet is the oldest version of jQuery and it&apos;s loading 1.12.4. This
@@ -853,18 +884,39 @@ is really the 12th major version of version one, essentially, and then
 we&apos;ve got version 2.2.4, which is the second major version of version a
 two, and in version two, they did a number of things to remove support
 for IE6 because they had basically gone away at that point, so they&apos;ve
-done some different things in these different versions. The most recent
+done some different things in these different versions. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 20. is jquery working; script load (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+  style="width:50%"
+  title="Is jQuery Working, Script load"
+  alt="Is jQuery Working, Script load." />
+</p>
+
+The most recent
 version, the version that we downloaded is version 3.7.1, so to get the
 same one that we had before, you can just copy this entire script line
 here. Oops, wrong button here. There we go. Just copy that line, and go
 back to our file here, and paste that line in instead, and you&apos;ll see
 if we save this and come back and do testing jQuery, jQuery is loaded.
 Instead of loading from the file that I have locally here, I can now
-delete this file, and it will work just fine. Delete. Now if I was gone,
+delete this file, and it will work just fine. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. is jquery working? (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+  style="width:50%"
+  alt="Is jQuery Working?" />
+</p>
+
+Now if I was gone,
 but this will work just fine because it&apos;s actually loading jQuery from
 the internet. Of course, if the internet&apos;s down, it&apos;s not going to
 load it, but if the internet&apos;s down, and you going to get to your
-webpage anyway. It&apos;s a little bit easier to use the CDN to load jQuery
+webpage anyway. 
+
+It&apos;s a little bit easier to use the CDN to load jQuery
 because it&apos;s just one less file and I have to download, keep track of.
 Usually we will be using this method to load jQuery, and there are times
 when you might want the older versions generally will use the newest
@@ -876,13 +928,14 @@ we&apos;re going to use the newest version of jQuery, version 3.7.1 at the
 time of this recording.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">Module 1.04 Basic jQuery Syntax (5:31)</h2>
+<h2 id="ch1-04">1.04 Basic jQuery Syntax (5:31)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. basic jquery syntax (1.04) (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   style="width:40%"
-  alt="" />
+  title="1.04 Basic jQuery Syntax"
+  alt="1.04 Basic jQuery Syntax." />
 </p>
 
 Now that you have jQuery working, let&apos;s do something with it. Do
