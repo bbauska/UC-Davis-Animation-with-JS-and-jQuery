@@ -90,7 +90,7 @@ page.
   <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">
     1.00 Welcome to this Course!</a></h4></li>
   <li><h4 id="ch1-00-intro">
-    1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &ampp; JavaScript</h4></li>
+    1.00 Learning Objectives; Manipulating Web Page Elements with jQuery &ampp; JavaScript</h4></li>
 </ul>
 
 <ol>
@@ -167,7 +167,7 @@ both JavaScript and jQuery.
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi">
-    2.00 Module (2) Introduction</a></li>
+    2.00 Learning Objectives; Animating Web Page Elements</a></li>
 </ul>
 
 1.  <b>Introduction to the jQuery Effects Library</b>
@@ -252,7 +252,7 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj">
-    3.00 Module (3) Introduction]</a></li>
+    3.00 Learning Objectives; Intermediate Document Manipulation &amp; Animation</a></li>
 </ul>
 
 1.  <b>Basic Slider</b>
@@ -323,8 +323,8 @@ interface element on any web page.
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE">
-    4.00 Module (4) Introduction</a></li>
-  <li><a href="">4.00 Start Files: Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
+    4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a></li>
+  <li><a href="">4.00 Start Files; Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
 </ul>
 
 1.  Example Script #1 - Part 1
