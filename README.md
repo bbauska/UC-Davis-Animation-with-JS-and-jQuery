@@ -323,7 +323,7 @@ interface element on any web page.
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE">
-    4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a><br></li>
+    4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a><br><br></li>
   <li><a href="">4.00 Start Files; Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
 </ul>
 
@@ -346,7 +346,7 @@ interface element on any web page.
 7.  Putting Slides on a Timer Solution - Part 2
 
 <ul>
-  <li><a href="">4.07 PDF of Presentation 4.07-FileName.pdf</a><br></li>
+  <li><a href="">4.07 PDF of Presentation 4.07-FileName.pdf</a><br><br></li>
   <li><a href="">4.07 Start Files: Recursive Content Rotator 4.07-StartFile-FileName.pdf</a></li>
 </ul>
 
