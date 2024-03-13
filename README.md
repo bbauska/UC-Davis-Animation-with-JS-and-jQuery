@@ -2243,10 +2243,16 @@ curly braces, and then one more set of parentheses in a semi colon. And
 then I\'m going to come in here and add my **use strict** directive. And
 then I\'m going to grab this entire script. Cut that and stick it in
 here. Close that up. I\'ve got a little short script here.
-
-![](./3-12-24-images/media/image131.png){width="3.5in"
-height="1.987820428696413in"}![](./3-12-24-images/media/image132.png){width="3.5in"
-height="1.987820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 131/132.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image131.png"
+  style="width:35%"
+  alt="." />
+<img src="./images/image132.png"
+  style="width:35%"
+  alt="." />
+</p>
 
 This can become constant. That\'s the only thing we need to take care of
 here, it\'s the only variable. And then over here we can get rid of this
@@ -2274,32 +2280,49 @@ this.
 
 ### 1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)
 
-### https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.net1fyx45mjqpecl-oziwd3nq_f6301966c767425fb4b9d170964ccaf1_web1091_m01_folding-sidebar-menus-with-jquery.pdfexpires1710460800signatureb8h2hul2fvxyycj9upjev1bt5b1wlgopev7itd-tikqli6mabkddlnaibxfwa0hkbcrblciuoz-hrlsaibtqgyqb8mxoqlpvadaajkadkq1yyewoxvztajwzxtbux7h9qiqwx6lamjw8yfamqmi2cls9pis0tt9z-zif4xpv94_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
+### https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A 
 
-# 1.19 JavaScript and jQuery Challenges (1:54) {#javascript-and-jquery-challenges-154 .unnumbered}
-
-![](./3-12-24-images/media/image133.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 133. javascript and jquery challenges (1.19) (80) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image133.png"
+  style="width:40%"
+  title="1.19 JS and jQuery Challenges"
+  alt="1.19 JS and jQuery Challenges." />
 
 JavaScript and **jQuery** challenges.
-
-![](./3-12-24-images/media/image134.png){width="4.0in"
-height="2.271794619422572in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 134. javascript & jquery challenges (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image134.png"
+  style="width:40%"
+  title="JS and jQuery Challenges"
+  alt="JS and jQuery Challenges." />
 
 One of the best ways of learning JavaScript is through these challenges,
 and in particular now that we\'re getting into **jQuery** it\'s
 important to get used to the **jQuery** syntax.
-
-![](./3-12-24-images/media/image135.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. how to do these challenges (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image135.png"
+  style="width:50%"
+  title="How to Do These Challenges"
+  alt="How to Do These Challenges." />
 
 The way these challenges work is we\'ll pose a challenge, I\'ll put
 forward a challenge, and I\'ll have you do it in both JavaScript and
 **jQuery**. This will really help you with the syntax of both JavaScript
 and **jQuery**, and understanding the differences between the two.
-
-![](./3-12-24-images/media/image136.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136. example, challenge 1 - JS (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image136.png"
+  style="width:50%"
+  title="Example, Challenge 1 - JavaScript"
+  alt="Example, Challenge 1 - JavaScript." />
 
 I\'ll provide you with a challenge like this, and usually the challenges
 start off fairly simple and then they become more complex as we move
@@ -2347,10 +2370,15 @@ understand the differences between the syntax of how each of them work.
 -   Use JavaScript to trigger CSS animations in the tabbed interface,
     instead of a JavaScript animation library.
 
-# 2.00 Week/Module 2 Introduction (0:50) {#weekmodule-2-introduction-050 .unnumbered}
-
-![](./3-12-24-images/media/image137.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-00-intro">2.00 Week/Module 2 Introduction (0:50)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. week/module 2 intro (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image137.png"
+  style="width:40%"
+  title="2.00 Week/Module 2 Introduction"
+  alt="2.00 Week/Module 2 Introduction." />
 
 Congratulations, you\'ve made it to the 2nd module in our 2^nd^ course
 on JavaScript. In this module, we\'ll be working with the **jQuery**
@@ -2362,15 +2390,24 @@ and cons of each as you learn and work on projects. It\'s a lot of fun
 and you\'re really going to enjoy it. Buckle in and let\'s get started
 with learning about the effects library in **jQuery**.
 
-# 2.01 Intro to jQuery Effects Library (4:05) {#intro-to-jquery-effects-library-405 .unnumbered}
-
-![](./3-12-24-images/media/image138.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-01">2.01 Intro to jQuery Effects Library (4:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 138. intro to jquery effects library (2.01) (83) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image138.png"
+  style="width:40%"
+  title="2.01 Intro to jQuery Effects Library"
+  alt="2.01 Intro to jQuery Effects Library." />
 
 **jQuery** effects library.
-
-![](./3-12-24-images/media/image139.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 139. important considerations - css vs js (84) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image139.png"
+  style="width:50%"
+  title="Important Considerations - CSS vs JavaScript Animations"
+  alt="Important Considerations - CSS vs JavaScript Animations." />
 
 We\'ll be looking at how to use the effects library that\'s built into
 **jQuery**. But there\'s some important things to understand about
@@ -2386,15 +2423,23 @@ for something minor or if you need something really quick, it can be a
 great option. In this particular lesson, we\'ll be looking at how to use
 the effects library in **jQuery**. I have some example files that you
 can download and when you open them up, they look nice.
-
-![](./3-12-24-images/media/image140.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 140. hide, show, toggle blue box (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image140.png"
+  style="width:50%"
+  title="Hide, Show, Toggle Blue Box"
+  alt="Hide, Show, Toggle Blue Box." />
 
 Here\'s example 1. We\'ll look at how to apply some effects using these
 buttons here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image141.png"
+  style="width:50%"
+  alt="." />
 
-![](./3-12-24-images/media/image141.png){width="5.0in"
-height="2.839744094488189in"}
 
 If we go over and look at the HTML involved here, I just have some links
 with these buttons, and then I\'ve got this box here.
@@ -2402,18 +2447,24 @@ with these buttons, and then I\'ve got this box here.
 I\'ve got a little bit of CSS as appear to make it look nice and that\'s
 fine. Down here, you\'ll notice that I have **jQuery** plugged in so
 that\'s all set and ready to go, and a place for us to put our script.
-
-![](./3-12-24-images/media/image142.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image142.png"
+  style="width:50%"
+  alt="." />
 
 Now, the first one that we\'re going to look at is the **hide** function
 (furthest left of the 3 buttons) which we\'ve already looked at before.
 We\'ve seen this **hide** function when we did the sidebar menu
 exercise. But the hide function can also do animation. Let\'s take a
 look at how to do that.
-
-![](./3-12-24-images/media/image143.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image143.png"
+  style="width:50%"
+  alt="." />
 
 Over here, what I could do is I could type in here, I could go get this
 first link here. I\'m going to go get and use my **jQuery** object. Then
@@ -2423,50 +2474,73 @@ In that function, what I\'m going to do is I\'m going to get this
 element again using my **jQuery** object. This element box, div id pound
 box. I tell it to, hide. Now if we do it like this, it will work, but it
 won\'t do any animation.
-
-![](./3-12-24-images/media/image144.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image144.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s try it out. If I come over here and refresh this page and click
 \"Hide,\" you can see the box goes away.
-
-![](./3-12-24-images/media/image145.png){width="3.5in"
-height="1.987820428696413in"}
-![](./3-12-24-images/media/image146.png){width="3.5in"
-height="1.987820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 145/146.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image145.png"
+  style="width:35%"
+  alt="." />
+<img src="./images/image146.png"
+  style="width:35%"
+  alt="." />
+</p>
 
 But in **jQuery**, you can actually pass a value in here. There are a
 few keywords that it can use. You can use normal, slow, or fast. You\'ll
 see now when I do refresh and click \"Hide,\" it does an animation as it
 hides that box.
-
-![](./3-12-24-images/media/image147.png){width="3.5in"
-height="1.987820428696413in"}
-![](./3-12-24-images/media/image148.png){width="3.5in"
-height="1.987820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 147/148.  (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image147.png"
+  style="width:35%"
+  alt="." />
+<img src="./images/image148.png"
+  style="width:35%"
+  alt="." />
+</p>
 
 You could do slow or fast, or you could put in a number. The number is
 the number of milliseconds. If I put 500, that will be half a second,
 it\'s how long the animation will take place. Or if you really want to
 see something to demonstrate how much that affects it, you could do
 2,002 seconds. That\'s a long time for an animation like this.
-
-![](./3-12-24-images/media/image149.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. hide, show, toggle boxes (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image149.png"
+  style="width:50%"
+  title="Hide, Show, Toggle Boxes"
+  alt="Hide, Show, Toggle Boxes." />
 
 Let\'s see what that does. There we go. You can see that you can affect
 the speed there.
 
-## zip START File {#zip-start-file .unnumbered}
+<h3 id="ch2-01-zip">zip START File</h3>
 
-### 2.01 jQuery-Animation-START.zip (download) {#jquery-animation-start.zip-download .unnumbered}
+<ul>
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A ">
+    2.01 jQuery-Animation-START.zip (download)</a></li>
+</ul>
 
-### https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.net3xl5rns1rlw5eututus1fg_6e9d3063eee04fbdacdf3298ef2baa81_web1091_jquery-animation-start.zipexpires1710460800signaturecvi6tc9efa73xpc6oocojqx77tr-bpr3y1zhd6yi5h0q4zjzbyac17xzizvs114jpq0ofvjxpuczyj6rpuanowv-im0l6ubbbqhthyph6jkbrazpillw9xqw1vayv7xpde6hkitr9zjmkegxnbc3y3tagh-ejcrze0zmgnzmqpe_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
-
-# 2.02 Example 1, cont'd (4:36) {#example-1-contd-436 .unnumbered}
-
-![](./3-12-24-images/media/image150.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-02">2.02 Example 1, cont'd (4:36)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. example 1, cont'd (2.02) (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image150.png"
+  style="width:40%"
+  title="2.02 Example 1, cont'd"
+  alt="2.02 Example 1, cont'd." />
 
 In the last lesson, we saw that we could add a function here that will
 hide the box and animate that.
@@ -2514,7 +2588,7 @@ animations and the animations can have a **callback** function that runs
 when the animation is complete and this is useful. Let\'s take a look at
 the next example in the next lesson.
 
-# 2.03 Example 2 (5:35) {#example-2-535 .unnumbered}
+# 2.03 Example 2 (5:35)
 
 ![](./3-12-24-images/media/image151.png){width="4.0in"
 height="2.473077427821522in"}
