@@ -1603,27 +1603,31 @@ Let\'s do this together.
   alt="" />
 </p>
 
+
+![](./3-12-24-images/media/image71.png){width="5.0in"
+height="2.8333333333333335in"}
+
 First we need a variable, **var submenus = document.querySelectorAll('ul
 li ul');** and what do we want to get? We want to get these links here,
 this class menu link for this one, this one, this one down all those.
-I\'m going to come up share the document menu link. So we\'ll get those
-document in there, and then we need to loop. Used your loop here, so we
-need a for var i equals 0, or i is less than menu links.length, i plus
-plus. Hopefully you\'re getting used to writing loops now. Then in here
-we\'re going to put an event listener on each one of these. So
-menulinks\[i\].**addEventListener(' click', function(event){
-event.prevenDefault(); alert("clicked!"); });** When you click, we\'re
-going to run an event unit run a function. Not run an event, we\'re
-going to run a function. We\'ve got this function here that runs. Then
-for right now all I want to do is pass in the event property, event
-object there, and do **event.preventDefault**.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image072.png"
-  style="width:50%"
-  alt="" />
-</p>
+I\'m going to come up share the document menu link.
+
+![](./3-12-24-images/media/image72.png){width="5.0in"
+height="2.9561964129483815in"}
+
+So we\'ll get those document in there, and then we need to loop. Used
+your loop here, so we need a for var i equals 0, or i is less than menu
+links.length, i plus plus. Hopefully you\'re getting used to writing
+loops now. Then in here we\'re going to put an event listener on each
+one of these. So **menulinks\[i\].addEventListener(' click',
+function(event){ event.prevenDefault(); alert("clicked!"); });** When
+you click, we\'re going to run an event unit run a function. Not run an
+event, we\'re going to run a function. We\'ve got this function here
+that runs. Then for right now all I want to do is pass in the event
+property, event object there, and do **event.preventDefault**.
+
+![](./3-12-24-images/media/image73.png){width="5.0in"
+height="2.9561964129483815in"}
 
 But I that an event listener for each of these, and you can test it by
 adding **console.log** or an alert or something like that large, collect
@@ -1631,45 +1635,50 @@ something like that. Now if I go over here and test this, when I click
 on one of these, I get clicked or this one. We\'ve put an event listener
 on all of these truth loop.
 
-Okay, great, so we\'ve got that, and that\'s working exactly where you
-wanted to work. Hopefully, you got something like this as well. Again,
-this is review, but it\'s always good to challenge yourself, and see if
-you can do these small pieces. It\'s the best way to learn JavaScript.
+![](./3-12-24-images/media/image74.png){width="5.0in"
+height="2.9561964129483815in"}
 
 The next thing to get into is this keyword in JavaScript, and if you\'ve
 looked up stuff on JavaScript online, you can find that you can find a
 lot about this keyword. It can be pretty confusing. But in the context
 in which we\'re going to use it in this course that this keyword is
-fairly simple. It basically means that menu that we clicked on, we\'ve
-add an event listener to all the menus. Now when you click on one, we
-get an alert.
+fairly simple. It basically means that the **menu** that we clicked on,
+we\'ve add an event listener to all the menus.
 
-But you can only click on one menu at a time, so I want to know which
-one I clicked on. I need to know that, and the this keyword can help us
-figure that out. I\'m going to make a variable here called thisMenu, and
-I\'m going to assign the keyword this to it, which means thisMenu, the
-one that I clicked. Then I\'ll console log or alert out
-thisMenu.innerHTML. You\'ll see that we can actually get the HTML of the
-menu that we collect. Let\'s do that really quickly over here. Instead
-of an alert here, I\'m going to say var thisMenu equals this, and this
-is a keyword. That means it refers to the thing that was clicked. Then
-we could do either console log or we could do to learn. I\'m just going
-to do an alert.
+![](./3-12-24-images/media/image75.png){width="5.0in"
+height="2.9561964129483815in"}
 
-Since we were working with alert, alert thisMenu.innerHTML. Instead
-quotes here because this was JavaScript not construe thisMenu.innerHTML.
-Alright, thisMenu.innerHTML, let see with architects. Before I now do
-this, we can mover test this, refresh the page. When I click this menu,
-I can alert that says Menu 1. It\'s telling me what\'s the inner HTML of
-the menu that I clicked Menu 2, Menu 3, Menu 4 you could do console log
-2 either way is fine, great so we\'ve got that. Now we can get this menu
-using this keyword. But really what we want to get to is the parent
-ordered list.
+Now when you click on one, we get an alert. But you can only click on
+one menu at a time, so I want to know which one I clicked on. I need to
+know that, and the this keyword can help us figure that out.
 
-Over here we\'ve added a click handler onto when you click one of these
-links. But really what we want to get to is this list item. So that
-ultimately we can get down into the unordered list inside of here. John
-please take out that last part, and record from here. The next challenge
+![](./3-12-24-images/media/image76.png){width="3.5in"
+height="2.069337270341207in"}![](./3-12-24-images/media/image77.png){width="3.5in"
+height="2.069337270341207in"}
+
+I\'m going to make a variable here called **thisMenu**, and I\'m going
+to assign the keyword **this** to it, which means **thisMenu**, the one
+that I clicked. Then I\'ll **console.log(thisMenu.innerHTML).** You\'ll
+see that we can actually get the HTML of the menu that we collect.
+Let\'s do that over here. Instead of an alert here, I\'m going to say
+**var thisMenu** = this keyword. That means it refers to the thing that
+was clicked.
+
+Then we could do either console log or we could do to learn. I\'m just
+going to do an alert. Since we were working with alert, alert
+thisMenu.innerHTML. Instead quotes here because this was JavaScript not
+construe thisMenu.innerHTML. Alright, thisMenu.innerHTML, let see with
+architects. When I click this menu, I get an alert that says Menu 1.
+It\'s telling me what\'s the inner HTML of the menu that I clicked. Now
+we can get this menu using this keyword.
+
+![](./3-12-24-images/media/image78.png){width="5.0in"
+height="2.9561964129483815in"}
+
+But really what we want to get to is the parent ordered list. Over here
+we\'ve added a click handler onto when you click one of these links. But
+really what we want to get to is this list item. So that ultimately we
+can get down into the unordered list inside of here. The next challenge
 is now that we know, which menu we\'ve clicked on, we want to get to the
 unordered list inside that menu item. In other words, what we want over
 here is we have something that tells us that we\'ve clicked on this
@@ -1684,75 +1693,90 @@ selector to find the unordered list that\'s inside the parent list-item.
 See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next lesson, I\'ll show you my
 solution for that.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image073.png"
-  style="width:40%"
-  alt="" />
-</p>
 
-Were you able to figure that out? Hopefully you were. This is what I
-did, because I want to get, I\'m getting this, I\'ve got the anchor tags
-as my event listeners for when I click on them, but I want to really get
-to this UR, so, down here what I did instead of just this, I can do this
-dot parent node, parent node dot query selector. You will. And that
-should get me, the actual on ordered list, that\'s in the parent of the
-anchor tag that I clicked on. The parent is the list item. So I\'m going
-up to the parent list. I have been looking for the UR that\'s inside
-that will start them, and let\'s leave this. We\'ll leave this alert
-here. But you can make it console log if you prefer. It doesn\'t really
-matter. I\'m going to save that, and then come over here and refresh my
-page. And now when I click on menu one, I\'m getting all of these list
-items, it looks kind of messy here, but it is actually working. Or if I
-click on menu two, I\'m getting all these list items to B to C. So,
-I\'ve got this whole an ordered list that I\'m getting here. It might be
-easier to see it if you do it in a console log. So, we can change this
-to council a log and then let\'s see what it does. Now, if we view the
-console log, inspect, and I\'m going to move this turns bottom,
-actually, it\'s whichever the console and when I click that, once I get
-to refresh there we go. So I\'m getting the inner HTM out there, so,
-that\'s great. So that\'s all working really well. Now that you have
-that your next challenge is, now we\'ve got that sub menu, your next
-challenge, is how do we change the class in that sub menu to show menu?
+# 1.10 Challenge 3 Solution (2:46) {#challenge-3-solution-246 .unnumbered}
+
+![](./3-12-24-images/media/image79.png){width="4.0in"
+height="2.473077427821522in"}
+
+Were you able to figure that out? Hopefully you were.
+
+![](./3-12-24-images/media/image80.png){width="3.5in"
+height="2.069337270341207in"}![](./3-12-24-images/media/image81.png){width="3.5in"
+height="2.069337270341207in"}
+
+This is what I did, because I want to get, I\'m getting this, I\'ve got
+the anchor tags as my event listeners for when I click on them, but I
+want to really get to this UR, so, down here what I did instead of just
+this, I can do this dot parent node, parent node dot query selector. You
+will. And that should get me, the actual on ordered list, that\'s in the
+parent of the anchor tag that I clicked on. The parent is the list item.
+So I\'m going up to the parent list. I have been looking for the UR
+that\'s inside that will start them, and let\'s leave this. We\'ll leave
+this alert here. But you can make it console log if you prefer. It
+doesn\'t really matter.
+
+![](./3-12-24-images/media/image82.png){width="5.0in"
+height="2.9561964129483815in"}
+
+And now when I click on menu one, I\'m getting all of these list items,
+it looks kind of messy here, but it is actually working. Or if I click
+on menu two, I\'m getting all these list items to B to C. So, I\'ve got
+this whole an ordered list that I\'m getting here. It might be easier to
+see it if you do it in a console log. So, we can change this to council
+a log and then let\'s see what it does.
+
+![](./3-12-24-images/media/image83.png){width="5.0in"
+height="2.9561964129483815in"}
+
+I\'m getting the inner HTML out there. Now that you have that your next
+challenge is, how do we change the class in that sub menu to show menu?
 Currently it\'s set to hide menu. We wanted to set it to show menu. How
 do we do that? Try to figure out how you can do that on your own, and
 then come and see the answer on the next lesson. I\'ll show you how I
 did it.
 
-<h2 id="ch1-11">1.11 Challenge 4 Solution (2:29)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image074.png"
-  style="width:40%"
-  alt="" />
-</p>
+# 1.11 Challenge 4 Solution (2:29) {#challenge-4-solution-229 .unnumbered}
 
-Were you able to figure out the challenge? I hope you were. It
-shouldn\'t have been too difficult, but sometimes you have to work
-through these things. What we could do instead, is we could use this
-menu and do ClassName equals \'show-menu\'. So we\'re applying that
-show-menu class to that particular menu. That should work. Let\'s go
-over and see what happens when we have refresher page here. Cosine
-inspector. If I click on this, it shows the menu. Now, you\'ll notice
-we\'re not quite done yet because if I click another one, it\'ll show
-that menu and it doesn\'t close the menus. We want to be able to open
-the menus and close them. The reason we want to make it so that when you
-click on a menu, if there\'s another one that\'s opened, it will close
-it before it opens this menu. That\'s the next thing that we need to
-figure out how to do. But this little piece of the script is pretty
-simple here. We have a menu that\'s using this keyword that says, \'\'Go
-and get the parent node, go get the unordered list inside that
-parent\'\'. The parent would be the list item. Go get the unordered list
-inside the list item, and then just change the ClassName from
-\"hide-menu\" to \"show-menu\". That seems pretty straightforward.
-Great. Hopefully, you got that. You got this answer here. We can open
-the pages and we can open the menus, but we can\'t close the menus. The
-next challenge is if the menu has the class set \"hide-menu\", set it to
-\"show-menu\", otherwise, set it to \"hide-menu\". This is your
+![](./3-12-24-images/media/image84.png){width="4.0in"
+height="2.473077427821522in"}
+
+It shouldn\'t have been too difficult, but sometimes you have to work
+through these things.
+
+![](./3-12-24-images/media/image85.png){width="5.0in"
+height="2.9561964129483815in"}
+
+What we could do instead, is we could use this menu and do **ClassName**
+equals \'show-menu\'. So we\'re applying that show-menu class to that
+particular menu. That should work.
+
+![](./3-12-24-images/media/image86.png){width="5.0in"
+height="2.9561964129483815in"}
+
+Let\'s go over and see what happens when we have refresher page here. If
+I click on this, it shows the menu. Now, you\'ll notice we\'re not quite
+done yet because if I click another one, it\'ll show that menu and it
+doesn\'t close the menus. We want to be able to open the menus and close
+them. The reason we want to make it so that when you click on a menu, if
+there\'s another one that\'s opened, it will close it before it opens
+this menu.
+
+![](./3-12-24-images/media/image85.png){width="5.0in"
+height="2.9561964129483815in"}
+
+That\'s the next thing that we need to figure out how to do. But this
+little piece of the script is pretty simple here. We have a menu that\'s
+using this keyword that says, \'\'Go and get the parent node, go get the
+unordered list inside that parent\'\'. The parent would be the list
+item. Go get the unordered list inside the list item, and then just
+change the ClassName from \"hide-menu\" to \"show-menu\". That seems
+pretty straightforward. Great. Hopefully, you got that. You got this
+answer here. We can open the pages and we can open the menus, but we
+can\'t close the menus.
+
+The next challenge is if the menu has the class set \"hide-menu\", set
+it to \"show-menu\", otherwise, set it to \"hide-menu\". This is your
 challenge, is how to make it so that it actually functions properly.
 There are two methods that you can use to help you with this. There\'s a
 method called classList and there\'s contains that will help you figure
@@ -1760,390 +1784,552 @@ out whether the menu has \'\'hide-menu\'\' or \'\'show-menu\'\' wanted.
 See if you can do it on your own. Then if you are successful or not,
 just come back to the next lesson and we\'ll see how I did it.
 
-<h2 id="ch1-12">1.12 Challenge 5 Solution (x:xx)</h2>
+# 1.12 Challenge 5 Solution (3:27) {#challenge-5-solution-327 .unnumbered}
 
-![](.images/image075.png){width="4.0in"
+![](./3-12-24-images/media/image87.png){width="4.0in"
 height="2.473077427821522in"}
 
-Were you able to get the answer to this challenge? It\'s a little bit
-trickier because this one required you to look some stuff up. We
-haven\'t used class list or
+Were you able to get the answer to this challenge?
 
-contains before. So hopefully you went to the MDN, the Mozilla Developer
-Network which is the authoritative resource on these types of
-technologies, and looked up something like element classless to sort of
-see how it works. And it gives you some examples on here. Also there\'s
-another page contains and so you can actually find contains contains.
-Does the dog token list and returns a boolean if true. So token list
-contained so we can combine these two things together to make this work.
-So let\'s try it together on our code over here and if you are able to
-get to work that\'s great. If not this will help you out. So instead of
-this I\'m just going to comment that out. Or you could just delete, but
-in there we\'re going to put an if statement if. And what we\'re going
-to check for is if this menu.classlist.contains. And we\'re going to
-look for hide menu like that. So if this is going to return true or
-false, does it contain hide menu? If it does contain hide menu then
-we\'re going to do this. But in there, else if it doesn\'t contain it
-then we\'re going to do this. But we\'re going to do hide menu. And that
-will allow us to open and close the menus. Let\'s save this and come
-back and check our page over here. So if we now we should be able to
-open the menu and close the menu. Unfortunately though we can still open
-multiple menus and really what we want to be able to do is to be able to
-when we click on one menu, make sure all the other menus get closed. Any
-other menu that\'s open is closed. So we can reduce cognitive load on
-our user and they can they can open only one menu at a time, and be sort
-of presented with only one set of options at a time. So hopefully you
-got something like this on your own. And if you didn\'t, hopefully my
-explanation helps. But I recommend if you\'re not getting these
-challenges, I recommend going through this lesson a few times to the
-point where you really can\'t do them without looking at my answers. It
-will really help you learn javascript and so much more. Okay, so your
-next challenge should not be a too difficult one. But basically what we
-need to do is close all the menus and then run this if statement. So
-before this, if statement happens this if else even happens. We want to
-loop that closes all the all the menus. So see if we can add a lip that
-closes all the menus before showing the sub menu with the parent menu
-being collect.
+It\'s a little bit trickier because this one required you to look some
+stuff up. We haven\'t used class list or contains before. So hopefully
+you went to the MDN, the Mozilla Developer Network which is the
+authoritative resource on these types of technologies, and looked up
+something like element classless to sort of see how it works. And it
+gives you some examples on here. Also there\'s another page contains and
+so you can actually find contains contains. Does the dog token list and
+returns a boolean if true. So token list contained so we can combine
+these two things together to make this work. So let\'s try it together
+on our code over here and if you are able to get to work that\'s great.
+If not this will help you out.
 
-<h2 id="ch1-13">1.13 Challenge 6 Solution (x:xx)</h2>
+![](./3-12-24-images/media/image88.png){width="5.0in"
+height="2.9561964129483815in"}
 
-![](.images/image076.png){width="4.0in"
+So instead of this I\'m just going to comment that out. Or you could
+just delete, but in there we\'re going to put an if statement if. And
+what we\'re going to check for is if this menu.classlist.contains. And
+we\'re going to look for hide menu like that. So if this is going to
+return true or false, does it contain hide menu? If it does contain hide
+menu then we\'re going to do this. But in there, else if it doesn\'t
+contain it then we\'re going to do this. But we\'re going to do hide
+menu. And that will allow us to open and close the menus. Let\'s save
+this and come back and check our page over here.
+
+![](./3-12-24-images/media/image89.png){width="5.0in"
+height="2.9561964129483815in"}
+
+So if we now we should be able to open the menu and close the menu.
+Unfortunately though we can still open multiple menus and really what we
+want to be able to do is to be able to when we click on one menu, make
+sure all the other menus get closed. Any other menu that\'s open is
+closed. So we can reduce cognitive load on our user and they can they
+can open only one menu at a time, and be sort of presented with only one
+set of options at a time.
+
+![](./3-12-24-images/media/image90.png){width="5.0in"
+height="2.839744094488189in"}
+
+So hopefully you got something like this on your own. And if you
+didn\'t, hopefully my explanation helps. But I recommend if you\'re not
+getting these challenges, I recommend going through this lesson a few
+times to the point where you really can\'t do them without looking at my
+answers. It will help you learn javascript and so much more. Okay, so
+your next challenge should not be a too difficult one. But basically
+what we need to do is close all the menus and then run this if
+statement. So before this, if statement happens this if else even
+happens. We want to loop that closes all the all the menus. So see if we
+can add a lip that closes all the menus before showing the sub menu with
+the parent menu being collect.
+
+# 1.13 Challenge 6 Solution (2:33) {#challenge-6-solution-233 .unnumbered}
+
+![](./3-12-24-images/media/image91.png){width="4.0in"
 height="2.473077427821522in"}
 
-Hopefully, you were able to get this working this way. So that when we
-click on these, they open and we can open them and we can close them.
-But now the challenge is we want to reduce cognitive load by making it
-so that our user isn\'t faced with too many menu options at once. So we
-want to only show one menu options at the time. So let\'s go over into
-the code and see how we could actually do this here. And really what we
-want to do is we want to duplicate this loop. We want to copy this loop
-and just stick it inside this if statement. So I will make sure that all
-of the menus get closed when you click on one that you\'re opening. And
-we\'re going to leave the if statements so that if you\'re clicking on
-one to close it, it will still work. And if it\'s set to class named
-show menu, it\'ll cited to hide menu. So that\'s why we want to leave
-the if statement here, but that should actually work on this. And if we
-go over and take a look at it and test this, we should see that this is
-working now. So I come back here and refresh this. Now when I click on a
-menu it opens, but when I click another menu it will make sure that one
-is closed and then it will open this one. Plus I could click on menu to
-and close it. So all of the functionality is now working and it\'s
-looking pretty good. So hopefully, you came up with this solution as
-well. Maybe you tried it some different ways or did something different
-with it. But this is the solution that I came up with and it\'s working
-pretty well. So now the next challenges, since we\'re using this loop
-twice, we\'re using the loop here as well as up here. And we don\'t
-really want to repeat ourselves. So now you\'re challenge is, how could
-you make a function that contains this loop and run that function twice?
-We want to run it once when the page loads and run it once down here
-inside the if statement. And the function could be called something like
-hide sub menus or something like that. And, yeah, so see if you can make
-that function and make that work. And in the next lesson, we\'ll look at
-my solution for how I made it work.
+Hopefully, you were able to get this working this way.
 
-<h2 id="ch1-14">1.14 Challenge 7 Solution (2:39)</h2>
+![](./3-12-24-images/media/image92.png){width="5.0in"
+height="2.839744094488189in"}
 
-![](.images/image077.png){width="4.0in"
+So that when we click on these, they open and we can open them and we
+can close them. But now the challenge is we want to reduce cognitive
+load by making it so that our user isn\'t faced with too many menu
+options at once. So we want to only show one menu options at the time.
+
+![](./3-12-24-images/media/image93.png){width="5.0in"
+height="2.839744094488189in"}
+
+So let\'s go over into the code and see how we could actually do this
+here. And really what we want to do is we want to duplicate this loop.
+We want to copy this loop and just stick it inside this if statement. So
+I will make sure that all of the menus get closed when you click on one
+that you\'re opening. And we\'re going to leave the if statements so
+that if you\'re clicking on one to close it, it will still work. And if
+it\'s set to class named **show-menu**, it\'ll cited to **hide-menu**.
+So that\'s why we want to leave the if statement here, but that should
+actually work on this.
+
+![](./3-12-24-images/media/image94.png){width="5.0in"
+height="2.839744094488189in"}
+
+And if we go over and take a look at it and test this, we should see
+that this is working now. So I come back here and refresh this. Now when
+I click on a menu it opens, but when I click another menu it will make
+sure that one is closed and then it will open this one. Plus I could
+click on menu to and close it. So all of the functionality is now
+working and it\'s looking pretty good.
+
+The next challenges, since we\'re using this loop twice, we\'re using
+the loop here as well as up here. And we don\'t really want to repeat
+ourselves. So now you\'re challenge is, how could you make a function
+that contains this loop and run that function twice? We want to run it
+once when the page loads and run it once down here inside the if
+statement. And the function could be called something like hide sub
+menus or something like that. And, yeah, so see if you can make that
+function and make that work. And in the next lesson, we\'ll look at my
+solution for how I made it work.
+
+# 1.14 Challenge 7 Solution (2:39) {#challenge-7-solution-239 .unnumbered}
+
+![](./3-12-24-images/media/image95.png){width="4.0in"
 height="2.473077427821522in"}
 
 Everything is working and we can leave the script the way it is. But
 it\'s always good to refactor your code and make it better if you can.
-Let\'s do that with this final step here, this next step here. We\'re
-going to come over here and we\'re going to make a function, we\'re just
-going to put it here, function hideSubmenus, like that. I\'m going to
-move this loop so it\'s inside that function. Hopefully, you were able
-to do this on your own. Tab that in. Now, I\'ve got a function called
-hideSubmenus. I need to run that function here and run it once here and
-then I\'m going to run it again down here. It just makes the code a
-little bit more readable because in here, I can see if it contains hide
-all the submenus and then show this particular menu. Otherwise, if this
-one doesn\'t have class list hide menu on it, said it\'s a hide menu and
-that should actually work. So let\'s just test that really quickly, make
-sure that that works the way we think it should work. Back over here and
-refresh the page and you can see that it\'s still working just the way I
-intended it to work. That\'s great. Hopefully, you came up with the
-exact same solution that I came up with and we\'re able to get it to
-work the way I was able to get it to work. The last challenge for this
-is just to apply our best practices steps that we\'ve learned earlier in
-the course. Hopefully, you can do that on your own. But really what
-we\'re looking to do is to put the script and do to a separate file, add
-the IIFE, the immediately invoked function expression closure, add the
-use strict directive, change all the variable declarations to const or
-let. We\'re using let, if the variable changes like inside the loop over
-here, this need to be let. Then link the script to the head of the page
-and be sure to add the differ property inside the script tags so that it
-loads after the actual content of the page is loaded. So see if you can
-do all of that and then come back to the next lesson and see if you are
-able to get the same answers.
+Let\'s do that with this final step here, this next step here.
 
-<h2 id="ch1-15">1.15 Challenge 8 Solution (3:35)</h2>
+![](./3-12-24-images/media/image96.png){width="5.0in"
+height="2.839744094488189in"}
 
-![](.images/image078.png){width="4.0in"
+We\'re going to come over here and we\'re going to make a function,
+we\'re just going to put it here, function hideSubmenus, like that. I\'m
+going to move this loop so it\'s inside that function. Hopefully, you
+were able to do this on your own. Tab that in. Now, I\'ve got a function
+called **hideSubmenus**.
+
+![](./3-12-24-images/media/image97.png){width="5.0in"
+height="2.839744094488189in"}
+
+I need to run that function here and run it once here and then I\'m
+going to run it again down here. It just makes the code a little bit
+more readable because in here, I can see if it contains hide all the
+submenus and then show this particular menu. Otherwise, if this one
+doesn\'t have class list hide menu on it, said it\'s a hide menu and
+that should actually work.
+
+![](./3-12-24-images/media/image98.png){width="5.0in"
+height="2.839744094488189in"}
+
+So let\'s just test that really quickly, make sure that that works the
+way we think it should work. Back over here and refresh the page and you
+can see that it\'s still working just the way I intended it to work.
+
+![](./3-12-24-images/media/image99.png){width="5.0in"
+height="2.839744094488189in"}
+
+Hopefully, you came up with the exact same solution that I came up with
+and we\'re able to get it to work the way I was able to get it to work.
+
+The last challenge for this is just to apply our best practices steps
+that we\'ve learned earlier in the course. Hopefully, you can do that on
+your own. But really what we\'re looking to do is to put the script and
+do to a separate file, add the IIFE, the immediately invoked function
+expression closure, add the use strict directive, change all the
+variable declarations to const or let. We\'re using let, if the variable
+changes like inside the loop over here, this need to be let. Then link
+the script to the head of the page and be sure to add the differ
+property inside the script tags so that it loads after the actual
+content of the page is loaded. So see if you can do all of that and then
+come back to the next lesson and see if you are able to get the same
+answers.
+
+# 1.15 Challenge 8 Solution (3:35) {#challenge-8-solution-335 .unnumbered}
+
+![](./3-12-24-images/media/image100.png){width="4.0in"
 height="2.473077427821522in"}
 
 Our last step is really to just use some best practice work and clean up
 our files and make everything work the way we want it to work here at
-the end. You should be able to do this on your own, but I will show you
-how I did it here. First, I\'m going to just make a new file, and you
-call it script.js, that makes sense. Then on this file I\'m going to add
-my IIFE immediately invoked function expression, with the parentheses
+the end.
+
+![](./3-12-24-images/media/image101.png){width="5.0in"
+height="2.8397430008748907in"}
+
+You should be able to do this on your own, but I will show you how I did
+it here. First, I\'m going to just make a new file, and you call it
+**script.js**, that makes sense. Then on this file I\'m going to add my
+**IIFE** immediately invoked function expression, with the parentheses
 and in there at function. The function has its own parentheses in its
 curly braces. Then we add an extra pair of closing parentheses there.
 Then we\'re going to click inside of here, down in it or use strict
 directive here, like so. Then in here we\'re going to add all of our
-code. We can just take all of the stuff from here, cut it, and paste it
-inside here. Actually I need to move it back a little bit. It gets into
-tuition. I\'m just going to shift the tab to move that back. That\'s
-looking really good. Okay, great. Now we just need to go through and
-clear up our function declarations and change this to const. Down here,
-because we\'re going to loop, this needs to be length, this far needs to
-be length. Then down here, this can be const. Sometimes it\'s nice to
-have your mean variables all up here at the top of the page. You can
-define them all at once up here. We can get rid of some extra space in
-here. There we go, hide menu and then this one can be length because
-it\'s inside the loop. Here this one can be const. I think that\'s it.
-Yeah, that looks really good. We save that file back here and an index
-file. We\'d get rid of these script tags from down here, bottom of a
-page. Instead we can put them up here in our head. Script SRC equals
-quote, and I want my scrip file here. I\'m going to set it to defer to
+code.
+
+![](./3-12-24-images/media/image102.png){width="3.5in"
+height="1.987820428696413in"}![](./3-12-24-images/media/image103.png){width="3.5in"
+height="1.987820428696413in"}
+
+We can take all of the stuff from here (lines 69-97), cut it, and paste
+it inside **script.js**. Now we just need to go through and clear up our
+function declarations and change this to **const**. Down here, because
+we\'re going to loop, this needs to be length, this **var** needs to be
+**let**. Then down here, this can be **const**. Sometimes it\'s nice to
+have your main variables all up at the top of the page.
+
+![](./3-12-24-images/media/image104.png){width="3.5in"
+height="1.987820428696413in"}![](./3-12-24-images/media/image105.png){width="3.5in"
+height="1.987820428696413in"}
+
+We save that file back here and an **index.html** file. We\'d get rid of
+these script tags from down here, bottom of a page. Instead we can put
+them up here in our head. Script **SRC ="script.js"** set it to defer to
 the close script tab. Then always of course, go back and test it to make
-sure that you didn\'t screw something up. Sometimes that happens. Sure
-enough, everything\'s working the way it\'s supposed to be working. You
-can open the menus, you can close the menus. Only one menu can be opened
-at a time, which is exactly what I wanted for this particular project.
-That\'s all working great. We were able to get our final script working,
-get everything cleaned up in here. This is how we could do a project
-like this in plain JavaScript. In the next part of this lesson, we will
-look at how to do the exact same script, exact same thing using
-**jQuery**. You\'ll see how much shorter and how much more compact that
-script is.
+sure that you didn\'t screw something up. You can open the menus, you
+can close the menus.
 
-<ul>
-  <li><a href="">1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
-</ul>
+![](./3-12-24-images/media/image106.png){width="5.0in"
+height="2.839744094488189in"}
 
-<h2 id="ch1-16">1.16 Intro to jQuery Sidebar Folding Navigation (4:35)</h2>
+Only one menu can be opened at a time, which is exactly what I wanted
+for this particular project. That\'s all working great. We were able to
+get our final script working, get everything cleaned up in here.
 
-![](.images/image079.png){width="4.0in"
+![](./3-12-24-images/media/image107.png){width="5.0in"
+height="2.839744094488189in"}
+
+This is how we could do a project like this in plain JavaScript. In the
+next part of this lesson, we will look at how to do the exact same
+script, exact same thing using **jQuery**. You\'ll see how much shorter
+and how much more compact that script is.
+
+## PDF of Presentation {#pdf-of-presentation-1 .unnumbered}
+
+### 1.15 Folding-Sidebar-Menus-with-JS.pdf (download)
+
+### https://d3c33hcgiwev3.cloudfront.net/WpZJQjwpS4-WSUI8KduPlw_7ddb39e0d313448b9fc83c1e6f780df1_WEB1091_M01_Folding-Sidebar-Menus-with-JS.pdf?Expires=1710460800&Signature=dyr2YUxz0RJFQDVZ\~GQVGOaU0rAc4DIv11N206G8CcXk-WgtYCT6guroUFlzT35aCAyaC6r-2zxKuANeJ1u8g3KvJgtHnakqYC0TDWKDQUqS1LsMUZW4KxMxBvLnZX7BdWR3I\~k45KRbjX3q1nQIPc-T8-uKkQSYJw60pb6Bco0\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.netwpzjqjwps4-wsui8kduplw_7ddb39e0d313448b9fc83c1e6f780df1_web1091_m01_folding-sidebar-menus-with-js.pdfexpires1710460800signaturedyr2yuxz0rjfqdvzgqvgoau0rac4div11n206g8ccxk-wgtyct6gurouflzt35acayac6r-2zxkuanej1u8g3kvjgthnakqyc0tdwkdquqs1lsmuzw4kxmxbvlnzx7bdwr3ik45krbjx3q1nqipc-t8-ukkqsyjw60pb6bco0_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
+
+# 1.16 Intro to jQuery Sidebar Folding Navigation (4:35) {#intro-to-jquery-sidebar-folding-navigation-435 .unnumbered}
+
+![](./3-12-24-images/media/image108.png){width="4.0in"
 height="2.473077427821522in"}
 
-**jquery** SideBar Folding Navigation. For this project we\'ll use
-**jQuery**. We did this exact same project using plain JavaScript in the
-previous lesson. But now we\'re back to where we started with just these
-menus folded out and we want to do the whole same thing again, except
-using **jQuery**. This will be a really great way for you to see the
-difference between **jQuery** and JavaScript, using plain vanilla
-JavaScript. **jQuery** is JavaScript, but the syntax is slightly
-different, and you\'ll see how much shorter this script is when we get
-done with it, and how easy it is to do this interaction using
-**jQuery**. Yeah, we\'re going to do the exact same thing. The only
-thing that\'s different about the start file in this case, is that it
-includes a link to the **jQuery** library on the CDN. Down here at the
-bottom of the file, this is the only thing that\'s different, is I\'m
-including this extra script. Remember when this is compressed, it\'s
-about 87K or 89K or something like that. Maybe it\'s worth it for this
-script, and maybe it\'s not. You\'d have to decide if it\'s worth
-downloading 87K for your client after downloading 87K of library to do
-simple folding menu script. Or if you\'d be better off just using the
-JavaScript one that we did in the previous lesson. But that\'s on there,
-and that\'s ready to go. Let\'s go ahead and see what we need to do to
-make this work. First thing we\'re going to do, is we\'re going to set
-all of those initial list items to not display. In the previous version
-of this project, we had some classes set up for Hide menu and Show menu.
-But here we\'re going to use the CSS property to set display to none.
-We\'ll see an even easier way in just a minute. But let\'s do this first
-so you can see what it does. Down here, I\'m going to use my **jQuery**
-object, and write it like this from the outside. I\'m going to use my
-**jQuery** object like that. I\'m going to use quotes to say go in and
-get ul, li, ul. This is the unordered list that\'s inside the list item
-that\'s inside the unordered list. That\'s these list items that are
-inside these unordered list items that are inside this unordered list.
-I\'m going to do,.CSS \'\'display,\'\' \'\'none\'\'. You\'ll see when I
-do this over here, if I test the page, they all go away, and if I
-inspect this, you\'ll see they have displayed style, display none over
-here. That\'s what that is doing. That\'s great, that\'s working just
-fine in hiding the menus. Now, as it turns out, there\'s actually an
-easier way of doing that, because **jQuery** has a bunch of helper
-functions built in. One of them is hide. Since frequently we want to
-hide things on our page, they created a helper function called hide,
-which holds just hide those elements. That\'s even easier than using the
-CSS method here. If I just put hide there, and then come back and test
-it, you\'ll see the menus are hidden. Not only that, but if I inspect
-and look in there, you\'ll see it\'s still says, display none there.
-This is actually doing the exact same thing but using the CSS method,
-but instead we\'re using the hide method. That\'s a convenience function
-that **jQuery** has built-in. **JQuery** is a bunch of these built-in
-for doing common tasks. We\'ll see another one of these convenient
-helper functions in just a minute. Great. We\'ve got that going, and
-we\'re ready to start building in our Click-Handler and doing all that
-fun stuff. We\'ll do that in the next lesson.
+**jquery** SideBar Folding Navigation.
 
-### 1.16 jQuery-Folding-Menus-Start.zip (download)
+![](./3-12-24-images/media/image109.png){width="4.0in"
+height="2.271794619422572in"}
 
-<h2 id="ch1-17">1.17 Getting the Next UL (4:40)</h2>
+For this project we\'ll use **jQuery**. We did this exact same project
+using plain JavaScript in the previous lesson. But now we\'re back to
+where we started with just these menus folded out and we want to do the
+whole same thing again, except using **jQuery**.
 
-![](.images/image080.png){width="4.0in"
+![](./3-12-24-images/media/image110.png){width="5.0in"
+height="2.839744094488189in"}
+
+This will be a really great way for you to see the difference between
+**jQuery** and JavaScript, using plain vanilla JavaScript. **jQuery** is
+JavaScript, but the syntax is slightly different, and you\'ll see how
+much shorter this script is when we get done with it, and how easy it is
+to do this interaction using **jQuery**.
+
+![](./3-12-24-images/media/image111.png){width="5.0in"
+height="2.839744094488189in"}
+
+Yeah, we\'re going to do the exact same thing. The only thing that\'s
+different about the start file in this case, is that it includes a link
+to the **jQuery** library on the CDN.
+
+![](./3-12-24-images/media/image112.png){width="5.0in"
+height="2.839744094488189in"}
+
+Down here at the bottom of the file, this is the only thing that\'s
+different, is I\'m including this extra script.
+
+![](./3-12-24-images/media/image113.png){width="5.0in"
+height="2.839744094488189in"}
+
+First thing we\'re going to do, is we\'re going to set all of those
+initial list items to not display. In the previous version of this
+project, we had some classes set up for Hide menu and Show menu. But
+here we\'re going to use the **CSS** property to set display to none.
+We\'ll see an even easier way in just a minute.
+
+![](./3-12-24-images/media/image114.png){width="5.0in"
+height="2.839744094488189in"}
+
+But let\'s do this first so you can see what it does. Down here, I\'m
+going to use my **jQuery** object, and write it like this from the
+outside. I\'m going to use my **jQuery** object like that. I\'m going to
+use quotes to say go in and get ul, li, ul. This is the unordered list
+that\'s inside the list item that\'s inside the unordered list. That\'s
+these list items that are inside these unordered list items that are
+inside this unordered list. I\'m going to do,.CSS \'\'display,\'\'
+\'\'none\'\'.
+
+![](./3-12-24-images/media/image115.png){width="5.0in"
+height="2.839744094488189in"}
+
+You\'ll see when I do this over here, if I test the page, they all go
+away, and if I inspect this, you\'ll see they have displayed style,
+display none over here.
+
+![](./3-12-24-images/media/image116.png){width="5.0in"
+height="2.839744094488189in"}
+
+Now, as it turns out, there\'s actually an easier way of doing that,
+because **jQuery** has a bunch of helper functions built in. One of them
+is hide. Since frequently we want to hide things on our page, they
+created a helper function called hide, which hides those elements.
+That\'s even easier than using the CSS method here.
+
+![](./3-12-24-images/media/image117.png){width="5.0in"
+height="2.839744094488189in"}
+
+If I just put hide there, and then come back and test it, you\'ll see
+the menus are hidden. Not only that, but if I inspect and look in there,
+you\'ll see it\'s still says, display none there. This is actually doing
+the exact same thing but using the CSS method, but instead we\'re using
+the hide method. That\'s a convenience function that **jQuery** has
+built-in. **JQuery** is a bunch of these built-in for doing common
+tasks. We\'ll see another one of these convenient helper functions in
+just a minute. We\'ve got that going, and we\'re ready to start building
+in our Click-Handler and doing all that fun stuff. We\'ll do that in the
+next lesson.
+
+## zip START Files {#zip-start-files-1 .unnumbered}
+
+### 1.16 jQuery-Folding-Menus-START.zip (download)
+
+### https://d3c33hcgiwev3.cloudfront.net/0Cu1A9CuTjSrtQPQri40tQ_d5e4c6b39f514e4d836fb7ea481e397b_WEB1091_jQuery-folding-menus-Start.zip?Expires=1710460800&Signature=JvtZ8cj7\~9d3MNJQnw7PjKCkYXV3QzEcgb4xcobmwvCVlR3x-nUg5S3NKvaIhiH6UkvN\~jdV1SKeZB9Wyk9Q-xqeGT4dKO9xoO7T8suazk0Zl9imF0LUQxhtIHPM7VldKE7iYrL2EGm68LpF0eZqJPLt0qemPDNZgV3V1Cmb54I\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.net0cu1a9cutjsrtqpqri40tq_d5e4c6b39f514e4d836fb7ea481e397b_web1091_jquery-folding-menus-start.zipexpires1710460800signaturejvtz8cj79d3mnjqnw7pjkckyxv3qzecgb4xcobmwvcvlr3x-nug5s3nkvaihih6ukvnjdv1skezb9wyk9q-xqegt4dko9xoo7t8suazk0zl9imf0luqxhtihpm7vldke7iyrl2egm68lpf0ezqjplt0qempdnzgv3v1cmb54i_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
+
+# 1.17 Getting the Next UL (4:40) {#getting-the-next-ul-440 .unnumbered}
+
+![](./3-12-24-images/media/image118.png){width="4.0in"
 height="2.473077427821522in"}
 
 Just like we did in the plain Javascript version of this script, we need
-to know which menu was clicked. And so, once again, we\'re going to use
-the this keyword in order to get the menu that was clicked. However,
-this time we\'re going to wrap it up inside of a **jQuery** object. So
-down here, you can see we\'ve got this, but it\'s inside a **jQuery**
-object. Then we\'re going to use the handy next method that **jQuery**
-has built in. And in the plain Javascript version, remember what we had
-to do was we had to go get that parent object and then find the ul
-inside the parent. But here we can actually use the next method to get
-the next ul. because remember, what users are doing is they\'re clicking
-on this link here, this anchor tag. And I want to get the next ul that
-comes after that. And **jQuery** has this helper function that\'s very
-useful for that. So let\'s come down here and add that into here. So
-we\'re going to make a variable, var thisMenu is assigned. We\'re going
-to use the **jQuery** object to get this. And then we\'re going to use
-the .next method to go get the next ul. And that will get the ul that
-comes up exactly after this particular anchor tag that we\'ve clicked on
-here. And just to see that this works, I\'m going to say, okay,
-console.log( thisMenu. .html()). This html(), this is a **jQuery**
-method that will generate the html. So let\'s see what we get if we test
-this. If I come over to my page and refresh and then turn on my
-inspector to get the Console log here and click on this menu, you can
-see that I\'m getting that html. So that\'s great, that\'s really cool,
-and that\'s working. So that\'s all working really well and that\'s
-exactly what we want here. However, the next thing we need to do is
-check to see if the menu is showing or hidden or not. And we can do that
-with this sort of function here. We could say if this menu is visible,
-and there\'s a method called is in **jQuery** that will allow us to
-check for something. Here, visible is a filter that will allow us to see
-if a particular element is visible, in which case then we can hide it or
-we could show it. Now, we could do this and this works if you wanted to
-do it this way. And the is method is sometimes very helpful in
-**jQuery**. However, in this case there is another helper function, a
-convenient helper function that will do the same thing in a nice, simple
-way. And that is toggle, thisMenu.toggle. That\'s really all we need to
-do, so that if it\'s showing hide it, if it\'s hiding show it. So let\'s
-go ahead and add that into our script over here. So instead of this
-line, I can just say thisMenu.toggle. Very helpful, convenient function
-in **jQuery** that you could use in lots of situations. And now you\'ll
-notice that we\'re back to where we were after numerous lines of code
-before in plain Javascript where we can open the menus and we can close
-the menus. Unfortunately, we can still open all the menus and close all
-the menus, which is not exactly what we want. But we\'re really close
-with just a couple lines of **jQuery**. And part of the reason why it\'s
-so short is that we don\'t need loops. We don\'t need to do the loops.
-We don\'t need to do the loops because **jQuery** works with groups of
-objects like this. And it\'s got these helper functions built in, so we
-don\'t have to write the if statement and do all of that. So that\'s
-super handy. So the last part of the script we really need to figure out
-is how to make it so that when I click on one menu, it closes all of the
-menus and then only opens the one that I clicked on. And we\'ll do that
-in the next lesson.
+to know which menu was clicked.
 
-<h2 id="ch1-18">1.18 The Whole Script (5:59)</h2>
+![](./3-12-24-images/media/image119.png){width="5.0in"
+height="2.839744094488189in"}
 
-![](.images/image081.png){width="4.0in"
+Once again, we\'re going to use the **this** keyword in order to get the
+menu that was clicked. However, this time we\'re going to wrap it up
+inside of a **jQuery** object. So down here, you can see we\'ve got
+this, but it\'s inside a **jQuery** object. Then we\'re going to use the
+handy next method that **jQuery** has built in. And in the plain
+Javascript version, remember what we had to do was we had to go get that
+parent object and then find the **ul** inside the parent. But here we
+can actually use the **next** method to get the next ul.
+
+![](./3-12-24-images/media/image120.png){width="5.0in"
+height="2.839744094488189in"}
+
+Because remember, what users are doing is they\'re clicking on this link
+here, this anchor tag. And I want to get the next **ul** that comes
+after that. And **jQuery** has this helper function that\'s very useful
+for that.
+
+![](./3-12-24-images/media/image121.png){width="5.0in"
+height="2.839744094488189in"}
+
+Let\'s come down here and add that into here. We\'re going to make a
+variable, **var thisMenu** is assigned. We\'re going to use the
+**jQuery** object to get this. And then we\'re going to use the
+.**next** method to go get the next **ul**. And that will get the **ul**
+that comes up after this particular anchor tag that we\'ve clicked on.
+
+![](./3-12-24-images/media/image122.png){width="5.0in"
+height="2.839744094488189in"}
+
+And just to see that this works, I\'m going to say, **console.log(
+thisMenu. .html()).** This html(), this is a **jQuery** method that will
+generate the **html**. So let\'s see what we get if we test this. If I
+come over to my page and refresh and then turn on my inspector to get
+the Console log here and click on this menu, you can see that I\'m
+getting that **html**.
+
+![](./3-12-24-images/media/image123.png){width="5.0in"
+height="2.839744094488189in"}
+
+The next thing we need to do is check to see if the menu is showing or
+hidden or not. And we can do that with this sort of function here. We
+could say if this menu is visible, and there\'s a method called is in
+**jQuery** that will allow us to check for something. Here, visible is a
+filter that will allow us to see if a particular element is visible, in
+which case then we can hide it or we could show it. Now, we could do
+this and this works if you wanted to do it this way. And the is method
+is sometimes very helpful in **jQuery**.
+
+![](./3-12-24-images/media/image124.png){width="5.0in"
+height="2.839744094488189in"}
+
+However, in this case there is another helper function, a convenient
+helper function that will do the same thing in a nice, simple way. And
+that is toggle, **thisMenu.toggle**. That\'s all we need to do, so that
+if it\'s showing hide it, if it\'s hiding show it.
+
+![](./3-12-24-images/media/image125.png){width="5.0in"
+height="2.839744094488189in"}
+
+Let\'s add that into our script over here. I can just say
+**thisMenu.toggle**. Very helpful, convenient function in **jQuery**
+that you could use in many situations.
+
+Now you\'ll notice that we\'re back to where we were after numerous
+lines of code before in plain Javascript where we can open the menus and
+we can close the menus. Unfortunately, we can still open all the menus
+and close all the menus, which is not exactly what we want. But we\'re
+close with just a couple lines of **jQuery**. And part of the reason why
+it\'s so short is that we don\'t need loops because **jQuery** works
+with groups of **objects** like this. And it\'s got these helper
+functions built in, so we don\'t have to write the if statement and do
+all of that.
+
+The last part of the script we need to figure out is how to make it so
+that when I click on one menu, it closes all of the menus and then only
+opens the one that I clicked on. And we\'ll do that in the next lesson.
+
+# 1.18 The Whole Script (5:59) {#the-whole-script-559 .unnumbered}
+
+![](./3-12-24-images/media/image126.png){width="4.0in"
 height="2.473077427821522in"}
 
 To get this final piece of functionality that we want, we need one more
-line in our script. And it\'s just a short simple little line that we
-need to add and it will introduce us to yet another convenient function
-built into **jQuery** which is the nod method here. And what that does
-is it excludes a particular item from a function, we can chain these
-functions together. So here we\'re going to say go get all of the
-unordered lists that are inside the list item, that are inside the N
-word lists, those are sub menus. But not the one that we clicked on. And
-we\'re going to hide all of the other ones, but not the one that we
-clicked on. because that may be hidden already or we may want to show
-it, and then we can do the menu toggle and it will work. So just one
-last little line, let\'s go ahead and put this in over here. So once
-again I\'m going to use my **jQuery** object to go in and get the uL Li
-uL. The unordered list that are inside the list items are inside the an
-ordered list is our sub menus. But not this menu, the one that I clicked
-on. That one I don\'t want to be affected by this line at all. And then
-I\'m going to do hide, make sure all of those are hidden. And that
-should actually work just right. Let\'s save this file and come back and
-test it. I can open a menu, I can open the next menu, I can close the
-menu. And I\'m getting exactly the functionality that I had before. I\'m
-doing it with far less code. Now, again we\'re downloading this entire
-library. In order to do that 87K worth of stuff is getting downloaded so
-that we can write a super short script and maybe that\'s worth it. And
-if you\'re new to JavaScript and you\'re new to sort of creating these
-interactions, you might find **jQuery** much easier way into coding and
-doing JavaScript. And it is just more JavaScript, but it\'s a lot more
-concise. The syntax is a lot more concise, mostly because you don\'t
-have to do the loops and because they have these convenient helper
-functions built in that you can make use of because you plugged in this
-library. Okay, the last step that we need to do is just make our script
-file and move this stuff over into an external script file. So let\'s do
-that really quickly here. Up here I\'m just going to quick and add
-script.js. And then I\'m going to come back here. Yeah, or actually
-first I\'m going to add my IIFE function parentheses, curly braces, and
-then one more set of parentheses in a semi colon. And then I\'m going to
-come in here and add my use strict directive, that\'s great. And then
-I\'m going to come over here and just grab this entire script, it\'s not
-very much, just a few lines of script. Cut that and stick it in here,
-and I can shift him to move that back a bit. Close that up. I\'ve just
-got a nice little short script here, that\'s fine. And really you could
-probably leave this on the other file, it\'s so short. But just to
-practice our best practices in here, this can become constant. That\'s
-really the only thing we need to take care of here, it\'s the only
-variable, so that\'s working fine. That\'s nice and easy. And then over
-here we can get rid of this script tag entirely. And we can move the
-link to **jQuery** up to the top of the page inside the head here.
-Don\'t forget to add the defer attribute there. And then down here I\'m
-going to add a script tag with src set to quote, script.js defer. And
-that will work, this file has to come after that file, even if we\'re
-putting him on the head of the page using the defer attribute. Because
-once again, we need to make sure that we\'re using these functions from
-this library here in the script so it has to load first. But then we can
-just test this all out and make sure it all works. And it\'s working
-just fine. I can get to my menu items. It\'s not a very fancy page, but
-this is a really good example that shows you how to actually take a
+line in our script.
+
+![](./3-12-24-images/media/image127.png){width="5.0in"
+height="2.839744094488189in"}
+
+And it\'s just a short simple little line that we need to add and it
+will introduce us to yet another convenient function built into
+**jQuery** which is the **not** method here. And what that does is it
+excludes a particular item from a function, we can chain these functions
+together.
+
+![](./3-12-24-images/media/image128.png){width="5.0in"
+height="2.839744094488189in"}
+
+So here we\'re going to say go get all of the unordered lists that are
+inside the list item, that are inside the not word lists, those are sub
+menus. But not the one that we clicked on. And we\'re going to hide all
+of the other ones, but not the one that we clicked on, because that may
+be hidden already or we may want to show it, and then we can do the menu
+toggle and it will work. Just one last little line, let\'s go ahead and
+put this in over here.
+
+Once again I\'m going to use my **jQuery** object to go in and get the
+**ul li ul**. The unordered list that are inside the list items are
+inside the an ordered list is our sub menus. But not this menu, the one
+that I clicked on. That one I don\'t want to be affected by this line at
+all. And then I\'m going to do hide, make sure all of those are hidden.
+
+![](./3-12-24-images/media/image129.png){width="5.0in"
+height="2.839744094488189in"}
+
+Let\'s come back and test it. I can open a menu, I can open the next
+menu, I can close the menu. And I\'m getting exactly the functionality
+that I had before.
+
+![](./3-12-24-images/media/image130.png){width="5.0in"
+height="2.839744094488189in"}
+
+Okay, the last step that we need to do is just make our script file and
+move this stuff over into an external script file. So let\'s do that
+here. Up here I\'m going to add **script.js**. And then I\'m going to
+come back here. Then I\'m going to add my IIFE function parentheses,
+curly braces, and then one more set of parentheses in a semi colon. And
+then I\'m going to come in here and add my **use strict** directive. And
+then I\'m going to grab this entire script. Cut that and stick it in
+here. Close that up. I\'ve got a little short script here.
+
+![](./3-12-24-images/media/image131.png){width="3.5in"
+height="1.987820428696413in"}![](./3-12-24-images/media/image132.png){width="3.5in"
+height="1.987820428696413in"}
+
+This can become constant. That\'s the only thing we need to take care of
+here, it\'s the only variable. And then over here we can get rid of this
+script tag entirely. And we can move the link to **jQuery** up to the
+top of the page inside the head here.
+
+Don\'t forget to add the **defer** attribute there. And then down here
+I\'m going to add a script tag with src set to quote, **script.js
+defer**. And that will work, this file has to come after that file, even
+if we\'re putting him on the head of the page using the defer attribute.
+Because once again, we need to make sure that we\'re using these
+functions from this library here in the script so it has to load first.
+
+And it\'s working just fine. I can get to my menu items. It\'s not a
+fancy page, but this is a good example that shows you how to take a
 script and do the same thing that we did in plain JavaScript, but using
 **jQuery**. And using some of the nifty **jQuery** helper functions such
-as hide, the click handler, the next method, the not method, the toggle
-method, all make it possible for us to write shorter strips, along with
-the fact that you don\'t have to do loops. So that makes it much shorter
-and hopefully you\'re pretty excited about this. I know I am.
+as **hide**, the **click handler**, the **next** method, the **not**
+method, the **toggle** method, all make it possible for us to write
+shorter scripts, along with the fact that you don\'t have to do loops.
+So that makes it much shorter and hopefully you\'re pretty excited about
+this.
+
+## PDF of Presentation {#pdf-of-presentation-2 .unnumbered}
 
 ### 1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)
 
-<h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
+### https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.net1fyx45mjqpecl-oziwd3nq_f6301966c767425fb4b9d170964ccaf1_web1091_m01_folding-sidebar-menus-with-jquery.pdfexpires1710460800signatureb8h2hul2fvxyycj9upjev1bt5b1wlgopev7itd-tikqli6mabkddlnaibxfwa0hkbcrblciuoz-hrlsaibtqgyqb8mxoqlpvadaajkadkq1yyewoxvztajwzxtbux7h9qiqwx6lamjw8yfamqmi2cls9pis0tt9z-zif4xpv94_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
 
-![](.images/image082.png){width="4.0in"
+# 1.19 JavaScript and jQuery Challenges (1:54) {#javascript-and-jquery-challenges-154 .unnumbered}
+
+![](./3-12-24-images/media/image133.png){width="4.0in"
 height="2.473077427821522in"}
 
-JavaScript and **jQuery** challenges. One of the best ways of learning
-JavaScript is through these challenges, and in particular now that
-we\'re getting into **jQuery** it\'s really important to get used to the
-**jQuery** syntax. The way these challenges work is we\'ll pose a
-challenge, I\'ll put forward a challenge, and I\'ll have you do it in
-both JavaScript and **jQuery**. So this will really help you with the
-syntax of both JavaScript and **jQuery**, and understanding the
-differences between the two. So I\'ll provide you with a challenge like
-this, and usually the challenges start off fairly simple and then they
-become more complex as we move through the challenges. So I\'ll give you
-a challenge like this and then on the next slide, if you need to look
-the solution is on the next slide, but hopefully you don\'t really need
-to look at the solution. Really try to do the challenges without looking
-at the solution. If you have to look at the solution that\'s fine, you
-can look at the solution and hopefully you\'ll go ah-ha, I see what I
-was supposed to do and then you can go back and do the challenge without
-looking at the solution. If you want to learn Javascript or **jQuery**
-you have to get used to the syntax and this is the best way to get
-there, is to really force yourself to do these challenges, and do them
-several times, do them over and over again. Do them today and then do
-them again tomorrow, and tomorrow when you do them hopefully you\'ll be
-able to do more of the challenges without looking at the answers. Each
-challenge builds on the next so that they become more complex as they go
-along, and that will really help you learn both JavaScript and
-**jQuery**, and help you understand the differences between the syntax
-of how each of them work.
+JavaScript and **jQuery** challenges.
+
+![](./3-12-24-images/media/image134.png){width="4.0in"
+height="2.271794619422572in"}
+
+One of the best ways of learning JavaScript is through these challenges,
+and in particular now that we\'re getting into **jQuery** it\'s
+important to get used to the **jQuery** syntax.
+
+![](./3-12-24-images/media/image135.png){width="5.0in"
+height="2.839744094488189in"}
+
+The way these challenges work is we\'ll pose a challenge, I\'ll put
+forward a challenge, and I\'ll have you do it in both JavaScript and
+**jQuery**. This will really help you with the syntax of both JavaScript
+and **jQuery**, and understanding the differences between the two.
+
+![](./3-12-24-images/media/image136.png){width="5.0in"
+height="2.839744094488189in"}
+
+I\'ll provide you with a challenge like this, and usually the challenges
+start off fairly simple and then they become more complex as we move
+through the challenges. I\'ll give you a challenge like this and then on
+the next slide, if you need to look the solution is on the next slide,
+but hopefully you don\'t really need to look at the solution. Really try
+to do the challenges without looking at the solution. If you have to
+look at the solution that\'s fine, you can look at the solution and
+hopefully you\'ll go ah-ha, I see what I was supposed to do and then you
+can go back and do the challenge without looking at the solution.
+
+If you want to learn Javascript or **jQuery** you have to get used to
+the syntax and this is the best way to get there, is to really force
+yourself to do these challenges, and do them several times, do them over
+and over again. Do them today and then do them again tomorrow, and
+tomorrow when you do them hopefully you\'ll be able to do more of the
+challenges without looking at the answers. Each challenge builds on the
+next so that they become more complex as they go along, and that will
+really help you learn both JavaScript and **jQuery**, and help you
+understand the differences between the syntax of how each of them work.
+
+## PDF of Challenges {#pdf-of-challenges .unnumbered}
 
 ### 1.19 JavaScript-and-jQuery-Challenges.pdf (download)
 
-# Module Two: Animating Web Page Elements with jQuery and JS 
+### https://d3c33hcgiwev3.cloudfront.net/i4axXuqIRimGsV7qiOYpOg_cbf6c4b4aed0434b821b960e344d66f1_WEB1091_M01_JavaScript-jQuery-Challenges.pdf?Expires=1710460800&Signature=GSFa2G3WNUZWeuyW0dSm7rvqdyxGatySjKpSoPRmx6owmcPNfKfgUWDID7pOLXyKyr9aggKrDmkglcjlATZmiBQsBVW4neIDlDjrVbg-DFdYP4D10ahkCkQLGB\~SW1qOcb9kMdBogkdPB-zWoqlyAydtP2QHdRVDAj3LozFUFO8\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.neti4axxuqirimgsv7qioypog_cbf6c4b4aed0434b821b960e344d66f1_web1091_m01_javascript-jquery-challenges.pdfexpires1710460800signaturegsfa2g3wnuzweuyw0dsm7rvqdyxgatysjkpsoprmx6owmcpnfkfguwdid7polxykyr9aggkrdmkglcjlatzmibqsbvw4neidldjrvbg-dfdyp4d10ahkckqlgbsw1qocb9kmdbogkdpb-zwoqlyaydtp2qhdrvdaj3lozfufo8_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
 
-<h2 id="ch2">2.00 Learning Objectives</h2>
+# Module Two: Animating Web Page Elements with jQuery and JS {#module-two-animating-web-page-elements-with-jquery-and-js .unnumbered}
+
+# 2.00 Learning Objectives {#learning-objectives-2 .unnumbered}
 
 -   Use **jQuery** to animate elements on a web page using the helper
     functions or custom animations.
@@ -2161,202 +2347,264 @@ of how each of them work.
 -   Use JavaScript to trigger CSS animations in the tabbed interface,
     instead of a JavaScript animation library.
 
-<h2 id="ch2-01">2.01 Week/Module 2 Introduction (0:50)</h2>
+# 2.00 Week/Module 2 Introduction (0:50) {#weekmodule-2-introduction-050 .unnumbered}
 
-![](.images/image083.png){width="4.0in"
+![](./3-12-24-images/media/image137.png){width="4.0in"
 height="2.473077427821522in"}
 
 Congratulations, you\'ve made it to the 2nd module in our 2^nd^ course
 on JavaScript. In this module, we\'ll be working with the **jQuery**
 effects library, which provides you with a lot of animation effects that
 you can use with all sorts of projects and in your interfaces. We\'ll
-compare that to using JavaScript and CSS to create your animations and
-see how the two are different and what are the strengths and pros and
-cons of each as you learn and work on projects. It\'s a lot of fun and
-you\'re really going to enjoy it. Buckle in and let\'s get started with
-learning about the effects library in **jQuery**.
+compare that to using JavaScript and **CSS** to create your animations
+and see how the two are different and what are the strengths and pros
+and cons of each as you learn and work on projects. It\'s a lot of fun
+and you\'re really going to enjoy it. Buckle in and let\'s get started
+with learning about the effects library in **jQuery**.
 
-<h2 id="ch2-02">2.02 Intro to jQuery Effects Library (4:05)</h2>
+# 2.01 Intro to jQuery Effects Library (4:05) {#intro-to-jquery-effects-library-405 .unnumbered}
 
-![](.images/image084.png){width="4.0in"
+![](./3-12-24-images/media/image138.png){width="4.0in"
 height="2.473077427821522in"}
 
-**jQuery** effects library. We\'ll be looking at how to use the effects
-library that\'s built into **jQuery**. But there\'s some important
-things to understand about animation in JavaScript versus animation in
-CSS. Generally, it\'s better to do animation in CSS if at all possible.
-When the animation is done in CSS, the computer\'s GPU can be used to
-help with the processing of the animation, that will make the animation
-smoother and more efficient. You\'ll particularly notice this on phones,
-especially older phones. However, the effects library in **jQuery** is
-really easy to use, and for something minor or if you need something
-really quick, it can be a great option. In this particular lesson,
-we\'ll be looking at how to use the effects library in **jQuery**. I
-have some example files that you can download and when you open them up,
-they look nice. Here\'s example 1. We\'ll look at how to apply some
-effects using these buttons here. If we go over and look at the HTML
-involved here, I just have some links with these buttons, and then I\'ve
-got this box here. I\'ve got a little bit of CSS as appear to make it
-look nice and that\'s fine. Down here, you\'ll notice that I have
-**jQuery** plugged in so that\'s all set and ready to go, and a place
-for us to put our script. Now, the first one that we\'re going to look
-at is the hide function which we\'ve already looked at before. We\'ve
-seen this hide function when we did the sidebar menu exercise. When we
-did that script, you\'ve seen this hide function before, but the hide
-function can also do animation. Let\'s take a look at how to do that.
+**jQuery** effects library.
+
+![](./3-12-24-images/media/image139.png){width="5.0in"
+height="2.839744094488189in"}
+
+We\'ll be looking at how to use the effects library that\'s built into
+**jQuery**. But there\'s some important things to understand about
+animation in JavaScript versus animation in **CSS**. Generally, it\'s
+better to do animation in **CSS** if at all possible. When the animation
+is done in **CSS**, the computer\'s **GPU** can be used to help with the
+processing of the animation, that will make the animation smoother and
+more efficient. You\'ll particularly notice this on phones, especially
+older phones.
+
+However, the effects library in **jQuery** is really easy to use, and
+for something minor or if you need something really quick, it can be a
+great option. In this particular lesson, we\'ll be looking at how to use
+the effects library in **jQuery**. I have some example files that you
+can download and when you open them up, they look nice.
+
+![](./3-12-24-images/media/image140.png){width="5.0in"
+height="2.839744094488189in"}
+
+Here\'s example 1. We\'ll look at how to apply some effects using these
+buttons here.
+
+![](./3-12-24-images/media/image141.png){width="5.0in"
+height="2.839744094488189in"}
+
+If we go over and look at the HTML involved here, I just have some links
+with these buttons, and then I\'ve got this box here.
+
+I\'ve got a little bit of CSS as appear to make it look nice and that\'s
+fine. Down here, you\'ll notice that I have **jQuery** plugged in so
+that\'s all set and ready to go, and a place for us to put our script.
+
+![](./3-12-24-images/media/image142.png){width="5.0in"
+height="2.839744094488189in"}
+
+Now, the first one that we\'re going to look at is the **hide** function
+(furthest left of the 3 buttons) which we\'ve already looked at before.
+We\'ve seen this **hide** function when we did the sidebar menu
+exercise. But the hide function can also do animation. Let\'s take a
+look at how to do that.
+
+![](./3-12-24-images/media/image143.png){width="5.0in"
+height="2.839744094488189in"}
+
 Over here, what I could do is I could type in here, I could go get this
-first link here. I\'m going to go get and use my **jQuery** object.
-Always type it like that. Then I\'m going to come in here, I\'m going to
-get hide box, that link. I\'m going to add a quick add onto it, click.
-When I click it, I\'m going to run a function, like so. In that
-function, what I\'m going to do is I\'m going to get this element again
-using my **jQuery** object. This element box,
+first link here. I\'m going to go get and use my **jQuery** object. Then
+I\'m going to get **hide** box, that link. I\'m going to add a quick add
+onto it, click. When I click it, I\'m going to run a function, like so.
+In that function, what I\'m going to do is I\'m going to get this
+element again using my **jQuery** object. This element box, div id pound
+box. I tell it to, hide. Now if we do it like this, it will work, but it
+won\'t do any animation.
 
-div id pound box. I tell it to, hide. Now if we do it like this, it will
-work, but it won\'t do any animation. Let\'s try it out. If I come over
-here and refresh this page and click \"Hide,\" you can see the box goes
-away. But in **jQuery**, you can actually pass a value in here. There
-are a few keywords that it can use. You can use normal, slow, or fast.
-You\'ll see now when I do refresh and click \"Hide,\" it does an
-animation as it hides that box. You could do slow or fast, or you could
-put in a number. The number is the number of milliseconds. If I put 500,
-that will be half a second, it\'s how long the animation will take
-place. Or if you really want to see something to demonstrate how much
-that affects it, you could do 2,002 seconds. That\'s a long time for an
-animation like this. Let\'s see what that does. There we go. You can see
-that you can affect the speed there.
+![](./3-12-24-images/media/image144.png){width="5.0in"
+height="2.839744094488189in"}
 
-### 2.02 jQuery-Animation-START.zip (download)
+Let\'s try it out. If I come over here and refresh this page and click
+\"Hide,\" you can see the box goes away.
 
-<h2 id="ch2-03">2.03 Example 1, cont'd (4:36)</h2>
+![](./3-12-24-images/media/image145.png){width="3.5in"
+height="1.987820428696413in"}
+![](./3-12-24-images/media/image146.png){width="3.5in"
+height="1.987820428696413in"}
 
-![](.images/image085.png){width="4.0in"
+But in **jQuery**, you can actually pass a value in here. There are a
+few keywords that it can use. You can use normal, slow, or fast. You\'ll
+see now when I do refresh and click \"Hide,\" it does an animation as it
+hides that box.
+
+![](./3-12-24-images/media/image147.png){width="3.5in"
+height="1.987820428696413in"}
+![](./3-12-24-images/media/image148.png){width="3.5in"
+height="1.987820428696413in"}
+
+You could do slow or fast, or you could put in a number. The number is
+the number of milliseconds. If I put 500, that will be half a second,
+it\'s how long the animation will take place. Or if you really want to
+see something to demonstrate how much that affects it, you could do
+2,002 seconds. That\'s a long time for an animation like this.
+
+![](./3-12-24-images/media/image149.png){width="5.0in"
+height="2.839744094488189in"}
+
+Let\'s see what that does. There we go. You can see that you can affect
+the speed there.
+
+## zip START File {#zip-start-file .unnumbered}
+
+### 2.01 jQuery-Animation-START.zip (download) {#jquery-animation-start.zip-download .unnumbered}
+
+### https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#httpsd3c33hcgiwev3.cloudfront.net3xl5rns1rlw5eututus1fg_6e9d3063eee04fbdacdf3298ef2baa81_web1091_jquery-animation-start.zipexpires1710460800signaturecvi6tc9efa73xpc6oocojqx77tr-bpr3y1zhd6yi5h0q4zjzbyac17xzizvs114jpq0ofvjxpuczyj6rpuanowv-im0l6ubbbqhthyph6jkbrazpillw9xqw1vayv7xpde6hkitr9zjmkegxnbc3y3tagh-ejcrze0zmgnzmqpe_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
+
+# 2.02 Example 1, cont'd (4:36) {#example-1-contd-436 .unnumbered}
+
+![](./3-12-24-images/media/image150.png){width="4.0in"
 height="2.473077427821522in"}
 
 In the last lesson, we saw that we could add a function here that will
-hide the box and animate that. Let\'s add a couple more. We\'ve got a
-few more buttons here. Let\'s do a few more of these. You could copy
-this and paste it or you could type it again. I think it\'s always a
-good idea when you\'re practicing these stuff to type it again, just see
-you\'re getting used to using the **jQuery** syntax. Now I\'m going to
-do pound show box or hashtag if you prefer hash instead. I\'m going to
-add the click handler there, like so and then put a function in here.
-Always type from the outside, so you really get used to the syntax and
-understand which thing closes which thing. I\'m going to do function
-parentheses, curly braces there and move that down. Then I\'m going to
-do again, I\'m going to go get my **jQuery** object and get pound
-showbox. No box, just box of the same box. Instead of hide I\'m going to
-do show. Maybe we\'ll make this one go for 500 milliseconds. You\'ll see
-that will work. Let\'s test that. We come over here and refresh this. We
-can hide the box and I can show the box and you can see the difference
-in time. That\'s working great. Now toggle will both hide and show. If
-it\'s hidden, it\'ll show it. If it\'s showing it\'ll hide it. Let\'s do
-that one. Over here again, I\'m going to just, now this time just for
-expedience sake, I\'m going to copy it. But I really recommend that you
-type it so you get used to that. This is toggle box. It\'s this link
-here. It\'s this link up here, toggle box. Then down here we\'re going
-to do box and instead of show, we\'re going to do toggle like that.
+hide the box and animate that.
+
+Let\'s add a couple more. We\'ve got a few more buttons here. Let\'s do
+a few more of these. I\'m going to do pound show box or hashtag if you
+prefer hash instead. I\'m going to add the **click handler** and then
+put a function in here. Always type from the outside, so you get used to
+the syntax and understand which thing closes which thing. I\'m going to
+do function parentheses, curly braces there and move that down. Then
+I\'m going to do again, I\'m going to go get my **jQuery** object and
+get pound **showbox**. No box, just box of the same box. Instead of hide
+I\'m going to do **show**. Maybe we\'ll make this one go for 500
+milliseconds. You\'ll see that will work.
+
+Let\'s test that. We come over here and refresh this. We can hide the
+box and I can show the box and you can see the difference in time.
+
+Now toggle will both hide and show. If it\'s hidden, it\'ll show it. If
+it\'s showing it\'ll hide it. Over here again, I\'m going to just add
+toggle box. It\'s this link here. It\'s this link up here, toggle box.
+Then down here we\'re going to do box and instead of show, we\'re going
+to do **toggle** like that.
+
 You\'ll see over here, if I run this, it will hide it and it will show
 it. This one does both. Remember toggle is a helper function that allows
 us to do both hiding and showing and we\'ve seen that before. But now we
-can use it with the effects library and do some animation with it. Now
-one of the really great things about these animations and doing this in
-JavaScript and **jQuery** is that you have a thing called a callback
+can use it with the effects library and do some animation with it.
+
+Now one of the really great things about these animations and doing this
+in JavaScript and **jQuery** is that you have a thing called a callback
 function. What you can do after the 500-year is you can pass in a
 function that runs with its parentheses and curly braces like so. In
 here we could put alert (\'done! \') something like that. This function
 will run after this animation has been completed. In fact, I\'m going to
 make this a little bit longer so that you can really see that it waits
-and runs after the animation has been completed. This is super useful
-because sometimes you want to have a sequence of animations and when
-that animation is done, you want to do something else, something like
-that. Let\'s see how this works. The page does the alert. That\'s really
-cool and I could do the other way around as well. Excellent. With that,
-we are able to see that we can make these functions, these animations
-and the animations can have a callback function that runs when the
-animation is complete and this is super useful. Let\'s take a look at
+and runs after the animation has been completed.
+
+This is useful because sometimes you want to have a sequence of
+animations and when that animation is done, you want to do something
+else, something like that. Let\'s see how this works. The page does the
+alert. That\'s really cool and I could do the other way around as well.
+With that, we are able to see that we can make these functions, these
+animations and the animations can have a **callback** function that runs
+when the animation is complete and this is useful. Let\'s take a look at
 the next example in the next lesson.
 
-<h2 id="ch2-04">2.04 Example 2 (5:35)</h2>
+# 2.03 Example 2 (5:35) {#example-2-535 .unnumbered}
 
-![](.images/image086.png){width="4.0in"
+![](./3-12-24-images/media/image151.png){width="4.0in"
 height="2.473077427821522in"}
 
-Let\'s take a look at Example 2. Open up the Example 2, HTML file and
-you\'ll notice that it looks very similar to the first example. We have
-the same styling up at the top of the page, we have a box here, we have
-some navigation, and then we have this div id set to box down here, and
-it\'s just an empty div. You can see that it looks very similar here.
-But **jQuery** has helper functions in for sliding up and sliding down
-and slide toggle. Because again, these are common tasks. These are
-common things that we need to do in interfaces, so they created a method
-that does specifically this. That\'s interesting and fun. Let\'s take a
-look at what we need in order to do this in our code. The syntax is very
-similar to what we saw before. What we\'re going to do is, like we did
-before, we\'re going to use our **jQuery** object to go in and get our
-link here. It\'s pound, I\'ve got a slideupbox as a link here, so let\'s
-do that. slideupbox and we\'ll put a click handler on that. We\'re
-looking for dot click. Oops, Excel. Then in here we\'re going to run a
-function with its own parentheses and curly braces. Then we\'re going to
-put our code inside the curly braces there, just the same way we did
-before. Again as before, we\'re going to go get our **jQuery** object
-and get box, because that\'s where we\'re going to be moving up and
-down. Then what we\'re going to use here for a **jQuery** function is
-slide up. Again, we can put in an amount of time or you could put inside
-quotes, you can put slow or something like that, and that will make that
-box slide up. Let\'s go over and give that a try. Hopefully I did that
-right, I think I did. If I refresh this page and click \"Slideup,\" it
-does that animation. It\'s interesting to inspect this. Watch what
-happens here. Actually on the actual box itself. Watch what happens down
-here, when I click slideup. You can see it very quickly went through
-some settings in here, as it did that and ended up with displaying that.
-That\'s interesting as well. Great. We can do that. The other ones look
-very similar as you can imagine. We\'ve got slideupbox, we\'ve got
-slidedownbox, and we\'ve got slide toggle and they all work very
-similarly. I can actually copy that, paste it, and I recommend you type
-it actually, but for expedience sake, I\'m going to just copy and paste
-it and change this to slidedownbox. This is going to be SlideDown and I
-can choose an amount of time. We\'re going to do two seconds, something
-like that. We have a longer time. Now, when you\'re working with
-animation, one thing to be aware of is that, there is such a thing as
-easing. An animation can run and it will run for the period of time.
-This animation will run over two seconds, but it can run the exact same
-amount over those two seconds, which is linear easing, meaning that
-it\'s the same speed at the beginning as it is at the end or you can
-change the easing such that it goes faster at the beginning and slower
-at the end or slower at the beginning and then speeds up towards the end
-of the animation, or you can actually do easing in and outward. Starts
-slow, speeds up and then end slow or starts fast, slows down and ends
-fast. You can do all of these different types of easing. **JQuery** has
-some basic easing built-in and you can put in here in quotes, \"Swing.\"
-That will do a little bit of easing on this item. It\'s pretty subtle.
-You might not really see it, but it will actually work. Let\'s go ahead
-and take a look at that. Slide up, I\'m going to hide this. Slide down.
-Does slide down, but it does a swing animation. It\'s not the same speed
-all the way through. You can see the difference. It\'s hard to tell, but
-it is there. It\'s very subtle. Now, **jQuery** has built into it just
-some basic easing, but there\'s a plug-in and one of the strengths of
-**jQuery** is the plug-in architecture. We\'re going to talk about that
-in the next lesson.
+Let\'s take a look at Example 2.
 
-<h2 id="ch2-05">2.05 Example 2: Plugin Architecture (8:39)</h2>
+Open up the Example 2, HTML file and you\'ll notice that it looks very
+similar to the first example. We have the same styling up at the top of
+the page, we have a box here, we have some navigation, and then we have
+this div id set to box down here, and it\'s just an empty div.
 
-![](.images/image87.png){width="4.0in"
+You can see that it looks very similar here. But **jQuery** has helper
+functions in for sliding up and sliding down and slide toggle. Because
+again, these are common tasks. These are common things that we need to
+do in interfaces, so they created a method that does specifically this.
+That\'s interesting and fun. Let\'s take a look at what we need in order
+to do this in our code. The syntax is very similar to what we saw
+before.
+
+What we\'re going to do is, like we did before, we\'re going to use our
+**jQuery** object to go in and get our link here. It\'s pound, I\'ve got
+a slideupbox as a link here, so let\'s do that. slideupbox and we\'ll
+put a click handler on that. We\'re looking for dot click. Oops, Excel.
+Then in here we\'re going to run a function with its own parentheses and
+curly braces. Then we\'re going to put our code inside the curly braces
+there, just the same way we did before. Again as before, we\'re going to
+go get our **jQuery** object and get box, because that\'s where we\'re
+going to be moving up and down. Then what we\'re going to use here for a
+**jQuery** function is slide up. Again, we can put in an amount of time
+or you could put inside quotes, you can put slow or something like that,
+and that will make that box slide up. Let\'s go over and give that a
+try. Hopefully I did that right, I think I did. If I refresh this page
+and click \"Slideup,\" it does that animation.
+
+It\'s interesting to inspect this. Watch what happens here. Actually on
+the actual box itself. Watch what happens down here, when I click
+slideup. You can see it very quickly went through some settings in here,
+as it did that and ended up with displaying that. That\'s interesting as
+well. Great. We can do that. The other ones look very similar as you can
+imagine. We\'ve got slideupbox, we\'ve got slidedownbox, and we\'ve got
+slide toggle and they all work very similarly. I can actually copy that,
+paste it, and I recommend you type it actually, but for expedience sake,
+I\'m going to just copy and paste it and change this to slidedownbox.
+
+This is going to be SlideDown and I can choose an amount of time. We\'re
+going to do two seconds, something like that. We have a longer time.
+Now, when you\'re working with animation, one thing to be aware of is
+that, there is such a thing as easing. An animation can run and it will
+run for the period of time. This animation will run over two seconds,
+but it can run the exact same amount over those two seconds, which is
+linear easing, meaning that it\'s the same speed at the beginning as it
+is at the end or you can change the easing such that it goes faster at
+the beginning and slower at the end or slower at the beginning and then
+speeds up towards the end of the animation, or you can actually do
+easing in and outward.
+
+Starts slow, speeds up and then end slow or starts fast, slows down and
+ends fast. You can do all of these different types of easing. **JQuery**
+has some basic easing built-in and you can put in here in quotes,
+\"Swing.\" That will do a little bit of easing on this item. It\'s
+pretty subtle. You might not really see it, but it will actually work.
+Let\'s go ahead and take a look at that. Slide up, I\'m going to hide
+this. Slide down. Does slide down, but it does a swing animation. It\'s
+not the same speed all the way through. You can see the difference.
+It\'s hard to tell, but it is there. It\'s very subtle. Now, **jQuery**
+has built into it just some basic easing, but there\'s a plug-in and one
+of the strengths of **jQuery** is the plug-in architecture. We\'re going
+to talk about that in the next lesson.
+
+# 2.04 Example 2: Plugin Architecture (8:39) {#example-2-plugin-architecture-839 .unnumbered}
+
+![](./3-12-24-images/media/image152.png){width="4.0in"
 height="2.473077427821522in"}
 
 In the last lesson, we added some easing to our function, so that now it
 slides up just using the linear easing, but slide down is using the
-swing easing. Easing can give your animations a little bit of
-personality. They can make them seem a little bit less mechanical, when
-the speed of the animation is not always the same all the way through
-the animation. But the easings that are built into **jQuery** don\'t
-really give you a lot of options. They are very basic. There\'s amazing
-plug-in over here that we can use, and it allows you to choose different
-types of easings so that you can actually do some different types of
-things with this, and you can go through and try some of these different
-settings here to see what they actually do. Ease-out will affect the
-animation at the end where ease-in will affect the animation at the
-beginning, ease-out-and-in will affect the animation at both ends.
+swing easing.
+
+Easing can give your animations a little bit of personality. They can
+make them seem a little bit less mechanical, when the speed of the
+animation is not always the same all the way through the animation. But
+the easings that are built into **jQuery** don\'t really give you a lot
+of options. They are very basic. There\'s amazing plug-in over here that
+we can use, and it allows you to choose different types of easings so
+that you can actually do some different types of things with this, and
+you can go through and try some of these different settings here to see
+what they actually do. Ease-out will affect the animation at the end
+where ease-in will affect the animation at the beginning,
+ease-out-and-in will affect the animation at both ends.
+
 We\'ve got ease-in-and-out. We\'ve got a whole bunch of them in here for
 all these different: in ease-out, ease-in all these different animations
 in here. But in order to use this, we have to plugins plug-in.
@@ -2369,11 +2617,12 @@ toggle, which we\'re going to use this ID. We\'ll grab that ID, and down
 here instead of slide down, we\'re going to do slide toggle, which will
 open it and close it. Here we can use some of the other easings that we
 find on this website here. This is where I got the easing plug-in on the
-CDN that I put into here. That\'s where that came from, Cloudflare. That
-comes from this website here, but we can use the easings that we see
-here. If I want an easeOutBounce, I can actually use that animation if I
-want to over here. Let\'s give that a try. \"easeOutBounce\". Make sure
-you spell it right with the capital letters and everything
+CDN that I put into here. That\'s where that came from, Cloudflare.
+
+That comes from this website here, but we can use the easings that we
+see here. If I want an easeOutBounce, I can actually use that animation
+if I want to over here. Let\'s give that a try. \"easeOutBounce\". Make
+sure you spell it right with the capital letters and everything
 easeOutBounce. Make sure you spell it all correct and that you get the
 correct capital letters. Make sure you put it inside the quotes, and so
 on and so forth. If I save that and then come back and look at my
@@ -2383,15 +2632,18 @@ the bounce on the opposite end of the animation, which might look a
 little weird, but let\'s give it a try. It\'s doing the bounce first and
 then it\'s finishing the animation, which looks a little weird, but you
 get the idea and you can try some of these other easings and see what
-personality you can get. I really like the easeOutCirc ones. Where did
-they go. Yeah, easeIn and easeOutCirc. You can give those a try. Let\'s
-see what we can do with that. Over here easeInCirc. Again, at two
-seconds, that\'s pretty slow. You can even slow down more if you wanted
-to see it. I\'ll set that to three seconds. You can see how it changes
-the animation by either slowing it down or speeding it up. I think this
-one\'s speeding it up as it gets to the end of the animation. Let\'s
-come back and try easeOutCirc. That\'s starting fast and ending slow. It
-gives the animation a little bit of personality as it does its thing.
+personality you can get.
+
+I really like the easeOutCirc ones. Where did they go. Yeah, easeIn and
+easeOutCirc. You can give those a try. Let\'s see what we can do with
+that. Over here easeInCirc. Again, at two seconds, that\'s pretty slow.
+You can even slow down more if you wanted to see it. I\'ll set that to
+three seconds. You can see how it changes the animation by either
+slowing it down or speeding it up. I think this one\'s speeding it up as
+it gets to the end of the animation. Let\'s come back and try
+easeOutCirc. That\'s starting fast and ending slow. It gives the
+animation a little bit of personality as it does its thing.
+
 That\'s pretty cool. You could try easeInOutCirc. It\'s hard to see, but
 it is doing something there. Try these different animations. You\'ll
 notice if you spell them wrong, if I do, easeoutCirc like that, then it
@@ -2406,114 +2658,126 @@ do about that because it\'s not a function. In order for this easing to
 work, you have to really make sure that you have easing plug-in, plugged
 in, and that your spelling these correctly easeOutCirc. Let\'s give that
 a try again. You can see that it\'s working nicely. Great, so that will
-all work and that\'s awesome. One last quick thing here before we\'re
-done with this lesson is you can also add the callback function after
-the easing. I could add a function here and say done, and you\'ll see
-that when that easing is finished, when that animation is finished, that
-callback function will fire. Absurd, I think I did. I Just did done but
-I need to do that right, alert, done like that. Now that\'ll work, and
-it comes back and it says it\'s done. That\'s working great. That gives
-us a lot of information about how to work with these built-in
-animations, and we\'re going to do more in the next lesson.
+all work and that\'s awesome.
 
-<h2 id="ch2-06">2.06 Example 3: Fading Buttons (4:00)</h2>
+One last quick thing here before we\'re done with this lesson is you can
+also add the callback function after the easing. I could add a function
+here and say done, and you\'ll see that when that easing is finished,
+when that animation is finished, that callback function will fire.
+Absurd, I think I did. I Just did done but I need to do that right,
+alert, done like that. Now that\'ll work, and it comes back and it says
+it\'s done. That\'s working great. That gives us a lot of information
+about how to work with these built-in animations, and we\'re going to do
+more in the next lesson.
 
-![](.images/image088.png){width="4.0in"
+# 2.05 Example 3: Fading Buttons (4:00) {#example-3-fading-buttons-400 .unnumbered}
+
+![](./3-12-24-images/media/image153.png){width="4.0in"
 height="2.473077427821522in"}
 
 In Example 3, we\'ll look at something that\'s similar to the other two,
-but just slightly different. It\'s got four buttons and we can use some
-built-in functions in **jQuery** to fade objects in and out, or to feed
-them to a particular percentage of opacity. Here I have fade out, which
-will fade it out completely. Fade in, will fade it all the way to being
-visible. But then I had fade to 20 percent, which will fade it to 20
-percent opacity, and then fade to 100 percent, which will fade it all
-the way in. Let\'s take a look at how we can do that. Over here I have
-Example 3 open and you can see that I have much the same styling up at
-the top of the page, as well as my navigation year and my **jQuery**
-libraries plugged in. I don\'t have the easing plug-in here, but you
-could add it if you wanted to add some easing to these as well. Here
-we\'re going to just go ahead and do what we did before with getting our
-link pound fade out box, which is this first link up here, and we\'re
-going to add our click handler to it. Click, and then we\'re going to
-pass in our anonymous function that runs when you click that thing. In
-here, we\'re going to go get our box. Again, we use our **jQuery**
-object to get pound box. Sometimes students make mistakes here and they
-forget to type the pound. If it\'s not working, make sure you have pound
-box in here. That\'s a common mistake that I\'ve seen. It\'s pound box
-to go get this div id box here. Then we\'re going to do, I believe the
-function is fade out because we\'re fading out the first one. Yeah,
-fade-out. Again, we could put in normal or you could put fast, or you
-could put slow, or you could put a specific number of milliseconds;
-3,003 seconds is a long time, but we can actually give that a try.
-You\'ll see that will actually work over here. We can fade the box out.
-Fade out. Over three seconds, it will become invisible. That works, and
-that\'s great. We could do fade in as well. I can copy that and paste it
-or just type it again. It\'s always a good idea to do that, but we\'re
-going to use this ID instead. Instead of fade out, we\'re going to fade
-in. I could do three seconds and you could do the easing swing. It\'s
-going to go in quotes, \'\'swing.\'\' Then you could also add a callback
-function, and that\'s parentheses. Inside the curly braces, we can add
-an \'\'alert\'\' that says \"done.\" Now we can fade the box out and we
-can fade the box in. Let\'s give that a try. Fade out, and it fades out
-over three seconds. Fade in, it\'ll fade in over three seconds. When the
-animation is complete, it runs the alert and says that it\'s done.
-That\'s great. We can do all of that. Okay, cool. Now we just need to
-add these last two here and we can look at that in the next lesson.
+but just slightly different.
 
-<h2 id="ch2-07">2.07 Example 3: Fade To (4:07)</h2>
+It\'s got four buttons and we can use some built-in functions in
+**jQuery** to fade objects in and out, or to feed them to a particular
+percentage of opacity. Here I have fade out, which will fade it out
+completely. Fade in, will fade it all the way to being visible. But then
+I had fade to 20 percent, which will fade it to 20 percent opacity, and
+then fade to 100 percent, which will fade it all the way in. Let\'s take
+a look at how we can do that.
 
-![](.images/image089.png){width="4.0in"
+Over here I have Example 3 open and you can see that I have much the
+same styling up at the top of the page, as well as my navigation year
+and my **jQuery** libraries plugged in. I don\'t have the easing plug-in
+here, but you could add it if you wanted to add some easing to these as
+well. Here we\'re going to just go ahead and do what we did before with
+getting our link pound fade out box, which is this first link up here,
+and we\'re going to add our click handler to it. Click, and then we\'re
+going to pass in our anonymous function that runs when you click that
+thing. In here, we\'re going to go get our box. Again, we use our
+**jQuery** object to get pound box. Sometimes students make mistakes
+here and they forget to type the pound. If it\'s not working, make sure
+you have pound box in here. That\'s a common mistake that I\'ve seen.
+It\'s pound box to go get this div id box here. Then we\'re going to do,
+I believe the function is fade out because we\'re fading out the first
+one. Yeah, fade-out. Again, we could put in normal or you could put
+fast, or you could put slow, or you could put a specific number of
+milliseconds; 3,003 seconds is a long time, but we can actually give
+that a try. You\'ll see that will actually work over here.
+
+We can fade the box out. Fade out. Over three seconds, it will become
+invisible. That works, and that\'s great. We could do fade in as well. I
+can copy that and paste it or just type it again. It\'s always a good
+idea to do that, but we\'re going to use this ID instead. Instead of
+fade out, we\'re going to fade in. I could do three seconds and you
+could do the easing swing. It\'s going to go in quotes, \'\'swing.\'\'
+Then you could also add a callback function, and that\'s parentheses.
+Inside the curly braces, we can add an \'\'alert\'\' that says \"done.\"
+Now we can fade the box out and we can fade the box in. Let\'s give that
+a try. Fade out, and it fades out over three seconds. Fade in, it\'ll
+fade in over three seconds. When the animation is complete, it runs the
+alert and says that it\'s done. That\'s great. We can do all of that.
+Okay, cool. Now we just need to add these last two here and we can look
+at that in the next lesson.
+
+# 2.06 Example 3: Fade To (4:07) {#example-3-fade-to-407 .unnumbered}
+
+![](./3-12-24-images/media/image154.png){width="4.0in"
 height="2.473077427821522in"}
 
-In this lesson, we\'ll make these last two buttons work. And with that,
-there\'s a fade to method that we can use in **jQuery**. So let\'s go
-see how that works. So here, just as we\'ve done before, we can add a
-new event handler for when you click the the button has fadeto20box on
-here. I\'m going to paste that in just to make sure I spell it right and
-we\'ll add a click handler. And again, I recommend typing this just to
-get used to the syntax. And then in here, we\'ll add a function that
-runs when you click it, it\'s just an anonymous function. And what
-we\'re going to do here is once again, we\'ll go get pound box. Don\'t
-forget the pound sign. And we\'re going to use the fade to method. See
-it even comes up here, fade to. And we\'re going to fade to, the way
-this works is we\'re going to put in the amount of time. So we\'ll do,
-again I\'ll do 3000, just to kind of slow but gives us a sense of what
-that is. But then the second number it takes is a duration, an amount.
-Takes the duration, that\'s the first number. The second number is how
-much it\'s going to fade to. We want to do 0.2 like that. And now, that
-should actually work. So let\'s go over and check it out. Press refresh
-this and click fade to, it fades down but it doesn\'t fade all the way
-down, it fades to 20%. So that\'s really pretty cool. So we can do that
-and then we can do the fade to again for the last one. So I\'m just
-going to copy this and paste it, and we\'re going to use this link fade
-200. So when you click the fade 200, it\'s going to fade to one. So the
-opacity is a number between 0 and 1, 0 is completely transparent, 1 is
-completely opaque and that should work just fine. So let\'s give it a
-try over here and refresh. I can fade down to 20% and then I can fade up
-to 100%, or I could fade out entirely And I can fade in entirely. So all
-of these buttons are working. This one has the callback function and the
-swing animation on it. And if you wanted to do some of the other
-easings, you would have to go get that easing plug in and stick it here
-after **jQuery** loads. But before we run our script, the order in which
-things loads matters because of the way that the functions build on each
-other. So we need to have **jQuery**. In order to use **jQuery**, we
-would need to have the easing plug-in in in order to use the using plug
-in. Using plug in has to come after **jQuery**. So all of this stuff has
-to go in order on your page for it to work properly. We can have the
-callback functions and all that kind of fun stuff. And then in the next
-example, an example for, we\'ll look at some custom animations where you
-can do some different kinds of things. In examples 1, 2 and 3, we\'ve
-used some of the built-in convenience functions that **jQuery** has
-built into it. For fading in and out, for sliding up and down, for
-hiding and showing, and toggling, slide toggle and doing all these kinds
-of things that we commonly need to do. But sometimes you need to do a
-custom function, and we\'ll take a look at that in the next part of this
-lesson.
+In this lesson, we\'ll make these last two buttons work.
 
-<h2 id="ch2-08">2.08 Example 4: Custom Animations -- Part 1 (4:20)</h2>
+And with that, there\'s a fade to method that we can use in **jQuery**.
+So let\'s go see how that works. So here, just as we\'ve done before, we
+can add a new event handler for when you click the the button has
+fadeto20box on here. I\'m going to paste that in just to make sure I
+spell it right and we\'ll add a click handler. And again, I recommend
+typing this just to get used to the syntax. And then in here, we\'ll add
+a function that runs when you click it, it\'s just an anonymous
+function. And what we\'re going to do here is once again, we\'ll go get
+pound box. Don\'t forget the pound sign.
 
-![](.images/image090.png){width="4.0in"
+And we\'re going to use the fade to method. See it even comes up here,
+fade to. And we\'re going to fade to, the way this works is we\'re going
+to put in the amount of time. So we\'ll do, again I\'ll do 3000, just to
+kind of slow but gives us a sense of what that is. But then the second
+number it takes is a duration, an amount. Takes the duration, that\'s
+the first number. The second number is how much it\'s going to fade to.
+We want to do 0.2 like that. And now, that should actually work. So
+let\'s go over and check it out. Press refresh this and click fade to,
+it fades down but it doesn\'t fade all the way down, it fades to 20%. So
+that\'s really pretty cool.
+
+So we can do that and then we can do the fade to again for the last one.
+So I\'m just going to copy this and paste it, and we\'re going to use
+this link fade 200. So when you click the fade 200, it\'s going to fade
+to one. So the opacity is a number between 0 and 1, 0 is completely
+transparent, 1 is completely opaque and that should work just fine. So
+let\'s give it a try over here and refresh. I can fade down to 20% and
+then I can fade up to 100%, or I could fade out entirely And I can fade
+in entirely. So all of these buttons are working. This one has the
+callback function and the swing animation on it. And if you wanted to do
+some of the other easings, you would have to go get that easing plug in
+and stick it here after **jQuery** loads.
+
+But before we run our script, the order in which things loads matters
+because of the way that the functions build on each other. So we need to
+have **jQuery**. In order to use **jQuery**, we would need to have the
+easing plug-in in in order to use the using plug in. Using plug in has
+to come after **jQuery**. So all of this stuff has to go in order on
+your page for it to work properly. We can have the callback functions
+and all that kind of fun stuff. And then in the next example, an example
+for, we\'ll look at some custom animations where you can do some
+different kinds of things. In examples 1, 2 and 3, we\'ve used some of
+the built-in convenience functions that **jQuery** has built into it.
+For fading in and out, for sliding up and down, for hiding and showing,
+and toggling, slide toggle and doing all these kinds of things that we
+commonly need to do. But sometimes you need to do a custom function, and
+we\'ll take a look at that in the next part of this lesson.
+
+# 2.07 Example 4: Custom Animations -- Part 1 (4:20) {#example-4-custom-animations-part-1-420 .unnumbered}
+
+![](./3-12-24-images/media/image155.png){width="4.0in"
 height="2.361538713910761in"}
 
 Next, for example 4, we\'re going to look at some of the custom
@@ -2560,9 +2824,9 @@ That\'s cool. All right. We were able to pass that in and do that one.
 Let\'s take a look at growing the text and affecting the actual text
 inside the box in the next lesson.
 
-<h2 id="ch2-09">2.09 Example 4: Custom Animations - 2 (5:59)</h2>
+# 2.08 Example 4: Custom Animations - 2 (5:59) {#example-4-custom-animations---2-559 .unnumbered}
 
-![](.images/image091.png){width="4.0in"
+![](./3-12-24-images/media/image156.png){width="4.0in"
 height="2.361538713910761in"}
 
 For this next example, we will start with our **jQuery** object again as
@@ -2622,9 +2886,9 @@ pretty cool. Okay, great. We\'re able to adjust the amount of time and
 the amount that it moves in, what it does with the actual animation, all
 with custom animation.
 
-<h2 id="ch2-10">2.10 Doing All Animations at Once (6:30)</h2>
+# 2.09 Doing All Animations at Once (6:30) {#doing-all-animations-at-once-630 .unnumbered}
 
-![](.images/image092.png){width="4.0in"
+![](./3-12-24-images/media/image157.png){width="4.0in"
 height="2.361538713910761in"}
 
 For next button on Example 4, we want to actually make all of these
@@ -2691,22 +2955,30 @@ doing something fairly quick, there\'s not a lot of reason not to use
 it. We\'ll see an example of when is a good place to use this effects
 library coming up when we create a tabbed interface.
 
-## Additional Resources
+## Additional Resources {#additional-resources .unnumbered}
 
 Here are resources related to these lessons:
 
-### 2.10 [jQuery Easing Plugin](https://gsgd.co.uk/sandbox/jquery/easing/)
+### 2.09 [jQuery Easing Plugin](https://gsgd.co.uk/sandbox/jquery/easing/)
 
-### 2.10 [jQuery Easing](https://cdnjs.com/libraries/jquery-easing)
+### https://gsgd.co.uk/sandbox/jquery/easing/ {#httpsgsgd.co.uksandboxjqueryeasing .unnumbered}
 
-## PDF of Presentation
+### 2.09 [jQuery Easing](https://cdnjs.com/libraries/jquery-easing)
+
+### https://cdnjs.com/libraries/jquery-easing {#httpscdnjs.comlibrariesjquery-easing .unnumbered}
+
+## PDF of Presentation {#pdf-of-presentation-3 .unnumbered}
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **Intro to jQuery Effects Library**.
 
-<h2 id="ch2-11">2.11 jQuery-Effects-Library.pdf2.11 Intro to Tabbed Interface Using jQuery (x:xx)</h2>
+### 
 
-![](.images/image093.png){width="4.0in"
+# 2.09 jQuery-Effects-Library.pdfhttps://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#jquery-effects-library.pdfhttpsd3c33hcgiwev3.cloudfront.netipt9jx2grvgbfy19onbxga_273f1d9cb53a443b95389299f4786bf1_web1091_m02_jquery-effects-library.pdfexpires1710460800signaturehsgahtrwghjj8szjqosqr6opex4ypq4wyk6iimgqqdpfppeza6op9kptnmy7uxt8yekkheremfyns0ey-t2od4irivqaqsdc0alpispen8ddbrd1y-hulqow0tuqdgxfcomuuajgywbfit8hxzwo0qs4swnkysdnfqvoe8e_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
+
+# 2.10 Intro to Tabbed Interface Using jQuery (5:27) {#intro-to-tabbed-interface-using-jquery-527 .unnumbered}
+
+![](./3-12-24-images/media/image158.png){width="4.0in"
 height="2.361538713910761in"}
 
 Tabbed interface, using **jQuery**. We\'re going to create this tabbed
@@ -2756,110 +3028,263 @@ it would be selected as an unordered lists, it\'s a direct descending, a
 direct child of tabs. It\'s possible that inside my tab-content here,
 maybe I\'d want to have an unordered list of things. I might want ul
 with some list items. Example 1, something like this, li. Example 2,
-something like that. But I didn\'t want
+something like that. But I didn\'t want this unordered list to get
+targeted by my rules, I only want this one because this is actual
+content in my tab. That\'s why I\'m using the angle bracket here, is
+that it will only target the specific selector for my element tabs that
+are there. That will actually work for that, great. We\'ve got that in
+place, and now my tabs are lining up next to each other, still doesn\'t
+look very good, but we\'re getting there. Great. We\'ll continue with
+the styling in the next lesson.
 
-this unordered list to get targeted by my rules, I only want this one
-because this is actual content in my tab. That\'s why I\'m using the
-angle bracket here, is that it will only target the specific selector
-for my element tabs that are there. That will actually work for that,
-great. We\'ve got that in place, and now my tabs are lining up next to
-each other, still doesn\'t look very good, but we\'re getting there.
-Great. We\'ll continue with the styling in the next lesson.
-
-### Start Files: Creating a Tabbed Interface with jQuery 
+### Start Files: Creating a Tabbed Interface with jQuery {#start-files-creating-a-tabbed-interface-with-jquery .unnumbered}
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
-2.11 jQuery-Tabs-START.zip**Additional Resource:**
+## zip START Files {#zip-start-files-2 .unnumbered}
+
+### 
+
+2.10 jQuery-Tabs-START.zip
+
+**Additional Resource:**
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-<h2 id="ch2-12">2.12 Styling the Anchor Tags (x:xx)</h2>
+# 2.11 Styling the Anchor Tags (5:32) {#styling-the-anchor-tags-532 .unnumbered}
 
-![](.images/image094.png){width="4.0in"
+![](./3-12-24-images/media/image159.png){width="4.0in"
 height="2.361538713910761in"}
 
 The next rule styles the actual anchor tags that are inside the list
-items that are inside the unordered list that are inside the tabs. And
-again I\'ve got the angle brackets to very specifically get the elements
-I specifically want. And this is a longer rule so I\'m going to paste it
-in but you\'re going to have to type it so, I\'m going to come over here
-and I\'ll add it here and again you\'re going to have to type it. But
-first thing I want the anchor tags to display block elements not in line
-elements. Remember anchor tags by default in line elements and I want
-them to displace block and what that does is it makes the entire area of
-the tab clickable not just the text. Plus it makes padding and margin a
-little bit easier to work with unblock elements because they don\'t all
-affect in line elements quite the same way. I\'m setting the height 30
-pixels and the line nine to 30 pixels and that puts the text in the
-vertical center. As long as it doesn\'t wrap around margin on the right
-to pixels to create a little bit of a gap and then I\'m just setting a
-background color, the color of the actual font color and then the text
-decoration. I\'m getting rid of the underlining putting some padding on
-the left and right. So zero 15 pixels that would be zero on the top and
-bottom and 15 pixels and left and right. And then I\'m doing some border
-radius where I\'m putting the border giving a little three pixel radius
-on the top left and top right of each tab. So with that in place you\'ll
-see over here if you save that, you\'ll see that the tabs are starting
-to display the way we want them to display and they\'re looking like
-tabs. So that\'s great that\'s coming along really nicely. We have a few
-more rules that we need to adhere to make our make our interface look
-that we wanted to look. So I\'m going to add these two rules here,
-you\'re going to have to type them in. But this is again going to target
-the dives that are specifically these dips the dips that are labeled tab
-one tattoo because again I could add a dip in here as part of my content
-and I don\'t want that to be affected. But I want just these gifts here
-the ones that are tab one tattoo and tab three to be affected by this
-rule. And basically what I\'m doing here is I\'m setting them so they
-don\'t display initially at all. So that hides them all entirely and
-then I\'m just giving them a little bit of padding and setting the
-background color. But then the first one I want the first one to display
-is block and set its background color.
+items that are inside the unordered list that are inside the tabs.
+
+And again I\'ve got the angle brackets to very specifically get the
+elements I specifically want. And this is a longer rule so I\'m going to
+paste it in but you\'re going to have to type it so, I\'m going to come
+over here and I\'ll add it here and again you\'re going to have to type
+it. But first thing I want the anchor tags to display block elements not
+in line elements. Remember anchor tags by default in line elements and I
+want them to displace block and what that does is it makes the entire
+area of the tab clickable not just the text. Plus it makes padding and
+margin a little bit easier to work with unblock elements because they
+don\'t all affect in line elements quite the same way. I\'m setting the
+height 30 pixels and the line nine to 30 pixels and that puts the text
+in the vertical center. As long as it doesn\'t wrap around margin on the
+right to pixels to create a little bit of a gap and then I\'m just
+setting a background color, the color of the actual font color and then
+the text decoration. I\'m getting rid of the underlining putting some
+padding on the left and right.
+
+So zero 15 pixels that would be zero on the top and bottom and 15 pixels
+and left and right. And then I\'m doing some border radius where I\'m
+putting the border giving a little three pixel radius on the top left
+and top right of each tab. So with that in place you\'ll see over here
+if you save that, you\'ll see that the tabs are starting to display the
+way we want them to display and they\'re looking like tabs. So that\'s
+great that\'s coming along really nicely. We have a few more rules that
+we need to adhere to make our make our interface look that we wanted to
+look. So I\'m going to add these two rules here, you\'re going to have
+to type them in. But this is again going to target the dives that are
+specifically these dips the dips that are labeled tab one tattoo because
+again I could add a dip in here as part of my content and I don\'t want
+that to be affected.
+
+But I want just these gifts here the ones that are tab one tattoo and
+tab three to be affected by this rule. And basically what I\'m doing
+here is I\'m setting them so they don\'t display initially at all. So
+that hides them all entirely and then I\'m just giving them a little bit
+of padding and setting the background color. But then the first one I
+want the first one to display is block and set its background color.
 
 So what that will do, you\'ll see when we come over here is currently
 all of these all of our tabs are showing and really I just want the
 first one to show. So when I refresh this you\'ll see that the first tab
 is showing but the other tabs are not and I\'m not going to have styling
-for these list items in here. So I\'m going to go in and take them out
-just because I don\'t need that stuff in there. That was just to
-demonstrate that those won\'t get targeted by the other rule. I take
-that stuff out for now, that\'s great. And then I\'ve got a couple other
-really minor rules for styling that will just kind of fix up the way we
-want our taps to look and everything to look for this project, switch
-back to the styles and add two more rules you have to add in here. The
-1st 1 is styling the anchor tags again, this is getting our first tab up
-at the top of the page and I\'m just changing its color and changing
-it\'s background so it matches our interface. And then I\'m just giving
-a little bit of styling to the paragraphs to make them look a little bit
-better. And so there\'s this one isn\'t super critical but it\'s kind of
-nice to add in there to make our paragraphs look a little bit better
-here. So now we have the actual interface it doesn\'t function but this
-is the interface that we want for our tabs. And the reason why I showed
-you the styling is again because javascript is very much tied to the
-browser and tied to adjusting the styling. It\'s important to understand
-how the styling works and that when you\'re making an interface like
-this, you want to get the styling for the widget or the element or the
-interface element to work properly before you start working on the
-javascript. So here we have three dips but two of them are set to
-display none and one of them is set to display block. We have unordered
-list and they\'re all styled here but the first one has a background
-color kind of matches this thing so it really starts to look like a tap
-and we want to get that styling in place. The next step will be to add
-the j query to make the thing actually work and we\'ll start working on
-that in the next lesson.
+for these list items in here.
 
-<h2 id="ch2-13">2.13 Tab Styling and Colors (x:xx)</h2>
+So I\'m going to go in and take them out just because I don\'t need that
+stuff in there. That was just to demonstrate that those won\'t get
+targeted by the other rule. I take that stuff out for now, that\'s
+great. And then I\'ve got a couple other really minor rules for styling
+that will just kind of fix up the way we want our taps to look and
+everything to look for this project, switch back to the styles and add
+two more rules you have to add in here.
 
-![](.images/image095.png){width="4.0in"
+The 1st 1 is styling the anchor tags again, this is getting our first
+tab up at the top of the page and I\'m just changing its color and
+changing it\'s background so it matches our interface. And then I\'m
+just giving a little bit of styling to the paragraphs to make them look
+a little bit better. And so there\'s this one isn\'t super critical but
+it\'s kind of nice to add in there to make our paragraphs look a little
+bit better here. So now we have the actual interface it doesn\'t
+function but this is the interface that we want for our tabs.
+
+And the reason why I showed you the styling is again because javascript
+is very much tied to the browser and tied to adjusting the styling.
+It\'s important to understand how the styling works and that when
+you\'re making an interface like this, you want to get the styling for
+the widget or the element or the interface element to work properly
+before you start working on the javascript. So here we have three dips
+but two of them are set to display none and one of them is set to
+display block. We have unordered list and they\'re all styled here but
+the first one has a background color kind of matches this thing so it
+really starts to look like a tap and we want to get that styling in
+place. The next step will be to add the j query to make the thing
+actually work and we\'ll start working on that in the next lesson.
+
+# 2.12 Tab Styling and Colors (6:07) {#tab-styling-and-colors-607 .unnumbered}
+
+![](./3-12-24-images/media/image160.png){width="4.0in"
 height="2.361538713910761in"}
 
-<h2 id="ch2-14">2.14 Clicking and Fading Tabs (x:xx)</h2>
+Now we\'re ready to start with
 
-![](.images/image096.png){width="4.0in"
+writing our script to make our actual interface function or tapped
+interface function. You can see down here at
+
+the bottom of this file, I\'ve added the link to
+
+the jQuery library. One thing that\'s interesting is, I was reading
+online
+
+yesterday that they have just released jQuery 3.6. I\'m still using
+3.5.1 here and at the time that
+
+I\'m making this video, if you go to the
+
+Google CDN for jQuery, they\'ve not updated there yet, but eventually it
+will
+
+get updated to 3.6. Everybody\'s going
+
+to have to test for their scripts before
+
+switching over. But I don\'t think it\'s
+
+a very major update, so will work fine with this one, and that\'ll work
+out just fine. The first thing we want to
+
+do here is add some jQuery to gather all of our anchor tags in here and
+add it to when you click on
+
+these something happens. Again, we\'re going to use
+
+our jQuery object as always, and in here again, I want to very
+specifically
+
+target the ul angle bracket, li angled bracket a. Or even better I want
+
+pound tabs angled bracket. UL, li, a, because I want to very
+specifically target
+
+these anchor tags, not any other anchor tags
+
+anywhere else on the page. That\'s why I\'m using the
+
+angle brackets in there. I want to target those and then I want to add a
+click handler, so that when click
+
+something happens. Of course I come in here and as we\'ve done
+
+before add a function, an anonymous function
+
+that runs when you click these links. This anonymous
+
+function will run and is always on typing from
+
+the outside ends so that you can really make
+
+sure that you don\'t lose any curly braces or semi-colons
+
+or anything like that. Then I can click inside
+
+the curly braces and in here what I want to do first is I want to get
+all
+
+of these anchor tags here, and make it so that the color and the
+
+background color of these are all set to the default background
+
+here, this default color. Then I\'m going to take
+
+the one that I\'ve clicked on and change its background
+
+color to this color and the color of the
+
+font to this color. I\'m going to change two
+
+things in this click handler. I\'m going to change
+
+this background color and this and then that one there. What I want to
+do
+
+here is I\'m want to get these same anchor tags. Down here I\'m actually
+
+going to copy this. I\'m going to affect
+
+these elements that I\'m already getting here. I\'m going to get those
+
+and I\'m going to do.css. Before when we did CSS and we did something
+like this color, comma and you can do green or you can do whatever
+
+you want and pass in a two arguments that are setting the color
+
+to green like this. But you can also use this method with an object if
+you get a set multiple things, that\'s what we\'re
+
+going to do here. We\'re actually going to
+
+set multiple things. I\'m going to put
+
+an object in here. We\'ve talked about objects
+
+briefly and we\'ll get into objects later on in our lessons, we\'ll get
+more
+
+deeply into objects. But an object starts and
+
+ends with curly braces. Then we can pass in key value pairs that will
+
+work with this object. The CSS method in jQuery allows you to do this if
+you can set multiple things. We do want to set multiple
+
+things because we want to set the background and color. We\'re going to
+set background and that doesn\'t go in quotes
+
+because it\'s the property. We\'re going to set it to, this one does go
+in quotes, pound a2a2a2, and then a comma. We\'re going to set color,
+colon, and its properties
+
+can be pound cecece. That\'s going to set these colors. Again, where am
+I getting that? That\'s coming straight from
+
+the styling over here. The color of the text is this lighter gray and in
+the background
+
+is this darker gray. That\'s where that\'s coming from and that\'s what
+I
+
+want to set these to. They immediately all
+
+of them gets set to the color of the background. If I come over here
+
+and test this. As soon as I click
+
+on one of these, you\'ll see they all turn
+
+to that dark color. Then I want to take the one
+
+that I clicked on, this one, and set it to this color here. We\'ll do
+that in the next video.
+
+# 2.13 Clicking and Fading Tabs (4:45) {#clicking-and-fading-tabs-445 .unnumbered}
+
+![](./3-12-24-images/media/image161.png){width="4.0in"
 height="2.361538713910761in"}
 
 All of the backgrounds to default color. Now we need to turn the
@@ -2912,9 +3337,9 @@ tabs, it is actually changing and getting some different information in
 there. That\'s what we\'ll do in the next lesson and we\'ll finish this
 thing up and you\'ll see how the interface looks when we\'re done.
 
-<h2 id="ch2-15">2.15 Whole Script (7:40)</h2>
+# 2.14 Whole Script (7:40) {#whole-script-740 .unnumbered}
 
-![](.images/image097.png){width="4.0in"
+![](./3-12-24-images/media/image162.png){width="4.0in"
 height="2.361538713910761in"}
 
 Now we need to fade out the current tab that is showing. We can get rid
@@ -2995,20 +3420,19 @@ Let\'s just test it really quickly and make sure it works. Refresh, and
 it\'s working great. We\'ve got a nice, clean, simple script that we can
 use using **jQuery**.
 
-### PDF of Presentation
+## PDF of Presentation {#pdf-of-presentation-4 .unnumbered}
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **Creating a Tabbed Interface with jQuery**.
 
--   
+### 
 
-<ul>
-  <li><a href="">2.15 Tab-Interface-with-jQuery.pdf</a></li>
-</ul>
+> 2.14
+> Tab-Interface-with-jQuery.pdfhttps://d3c33hcgiwev3.cloudfront.net/inVXebUXQ2K1V3m1F2NiSw_d4300f49ffee4d9c8a238bbd05fb7cf1_WEB1091_M02_Tab-Interface-with-jQuery.pdf?Expires=1710460800&Signature=TUVBZ-pLZMvz3154zoz4naFbb0FFAYoUONrWf8eCnMAzchrpxJTNEPS3X4lnnVw6hnlpEJYK3k0mZWiQZ7WqCMdTBTuXTNUJURIDOmpZeiQbWldXXlrTZQfiJdJKg-fGyo05ULgyVeyJOQ-1I30oiTLVWY-S1pGcj-F6OnTGQZA\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
-<h2 id="ch2-16">2.16 Getting the CSS Ready (5:53)</h2>
+# 2.15 Getting the CSS Ready (5:53) {#getting-the-css-ready-553 .unnumbered}
 
-![](./images/image098.png){width="4.0in"
+![](./3-12-24-images/media/image163.png){width="4.0in"
 height="2.361538713910761in"}
 
 Now that you\'ve created the tabbed interface using J query, we\'re
@@ -3084,25 +3508,27 @@ of this is actually functioning yet. But the look is the same as what we
 had in the original in the original version of the Jacob version, and
 we\'ll start working on the JavaScript in the next lesson.
 
-### Start Files: Creating a Tabbed Interface with JavaScript 
+# Start Files: Creating a Tabbed Interface with JavaScript {#start-files-creating-a-tabbed-interface-with-javascript .unnumbered}
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
+## zip START Files {#zip-start-files-3 .unnumbered}
+
 -   
 
-2.16 JS-Tabs-START.zip
+> 2.15 JS-Tabs-START.zip
 
-### **Additional Resource:**
+### **Additional Resource:** {#additional-resource .unnumbered}
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-<h2 id="ch2-17">2.17 Making the Tabs Work (6:52)</h2>
+# 2.16 Making the Tabs Work (6:52) {#making-the-tabs-work-652 .unnumbered}
 
-![](.images/image099.png){width="4.0in"
+![](./3-12-24-images/media/image164.png){width="4.0in"
 height="2.361538713910761in"}
 
 Hopefully, you got all this CSS in place and now you\'re ready to start
@@ -3175,9 +3601,9 @@ these tabs and have the correct classes. It looks like it\'s doing that,
 now we have to actually make the content work. We\'ll do that in the
 next lesson.
 
-<h2 id="ch2-18">2.18 New Tab and Old Tab (7:20)</h2>
+# 2.17 New Tab and Old Tab (7:20) {#new-tab-and-old-tab-720 .unnumbered}
 
-![](./images/image100.png){width="4.0in"
+![](./3-12-24-images/media/image165.png){width="4.0in"
 height="2.361538713910761in"}
 
 Now that we have the actual tabs working properly, we have to do
@@ -3254,42 +3680,48 @@ say display blocking on and we\'ve transitioned it down to capacity
 zero. Now we can just set it so displaying nine instead of display block
 at that point.
 
-<h2 id="ch2-19">2.19 Handling the Switch (4:50)</h2>
+# 2.18 Handling the Switch (4:50) {#handling-the-switch-450 .unnumbered}
 
-![](./images/image101.png){width="4.0in" height="2.361538713910761in"}
+![](./3-12-24-images/media/image166.png){width="4.0in"
+height="2.361538713910761in"}
 
-We\'ve taken care of the old content, so we have said it. We\'ve taken
-the old content. What was the element that had visible on it? And we\'ve
-set its class individually hidden and that fades it out. That sets it
-down so its capacity is at zero over 200 milliseconds. When that
-transition has ended, we\'re going to run a function to set it, so that
-it\'s completely hidden. And that just sets it to display none, so that
-it\'s off the off the dumb entirely. Now, what we want to do is for the
-new content. We need to handle the new content. Which is this tab, the
-tab that we clicked in, the content that goes with it. We need to set it
-to be visible, but with the opacity at zero. And then after a very short
-set time out, we\'ll talk about set time every minute. But after a very
-short wait, we\'re going to change its capacity to one, so that it fades
-in. So let\'s do that really quickly here. So let\'s do that here.
-We\'re going to come down here and we already have a variable this
-content so we can use that. This content. This is our new content.
-We\'re going to set its class name. \[SOUND\]. We\'re going to give it
-to classes. Were going to give it the class of visible \[SOUND\]. I
-think I spell that right. Hopefully. And visually hidden. And hopefully
-I spelled that right. Of course, you could go over to the styles. And
-make sure you copy and paste to make sure that they\'re spelled right.
-That\'s always the best way to make sure your spelling things right. I
-think I did do it right. And visually hidden. So visible will set it to
-display block, so that it\'s on the page. But visually hidden will set
-it so that it\'s capacity is at zero. And then we need to wait just a
-split second. And then get rid of the visually hidden class, so that the
-opacity comes up to 100%. And to make it wait, we\'re going to use a
-method in Javascript that we haven\'t talked about yet. And we\'ll get
-more into this in a future lesson, but this is a good place to introduce
-it. We\'re going to use set time out. And set time out well, wait a
-certain amount of time to do something. And basically what we can do is
-we can pass it to function. That\'s going to run, over a certain amount
-of time. I was just going to wait a split second like 20 milliseconds.
+We\'ve taken care of the old content, so we have said it.
+
+We\'ve taken the old content. What was the element that had visible on
+it? And we\'ve set its class individually hidden and that fades it out.
+That sets it down so its capacity is at zero over 200 milliseconds. When
+that transition has ended, we\'re going to run a function to set it, so
+that it\'s completely hidden. And that just sets it to display none, so
+that it\'s off the off the dumb entirely. Now, what we want to do is for
+the new content. We need to handle the new content. Which is this tab,
+the tab that we clicked in, the content that goes with it. We need to
+set it to be visible, but with the opacity at zero. And then after a
+very short set time out, we\'ll talk about set time every minute. But
+after a very short wait, we\'re going to change its capacity to one, so
+that it fades in. So let\'s do that really quickly here.
+
+So let\'s do that here. We\'re going to come down here and we already
+have a variable this content so we can use that. This content. This is
+our new content. We\'re going to set its class name. \[SOUND\]. We\'re
+going to give it to classes. Were going to give it the class of visible
+\[SOUND\]. I think I spell that right. Hopefully. And visually hidden.
+
+And hopefully I spelled that right. Of course, you could go over to the
+styles. And make sure you copy and paste to make sure that they\'re
+spelled right. That\'s always the best way to make sure your spelling
+things right. I think I did do it right. And visually hidden. So visible
+will set it to display block, so that it\'s on the page. But visually
+hidden will set it so that it\'s capacity is at zero. And then we need
+to wait just a split second. And then get rid of the visually hidden
+class, so that the opacity comes up to 100%. And to make it wait, we\'re
+going to use a method in Javascript that we haven\'t talked about yet.
+And we\'ll get more into this in a future lesson, but this is a good
+place to introduce it. We\'re going to use set time out. And set time
+out well, wait a certain amount of time to do something. And basically
+what we can do is we can pass it to function. That\'s going to run, over
+a certain amount of time. I was just going to wait a split second like
+20 milliseconds.
+
 Very short amount of time just to let that thing come on the page, get
 the class set and then remove the class. So this function will run. This
 callback function will run after 20 milliseconds. So I\'m just going to
@@ -3308,53 +3740,58 @@ what I was expecting at all. Alright, cool. I\'m going to refresh this,
 so I don\'t have that going on. Okay, we\'re going to fix this and look
 at sort of the solution for fixing that in the next lesson.
 
-<h2 id="ch2-20">2.20 Fixing a Bug (6:19)</h2>
+# 2.19 Fixing a Bug (6:19) {#fixing-a-bug-619 .unnumbered}
 
-![](./images/image102.png){width="4.0in"
+![](./3-12-24-images/media/image167.png){width="4.0in"
 height="2.361538713910761in"}
 
 We got our tabbed interface working, but you probably noticed that we
-had a pretty severe bug. Where it works once clicking on the tabs, but
-once we click on them a second time, we get this weird flashing thing
-going on. So what\'s going on with that? Well, the real problem has to
-do with this transition and EventListener, because we\'ve added the
-transition and EventListener. And it works when you click on the links
-the first time, it\'s looking for that transition end. But that
-EventListener\'s getting added onto old content each time you click on
-it. So all of a sudden when you\'re clicking on it a second time, it\'s
-firing a second time and running again and it ends up in this weird loop
-where it\'s doing this kind of thing. So what do we do about that? What
-we can do is at the end of this EventListener down here after the
-function. So this function opens here and closes at this curly brace
-here after this function for it that runs when the transition it. We can
-put a comma and another object, so another set of curly braces in there.
-And there\'s actually three settings that we can add to the
-AddEventListener that will help us work with these different pieces
-here. And what they are are capture, False, once:true, and
-passive:false. The only one we really care about here is this once:true.
-What once:true does is it says add this EventListener once, and then
-when you\'re done with it, remove it, so that will get rid of that. Get
-rid of that problem, capture and passive, they\'re all false by default.
-If you don\'t put this thing in here at all, then they\'re all here but
-they\'re all false by default. So we\'re leaving these two as false but
-we\'re making this one true, we have to put these two in if we\'re going
-to just change this one. So we pass in this little object here that has
-capture:false, once:true, passive:false. And if we save that and come
-back and refresh the page over here. Now you\'ll notice that I can click
-on it and it will run, but it\'s dispensing of that EventListener after
-the first time. So now when I click on it again, it\'s just doing it
-properly. It\'s getting rid of the old EventListener and adding the new
-one and only gets added once. So that\'s working perfectly fine, that\'s
-great. So now at this point we have a working functional script over
-here. We can look at the script and it\'s a lot more complicated than
-the **jQuery** version. I think we can all agree that this script is a
-lot more complicated in the **jQuery** version. And part of your
-decision as to which one you would want to use if you wanted to include
-such an interface on a project of one sort or another is, is it worth
-including the entire **jQuery** library in order to have a shorter
-script here? Or is it better to have the longer script and make use of
-CSS and do this kind of stuff? Now we can do a few more things to make
-this a little bit better, and to make it a little bit more efficient and
+had a pretty severe bug.
+
+Where it works once clicking on the tabs, but once we click on them a
+second time, we get this weird flashing thing going on. So what\'s going
+on with that? Well, the real problem has to do with this transition and
+EventListener, because we\'ve added the transition and EventListener.
+And it works when you click on the links the first time, it\'s looking
+for that transition end. But that EventListener\'s getting added onto
+old content each time you click on it. So all of a sudden when you\'re
+clicking on it a second time, it\'s firing a second time and running
+again and it ends up in this weird loop where it\'s doing this kind of
+thing. So what do we do about that? What we can do is at the end of this
+EventListener down here after the function.
+
+So this function opens here and closes at this curly brace here after
+this function for it that runs when the transition it. We can put a
+comma and another object, so another set of curly braces in there. And
+there\'s actually three settings that we can add to the AddEventListener
+that will help us work with these different pieces here. And what they
+are are capture, False, once:true, and passive:false. The only one we
+really care about here is this once:true. What once:true does is it says
+add this EventListener once, and then when you\'re done with it, remove
+it, so that will get rid of that. Get rid of that problem, capture and
+passive, they\'re all false by default. If you don\'t put this thing in
+here at all, then they\'re all here but they\'re all false by default.
+
+So we\'re leaving these two as false but we\'re making this one true, we
+have to put these two in if we\'re going to just change this one. So we
+pass in this little object here that has capture:false, once:true,
+passive:false. And if we save that and come back and refresh the page
+over here. Now you\'ll notice that I can click on it and it will run,
+but it\'s dispensing of that EventListener after the first time. So now
+when I click on it again, it\'s just doing it properly. It\'s getting
+rid of the old EventListener and adding the new one and only gets added
+once. So that\'s working perfectly fine, that\'s great. So now at this
+point we have a working functional script over here. We can look at the
+script and it\'s a lot more complicated than the **jQuery** version. I
+think we can all agree that this script is a lot more complicated in the
+**jQuery** version. And part of your decision as to which one you would
+want to use if you wanted to include such an interface on a project of
+one sort or another is, is it worth including the entire **jQuery**
+library in order to have a shorter script here?
+
+Or is it better to have the longer script and make use of CSS and do
+this kind of stuff? Now we can do a few more things to make this a
+little bit better, and to make it a little bit more efficient and
 perhaps a little bit shorter and easier to read and all that stuff. So
 we\'re going to add those things in next. The first thing of course, is
 to just do our best practices and add in here our IIFE, our immediately
@@ -3369,6 +3806,7 @@ be const here, that one, that one, that one can be const. And I think
 that\'s it for that stuff, so that should all work. Let\'s just test it
 and make sure I didn\'t mess anything up there. I think it will work,
 yep, that works fine, I didn\'t break anything, so that\'s cool, okay.
+
 But there are a few more things that I want to show you that we can do
 with this script to make it a little bit better and a little bit more
 modern. And there are things that we\'re going to talk about in more
@@ -3379,108 +3817,116 @@ in more depth. I think it\'s nice to sort of come into that kind of
 conversation with a little bit of experience with them. So we\'ll look
 at those features of Javascript next.
 
-<h2 id="ch2-21">2.21 Cleaning Up the Code (7:26)</h2>
+# 2.20 Cleaning Up the Code (7:26) {#cleaning-up-the-code-726 .unnumbered}
 
-![](./images/image103.png){width="4.0in"
+![](./3-12-24-images/media/image168.png){width="4.0in"
 height="2.361538713910761in"}
 
 As mentioned in the previous lesson, this script is definitely longer
 and more complex than what we would see in it with the **jQuery**
-script. There\'s some things about it that are always going to be a
-little bit confusing inherited this transition and thing with that
-capture in once and for, all that stuff down there, as well as using
-set-time-out to have to wait a split-second before swapping the classes
-to get the transition to work properly. But there are few things that we
-can do to clean up the code a little bit and make it a little bit
-better. Again, you don\'t have to do any of this, you could leave the
-script the way it is, it works fine, the way it is. These are just some
-things that are worth looking at and thinking about in terms of syntax
-for JavaScript. We\'ll get into these features in more depth later. This
-is just a good opportunity to introduce them. One of them is the for
-each method which can work on arrays. Tabs is an array because it\'s
-going in and getting all of these tabs, and there\'s just three of them,
-but it\'s an array. The for loop is fine. It works fine, but it\'s a
-little bit hard to read and a little bit cumbersome. The forEach method
-is a little bit nicer. Let\'s just try that and see how that looks
-instead. What we would do is we would say tabs.forEach like this. This
-is the forEach method. The forEach method, again, it\'s an array method,
-so it works on arrays. We do tabs.forEach, and we pass in a Callback
-function that runs. This function takes a variable that\'s going to work
-on each element and tabs and you can call it Eachtab, where you can call
-it tab. I\'m just going to call and tab. It\'s going to do something
-with tab. It\'s going to go through each of the tabs and do something
-with tab. What are we going to do here? We\'re going to say, okay
-tab.addEventListener, and we\'re going to do click. Then we\'re going to
-run this selectTab down here. This piece of code is doing exactly the
-same thing as this for loop here. You could either comment this out or
-deleted altogether and just use the forEach method here that will allow
-us to add an EventListener to each tab. I just think it\'s a little bit
-easier to read. Again, we\'ll get into this more later, but this is a
-good place to introduce it. We can do the same thing down here in place
-of this for loop down here as well. We get even just paste this in, but
-instead of adding an event listener, we can just do this instead. But
-instead of tabs dash, the square bracket i, it\'s just tab,
-tab.removesAttribute class. Again, we\'re just replacing this for loop
-with that. That should work just as well as before. Let\'s go over just
-test this really carefully here. If I refresh this and test it, you can
-see that it\'s working exactly the same as it did before, and that\'s
-great. You can get rid of these things here. Now, even further in
-JavaScript, there is now a, something called an era of function. And if
-you\'ve looked up I JavaScript online, you\'ve probably come across
-arrow functions before. Again, we\'re going to get more into arrow
-functions and talk about them in more in depth in a future lesson. But
-this is a good place to introduce them because we could even further
-clarify these little functions here with arrow functions. The way they
-work is like this, you get rid of the word function, and instead over
-here you put what they call an arrow, which is really just an equals
-sign integrator that sign in here. If you\'re passing in only one
-variable, you can get rid of the parentheses. Now we have tab.forEach
-tab, and then this becomes the function that runs. Now, we could do the
-same thing down here. Again, we\'re going to do this in more depth
-leader to talk about arrow functions and when do you use them and when
-not to use them and what they\'re good for, but this is a good place for
-them. It just gives us a really clear tabs.forEach tab, we\'re going to
-do this thing. You could even move this up, so it\'s all on one line,
-practically made it so it becomes a short and clear. That really helps
-with the clarity of the script. I\'m going to get rid of this just to
-make it a little bit shorter. That space there, up here, I\'ll get rid
-of this. It should work just the same as it did before. Again, you
-don\'t have to do any of this stuff if you don\'t want to descrip work
-perfectly fine before. There\'s nothing wrong with using the for loop
-and now using the forEach or using the arrow functions. But it just
-seemed like this would be a good place to introduce those ideas. Just to
-summarize up the lesson, what we\'ve done here is we\'ve created a
-typical interface on it, a tabbed interface, and we\'ve done it with
-plain JavaScript. It\'s a little bit different than the version that we
-did a **jQuery**, and ultimately, you have to decide whether including
-the **jQuery** library and doing the shorter script is worth it for
-making this thing. It\'s not that long, it\'s not that bad, it\'s
-certainly a lot less code to download in the entire **jQuery** library.
-On the other hand, if you\'re using **jQuery** for other things in your
-project already, then using it for the tabs doesn\'t actually add any
-extra weight, and it works really well and it\'s short and quick in and
-right to the point. This is a really great example of the difference
-between JavaScript and **jQuery**. And you get **jQuery** is just more
-JavaScript, but there are differences with the width syntax works and
-you can write shorter, more efficient scripts with **jQuery**. That
-helps you get used to working with JavaScript and more excited about
-learning it, then by all means, use the **jQuery**. If you prefer to
-really learn the plain vanilla JavaScript because **jQuery** is starting
-to get phased out, then this is a really good example of the work you
-need for it with plain JavaScript.
+script.
 
-<h3 id="ch2-21-interface">2.21 PDF of Presentation</h2>
+There\'s some things about it that are always going to be a little bit
+confusing inherited this transition and thing with that capture in once
+and for, all that stuff down there, as well as using set-time-out to
+have to wait a split-second before swapping the classes to get the
+transition to work properly. But there are few things that we can do to
+clean up the code a little bit and make it a little bit better. Again,
+you don\'t have to do any of this, you could leave the script the way it
+is, it works fine, the way it is. These are just some things that are
+worth looking at and thinking about in terms of syntax for JavaScript.
+We\'ll get into these features in more depth later. This is just a good
+opportunity to introduce them. One of them is the for each method which
+can work on arrays.
+
+Tabs is an array because it\'s going in and getting all of these tabs,
+and there\'s just three of them, but it\'s an array. The for loop is
+fine. It works fine, but it\'s a little bit hard to read and a little
+bit cumbersome. The forEach method is a little bit nicer. Let\'s just
+try that and see how that looks instead. What we would do is we would
+say tabs.forEach like this. This is the forEach method. The forEach
+method, again, it\'s an array method, so it works on arrays. We do
+tabs.forEach, and we pass in a Callback function that runs. This
+function takes a variable that\'s going to work on each element and tabs
+and you can call it Eachtab, where you can call it tab. I\'m just going
+to call and tab. It\'s going to do something with tab. It\'s going to go
+through each of the tabs and do something with tab. What are we going to
+do here? We\'re going to say, okay tab.addEventListener, and we\'re
+going to do click. Then we\'re going to run this selectTab down here.
+This piece of code is doing exactly the same thing as this for loop
+here. You could either comment this out or deleted altogether and just
+use the forEach method here that will allow us to add an EventListener
+to each tab. I just think it\'s a little bit easier to read.
+
+Again, we\'ll get into this more later, but this is a good place to
+introduce it. We can do the same thing down here in place of this for
+loop down here as well. We get even just paste this in, but instead of
+adding an event listener, we can just do this instead. But instead of
+tabs dash, the square bracket i, it\'s just tab, tab.removesAttribute
+class. Again, we\'re just replacing this for loop with that. That should
+work just as well as before. Let\'s go over just test this really
+carefully here. If I refresh this and test it, you can see that it\'s
+working exactly the same as it did before, and that\'s great.
+
+You can get rid of these things here. Now, even further in JavaScript,
+there is now a, something called an era of function. And if you\'ve
+looked up I JavaScript online, you\'ve probably come across arrow
+functions before. Again, we\'re going to get more into arrow functions
+and talk about them in more in depth in a future lesson. But this is a
+good place to introduce them because we could even further clarify these
+little functions here with arrow functions. The way they work is like
+this, you get rid of the word function, and instead over here you put
+what they call an arrow, which is really just an equals sign integrator
+that sign in here. If you\'re passing in only one variable, you can get
+rid of the parentheses. Now we have tab.forEach tab, and then this
+becomes the function that runs. Now, we could do the same thing down
+here.
+
+Again, we\'re going to do this in more depth leader to talk about arrow
+functions and when do you use them and when not to use them and what
+they\'re good for, but this is a good place for them. It just gives us a
+really clear tabs.forEach tab, we\'re going to do this thing. You could
+even move this up, so it\'s all on one line, practically made it so it
+becomes a short and clear. That really helps with the clarity of the
+script. I\'m going to get rid of this just to make it a little bit
+shorter. That space there, up here, I\'ll get rid of this. It should
+work just the same as it did before. Again, you don\'t have to do any of
+this stuff if you don\'t want to descrip work perfectly fine before.
+There\'s nothing wrong with using the for loop and now using the forEach
+or using the arrow functions. But it just seemed like this would be a
+good place to introduce those ideas. Just to summarize up the lesson,
+what we\'ve done here is we\'ve created a typical interface on it, a
+tabbed interface, and we\'ve done it with plain JavaScript. It\'s a
+little bit different than the version that we did a **jQuery**, and
+ultimately, you have to decide whether including the **jQuery** library
+and doing the shorter script is worth it for making this thing. It\'s
+not that long, it\'s not that bad, it\'s certainly a lot less code to
+download in the entire **jQuery** library. On the other hand, if you\'re
+using **jQuery** for other things in your project already, then using it
+for the tabs doesn\'t actually add any extra weight, and it works really
+well and it\'s short and quick in and right to the point. This is a
+really great example of the difference between JavaScript and
+**jQuery**. And you get **jQuery** is just more JavaScript, but there
+are differences with the width syntax works and you can write shorter,
+more efficient scripts with **jQuery**. That helps you get used to
+working with JavaScript and more excited about learning it, then by all
+means, use the **jQuery**. If you prefer to really learn the plain
+vanilla JavaScript because **jQuery** is starting to get phased out,
+then this is a really good example of the work you need for it with
+plain JavaScript.
+
+## PDF of Presentation {#pdf-of-presentation-5 .unnumbered}
 
 Here is a PDF of the presentation slides used in the lesson for this
 section: Creating a Tabbed **Interface with JavaScript.**.
 
 -   
 
-<h3 id="ch2-21-tab">2.21 JS-Tabbed-Interface.pdf
+2.20 JS-Tabbed-Interface.pdf
 
-<h2 id="ch3">Module 3: Intermediate Document Manipulation & Animation</h2>
+# Module 3: Intermediate Document Manipulation & Animation {#module-3-intermediate-document-manipulation-animation .unnumbered}
 
-<h2 id="ch3-00-obj">3.00 Learning Objectives</h2>
+# 3.00 Learning Objectives {#learning-objectives-3 .unnumbered}
 
 -   Use **jQuery** syntax to target and manipulate DOM elements on a web
     page.
@@ -3490,7 +3936,7 @@ section: Creating a Tabbed **Interface with JavaScript.**.
 
 -   Apply best practices when working with scripts.
 
-![](./images/image104.png){width="4.0in"
+![](./3-12-24-images/media/image169.png){width="4.0in"
 height="2.361538713910761in"}
 
 Welcome to the third module in our second course in JavaScript. In this
@@ -3501,9 +3947,9 @@ practice. Let\'s dive in and start working on these scripts. I think
 you\'re going to get a lot out of them and I look forward to going
 through them with you.
 
-<h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
+# 3.01 Basic Slider (6:27) {#basic-slider-627 .unnumbered}
 
-![](./images/image105.png){width="4.0in"
+![](./3-12-24-images/media/image170.png){width="4.0in"
 height="2.361538713910761in"}
 
 **jQuery** Image Slider, version 1, the basic slider. Learning
@@ -3593,14 +4039,14 @@ transmission, often carrying the extension .ZIP.
 
 3.01 Slider-V1-START.zip
 
-## **Additional Resource:**
+## **Additional Resource:** {#additional-resource-1 .unnumbered}
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-<h2 id="ch3-02">3.02 Making the Script General (5:41)</h2>
+# 3.02 Making the Script General (5:41) {#making-the-script-general-541 .unnumbered}
 
-![](./images/image106.png){width="4.0in"
+![](./3-12-24-images/media/image171.png){width="4.0in"
 height="2.361538713910761in"}
 
 One thing we want to do as we\'re working on our scripts is we want to
@@ -3657,9 +4103,9 @@ will continue to work. This is actually fine to use for now with the
 current version of **jQuery** that we have, but going forward, we should
 use the dot first method instead. I just wanted to show you that.
 
-<h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
+# 3.03 Window Load Function (7:20) {#window-load-function-720 .unnumbered}
 
-![](./images/image107.png){width="4.0in"
+![](./3-12-24-images/media/image172.png){width="4.0in"
 height="2.361538713910761in"}
 
 The next thing to consider is when resources are going to load, and in
@@ -3736,14 +4182,14 @@ in quotes, left position we just change that. Left position and width
 needs to go in quotes, and there we go. Let\'s, stop the lesson here and
 then we\'ll talk about this more in the next lesson.
 
-<h2 id="ch3-04">3.04 Click Handler for Next Button (8:05)</h2>
+# 3.04 Click Handler for Next Button (8:05) {#click-handler-for-next-button-805 .unnumbered}
 
-![](./images/image108.png){width="4.0in"
+![](./3-12-24-images/media/image173.png){width="4.0in"
 height="2.361538713910761in"}
 
-<h2 id="ch3-05">3.05 Next Click Handler with If Statement (3:03)</h2>
+# 3.05 Next Click Handler with If Statement (3:03) {#next-click-handler-with-if-statement-303 .unnumbered}
 
-![](./images/image109.png){width="4.0in"
+![](./3-12-24-images/media/image174.png){width="4.0in"
 height="2.361538713910761in"}
 
 In the previous lesson, we got our click handler working. So that you
@@ -3781,9 +4227,9 @@ create your own event listener for the previous click button. And then
 we\'ll take a look at it together in the next lesson and see if you got
 the same answer I got.
 
-<h2 id="ch3-06">3.06 Challenge Solution (5:03)</h2>
+# 3.06 Challenge Solution (5:03) {#challenge-solution-503 .unnumbered}
 
-![](./images/image110.png){width="4.0in"
+![](./3-12-24-images/media/image175.png){width="4.0in"
 height="2.264957349081365in"}
 
 In the last lesson, we created the Click Event Handler for the Next
@@ -3848,9 +4294,9 @@ look at that in the next project.
 
 -   3.06 jQuery-Image-Slider-Version-1.pdf
 
-<h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
+# 3.07 Strategy for Version 2 (4:08) {#strategy-for-version-2-408 .unnumbered}
 
-![](./images/image111.png){width="4.0in"
+![](./3-12-24-images/media/image176.png){width="4.0in"
 height="2.264957349081365in"}
 
 **jQuery** Image Slider Version 2.
@@ -3902,9 +4348,9 @@ like that. I\'m going to move this stuff Into the else. We\'re going to
 do something very different here, and we\'ll take a look at what\'s next
 in the next lesson.
 
-<h2 id="ch3-08">3.08 Cloning the Unordered List (4:58)</h2>
+# 3.08 Cloning the Unordered List (4:58) {#cloning-the-unordered-list-458 .unnumbered}
 
-![](./images/image112.png){width="4.0in"
+![](./3-12-24-images/media/image177.png){width="4.0in"
 height="2.264957349081365in"}
 
 The next thing what we are going to do, is we are going to clone the on
@@ -3958,9 +4404,9 @@ that will put it in exactly the correct spot here on the page. That will
 put it so it shows up at the end. Okay? So now it is shown up on the
 end, and the next lesson will actually handle the animation.
 
-<h2 id="ch3-09">3.09 Setting the Left Position (4:56)</h2>
+# 3.09 Setting the Left Position (4:56) {#setting-the-left-position-456 .unnumbered}
 
-![](./images/image113.png){width="4.0in"
+![](./3-12-24-images/media/image178.png){width="4.0in"
 height="2.264957349081365in"}
 
 Before I do the animation, I want to set the variable left position
@@ -4006,9 +4452,9 @@ There we go. That will move both strips at the same times. Can animate
 them into their correct place. Then the last thing that we need to do is
 remove this one. We\'ll look at that in the next lesson.
 
-<h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
+# 3.10 Adding a Callback Function (7:35) {#adding-a-callback-function-735 .unnumbered}
 
-![](.images/image114.png){width="4.0in"
+![](./3-12-24-images/media/image179.png){width="4.0in"
 height="2.264957349081365in"}
 
 So far, in our next click handler, we\'ve checked to see if the counter
@@ -4091,9 +4537,9 @@ badly about it. But now the question is, can you do the previous button?
 Link yourself, see if you can do that one, try it on your own and then
 we would come back. You\'ll see my solution for it in the next lesson.
 
-<h2 id="ch3-11">3.11 Previous Button Click Handler -- Part 1 (7:27)</h2>
+# 3.11 Previous Button Click Handler -- Part 1 (7:27) {#previous-button-click-handler-part-1-727 .unnumbered}
 
-![](.images/image115.png){width="4.0in"
+![](./3-12-24-images/media/image180.png){width="4.0in"
 height="2.264957349081365in"}
 
 In the last lesson, we figured out how to get the next click handler to
@@ -4168,9 +4614,9 @@ a PX, on the end of that I believe, yep, there we go. Okay great so then
 we just need to get these two pieces in here and we\'ll do this in the
 next lesson.
 
-<h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
+# 3.12 Previous Button Click Handler -- Part 2 (5:17) {#previous-button-click-handler-part-2-517 .unnumbered}
 
-![](.images/image116.png){width="4.0in"
+![](./3-12-24-images/media/image181.png){width="4.0in"
 height="2.264957349081365in"}
 
 In the last lesson, we worked out the logic of how the previous click
@@ -4229,9 +4675,9 @@ different types of situations that come up
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementw6y8lpdf-of-presentation .unnumbered}
 
-<h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
+# 3.13 Slider Using JavaScript (6:04) {#slider-using-javascript-604 .unnumbered}
 
-![](.images/image117.png){width="4.0in"
+![](./3-12-24-images/media/image182.png){width="4.0in"
 height="2.264957349081365in"}
 
 Slider, using JavaScript. In the previous lesson, we worked on making a
@@ -4310,9 +4756,9 @@ actual animation for our slider.
 
 > https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
 
-<h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
+# 3.14 CSS for Slides and Adding Variables (8:01) {#css-for-slides-and-adding-variables-801 .unnumbered}
 
-![](.images/image118.png){width="4.0in"
+![](./3-12-24-images/media/image183.png){width="4.0in"
 height="2.264957349081365in"}
 
 We have a little bit more CSS to talk about before we start working on
@@ -4404,9 +4850,9 @@ setting slider style.width, that\'s the total width. We\'ll actually set
 the width of that element, and we\'ll talk about that and look at it a
 little bit more in the next lesson.
 
-<h2 id="ch3-15">3.15 Adding More Variables (5:49)</h2>
+# 3.15 Adding More Variables (5:49) {#adding-more-variables-549 .unnumbered}
 
-![](.images/image119.png){width="4.0in"
+![](./3-12-24-images/media/image184.png){width="4.0in"
 height="2.264957349081365in"}
 
 In our last lesson, we got some basic variables in place for our slider
@@ -4470,9 +4916,9 @@ counter is the same as slide count, then we\'re going to do something in
 here and then we\'ve got an else in there. Then we\'ll pick up the rest
 of this next EventListener in the next lesson.
 
-<h2 id="ch3-16">3.16 Event Handler for the Next Button (7:11)</h2>
+# 3.16 Event Handler for the Next Button (7:11) {#event-handler-for-the-next-button-711 .unnumbered}
 
-![](.images/image120.png){width="4.0in"
+![](./3-12-24-images/media/image185.png){width="4.0in"
 height="2.264957349081365in"}
 
 If we\'ve reached the end of our strip and the counter is the same as
@@ -4544,9 +4990,9 @@ except we\'re using the previous link and we\'re decrementing the
 counter but other than that it\'s very similar, see if you can do it on
 your own.
 
-<h2 id="ch3-17">3.17 Solution for the Previous Button Challenge (4:05)
+# 3.17 Solution for the Previous Button Challenge (4:05) {#solution-for-the-previous-button-challenge-405 .unnumbered}
 
-![](.images/image121.png){width="4.0in"
+![](./3-12-24-images/media/image186.png){width="4.0in"
 height="2.264957349081365in"}
 
 In the previous lesson, we completed the event handler for the next
@@ -4596,11 +5042,11 @@ the way.
 
 ### 3.17 JavaScript-Image-Slider.pdf
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation 
+### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementkxm2apdf-of-presentation .unnumbered}
 
-<h2 id="ch4-00">Module Four: Timers and Recursion in JavaScript & jQuery</h2>
+# Module Four: Timers and Recursion in JavaScript & jQuery {#module-four-timers-and-recursion-in-javascript-jquery .unnumbered}
 
-<h2 id="ch4-00">4.00 Learning Objectives</h2>
+# 4.00 Learning Objectives {#learning-objectives-4 .unnumbered}
 
 -   Use JavaScript methods to keep a script from executing for a
     specific period of time, or to run at a certain interval of time.
@@ -4616,7 +5062,7 @@ the way.
 
 -   Make use of best practices when including scripts on websites.
 
-![](.images/image122.png){width="4.0in" height="2.264957349081365in"}
+# ![](./3-12-24-images/media/image187.png){width="4.0in" height="2.264957349081365in"} {#section-3 .unnumbered}
 
 Hello, you\'ve made it to the 4th module in our second course on
 JavaScript and **jQuery**. Congratulations, you\'ve learned a lot of
@@ -4633,9 +5079,9 @@ started on learning about timers and recursion in JavaScript and
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementcev5mstart-files-introduction-to-timers-recursion .unnumbered}
 
-<h2 id="ch4-01">4.01 Example Script #1 -- Part 1 (5:37)</h2>
+# 4.01 Example Script #1 -- Part 1 (5:37) {#example-script-1-part-1-537 .unnumbered}
 
-![](.images/image123.png){width="4.0in"
+![](./3-12-24-images/media/image188.png){width="4.0in"
 height="2.264957349081365in"}
 
 JavaScript timers and recursion. I have a few scripts that we can look
@@ -4697,9 +5143,9 @@ the two paragraphs are on the page, and so on and so forth until the
 page is completely full with the paragraphs. We\'ll talk about the clear
 interval method in the next lesson.
 
-<h2 id="ch4-02">4.02 Example Script #1 -- Part 2 (4:13)</h2>
+# 4.02 Example Script #1 -- Part 2 (4:13) {#example-script-1-part-2-413 .unnumbered}
 
-![](.images/image124.png){width="4.0in"
+![](./3-12-24-images/media/image189.png){width="4.0in"
 height="2.264957349081365in"}
 
 We\'re looking at the first example in our timers and recursion examples
@@ -4748,9 +5194,9 @@ putting them inside the div using innerHTML. So it\'s an important way
 of understanding how this one works. In the next lesson, we\'ll take a
 look at the next example.
 
-<h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
+# 4.03 Example Script #2 (2:55) {#example-script-2-255 .unnumbered}
 
-![](.images/image125.png){width="4.0in"
+![](./3-12-24-images/media/image190.png){width="4.0in"
 height="2.264957349081365in"}
 
 Let\'s take a look at example 2. In this example, the script is going to
@@ -4789,9 +5235,9 @@ class to it and change that element based on the styling associated with
 that class. It could have an animation in there and that\'s really
 pretty cool.
 
-<h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
+# 4.04 Example Script #3: Recursion (5:25) {#example-script-3-recursion-525 .unnumbered}
 
-![](.images/image126.png){width="4.0in"
+![](./3-12-24-images/media/image191.png){width="4.0in"
 height="2.264957349081365in"}
 
 Next, let\'s take a look at example three, which uses recursion. As I
@@ -4858,9 +5304,9 @@ some timer.
 
 > https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation
 
-<h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
+# 4.05 Converting a Slider (2:55) {#converting-a-slider-255 .unnumbered}
 
-![](.images/image127.png){width="4.0in"
+![](./3-12-24-images/media/image192.png){width="4.0in"
 height="2.264957349081365in"}
 
 Spiders on a timer. Putting slides on a timer. In this lesson, we\'ll
@@ -4895,9 +5341,9 @@ and it\'ll continue with the slides. See if you can do that on your own
 and if you get stuck or you want to see my solution, continue on with
 this presentation and with these lessons.
 
-<h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
+# 4.06 Putting Slides on a Timer Solution -- Part 1 (5:57) {#putting-slides-on-a-timer-solution-part-1-557 .unnumbered}
 
-![](.images/image128.png){width="4.0in"
+![](./3-12-24-images/media/image193.png){width="4.0in"
 height="2.264957349081365in"}
 
 Hopefully you are successful at creating your slider on a timer and were
@@ -4953,9 +5399,9 @@ that if you hover over this, it will stop sliding the slides while
 you\'re hovering your mouse over the slider. That\'s your next
 challenge.
 
-<h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
+# 4.07 Putting Slides on a Timer Solution -- Part 2 (7:22) {#putting-slides-on-a-timer-solution-part-2-722 .unnumbered}
 
-![](.images/image129.png){width="4.0in"
+![](./3-12-24-images/media/image194.png){width="4.0in"
 height="2.264957349081365in"}
 
 Did you successfully complete the challenge? Remember again, the
@@ -5034,11 +5480,11 @@ other things that you could do.
 
 ### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementznbz4start-files-recursive-content-rotator .unnumbered}
 
-###  {#section-3 .unnumbered}
+###  {#section-4 .unnumbered}
 
-<h2 id="ch4-08">4.08 Project Set-up (6:51)</h2>
+# 4.08 Project Set-up (6:51) {#project-set-up-651 .unnumbered}
 
-![](.images/image130.png){width="4.0in"
+![](./3-12-24-images/media/image195.png){width="4.0in"
 height="2.264957349081365in"}
 
 In this project we\'ll look at creating a content rotator and we\'ll use
@@ -5121,9 +5567,9 @@ everything out of the global scope and we\'ve got our use strict
 directive in there. Okay, we\'re all set and ready to start working on
 our script.
 
-<h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
+# 4.09 Starting the Script (4:56) {#starting-the-script-456 .unnumbered}
 
-![](.images/image131.png){width="4.0in"
+![](./3-12-24-images/media/image196.png){width="4.0in"
 height="2.264957349081365in"}
 
 Here we go to write our script and get our content rotator to work.
@@ -5171,9 +5617,9 @@ function. So after we faded in, we\'re going to run a function and that
 function will set it to wait seven seconds, and then check to see if
 we\'re on the last paragraph or not.
 
-<h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
+# 4.10 The If/Else Statement -- Part 1 (6:20) {#the-ifelse-statement-part-1-620 .unnumbered}
 
-![](.images/image132.png){width="4.0in"
+![](./3-12-24-images/media/image197.png){width="4.0in"
 height="2.264957349081365in"}
 
 Now that we\'ve faded in the first paragraph, and after that two second
@@ -5230,9 +5676,9 @@ to see if it\'s the last child, if it\'s not, it\'ll do this, it\'ll
 increment the counter, and it\'ll do it again, and it\'ll keep going
 around. Great. We\'ll finish out this part up here in the next lesson.
 
-<h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
+# 4.11 The Else/If Statement -- Part 2 (5:49) {#the-elseif-statement-part-2-549 .unnumbered}
 
-![](.images/image133.png){width="4.0in"
+![](./3-12-24-images/media/image198.png){width="4.0in"
 height="2.264957349081365in"}
 
 In the last lesson, we set our **setTimeout** to wait seven seconds and
@@ -5302,9 +5748,9 @@ the function runs itself and that can be very interesting.
 
 ### 4.11 Content-Rotator.pdf
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation 
+### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementbhs7kpdf-of-presentation .unnumbered}
 
-<h2 id="ch4-12">4.12 Course Summary (0:52)</h2>
+# 4.12 Course Summary (0:52) {#course-summary-052 .unnumbered}
 
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You\'ve learned a lot of
