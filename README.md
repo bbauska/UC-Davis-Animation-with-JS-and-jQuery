@@ -87,7 +87,8 @@ page.
   <li><h4 id="ch1-00-note">
     1.00 A Note From UC-Davis</h4></li>
   <li><h4 id="ch1-00-welcome">
-  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">
+  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"
+    target="_blank" rel="noopener noreferrer">
     1.00 Welcome to this Course!</a></h4></li>
   <li><h4 id="ch1-00-intro">
     1.00 Learning Objectives; Manipulating Web Page Elements with jQuery &ampp; JavaScript</h4></li>
@@ -116,7 +117,8 @@ page.
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="1.07-StartFile-FileName.pdf">
+  <li><a href="1.07-StartFile-FileName.pdf"
+    target="_blank" rel="noopener noreferrer">
     1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
 </ul>
 <ol start="8">
@@ -136,7 +138,8 @@ page.
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="1.16-StartFile-FileName.pdf">1.16 Start Files: Folding Sidebar Menus with jQuery</a></li>
+  <li><a href="1.16-StartFile-FileName.pdf">1.16 Start Files: Folding Sidebar Menus with jQuery"
+    target="_blank" rel="noopener noreferrer"</a></li>
 </ul>
 <ol start="17">
   <li>Getting the Next UL</li>
@@ -166,7 +169,8 @@ both JavaScript and jQuery.
 <h4>20 videos, 7 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi">
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi"
+    target="_blank" rel="noopener noreferrer">
     2.00 Learning Objectives; Animating Web Page Elements</a></li>
 </ul>
 
@@ -251,7 +255,8 @@ only plain JavaScript syntax and using CSS to perform the animation.
 <h4>17 videos, 5 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj">
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj"
+    target="_blank" rel="noopener noreferrer">
     3.00 Learning Objectives; Intermediate Document Manipulation &amp; Animation</a></li>
 </ul>
 
@@ -322,7 +327,8 @@ interface element on any web page.
 <h4>12 videos, 6 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE">
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE"
+    target="_blank" rel="noopener noreferrer">
     4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a><br><br></li>
   <li><a href="">4.00 Start Files; Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
 </ul>
@@ -378,16 +384,14 @@ interface element on any web page.
 >#### [<b>1.06 jQuery Events</b>](#ch1-06)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.06 Slideshow of jQuery Events.pdf (download)</a></li>
 </ul>
 
 >#### [<b>1.07 Intro to JavaScript Folding Sidebar Menus Using JS</b>](#ch1-07)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.07 START Files: JS Folding SideBar Menus (download)</a></li>
 </ul>
 
@@ -401,16 +405,14 @@ interface element on any web page.
 >#### [<b>1.15 Challenge 8 Solution</b>](#ch1-15)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.15 PDF of Presentation (download)</a></li>
 </ul>
 
 >#### [<b>1.16 Intro to jQuery Folding SideBar Menu Navigation</b>](#ch1-16)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.16 START Files: jQuery Folding SideBar Menus (download)</a></li>
 </ul>
 
@@ -418,16 +420,14 @@ interface element on any web page.
 >#### [<b>1.18 The Whole Script</b>](#ch1-18)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.18 PDF of Presentation (download)</a></li>
 </ul>
 
 >#### [<b>1.19 JavaScript and jQuery Challenge Activities</b>](#ch1-19)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="">
 	1.19 JS and jQuery Challenge Activities (download)</a></li>
 </ul>
 
@@ -457,22 +457,21 @@ readings or files</b>.
 
 If you run into any issues during this course, <b>learner support</b> is
 available to all Coursera students. The link for Coursera's Learner
-support is included below. The <a href="https://learner.coursera.help/hc/en-us">Help Center/Learner
-Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
+support is included below. The <a href="https://learner.coursera.help/hc/en-us" target="_blank" rel="noopener noreferrer">
+Help Center/Learner Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
 common problems.
 
 If you find any content issues, be sure to let the course staff know by
 <b>flagging the lecture</b>, assignment, reading, or quiz and this will
 inform us of where these issues occur. Here is the link for more
-information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course">
-Flag an Issue</a> - it is also listed below.
+information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course" target="_blank" rel="noopener noreferrer">Flag an Issue</a> - it is also listed below.
 
 One of the great things about Coursera courses is that they are
 self-paced. The course dates are based on the average time it takes to
 complete a course. However, if you need additional time to complete a
 course you can <b>reset your deadlines</b> with no penalties. More
 information on resetting deadlines can be found here: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines">Assignment Deadlines</a>
+<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines" target="_blank" rel="noopener noreferrer">Assignment Deadlines</a>
 
 Need additional help during your course session? Be sure to utilize the
 <b>discussion forums</b> and interact with your fellow peers. In this area,
@@ -669,7 +668,7 @@ jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
 basis.
 
-<h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery">
+<h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery" target="_blank" rel="noopener noreferrer">
   1.01 jQuery-Start.zip</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1375,7 +1374,7 @@ how to work with **jQuery** will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/4JYrxEZ4R0-WK8RGeCdP5g_890a1b5918f04ae19e53d4f91665e4f1_WEB1091_M01_Introduction-to-jQuery.pdf?Expires=1710288000&Signature=b-GEP5ws\~xfkhH7Y0GZAqPpdV3sTULnbaJiDI7X2e9M6dbn5YeppPq9wP-QSd40OACGkycuS4zHJqBUfUK\~7TR8950xpwO3pDJG4FeYMRIBdkhAITMyrVsXCRBXay1xYdS9E805m1fDLGNJkRWGafyHAWMbhO0olO46tqyyB50A\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/4JYrxEZ4R0-WK8RGeCdP5g_890a1b5918f04ae19e53d4f91665e4f1_WEB1091_M01_Introduction-to-jQuery.pdf?Expires=1710288000&Signature=b-GEP5ws\~xfkhH7Y0GZAqPpdV3sTULnbaJiDI7X2e9M6dbn5YeppPq9wP-QSd40OACGkycuS4zHJqBUfUK\~7TR8950xpwO3pDJG4FeYMRIBdkhAITMyrVsXCRBXay1xYdS9E805m1fDLGNJkRWGafyHAWMbhO0olO46tqyyB50A\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
     1.06 Introduction-to-jQuery.pdf (download)</a></li>
 </ul>
 
@@ -1448,21 +1447,23 @@ the navigation is following a very common markup scheme inside of a
 menu. This embedded, unordered list goes entirely inside the list item
 for the parent item. This is important to get in HTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. article, h1, p's (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.png"
   style="width:50%"
-  alt="" />
+  title="Article tag followed by h1 and paragraphs"
+  alt="Article tag followed by h1 and paragraphs." />
 </p>
 
 I have my page open and you can see the article comes first right after
 my main section opens there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 59. aside, nav, ul, li, ul, li - 1st li is menulink (39) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.png"
   style="width:50%"
-  alt="" />
+  title="Aside, nav, ul, li, ul, li - the 1st li is menulink"
+  alt="Aside, nav, ul, li, ul, li - the 1st li is menulink." />
 </p>
 
 Then the navigation is an unordered list with list items, but notice
@@ -1472,21 +1473,23 @@ only items you&apos;re allowed to have is children of the ordered or
 unordered lists of list items. This unordered list needs to be entirely
 enclosed in this parent list item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. sample, navigation link (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.png"
   style="width:50%"
-  alt="" />
+  title="Sample screen, navigation link"
+  alt="Sample screen, navigation link." />
 </p>
 
 These are the items that will show on the page, so over here currently
 without any JavaScript, these items will just show in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 61. styles.css - main display flex, flex-direction row-reverse (40) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.png"
   style="width:50%"
-  alt="" />
+  title="In styles.css - main display flex, flex-direction row-reverse"
+  alt="In styles.css - main display flex, flex-direction row-reverse." />
 </p>
 
 That gets us started, and we&apos;re using just a little bit of CSS here as
@@ -1495,11 +1498,12 @@ use flex-direction and row-reverse to get the navigation on the left and
 the main content on the right. Now, with all that in place, let&apos;s get
 started with making this project work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 62. example, basic strategy; show/hide menu (40) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.png"
   style="width:50%"
-  alt="" />
+  title="Example, Basic Strategy; show/hide menu"
+  alt="Example, Basic Strategy; show/hide menu." />
 </p>
 
 The basic strategy of the script is that the sub-menu will be initially
@@ -1512,14 +1516,16 @@ items that are inside the unordered lists, don&apos;t have the hide-menu
 class on them. Our first challenge is to write a loop that adds this
 class to all the sub-menus in the unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 63/64. class hide-menu display none, show-menu display block (xx) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png"
   style="width:35%"
-  alt="." />
+  title="New class hide-menu display none, show-menu display block"
+  alt="New class hide-menu display none, show-menu display block." />
 <img src="./images/image064.png"
   style="width:35%"
-  alt="." />
+  title="Where to script will go in html file"
+  alt="Where to script will go in html file." />
 </p>
 
 You&apos;ll see over here in the styles that these two styles are already
@@ -1530,9 +1536,9 @@ that hide-menu class. We want to apply that to all of these unordered
 lists so they have class hide-menu on them. See if you can do that, and
 when we come back in the next lesson, we&apos;ll see how I did that.
 
-### 1.07 JS-Folding-Sidebar-Menu-START.zip (download)
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript 
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript " target="_blank" rel="noopener noreferrer">1.07 JS-Folding-Sidebar-Menu-START.zip (download)</a></li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-08">1.08 Challenge 1 Solution (3:23)</h2>
@@ -2097,7 +2103,7 @@ and how much more compact that script is.
 <h3 id="ch1-15-pdf>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/WpZJQjwpS4-WSUI8KduPlw_7ddb39e0d313448b9fc83c1e6f780df1_WEB1091_M01_Folding-Sidebar-Menus-with-JS.pdf?Expires=1710460800&Signature=dyr2YUxz0RJFQDVZ\~GQVGOaU0rAc4DIv11N206G8CcXk-WgtYCT6guroUFlzT35aCAyaC6r-2zxKuANeJ1u8g3KvJgtHnakqYC0TDWKDQUqS1LsMUZW4KxMxBvLnZX7BdWR3I\~k45KRbjX3q1nQIPc-T8-uKkQSYJw60pb6Bco0\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A ">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/WpZJQjwpS4-WSUI8KduPlw_7ddb39e0d313448b9fc83c1e6f780df1_WEB1091_M01_Folding-Sidebar-Menus-with-JS.pdf?Expires=1710460800&Signature=dyr2YUxz0RJFQDVZ\~GQVGOaU0rAc4DIv11N206G8CcXk-WgtYCT6guroUFlzT35aCAyaC6r-2zxKuANeJ1u8g3KvJgtHnakqYC0TDWKDQUqS1LsMUZW4KxMxBvLnZX7BdWR3I\~k45KRbjX3q1nQIPc-T8-uKkQSYJw60pb6Bco0\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
     1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
 </ul>
 
@@ -2225,7 +2231,7 @@ next lesson.
 <h3>zip START Files</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/0Cu1A9CuTjSrtQPQri40tQ_d5e4c6b39f514e4d836fb7ea481e397b_WEB1091_jQuery-folding-menus-Start.zip?Expires=1710460800&Signature=JvtZ8cj7\~9d3MNJQnw7PjKCkYXV3QzEcgb4xcobmwvCVlR3x-nUg5S3NKvaIhiH6UkvN\~jdV1SKeZB9Wyk9Q-xqeGT4dKO9xoO7T8suazk0Zl9imF0LUQxhtIHPM7VldKE7iYrL2EGm68LpF0eZqJPLt0qemPDNZgV3V1Cmb54I\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A ">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/0Cu1A9CuTjSrtQPQri40tQ_d5e4c6b39f514e4d836fb7ea481e397b_WEB1091_jQuery-folding-menus-Start.zip?Expires=1710460800&Signature=JvtZ8cj7\~9d3MNJQnw7PjKCkYXV3QzEcgb4xcobmwvCVlR3x-nUg5S3NKvaIhiH6UkvN\~jdV1SKeZB9Wyk9Q-xqeGT4dKO9xoO7T8suazk0Zl9imF0LUQxhtIHPM7VldKE7iYrL2EGm68LpF0eZqJPLt0qemPDNZgV3V1Cmb54I\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A " target="_blank" rel="noopener noreferrer">
     1.16 jQuery-Folding-Menus-START.zip (download)</a></li>
 </ul>
 
@@ -2451,7 +2457,7 @@ this.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A ">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
     1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)</a></li>
 </ul>
 
@@ -2701,7 +2707,8 @@ the speed there.
 <h3 id="ch2-01-zip">zip START File</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A ">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+  target="_blank" rel="noopener noreferrer">
     2.01 jQuery-Animation-START.zip (download)</a></li>
 </ul>
 
@@ -5282,7 +5289,8 @@ great project for you and you&apos;ve learned a lot about JavaScript along
 the way.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation ">
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
     3.17 JavaScript-Image-Slider.pdf</a></li>
 </ul>
 
@@ -5318,7 +5326,7 @@ started on learning about timers and recursion in JavaScript and
 **jQuery**.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion ">
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion" target="_blank" rel="noopener noreferrer">
     4.00 JS-Timers-Examples.zip</a></li>
 </ul>
 
@@ -5720,7 +5728,8 @@ other things that you could do.
 ### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> 
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator">
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator"
+    target="_blank" rel="noopener noreferrer">
     4.07 Rotator-START.zip</a></li>
 </ul>
 
