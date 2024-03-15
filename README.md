@@ -1304,7 +1304,8 @@ a look at how to do that.
 <p align="center" width="100%">
 <img src="./images/image050.png"
   style="width:50%"
-  alt="" />
+  title="jQuery click function"
+  alt="jQuery click function." />
 </p>
 
 If we come back over to our test page here, you can just comment this, I
@@ -1328,11 +1329,12 @@ link that I clicked. Because it&apos;s going to put this in all of the
 links, I can only click one link at a time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. test inspect, new link function (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.png"
   style="width:50%"
-  alt="" />
+  title="Test Inspect, New Link Function"
+  alt="Test Inspect, New Link Function." />
 </p>
 
 Let&apos;s see what this does. If I come back to my example page here and
@@ -1516,7 +1518,7 @@ items that are inside the unordered lists, don&apos;t have the hide-menu
 class on them. Our first challenge is to write a loop that adds this
 class to all the sub-menus in the unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 63/64. class hide-menu display none, show-menu display block (xx) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 63/64. class hide-menu display none, show-menu display block (41) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png"
   style="width:35%"
@@ -1543,27 +1545,30 @@ when we come back in the next lesson, we&apos;ll see how I did that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-08">1.08 Challenge 1 Solution (3:23)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. challenge 1 solution (1.08) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.png"
   style="width:40%"
-  alt="" />
+  title="1.08 Challenge 1 Solution"
+  alt="1.08 Challenge 1 Solution." />
 </p>
 
 Were you successful? Were you able to do it? Let&apos;s do it together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 66. var submenus to hide/display menus (42) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.png"
   style="width:50%"
-  alt="" />
+  title="New var submenus to hide/display menus"
+  alt="New var submenus to hide/display menus." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. challenge 1 answer (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.png"
   style="width:50%"
-  alt="" />
+  title="Challenge 1 Answer"
+  alt="Challenge 1 Answer." />
 </p>
 
 Down here, I&apos;m just going to make a variable, var **submenus**. Then
@@ -1579,11 +1584,12 @@ through each one of these and then do **className** equals hide menu.
 Over here it&apos;s hide menu. Hide menu, display name, and that should go
 through and put that class on all of those elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 68. test inspect console, class hide-menu (44) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.png"
   style="width:50%"
-  alt="" />
+  title="Test inspect console, class hide-menu"
+  alt="Test inspect console, class hide-menu." />
 </p>
 
 Let&apos;s see if I did that right. Over here I&apos;ll go check my document
@@ -1595,11 +1601,12 @@ Click on this menu here or this one of these, one of these menus you can
 see it&apos;s got hide menu on it. Let&apos;s get that class on there. That&apos;s
 working great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. add a click handler to main links (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.png"
   style="width:50%"
-  alt="" />
+  title="Add a Click Handler to Main Links"
+  alt="Add a Click Handler to Main Links." />
 </p>
 
 Your next challenge is to add a click handler to the main links. These
@@ -1613,33 +1620,35 @@ solution. But we&apos;ll do it together in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-09">1.09 Challenge 2 Solution (7:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. challenge 2 solution (1.09) (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.png"
   style="width:40%"
-  alt="" />
+  title="1.09 Challenge 2 Solution"
+  alt="1.09 Challenge 2 Solution." />
 </p>
 
 Let&apos;s do this together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. var submenu queryselectorall (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png"
   style="width:50%"
   alt="" />
 </p>
 
-
-![](./images/image71.png){width="5.0in"
-height="2.8333333333333335in"}
-
 First we need a variable, **var submenus = document.querySelectorAll('ul
 li ul');** and what do we want to get? We want to get these links here,
 this class menu link for this one, this one, this one down all those.
 I&apos;m going to come up share the document menu link.
-
-![](./images/image72.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. challenge 2 answer (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png"
+  style="width:50%"
+  title="Challenge 2 Answer"
+  alt="Challenge 2 Answer." />
+</p>
 
 So we&apos;ll get those document in there, and then we need to loop. Used
 your loop here, so we need a for var i equals 0, or i is less than menu
@@ -1651,18 +1660,26 @@ you click, we&apos;re going to run an event unit run a function. Not run an
 event, we&apos;re going to run a function. We&apos;ve got this function here
 that runs. Then for right now all I want to do is pass in the event
 property, event object there, and do **event.preventDefault**.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. test event listener menu links (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png"
+  style="width:50%"
+  title="Test new event listener menu links"
+  alt="Test new event listener menu links." />
+</p>
 
-![](./images/image73.png){width="5.0in"
-height="2.9561964129483815in"}
-
-But I that an event listener for each of these, and you can test it by
-adding **console.log** or an alert or something like that large, collect
-something like that. Now if I go over here and test this, when I click
-on one of these, I get clicked or this one. We&apos;ve put an event listener
-on all of these truth loop.
-
-![](./images/image74.png){width="5.0in"
-height="2.9561964129483815in"}
+But I have an event listener for each of these, and you can test it by
+adding **console.log** or an alert. Now if I go over here and test this, when I click
+on one of these, I get clicked! We&apos;ve put an event listener on each of the menu links.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. 'this' keyword in javascript (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png"
+  style="width:50%"
+  title="'This' Keyword in JavaScript"
+  alt="'This' Keyword in JavaScript." />
+</p>
 
 The next thing to get into is this keyword in JavaScript, and if you&apos;ve
 looked up stuff on JavaScript online, you can find that you can find a
@@ -1670,17 +1687,29 @@ lot about this keyword. It can be pretty confusing. But in the context
 in which we&apos;re going to use it in this course that this keyword is
 fairly simple. It basically means that the **menu** that we clicked on,
 we&apos;ve add an event listener to all the menus.
-
-![](./images/image75.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. test console log menu click (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png"
+  style="width:50%"
+  title="Test Console log menu click"
+  alt="Test Console log menu click." />
+</p>
 
 Now when you click on one, we get an alert. But you can only click on
 one menu at a time, so I want to know which one I clicked on. I need to
 know that, and the this keyword can help us figure that out.
-
-![](./images/image76.png){width="3.5in"
-height="2.069337270341207in"}![](./images/image77.png){width="3.5in"
-height="2.069337270341207in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 76/77. var thismenu = this; alert(thismenu.innerhtml) (48) ~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image076.png"
+  style="width:35%"
+  alt="New var thisMenu = this." />
+<img src="./images/image077.png"
+  style="width:35%"
+  title="Test, alert(thisMenu.innerHTML)"
+  alt="Test, alert(thisMenu.innerHTML)." />
+</p>
 
 I&apos;m going to make a variable here called **thisMenu**, and I&apos;m going
 to assign the keyword **this** to it, which means **thisMenu**, the one
@@ -1697,9 +1726,14 @@ construe thisMenu.innerHTML. Alright, thisMenu.innerHTML, let see with
 architects. When I click this menu, I get an alert that says Menu 1.
 It&apos;s telling me what&apos;s the inner HTML of the menu that I clicked. Now
 we can get this menu using this keyword.
-
-![](./images/image78.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 78. identify list item to be shown/hidden (49) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image078.png"
+  style="width:50%"
+  title="Identify list items to be shown/hidden"
+  alt="Identify list items to be shown/hidden." />
+</p>
 
 But really what we want to get to is the parent ordered list. Over here
 we&apos;ve added a click handler onto when you click one of these links. But
@@ -1720,16 +1754,30 @@ See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next lesson, I&apos;ll show you my
 solution for that.
 
-# 1.10 Challenge 3 Solution (2:46) 
-
-![](./images/image79.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. challenge 3 solution (1.10) (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image079.png"
+  style="width:40%"
+  title="1.10 Challenge 3 Solution"
+  alt="1.10 Challenge 3 Solution." />
+</p>
 
 Were you able to figure that out? Hopefully you were.
-
-![](./images/image80.png){width="3.5in"
-height="2.069337270341207in"}![](./images/image81.png){width="3.5in"
-height="2.069337270341207in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 80/81. menulink and menulinks event listeners (50) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png"
+  style="width:35%"
+  title="Vars menulink and menulinks in event listeners"
+  alt="Vars menulink and menulinks in event listeners." />
+<img src="./images/image081.png"
+  style="width:35%"
+  title="Vars menulink and menulinks in event listeners"
+  alt="Vars menulink and menulinks in event listeners." />
+</p>
 
 This is what I did, because I want to get, I&apos;m getting this, I&apos;ve got
 the anchor tags as my event listeners for when I click on them, but I
@@ -1741,9 +1789,14 @@ So I&apos;m going up to the parent list. I have been looking for the UR
 that&apos;s inside that will start them, and let&apos;s leave this. We&apos;ll leave
 this alert here. But you can make it console log if you prefer. It
 doesn&apos;t really matter.
-
-![](./images/image82.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 82. test alert(thismenu.innerhtml) (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png"
+  style="width:50%"
+  title="Test alert(thisMenu.innerHTML)"
+  alt="Test alert(thisMenu.innerHTML)." />
+</p>
 
 And now when I click on menu one, I&apos;m getting all of these list items,
 it looks kind of messy here, but it is actually working. Or if I click
@@ -1751,9 +1804,14 @@ on menu two, I&apos;m getting all these list items to B to C. So, I&apos;ve got
 this whole an ordered list that I&apos;m getting here. It might be easier to
 see it if you do it in a console log. So, we can change this to council
 a log and then let&apos;s see what it does.
-
-![](./images/image83.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. challenge 3 answer (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image083.png"
+  style="width:50%"
+  title="Challenge 3 Answer"
+  alt="Challenge 3 Answer." />
+</p>
 
 I&apos;m getting the inner HTML out there. Now that you have that your next
 challenge is, how do we change the class in that sub menu to show menu?
@@ -1762,61 +1820,83 @@ do we do that? Try to figure out how you can do that on your own, and
 then come and see the answer on the next lesson. I&apos;ll show you how I
 did it.
 
-# 1.11 Challenge 4 Solution (2:29)
-
-![](./images/image84.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-11">1.11 Challenge 4 Solution (2:29)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. challenge 4 solution (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image084.png"
+  style="width:40%"
+  title="1.11 Challenge 4 Solution"
+  alt="1.11 Challenge 4 Solution." />
+</p>
 
 It shouldn&apos;t have been too difficult, but sometimes you have to work
 through these things.
-
-![](./images/image85.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 85. var thismenu = this.parentnode.queryselectorall('ul') (52) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png"
+  style="width:50%"
+  title="Var thisMenu = this.parentNode.querySelector('ul');"
+  alt="Var thisMenu = this.parentNode.querySelector('ul');" />
+</p>
 
 What we could do instead, is we could use this menu and do **ClassName**
 equals &apos;show-menu&apos;. So we&apos;re applying that show-menu class to that
 particular menu. That should work.
-
-![](./images/image86.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 86. test, navigation menu - click and open/close (53) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.png"
+  style="width:50%"
+  title="Test, navigation menu - click and open/close menu"
+  alt="Test, navigation menu - click and open/close menu." />
+</p>
 
 Let&apos;s go over and see what happens when we have refresher page here. If
 I click on this, it shows the menu. Now, you&apos;ll notice we&apos;re not quite
 done yet because if I click another one, it&apos;ll show that menu and it
-doesn&apos;t close the menus. We want to be able to open the menus and close
+doesn&apos;t close the previous menus. We want to be able to open the menus and close
 them. The reason we want to make it so that when you click on a menu, if
 there&apos;s another one that&apos;s opened, it will close it before it opens
 this menu.
-
-![](./images/image85.png){width="5.0in"
-height="2.9561964129483815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 85. define thismenu as opened or closed (53) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png"
+  style="width:50%"
+  title="Again, define thisMenu and identify whether menu is opened or closed"
+  alt="Again, define thisMenu and identify whether menu is opened or closed." />
+</p>
 
 That&apos;s the next thing that we need to figure out how to do. But this
 little piece of the script is pretty simple here. We have a menu that&apos;s
 using this keyword that says, &apos;&apos;Go and get the parent node, go get the
 unordered list inside that parent&apos;&apos;. The parent would be the list
-item. Go get the unordered list inside the list item, and then just
-change the ClassName from &quot;hide-menu&quot; to &quot;show-menu&quot;. That seems
-pretty straightforward. Great. Hopefully, you got that. You got this
-answer here. We can open the pages and we can open the menus, but we
-can&apos;t close the menus.
+item. Go get the unordered list inside the list item, and then change the 
+ClassName from &quot;hide-menu&quot; to &quot;show-menu&quot;. That seems
+pretty straightforward. You got this answer here. We can open the pages and we 
+can open the menus, but we can&apos;t close the menus.
 
 The next challenge is if the menu has the class set &quot;hide-menu&quot;, set
 it to &quot;show-menu&quot;, otherwise, set it to &quot;hide-menu&quot;. This is your
 challenge, is how to make it so that it actually functions properly.
 There are two methods that you can use to help you with this. There&apos;s a
 method called classList and there&apos;s contains that will help you figure
-out whether the menu has &apos;&apos;hide-menu&apos;&apos; or &apos;&apos;show-menu&apos;&apos; wanted.
+out whether the menu has &apos;&apos;hide-menu&apos;&apos; or 
+&apos;&apos;show-menu&apos;&apos; wanted.
 See if you can do it on your own. Then if you are successful or not,
 just come back to the next lesson and we&apos;ll see how I did it.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-12">1.12 Challenge 5 Solution (3:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. challenge 5 solution (1.12) (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png"
   style="width:40%"
-  alt="." />
+  alt="1.12 Challenge 5 Solution." />
 
 Were you able to get the answer to this challenge?
 
@@ -1832,11 +1912,12 @@ these two things together to make this work. So let&apos;s try it together
 on our code over here and if you are able to get to work that&apos;s great.
 If not this will help you out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 88. if thismenu contains 'hide-menu' (55) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.png"
   style="width:50%"
-  alt="." />
+  title="If thisMenu contains 'hide-menu' then show-menu, else hide-menu"
+  alt="If thisMenu contains 'hide-menu' then show-menu, else hide-menu." />
 
 So instead of this I&apos;m just going to comment that out. Or you could
 just delete, but in there we&apos;re going to put an if statement if. And
@@ -1848,25 +1929,25 @@ contain it then we&apos;re going to do this. But we&apos;re going to do hide
 menu. And that will allow us to open and close the menus. Let&apos;s save
 this and come back and check our page over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. test, multiple menus open (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.png"
   style="width:50%"
-  alt="." />
+  title="Test, Multiple Menus Open at once"
+  alt="Test, Multiple Menus Open at once." />
 
-So if we now we should be able to open the menu and close the menu.
-Unfortunately though we can still open multiple menus and really what we
-want to be able to do is to be able to when we click on one menu, make
-sure all the other menus get closed. Any other menu that&apos;s open is
-closed. So we can reduce cognitive load on our user and they can they
-can open only one menu at a time, and be sort of presented with only one
-set of options at a time.
+Now we should be able to open and close the menu. Unfortunately though, we can 
+still open multiple menus and what we want is to be able to make sure all the 
+other menus get closed. Any other menu that&apos;s open is closed. We can reduce 
+cognitive load on our user and they can they can open only one menu at a time, 
+and be sort of presented with only one set of options at a time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. challenge 5 answer (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.png"
   style="width:50%"
-  alt="." />
+  title="Challenge 5 Answer"
+  alt="Challenge 5 Answer." />
 
 So hopefully you got something like this on your own. And if you
 didn&apos;t, hopefully my explanation helps. But I recommend if you&apos;re not
@@ -1883,48 +1964,49 @@ the parent menu being collect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-13">1.13 Challenge 6 Solution (2:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. challenge 6 solution (1.13) (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png"
   style="width:40%"
-  alt="." />
+  title="1.13 Challenge 6 Solution"
+  alt="1.13 Challenge 6 Solution." />
 
 Hopefully, you were able to get this working this way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. toggle menu currently (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png"
   style="width:50%"
-  alt="." />
+  title="Currently, menus may be toggled open/close"
+  alt="Currently, menus may be toggled open/close." />
 
 So that when we click on these, they open and we can open them and we
 can close them. But now the challenge is we want to reduce cognitive
 load by making it so that our user isn&apos;t faced with too many menu
 options at once. So we want to only show one menu options at the time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. challenge 6 answer (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png"
   style="width:50%"
-  alt="." />
+  title="Challenge 6 Answer"
+  alt="Challenge 6 Answer." />
 
 
-So let&apos;s go over into the code and see how we could actually do this
-here. And really what we want to do is we want to duplicate this loop.
-We want to copy this loop and just stick it inside this if statement. So
-I will make sure that all of the menus get closed when you click on one
-that you&apos;re opening. And we&apos;re going to leave the if statements so
-that if you&apos;re clicking on one to close it, it will still work. And if
-it&apos;s set to class named **show-menu**, it&apos;ll cited to **hide-menu**.
-So that&apos;s why we want to leave the if statement here, but that should
-actually work on this.
-
+So let&apos;s go over into the code and see how we could do this. And what we 
+want to do is we want to duplicate this loop. We want to copy this loop and 
+stick it inside this if statement. So I will make sure that all of the menus 
+get closed when you click on one that you&apos;re opening. And we&apos;re going 
+to leave the if statements if you&apos;re clicking on one to close it, it will 
+still work. And if it&apos;s set to class named **show-menu**, it&apos;ll cited 
+to **hide-menu**. That&apos;s why we want to leave the if statement here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 94. test, open menu, close all others (59) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.png"
   style="width:50%"
-  alt="." />
+  title="Test, open menu, close all others"
+  alt="Test, open menu, close all others." />
 
 And if we go over and take a look at it and test this, we should see
 that this is working now. So I come back here and refresh this. Now when
@@ -1946,21 +2028,23 @@ solution for how I made it work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-14">1.14 Challenge 7 Solution (2:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. challenge 7 solution (1.14) (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png"
   style="width:40%"
-  alt="." />
+  title="1.14 Challenge 7 Solution"
+  alt="1.14 Challenge 7 Solution." />
 
 Everything is working and we can leave the script the way it is. But
 it&apos;s always good to refactor your code and make it better if you can.
 Let&apos;s do that with this final step here, this next step here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 96. function hidesubmenus classname = 'hide-menu' (60) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png"
   style="width:50%"
-  alt="." />
+  title="New function hideSubmenus, set className = 'hide-menu'"
+  alt="New function hideSubmenus, set className = 'hide-menu'." />
 
 We&apos;re going to come over here and we&apos;re going to make a function,
 we&apos;re just going to put it here, function hideSubmenus, like that. I&apos;m
