@@ -2947,17 +2947,23 @@ slide up.
 Let\'s go over and give that a try. Hopefully I did that right, I think
 I did. If I refresh this page and click \"Slideup,\" it does that
 animation.
-
-![](./3-14-24-images/media/image161.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image161.png"
+  style="width:50%"
+  alt="." />
 
 It\'s interesting to inspect this. Watch what happens here. Actually on
 the actual box itself. Watch what happens down here, when I click
 slideup. You can see it very quickly went through some settings in here,
 as it did that and ended up with displaying that.
-
-![](./3-14-24-images/media/image162.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image162.png"
+  style="width:50%"
+  alt="." />
 
 The other ones look very similar as you can imagine. We\'ve got
 **slideupbox**, we\'ve got **slidedownbox**, and we\'ve got **slide
@@ -2979,9 +2985,12 @@ beginning and then speeds up towards the end of the animation, or you
 can actually do **easing** in and outward. Starts slow, speeds up and
 then end slow or starts fast, slows down and ends fast. You can do all
 of these different types of easing.
-
-![](./3-14-24-images/media/image163.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image163.png"
+  style="width:50%"
+  alt="." />
 
 **JQuery** has some basic **easing** built-in and you can put in here in
 quotes, **\"swing\"**. That will do a little bit of **easing** on this
@@ -2994,17 +3003,24 @@ the way through. It\'s hard to tell, but it is there, just subtle.
 **plug-in** and one of the strengths of **jQuery** is the **plug-in**
 architecture. We\'re going to talk about that in the next lesson.
 
-# 2.04 Example 2: Plugin Architecture (8:39) {#example-2-plugin-architecture-839 .unnumbered}
-
-![](./3-14-24-images/media/image164.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-04">2.04 Example 2: Plugin Architecture (8:39)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 164. example 2: plugin architecture (2.04) (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image164.png"
+  style="width:40%"
+  alt="." />
 
 In the last lesson, we added some **easing** to our function, so that
 now it slides up using the **linear easing**, but slide down is using
 the **swing easing**.
-
-![](./3-14-24-images/media/image165.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image165.png"
+  style="width:50%"
+  alt="." />
 
 **Easing** can give your animations a little bit of personality. They
 can make them seem a little bit less mechanical, when the speed of the
@@ -3024,7 +3040,7 @@ these different: in **ease-out**, **ease-in** all these different
 animations in here. But in order to use this, we have to plugins
 **plug-in**.
 
-### 50 Awesome jQuery Plugins {#awesome-jquery-plugins .unnumbered}
+### 50 Awesome jQuery Plugins
 
 <https://tutorialzine.com/2013/04/50-amazing-jquery-plugins>
 
@@ -3050,17 +3066,23 @@ That comes from this website here;
 but we can use the easings that we see here. If I want an
 **easeOutBounce**, I can actually use that animation if I want to over
 here. Let\'s give that a try.
-
-![](./3-14-24-images/media/image166.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image166.png"
+  style="width:50%"
+  alt="." />
 
 **\"easeOutBounce\"**. Make sure you spell it right with the capital
 letters and everything **easeOutBounce**. Make sure you spell it all
 correct and that you get the correct capital letters. Make sure you put
 it inside the quotes, and so on and so forth.
-
-![](./3-14-24-images/media/image167.png){width="5.0in"
-height="2.839744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167.png"
+  style="width:50%"
+  alt="." />
 
 If I save that and then come back and look at my example here, and click
 slide toggle, you can see that it does this bounce. Which is pretty
@@ -3069,9 +3091,12 @@ opposite end of the animation, which might look a little weird. It\'s
 doing the bounce first and then it\'s finishing the animation, which
 looks a little weird, but you get the idea and you can try some of these
 other easings and see what personality you can get.
-
-![](./3-14-24-images/media/image168.png){width="5.0in"
-height="3.086538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image168.png"
+  style="width:50%"
+  alt="." />
 
 I really like the **easeOutCirc** ones. Yeah, **easeIn** and
 **easeOutCirc**. You can give those a try. Let\'s see what we can do
@@ -3080,63 +3105,88 @@ pretty slow. You can even slow down more if you wanted to see it. I\'ll
 set that to three seconds. You can see how it changes the animation by
 either slowing it down or speeding it up. I think this one\'s speeding
 it up as it gets to the end of the animation.
-
-![](./3-14-24-images/media/image169.png){width="5.0in"
-height="3.086538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image169.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s come back and try **easeOutCirc**. That\'s starting fast and
 ending slow. It gives the animation a little bit of personality as it
 does its thing.
-
-![](./3-14-24-images/media/image170.png){width="5.0in"
-height="3.086538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image170.png"
+  style="width:50%"
+  alt="." />
 
 You could try **easeInOutCirc**. It\'s hard to see, but it is doing
 something there. Try these different animations. You\'ll notice if you
 spell them wrong, if I do, **easeoutCirc** like that, then it won\'t
 work quite right at all.
-
-![](./3-14-24-images/media/image171.png){width="5.0in"
-height="3.086538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image171.png"
+  style="width:50%"
+  alt="." />
 
 One last quick thing here before we\'re done with this lesson is you can
 also add the **callback** function after the **easing**. I could add a
 function here and say done, and you\'ll see that when that **easing** is
 finished, when that animation is finished, that **callback** function
 will fire.
-
-![](./3-14-24-images/media/image172.png){width="5.0in"
-height="3.086538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image172.png"
+  style="width:50%"
+  alt="." />
 
 Now that\'ll work, and it comes back and it says it\'s done. That gives
 us a lot of information about how to work with these **built-in**
 animations, and we\'re going to do more in the next lesson.
 
-# 2.05 Example 3: Fading Buttons (4:00) {#example-3-fading-buttons-400 .unnumbered}
-
-![](./3-14-24-images/media/image173.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-05">2.05 Example 3: Fading Buttons (4:00)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image173.png"
+  style="width:40%"
+  alt="." />
 
 In Example 3, we\'ll look at something that\'s similar to the other two,
 but just slightly different.
-
-![](./3-14-24-images/media/image174.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image174.png"
+  style="width:50%"
+  alt="." />
 
 It\'s got four buttons and we can use some built-in functions in
 **jQuery** to **fade** objects in and out, or to **fade** them to a
 particular percentage of opacity.
-
-![](./3-14-24-images/media/image175.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image175.png"
+  style="width:50%"
+  alt="." />
 
 Here I have **fade out**, which will fade it out completely. **Fade
 in**, will fade it all the way to being visible. But then I had **fade**
 to 20 percent, which will fade it to 20 percent opacity, and then
 **fade** to 100 percent, which will **fade** it all the way in.
-
-![](./3-14-24-images/media/image176.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s take a look at how we can do that. Over here I have Example 3
 open and you can see that I have much the same styling up at the top of
@@ -3157,9 +3207,12 @@ put fast, or you could put slow, or you could put a specific number of
 milliseconds; 3,003 seconds is a long time, but we can actually give
 that a try. You\'ll see that will actually work over here. Over three
 seconds, it will become invisible.
-
-![](./3-14-24-images/media/image177.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image177.png"
+  style="width:50%"
+  alt="." />
 
 We could do **fadein** as well. I can copy that and paste it or just
 type it again. It\'s always a good idea to do that, but we\'re going to
@@ -3173,15 +3226,22 @@ When the animation is complete, it runs the alert and says that it\'s
 done. That\'s great. We can do all of that. Okay, cool. Now we just need
 to add these last two here and we can look at that in the next lesson.
 
-# 2.06 Example 3: Fade To (4:07) {#example-3-fade-to-407 .unnumbered}
-
-![](./3-14-24-images/media/image178.png){width="4.0in"
-height="2.473077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-06">2.06 Example 3: Fade To (4:07)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image178.png"
+  style="width:40%"
+  alt="." />
 
 In this lesson, we\'ll make these last two buttons work.
-
-![](./3-14-24-images/media/image179.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image179.png"
+  style="width:50%"
+  alt="." />
 
 And with that, there\'s a fade to method that we can use in **jQuery**.
 
@@ -3200,23 +3260,32 @@ number it takes is a **duration**, an amount. Takes the **duration**,
 that\'s the first number. The second number is how much it\'s going to
 **fade** **to**. We want to do 0.2 like that. And now, that should
 actually work.
-
-![](./3-14-24-images/media/image180.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image180.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s go over and check it out. Press refresh this and click fade to,
 it fades down but it doesn\'t fade all the way down, it fades to 20%.
-
-![](./3-14-24-images/media/image181.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image181.png"
+  style="width:50%"
+  alt="." />
 
 We can do that and then we can do the fade to again for the last one.
 We\'re going to use this link **fadeTo**. When you click the fadeTo,
 it\'s going to fade to one. The opacity is a number between 0 and 1, 0
 is completely transparent, 1 is completely opaque.
-
-![](./3-14-24-images/media/image182.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image182.png"
+  style="width:50%"
+  alt="." />
 
 The 2^nd^ button has the callback function and the swing animation on
 it. And if you wanted to do some of the other easings, you would have to
@@ -3238,10 +3307,14 @@ and toggling, slide toggle and doing all these kinds of things that we
 commonly need to do. But sometimes you need to do a custom function, and
 we\'ll take a look at that in the next part of this lesson.
 
-# 2.07 Example 4: Custom Animations -- Part 1 (4:20) {#example-4-custom-animations-part-1-420 .unnumbered}
-
-![](./3-14-24-images/media/image183.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-07">2.07 Example 4: Custom Animations -- Part 1 (4:20)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image183.png"
+  style="width:40%"
+  alt="." />
 
 Next, for example 4, we\'re going to look at some of the custom
 animations you can use in **jQuery** and over here I have my example
@@ -3253,9 +3326,12 @@ box here, and you\'ll see that my stylings is a little bit different up
 here, if you look at the actual page, it looks like this now. We\'re
 going to make each of these buttons work so we can see how some custom
 animations work in **jQuery**.
-
-![](./3-14-24-images/media/image184.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image184.png"
+  style="width:50%"
+  alt="." />
 
 To do this, we\'ll use the animate method in **jQuery**, and you\'ll see
 that it allows us to animate some, not all, but some of the CSS
@@ -3263,9 +3339,12 @@ properties that we have come to know and love over the years in working
 with CSS. That gives us a lot of power, because we can actually use
 these CSS properties to animate all different things not just sliding up
 and down or showing and hiding and doing this kind of stuff.
-
-![](./3-14-24-images/media/image185.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image185.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s give it a try and see what it does over here. Down here I\'m
 going to add in my script. I\'m going to go get my **jQuery** objects
@@ -3276,9 +3355,12 @@ everything\'s going to go inside these curly brackets here. At this
 point I want to affect box, pound box, don\'t forget the pound sign.
 We\'re going to do the animate function in **jQuery**. This will animate
 the box.
-
-![](./3-14-24-images/media/image186.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image186.png"
+  style="width:50%"
+  alt="." />
 
 The way we\'re going to do this here is we\'re going to pass in an
 object. We have not yet worked with objects in JavaScript, they\'re
@@ -3287,9 +3369,12 @@ JavaScript, but will see them pop up a few times and this is one of
 those times. I\'ll explain it a little bit now, but we\'ll get into
 objects in more detail a bit later, and an object is an alternative way
 of storing data in JavaScript, and it comes with a key value pair.
-
-![](./3-14-24-images/media/image187.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image187.png"
+  style="width:50%"
+  alt="." />
 
 We define an object with the curly braces, and then we have a key value
 pair. In this case, the key is width, that\'s the **CSS** property
@@ -3297,9 +3382,12 @@ we\'re animating, and then the value is 710px, and you\'ll notice that
 the value goes inside quotes, but the key does not. That\'s a
 distinguishing aspect of objects in JavaScript in general and also in
 **jQuery**.
-
-![](./3-14-24-images/media/image188.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image188.png"
+  style="width:50%"
+  alt="." />
 
 We\'re going to animate in here. We\'re going to pass in an object open
 and closing curly brace and we\'re going to put in width, colon, and
@@ -3309,17 +3397,24 @@ box, and you can see it sets it so that it 710 pixels. I knew it was 710
 pixels to end right here. Let\'s take a look at growing the text and
 affecting the actual text inside the box in the next lesson.
 
-# 2.08 Example 4: Custom Animations - 2 (5:59) {#example-4-custom-animations---2-559 .unnumbered}
-
-![](./3-14-24-images/media/image189.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-08">2.08 Example 4: Custom Animations - 2 (5:59)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image189.png"
+  style="width:40%"
+  alt="." />
 
 For this next example, we will start with our **jQuery** object again as
 always, and then go and get the element that we want to get, which in
 this case is pound grow box.
-
-![](./3-14-24-images/media/image190.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image190.png"
+  style="width:50%"
+  alt="." />
 
 Because we\'re getting on and we grow text. It\'s always good to copy
 and paste just to make sure you\'re getting exactly the right thing, and
@@ -3334,9 +3429,12 @@ animate function here and again, we\'re going to pass in with curly
 braces, not square brackets, curly braces and object. What are we going
 to do here? We\'re going to do font in quotes. No, this one looks like
 this.
-
-![](./3-14-24-images/media/image191.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image191.png"
+  style="width:50%"
+  alt="." />
 
 We come over here. Font size. We\'re using the JavaScript version of
 font size rather than the CSS version, which is font dash size. We
@@ -3350,9 +3448,12 @@ Grow the box grow the text. That\'s working just fine and you can try a
 different size text if you wanted to do 36 pixels or 40 or whatever you
 want to do that\'ll be a little bit more dramatic. Grow the box, grow
 the text and that\'s working great.
-
-![](./3-14-24-images/media/image192.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image192.png"
+  style="width:50%"
+  alt="." />
 
 We could also move the box. Let\'s give that one a try. With move box,
 what we\'re going to do, we\'re actually going to change the position of
@@ -3377,9 +3478,12 @@ pixels, let\'s take a look at this really quickly. If I reset that, that
 puts that in the right place. But if I didn\'t put the 50 pixels in
 there, left 50 pixels, maybe it won\'t actually do anything, okay, well
 actually maybe be fine.
-
-![](./3-14-24-images/media/image195.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image195.png"
+  style="width:50%"
+  alt="." />
 
 But still I want to set the left 50 pixels so that I\'m moving from this
 position, left 50 pixels. Because we\'re going to change the left
@@ -3390,15 +3494,21 @@ here I\'m going to change the left property, left, and I\'m going to do
 plus equals 300 px, so that we\'ll add 300 pixels to the 50 pixels
 that\'s already there. Plus equals, we\'ll add 300 pixels to the 50
 pixels.
-
-![](./3-14-24-images/media/image196.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image196.png"
+  style="width:50%"
+  alt="." />
 
 It\'s already there and it\'ll move it left 50 pixels, I mean to 350
 pixels from the left-hand side.
-
-![](./3-14-24-images/media/image197.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image197.png"
+  style="width:50%"
+  alt="." />
 
 You can set how long you want that animation take. You can make it go
 longer if you wanted to and after the animate, after the object here, I
@@ -3408,25 +3518,35 @@ what that does. Five seconds is really slow, but it is animating .
 We\'re able to adjust the amount of time and the amount that it moves
 in, what it does with the actual animation, all with custom animation.
 
-# 2.09 Doing All Animations at Once (6:30) {#doing-all-animations-at-once-630 .unnumbered}
-
-![](./3-14-24-images/media/image198.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-09">2.09 Doing All Animations at Once (6:30)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image198.png"
+  style="width:40%"
+  alt="." />
 
 For next button on Example 4, we want to make all of these animations
 happen at the same time.
-
-![](./3-14-24-images/media/image199.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image199.png"
+  style="width:50%"
+  alt="." />
 
 They\'re all going to move forward at the same time. We will change both
 the width, the font, and the left positioning of three of these. We\'re
 going to change all of them at once. We can do that by just passing in
 these different properties into our object all at once, separating them
 with commas.
-
-![](./3-14-24-images/media/image200.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image200.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s do that. Down here, once again, I\'m going to use my **jQuery**
 object to go get this pound, but what I want is do all. I\'m going to
@@ -3446,15 +3566,21 @@ that now when I come over and test this thing, I also want to put in an
 amount of time, that will be really helpful. After the curly brace, put
 a comma, and then I\'m going to put 1500. It\'s going to take a
 second-and-a-half to do all of these.
-
-![](./3-14-24-images/media/image201.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image201.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s come back over here and refresh this. When I click Do All, it
 should do all of those things.
-
-![](./3-14-24-images/media/image202.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png"
+  style="width:50%"
+  alt="." />
 
 Now, the last button is to do them in a sequence. First we want to grow
 the box, then we want to grow the text, then we want to move the box. We
@@ -3486,9 +3612,12 @@ track of this stuff. You have to be really careful with it, but then
 I\'m going to put the next one inside these curly braces. I move that
 down, and I\'m going to do this one here. Now change that to 1500. There
 we go. That\'s the last one. It doesn\'t get a **callback** function.
-
-![](./3-14-24-images/media/image203.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image203.png"
+  style="width:50%"
+  alt="." />
 
 Let\'s see if that works. If I come over here and test this, refresh, if
 I did it right, sequence, it should do that one and that finishes. It
@@ -3504,42 +3633,52 @@ Especially if you\'re doing something fairly quick, there\'s not a lot
 of reason not to use it. We\'ll see an example of when is a good place
 to use this effects library coming up when we create a tabbed interface.
 
-## Additional Resources {#additional-resources .unnumbered}
+<h3>Additional Resources</h3>
 
 Here are resources related to these lessons:
 
-### 2.09 [jQuery Easing Plugin](https://gsgd.co.uk/sandbox/jquery/easing/)
+<ul>
+  <li><a href="https://gsgd.co.uk/sandbox/jquery/easing/">
+    2.09 jQuery Easing Plugin</a></li>
+  <li><a href="https://cdnjs.com/libraries/jquery-easing">
+    2.09 jQuery Easing</a></li>
+</ul>
 
-### https://gsgd.co.uk/sandbox/jquery/easing/ {#httpsgsgd.co.uksandboxjqueryeasing .unnumbered}
-
-### 2.09 [jQuery Easing](https://cdnjs.com/libraries/jquery-easing)
-
-### https://cdnjs.com/libraries/jquery-easing {#httpscdnjs.comlibrariesjquery-easing .unnumbered}
-
-## PDF of Presentation {#pdf-of-presentation-3 .unnumbered}
+<h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **Intro to jQuery Effects Library**.
 
-### 
+<ul>
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
+    2.09 jQuery Effects-Library.pdf</a></li>
+</ul>
 
-# 2.09 jQuery-Effects-Library.pdfhttps://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A {#jquery-effects-library.pdfhttpsd3c33hcgiwev3.cloudfront.netipt9jx2grvgbfy19onbxga_273f1d9cb53a443b95389299f4786bf1_web1091_m02_jquery-effects-library.pdfexpires1710460800signaturehsgahtrwghjj8szjqosqr6opex4ypq4wyk6iimgqqdpfppeza6op9kptnmy7uxt8yekkheremfyns0ey-t2od4irivqaqsdc0alpispen8ddbrd1y-hulqow0tuqdgxfcomuuajgywbfit8hxzwo0qs4swnkysdnfqvoe8e_key-pair-idapkajltne6qmuy6hbc5a .unnumbered}
-
-# 2.10 Intro to Tabbed Interface Using jQuery (5:27)
-
-![](./3-14-24-images/media/image204.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-10">2.10 Intro to Tabbed Interface Using jQuery (5:27)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image204.png"
+  style="width:40%"
+  alt="." />
 
 Tabbed interface, using **jQuery**.
-
-![](./3-14-24-images/media/image205.png){width="4.0in"
-height="2.2756408573928257in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image205.png"
+  style="width:40%"
+  alt="." />
 
 We\'re going to create this tabbed interface, and this is a really good
 project to see the **jQuery** effects library in practice.
-
-![](./3-14-24-images/media/image206.png){width="5.0in"
-height="2.8445516185476816in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image206.png"
+  style="width:50%"
+  alt="." />
 
 We\'ve looked at how to use the **jQuery** effects library, and now
 we\'re going to use it a little bit in this project.
@@ -3553,9 +3692,12 @@ Then we\'ll remake the same project using plain JavaScript, so you can
 see the difference between the two, and compare the code between the two
 versions.
 
-![](./3-14-24-images/media/image207.png){width="5.0in"
-height="2.8445516185476816in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image207.png"
+  style="width:50%"
+  alt="." />
 Let\'s get started and see what this is going to look like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 208/209.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3580,16 +3722,22 @@ an unordered list that makes the tabs, and the tabs themselves would
 have id\'s that match the href\'s for them up here. That\'s the basic
 markup that we\'re going to be using, and it should really work well for
 us.
-
-![](./3-14-24-images/media/image210.png){width="5.0in"
-height="2.8819444444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image210.png"
+  style="width:50%"
+  alt="." />
 
 From there we need to add some basic styling because currently in the
 page, if you open up the start files in the browser, they look like
 this, so there\'s very little styling here.
-
-![](./3-14-24-images/media/image211.png){width="5.0in"
-height="2.8819444444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image211.png"
+  style="width:50%"
+  alt="." />
 
 I\'ve done just a little bit on my style sheet, so you can come over
 here and see styles.css. I\'ve got this reset rule, which is not great
@@ -3610,9 +3758,12 @@ display **flex**, so they go next to each other.
 You might wonder about the single bracket, and what this does is it
 makes sure that the unordered list, that\'s inside the tabs directly,
 the direct descended is targeted.
-
-![](./3-14-24-images/media/image212.png){width="5.0in"
-height="2.8819444444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image212.png"
+  style="width:50%"
+  alt="." />
 
 Example 1, something like this, li. Example 2, something like that. But
 I didn\'t want this unordered list to get targeted by my rules, I only
@@ -3623,16 +3774,14 @@ and now my tabs are lining up next to each other, still doesn\'t look
 very good, but we\'re getting there.We\'ll continue with the styling in
 the next lesson.
 
-### Start Files: Creating a Tabbed Interface with jQuery {#start-files-creating-a-tabbed-interface-with-jquery .unnumbered}
+### Start Files: Creating a Tabbed Interface with jQuery
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
-## zip START Files {#zip-start-files-2 .unnumbered}
-
-### 
+## zip START Files
 
 > 2.10
 > jQuery-Tabs-START.ziphttps://d3c33hcgiwev3.cloudfront.net/0zxTkBHgSGK8U5AR4GhiNQ_2cfc93b6885b45df9d112bfdb160edb8_WEB1091_jQuery-Tabs-Start.zip?Expires=1710633600&Signature=fNkkUy75wDywZ87jXfS5Dlrfg5nWorDm50rID9X2tFjy\~n9wXEtGIsB2RHKiZFTfTTlBeQxmjbhYfOGe9h50y0xSekL4X19\~Tj78kqW2edt7cMuCENfP3LFo-lbfoN03ZXTKgV-uL8l206y-IvjXpv06oxrfwV1-ZO9kWFZ71lk\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
@@ -3642,10 +3791,14 @@ transmission, often carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# 2.11 Styling the Anchor Tags (5:32) {#styling-the-anchor-tags-532 .unnumbered}
-
-![](./3-14-24-images/media/image213.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-11">2.11 Styling the Anchor Tags (5:32)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image213.png"
+  style="width:40%"
+  alt="." />
 
 The next rule styles the actual anchor tags that are inside the list
 items that are inside the unordered list that are inside the tabs.
@@ -3724,7 +3877,7 @@ really starts to look like a tap and we want to get that styling in
 place. The next step will be to add the j query to make the thing
 actually work and we\'ll start working on that in the next lesson.
 
-# 2.12 Tab Styling and Colors (6:07) {#tab-styling-and-colors-607 .unnumbered}
+# 2.12 Tab Styling and Colors (6:07)
 
 ![](./3-14-24-images/media/image214.png){width="4.0in"
 height="2.361538713910761in"}
@@ -3869,7 +4022,7 @@ to that dark color. Then I want to take the one
 that I clicked on, this one, and set it to this color here. We\'ll do
 that in the next video.
 
-# 2.13 Clicking and Fading Tabs (4:45) {#clicking-and-fading-tabs-445 .unnumbered}
+# 2.13 Clicking and Fading Tabs (4:45)
 
 ![](./3-14-24-images/media/image215.png){width="4.0in"
 height="2.361538713910761in"}
