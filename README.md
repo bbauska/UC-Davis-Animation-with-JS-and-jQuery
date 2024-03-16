@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/14/2024 11+pm"
+date last editted: "3/15/2024 5+pm"
 output: 
   markdown:
     with some style
@@ -593,7 +593,8 @@ popular JavaScript library.
 <p align="center" width="100%">
 <img src="./images/image005.png"
   style="width:40%"
-  alt="." />
+  title="jQuery is less useful now than in 2010"
+  alt="jQuery is less useful now than in 2010." />
 </p>
 
 Today, jQuery is less useful than it used to be back in the early days.
@@ -688,7 +689,8 @@ What is a library anyway?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. what is a library, anyway? (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png"
-  style="width:40%"
+  style="width:50%"
+  title="What is a Library, Anyway?"
   alt="What is a Library, Anyway?" />
 </p>
 
@@ -708,7 +710,7 @@ jQuery functions and all the functions that come along with jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 08. two options for plugging in jquery (13) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.png?raw=true"
-  style="width:40%"
+  style="width:50%"
   title="Two Options for Plugging in jQuery"
   alt="Two Options for Plugging in jQuery." />
 </p>
@@ -794,7 +796,7 @@ copy of jQuery in my jQuery Start folder here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 13. jquery-3.7.1.min.js in folder (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
-  style="width:30%"
+  style="width:50%"
   title="jquery-3.7.1.min.js in folder"
   alt="jquery-3.7.1.min.js in folder." />
 </p>
@@ -829,62 +831,65 @@ need to do is add it to our file.
   title="Plug in the jQuery Library"
   alt="Plug in the jQuery Library." />
 </p>
-I want to add jQuery to my file here. I can come down here and I can add a 
+
+<p>I want to add jQuery to my file here. I can come down here and I can add a 
 script tag script, and what I&apos;m going to put in here is 
-<b>src="js/jquery-3.7.1.min.js" (last updated 8/28/2023). js is my subdirectory.
+<b>src="js/jquery-3.7.1.min.js"</b> (last updated 8/28/2023). js is my subdirectory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 16. plug in jquery in body of index.html (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   style="width:50%"
-  alt="." />
+  title="script src='jquery-3.7.1.min.js' in the body of index.html"
+  alt="script src='jquery-3.7.1.min.js' in the body of index.html." />
 </p>
 
-Now jQuery is plugged in.
+<p>Now jQuery is plugged in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. test, pop up jquery loaded (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
   style="width:50%"
-  alt="." />
+  title="Test pop up, jQuery is loaded"
+  alt="Test pop up, jQuery is loaded." />
 </p>
 
-If I test this file over here, I come over here and open a new tab and do open and 
+<p>If I test this file over here, I come over here and open a new tab and do open and 
 go into my jQuery Start folder and open this index file, it&apos;ll pop up and 
-it&apos;ll say jQuery is loaded.
+it&apos;ll say jQuery is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 18. example jquery snippets, the google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
   style="width:50%"
-  alt="." />
+  title="Example jQuery snippets, The Google CDN"
+  alt="Example jQuery snippets, The Google CDN." />
 </p>
 
-Even easier is to use a CDN to load jQuery, and the CDN I prefer to use is
+<p>Even easier is to use a CDN to load jQuery, and the CDN I prefer to use is
 the Google CDN, and I have that pulled up over here, and if you want to
 get to the CDN, the easy way to get to it is just to Google. Google
 jQuery I type CDN there we go, and you&apos;ll see Hosted Libraries on
 Google. That&apos;s this link right here, and over here they&apos;ve got a lot
 of libraries that you can access through Google that they host on their
-CDN, and one of them is jQuery. 
+CDN, and one of them is jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19. jquery libraries in google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
   style="width:50%"
-  alt="." />
+  title="jQuery 3 versions from Google's Hosted Libraries"
+  alt="jQuery 3 versions from Google's Hosted Libraries." />
 </p>
-https://developers.google.com/speed/libraries/#libraries
 
-We can actually go to this link here, to
-jQuery, and you can see that jQuery has three different versions, three
-flavors of jQuery that include different features. The version 1X
-snippet is the oldest version of jQuery and it&apos;s loading 1.12.4. This
-is really the 12th major version of version one, essentially, and then
-we&apos;ve got version 2.2.4, which is the second major version of version a
-two, and in version two, they did a number of things to remove support
-for IE6 because they had basically gone away at that point, so they&apos;ve
-done some different things in these different versions. 
+<p>We can go to this link <a href="https://developers.google.com/speed/libraries/#libraries">
+here</a>, to jQuery, and you can see that 
+jQuery has three different versions, three flavors of jQuery that include 
+different features. The version 1X snippet is the oldest version of jQuery 
+and it's loading 1.12.4. This is really the 12th major version of version 
+one, essentially, and then we've got version 2.2.4, which is the second 
+major version, and that version they did a number of things to remove support 
+for IE6, and finally, version 3.7.1 which is the current version of jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 20. is jquery working; script load (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -894,14 +899,13 @@ done some different things in these different versions.
   alt="Is jQuery Working, Script load." />
 </p>
 
-The most recent
-version, the version that we downloaded is version 3.7.1, so to get the
-same one that we had before, you can just copy this entire script line
-here. Oops, wrong button here. There we go. Just copy that line, and go
+<p>The most recent version, the version that we downloaded is version 3.7.1, so 
+to get the same one that we had before, you can just copy this entire script 
+line here. Oops, wrong button here. There we go. Just copy that line, and go
 back to our file here, and paste that line in instead, and you&apos;ll see
-if we save this and come back and do testing jQuery, jQuery is loaded.
-Instead of loading from the file that I have locally here, I can now
-delete this file, and it will work just fine. 
+if we save this and come back and do testing jQuery, jQuery is loaded. Instead 
+of loading from the file that I have locally here, I can now delete this file, 
+and it will work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. is jquery working? (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -910,13 +914,12 @@ delete this file, and it will work just fine.
   alt="Is jQuery Working?" />
 </p>
 
-Now if I was gone,
-but this will work just fine because it&apos;s actually loading jQuery from
-the internet. Of course, if the internet&apos;s down, it&apos;s not going to
-load it, but if the internet&apos;s down, and you going to get to your
-webpage anyway. 
+<p>Now if I was gone, but this will work just fine because it&apos;s actually 
+loading jQuery from the internet. Of course, if the internet&apos;s down, 
+it&apos;s not going to load it, but if the internet&apos;s down, and you going 
+to get to your webpage anyway.</p>
 
-It&apos;s a little bit easier to use the CDN to load jQuery
+<p>It&apos;s a little bit easier to use the CDN to load jQuery
 because it&apos;s just one less file and I have to download, keep track of.
 Usually we will be using this method to load jQuery, and there are times
 when you might want the older versions generally will use the newest
@@ -925,8 +928,7 @@ function or method in jQuery that has been deprecated, or if you&apos;re
 using a plug-in that was built using an older version, and it needs some
 functionality from the older version in order to work. But generally
 we&apos;re going to use the newest version of jQuery, version 3.7.1 at the
-time of this recording.
-
+time of this recording.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-04">1.04 Basic jQuery Syntax (5:31)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -938,25 +940,25 @@ time of this recording.
   alt="1.04 Basic jQuery Syntax." />
 </p>
 
-Now that you have **jQuery** working, let&apos;s do something with it. Do
-something more than just to show that it&apos;s working.
+<p>Now that you have **jQuery** working, let&apos;s do something with it. Do
+something more than just to show that it&apos;s working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 23. example, basic jquery syntax - the jquery object (21) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png"
   style="width:50%"
-  alt="" />
+  title="Example, Basic jQuery Syntax - The jQuery Object"
+  alt="Example, Basic jQuery Syntax - The jQuery Object." />
 
-We&apos;ll use the same file, we&apos;re just going to replace the script down
-there just so we can see that something is happening to our actual web
-page.
-
+<p>We&apos;ll use the same file, we&apos;re just going to replace the script down
+there just so we can see that something is happening to our actual web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 24. jquery set h1.css color to 'red' (22) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png"
   style="width:50%"
-  alt="" />
+  title="Use jQuery, set h1.css color to 'red'"
+  alt="Use jQuery, set h1.css color to 'red'." />
 
 If we come back over here, we can get rid of this if-else statement.
 Just delete that for a moment and let&apos;s put in a **jQuery** statement.
@@ -966,11 +968,12 @@ We&apos;re going to use the CSS method in **jQuery**, like that. What we&apos;re
 going to do is we&apos;re going to set the color of the **h1** to red. If we
 just do this one line and then save it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 25. test inspect, set h1 style color to 'red' (22) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.png"
   style="width:50%"
-  alt="" />
+  title="Test Inspect, set h1 style color to 'red'"
+  alt="Test Inspect, set h1 style color to 'red'." />
 
 Then if you come over and run this test in **jQuery** again, you&apos;ll see
 that it turns the **h1** red here. If I inspect this element here, you
@@ -994,11 +997,12 @@ put the single dollar sign in there for that reason. This CSS method
 here is just one of the great many that **jQuery** has to offer that
 will help us factor web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26.  (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. jquery api documentation (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png"
   style="width:50%"
-  alt="" />
+  title="jQuery API Documentation"
+  alt="jQuery API Documentation." />
 
 You can come back here, you can go and look at the **jQuery** API
 documentation here. You can see that there&apos;s just tons and tons of
@@ -2185,6 +2189,7 @@ get our final script working, get everything cleaned up in here.
 <p align="center" width="100%">
 <img src="./images/image107.png"
   style="width:50%"
+  title="Example, Challenge 8 Answer"
   alt="Example, Challenge 8 Answer." />
 
 This is how we could do a project like this in plain JavaScript. In the
@@ -2830,18 +2835,18 @@ hide the box and animate that.
   alt="." />
 </p>
 
-Let\'s add a couple more. We\'ve got a few more buttons here. Let\'s do
-a few more of these. I\'m going to do pound show box or hashtag if you
-prefer hash instead. I\'m going to add the **click handler** and then
+Let&apos;s add a couple more. We&apos;ve got a few more buttons here. Let&apos;s do
+a few more of these. I&apos;m going to do pound show box or hashtag if you
+prefer hash instead. I&apos;m going to add the **click handler** and then
 put a function in here. Always type from the outside, so you get used to
-the syntax and understand which thing closes which thing. I\'m going to
+the syntax and understand which thing closes which thing. I&apos;m going to
 do function parentheses, curly braces there and move that down. Then
-I\'m going to do again, I\'m going to go get my **jQuery** object and
+I&apos;m going to do again, I&apos;m going to go get my **jQuery** object and
 get pound **showbox**. No box, just box of the same box. Instead of hide
-I\'m going to do **show**. Maybe we\'ll make this one go for 500
-milliseconds. You\'ll see that will work.
+I&apos;m going to do **show**. Maybe we&apos;ll make this one go for 500
+milliseconds. You&apos;ll see that will work.
 
-Let\'s test that. We come over here and refresh this. We can hide the
+Let&apos;s test that. We come over here and refresh this. We can hide the
 box and I can show the box and you can see the difference in time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2850,12 +2855,12 @@ box and I can show the box and you can see the difference in time.
   style="width:50%"
   alt="." />
 
-Now toggle will both hide and show. If it\'s hidden, it\'ll show it. If
-it\'s showing it\'ll hide it. Over here again, I\'m going to just add
-toggle box. It\'s this link here. It\'s this link up here, toggle box.
-Then down here we\'re going to do box and instead of show, we\'re going
+Now toggle will both hide and show. If it&apos;s hidden, it&apos;ll show it. If
+it&apos;s showing it&apos;ll hide it. Over here again, I&apos;m going to just add
+toggle box. It&apos;s this link here. It&apos;s this link up here, toggle box.
+Then down here we&apos;re going to do box and instead of show, we&apos;re going
 to do **toggle** like that. Remember toggle is a helper function that
-allows us to do both hiding and showing and we\'ve seen that before. But
+allows us to do both hiding and showing and we&apos;ve seen that before. But
 now we can use it with the effects library and do some animation with
 it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2869,8 +2874,8 @@ Now one of the really great things about these animations and doing this
 in JavaScript and **jQuery** is that you have a thing called a
 **callback** function. What you can do after the toggle(500) is you can
 pass in a function that runs with its parentheses and curly braces like
-so. In here we could put alert (\'done! \') something like that. This
-function will run after this animation has been completed. In fact, I\'m
+so. In here we could put alert (&apos;done! &apos;) something like that. This
+function will run after this animation has been completed. In fact, I&apos;m
 going to make this a little bit longer so that you can really see that
 it waits and runs after the animation has been completed.
 
@@ -2884,11 +2889,11 @@ else, something like that.
   style="width:50%"
   alt="." />
 
-Let\'s see how this works. The page does the alert. That\'s really cool
+Let&apos;s see how this works. The page does the alert. That&apos;s really cool
 and I could do the other way around as well. With that, we are able to
 see that we can make these functions, these animations and the
 animations can have a **callback** function that runs when the animation
-is complete and this is useful. Let\'s take a look at the next example
+is complete and this is useful. Let&apos;s take a look at the next example
 in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2900,7 +2905,7 @@ in the next lesson.
   style="width:40%"
   alt="." />
 
-Let\'s take a look at Example 2.
+Let&apos;s take a look at Example 2.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2908,10 +2913,10 @@ Let\'s take a look at Example 2.
   style="width:50%"
   alt="." />
 
-Open up the Example 2, HTML file and you\'ll notice that it looks very
+Open up the Example 2, HTML file and you&apos;ll notice that it looks very
 similar to the first example. We have the same styling up at the top of
 the page, we have a box here, we have some navigation, and then we have
-this div id set to box down here, and it\'s just an empty div.
+this div id set to box down here, and it&apos;s just an empty div.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2931,19 +2936,19 @@ specifically this.
   style="width:50%"
   alt="." />
 
-Let\'s take a look at what we need in order to do this in our code. The
-syntax is very similar to what we saw before. What we\'re going to do
-is, like we did before, we\'re going to use our **jQuery** object to go
+Let&apos;s take a look at what we need in order to do this in our code. The
+syntax is very similar to what we saw before. What we&apos;re going to do
+is, like we did before, we&apos;re going to use our **jQuery** object to go
 in and get our link here.
 
-It\'s pound, I\'ve got a **slideupbox** as a link here, so let\'s do
-that. **slideupbox** and we\'ll put a **click handler** on that. We\'re
-looking for **dot click**. Then in here we\'re going to run a function
-with its own parentheses and curly braces. Then we\'re going to put our
+It&apos;s pound, I&apos;ve got a **slideupbox** as a link here, so let&apos;s do
+that. **slideupbox** and we&apos;ll put a **click handler** on that. We&apos;re
+looking for **dot click**. Then in here we&apos;re going to run a function
+with its own parentheses and curly braces. Then we&apos;re going to put our
 code inside the curly braces there, just the same way we did before.
-Again as before, we\'re going to go get our **jQuery** object and get
-box, because that\'s where we\'re going to be moving up and down. Then
-what we\'re going to use here for a **jQuery** function is slide up.
+Again as before, we&apos;re going to go get our **jQuery** object and get
+box, because that&apos;s where we&apos;re going to be moving up and down. Then
+what we&apos;re going to use here for a **jQuery** function is slide up.
 Again, we can put in an amount of time or you could put inside quotes,
 you can put slow or something like that, and that will make that box
 slide up.
@@ -2954,8 +2959,8 @@ slide up.
   style="width:50%"
   alt="." />
 
-Let\'s go over and give that a try. Hopefully I did that right, I think
-I did. If I refresh this page and click \"Slideup,\" it does that
+Let&apos;s go over and give that a try. Hopefully I did that right, I think
+I did. If I refresh this page and click &quot;Slideup,&quot; it does that
 animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2964,7 +2969,7 @@ animation.
   style="width:50%"
   alt="." />
 
-It\'s interesting to inspect this. Watch what happens here. Actually on
+It&apos;s interesting to inspect this. Watch what happens here. Actually on
 the actual box itself. Watch what happens down here, when I click
 slideup. You can see it very quickly went through some settings in here,
 as it did that and ended up with displaying that.
@@ -2975,20 +2980,20 @@ as it did that and ended up with displaying that.
   style="width:50%"
   alt="." />
 
-The other ones look very similar as you can imagine. We\'ve got
-**slideupbox**, we\'ve got **slidedownbox**, and we\'ve got **slide
+The other ones look very similar as you can imagine. We&apos;ve got
+**slideupbox**, we&apos;ve got **slidedownbox**, and we&apos;ve got **slide
 toggle** and they all work very similarly. I can actually copy that,
 paste it, and I recommend you type it actually, but for expedience sake,
-I\'m going to just copy and paste it and change this to slidedownbox.
+I&apos;m going to just copy and paste it and change this to slidedownbox.
 This is going to be **SlideDown** and I can choose an amount of time.
-We\'re going to do two seconds, something like that. We have a longer
+We&apos;re going to do two seconds, something like that. We have a longer
 time.
 
-Now, when you\'re working with animation, one thing to be aware of is
+Now, when you&apos;re working with animation, one thing to be aware of is
 that, there is such a thing as **easing**. An animation can run and it
 will run for the period of time. This animation will run over two
 seconds, but it can run the exact same amount over those two seconds,
-which is **linear easing**, meaning that it\'s the same speed at the
+which is **linear easing**, meaning that it&apos;s the same speed at the
 beginning as it is at the end or you can change the **easing** such that
 it goes faster at the beginning and slower at the end or slower at the
 beginning and then speeds up towards the end of the animation, or you
@@ -3003,15 +3008,15 @@ of these different types of easing.
   alt="." />
 
 **JQuery** has some basic **easing** built-in and you can put in here in
-quotes, **\"swing\"**. That will do a little bit of **easing** on this
-item. It\'s pretty subtle. You might not really see it, but it will
+quotes, **&quot;swing&quot;**. That will do a little bit of **easing** on this
+item. It&apos;s pretty subtle. You might not really see it, but it will
 actually work. Take a look for yourself. Slide up, slide down. Does
-slide down, but it does a swing animation. It\'s not the same speed all
-the way through. It\'s hard to tell, but it is there, just subtle.
+slide down, but it does a swing animation. It&apos;s not the same speed all
+the way through. It&apos;s hard to tell, but it is there, just subtle.
 
-**jQuery** has built into it some basic **easing.** There\'s also a
+**jQuery** has built into it some basic **easing.** There&apos;s also a
 **plug-in** and one of the strengths of **jQuery** is the **plug-in**
-architecture. We\'re going to talk about that in the next lesson.
+architecture. We&apos;re going to talk about that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-04">2.04 Example 2: Plugin Architecture (8:39)</h2>
@@ -3035,17 +3040,17 @@ the **swing easing**.
 **Easing** can give your animations a little bit of personality. They
 can make them seem a little bit less mechanical, when the speed of the
 animation is not always the same all the way through the animation. But
-the **easings** that are built into **jQuery** don\'t give you a lot of
+the **easings** that are built into **jQuery** don&apos;t give you a lot of
 options. They are very basic.
 
-There\'s this amazing **plug-in (gsgd.co.uk/sandbox/jquery/easing/)**
+There&apos;s this amazing **plug-in (gsgd.co.uk/sandbox/jquery/easing/)**
 that we can use, and it allows you to choose different types of
 **easings** so that you can do some different types of things with this,
 and you can go through and try some of these different settings here to
 see what they actually do. **Ease-out** will affect the animation at the
 end where **ease-in** will affect the animation at the beginning,
-**ease-out-and-in** will affect the animation at both ends. We\'ve got
-**ease-in-and-out**. We\'ve got a whole bunch of them in here for all
+**ease-out-and-in** will affect the animation at both ends. We&apos;ve got
+**ease-in-and-out**. We&apos;ve got a whole bunch of them in here for all
 these different: in **ease-out**, **ease-in** all these different
 animations in here. But in order to use this, we have to plugins
 **plug-in**.
@@ -3056,26 +3061,26 @@ animations in here. But in order to use this, we have to plugins
 
 **jQuery** has a plug-in architecture that allows you to add more
 functionality to **jQuery**. You can see over here on our file that
-I\'ve already added the plug-in. The way this works is first we need the
+I&apos;ve already added the plug-in. The way this works is first we need the
 **jQuery** library, then you need the plug-in, and then we use it in our
 script.
 
-Down here I\'m going to do the third animation here for slide toggle,
-which we\'re going to use this ID. We\'ll grab that ID, and down here
-instead of slide down, we\'re going to do slide toggle, which will open
+Down here I&apos;m going to do the third animation here for slide toggle,
+which we&apos;re going to use this ID. We&apos;ll grab that ID, and down here
+instead of slide down, we&apos;re going to do slide toggle, which will open
 it and close it. Here we can use some of the other easings that we find
 on this website here;
 
 <https://cdnjs.com/libraries/jquery-easing>
 
 This is where I got the **easing** plug-in on the **CDN** that I put
-into here. That\'s where that came from, **Cloudflare**.
+into here. That&apos;s where that came from, **Cloudflare**.
 
 That comes from this website here;
 
 but we can use the easings that we see here. If I want an
 **easeOutBounce**, I can actually use that animation if I want to over
-here. Let\'s give that a try.
+here. Let&apos;s give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3083,7 +3088,7 @@ here. Let\'s give that a try.
   style="width:50%"
   alt="." />
 
-**\"easeOutBounce\"**. Make sure you spell it right with the capital
+**&quot;easeOutBounce&quot;**. Make sure you spell it right with the capital
 letters and everything **easeOutBounce**. Make sure you spell it all
 correct and that you get the correct capital letters. Make sure you put
 it inside the quotes, and so on and so forth.
@@ -3097,8 +3102,8 @@ it inside the quotes, and so on and so forth.
 If I save that and then come back and look at my example here, and click
 slide toggle, you can see that it does this bounce. Which is pretty
 interesting or you could do **easeInBounce** to get the bounce on the
-opposite end of the animation, which might look a little weird. It\'s
-doing the bounce first and then it\'s finishing the animation, which
+opposite end of the animation, which might look a little weird. It&apos;s
+doing the bounce first and then it&apos;s finishing the animation, which
 looks a little weird, but you get the idea and you can try some of these
 other easings and see what personality you can get.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3109,11 +3114,11 @@ other easings and see what personality you can get.
   alt="." />
 
 I really like the **easeOutCirc** ones. Yeah, **easeIn** and
-**easeOutCirc**. You can give those a try. Let\'s see what we can do
-with that. Over here **easeInCirc**. Again, at two seconds, that\'s
-pretty slow. You can even slow down more if you wanted to see it. I\'ll
+**easeOutCirc**. You can give those a try. Let&apos;s see what we can do
+with that. Over here **easeInCirc**. Again, at two seconds, that&apos;s
+pretty slow. You can even slow down more if you wanted to see it. I&apos;ll
 set that to three seconds. You can see how it changes the animation by
-either slowing it down or speeding it up. I think this one\'s speeding
+either slowing it down or speeding it up. I think this one&apos;s speeding
 it up as it gets to the end of the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3122,7 +3127,7 @@ it up as it gets to the end of the animation.
   style="width:50%"
   alt="." />
 
-Let\'s come back and try **easeOutCirc**. That\'s starting fast and
+Let&apos;s come back and try **easeOutCirc**. That&apos;s starting fast and
 ending slow. It gives the animation a little bit of personality as it
 does its thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3132,9 +3137,9 @@ does its thing.
   style="width:50%"
   alt="." />
 
-You could try **easeInOutCirc**. It\'s hard to see, but it is doing
-something there. Try these different animations. You\'ll notice if you
-spell them wrong, if I do, **easeoutCirc** like that, then it won\'t
+You could try **easeInOutCirc**. It&apos;s hard to see, but it is doing
+something there. Try these different animations. You&apos;ll notice if you
+spell them wrong, if I do, **easeoutCirc** like that, then it won&apos;t
 work quite right at all.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3143,9 +3148,9 @@ work quite right at all.
   style="width:50%"
   alt="." />
 
-One last quick thing here before we\'re done with this lesson is you can
+One last quick thing here before we&apos;re done with this lesson is you can
 also add the **callback** function after the **easing**. I could add a
-function here and say done, and you\'ll see that when that **easing** is
+function here and say done, and you&apos;ll see that when that **easing** is
 finished, when that animation is finished, that **callback** function
 will fire.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3155,9 +3160,9 @@ will fire.
   style="width:50%"
   alt="." />
 
-Now that\'ll work, and it comes back and it says it\'s done. That gives
+Now that&apos;ll work, and it comes back and it says it&apos;s done. That gives
 us a lot of information about how to work with these **built-in**
-animations, and we\'re going to do more in the next lesson.
+animations, and we&apos;re going to do more in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-05">2.05 Example 3: Fading Buttons (4:00)</h2>
@@ -3168,7 +3173,7 @@ animations, and we\'re going to do more in the next lesson.
   style="width:40%"
   alt="." />
 
-In Example 3, we\'ll look at something that\'s similar to the other two,
+In Example 3, we&apos;ll look at something that&apos;s similar to the other two,
 but just slightly different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3177,7 +3182,7 @@ but just slightly different.
   style="width:50%"
   alt="." />
 
-It\'s got four buttons and we can use some built-in functions in
+It&apos;s got four buttons and we can use some built-in functions in
 **jQuery** to **fade** objects in and out, or to **fade** them to a
 particular percentage of opacity.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3198,24 +3203,24 @@ to 20 percent, which will fade it to 20 percent opacity, and then
   style="width:50%"
   alt="." />
 
-Let\'s take a look at how we can do that. Over here I have Example 3
+Let&apos;s take a look at how we can do that. Over here I have Example 3
 open and you can see that I have much the same styling up at the top of
 the page, as well as my navigation year and my **jQuery** libraries
-plugged in. I don\'t have the easing plug-in here, but you could add it
+plugged in. I don&apos;t have the easing plug-in here, but you could add it
 if you wanted to add some easing to these as well.
 
-Here we\'re going to do what we did before with getting our link pound
-fade out box, which is this first link up here, and we\'re going to add
-our click handler to it. Click, and then we\'re going to pass in our
-anonymous function that runs when you click that thing. In here, we\'re
+Here we&apos;re going to do what we did before with getting our link pound
+fade out box, which is this first link up here, and we&apos;re going to add
+our click handler to it. Click, and then we&apos;re going to pass in our
+anonymous function that runs when you click that thing. In here, we&apos;re
 going to go get our box.
 
-Again, we use our **jQuery** object to get pound box. Then we\'re going
-to do, I believe the function is **fadeout** because we\'re fading out
+Again, we use our **jQuery** object to get pound box. Then we&apos;re going
+to do, I believe the function is **fadeout** because we&apos;re fading out
 the first one. Yeah, fadeout. Again, we could put in normal or you could
 put fast, or you could put slow, or you could put a specific number of
 milliseconds; 3,003 seconds is a long time, but we can actually give
-that a try. You\'ll see that will actually work over here. Over three
+that a try. You&apos;ll see that will actually work over here. Over three
 seconds, it will become invisible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3225,15 +3230,15 @@ seconds, it will become invisible.
   alt="." />
 
 We could do **fadein** as well. I can copy that and paste it or just
-type it again. It\'s always a good idea to do that, but we\'re going to
-use this **ID** instead. Instead of fade out, we\'re going to fade in. I
-could do three seconds and you could do the easing swing. It\'s going to
-go in quotes, \'\'swing.\'\'
+type it again. It&apos;s always a good idea to do that, but we&apos;re going to
+use this **ID** instead. Instead of fade out, we&apos;re going to fade in. I
+could do three seconds and you could do the easing swing. It&apos;s going to
+go in quotes, &apos;&apos;swing.&apos;&apos;
 
-Then you could also add a callback function, and that\'s parentheses.
-Inside the curly braces, we can add an \'\'alert\'\' that says \"done.\"
-When the animation is complete, it runs the alert and says that it\'s
-done. That\'s great. We can do all of that. Okay, cool. Now we just need
+Then you could also add a callback function, and that&apos;s parentheses.
+Inside the curly braces, we can add an &apos;&apos;alert&apos;&apos; that says &quot;done.&quot;
+When the animation is complete, it runs the alert and says that it&apos;s
+done. That&apos;s great. We can do all of that. Okay, cool. Now we just need
 to add these last two here and we can look at that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3245,7 +3250,7 @@ to add these last two here and we can look at that in the next lesson.
   style="width:40%"
   alt="." />
 
-In this lesson, we\'ll make these last two buttons work.
+In this lesson, we&apos;ll make these last two buttons work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3253,21 +3258,21 @@ In this lesson, we\'ll make these last two buttons work.
   style="width:50%"
   alt="." />
 
-And with that, there\'s a fade to method that we can use in **jQuery**.
+And with that, there&apos;s a fade to method that we can use in **jQuery**.
 
-So here, just as we\'ve done before, we can add a new event handler for
-when you click the the button has fadeto20box on here. I\'m going to
-paste that in just to make sure I spell it right and we\'ll add a click
-handler And then in here, we\'ll add a function that runs when you click
-it, it\'s just an anonymous function. And what we\'re going to do here
-is once again, we\'ll go get pound box. Don\'t forget the pound sign.
+So here, just as we&apos;ve done before, we can add a new event handler for
+when you click the the button has fadeto20box on here. I&apos;m going to
+paste that in just to make sure I spell it right and we&apos;ll add a click
+handler And then in here, we&apos;ll add a function that runs when you click
+it, it&apos;s just an anonymous function. And what we&apos;re going to do here
+is once again, we&apos;ll go get pound box. Don&apos;t forget the pound sign.
 
-And we\'re going to use the fade to method. See it even comes up here,
-fade to. And we\'re going to fade to, the way this works is we\'re going
-to put in the amount of time. So we\'ll do, again I\'ll do 3000, just to
+And we&apos;re going to use the fade to method. See it even comes up here,
+fade to. And we&apos;re going to fade to, the way this works is we&apos;re going
+to put in the amount of time. So we&apos;ll do, again I&apos;ll do 3000, just to
 kind of slow but gives us a sense of what that is. But then the second
 number it takes is a **duration**, an amount. Takes the **duration**,
-that\'s the first number. The second number is how much it\'s going to
+that&apos;s the first number. The second number is how much it&apos;s going to
 **fade** **to**. We want to do 0.2 like that. And now, that should
 actually work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3277,8 +3282,8 @@ actually work.
   style="width:50%"
   alt="." />
 
-Let\'s go over and check it out. Press refresh this and click fade to,
-it fades down but it doesn\'t fade all the way down, it fades to 20%.
+Let&apos;s go over and check it out. Press refresh this and click fade to,
+it fades down but it doesn&apos;t fade all the way down, it fades to 20%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3287,8 +3292,8 @@ it fades down but it doesn\'t fade all the way down, it fades to 20%.
   alt="." />
 
 We can do that and then we can do the fade to again for the last one.
-We\'re going to use this link **fadeTo**. When you click the fadeTo,
-it\'s going to fade to one. The opacity is a number between 0 and 1, 0
+We&apos;re going to use this link **fadeTo**. When you click the fadeTo,
+it&apos;s going to fade to one. The opacity is a number between 0 and 1, 0
 is completely transparent, 1 is completely opaque.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3307,15 +3312,15 @@ have **jQuery**. In order to use **jQuery**, we would need to have the
 **easing** **plug-in** in in order to use the using plug in. Using
 **plug in** has to come after **jQuery**. All of this stuff has to go in
 order on your page for it to work properly. We can have the **callback**
-functions. And then in the next example, an example for, we\'ll look at
+functions. And then in the next example, an example for, we&apos;ll look at
 some custom animations where you can do some different kinds of things.
-In examples 1, 2 and 3, we\'ve used some of the built-in convenience
+In examples 1, 2 and 3, we&apos;ve used some of the built-in convenience
 functions that **jQuery** has built into it.
 
 For fading in and out, for sliding up and down, for hiding and showing,
 and toggling, slide toggle and doing all these kinds of things that we
 commonly need to do. But sometimes you need to do a custom function, and
-we\'ll take a look at that in the next part of this lesson.
+we&apos;ll take a look at that in the next part of this lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-07">2.07 Example 4: Custom Animations -- Part 1 (4:20)</h2>
@@ -3326,14 +3331,14 @@ we\'ll take a look at that in the next part of this lesson.
   style="width:40%"
   alt="." />
 
-Next, for example 4, we\'re going to look at some of the custom
+Next, for example 4, we&apos;re going to look at some of the custom
 animations you can use in **jQuery** and over here I have my example
-four file open, and you\'ll notice that the HTML and the CSS have
+four file open, and you&apos;ll notice that the HTML and the CSS have
 changed just a little bit.
 
 There are more links here and my box now has some content inside the div
-box here, and you\'ll see that my stylings is a little bit different up
-here, if you look at the actual page, it looks like this now. We\'re
+box here, and you&apos;ll see that my stylings is a little bit different up
+here, if you look at the actual page, it looks like this now. We&apos;re
 going to make each of these buttons work so we can see how some custom
 animations work in **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3343,7 +3348,7 @@ animations work in **jQuery**.
   style="width:50%"
   alt="." />
 
-To do this, we\'ll use the animate method in **jQuery**, and you\'ll see
+To do this, we&apos;ll use the animate method in **jQuery**, and you&apos;ll see
 that it allows us to animate some, not all, but some of the CSS
 properties that we have come to know and love over the years in working
 with CSS. That gives us a lot of power, because we can actually use
@@ -3356,14 +3361,14 @@ and down or showing and hiding and doing this kind of stuff.
   style="width:50%"
   alt="." />
 
-Let\'s give it a try and see what it does over here. Down here I\'m
-going to add in my script. I\'m going to go get my **jQuery** objects
-and I\'m going to get this first link up here, growbox, pound, growbox,
-and I\'m going to add a click event handler on there, and then I\'m
+Let&apos;s give it a try and see what it does over here. Down here I&apos;m
+going to add in my script. I&apos;m going to go get my **jQuery** objects
+and I&apos;m going to get this first link up here, growbox, pound, growbox,
+and I&apos;m going to add a click event handler on there, and then I&apos;m
 going to pass in a function that runs when you click it, and
-everything\'s going to go inside these curly brackets here. At this
-point I want to affect box, pound box, don\'t forget the pound sign.
-We\'re going to do the animate function in **jQuery**. This will animate
+everything&apos;s going to go inside these curly brackets here. At this
+point I want to affect box, pound box, don&apos;t forget the pound sign.
+We&apos;re going to do the animate function in **jQuery**. This will animate
 the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3372,11 +3377,11 @@ the box.
   style="width:50%"
   alt="." />
 
-The way we\'re going to do this here is we\'re going to pass in an
-object. We have not yet worked with objects in JavaScript, they\'re
-coming, we\'re going to get to them later in our instruction about
+The way we&apos;re going to do this here is we&apos;re going to pass in an
+object. We have not yet worked with objects in JavaScript, they&apos;re
+coming, we&apos;re going to get to them later in our instruction about
 JavaScript, but will see them pop up a few times and this is one of
-those times. I\'ll explain it a little bit now, but we\'ll get into
+those times. I&apos;ll explain it a little bit now, but we&apos;ll get into
 objects in more detail a bit later, and an object is an alternative way
 of storing data in JavaScript, and it comes with a key value pair.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3387,9 +3392,9 @@ of storing data in JavaScript, and it comes with a key value pair.
   alt="." />
 
 We define an object with the curly braces, and then we have a key value
-pair. In this case, the key is width, that\'s the **CSS** property
-we\'re animating, and then the value is 710px, and you\'ll notice that
-the value goes inside quotes, but the key does not. That\'s a
+pair. In this case, the key is width, that&apos;s the **CSS** property
+we&apos;re animating, and then the value is 710px, and you&apos;ll notice that
+the value goes inside quotes, but the key does not. That&apos;s a
 distinguishing aspect of objects in JavaScript in general and also in
 **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3399,12 +3404,12 @@ distinguishing aspect of objects in JavaScript in general and also in
   style="width:50%"
   alt="." />
 
-We\'re going to animate in here. We\'re going to pass in an object open
-and closing curly brace and we\'re going to put in width, colon, and
-then in \"710px\". That will move the box. It\'ll change the width of
+We&apos;re going to animate in here. We&apos;re going to pass in an object open
+and closing curly brace and we&apos;re going to put in width, colon, and
+then in &quot;710px&quot;. That will move the box. It&apos;ll change the width of
 the box to 710 pixels. If I come over here and test this, refresh grow
 box, and you can see it sets it so that it 710 pixels. I knew it was 710
-pixels to end right here. Let\'s take a look at growing the text and
+pixels to end right here. Let&apos;s take a look at growing the text and
 affecting the actual text inside the box in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3426,18 +3431,18 @@ this case is pound grow box.
   style="width:50%"
   alt="." />
 
-Because we\'re getting on and we grow text. It\'s always good to copy
-and paste just to make sure you\'re getting exactly the right thing, and
-then we\'ll do click parentheses and a semicolon. That click handler
-will run when we click on grow text. Then we\'re going to come in your
+Because we&apos;re getting on and we grow text. It&apos;s always good to copy
+and paste just to make sure you&apos;re getting exactly the right thing, and
+then we&apos;ll do click parentheses and a semicolon. That click handler
+will run when we click on grow text. Then we&apos;re going to come in your
 add a function that runs when we click on that, on secret square braces.
 I want curly braces.
 
-Move that down and then once again, I\'m going to go get my box, pound
-box inside quotes there. I\'m going to run the animate. The custom
-animate function here and again, we\'re going to pass in with curly
+Move that down and then once again, I&apos;m going to go get my box, pound
+box inside quotes there. I&apos;m going to run the animate. The custom
+animate function here and again, we&apos;re going to pass in with curly
 braces, not square brackets, curly braces and object. What are we going
-to do here? We\'re going to do font in quotes. No, this one looks like
+to do here? We&apos;re going to do font in quotes. No, this one looks like
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3446,18 +3451,18 @@ this.
   style="width:50%"
   alt="." />
 
-We come over here. Font size. We\'re using the JavaScript version of
+We come over here. Font size. We&apos;re using the JavaScript version of
 font size rather than the CSS version, which is font dash size. We
-can\'t have the dash in there because JavaScript will think that looks
-like a minus sign, and so it\'s trying to subtract size from font and
-it\'s not going to work. Instead what we want is **fontSize**, colon and
+can&apos;t have the dash in there because JavaScript will think that looks
+like a minus sign, and so it&apos;s trying to subtract size from font and
+it&apos;s not going to work. Instead what we want is **fontSize**, colon and
 then I can set it to say 24 px or something like that and that should
 change the font size.
 
-Grow the box grow the text. That\'s working just fine and you can try a
+Grow the box grow the text. That&apos;s working just fine and you can try a
 different size text if you wanted to do 36 pixels or 40 or whatever you
-want to do that\'ll be a little bit more dramatic. Grow the box, grow
-the text and that\'s working great.
+want to do that&apos;ll be a little bit more dramatic. Grow the box, grow
+the text and that&apos;s working great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3465,8 +3470,8 @@ the text and that\'s working great.
   style="width:50%"
   alt="." />
 
-We could also move the box. Let\'s give that one a try. With move box,
-what we\'re going to do, we\'re actually going to change the position of
+We could also move the box. Let&apos;s give that one a try. With move box,
+what we&apos;re going to do, we&apos;re actually going to change the position of
 the box, and in order to do that, we need to set some positioning for
 box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3483,10 +3488,10 @@ box.
 In our CSS over here for box, we need to add position absolute, and then
 we want to set the left position, left 50 px. Why is it 50 pixels?
 Because everything else is, is indented 50 pixels in here. I think I
-have that, yes, he said padding 50 pixels. If I don\'t set left 50
-pixels, let\'s take a look at this really quickly. If I reset that, that
-puts that in the right place. But if I didn\'t put the 50 pixels in
-there, left 50 pixels, maybe it won\'t actually do anything, okay, well
+have that, yes, he said padding 50 pixels. If I don&apos;t set left 50
+pixels, let&apos;s take a look at this really quickly. If I reset that, that
+puts that in the right place. But if I didn&apos;t put the 50 pixels in
+there, left 50 pixels, maybe it won&apos;t actually do anything, okay, well
 actually maybe be fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. movebox 300px from left (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3495,14 +3500,14 @@ actually maybe be fine.
   style="width:50%"
   alt="." />
 
-But still I want to set the left 50 pixels so that I\'m moving from this
-position, left 50 pixels. Because we\'re going to change the left
-property when we move the box. Down here again, I\'m just going to copy
+But still I want to set the left 50 pixels so that I&apos;m moving from this
+position, left 50 pixels. Because we&apos;re going to change the left
+property when we move the box. Down here again, I&apos;m just going to copy
 this for the sake of making it a little bit quicker and down here
-instead of grow text, I\'m going to move box. Move box, animate and then
-here I\'m going to change the left property, left, and I\'m going to do
-plus equals 300 px, so that we\'ll add 300 pixels to the 50 pixels
-that\'s already there. Plus equals, we\'ll add 300 pixels to the 50
+instead of grow text, I&apos;m going to move box. Move box, animate and then
+here I&apos;m going to change the left property, left, and I&apos;m going to do
+plus equals 300 px, so that we&apos;ll add 300 pixels to the 50 pixels
+that&apos;s already there. Plus equals, we&apos;ll add 300 pixels to the 50
 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196. test, example4.html (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3511,7 +3516,7 @@ pixels.
   style="width:50%"
   alt="Test, example4.html." />
 
-It\'s already there and it\'ll move it left 50 pixels, I mean to 350
+It&apos;s already there and it&apos;ll move it left 50 pixels, I mean to 350
 pixels from the left-hand side.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. animate movebox, 5 seconds (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3523,9 +3528,9 @@ pixels from the left-hand side.
 You can set how long you want that animation take. You can make it go
 longer if you wanted to and after the animate, after the object here, I
 could add in a comma and say, I want this to run over five seconds,
-something like that, and that will animate over five seconds. Let\'s see
+something like that, and that will animate over five seconds. Let&apos;s see
 what that does. Five seconds is really slow, but it is animating .
-We\'re able to adjust the amount of time and the amount that it moves
+We&apos;re able to adjust the amount of time and the amount that it moves
 in, what it does with the actual animation, all with custom animation.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3547,8 +3552,8 @@ happen at the same time.
   title="Example 4 - Doing All Animations At Once"
   alt="Example 4 - Doing All Animations At Once." />
 
-They\'re all going to move forward at the same time. We will change both
-the width, the font, and the left positioning of three of these. We\'re
+They&apos;re all going to move forward at the same time. We will change both
+the width, the font, and the left positioning of three of these. We&apos;re
 going to change all of them at once. We can do that by just passing in
 these different properties into our object all at once, separating them
 with commas.
@@ -3559,23 +3564,23 @@ with commas.
   style="width:50%"
   alt="." />
 
-Let\'s do that. Down here, once again, I\'m going to use my **jQuery**
-object to go get this pound, but what I want is do all. I\'m going to
-get pound do all. Then I\'m going to add a click handler. Click for when
-you click the **doall** button, and then we\'re going to run a function,
+Let&apos;s do that. Down here, once again, I&apos;m going to use my **jQuery**
+object to go get this pound, but what I want is do all. I&apos;m going to
+get pound do all. Then I&apos;m going to add a click handler. Click for when
+you click the **doall** button, and then we&apos;re going to run a function,
 when that button is clicked, and here we have it. Here now, we want to
-effect a parentheses pound box, like so. Again, we\'re going to do the
-animate method. We\'re going to pass in our object, so we do the curly
+effect a parentheses pound box, like so. Again, we&apos;re going to do the
+animate method. We&apos;re going to pass in our object, so we do the curly
 braces. First we want width, 710 pixels, so I put that in here. Width,
 710 pixels and then a comma. Then we want font size, 36 pixels, I put
-that in there. Then a comma. Then we want left plus equals 300. We\'ll
+that in there. Then a comma. Then we want left plus equals 300. We&apos;ll
 put that in there.
 
-You\'ll see now there\'s some extra spaces at the end. It doesn\'t
-really matter, it\'s fine, but you\'ll see with all of those in there,
+You&apos;ll see now there&apos;s some extra spaces at the end. It doesn&apos;t
+really matter, it&apos;s fine, but you&apos;ll see with all of those in there,
 that now when I come over and test this thing, I also want to put in an
 amount of time, that will be really helpful. After the curly brace, put
-a comma, and then I\'m going to put 1500. It\'s going to take a
+a comma, and then I&apos;m going to put 1500. It&apos;s going to take a
 second-and-a-half to do all of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. test doall, example4.html (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3584,7 +3589,7 @@ second-and-a-half to do all of these.
   style="width:50%"
   alt="Test DOALL, example4.html." />
 
-Let\'s come back over here and refresh this. When I click Do All, it
+Let&apos;s come back over here and refresh this. When I click Do All, it
 should do all of those things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3602,27 +3607,27 @@ Each one of these animations can have its own callback functions that
 when it finishes it calls the next one and when that one finishes it
 calls the next one. It can be confusing for the syntax in order to get
 this to work, but once you understand it and know how to do it and mess
-with it a little bit, it\'s not too hard.
+with it a little bit, it&apos;s not too hard.
 
-Let\'s do this again. I\'m going to start with this one. I\'m going to
-copy that and stick it down here. Instead of getting that button, I\'m
+Let&apos;s do this again. I&apos;m going to start with this one. I&apos;m going to
+copy that and stick it down here. Instead of getting that button, I&apos;m
 going to get this one sequence. When you click the button Sequence,
-it\'s going to take box and it\'s going to animate the width to 710 px.
-I\'m going to put a comma. Another comma, yeah, I\'m going to put a
-comma, and then I\'m going to put say 1500 for how long that animation
-should take place. I\'m going to put another comma, and I\'m going to
-add a function. It\'s really easy to get confused here because we\'re
-going to put everything into this function here. I\'m going to make sure
+it&apos;s going to take box and it&apos;s going to animate the width to 710 px.
+I&apos;m going to put a comma. Another comma, yeah, I&apos;m going to put a
+comma, and then I&apos;m going to put say 1500 for how long that animation
+should take place. I&apos;m going to put another comma, and I&apos;m going to
+add a function. It&apos;s really easy to get confused here because we&apos;re
+going to put everything into this function here. I&apos;m going to make sure
 I click between those curly braces, move that down.
 
-Then I\'m gonna go get this one, font-size 36. I\'m going to put a comma
-here and I\'m going to put 1500 seconds in there. The 1500 milliseconds,
-that\'s 1.5 seconds. 1500 milliseconds in there, and then a comma and
-another function, parentheses, curly braces. It\'s really easy to lose
+Then I&apos;m gonna go get this one, font-size 36. I&apos;m going to put a comma
+here and I&apos;m going to put 1500 seconds in there. The 1500 milliseconds,
+that&apos;s 1.5 seconds. 1500 milliseconds in there, and then a comma and
+another function, parentheses, curly braces. It&apos;s really easy to lose
 track of this stuff. You have to be really careful with it, but then
-I\'m going to put the next one inside these curly braces. I move that
-down, and I\'m going to do this one here. Now change that to 1500. There
-we go. That\'s the last one. It doesn\'t get a **callback** function.
+I&apos;m going to put the next one inside these curly braces. I move that
+down, and I&apos;m going to do this one here. Now change that to 1500. There
+we go. That&apos;s the last one. It doesn&apos;t get a **callback** function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3630,7 +3635,7 @@ we go. That\'s the last one. It doesn\'t get a **callback** function.
   style="width:50%"
   alt="." />
 
-Let\'s see if that works. If I come over here and test this, refresh, if
+Let&apos;s see if that works. If I come over here and test this, refresh, if
 I did it right, sequence, it should do that one and that finishes. It
 does that, and then it moves it, and everything is working all in a
 sequence.
@@ -3640,8 +3645,8 @@ interesting things. You can animate all kinds of different CSS
 properties. However, it is better to do the animations in CSS with
 transitions or keyframe animations in CSS, and then apply those classes,
 but sometimes using the effects library in JavaScript is still useful.
-Especially if you\'re doing something fairly quick, there\'s not a lot
-of reason not to use it. We\'ll see an example of when is a good place
+Especially if you&apos;re doing something fairly quick, there&apos;s not a lot
+of reason not to use it. We&apos;ll see an example of when is a good place
 to use this effects library coming up when we create a tabbed interface.
 
 <h3>Additional Resources</h3>
@@ -3668,48 +3673,53 @@ section: **Intro to jQuery Effects Library**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-10">2.10 Intro to Tabbed Interface Using jQuery (5:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 204. intro to tabbed interface using jquery (2.10) (xx) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image204.png"
   style="width:40%"
+  title="2.10 Intro to Tabbed Interface Using jQuery"
   alt="2.10 Intro to Tabbed Interface Using jQuery." />
 
 Tabbed interface, using **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205. tabbed interface - using jquery (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image205.png"
   style="width:40%"
-  alt="." />
+  title="Tabbed Interface - Using jQuery"
+  alt="Tabbed Interface - Using jQuery." />
 
-We\'re going to create this tabbed interface, and this is a really good
+We&apos;re going to create this tabbed interface, and this is a really good
 project to see the **jQuery** effects library in practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206. example, end result (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image206.png"
   style="width:50%"
-  alt="." />
+  title="Example, End Result"
+  alt="Example, End Result." />
 
-We\'ve looked at how to use the **jQuery** effects library, and now
-we\'re going to use it a little bit in this project.
+We&apos;ve looked at how to use the **jQuery** effects library, and now
+we&apos;re going to use it a little bit in this project.
 
 This is a good project for seeing how that effects library can be
-effective without adding a lot of extra weight to a project. We\'re not
-going to do anything too intensive with it, but it\'s a nice use of
+effective without adding a lot of extra weight to a project. We&apos;re not
+going to do anything too intensive with it, but it&apos;s a nice use of
 effects library.
 
-Then we\'ll remake the same project using plain JavaScript, so you can
+Then we&apos;ll remake the same project using plain JavaScript, so you can
 see the difference between the two, and compare the code between the two
 versions.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207. example, the start file (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image207.png"
   style="width:50%"
-  alt="." />
-Let\'s get started and see what this is going to look like.
+  title="Example, The Start File"
+  alt="Example, The Start File." />
+  
+Let&apos;s get started and see what this is going to look like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 208/209.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3721,28 +3731,29 @@ Let\'s get started and see what this is going to look like.
   alt="." />
 </p>
 
-If we go and look at the markup file over here, you\'ll see that the way
-it\'s setup is we have a div called tabs with an idea of tabs, and in
+If we go and look at the markup file over here, you&apos;ll see that the way
+it&apos;s setup is we have a div called tabs with an idea of tabs, and in
 here we have an unordered list. These things are going to be the actual
 tabs that you click on.
 
-Then the href for these links to the id\'s for these pieces of content
+Then the href for these links to the id&apos;s for these pieces of content
 down here, and this is the content that will be on each tab. This is
 typical for the setup for this type of interface, is that you would have
 an unordered list that makes the tabs, and the tabs themselves would
-have id\'s that match the href\'s for them up here. That\'s the basic
-markup that we\'re going to be using, and it should really work well for
+have id&apos;s that match the href&apos;s for them up here. That&apos;s the basic
+markup that we&apos;re going to be using, and it should really work well for
 us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210. example, css (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image210.png"
   style="width:50%"
-  alt="." />
+  title="Example, CSS"
+  alt="Example, CSS." />
 
 From there we need to add some basic styling because currently in the
 page, if you open up the start files in the browser, they look like
-this, so there\'s very little styling here.
+this, so there&apos;s very little styling here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3750,24 +3761,24 @@ this, so there\'s very little styling here.
   style="width:50%"
   alt="." />
 
-I\'ve done just a little bit on my style sheet, so you can come over
-here and see styles.css. I\'ve got this reset rule, which is not great
-to use for production websites. But for this, it\'s just taking margin
+I&apos;ve done just a little bit on my style sheet, so you can come over
+here and see styles.css. I&apos;ve got this reset rule, which is not great
+to use for production websites. But for this, it&apos;s just taking margin
 and padding off of everything.
 
-Then we\'re just adding some padding to the body and setting the
-background color and the font and the color. Let\'s add a few rules here
-to make sure that we get this thing all in place. The first rule I\'m
+Then we&apos;re just adding some padding to the body and setting the
+background color and the font and the color. Let&apos;s add a few rules here
+to make sure that we get this thing all in place. The first rule I&apos;m
 going to add is for the tabs themselves, so this is the entire interface
-really. I\'m just going to give it a width of 400 pixels and set margin
+really. I&apos;m just going to give it a width of 400 pixels and set margin
 to auto so that it centers on the screen.
 
 With those two pieces in place. Then for the actual tabs, for the
-unordered list, I\'m going to get rid of the bullets and set them to
+unordered list, I&apos;m going to get rid of the bullets and set them to
 display **flex**, so they go next to each other.
 
 You might wonder about the single bracket, and what this does is it
-makes sure that the unordered list, that\'s inside the tabs directly,
+makes sure that the unordered list, that&apos;s inside the tabs directly,
 the direct descended is targeted.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3777,12 +3788,12 @@ the direct descended is targeted.
   alt="." />
 
 Example 1, something like this, li. Example 2, something like that. But
-I didn\'t want this unordered list to get targeted by my rules, I only
-want this one because this is actual content in my tab. That\'s why I\'m
+I didn&apos;t want this unordered list to get targeted by my rules, I only
+want this one because this is actual content in my tab. That&apos;s why I&apos;m
 using the angle bracket here, is that it will only target the specific
-selector for my element tabs that are there. We\'ve got that in place,
-and now my tabs are lining up next to each other, still doesn\'t look
-very good, but we\'re getting there.We\'ll continue with the styling in
+selector for my element tabs that are there. We&apos;ve got that in place,
+and now my tabs are lining up next to each other, still doesn&apos;t look
+very good, but we&apos;re getting there.We&apos;ll continue with the styling in
 the next lesson.
 
 <h3>Start Files: Creating a Tabbed Interface with jQuery</h3>
