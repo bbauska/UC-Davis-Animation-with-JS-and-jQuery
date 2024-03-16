@@ -1,0 +1,123 @@
+/* css/styles.css for UofM-Intro-CSS3 */
+img.displayed {
+  display: block;
+  margin: 0 auto;
+}
+.border {
+  border-width: 1px;
+  border-color: #778899;  /* dark grayish blue */
+  border-style: solid; }
+
+font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
+  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+p { font-size: 15px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+    text-align: left; 
+    margin-left: 5px; }
+p.em1 {
+  margin-left: 1em; }
+p.em2 {
+  margin-left: 2em; }
+p.em3 {
+  margin-left: 3em; }
+p.em4 {
+  margin-left: 4em; }
+
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+
+a {
+  text-decoration: none; 
+}
+a[href]:hover {
+  color: #00000;
+  background-color: #ffff00;  /* yellow */
+  text-decoration: underline; 
+}
+
+div {
+  float: left; }
+
+h1 { font-size: 21px;
+     font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas; }
+h2 { font-size: 18px;
+     font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas; }
+h3 { font-size: 17px;
+     font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas; }
+h4 { font-size: 16px;
+     font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas; }
+h5 { font-size: 15px;
+     font-family: Bahnschrift, Inter, Helvetic, sans-serif; }
+h6 { font-size: 10px;
+     font-family: Bahnschrift, Inter, Helvetic, sans-serif; }
+
+body {
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  font-size: 1.2rem;
+  background-color: #eeeeee;  /* very light gray */
+  color: #000000;  /* black */
+  text-align: left;
+  padding: 10px;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background-color: #8b0000;  /* dark red */
+    color: #fdfeff;  /* very pale (mostly white) blue */
+    cursor: pointer;
+    padding: 10px;  /* 15px */
+    border-radius: 1px;  /* 4px */
+  }
+  #myBtn:hover {
+    background-color: #555;  /* very dark gray */
+  }
+
+details {
+  font: 11px Inter, sans-serif, Bahnschrift, Calibri;
+  width: min-content;  /* 75%; */
+}
+details > summary {
+  padding: 2px 6px;
+  width: max-content;  /* 12em */
+  background-color: #eee;  /* very light gray */
+  border: none;
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
+  cursor: pointer;
+}
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;  /* white */
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px #0008b;  /* dark blue */
+  cursor: pointer;
+}
+details[open] > summary {
+  background-color: yellow;
+}
+
+pre, code {
+  font-family: monospace, monospace;
+  font-size: 10px;
+  margin-left: 10px;
+  }
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  margin-left: 10px;
+  padding: 1rem;
+  word-wrap: normal;
+}
+pre[href]:hover {
+  text-decoration: none;
+  }
+pre:hover, pre:focust { width: min-content; }
