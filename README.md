@@ -1009,11 +1009,12 @@ documentation here. You can see that there&apos;s just tons and tons of
 different methods that you have access to as we go through and look at
 all of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 27. css3() - get value of style property (24) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.png"
   style="width:50%"
-  alt="" />
+  title=".css() - get value of style property for the first element"
+  alt=".css() - get value of style property for the first element." />
 </p>
 
 Here&apos;s the CSS one that we were just looking at, but there&apos;s tons of
@@ -1038,11 +1039,12 @@ come in here and just add a couple of paragraphs to the page. I&apos;m just
 going to copy that and paste it and add a few more here. Now I&apos;ve got
 three paragraphs on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29.  (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 29. script to change paragraph color to red (25) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.png"
   style="width:50%"
-  alt="" />
+  title="Script to change paragraph color to red"
+  alt="Script to change paragraph color to red." />
 </p>
 
 Down here, if I change this to **p**, if we were doing this with plain
@@ -1054,11 +1056,12 @@ that in some of our previous lessons. Here with **jQuery**, one of the
 things that makes **jQuery** shorter and more concise is it&apos;ll work
 with groups of elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 30. inspect, script change paragraph color to red (25) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.png"
   style="width:50%"
-  alt="" />
+  title="Inspect, script change paragraph color to red"
+  alt="Inspect, script change paragraph color to red." />
 </p>
 
 I can just grab the paragraphs and say CSS color red. You&apos;ll see over
@@ -1143,11 +1146,12 @@ For example, if we were to try to do this, we could go back to our file,
 we&apos;re going to have to add the, at the library again so we need the
 script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 37. add script shortcut to jquery min library (28) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png"
   style="width:50%"
-  alt="." />
+  title="Add script shortcut to jQuery min library"
+  alt="Add script shortcut to jQuery min library." />
 </p>
 
 If we come back over to our file, you&apos;ll notice the bottom, we don&apos;t
@@ -1155,11 +1159,12 @@ have any script tags. So down here after this closing div we need to add
 the **jQuery** library, so we can use **jQuery** and then we need to use
 then we need a script tag, which we can open and close.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add red border to main element (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.png"
   style="width:50%"
-  alt="" />
+  title="Add red border to main element"
+  alt="Add red border to main element." />
 </p>
 
 And now if we wanted to do something like put a border around this main
@@ -1170,11 +1175,12 @@ kind of get used to it. If you do pound main and then CSS the CSS method
 that we&apos;ve already talked about and we&apos;re just going to do a border
 here. Border 2px solid red.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. test, red border to main (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.png"
   style="width:50%"
-  alt="" />
+  title="Test, red border around main element"
+  alt="Test, red border around main element." />
 </p>
 
 If we do that and save this document here, and then come over to our
@@ -1203,10 +1209,12 @@ selectors.
 <p align="center" width="100%">
 <img src="./images/image041.png"
   style="width:35%"
-  alt="." />
+  title="Add red border to class special"
+  alt="Add red border to class special." />
 <img src="./images/image042.png"
   style="width:35%"
-  alt="." />
+  title="Test, red border around class special"
+  alt="Test, red border around class special." />
 </p>
 
 It&apos;s just using the same selectors you&apos;d use in CSS, so I can come
@@ -1225,14 +1233,16 @@ You can also use compound selector, so if I wanted to get specifically
 the age to inside of main we can do that as well so we can do main H
 two.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44/45.  (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 44/45. set & test red border to main, h2 (31) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png"
   style="width:35%"
-  alt="." />
+  title="Set red border to main and h2 elements"
+  alt="Set red border to main and h2 elements." />
 <img src="./images/image045.png"
   style="width:35%"
-  alt="." />
+  title="Test, red border in main and h2 elements"
+  alt="Test, red border in main and h2 elements." />
 </p>
 
 Now this may not seem so special now because we have query selector and
@@ -1246,11 +1256,12 @@ that, to go through and turn each one of these red. Whereas in
 and applies it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. red border around main, h2 (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png"
   style="width:50%"
-  alt="" />
+  title="Again, set border to red around main and h2 elements"
+  alt="Again, set border to red around main and h2 elements." />
 </p>
 
 So this thing returns a **jQuery** object, with these elements inside it
@@ -1305,7 +1316,7 @@ Let&apos;s look at how we can capture some events in **jQuery**.
 a look at how to do that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. $('a').click(function() (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. $('a').click(function() (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.png"
   style="width:50%"
@@ -1334,7 +1345,7 @@ link that I clicked. Because it&apos;s going to put this in all of the
 links, I can only click one link at a time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. test inspect, new link function (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 51. test inspect, new link function (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.png"
   style="width:50%"
@@ -1758,7 +1769,6 @@ selector to find the unordered list that&apos;s inside the parent list-item.
 See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next lesson, I&apos;ll show you my
 solution for that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1997,7 +2007,6 @@ options at once. So we want to only show one menu options at the time.
   title="Challenge 6 Answer"
   alt="Challenge 6 Answer." />
 
-
 So let&apos;s go over into the code and see how we could do this. And what we 
 want to do is we want to duplicate this loop. We want to copy this loop and 
 stick it inside this if statement. So I will make sure that all of the menus 
@@ -2057,11 +2066,12 @@ going to move this loop so it&apos;s inside that function. Hopefully, you
 were able to do this on your own. Tab that in. Now, I&apos;ve got a function
 called **hideSubmenus**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. script, hidesubmenus (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png"
   style="width:50%"
-  alt="." />
+  title="Script, hidesubmenus"
+  alt="Script, hidesubmenus." />
 
 I need to run that function here and run it once here and then I&apos;m
 going to run it again down here. It just makes the code a little bit
@@ -2071,21 +2081,23 @@ doesn&apos;t have class list hide menu on it, said it&apos;s a hide menu and
 that should actually work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. test, hidesubmenus (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png"
   style="width:50%"
-  alt="." />
+  title="Test, hidesubmenus"
+  alt="Test, hidesubmenus." />
 
 So let&apos;s just test that really quickly, make sure that that works the
 way we think it should work. Back over here and refresh the page and you
 can see that it&apos;s still working just the way I intended it to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. example, challenge 7 answer (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.png"
   style="width:50%"
-  alt="." />
+  title="Example, Challenge 7 Answer"
+  alt="Example, Challenge 7 Answer." />
 
 Hopefully, you came up with the exact same solution that I came up with
 and we&apos;re able to get it to work the way I was able to get it to work.
@@ -2102,7 +2114,6 @@ property inside the script tags so that it loads after the actual
 content of the page is loaded. So see if you can do all of that and then
 come back to the next lesson and see if you are able to get the same
 answers.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-15">1.15 Challenge 8 Solution (3:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2252,7 +2263,7 @@ Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
 different about the start file in this case, is that it includes a link
 to the **jQuery** library on the CDN.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.png"
   style="width:50%"
@@ -2261,7 +2272,7 @@ to the **jQuery** library on the CDN.
 Down here at the bottom of the file, this is the only thing that&apos;s
 different, is I&apos;m including this extra script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example, hiding the submenus (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.png"
   style="width:50%"
@@ -2273,7 +2284,7 @@ project, we had some classes set up for Hide menu and Show menu. But
 here we&apos;re going to use the **CSS** property to set display to none.
 We&apos;ll see an even easier way in just a minute.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.png"
   style="width:50%"
@@ -2288,7 +2299,7 @@ these list items that are inside these unordered list items that are
 inside this unordered list. I&apos;m going to do,.CSS &apos;&apos;display,&apos;&apos;
 &apos;&apos;none&apos;&apos;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.png"
   style="width:50%"
@@ -2298,11 +2309,12 @@ You&apos;ll see when I do this over here, if I test the page, they all go
 away, and if I inspect this, you&apos;ll see they have displayed style,
 display none over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116. example, hide() helper function (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.png"
   style="width:50%"
-  alt="" />
+  title="Example, Hide() Helper Function"
+  alt="Example, Hide() Helper Function." />
 
 Now, as it turns out, there&apos;s actually an easier way of doing that,
 because **jQuery** has a bunch of helper functions built in. One of them
@@ -2310,11 +2322,12 @@ is hide. Since frequently we want to hide things on our page, they
 created a helper function called hide, which hides those elements.
 That&apos;s even easier than using the CSS method here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. $('ul li ul').hide(); (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.png"
   style="width:50%"
-  alt="" />
+  title="$('ul li ul').hide();"
+  alt="$('ul li ul').hide();" />
 
 If I just put hide there, and then come back and test it, you&apos;ll see
 the menus are hidden. Not only that, but if I inspect and look in there,
@@ -2347,11 +2360,12 @@ next lesson.
 Just like we did in the plain Javascript version of this script, we need
 to know which menu was clicked.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. example, get the next ul (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.png"
   style="width:50%"
-  alt="" />
+  title="Example, Get the Next UL"
+  alt="Example, Get the Next UL." />
 
 Once again, we&apos;re going to use the **this** keyword in order to get the
 menu that was clicked. However, this time we&apos;re going to wrap it up
@@ -2362,22 +2376,24 @@ Javascript version, remember what we had to do was we had to go get that
 parent object and then find the **ul** inside the parent. But here we
 can actually use the **next** method to get the next ul.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. html a tag menu links (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.png"
   style="width:50%"
-  alt="" />
+  title="HTML 'a' tag menu links"
+  alt="HTML 'a' tag menu links." />
 
 Because remember, what users are doing is they&apos;re clicking on this link
 here, this anchor tag. And I want to get the next **ul** that comes
 after that. And **jQuery** has this helper function that&apos;s very useful
 for that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. thismenu for next ul (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.png"
   style="width:50%"
-  alt="" />
+  title="New var thisMenu for next Unordered List item"
+  alt="New var thisMenu for next Unordered List item." />
 
 Let&apos;s come down here and add that into here. We&apos;re going to make a
 variable, **var thisMenu** is assigned. We&apos;re going to use the
@@ -2651,7 +2667,7 @@ understand the differences between the syntax of how each of them work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-00-intro">2.00 Week/Module 2 Introduction (0:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. week/module 2 intro (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. week/module 2 intro (2.00) (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.png"
   style="width:40%"
@@ -2899,11 +2915,12 @@ in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-03">2.03 Example 2 (5:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. Example 2 (2.03) (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image156.png"
   style="width:40%"
-  alt="." />
+  title="2.03 Example 2"
+  alt="2.03 Example 2." />
 
 Let&apos;s take a look at Example 2.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3025,7 +3042,8 @@ architecture. We&apos;re going to talk about that in the next lesson.
 <p align="center" width="100%">
 <img src="./images/image164.png"
   style="width:40%"
-  alt="." />
+  title="2.04 Example 2: Plugin Architecture"
+  alt="2.04 Example 2: Plugin Architecture." />
 
 In the last lesson, we added some **easing** to our function, so that
 now it slides up using the **linear easing**, but slide down is using
@@ -3055,9 +3073,10 @@ these different: in **ease-out**, **ease-in** all these different
 animations in here. But in order to use this, we have to plugins
 **plug-in**.
 
-### 50 Awesome jQuery Plugins
-
-<https://tutorialzine.com/2013/04/50-amazing-jquery-plugins>
+<ul>
+  <li><a href="https://tutorialzine.com/2013/04/50-amazing-jquery-plugins">
+    50 Awesome jQuery Plugins</a></li>
+</ul>
 
 **jQuery** has a plug-in architecture that allows you to add more
 functionality to **jQuery**. You can see over here on our file that
@@ -3071,7 +3090,10 @@ instead of slide down, we&apos;re going to do slide toggle, which will open
 it and close it. Here we can use some of the other easings that we find
 on this website here;
 
-<https://cdnjs.com/libraries/jquery-easing>
+<ul>
+  <li><a href="https://cdnjs.com/libraries/jquery-easing">
+    jQuery Easing</a></li>
+</ul>
 
 This is where I got the **easing** plug-in on the **CDN** that I put
 into here. That&apos;s where that came from, **Cloudflare**.
