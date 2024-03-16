@@ -2102,21 +2102,23 @@ answers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-15">1.15 Challenge 8 Solution (3:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. challenge 8 solution (1.15) (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.png"
   style="width:40%"
-  alt="." />
+  title="1.15 Challenge 8 Solution"
+  alt="1.15 Challenge 8 Solution." />
 
 Our last step is really to just use some best practice work and clean up
 our files and make everything work the way we want it to work here at
 the end.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 101. script.js, function 'use strict' (63) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.png"
   style="width:50%"
-  alt="." />
+  title="New file, script.js, add function with 'use strict'"
+  alt="New file, script.js, add function with 'use strict'." />
 
 You should be able to do this on your own, but I will show you how I did
 it here. First, I&apos;m going to just make a new file, and you call it
@@ -2124,19 +2126,21 @@ it here. First, I&apos;m going to just make a new file, and you call it
 **IIFE** immediately invoked function expression, with the parentheses
 and in there at function. The function has its own parentheses in its
 curly braces. Then we add an extra pair of closing parentheses there.
-Then we&apos;re going to click inside of here, down in it or use strict
+Then we&apos;re going to click inside of here, down in it &amp; use strict
 directive here, like so. Then in here we&apos;re going to add all of our
 code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 102/103.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. both halves of script (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png"
   style="width:35%"
-  alt="." />
+  title="Top half of script"
+  alt="Top half of script." />
 <img src="./images/image103.png"
   style="width:35%"
-  alt="." />
+  title="Bottom half of script"
+  alt="Bottom half of script." />
 </p>
 
 We can take all of the stuff from here (lines 69-97), cut it, and paste
@@ -2147,14 +2151,16 @@ we&apos;re going to loop, this needs to be length, this **var** needs to be
 have your main variables all up at the top of the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 104/105.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 104/105. script.js with function hidesubmenus (64) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png"
   style="width:35%"
-  alt="." />
+  title="First 21 lines of script.js"
+  alt="First 21 lines of script.js." />
 <img src="./images/image105.png"
   style="width:35%"
-  alt="." />
+  title="Last 6 lines (9-21 overlap) of script.js"
+  alt="Last 6 lines (9-21 overlap) of script.js." />
 </p>
 
 We save that file back here and an **index.html** file. We&apos;d get rid of
@@ -2164,21 +2170,22 @@ the close script tab. Then always of course, go back and test it to make
 sure that you didn&apos;t screw something up. You can open the menus, you
 can close the menus.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 106. index, head script src=script.js defer (65) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.png"
   style="width:50%"
-  alt="." />
+  title="Index, in head add script src='script.js' defer"
+  alt="Index, in head add script src='script.js' defer." />
 
 Only one menu can be opened at a time, which is exactly what I wanted
 for this particular project. That&apos;s all working great. We were able to
 get our final script working, get everything cleaned up in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. example, challenge 8 answer (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.png"
   style="width:50%"
-  alt="." />
+  alt="Example, Challenge 8 Answer." />
 
 This is how we could do a project like this in plain JavaScript. In the
 next part of this lesson, we will look at how to do the exact same
@@ -2220,7 +2227,8 @@ whole same thing again, except using **jQuery**.
 <p align="center" width="100%">
 <img src="./images/image110.png"
   style="width:50%"
-  alt="" />
+  title="Test, Menu and Submenu"
+  alt="Test, Menu and Submenu." />
 
 This will be a really great way for you to see the difference between
 **jQuery** and JavaScript, using plain vanilla JavaScript. **jQuery** is
@@ -2232,6 +2240,7 @@ to do this interaction using **jQuery**.
 <p align="center" width="100%">
 <img src="./images/image111.png"
   style="width:50%"
+  title="Example, Project Objective"
   alt="Example, Project Objective." />
 
 Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
@@ -2325,7 +2334,7 @@ next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. getting the next ul (1.17) (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png"
+<img src="./images/image118.png"
   style="width:40%"
   title="1.17 Getting the Next UL"
   alt="1.17 Getting the Next UL." />
