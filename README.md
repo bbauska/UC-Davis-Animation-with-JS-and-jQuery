@@ -3437,21 +3437,22 @@ affecting the actual text inside the box in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-08">2.08 Example 4: Custom Animations - 2 (5:59)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 189. example 4: custom animations - 2 (2.08) (112) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image189.png"
   style="width:40%"
-  alt="." />
+  alt="2.08 Example 4: Custom Animations - 2." />
 
 For this next example, we will start with our **jQuery** object again as
 always, and then go and get the element that we want to get, which in
 this case is pound grow box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. font size animate to 24px (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image190.png"
   style="width:50%"
-  alt="." />
+  title="Font Size Animate to 24px"
+  alt="Font Size Animate to 24px." />
 
 Because we&apos;re getting on and we grow text. It&apos;s always good to copy
 and paste just to make sure you&apos;re getting exactly the right thing, and
@@ -3467,11 +3468,12 @@ braces, not square brackets, curly braces and object. What are we going
 to do here? We&apos;re going to do font in quotes. No, this one looks like
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191. example 4 - font size (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image191.png"
   style="width:50%"
-  alt="." />
+  title="Example 4 - Font Size"
+  alt="Example 4 - Font Size." />
 
 We come over here. Font size. We&apos;re using the JavaScript version of
 font size rather than the CSS version, which is font dash size. We
@@ -3486,25 +3488,27 @@ different size text if you wanted to do 36 pixels or 40 or whatever you
 want to do that&apos;ll be a little bit more dramatic. Grow the box, grow
 the text and that&apos;s working great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 192. example 4 - setting left property (114) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image192.png"
   style="width:50%"
-  alt="." />
+  title="Example 4 - Setting Left Property"
+  alt="Example 4 - Setting Left Property." />
 
 We could also move the box. Let&apos;s give that one a try. With move box,
 what we&apos;re going to do, we&apos;re actually going to change the position of
 the box, and in order to do that, we need to set some positioning for
 box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 193/194.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 193/194. update box, position absolute & left 50px (115) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image193.png"
   style="width:40%"
-  alt="." />
+  alt="box before changes." />
 <img src="./images/image194.png"
   style="width:40%"
-  alt="." />
+  title="box class after position absolute &amp; left 50px;"
+  alt="box class after position absolute &amp; left 50px;" />
 </p>
 
 In our CSS over here for box, we need to add position absolute, and then
@@ -3516,11 +3520,12 @@ puts that in the right place. But if I didn&apos;t put the 50 pixels in
 there, left 50 pixels, maybe it won&apos;t actually do anything, okay, well
 actually maybe be fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. movebox 300px from left (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. movebox 300px from left (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image195.png"
   style="width:50%"
-  alt="." />
+  title="movebox, 300px from left"
+  alt="movebox, 300px from left." />
 
 But still I want to set the left 50 pixels so that I&apos;m moving from this
 position, left 50 pixels. Because we&apos;re going to change the left
@@ -3536,6 +3541,7 @@ pixels.
 <p align="center" width="100%">
 <img src="./images/image196.png"
   style="width:50%"
+  title="Test, example4.html"
   alt="Test, example4.html." />
 
 It&apos;s already there and it&apos;ll move it left 50 pixels, I mean to 350
@@ -3545,6 +3551,7 @@ pixels from the left-hand side.
 <p align="center" width="100%">
 <img src="./images/image197.png"
   style="width:50%"
+  title="Animate movebox, 5 seconds"
   alt="Animate movebox, 5 seconds." />
 
 You can set how long you want that animation take. You can make it go
@@ -3558,11 +3565,12 @@ in, what it does with the actual animation, all with custom animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-09">2.09 Doing All Animations at Once (6:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 198. doing all animations at once (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image198.png"
   style="width:40%"
-  alt="." />
+  alt="2.09 Doing All Animations at Once"
+  alt="2.09 Doing All Animations at Once." />
 
 For next button on Example 4, we want to make all of these animations
 happen at the same time.
@@ -3580,11 +3588,12 @@ going to change all of them at once. We can do that by just passing in
 these different properties into our object all at once, separating them
 with commas.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200. doall script (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image200.png"
   style="width:50%"
-  alt="." />
+  title="doall script"
+  alt="doall script." />
 
 Let&apos;s do that. Down here, once again, I&apos;m going to use my **jQuery**
 object to go get this pound, but what I want is do all. I&apos;m going to
@@ -3605,20 +3614,22 @@ amount of time, that will be really helpful. After the curly brace, put
 a comma, and then I&apos;m going to put 1500. It&apos;s going to take a
 second-and-a-half to do all of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. test doall, example4.html (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. test doall, example4.html (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image201.png"
   style="width:50%"
-  alt="Test DOALL, example4.html." />
+  title="Test doall, example4.html"
+  alt="Test doall, example4.html." />
 
 Let&apos;s come back over here and refresh this. When I click Do All, it
 should do all of those things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202. sequence script (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image202.png"
   style="width:50%"
-  alt="." />
+  title="sequence script"
+  alt="sequence script." />
 
 Now, the last button is to do them in a sequence. First we want to grow
 the box, then we want to grow the text, then we want to move the box. We
@@ -3651,11 +3662,12 @@ I&apos;m going to put the next one inside these curly braces. I move that
 down, and I&apos;m going to do this one here. Now change that to 1500. There
 we go. That&apos;s the last one. It doesn&apos;t get a **callback** function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203. test, sequence (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image203.png"
   style="width:50%"
-  alt="." />
+  title="Test, sequence"
+  alt="Test, sequence." />
 
 Let&apos;s see if that works. If I come over here and test this, refresh, if
 I did it right, sequence, it should do that one and that finishes. It
@@ -3695,7 +3707,7 @@ section: **Intro to jQuery Effects Library**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-10">2.10 Intro to Tabbed Interface Using jQuery (5:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 204. intro to tabbed interface using jquery (2.10) (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 204. intro to tabbed interface using jquery (2.10) (121) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image204.png"
   style="width:40%"
@@ -3704,7 +3716,7 @@ section: **Intro to jQuery Effects Library**.
 
 Tabbed interface, using **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205. tabbed interface - using jquery (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205. tabbed interface - using jquery (122) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image205.png"
   style="width:40%"
@@ -3714,7 +3726,7 @@ Tabbed interface, using **jQuery**.
 We&apos;re going to create this tabbed interface, and this is a really good
 project to see the **jQuery** effects library in practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206. example, end result (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206. example, end result (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image206.png"
   style="width:50%"
@@ -3734,7 +3746,7 @@ see the difference between the two, and compare the code between the two
 versions.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207. example, the start file (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207. example, the start file (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image207.png"
   style="width:50%"
@@ -3743,14 +3755,16 @@ versions.
   
 Let&apos;s get started and see what this is going to look like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 208/209.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208/209. div, ul, li & tabs in html (123) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image208.png"
   style="width:40%"
-  alt="." />
+  title="First half; div, ul, li and tabs in HTML"
+  alt="First half; div, ul, li and tabs in HTML." />
 <img src="./images/image209.png"
   style="width:40%"
-  alt="." />
+  title="Second half; div, ul, li and tabs in HTML"
+  alt="Second half; div, ul, li and tabs in HTML." />
 </p>
 
 If we go and look at the markup file over here, you&apos;ll see that the way
@@ -3766,7 +3780,7 @@ have id&apos;s that match the href&apos;s for them up here. That&apos;s the basi
 markup that we&apos;re going to be using, and it should really work well for
 us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210. example, css (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210. example, css (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image210.png"
   style="width:50%"
@@ -3777,11 +3791,12 @@ From there we need to add some basic styling because currently in the
 page, if you open up the start files in the browser, they look like
 this, so there&apos;s very little styling here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211. css rules body, tabs, ul (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image211.png"
   style="width:50%"
-  alt="." />
+  title="CSS rules for body, tabs, tabs > ul"
+  alt="CSS rules for body, tabs, tabs > ul." />
 
 I&apos;ve done just a little bit on my style sheet, so you can come over
 here and see styles.css. I&apos;ve got this reset rule, which is not great
@@ -3803,11 +3818,12 @@ You might wonder about the single bracket, and what this does is it
 makes sure that the unordered list, that&apos;s inside the tabs directly,
 the direct descended is targeted.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 212. example 1 and 2, as untargetted lists (125) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image212.png"
   style="width:50%"
-  alt="." />
+  title="Examples 1 and 2, as untargetting list items"
+  alt="Examples 1 and 2, as untargetting list items." />
 
 Example 1, something like this, li. Example 2, something like that. But
 I didn&apos;t want this unordered list to get targeted by my rules, I only
@@ -3842,11 +3858,12 @@ transmission, often carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-11">2.11 Styling the Anchor Tags (5:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 213. styling the anchor tags (2.11) (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image213.png"
   style="width:40%"
-  alt="." />
+  title="2.11 Styling the Anchor Tags"
+  alt="2.11 Styling the Anchor Tags." />
 
 The next rule styles the actual anchor tags that are inside the list
 items that are inside the unordered list that are inside the tabs.
