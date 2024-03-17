@@ -3903,9 +3903,13 @@ items that are inside the unordered list that are inside the tabs.
 
 The next rule styles the actual anchor tags that are inside the list
 items that are inside the unordered list that are inside the tabs.
-
-![](./images/image214.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image214.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 And again I\'ve got the angle brackets to very specifically get the
 elements I specifically want. And this is a longer rule so I\'m going to
@@ -3917,9 +3921,13 @@ want them to displace block and what that does is it makes the entire
 area of the tab clickable not just the text. Plus it makes padding and
 margin a little bit easier to work with unblock elements because they
 don\'t all affect in line elements quite the same way.
-
-![](./images/image215.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image215.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I\'m setting the height 30 pixels and the line nine to 30 pixels and
 that puts the text in the vertical center. As long as it doesn\'t wrap
@@ -3932,22 +3940,34 @@ So zero 15 pixels that would be zero on the top and bottom and 15 pixels
 and left and right. And then I\'m doing some border radius where I\'m
 putting the border giving a little three pixel radius on the top left
 and top right of each tab.
-
-![](./images/image216.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image216.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 With that in place you\'ll see over here if you save that, you\'ll see
 that the tabs are starting to display the way we want them to display
 and they\'re looking like tabs. We have a few more rules that we need to
 adhere to make our make our interface look that we wanted to look.
-
-![](./images/image217.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image217.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So I\'m going to add these two rules here.
-
-![](./images/image218.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image218.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 But this is again going to target the divs that are specifically these
 divs that are labeled **tabs-1** because again I could add a div in here
@@ -3959,26 +3979,38 @@ I\'m setting them so they don\'t display initially at all. So that hides
 them all entirely and then I\'m just giving them a little bit of padding
 and setting the background color. But then the first one I want the
 first one to display is block and set its background color.
-
-![](./images/image219.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image219.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 What that will do, you\'ll see when we come over here is currently all
 of these tabs are showing and really I just want the first one to show.
 So when I refresh this you\'ll see that the first tab is showing but the
 other tabs are not and I\'m not going to have styling for these list
 items in here.
-
-![](./images/image220.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image220.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So I\'m going to go in and take them out just because I don\'t need that
 stuff in there. That was just to demonstrate that those won\'t get
 targeted by the other rule. I take that stuff out for now, that\'s
 great.
-
-![](./images/image221.png){width="5.0in"
-height="2.7719017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image221.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 And then I\'ve got a couple other really minor rules for styling that
 will fix up the way we want our taps to look and everything to look for
@@ -3990,9 +4022,13 @@ this is getting our first tab up at the top of the page and I\'m just
 changing its color and changing it\'s background so it matches our
 interface. And then I\'m giving some styling to the paragraphs to make
 them look a bit better.
-
-![](./images/image222.png){width="5.0in"
-height="2.7799146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image222.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now we have the actual interface. It doesn\'t function but this is the
 interface that we want for our tabs. And the reason why I showed you the
@@ -4011,22 +4047,35 @@ this thing so it really starts to look like a tab and we want to get
 that styling in place. The next step will be to add the jQuery to make
 the thing work and we\'ll start working on that in the next lesson.
 
-# 2.12 Tab Styling and Colors (6:07)
-
-![](./images/image223.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-12">2.12 Tab Styling and Colors (6:07)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image223.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Now we\'re ready to start with writing our script to make our tabbed
 interface function.
-
-![](./images/image224.png){width="5.0in"
-height="2.7799146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image224.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 You can see down here at the bottom of the index.html file, I\'ve added
 the link to the **jQuery** library.
-
-![](./images/image225.png){width="5.0in"
-height="2.7799146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image225.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 The first thing we want to do here is add some jQuery to gather all of
 our anchor tags in here and add it to when you click on these something
@@ -4037,19 +4086,29 @@ I want to add a click handler, so that when a click happens. Then add an
 anonymous function that runs when you click these links. This anonymous
 function will run and is always on typing from the outside ends so that
 you don\'t lose any curly braces or semi-colons.
-
-![](./images/image226.png){width="3.5in"
-height="1.9459405074365703in"}![](./images/image227.png){width="3.5in"
-height="1.9459405074365703in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image226.png"
+  style="width:40%"
+  alt="." />
+<img src="./images/image227.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Then I can click inside the curly braces and in here I want to get all
 of these anchor tags here, and make it so that the color and the
 background color of these are all set to the default background here,
 this default color. Then I\'m going to take the one that I\'ve clicked
 and change its background color and the color of the font.
-
-![](./images/image228.png){width="6.5in"
-height="3.613888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image228.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Then we can pass in key value pairs that will work with this object. We
 set the background and color. We\'re going to set background and that
@@ -4058,16 +4117,20 @@ to, this one does go in quotes, pound a2a2a2. We\'re going to set color,
 and its properties can be pound cecece. That\'s going to set these
 colors. They immediately all of them gets set to the color of the
 background.
-
-![](./images/image229.png){width="5.0in"
-height="2.7799146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image229.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If I come over here and test this. As soon as I click on one of these,
 you\'ll see they all turn to that dark color. Then I want to take the
 one that I clicked on, this one, and set it to this color here. We\'ll
 do that in the next lesson.
 
-# 2.13 Clicking and Fading Tabs (4:45)
+<h2 id="ch2-13">2.13 Clicking and Fading Tabs (4:45)</h2>
 
 ![](./images/image230.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4135,7 +4198,7 @@ fade is important to the interface because it gives the user a clue that
 the information is actually changing. That\'s what we\'ll do in the next
 lesson.
 
-# 2.14 Whole Script (7:40)
+<h2 id="ch2-14">2.14 Whole Script (7:40)</h2>
 
 ![](./images/image235.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4238,12 +4301,10 @@ simple script that we can use using **jQuery**.
 Here is a PDF of the presentation slides used in the lessons for this
 section: **Creating a Tabbed Interface with jQuery**.
 
-### 
-
 > 2.14
 > Tab-Interface-with-jQuery.pdfhttps://d3c33hcgiwev3.cloudfront.net/inVXebUXQ2K1V3m1F2NiSw_d4300f49ffee4d9c8a238bbd05fb7cf1_WEB1091_M02_Tab-Interface-with-jQuery.pdf?Expires=1710460800&Signature=TUVBZ-pLZMvz3154zoz4naFbb0FFAYoUONrWf8eCnMAzchrpxJTNEPS3X4lnnVw6hnlpEJYK3k0mZWiQZ7WqCMdTBTuXTNUJURIDOmpZeiQbWldXXlrTZQfiJdJKg-fGyo05ULgyVeyJOQ-1I30oiTLVWY-S1pGcj-F6OnTGQZA\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
-# 2.15 Getting the CSS Ready (5:53)
+<h2 id="ch2-15">2.15 Getting the CSS Ready (5:53)</h2>
 
 ![](./images/image242.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4270,13 +4331,23 @@ going to making use of classes because we don\'t have the J Query
 effects library at our disposal. We\'re going to have to make use of CSS
 and classes to do the animation and do the hiding and showing of things.
 And we\'ll use javascript to trigger the changing of these classes.
-
-![](./images/image245.png){width="3.5in"
-height="1.9459405074365703in"}![](./images/image246.png){width="3.5in"
-height="1.9459405074365703in"}
-
-![](./images/image247.png){width="6.5in"
-height="3.613888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 245/246.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image245.png"
+  style="width:40%"
+  alt="." />
+<img src="./images/image246.png"
+  style="width:40%"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image247.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 First over here, I should open up this file here. So I\'m just going to
 make a new tab and open this file. You can see that it looks the same as
@@ -4340,9 +4411,13 @@ And of course, visual studio code likes to have them formatted this way.
 I kind of prefer these all in one line myself because there\'s just one
 declaration in each. Little easier to read. But that\'s okay. Well that
 visual studio code have its way with it.
-
-![](./images/image244.png){width="5.0in"
-height="2.7799146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image244.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So now we should have the look that we need for our tabs. If I come over
 here and refresh, it looks just like it did before. None of this is
@@ -4350,7 +4425,7 @@ actually functioning yet. But the look is the same as what we had in the
 original in the original version of the Jacob version, and we\'ll start
 working on the JavaScript in the next lesson.
 
-# Start Files: Creating a Tabbed Interface with JavaScript 
+<h3>Start Files: Creating a Tabbed Interface with JavaScript</h3>
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -4368,16 +4443,24 @@ transmission, often carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# 2.16 Making the Tabs Work (6:52)
-
-![](./images/image249.png){width="4.0in"
-height="2.361538713910761in"}
+<h2 id="ch2-16">2.16 Making the Tabs Work (6:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image249.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Hopefully, you got all this CSS in place and now you\'re ready to start
 working on the JavaScript.
-
-![](./images/image250.png){width="3.5in"
-height="1.9459405074365703in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image250.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I have a linked script file here, and it\'s linked at the bottom of this
 file, you can see down here. I\'ve got my script file linked.
@@ -4467,7 +4550,7 @@ project. We\'ve made it so that you can click on these tabs and have the
 correct classes. It looks like it\'s doing that, now we have to actually
 make the content work. We\'ll do that in the next lesson.
 
-# 2.17 New Tab and Old Tab (7:20)
+<h2 id="ch2-17">2.17 New Tab and Old Tab (7:20)</h2>
 
 ![](./images/image256.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4556,7 +4639,7 @@ say display blocking on and we\'ve transitioned it down to capacity
 zero. Now we can just set it so displaying nine instead of display block
 at that point.
 
-# 2.18 Handling the Switch (4:50)
+<h2 id="ch2-18">2.18 Handling the Switch (4:50)</h2>
 
 ![](./images/image260.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4630,7 +4713,7 @@ Alright, cool. I\'m going to refresh this, so I don\'t have that going
 on. Okay, we\'re going to fix this and look at sort of the solution for
 fixing that in the next lesson.
 
-# 2.19 Fixing a Bug (6:19)
+<h2 id="ch2-19">2.19 Fixing a Bug (6:19)</h2>
 
 ![](./images/image266.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4716,7 +4799,7 @@ think it\'s nice to come into that kind of conversation with a little
 bit of experience with them. So we\'ll look at those features of
 Javascript next.
 
-# 2.20 Cleaning Up the Code (7:26)
+<h2 id="ch2-20">2.20 Cleaning Up the Code (7:26)</h2>
 
 ![](./images/image270.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4837,11 +4920,14 @@ section: Creating a Tabbed **Interface with JavaScript.**.
 
 -   
 
-2.20 JS-Tabbed-Interface.pdf
+<ul>
+  <li id="ch2-20-pdf"><a href="#">
+    2.20 JS-Tabbed-Interface.pdf</a></li>
+</ul>
 
-# Module 3: Intermediate Document Manipulation & Animation 
+<h2 id="ch3">Module 3: Intermediate Document Manipulation & Animation</h2>
 
-# 3.00 Learning Objectives
+<h2 id="ch3-00-obj">3.00 Learning Objectives</h2>
 
 -   Use **jQuery** syntax to target and manipulate DOM elements on a web
     page.
@@ -4862,7 +4948,7 @@ practice. Let\'s dive in and start working on these scripts. I think
 you\'re going to get a lot out of them and I look forward to going
 through them with you.
 
-# 3.01 Basic Slider (6:27)
+<h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
 
 ![](./images/image278.png){width="4.0in"
 height="2.361538713910761in"}
@@ -4992,7 +5078,7 @@ that\'s actually in the window. It\'s important to understand that
 that\'s how this project is set up because it has an effect on how we
 write our JavaScript.
 
-### Start Files: jQuery Image Sliders
+<h3>Start Files: jQuery Image Sliders</h3>
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -5001,12 +5087,18 @@ transmission, often carrying the extension .ZIP.
 
 -   
 
-3.01 Slider-V1-START.zip**Additional Resource:**
+<ul>
+  <li id="ch3-01-zip"><a href="#">3.01 Slider-V1-START.zip</a></li>
+</ul>
+  
+<h3>Additional Resource:</h3>
 
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/">
+    How to open a zip file for either Mac or PC</a></li>
+</ul>
 
-# 3.02 Making the Script General (5:41)
+<h2 id="ch3-02">3.02 Making the Script General (5:41)</h2>
 
 ![](./images/image291.png){width="4.0in"
 height="2.361538713910761in"}
@@ -5099,7 +5191,7 @@ will continue to work. This is actually fine to use for now with the
 current version of **jQuery** that we have, but going forward, we should
 use the dot **first** method instead. I just wanted to show you that.
 
-# 3.03 Window Load Function (7:20)
+<h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
 
 ![](./images/image301.png){width="4.0in"
 height="2.361538713910761in"}
@@ -5204,7 +5296,7 @@ zero, then I\'m going to use my **jQuery** object to go in and say, Okay
 pound slider ul.css. Your width is going to be total width. Let\'s stop
 the lesson here and then we\'ll talk about this more in the next lesson.
 
-# 3.04 Click Handler for Next Button (8:05)
+<h2 id="ch3-04">3.04 Click Handler for Next Button (8:05)</h2>
 
 ![](./images/image310.png){width="4.0in"
 height="2.361538713910761in"}
@@ -5306,7 +5398,7 @@ strip.
 So the entire strip is off to the left over here. So that\'s what we\'ll
 need to fix next.
 
-# 3.05 Next Click Handler with If Statement (3:03)
+<h2 id="ch3-05">3.05 Next Click Handler with If Statement (3:03)</h2>
 
 ![](./images/image311.png){width="4.0in"
 height="2.361538713910761in"}
@@ -5346,7 +5438,7 @@ create your own event listener for the previous click button. And then
 we\'ll take a look at it together in the next lesson and see if you got
 the same answer I got.
 
-# 3.06 Challenge Solution (5:03)
+<h2 id="ch3-06">3.06 Challenge Solution (5:03)</h2>
 
 ![](./images/image312.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5411,9 +5503,11 @@ project. We\'re going to take this script and push it further so that we
 can actually make it so that it wraps all the way around. We\'ll take a
 look at that in the next project.
 
--   3.06 jQuery-Image-Slider-Version-1.pdf
+<ul>
+  <li id="ch3-06-pdf"><a href="">3.06 jQuery-Image-Slider-Version-1.pdf</a></li>
+</ul>
 
-# 3.07 Strategy for Version 2 (4:08)
+<h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
 
 ![](./images/image313.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5467,7 +5561,7 @@ like that. I\'m going to move this stuff Into the else. We\'re going to
 do something very different here, and we\'ll take a look at what\'s next
 in the next lesson.
 
-# 3.08 Cloning the Unordered List (4:58)
+<h2 id="ch3-08">3.08 Cloning the Unordered List (4:58)</h2>
 
 ![](./images/image314.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5523,7 +5617,7 @@ that will put it in exactly the correct spot here on the page. That will
 put it so it shows up at the end. Okay? So now it is shown up on the
 end, and the next lesson will actually handle the animation.
 
-# 3.09 Setting the Left Position (4:56)
+<h2 id="ch3-09">3.09 Setting the Left Position (4:56)</h2>
 
 ![](./images/image315.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5571,7 +5665,7 @@ There we go. That will move both strips at the same times. Can animate
 them into their correct place. Then the last thing that we need to do is
 remove this one. We\'ll look at that in the next lesson.
 
-# 3.10 Adding a Callback Function (7:35)
+<h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
 
 ![](./images/image316.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5656,7 +5750,7 @@ badly about it. But now the question is, can you do the previous button?
 Link yourself, see if you can do that one, try it on your own and then
 we would come back. You\'ll see my solution for it in the next lesson.
 
-# 3.11 Previous Button Click Handler -- Part 1 (7:27)
+<h2 id="ch3-11">3.11 Previous Button Click Handler -- Part 1 (7:27)</h2>
 
 ![](./images/image317.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5733,7 +5827,7 @@ a PX, on the end of that I believe, yep, there we go. Okay great so then
 we just need to get these two pieces in here and we\'ll do this in the
 next lesson.
 
-# 3.12 Previous Button Click Handler -- Part 2 (5:17)
+<h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
 
 ![](./images/image318.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5790,11 +5884,12 @@ And build that will make use of J query, make use of the built in
 effects library and teach you how to handle and think about these
 different types of situations that come up
 
-### 3.12 jQuery-Image-Slider-Version-2.pdf
+<ul>
+  <li id="ch3-12-pdf"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation ">
+    3.12 jQuery-Image-Slider-Version-2.pdf</a></li>
+</ul>
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation 
-
-# 3.13 Slider Using JavaScript (6:04)
+<h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
 
 ![](./images/image319.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5871,11 +5966,12 @@ actual animation for our slider.
 
 ### Start Files: JavaScript Image Sliders
 
-### 3.13 JS-Slider-V3.zip
+<ul>
+  <li id="ch3-13-zip"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders">
+    3.13 JS-Slider-V3.zip</a></li>
+</ul>
 
-> https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
-
-# 3.14 CSS for Slides and Adding Variables (8:01)
+<h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
 
 ![](./images/image320.png){width="4.0in"
 height="2.264957349081365in"}
@@ -5969,7 +6065,7 @@ setting slider style.width, that\'s the total width. We\'ll actually set
 the width of that element, and we\'ll talk about that and look at it a
 little bit more in the next lesson.
 
-# 3.15 Adding More Variables (5:49)
+<h2 id="ch3-15">3.15 Adding More Variables (5:49)</h2>
 
 ![](./images/image321.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6035,7 +6131,7 @@ counter is the same as slide count, then we\'re going to do something in
 here and then we\'ve got an else in there. Then we\'ll pick up the rest
 of this next EventListener in the next lesson.
 
-# 3.16 Event Handler for the Next Button (7:11)
+<h2 id="ch3-16">3.16 Event Handler for the Next Button (7:11)</h2>
 
 ![](./images/image322.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6109,7 +6205,7 @@ except we\'re using the previous link and we\'re decrementing the
 counter but other than that it\'s very similar, see if you can do it on
 your own.
 
-# 3.17 Solution for the Previous Button Challenge (4:05)
+<h2 id="ch3-17">3.17 Solution for the Previous Button Challenge (4:05)</h2>
 
 ![](./images/image323.png){width="4.0in"
 height="2.264957349081365in"}
