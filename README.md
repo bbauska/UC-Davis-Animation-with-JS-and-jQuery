@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/15/2024 5+pm"
+date last editted: "3/16/2024 11+pm"
 output: 
   markdown:
     with some style
@@ -2208,7 +2208,7 @@ next part of this lesson, we will look at how to do the exact same
 script, exact same thing using **jQuery**. You&apos;ll see how much shorter
 and how much more compact that script is.
 
-<h3 id="ch1-15-pdf>PDF of Presentation</h3>
+<h3 id="ch1-15-pdf">PDF of Presentation</h3>
 
 <ul>
   <li><a href="https://d3c33hcgiwev3.cloudfront.net/WpZJQjwpS4-WSUI8KduPlw_7ddb39e0d313448b9fc83c1e6f780df1_WEB1091_M01_Folding-Sidebar-Menus-with-JS.pdf?Expires=1710460800&Signature=dyr2YUxz0RJFQDVZ\~GQVGOaU0rAc4DIv11N206G8CcXk-WgtYCT6guroUFlzT35aCAyaC6r-2zxKuANeJ1u8g3KvJgtHnakqYC0TDWKDQUqS1LsMUZW4KxMxBvLnZX7BdWR3I\~k45KRbjX3q1nQIPc-T8-uKkQSYJw60pb6Bco0\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
@@ -3189,11 +3189,12 @@ animations, and we&apos;re going to do more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-05">2.05 Example 3: Fading Buttons (4:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 173. example 3: fading buttons (2.05) (103) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image173.png"
   style="width:40%"
-  alt="." />
+  title="2.05 Example 3: Fading Buttons"
+  alt="2.05 Example 3: Fading Buttons." />
 
 In Example 3, we&apos;ll look at something that&apos;s similar to the other two,
 but just slightly different.
@@ -3347,11 +3348,12 @@ we&apos;ll take a look at that in the next part of this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-07">2.07 Example 4: Custom Animations -- Part 1 (4:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 183. example 4: custom animations - part 1 (109) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image183.png"
   style="width:40%"
-  alt="." />
+  title="2.07 Example 4: Custom Animations - Part 1"
+  alt="2.07 Example 4: Custom Animations - Part 1." />
 
 Next, for example 4, we&apos;re going to look at some of the custom
 animations you can use in **jQuery** and over here I have my example
@@ -3364,11 +3366,12 @@ here, if you look at the actual page, it looks like this now. We&apos;re
 going to make each of these buttons work so we can see how some custom
 animations work in **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 184. example 4 - custom animate method; growbox (109) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image184.png"
   style="width:50%"
-  alt="." />
+  title="Example 4 - Custom Animate Method; growbox"
+  alt="Example 4 - Custom Animate Method; growbox." />
 
 To do this, we&apos;ll use the animate method in **jQuery**, and you&apos;ll see
 that it allows us to animate some, not all, but some of the CSS
@@ -3377,11 +3380,12 @@ with CSS. That gives us a lot of power, because we can actually use
 these CSS properties to animate all different things not just sliding up
 and down or showing and hiding and doing this kind of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. define growbox, animate (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image185.png"
   style="width:50%"
-  alt="." />
+  title="Define growbox, animate"
+  alt="Define growbox, animate." />
 
 Let&apos;s give it a try and see what it does over here. Down here I&apos;m
 going to add in my script. I&apos;m going to go get my **jQuery** objects
@@ -3393,11 +3397,12 @@ point I want to affect box, pound box, don&apos;t forget the pound sign.
 We&apos;re going to do the animate function in **jQuery**. This will animate
 the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 186. example 4 - pass in an object (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image186.png"
   style="width:50%"
-  alt="." />
+  title="Example 4 - Pass in an Object"
+  alt="Example 4 - Pass in an Object." />
 
 The way we&apos;re going to do this here is we&apos;re going to pass in an
 object. We have not yet worked with objects in JavaScript, they&apos;re
@@ -3407,11 +3412,12 @@ those times. I&apos;ll explain it a little bit now, but we&apos;ll get into
 objects in more detail a bit later, and an object is an alternative way
 of storing data in JavaScript, and it comes with a key value pair.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 187. growbox animate width 710px (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image187.png"
   style="width:50%"
-  alt="." />
+  title="Define growbox, animate, width 710px"
+  alt="Define growbox, animate, width 710px." />
 
 We define an object with the curly braces, and then we have a key value
 pair. In this case, the key is width, that&apos;s the **CSS** property
@@ -3420,11 +3426,12 @@ the value goes inside quotes, but the key does not. That&apos;s a
 distinguishing aspect of objects in JavaScript in general and also in
 **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 188. test, growbox - move to right 710px (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image188.png"
   style="width:50%"
-  alt="." />
+  title="Test, growbox, move to the right 710px"
+  alt="Test, growbox, move to the right 710px." />
 
 We&apos;re going to animate in here. We&apos;re going to pass in an object open
 and closing curly brace and we&apos;re going to put in width, colon, and
@@ -3441,6 +3448,7 @@ affecting the actual text inside the box in the next lesson.
 <p align="center" width="100%">
 <img src="./images/image189.png"
   style="width:40%"
+  title="2.08 Example 4: Custom Animations - 2"
   alt="2.08 Example 4: Custom Animations - 2." />
 
 For this next example, we will start with our **jQuery** object again as
@@ -3688,10 +3696,10 @@ to use this effects library coming up when we create a tabbed interface.
 Here are resources related to these lessons:
 
 <ul>
-  <li><a href="https://gsgd.co.uk/sandbox/jquery/easing/">
-    2.09 jQuery Easing Plugin</a></li>
-  <li><a href="https://cdnjs.com/libraries/jquery-easing">
-    2.09 jQuery Easing</a></li>
+  <li id="ch2-09-plugins"><a href="https://gsgd.co.uk/sandbox/jquery/easing/">
+    2.09 jQuery Easing Plugin (shortcut)</a></li>
+  <li id="ch2-09-easing"><a href="https://cdnjs.com/libraries/jquery-easing">
+    2.09 jQuery Easing (shortcut)</a></li>
 </ul>
 
 <h3>PDF of Presentation</h3>
@@ -3744,7 +3752,6 @@ effects library.
 Then we&apos;ll remake the same project using plain JavaScript, so you can
 see the difference between the two, and compare the code between the two
 versions.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207. example, the start file (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3844,8 +3851,7 @@ transmission, often carrying the extension .ZIP.
 <h3>zip START Files</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/0zxTkBHgSGK8U5AR4GhiNQ_2cfc93b6885b45df9d112bfdb160edb8_WEB1091_jQuery-Tabs-Start.zip?Expires=1710633600&Signature=fNkkUy75wDywZ87jXfS5Dlrfg5nWorDm50rID9X2tFjy\~n9wXEtGIsB2RHKiZFTfTTlBeQxmjbhYfOGe9h50y0xSekL4X19\~Tj78kqW2edt7cMuCENfP3LFo-lbfoN03ZXTKgV-uL8l206y-IvjXpv06oxrfwV1-ZO9kWFZ71lk\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
-    2.10 jQuery-Tabs-START.zip</a></li>
+  <li><a href="#">2.10 jQuery-Tabs-START.zip</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
