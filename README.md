@@ -1175,7 +1175,7 @@ kind of get used to it. If you do pound main and then CSS the CSS method
 that we&apos;ve already talked about and we&apos;re just going to do a border
 here. Border 2px solid red.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. test, red border to main (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. test, red border to main (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.png"
   style="width:50%"
@@ -1189,7 +1189,7 @@ border around the main area of the page. So that&apos;s working, so we can
 access this element, we can access all kinds of elements with
 **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 40. example, jquery - getting classes (40) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 40. example, jquery - getting classes (30) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.png"
   style="width:50%"
@@ -1205,7 +1205,7 @@ if we change this to not **special**. And one of the things that&apos;s nice
 about **jQuery** is that if you just know CSS then how to get these
 selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41/42.  (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 41/42. class 'special' add red border (30) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png"
   style="width:35%"
@@ -1392,8 +1392,8 @@ how to work with **jQuery** will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/4JYrxEZ4R0-WK8RGeCdP5g_890a1b5918f04ae19e53d4f91665e4f1_WEB1091_M01_Introduction-to-jQuery.pdf?Expires=1710288000&Signature=b-GEP5ws\~xfkhH7Y0GZAqPpdV3sTULnbaJiDI7X2e9M6dbn5YeppPq9wP-QSd40OACGkycuS4zHJqBUfUK\~7TR8950xpwO3pDJG4FeYMRIBdkhAITMyrVsXCRBXay1xYdS9E805m1fDLGNJkRWGafyHAWMbhO0olO46tqyyB50A\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
-    1.06 Introduction-to-jQuery.pdf (download)</a></li>
+  <li><a href="#" target="_blank" rel="noopener noreferrer">
+    1.06 Intro-to-jQuery.pdf (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1720,6 +1720,7 @@ know that, and the this keyword can help us figure that out.
 <p align="center" width="100%">
 <img src="./images/image076.png"
   style="width:35%"
+  title="New var thisMenu = this"
   alt="New var thisMenu = this." />
 <img src="./images/image077.png"
   style="width:35%"
@@ -1911,6 +1912,7 @@ just come back to the next lesson and we&apos;ll see how I did it.
 <p align="center" width="100%">
 <img src="./images/image087.png"
   style="width:40%"
+  title="1.12 Challenge 5 Solution"
   alt="1.12 Challenge 5 Solution." />
 
 Were you able to get the answer to this challenge?
@@ -2263,20 +2265,22 @@ Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
 different about the start file in this case, is that it includes a link
 to the **jQuery** library on the CDN.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. jquery api v3.7.1 (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.png"
   style="width:50%"
-  alt="" />
+  title="3.7.1 jquery.min.js google apis"
+  alt="3.7.1 jquery.min.js google apis." />
 
 Down here at the bottom of the file, this is the only thing that&apos;s
 different, is I&apos;m including this extra script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example, hiding the submenus (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example, hiding the submenus (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.png"
   style="width:50%"
-  alt="" />
+  title="Example, Hiding the Submenus"
+  alt="Example, Hiding the Submenus." />
 
 First thing we&apos;re going to do, is we&apos;re going to set all of those
 initial list items to not display. In the previous version of this
@@ -2284,11 +2288,12 @@ project, we had some classes set up for Hide menu and Show menu. But
 here we&apos;re going to use the **CSS** property to set display to none.
 We&apos;ll see an even easier way in just a minute.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. ul li ul display: none (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.png"
   style="width:50%"
-  alt="" />
+  title="ul li ul display: none;"
+  alt="ul li ul display: none;" />
 
 But let&apos;s do this first so you can see what it does. Down here, I&apos;m
 going to use my **jQuery** object, and write it like this from the
@@ -2299,11 +2304,12 @@ these list items that are inside these unordered list items that are
 inside this unordered list. I&apos;m going to do,.CSS &apos;&apos;display,&apos;&apos;
 &apos;&apos;none&apos;&apos;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 115. test inspect console ul style display none (69) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.png"
   style="width:50%"
-  alt="" />
+  title="Test Inspect Console ul style display none"
+  alt="Test Inspect Console ul style display none." />
 
 You&apos;ll see when I do this over here, if I test the page, they all go
 away, and if I inspect this, you&apos;ll see they have displayed style,
@@ -2343,7 +2349,7 @@ next lesson.
 <h3>zip START Files</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/0Cu1A9CuTjSrtQPQri40tQ_d5e4c6b39f514e4d836fb7ea481e397b_WEB1091_jQuery-folding-menus-Start.zip?Expires=1710460800&Signature=JvtZ8cj7\~9d3MNJQnw7PjKCkYXV3QzEcgb4xcobmwvCVlR3x-nUg5S3NKvaIhiH6UkvN\~jdV1SKeZB9Wyk9Q-xqeGT4dKO9xoO7T8suazk0Zl9imF0LUQxhtIHPM7VldKE7iYrL2EGm68LpF0eZqJPLt0qemPDNZgV3V1Cmb54I\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A " target="_blank" rel="noopener noreferrer">
+  <li><a href="#" target="_blank" rel="noopener noreferrer">
     1.16 jQuery-Folding-Menus-START.zip (download)</a></li>
 </ul>
 
@@ -2401,24 +2407,26 @@ variable, **var thisMenu** is assigned. We&apos;re going to use the
 .**next** method to go get the next **ul**. And that will get the **ul**
 that comes up after this particular anchor tag that we&apos;ve clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. console.log thismenu (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122.png"
   style="width:50%"
-  alt="" />
+  title="console.log thisMenu .html"
+  alt="console.log thisMenu .html." />
 
-And just to see that this works, I&apos;m going to say, **console.log(
-thisMenu. .html()).** This html(), this is a **jQuery** method that will
-generate the **html**. So let&apos;s see what we get if we test this. If I
+And just to see that this works, I&apos;m going to say, <b>console.log(
+thisMenu. .html())</b>. This html(), this is a <b>jQuery</b> method that will
+generate the <b>html</b>. So let&apos;s see what we get if we test this. If I
 come over to my page and refresh and then turn on my inspector to get
 the Console log here and click on this menu, you can see that I&apos;m
-getting that **html**.
+getting that <b>html</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example, showing the hidden menu (74) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image123.png"
   style="width:50%"
-  alt="" />
+  title="Example, Showing the Hidden Menu"
+  alt="Example, Showing the Hidden Menu." />
 
 The next thing we need to do is check to see if the menu is showing or
 hidden or not. And we can do that with this sort of function here. We
@@ -2429,22 +2437,24 @@ which case then we can hide it or we could show it. Now, we could do
 this and this works if you wanted to do it this way. And the is method
 is sometimes very helpful in **jQuery**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. example, do this instead (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.png"
   style="width:50%"
-  alt="" />
+  title="Example, Do This Instead"
+  alt="Example, Do This Instead." />
 
 However, in this case there is another helper function, a convenient
 helper function that will do the same thing in a nice, simple way. And
 that is toggle, **thisMenu.toggle**. That&apos;s all we need to do, so that
 if it&apos;s showing hide it, if it&apos;s hiding show it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 125. hide all menu options, on click, toggle (75) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.png"
   style="width:50%"
-  alt="" />
+  title="Hide all menu options, on click, toggle"
+  alt="Hide all menu options, on click, toggle." />
 
 Let&apos;s add that into our script over here. I can just say
 **thisMenu.toggle**. Very helpful, convenient function in **jQuery**
@@ -2477,11 +2487,12 @@ opens the one that I clicked on. And we&apos;ll do that in the next lesson.
 To get this final piece of functionality that we want, we need one more
 line in our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. example, the whole script (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.png"
   style="width:50%"
-  alt="" />
+  title="Example, The Whole Script"
+  alt="Example, The Whole Script." />
 
 And it&apos;s just a short simple little line that we need to add and it
 will introduce us to yet another convenient function built into
@@ -2489,11 +2500,12 @@ will introduce us to yet another convenient function built into
 excludes a particular item from a function, we can chain these functions
 together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 128. select all ul's, hide, toggle clicked menus (77) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image128.png"
   style="width:50%"
-  alt="" />
+  title="Select and hide all ul's. Toggle the clicked submenu" />
+  alt="Select and hide all ul's. Toggle the clicked submenu." />
 
 So here we&apos;re going to say go get all of the unordered lists that are
 inside the list item, that are inside the not word lists, those are sub
@@ -2510,22 +2522,23 @@ that I clicked on. That one I don&apos;t want to be affected by this line at
 all. And then I&apos;m going to do hide, make sure all of those are hidden.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. test, menu click, unclick (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image129.png"
   style="width:50%"
-  alt="" />
+  title="Test, menu click, unclick"
+  alt="Test, menu click, unclick." />
 
 Let&apos;s come back and test it. I can open a menu, I can open the next
 menu, I can close the menu. And I&apos;m getting exactly the functionality
 that I had before.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 130. move all to external script & use strict (78) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.png"
   style="width:50%"
-  title=""
-  alt="" />
+  title="Move all to external script &amp; use strict"
+  alt="Move all to external script &amp; use strict." />
 
 Okay, the last step that we need to do is just make our script file and
 move this stuff over into an external script file. So let&apos;s do that
@@ -2536,14 +2549,16 @@ then I&apos;m going to come in here and add my **use strict** directive. And
 then I&apos;m going to grab this entire script. Cut that and stick it in
 here. Close that up. I&apos;ve got a little short script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 131/132.  (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 131/132. var to const and load script.js (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.png"
   style="width:35%"
-  alt="." />
+  title="New script.js &amp; move script code from index.html"
+  alt="New script.js &amp; move script code from index.html." />
 <img src="./images/image132.png"
   style="width:35%"
-  alt="." />
+  title="Call script.js in head with defer command"
+  alt="Call script.js in head with defer command." />
 </p>
 
 This can become constant. That&apos;s the only thing we need to take care of
@@ -2728,12 +2743,12 @@ can download and when you open them up, they look nice.
 Here&apos;s example 1. We&apos;ll look at how to apply some effects using these
 buttons here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 141. new code in index.html (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.png"
   style="width:50%"
-  alt="." />
-
+  title="New code in index.html"
+  alt="New code in index.html." />
 
 If we go over and look at the HTML involved here, I just have some links
 with these buttons, and then I&apos;ve got this box here.
@@ -2742,11 +2757,12 @@ I&apos;ve got a little bit of CSS as appear to make it look nice and that&apos;s
 fine. Down here, you&apos;ll notice that I have **jQuery** plugged in so
 that&apos;s all set and ready to go, and a place for us to put our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. first button, hide function (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png"
   style="width:50%"
-  alt="." />
+  title="First button, hide function"
+  alt="First button, hide function." />
 
 Now, the first one that we&apos;re going to look at is the **hide** function
 (furthest left of the 3 buttons) which we&apos;ve already looked at before.
@@ -2754,11 +2770,12 @@ We&apos;ve seen this **hide** function when we did the sidebar menu
 exercise. But the hide function can also do animation. Let&apos;s take a
 look at how to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143. define box hidden (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.png"
   style="width:50%"
-  alt="." />
+  title="Define box hidden"
+  alt="Define box hidden." />
 
 Over here, what I could do is I could type in here, I could go get this
 first link here. I&apos;m going to go get and use my **jQuery** object. Then
@@ -2769,23 +2786,26 @@ element again using my **jQuery** object. This element box, div id pound
 box. I tell it to, hide. Now if we do it like this, it will work, but it
 won&apos;t do any animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. test, hide box fades away (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.png"
   style="width:50%"
-  alt="." />
+  title="Test, hide box fades away"
+  alt="Test, hide box fades away." />
 
 Let&apos;s try it out. If I come over here and refresh this page and click
 &quot;Hide,&quot; you can see the box goes away.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 145/146.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145/146. jquery hide box & test (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png"
   style="width:35%"
-  alt="." />
+  title="jQuery box hide normal"
+  alt="jQuery box hide normal." />
 <img src="./images/image146.png"
   style="width:35%"
-  alt="." />
+  title="Test, jQuery box hide normal"
+  alt="Test, jQuery box hide normal." />
 </p>
 
 But in **jQuery**, you can actually pass a value in here. There are a
@@ -2793,14 +2813,16 @@ few keywords that it can use. You can use normal, slow, or fast. You&apos;ll
 see now when I do refresh and click &quot;Hide,&quot; it does an animation as it
 hides that box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 147/148.  (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 147/148. hide box fade in 500 milliseconds (88) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png"
   style="width:35%"
-  alt="." />
+  title="Hide box fade in 500 milliseconds"
+  alt="Hide box fade in 500 milliseconds." />
 <img src="./images/image148.png"
   style="width:35%"
-  alt="." />
+  title="Test, hide box fade in 500 milliseconds"
+  alt="Test, hide box fade in 500 milliseconds." />
 </p>
 
 You could do slow or fast, or you could put in a number. The number is
@@ -2841,14 +2863,16 @@ the speed there.
 In the last lesson, we saw that we could add a function here that will
 hide the box and animate that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 151/152.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 151/152. showbox 500 mill, and test (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png"
   style="width:45%"
-  alt="." />
+  title="Add showbox click, fade 500 milliseconds"
+  alt="Add showbox click, fade 500 milliseconds." />
 <img src="./images/image152.png"
   style="width:45%"
-  alt="." />
+  title="Test showbox click, fade 500 milliseconds"
+  alt="Test showbox click, fade 500 milliseconds." />
 </p>
 
 Let&apos;s add a couple more. We&apos;ve got a few more buttons here. Let&apos;s do
@@ -2865,11 +2889,12 @@ milliseconds. You&apos;ll see that will work.
 Let&apos;s test that. We come over here and refresh this. We can hide the
 box and I can show the box and you can see the difference in time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153. define toggle function (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image153.png"
   style="width:50%"
-  alt="." />
+  title="Define toggle box function"
+  alt="Define toggle box function." />
 
 Now toggle will both hide and show. If it&apos;s hidden, it&apos;ll show it. If
 it&apos;s showing it&apos;ll hide it. Over here again, I&apos;m going to just add
@@ -2880,11 +2905,12 @@ allows us to do both hiding and showing and we&apos;ve seen that before. But
 now we can use it with the effects library and do some animation with
 it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 154. toggle function, 500 mill, alert (91) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image154.png"
   style="width:50%"
-  alt="." />
+  title="Define toggle function, 500 milliseconds fade, test alert"
+  alt="Define toggle function, 500 milliseconds fade, test alert." />
 
 Now one of the really great things about these animations and doing this
 in JavaScript and **jQuery** is that you have a thing called a
@@ -2899,11 +2925,12 @@ This is useful because sometimes you want to have a sequence of
 animations and when that animation is done, you want to do something
 else, something like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155. alert test, toggle function (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image155.png"
   style="width:50%"
-  alt="." />
+  title="Test Alert, toggle function"
+  alt="Test Alert, toggle function." />
 
 Let&apos;s see how this works. The page does the alert. That&apos;s really cool
 and I could do the other way around as well. With that, we are able to
