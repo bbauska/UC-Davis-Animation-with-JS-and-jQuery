@@ -4366,11 +4366,12 @@ section: **Creating a Tabbed Interface with jQuery**.
 Now that you&apos;ve created the tabbed interface using jQuery, we&apos;re going
 to create that exact same tabbed interface using plain JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 243. tabbed interface with plain javascript (144) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image243.png"
   style="width:40%"
-  alt="." />
+  title="Tabbed Interface with Plain JavaScript"
+  alt="Tabbed Interface with Plain JavaScript." />
 </p>
 
 And that way you can compare the syntax between the two and understand
@@ -4379,11 +4380,12 @@ use of the J query library. When we&apos;re done, the interface is going to
 look exactly the same and function exactly the same as it did before
 using jQuery except now we&apos;re going to be using plain JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. example, final css rules (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png"
   style="width:50%"
-  alt="." />
+  title="Example, Final CSS Rules"
+  alt="Example, Final CSS Rules." />
 </p>
 
 To get started I have my files open in visual studio code and you can
@@ -4394,17 +4396,17 @@ effects library at our disposal. We&apos;re going to have to make use of CSS
 and classes to do the animation and do the hiding and showing of things.
 And we&apos;ll use javascript to trigger the changing of these classes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 245/246.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 245/246.  (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image245.png"
   style="width:40%"
-  alt="." />
+  alt="Lines 1-20 of styles.css." />
 <img src="./images/image246.png"
   style="width:40%"
-  alt="." />
+  alt="Lines 21-38 of styles.css." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. lines 49-64 of styles.css (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png"
   style="width:50%"
@@ -4432,7 +4434,9 @@ vertical center margin on the right to pixels and setting the background
 color and all that stuff is exactly the same along with the border
 radius and all that. So that should all work to get our basic tabs to
 look the way we want them to look on our design. And that&apos;s really
-critical to kind of get started with their. The rest of the styling that
+critical to kind of get started with their. 
+
+The rest of the styling that
 we need is a little bit different. And basically what we&apos;re doing here
 is I&apos;m making these divs down here. They&apos;re going to be set with
 padding 15 pixels and a background color that&apos;s that lighter gray. And
@@ -4480,11 +4484,12 @@ I kind of prefer these all in one line myself because there&apos;s just one
 declaration in each. Little easier to read. But that&apos;s okay. Well that
 visual studio code have its way with it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. example, final css rules (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png"
   style="width:50%"
-  alt="." />
+  title="Example, Final CSS Rules"
+  alt="Example, Final CSS Rules." />
 </p>
 
 So now we should have the look that we need for our tabs. If I come over
@@ -4500,17 +4505,15 @@ exercise. A **zip file** is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
-## zip START Files
+### zip START Files
 
--   
+<ul>
+  <li><a href="">2.15 JS-Tabs-START.zip</a></li>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/">
+    How to open a zip file for either Mac or PC</a></li>
+</ul>
 
-> 2.15 JS-Tabs-START.zip
-
-### **Additional Resource:**
-
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-16">2.16 Making the Tabs Work (6:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
