@@ -3904,11 +3904,12 @@ items that are inside the unordered list that are inside the tabs.
 The next rule styles the actual anchor tags that are inside the list
 items that are inside the unordered list that are inside the tabs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 214. example, styling the anchor tags (126) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image214.png"
   style="width:50%"
-  alt="." />
+  title="Example, Styling the Anchor Tags"
+  alt="Example, Styling the Anchor Tags." />
 </p>
 
 And again I&apos;ve got the angle brackets to very specifically get the
@@ -3922,11 +3923,12 @@ area of the tab clickable not just the text. Plus it makes padding and
 margin a little bit easier to work with unblock elements because they
 don&apos;t all affect in line elements quite the same way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215. styling settings tabs (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image215.png"
   style="width:50%"
-  alt="." />
+  title="Set style settings on id Tabs"
+  alt="Set style settings on id Tabs." />
 </p>
 
 I&apos;m setting the height 30 pixels and the line nine to 30 pixels and
@@ -3941,11 +3943,12 @@ and left and right. And then I&apos;m doing some border radius where I&apos;m
 putting the border giving a little three pixel radius on the top left
 and top right of each tab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216. test, tabs display (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image216.png"
   style="width:50%"
-  alt="." />
+  title="Test, tabs display"
+  alt="Test, tabs display." />
 </p>
 
 With that in place you&apos;ll see over here if you save that, you&apos;ll see
@@ -3953,20 +3956,22 @@ that the tabs are starting to display the way we want them to display
 and they&apos;re looking like tabs. We have a few more rules that we need to
 adhere to make our make our interface look that we wanted to look.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 217. tabs > div, tabs > div:first-of-type (128) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image217.png"
   style="width:50%"
-  alt="." />
+  title="Set tabs > div, tabs > div:first-of-type"
+  alt="Set tabs > div, tabs > div:first-of-type." />
 </p>
 
 So I&apos;m going to add these two rules here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 218. div id="tabs", tabs-1,2,3 (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image218.png"
   style="width:50%"
-  alt="." />
+  title="Target divs with id="tabs""
+  alt="Target divs with id="tabs"." />
 </p>
 
 But this is again going to target the divs that are specifically these
@@ -3980,11 +3985,12 @@ them all entirely and then I&apos;m just giving them a little bit of padding
 and setting the background color. But then the first one I want the
 first one to display is block and set its background color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. test, all tabs showing (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image219.png"
   style="width:50%"
-  alt="." />
+  title="Test, all tabs showing"
+  alt="Test, all tabs showing." />
 </p>
 
 What that will do, you&apos;ll see when we come over here is currently all
@@ -3993,11 +3999,12 @@ So when I refresh this you&apos;ll see that the first tab is showing but the
 other tabs are not and I&apos;m not going to have styling for these list
 items in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 220. remove example-1 and example-2 (130) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image220.png"
   style="width:50%"
-  alt="." />
+  title="Remove example-1 and example-2"
+  alt="Remove example-1 and example-2." />
 </p>
 
 So I&apos;m going to go in and take them out just because I don&apos;t need that
@@ -4005,11 +4012,12 @@ stuff in there. That was just to demonstrate that those won&apos;t get
 targeted by the other rule. I take that stuff out for now, that&apos;s
 great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 221. style p, line-height: 1.5em, margin-bottom: 1em (130) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image221.png"
   style="width:50%"
-  alt="." />
+  title="Style p, line-height: 1.5em, margin-bottom: 1em"
+  alt="Style p, line-height: 1.5em, margin-bottom: 1em." />
 </p>
 
 And then I&apos;ve got a couple other really minor rules for styling that
@@ -4023,11 +4031,12 @@ changing its color and changing it&apos;s background so it matches our
 interface. And then I&apos;m giving some styling to the paragraphs to make
 them look a bit better.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 222. first tab only highlighted (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image222.png"
   style="width:50%"
-  alt="." />
+  title="Only the first tab is highlighted"
+  alt="Only the first tab is highlighted." />
 </p>
 
 Now we have the actual interface. It doesn&apos;t function but this is the
@@ -4050,7 +4059,7 @@ the thing work and we&apos;ll start working on that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-12">2.12 Tab Styling and Colors (6:07)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image223.png"
   style="width:40%"
@@ -4060,7 +4069,7 @@ the thing work and we&apos;ll start working on that in the next lesson.
 Now we&apos;re ready to start with writing our script to make our tabbed
 interface function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image224.png"
   style="width:50%"
@@ -4070,7 +4079,7 @@ interface function.
 You can see down here at the bottom of the index.html file, I&apos;ve added
 the link to the **jQuery** library.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image225.png"
   style="width:50%"
@@ -4087,7 +4096,7 @@ anonymous function that runs when you click these links. This anonymous
 function will run and is always on typing from the outside ends so that
 you don&apos;t lose any curly braces or semi-colons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image226.png"
   style="width:40%"
@@ -4103,7 +4112,7 @@ background color of these are all set to the default background here,
 this default color. Then I&apos;m going to take the one that I&apos;ve clicked
 and change its background color and the color of the font.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png"
   style="width:50%"
@@ -4118,7 +4127,7 @@ and its properties can be pound cecece. That&apos;s going to set these
 colors. They immediately all of them gets set to the color of the
 background.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png"
   style="width:50%"
@@ -4132,7 +4141,7 @@ do that in the next lesson.
 
 <h2 id="ch2-13">2.13 Clicking and Fading Tabs (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image230.png"
   style="width:40%"
@@ -4141,7 +4150,7 @@ do that in the next lesson.
 
 All of the backgrounds to default color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image231.png"
   style="width:50%"
@@ -4157,7 +4166,7 @@ here but the colors are going to be different. The background is going
 to be, eaeaea I think, and the color is going to be 333, like that and
 that should work. Let&apos;s save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232.  (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image232.png"
   style="width:50%"
@@ -4179,7 +4188,7 @@ how we had our markup setup over here. Remember up here, we set these
 href&apos;s here to link to these id&apos;s down here. Really what I need to do
 is find out what href I clicked on when I clicked on one of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233.  (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image233.png"
   style="width:50%"
@@ -4194,7 +4203,7 @@ object and I&apos;m going to use.attr, which is the attribute method in
 **jQuery** that allows me to get a particular attribute on an element
 and what attribute do you want, I want the href.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234.  (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image234.png"
   style="width:50%"
@@ -4220,20 +4229,22 @@ lesson.
 
 <h2 id="ch2-14">2.14 Whole Script (7:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. whole script (2.14) (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image235.png"
   style="width:40%"
-  alt="." />
+  title="2.14 Whole Script"
+  alt="2.14 Whole Script." />
 </p>
 
 Now we need to fade out the current tab that is showing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. example, the whole script (139) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image236.png"
   style="width:50%"
-  alt="." />
+  title="Example, The Whole Script"
+	alt="Example, The Whole Script." />
 </p>
 
 What I need to do is get the tab that&apos;s currently showing, and we can
@@ -4244,8 +4255,9 @@ That&apos;s the current one that we need to set, and we&apos;re just going to
 set it to.fadeOut over 200 milliseconds. That will fade out the current
 one that&apos;s showing. The other ones are all set to display none. Once
 this animation is finished, we need to take the one that we&apos;ve clicked
-on and feed it back in. That&apos;s what we need to do next. What we need
-here is a **callback** function. Once this is done fading out, we want
+on and feed it back in.
+
+What we need here is a **callback** function. Once this is done fading out, we want
 to add a callback function, with its parentheses, and its current
 devices in here. I want this tab to get faded in. The way we&apos;re going
 to do is we&apos;re going to make use of our variable that we&apos;ve already
@@ -4255,11 +4267,12 @@ dash 2 because that&apos;s what we found when we did this alert. You get
 this one and then we can do.fadeIn over 200 milliseconds. We&apos;ll fade
 that one in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 237.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 237. full script in index.html (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image237.png"
   style="width:50%"
-  alt="." />
+  title="Full script in index.html"
+  alt="Full script in index.html." />
 </p>
 
 Now we have a nice simple script that allows us to capture these
@@ -4267,11 +4280,12 @@ elements and use the **jQuery** effects library to feed them in and out.
 This isn&apos;t particularly heavy duty effects libraries stuff. It&apos;s not
 going to look terrible on mobile or anything like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. test, highlight one tab (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image238.png"
   style="width:50%"
-  alt="." />
+  title="Test, highlight one tab"
+  alt="Test, highlight one tab." />
 </p>
 
 Let&apos;s see if this actually works. Come over here, refresh the page.
@@ -4280,24 +4294,27 @@ one in, and that&apos;s working perfectly. Because of the animation, it&apos;s
 giving us a sense that the content is actually changing. That&apos;s a
 really good use of animation there and the effects library. That&apos;s
 working great. Let&apos;s just review the whole script. Here we&apos;re loading
-the **jQuery** library. Then in our script, we&apos;re getting those anchor
-tags and adding clickHandler to notice that a function runs when
-they&apos;re clicked. In the tabs we are changing all of them to be the
-default background color, the unselected color for both the background
-and the color of the text, then the one we clicked on we&apos;re changing so
-that it shows the correct color in text for that one. We figure out,
-well which link did we click on, and then we&apos;re going to take the
-corresponding div that goes with that, fade out the one that&apos;s
+the **jQuery** library. 
+
+Then in our script, we&apos;re getting those anchor tags and adding clickHandler 
+to notice that a function runs when they&apos;re clicked. In the tabs we are 
+changing all of them to be the default background color, the unselected color 
+for both the background and the color of the text, then the one we clicked on 
+we&apos;re changing so that it shows the correct color in text for that one. 
+We figure out, well which link did we click on, and then we&apos;re going to 
+take the corresponding div that goes with that, fade out the one that&apos;s
 currently showing, and take the corresponding div and feed it back in.
+
 That&apos;s the entire script. It&apos;s a nice simple script and does a nice
 job of making use of our effects library in **jQuery** to build
 something simple and effective that you could use in lots of websites.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. summary jquery tabs (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image239.png"
   style="width:50%"
-  alt="." />
+  title="Summary jQuery Tabs"
+  alt="Summary jQuery Tabs." />
 </p>
 
 Again, in summary, this is a great use of **jQuery**, and maybe if this
@@ -4312,7 +4329,7 @@ invoked function expression closure, and use strict directive, and link
 it in the head of the page with the deferred property and do all that
 stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image240.png"
   style="width:50%"
@@ -4327,7 +4344,7 @@ come back here and just copy this script from here. Already use const
 for the one variable that I have, so I don&apos;t really have to do anything
 with that. That&apos;s all fine, and that should be all good there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 241.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 241.  (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image241.png"
   style="width:50%"
@@ -4344,10 +4361,14 @@ That should all work. Let&apos;s just test it really quickly and make sure
 it works. Refresh, and it&apos;s working great. We&apos;ve got a nice, clean,
 simple script that we can use using **jQuery**.
 
-## PDF of Presentation
+<h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **Creating a Tabbed Interface with jQuery**.
+
+<ul>
+  <li>2.14-Tab-Interface-with-jQuery.pdf</li>
+</ul>
 
 > 2.14
 > Tab-Interface-with-jQuery.pdfhttps://d3c33hcgiwev3.cloudfront.net/inVXebUXQ2K1V3m1F2NiSw_d4300f49ffee4d9c8a238bbd05fb7cf1_WEB1091_M02_Tab-Interface-with-jQuery.pdf?Expires=1710460800&Signature=TUVBZ-pLZMvz3154zoz4naFbb0FFAYoUONrWf8eCnMAzchrpxJTNEPS3X4lnnVw6hnlpEJYK3k0mZWiQZ7WqCMdTBTuXTNUJURIDOmpZeiQbWldXXlrTZQfiJdJKg-fGyo05ULgyVeyJOQ-1I30oiTLVWY-S1pGcj-F6OnTGQZA\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
@@ -4396,21 +4417,24 @@ effects library at our disposal. We&apos;re going to have to make use of CSS
 and classes to do the animation and do the hiding and showing of things.
 And we&apos;ll use javascript to trigger the changing of these classes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 245/246.  (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 245/246. lines 1-20, 21-38 of styles.css (145) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image245.png"
   style="width:40%"
+  title="Lines 1-20 of styles.css"
   alt="Lines 1-20 of styles.css." />
 <img src="./images/image246.png"
   style="width:40%"
+  title="Lines 21-38 of styles.css"
   alt="Lines 21-38 of styles.css." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. lines 49-64 of styles.css (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. lines 49-64 of styles.css (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png"
   style="width:50%"
-  alt="." />
+  title="Add styles for tabs"
+  alt="Add styles for tabs." />
 </p>
 
 First over here, I should open up this file here. So I&apos;m just going to
@@ -4454,14 +4478,16 @@ JavaScript will be moving that class active to each of these will be
 removing it from here and adding in each of these as you click on them
 to change them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 247/248. switched 248 then 247? (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 247/248. style.css optimized a bit (146) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png"
   style="width:40%"
-  alt="." />
+  title="Styles.css before"
+  alt="Styles.css before." />
 <img src="./images/image248.png"
   style="width:40%"
-  alt="." />
+  title="Styles.css after optimized a bit"
+  alt="Styles.css after optimized a bit." />
 </p>
 
 And then we&apos;ve got a few helper classes down here that will be using
@@ -4484,7 +4510,7 @@ I kind of prefer these all in one line myself because there&apos;s just one
 declaration in each. Little easier to read. But that&apos;s okay. Well that
 visual studio code have its way with it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. example, final css rules (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. example, final css rules (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png"
   style="width:50%"
@@ -4516,21 +4542,23 @@ transmission, often carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-16">2.16 Making the Tabs Work (6:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 249. making the tabs work (2.16) (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image249.png"
   style="width:40%"
-  alt="." />
+  title="2.16 Making the Tabs Work"
+  alt="2.16 Making the Tabs Work." />
 </p>
 
 Hopefully, you got all this CSS in place and now you&apos;re ready to start
 working on the JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. script src='script.js' (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image250.png"
   style="width:50%"
-  alt="." />
+  title="Script src='script.js'"
+  alt="Script src='script.js'." />
 </p>
 
 I have a linked script file here, and it&apos;s linked at the bottom of this
