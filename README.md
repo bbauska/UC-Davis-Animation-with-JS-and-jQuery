@@ -5074,7 +5074,6 @@ well as before. Let\'s go over just test this really carefully here. If
 I refresh this and test it, you can see that it\'s working exactly the
 same as it did before. You can get rid of these things here.
 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 274. (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5436,19 +5435,32 @@ will continue to work. This is actually fine to use for now with the
 current version of **jQuery** that we have, but going forward, we should
 use the dot **first** method instead. I just wanted to show you that.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
-
-![](./images/image301.png){width="4.0in"
-height="2.361538713910761in"}
-
-![](./images/image302.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 301.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image301.png"
+  style="width:40%"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 302.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image302.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 The next thing to consider is when resources are going to load, and in
 this case, this seems to be working just fine.
-
-![](./images/image303.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 303.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image303.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If I click refresh, it&apos;s giving me a 400 here but it&apos;s loading these
 images. Now, I have this file local on my computer, and that&apos;s all well
@@ -5466,9 +5478,13 @@ can use the **on** method in **jQuery** and the **on** method in
 **jQuery** is similar to the **addEventListener** method that we have in
 plain JavaScript and then you pass in a particular event that you&apos;re
 looking for. Then it&apos;ll run a function when that event happens.
-
-![](./images/image304.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 304.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image304.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Here we&apos;re going to put the **on method** on the window object and the
 window itself. We&apos;re looking for a **load** event and this **callback**
@@ -5490,9 +5506,13 @@ IIFE, the Immediately Invoked Function Expression. We don&apos;t need that
 because we want this function to run when the page has loaded all its
 files. When it has, then we can say, okay, now you can run, and we&apos;re
 going to set up these variables in alert.
-
-![](./images/image305.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 305.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image305.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 This should show absolutely no difference at this point over here in the
 front page. We should still be getting 400 but you can see that the
@@ -5500,17 +5520,25 @@ image started actually coming in because before that alert ran.That&apos;s
 one thing that&apos;s slightly different is that it&apos;s actually loading the
 images first. Because we are loading from our hard drive, it&apos;s not that
 big of a deal.
-
-![](./images/image306.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 306.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image306.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Next, we&apos;re going to add a few more variables to our project. We need
 to know the total width of our whole slider. For that we&apos;re going to
 take the image count and multiply it by the width of each image. That
 will give us our total width plus we&apos;ll add a px to the end of that.
-
-![](./images/image307.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 307.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image307.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let&apos;s go ahead and add that to our script now. I&apos;m going to get rid of
 this alert and just to const total width, and this is going to be equal
@@ -5519,17 +5547,25 @@ goes right, it&apos;s going to come up and same thing. Then we&apos;re going to
 add onto that a px at the end of there, that&apos;s going to put that in
 there.Then let&apos;s just alert out total width which is to see what we&apos;re
 getting here.
-
-![](./images/image308.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 308.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image308.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I&apos;m going to come back here and now when I refresh, I&apos;m getting 2,000
 pixels because I&apos;ve got five images, each of them is 400 pixels wide,
 that&apos;s 2,000 pixels. That&apos;s adding up and doing that properly, which
 is great.
-
-![](./images/image309.png){width="5.0in"
-height="2.8306627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 309.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image309.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Next, I&apos;m going to need a variable for left position. This variable can
 be changed in the process of running the script. I&apos;m going to set it
@@ -5541,17 +5577,26 @@ zero, then I&apos;m going to use my **jQuery** object to go in and say, Okay
 pound slider ul.css. Your width is going to be total width. Let&apos;s stop
 the lesson here and then we&apos;ll talk about this more in the next lesson.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-04">3.04 Click Handler for Next Button (8:05)</h2>
-
-![](./images/image310.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 310.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image310.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In our previous video we had set this setting here which sets the width
 of our unordered list to the **totalWidth** and I just want to talk
 about this now.
-
-![](./3-19-images/media/image311.png){width="5.0in"
-height="3.0902777777777777in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 311.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image311.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If we go over to the styles, you\'ll see on here that the slider **UL**
 isn\'t given a specific width, but I want to add a width to it because
@@ -5560,9 +5605,14 @@ everything fits properly inside this **UL**.
 
 Adding that to the script ensures that the slider is going to be the
 exact width that I need it to be, 2000 pixels.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 312.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image312.png"
+  style="width:50%"
+  alt="." />
+</p>
 
-![](./3-19-images/media/image312.png){width="5.0in"
-height="2.8162390638670165in"}
 Now we\'re ready to add our click handlers and make the script work. We
 need a click handler for that next button. And when you click the next
 button, we\'re going to increase the counter. The counter is going to go
@@ -5574,9 +5624,13 @@ going to move it a - 400 pixels.
 Let\'s add this into our script over here again. The best way to do this
 is to type from the outside in. I\'m going to add an event listener like
 this.
-
-![](./3-19-images/media/image313.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 313.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image313.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I\'m going to start with my **jQuery** object and then I want to get the
 element that I want to work on my pound next element which if we go back
@@ -5587,9 +5641,13 @@ button that says next. When we click on that, we want to have a click
 **event** **handler**. And then we\'re going to pass in an **anonymous**
 function that runs when you click function, parentheses, curly braces,
 click between the curly braces and move that down.
-
-![](./3-19-images/media/image314.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 314.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image314.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So when we\'re here now, we\'re going to take **counter**, and increment
 it plus plus. So **counter** has now gone from zero to 1 and we\'re
@@ -5607,14 +5665,22 @@ I\'ve got **counter** times **imageWidth**. So I\'m using my string
 literal here to get to give me a negative to counter multiply by image
 width. That\'s going to generate a 400 and put a negative there and put
 a **px** at the end. That will set the left position.
-
-![](./3-19-images/media/image315.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 315.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image315.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now we want to animate that element and what will that look like?
-
-![](./3-19-images/media/image316.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 316.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image316.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 It\'ll look like this. We\'re going to go get that slider and we\'re
 going to animate the left property to left position, which we know is
@@ -5626,9 +5692,13 @@ pixels each time.
 For each image, we\'ll set it to a speed of 700 milliseconds and then
 we\'ll use the **easeinQuad** **easing** method of the **easing** plugin
 already put into the project.
-
-![](./3-19-images/media/image314.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 314 again.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image314.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Next, I\'m going to get pound slider UL and perform the animate method
 on it, our custom animate. And in there we\'re going to pass in an
@@ -5645,9 +5715,13 @@ particular animation. You could do a different one if you wanted to, but
 that will get the correct animation. And that needs to go inside quotes.
 Now with that, this should be somewhat functioning. It\'ll function
 until we get to the end of the end of the strip.
-
-![](./3-19-images/media/image317.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 317.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image317.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let\'s give it a try over here. Now if I click next, it will animate
 right to the correct spot, and then it goes to the next one, and then it
@@ -5656,18 +5730,27 @@ it on the last one, it animates right outside (see image) of the strip.
 So the entire strip is off to the left over here. That\'s what we\'ll
 need to fix next.
 
-# 3.05 Next Click Handler with If Statement (3:03) {#next-click-handler-with-if-statement-303 .unnumbered}
-
-![](./3-19-images/media/image318.png){width="4.0in"
-height="2.361538713910761in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-05">3.05 Next Click Handler with If Statement (3:03)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 318.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image318.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In the previous lesson, we got our click handler working. So that you
 can click on the the button, and the images will move forward and the
 slider will function. But when you get to the end of the strip slides
 right outside the slider window. Which is not really what we want.
-
-![](./3-19-images/media/image319.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 319.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image319.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 What we need is an if statement to make this work. We\'re going to add
 an if statement to check to see, if the counter is the same as image
@@ -5677,9 +5760,13 @@ is remember image count saying how many images we have. So it\'s five.
 So we want a number that\'s either, we want countered either be zero,
 one, two, three or four. As soon as it hits five, then we\'re out of
 range and we want to put it back to the beginning.
-
-![](./3-19-images/media/image320.png){width="5.0in"
-height="2.8162390638670165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 320.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image320.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let\'s add this if statement into our script over here, to handle that.
 So down here, I\'m going to increment the counter and then check to see
@@ -5688,9 +5775,13 @@ counter back to zero equals the same as you could also do triple equals.
 Which would be exactly the same as, in this case I\'m not really worried
 about type coercion. But you might want to be extra careful and triple
 equals in there, and there we go.
-
-![](./3-19-images/media/image321.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 321.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image321.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So now if we come back and test this, refresh the page, when I click
 next, it\'ll go all the way through my slides. And when I get to the
@@ -5711,17 +5802,26 @@ about what you could do, to create your own event listener for the
 previous click button. And then we\'ll take a look at it together in the
 next lesson and see if you got the same answer I got.
 
-# 3.06 Challenge Solution (5:03) {#challenge-solution-503 .unnumbered}
-
-![](./3-19-images/media/image322.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-06">3.06 Challenge Solution (5:03)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 322.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image322.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In the last lesson, we created the Click Event Handler for the Next
 button and it\'s your job to create the Click Event Handler for the
 previous button.
-
-![](./3-19-images/media/image323.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 323.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image323.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 This is the answer I came up with. I have an event handler looking for
 that Previous button and click on that Previous button. Then take the
@@ -5742,9 +5842,13 @@ we\'re going to leave the **leftPosition**. These two pieces
 (**counter** and **imageWidth**) stay exactly the same. In fact, we
 could actually make the script, make this event handler by copying and
 pasting the next, because a bunch of it is the same.
-
-![](./3-19-images/media/image324.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 324.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image324.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 What we\'re changing here is instead of **next**, we\'re changing this
 to **previous**. The character instead of getting incremented, gets
@@ -5757,9 +5861,13 @@ Remember we\'re talking about an array here. We want our counter to be a
 zero, a one, a two, a three or a four. But when it\'s five, that\'s too
 high. Image count is going to be five in this case because we have five
 images. Last two command lines remain the same.
-
-![](./3-19-images/media/image325.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 325.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image325.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Come back here, refresh the page. Our next button works, our previous
 button works. If I go all the way to the end, I can go all the way to
@@ -5773,9 +5881,13 @@ and work with images on your website for any website you want. You just
 want to make sure that your images are all set up to be the same size to
 begin with and it\'ll work. You could have as many of them in there as
 you.
-
-![](./3-19-images/media/image326.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 326.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image326.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now it might seem weird that the images, when it gets to the beginning
 here, it moves the whole strip over to the end. Wouldn\'t it be nice if
@@ -5786,15 +5898,25 @@ look at that in the next project.
 
 -   3.06 jQuery-Image-Slider-Version-1.pdf
 
-# 3.07 Strategy for Version 2 (4:08) {#strategy-for-version-2-408 .unnumbered}
-
-![](./3-19-images/media/image327.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 327.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image327.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 **jQuery** Image Slider Version 2.
 
-![](./3-19-images/media/image328.png){width="4.0in"
-height="2.2341885389326333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 328.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image328.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In this version, we\'re going to take the slide show that we already
 have, the slider that we have, where the image is sliding in. The one
@@ -5802,9 +5924,13 @@ that goes to the end and then brings you back to the beginning and works
 as a strip. We\'re going to take this thing and make it so that it wraps
 around so it feels a little bit more natural. And I think that will be
 kind of a nice effect if this thing wraps around like that.
-
-![](./3-19-images/media/image329.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 329.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image329.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So we\'re going to take the same set as files that we\'ve already worked
 on and we\'re going to rework them to create this next version of the
@@ -5832,9 +5958,13 @@ here, it\'ll tack it on at the beginning. So that way, we will always
 have kind of an unending loop of slides, whether you\'re going forward
 or backwards through the slides. That\'s the basic strategy that we\'re
 going to use to make this thing work.
-
-![](./3-19-images/media/image330.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 330.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image330.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So the first thing we can do is to start to work on the next click
 handler and make it a little bit different from what we had before.
@@ -5843,10 +5973,16 @@ handle the cloning of that unordered list. And what happens when we get
 to the end? But the else is going to handle what happens if we\'re just
 on a slide in between, in which case we\'re just going to move forward
 in our slides.
-
-![](./3-19-images/media/image331.png){width="3.5in"
-height="1.9549146981627297in"}![](./3-19-images/media/image332.png){width="3.5in"
-height="1.9549146981627297in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 331/332.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image331.png"
+  style="width:40%"
+  alt="." />
+<img src="./images/image332.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 So this is the exact same code that we had before. We\'re just going to
 move it so that it\'s inside of an else statement. So let\'s go over to
@@ -5858,25 +5994,40 @@ here. Else like that. I\'m going to move this stuff Into the else.
 We\'re going to do something very different here, and we\'ll take a look
 at what\'s next in the next lesson.
 
-# 3.08 Cloning the Unordered List (4:58) {#cloning-the-unordered-list-458 .unnumbered}
-
-![](./3-19-images/media/image333.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-08">3.08 Cloning the Unordered List (4:58)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 333.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image333.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 The next thing what we are going to do, is we are going to clone the on
 ordered list.
-
-![](./3-19-images/media/image334.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 334.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image334.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Using the j query clone method, you can see here, we have got a clone
 method that allow us to take that entire un ordered list to make a clone
 of it. And then we are going to append it to the slider that will put it
 at the end of the element slider.
-
-![](./3-19-images/media/image335.png){width="3.5in"
-height="1.9549146981627297in"}![](./3-19-images/media/image336.png){width="3.5in"
-height="1.9549146981627297in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 335/336.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image335.png"
+  style="width:40%"
+  alt="." />
+<img src="./images/image336.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 So what that will do if we come over and look at our code here, if I
 look at my index here is it will take this entire a unordered list and
@@ -5887,9 +6038,13 @@ physically adding the **html** like I just did there. So it is going to
 add that on there, it is going to clone it, and then appended to the
 slider and then I need to set the CSS of that of that second. A new
 ordered list.
-
-![](./3-19-images/media/image337.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 337.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image337.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 The last one I am going to set the left to image with plus pixels so it
 is going to be positioned right here because, this is our little window.
@@ -5904,8 +6059,13 @@ go to the jQuery documentation for all the different things that you can
 use with jQuery, and it is just a matter of looking through and seeing
 what the different functions are, and what they do and looking them up.
 
-![](./3-19-images/media/image338.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 338.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image338.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let us go ahead and add this to our script. So I am going to go back to
 my script file here, and you can leave the counter in if you want. All
@@ -5933,25 +6093,38 @@ image with plus quote PX. And that will put it in exactly the correct
 spot here on the page. That will put it so it shows up at the end. The
 next lesson will handle the animation.
 
-# 3.09 Setting the Left Position (4:56) {#setting-the-left-position-456 .unnumbered}
-
-![](./3-19-images/media/image339.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-09">3.09 Setting the Left Position (4:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 339.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image339.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Before I do the animation, I want to set the variable left position
 equal to a value where I\'m going to move that first unordered list to.
-
-![](./3-19-images/media/image340.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 340.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image340.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 In this case, the unordered list is 2,000 pixels wide. So I\'m going to
 move the left position to minus 2,000 pixels. What that\'ll do is it\'ll
 move that entire first unordered list where it sets the correct position
 for that first unordered list, so that it\'s entirely off the left side
 of my slider window.
-
-![](./3-19-images/media/image341.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 341.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image341.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let\'s go ahead and do that first. I\'m going to put in left position
 equals and then use my tick marks and a negative sign because it\'s
@@ -5960,17 +6133,25 @@ pixels. That\'s going to say minus 2,000 pixels right there. That puts
 that into their correct place. We\'ve got that variable set. Now what we
 need to do is animate both unordered lists.
 
-![](./3-19-images/media/image342.png){width="5.0in"
-height="2.7927351268591427in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 342.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image342.png"
+  style="width:50%"
+  alt="." />
+</p>
 I\'m going to animate the first one and the last one. They\'re going to
 animate at the same time. In this list, the first line moves, the second
 unordered list, the last one, the one that we added with our cloned
 unordered list. It\'s going to move that to left zero. So that it\'s
 moving it from the left side of that window.
-
-![](./3-19-images/media/image343.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 343.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image343.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If we come back up here to here, it\'s moving it from this left corner
 of the window into its space here. So that\'s going to put that into the
@@ -5990,9 +6171,13 @@ going to animate the left property to zero. That one goes to zero. Left
 goes to zero. I\'m going to just use the same easing and everything else
 that I had down here. I can even just copy and paste that to move that
 into place. That moves that one.
-
-![](./3-19-images/media/image344.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 344.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image344.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I can copy this line and paste it here, but now I\'m going to move the
 first one, animate left, and it\'s going to get moved to left position.
@@ -6000,15 +6185,24 @@ There we go. That will move both strips at the same times. Can animate
 them into their correct place. Then the last thing that we need to do is
 remove this one. We\'ll look at that in the next lesson.
 
-# 3.10 Adding a Callback Function (7:35) {#adding-a-callback-function-735 .unnumbered}
-
-![](./3-19-images/media/image345.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 345. adding a callback function (3.10) (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image345.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Adding a Callback Function.
-
-![](./3-19-images/media/image346.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 346.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image346.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So far, in our next click handler, we\'ve checked to see if the counter
 equals the image count. If it does, we have cloned the unordered list
@@ -6017,9 +6211,13 @@ correct place. Then we animated the two unordered lists at the same
 time, the first one and the last one. We animated the last one, it\'s
 left position writes that the first picture is inside the window and we
 animated the first one off the left side of the slider.
-
-![](./3-19-images/media/image347.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 347.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image347.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Then the last thing we need to do is after this animation is completed,
 I want to remove it from the DOM altogether. The key word there is after
@@ -6034,38 +6232,59 @@ inside of there and move that down. Then I can say, I want to actually
 remove this first one, so I can say dollar sign, get my **jQuery**
 object and say here, pound slider ul.first.remove.That will take it off
 the DOM entirely.
-
-![](./3-19-images/media/image348.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 348.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image348.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 You can see here at my slide, that\'s what I have here, pound slider
 first remove, so that will take it off.
-
-![](./3-19-images/media/image349.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 349.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image349.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 And then once that\'s off, I can set my counter to zero, and
 everything\'s back where it should be. You could add some comments if
 you need to. Sometimes it helps make sure this thing is running as a
 callback function and that these two are running at the same time.
-
-![](./3-19-images/media/image350.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 350.  (208) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image350.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 But now the question is, can you do the previous button? Link yourself,
 see if you can do that one, try it on your own and then we would come
 back. You\'ll see my solution for it in the next lesson.
 
-# 3.11 Previous Button Click Handler -- Part 1 (7:27) {#previous-button-click-handler-part-1-727 .unnumbered}
-
-![](./3-19-images/media/image351.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-11">3.11 Previous Button Click Handler -- Part 1 (7:27)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 351. previous button click handler - part 1 (3.11) (209) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image352.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In the last lesson, we figured out how to get the next click handler to
 function properly.
-
-![](./3-19-images/media/image352.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 352.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image352.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So now we want to get the previous click handler to work and hopefully
 you tried to do that and we\'re able to do that on your own. And if you
@@ -6102,9 +6321,13 @@ go from 0 pixels to 400 pixels to move that there. So hopefully the
 diagram helps with sort of thinking about how this works and doing this
 kind of thing. And maybe you drew your own diagram and trying to solve
 this problem.
-
-![](./3-19-images/media/image353.png){width="6.5in"
-height="3.6305555555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 353.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image353.png"
+  style="width:65%"
+  alt="." />
+</p>
 
 Okay, let\'s go back to our slide with our answer. Here we are with our
 script here. So again, we\'re hopeful that image in your mind helps you.
@@ -6154,17 +6377,25 @@ you need a PX, on the end of that I believe, yep, there we go. Okay
 great so then we just need to get these two pieces in here and we\'ll do
 this in the next lesson.
 
-# 3.12 Previous Button Click Handler -- Part 2 (5:17) {#previous-button-click-handler-part-2-517 .unnumbered}
-
-![](./3-19-images/media/image354.png){width="4.0in"
-height="2.264957349081365in"}
+<h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 354.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image354.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In the last lesson, we worked out the logic of how the previous click
 handler is going to work and where we left off was actually moving
 animating these strips into place. So that\'s what we need to do here.
-
-![](./3-19-images/media/image355.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 355.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image355.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So we\'re going to take an ordered list that we cloned in there and
 animate it into its position. And again, what we\'re doing is we\'re
@@ -6186,9 +6417,13 @@ in here. But instead of left 0, we\'re moving to LeftPosition. Which is
 that minus 1600 pixels, the counter which is four times imageWidth which
 is 400 that\'s 1600, with the minus sign in front of it and with the px
 that\'s going to move that into the correct place.
-
-![](./3-19-images/media/image356.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 356.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image356.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So that gets that one into the correct place. The other one, the first
 one, this one here, I\'m sorry this one here first can actually copy
@@ -6209,9 +6444,13 @@ from the list. Let\'s see if it works. I\'m going to save this, come
 back here, refresh it, we know the next one works but does the previous
 one work? There\'s our first slide and boom it works. There\'s our 5th,
 4th, third, second first and once again we can go around that way.
-
-![](./3-19-images/media/image357.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image357.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If you choose the inspector, you can see it actually working. I\'ve got
 my slider here, I\'ve got my unordered list inside of there, click next,
@@ -6229,12 +6468,17 @@ different types of situations that come up.
 
 ### 3.12 jQuery-Image-Slider-Version-2.pdf
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementw6y8lpdf-of-presentation .unnumbered}
+### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation 
 
-# 3.13 Slider Using JavaScript (6:04) {#slider-using-javascript-604 .unnumbered}
-
-![](./3-19-images/media/image358.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 358.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image358.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 Slider, using JavaScript. In the previous lesson, we worked on making a
 Slider using **jQuery**, we did a couple versions of it. Here, we\'re
@@ -6244,18 +6488,26 @@ will be a few little minor differences in the script, but it\'s very
 similar to what we saw with **jQuery**. Here, the animation is going to
 take place in **CSS** and we\'ll be using JavaScript to trigger the
 animation.
-
-![](./3-19-images/media/image359.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 359.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image359.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 In the end, you should get a slide that looks like this. It\'s a little
 bit different in that the the slides are going to have some actual
 content on them. The pictures will actually be in the background of the
 slide, and then they\'re going to have little bit of a title and some
 text on them.
-
-![](./3-19-images/media/image360.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 360.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image360.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 So let\'s take a look at how that set up. The basic strategy is the same
 and that we\'re going to have a parent window that has overflow hidden
@@ -6266,9 +6518,13 @@ one long strip. And as you click on the buttons either left and right,
 the strip of slides moves in and out of the parent window showing only
 one image at a time. There\'s our basic strategy, very similar to what
 we had with the **jQuery** version.
-
-![](./3-19-images/media/image361.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 361.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image361.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now the HTML is a little bit different in this case, because instead of
 the list items just having a picture in it, like what we had for the
@@ -6277,9 +6533,13 @@ is going to have an h2 and paragraph inside of it to create some content
 on that slide. The actual picture will be in the background of the list
 item, so that the list item is actually showing the picture as a
 background image.
-
-![](./3-19-images/media/image362.png){width="5.0in"
-height="2.7927351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image362.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now let\'s take a look at the CSS for the wrapper. The wrapper has a
 width of 1000 pixels and it\'s set to a height of 358 pixels which is
@@ -6331,16 +6591,20 @@ going to take effect. Or each time we change the position of the slide,
 the left position, this animation is going to take effect. And that\'s
 where we we\'ll see the actual animation for our slider.
 
-### Start Files: JavaScript Image Sliders {#start-files-javascript-image-sliders .unnumbered}
+### Start Files: JavaScript Image Sliders
 
 ### 3.13 JS-Slider-V3.zip
 
 > https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
 
-# 3.14 CSS for Slides and Adding Variables (8:01) {#css-for-slides-and-adding-variables-801 .unnumbered}
-
-![](./3-19-images/media/image363.png){width="4.0in"
-height="2.264957349081365in"}
+### 3.14 CSS for Slides and Adding Variables (8:01)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image363.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 We have a little bit more CSS to talk about before we start working on
 our JavaScript. And the first thing is the actual slides themselves. So
@@ -6448,10 +6712,14 @@ setting slider style.width, that\'s the total width. We\'ll actually set
 the width of that element, and we\'ll talk about that and look at it a
 little bit more in the next lesson.
 
-# 3.15 Adding More Variables (5:49) {#adding-more-variables-549 .unnumbered}
-
-![](./3-19-images/media/image364.png){width="4.0in"
-height="2.264957349081365in"}
+### 3.15 Adding More Variables (5:49)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image364.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In our last lesson, we got some basic variables in place for our slider
 and they\'re very similar to the variables that you saw for the
@@ -6526,10 +6794,14 @@ then we\'re going to do something in here and then we\'ve got an else in
 there. Then we\'ll pick up the rest of this next EventListener in the
 next lesson.
 
-# 3.16 Event Handler for the Next Button (7:11) {#event-handler-for-the-next-button-711 .unnumbered}
-
-![](./3-19-images/media/image365.png){width="4.0in"
-height="2.264957349081365in"}
+### 3.16 Event Handler for the Next Button (7:11)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image365.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 If we\'ve reached the end of our strip and the counter is the same as
 the slide counter, then the first thing I want to do is set that counter
@@ -6612,7 +6884,7 @@ the previous EventListener. This one\'s not as hard as the, the
 we\'re using the previous link and we\'re decrementing the counter but
 other than that it\'s very similar, see if you can do it on your own.
 
-# 3.17 Solution for the Previous Button Challenge (4:05) {#solution-for-the-previous-button-challenge-405 .unnumbered}
+<h2 id="ch3-17">3.17 Solution for the Previous Button Challenge (4:05)</h2>
 
 ![](./3-19-images/media/image366.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6671,11 +6943,11 @@ about JavaScript along the way.
 
 ### 3.17 JavaScript-Image-Slider.pdf
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementkxm2apdf-of-presentation .unnumbered}
+### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation 
 
-# Module Four: Timers and Recursion in JavaScript & jQuery {#module-four-timers-and-recursion-in-javascript-jquery .unnumbered}
+# Module Four: Timers and Recursion in JavaScript & jQuery
 
-# 4.00 Learning Objectives {#learning-objectives-4 .unnumbered}
+# 4.00 Learning Objectives
 
 -   Use JavaScript methods to keep a script from executing for a
     specific period of time, or to run at a certain interval of time.
@@ -6691,7 +6963,7 @@ about JavaScript along the way.
 
 -   Make use of best practices when including scripts on websites.
 
-# ![](./3-19-images/media/image367.png){width="4.0in" height="2.264957349081365in"} {#section-3 .unnumbered}
+![](./3-19-images/media/image367.png){width="4.0in" height="2.264957349081365in"}
 
 Hello, you\'ve made it to the 4th module in our second course on
 JavaScript and **jQuery**. Congratulations, you\'ve learned a lot of
@@ -6706,9 +6978,9 @@ started on learning about timers and recursion in JavaScript and
 
 ### 4.00 JS-Timers-Examples.zip
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementcev5mstart-files-introduction-to-timers-recursion .unnumbered}
+### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion 
 
-# 4.01 Example Script #1 -- Part 1 (5:37) {#example-script-1-part-1-537 .unnumbered}
+### 4.01 Example Script #1 -- Part 1 (5:37)
 
 ![](./3-19-images/media/image368.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6782,7 +7054,7 @@ paragraphs are on the page, and so on and so forth until the page is
 completely full with the paragraphs. We\'ll talk about the clear
 interval method in the next lesson.
 
-# 4.02 Example Script #1 -- Part 2 (4:13) {#example-script-1-part-2-413 .unnumbered}
+### 4.02 Example Script #1 -- Part 2 (4:13)
 
 ![](./3-19-images/media/image369.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6841,7 +7113,7 @@ paragraphs are there and putting them inside the div using innerHTML. So
 it\'s an important way of understanding how this one works. In the next
 lesson, we\'ll take a look at the next example.
 
-# 4.03 Example Script #2 (2:55) {#example-script-2-255 .unnumbered}
+### 4.03 Example Script #2 (2:55)
 
 ![](./3-19-images/media/image370.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6885,7 +7157,7 @@ does something, you can apply a class to it and change that element
 based on the styling associated with that class. It could have an
 animation in there and that\'s really pretty cool.
 
-# 4.04 Example Script #3: Recursion (5:25) {#example-script-3-recursion-525 .unnumbered}
+### 4.04 Example Script #3: Recursion (5:25)
 
 ![](./3-19-images/media/image371.png){width="4.0in"
 height="2.264957349081365in"}
@@ -6964,7 +7236,7 @@ some timer.
 
 > https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation
 
-# 4.05 Converting a Slider (2:55) {#converting-a-slider-255 .unnumbered}
+### 4.05 Converting a Slider (2:55)
 
 ![](./3-19-images/media/image372.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7005,7 +7277,7 @@ back in and it\'ll continue with the slides. See if you can do that on
 your own and if you get stuck or you want to see my solution, continue
 on with this presentation and with these lessons.
 
-# 4.06 Putting Slides on a Timer Solution -- Part 1 (5:57) {#putting-slides-on-a-timer-solution-part-1-557 .unnumbered}
+### 4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)
 
 ![](./3-19-images/media/image373.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7071,7 +7343,7 @@ could do to make it work so that if you hover over this, it will stop
 sliding the slides while you\'re hovering your mouse over the slider.
 That\'s your next challenge.
 
-# 4.07 Putting Slides on a Timer Solution -- Part 2 (7:22) {#putting-slides-on-a-timer-solution-part-2-722 .unnumbered}
+### 4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)
 
 ![](./3-19-images/media/image374.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7158,15 +7430,13 @@ other things that you could do.
 
 ### 4.07 Slider-on-a-Timer.pdf
 
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementclvgupdf-of-presentation .unnumbered}
+### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> 
 
 ### 4.07 Rotator-START.zip
 
 ### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementznbz4start-files-recursive-content-rotator .unnumbered}
 
-###  {#section-4 .unnumbered}
-
-# 4.08 Project Set-up (6:51) {#project-set-up-651 .unnumbered}
+### 4.08 Project Set-up (6:51)
 
 ![](./3-19-images/media/image375.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7266,7 +7536,7 @@ everything out of the global scope and we\'ve got our use strict
 directive in there. Okay, we\'re all set and ready to start working on
 our script.
 
-# 4.09 Starting the Script (4:56) {#starting-the-script-456 .unnumbered}
+### 4.09 Starting the Script (4:56)
 
 ![](./3-19-images/media/image376.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7322,7 +7592,7 @@ after we faded in, we\'re going to run a function and that function will
 set it to wait seven seconds, and then check to see if we\'re on the
 last paragraph or not.
 
-# 4.10 The If/Else Statement -- Part 1 (6:20) {#the-ifelse-statement-part-1-620 .unnumbered}
+### 4.10 The If/Else Statement -- Part 1 (6:20)
 
 ![](./3-19-images/media/image377.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7390,7 +7660,7 @@ it\'s not, it\'ll do this, it\'ll increment the counter, and it\'ll do
 it again, and it\'ll keep going around. Great. We\'ll finish out this
 part up here in the next lesson.
 
-# 4.11 The Else/If Statement -- Part 2 (5:49) {#the-elseif-statement-part-2-549 .unnumbered}
+### 4.11 The Else/If Statement -- Part 2 (5:49)
 
 ![](./3-19-images/media/image378.png){width="4.0in"
 height="2.264957349081365in"}
@@ -7474,7 +7744,7 @@ the function runs itself and that can be very interesting.
 
 ### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementbhs7kpdf-of-presentation .unnumbered}
 
-# 4.12 Course Summary (0:52) {#course-summary-052 .unnumbered}
+### 4.12 Course Summary (0:52) 
 
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You\'ve learned a lot of
