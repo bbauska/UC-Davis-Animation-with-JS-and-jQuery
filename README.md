@@ -3226,11 +3226,12 @@ animations, and we&apos;re going to do more in the next lesson.
 In Example 3, we&apos;ll look at something that&apos;s similar to the other two,
 but just slightly different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. example, example 3 - html (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.png"
   style="width:50%"
-  alt="." />
+  title="Example, Example 3 - HTML"
+  alt="Example, Example 3 - HTML." />
 
 It&apos;s got four buttons and we can use some built-in functions in
 **jQuery** to **fade** objects in and out, or to **fade** them to a
@@ -3294,11 +3295,12 @@ to add these last two here and we can look at that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-06">2.06 Example 3: Fade To (4:07)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. example 3: fade to (2.06) (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image178.png"
   style="width:40%"
-  alt="." />
+  title="2.06 Example 3: Fade To"
+  alt="2.06 Example 3: Fade To." />
 
 In this lesson, we&apos;ll make these last two buttons work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4059,11 +4061,12 @@ the thing work and we&apos;ll start working on that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-12">2.12 Tab Styling and Colors (6:07)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. tab styling and colors (2.12) (132) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image223.png"
   style="width:40%"
-  alt="." />
+  title="2.12 Tab Styling and Colors"
+  alt="2.12 Tab Styling and Colors." />
 </p>
 
 Now we&apos;re ready to start with writing our script to make our tabbed
@@ -4139,13 +4142,15 @@ you&apos;ll see they all turn to that dark color. Then I want to take the
 one that I clicked on, this one, and set it to this color here. We&apos;ll
 do that in the next lesson.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-13">2.13 Clicking and Fading Tabs (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 230. clicking the fading tabs (2.13) (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image230.png"
   style="width:40%"
-  alt="." />
+  title="2.13 Clicking the Fading Tabs"
+  alt="2.13 Clicking the Fading Tabs." />
 </p>
 
 All of the backgrounds to default color.
@@ -4166,11 +4171,12 @@ here but the colors are going to be different. The background is going
 to be, eaeaea I think, and the color is going to be 333, like that and
 that should work. Let&apos;s save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232.  (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. test, brownies tab (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image232.png"
   style="width:50%"
-  alt="." />
+  title="Test, Brownies tab"
+  alt="Test, Brownies tab." />
 </p>
 
 Now when I click on &quot;Brownies&quot;, you can see they&apos;re all turning to
@@ -4203,11 +4209,12 @@ object and I&apos;m going to use.attr, which is the attribute method in
 **jQuery** that allows me to get a particular attribute on an element
 and what attribute do you want, I want the href.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234.  (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. test alert, tabs-2 (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image234.png"
   style="width:50%"
-  alt="." />
+  title="Test Alert, tabs-2"
+  alt="Test Alert, tabs-2." />
 </p>
 
 Just to see what&apos;s gong on with this, if I do alert this tab and see
@@ -4679,11 +4686,12 @@ make the content work. We&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-17">2.17 New Tab and Old Tab (7:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256. new tab and old tab (2.17) (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image256.png"
   style="width:40%"
-  alt="." />
+  title="2.17 New Tab and Old Tab"
+  alt="2.17 New Tab and Old Tab." />
 </p>
 
 Now that we have the actual tabs working properly, we want to do
@@ -4792,11 +4800,12 @@ it so displaying nine instead of display block at that point.
 
 We&apos;ve taken care of the old content, so we have said it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 261.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261. example, handling the switch (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image261.png"
   style="width:50%"
-  alt="." />
+  title="Example, Handling the Switch"
+  alt="Example, Handling the Switch." />
 </p>
 We&apos;ve taken the old content. What was the element that had visible on
 it? And we&apos;ve set its class individually hidden and that fades it out.
@@ -4812,11 +4821,12 @@ at zero. And then after a very short set time out, we&apos;ll talk about set
 time every minute. But after a very short wait, we&apos;re going to change
 its opacity to one, so that it fades in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 262.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 262. assigning visible and visuallyhidden classes (157) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image262.png"
   style="width:50%"
-  alt="." />
+  title="Assigning visible and visuallyHidden classes"
+  alt="Assigning visible and visuallyHidden classes." />
 </p>
 
 Let&apos;s do that here. We&apos;re going to come down here and we already have
@@ -4830,11 +4840,12 @@ visually hidden will set it so that it&apos;s opacity is at zero. And then
 we need to wait just a split second. And then get rid of the visually
 hidden class, so that the opacity comes up to 100%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 263.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 263. settimeout function, 20 secs (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image263.png"
   style="width:50%"
-  alt="." />
+  title="SetTimeout(function(){}, 20);"
+  alt="SetTimeout(function(){}, 20);" />
 </p>
 
 And to make it wait, we&apos;re going to use a method in Javascript that we
@@ -4848,11 +4859,12 @@ to let that thing come on the page, get the class set and then remove
 the class. So this function will run. This callback function will run
 after 20 milliseconds.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 264.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 264. wait 20, remove visually hidden image (158) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image264.png"
   style="width:50%"
-  alt="." />
+  title="Wait 20 secs, remove visually hidden image"
+  alt="Wait 20 secs, remove visually hidden image." />
 </p>
 
 So I&apos;m just going to click in the curly braces there. What am I going
@@ -4863,11 +4875,12 @@ visually hidden class on their. Alright, we&apos;re ready to give this a
 try. You&apos;ll notice that there&apos;s a terrible bug that we need to fix.
 But it should be mostly working and then we&apos;ll fix the bug.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 265. test, bug in the function (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image265.png"
   style="width:50%"
-  alt="." />
+  title="Test, found blinking bug in the function"
+  alt="Test, found blinking bug in the function." />
 </p>
 
 So let&apos;s give this a try real quick here. Refresh the page and if I
@@ -4882,21 +4895,23 @@ fixing that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-19">2.19 Fixing a Bug (6:19)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 266. fixing a bug (2.19) (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image266.png"
   style="width:40%"
-  alt="." />
+  title="2.19 Fixing a Bug"
+  alt="2.19 Fixing a Bug." />
 </p>
 
 We got our tabbed interface working, but you probably noticed that we
 had a pretty severe bug.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 267. 10-29 function before capture (160) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image267.png"
   style="width:50%"
-  alt="." />
+  title="Lines 10-29 of function before capture"
+  alt="Lines 10-29 of function before capture." />
 </p>
 
 Where it works once clicking on the tabs, but once we click on them a
@@ -4913,11 +4928,12 @@ this weird loop where it&apos;s doing this kind of thing. So what do we do
 about that? What we can do is at the end of this EventListener down here
 after the function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 268. lines 10-29 of script.js (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image268.png"
   style="width:50%"
-  alt="." />
+  title="Line 10-29 of script.js"
+  alt="Line 10-29 of script.js." />
 </p>
 
 So this function opens here and closes at this curly brace here after
@@ -4954,11 +4970,12 @@ the entire **jQuery** library in order to have a shorter script here? Or
 is it better to have the longer script and make use of CSS and do this
 kind of stuff?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269. lines 1-22 of script function (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png"
   style="width:50%"
-  alt="." />
+  title="Lines 1-22 of script function"
+  alt="Lines 1-22 of script function." />
 </p>
 
 Now we can do a few more things to make this a little bit better, and to
@@ -4988,11 +5005,12 @@ Javascript next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-20">2.20 Cleaning Up the Code (7:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 270. cleaning up the code (2.20) (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image270.png"
   style="width:40%"
-  alt="." />
+  title="2.20 Cleaning Up the Code"
+  alt="2.20 Cleaning Up the Code." />
 </p>
 
 As mentioned in the previous lesson, this script is definitely longer
@@ -6352,10 +6370,18 @@ back. You&apos;ll see my solution for it in the next lesson.
 In the last lesson, we figured out how to get the next click handler to
 function properly.
 
-Let's do it together and sort of see how it's actually going to work. So the script I came up with looks like this. What's going to happen here is when you click the previous link, the counter is going to get documented. And then we're going to check to see if the counter is less than 0, which means we've run through all of our images. And then we're going to set the counter to image count -1. 
-So we've got five images and so we're going to set the counter back to 4. Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of those five values, so we set it to image count minus one, so it's now a four, then we're going to clone our unordered list and append it to the slider, just like we did before. 
+Let's do it together and sort of see how it's actually going to work. So the 
+script I came up with looks like this. What's going to happen here is when you 
+click the previous link, the counter is going to get documented. And then we're 
+going to check to see if the counter is less than 0, which means we've run 
+through all of our images. And then we're going to set the counter to image 
+count -1. 
 
-
+So we've got five images and so we're going to set the counter back to 4. 
+Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of those 
+five values, so we set it to image count minus one, so it's now a four, then 
+we're going to clone our unordered list and append it to the slider, just 
+like we did before. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 352. example, previous button click handler (210) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6365,9 +6391,18 @@ So we've got five images and so we're going to set the counter back to 4. Rememb
   alt="Example, Previous Button Click Handler." />
 </p>
 
-But here it will be helpful to go back and look at our diagram, once again. Looking at our diagram, this is our situation in this part down here our strip is at this position and we've clicked the previous button. What we want to do is we want to add the new strip and append it on bottom slider, instead of appending it on the top slider.  Bottom slider, left corner is going to go from -2000 pixels to -1600 pixels. 2000 because our images 400 pixels wide, we've got five of them here. 
-And that will push this first picture (blue box) into our slider. And then the same frame will go from 0 pixels to 400 pixels to move that there. Hopefully the diagram helps. And maybe you drew your own diagram and trying to solve this problem. 
+But here it will be helpful to go back and look at our diagram, once again. 
+Looking at our diagram, this is our situation in this part down here our strip 
+is at this position and we've clicked the previous button. What we want to do 
+is we want to add the new strip and append it on bottom slider, instead of 
+appending it on the top slider.  Bottom slider, left corner is going to go 
+from -2000 pixels to -1600 pixels. 2000 because our images 400 pixels wide, 
+we've got five of them here. 
 
+And that will push this first picture (blue box) into our slider. And then 
+the same frame will go from 0 pixels to 400 pixels to move that there. 
+Hopefully the diagram helps. And maybe you drew your own diagram and trying 
+to solve this problem. 
 
 <!-- ************************** issues with image #### ********************** -->
 <!-- ************************** issues with image #### ********************** -->
