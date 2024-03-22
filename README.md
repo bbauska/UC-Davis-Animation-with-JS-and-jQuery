@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/19/2024 4+pm"
+date last editted: "3/21/2024 8+pm"
 output: 
   markdown:
     with some style
