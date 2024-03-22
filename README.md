@@ -24,45 +24,39 @@ output:
 <h2 id="about">About this Course</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-With the general introduction of JavaScript in the first course, this
+<p>With the general introduction of JavaScript in the first course, this
 course will focus on JavaScript libraries, specifically jQuery. The
 scripts will be geared toward <b>Document Object Model (DOM)</b>
 manipulation. Learners will describe the top JavaScript libraries and
 differentiate which would work best to implement and accelerate
-development of web page animation. 
+development of web page animation.</p>
 
-Course objectives include being
-introduced to the end product of the course -- a landing page style
-website using jQuery elements to manipulate HTML documents and enhance
-user experience. Diving deeper into the landing page that will be
-created and break it out into individual jQuery projects. jQuery events
-and effects will be covered while exploring more jQuery's relationship
-with HTML documents. Finally, a focus on plugins and continue to
-breakdown jQuery&apos;s ability to manipulate HTML and CSS.
-
+<p>Course objectives include being introduced to the end product of the course 
+-- a landing page style website using jQuery elements to manipulate HTML 
+documents and enhance user experience. Diving deeper into the landing page 
+that will be created and break it out into individual jQuery projects. jQuery 
+events and effects will be covered while exploring more jQuery's relationship 
+with HTML documents. Finally, a focus on plugins and continue to breakdown 
+jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~ Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 <h3 id="ch1-obj">Learning Objectives</h3>
 
--   Plug in the jQuery library either locally or through a CDN.
-
--   Discuss history of jQuery and its relationship to JavaScript.
-
--   Use some of the selectors and filters available in jQuery to access
-    DOM elements.
-
--   Create an interactive element that could be used on a website in
-    both JS and jQuery.
-
--   Compare the syntax between JavaScript and jQuery.
-
--   Identify and fix coding and logic problems when they emerge while
-    working on a project.
-
--   Demonstrate proficiency with both JavaScript and jQuery for
-    accessing and manipulating elements on a web page.
+<ul>
+  <li>Plug in the jQuery library either locally or through a CDN.</li>
+  <li>Discuss history of jQuery and its relationship to JavaScript.</li>
+  <li>Use some of the selectors and filters available in jQuery to access DOM 
+    elements.</li>
+  <li>Create an interactive element that could be used on a website in both JS 
+    and jQuery.</li>
+  <li>Compare the syntax between JavaScript and jQuery.</li>
+  <li>Identify and fix coding and logic problems when they emerge while working 
+    on a project.</li>
+  <li>Demonstrate proficiency with both JavaScript and jQuery for accessing 
+    and manipulating elements on a web page.</li>
+</ul>
 
 <h2 id="syllabus">Syllabus</h2>
 
@@ -70,7 +64,7 @@ breakdown jQuery&apos;s ability to manipulate HTML and CSS.
 
 <h2>Manipulating Web Pages Elements with jQuery & JavaScript</h2>
 
-In this module (1), you will be introduced to jQuery and basic jQuery
+<p>In this module (1), you will be introduced to jQuery and basic jQuery
 syntax and we will compare it to JavaScript syntax. You will be able to
 plug-in the jQuery library and discuss the history of jQuery and its
 relationship to JavaScript. You&apos;ll also use some of the selectors and
@@ -79,19 +73,18 @@ create an interactive element that could be used on a website and be
 able to identify and fix coding and logic problems while working on a
 project. You will be able to demonstrate proficiency with both
 JavaScript and jQuery for accessing and manipulating elements on a web
-page.
+page.</p>
 
-<h4>19 videos, 10 readings</h4>
+<h4>19 lessons, 10 readings</h4>
 
 <ul>
   <li><h4 id="ch1-00-note">
     1.00 A Note From UC-Davis</h4></li>
   <li><h4 id="ch1-00-welcome">
-  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"
-    target="_blank" rel="noopener noreferrer">
-    1.00 Welcome to this Course!</a></h4></li>
+    1.00 Welcome to this Course!</h4></li>
   <li><h4 id="ch1-00-intro">
-    1.00 Learning Objectives; Manipulating Web Page Elements with jQuery &ampp; JavaScript</h4></li>
+    1.00 Learning Objectives; Manipulating Web Page Elements with 
+	jQuery &amp; JavaScript</h4></li>
 </ul>
 
 <ol>
@@ -159,12 +152,12 @@ page.
 
 <h2>Animating Web Page Elements with jQuery & JavaScript</h2>
 
-In this module (2), you will be introduced to the jQuery effects
+<p>In this module (2), you will be introduced to the jQuery effects
 library, helper functions, animations and callback functions. You will
 be able to use features in jQuery to animate elements on a web page. You
 will be able to use the callback functions to trigger a function when an
 animation is completed. You will be able to create a tabbed interface in
-both JavaScript and jQuery.
+both JavaScript and jQuery.</p>
 
 <h4>20 videos, 7 readings</h4>
 
@@ -246,11 +239,11 @@ both JavaScript and jQuery.
 
 <h2>Intermediate Document Manipulation & Animation</h2>
 
-In this module (3), you will be able to use the jQuery syntax and the
+<p>In this module (3), you will be able to use the jQuery syntax and the
 built-in effects library to create image sliders that could be
 integrated into web pages. You will also be able to compare the jQuery
 syntax to the JavaScript syntax by building a similar image slider using
-only plain JavaScript syntax and using CSS to perform the animation.
+only plain JavaScript syntax and using CSS to perform the animation.</p>
 
 <h4>17 videos, 5 readings</h4>
 
@@ -318,11 +311,11 @@ only plain JavaScript syntax and using CSS to perform the animation.
 
 <h2>Timers and Recursion in JavaScript & jQuery</h2>
 
-In this module (4), you will be introduced to the use of timers and
+<p>In this module (4), you will be introduced to the use of timers and
 recursion in JavaScript and use these techniques to make interface
 elements that run on a timer. You practice using jQuery syntax and
 recursion to build a simple content rotator that could be used as an
-interface element on any web page.
+interface element on any web page.</p>
 
 <h4>12 videos, 6 readings</h4>
 
@@ -453,27 +446,27 @@ in this course.</p>
 under each of the lecture videos in a section labeled
 <b><i>"Downloads"</i></b> -- here you can download the lecture video,
 view transcripts, PDFs of the lecture slides, and <b>find additional
-readings or files</b>.
+readings or files</b>.</p>
 
-If you run into any issues during this course, <b>learner support</b> is
+<p>If you run into any issues during this course, <b>learner support</b> is
 available to all Coursera students. The link for Coursera's Learner
 support is included below. The <a href="https://learner.coursera.help/hc/en-us" target="_blank" rel="noopener noreferrer">
 Help Center/Learner Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
-common problems.
+common problems.</p>
 
-If you find any content issues, be sure to let the course staff know by
+<p>If you find any content issues, be sure to let the course staff know by
 <b>flagging the lecture</b>, assignment, reading, or quiz and this will
 inform us of where these issues occur. Here is the link for more
-information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course" target="_blank" rel="noopener noreferrer">Flag an Issue</a> - it is also listed below.
+information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course" target="_blank" rel="noopener noreferrer">Flag an Issue</a> - it is also listed below.</p>
 
-One of the great things about Coursera courses is that they are
+<p>One of the great things about Coursera courses is that they are
 self-paced. The course dates are based on the average time it takes to
 complete a course. However, if you need additional time to complete a
 course you can <b>reset your deadlines</b> with no penalties. More
 information on resetting deadlines can be found here: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines" target="_blank" rel="noopener noreferrer">Assignment Deadlines</a>
+<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines" target="_blank" rel="noopener noreferrer">Assignment Deadlines</a></p>
 
-Need additional help during your course session? Be sure to utilize the
+<p>Need additional help during your course session? Be sure to utilize the
 <b>discussion forums</b> and interact with your fellow peers. In this area,
 you can ask questions or search for similar issues that have already
 been posted in the forums. Learner support is also a great place to find
@@ -481,24 +474,24 @@ answers, but specific course content questions can typically be found
 and answered in the discussion forums. This is also a great place to
 post your assignment if additional peer reviews are needed. Here is a
 link with more information on the discussion forums: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums">Discussion Forums</a>
+<a href="https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums">Discussion Forums</a></p>
 
-Because of the self-paced nature of Coursera courses, this is an
+<p>Because of the self-paced nature of Coursera courses, this is an
 excellent opportunity to show your commitment to your work and the work
 of your peers through academic integrity. Be sure to read the Coursera
 guidelines and the <b>Coursera Honor Code</b> here: 
 <a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code">
-Coursera Honor Code</a>
+Coursera Honor Code</a></p>
 
-We look forward to having you in this course. Happy learning!
+<p>We look forward to having you in this course. Happy learning!</p>
 
-<i><b>UC Davis Coursera Team</i></b>
+<p><i><b>UC Davis Coursera Team</i></b></p>
 
 <h2 id="ch1">Week/Module One:</h2>
 
 <h2>Manipulating Web Pages Elements with jQuery & JS</h2>
 
-In this module, you will be introduced to jQuery and basic jQuery syntax
+<p>In this module, you will be introduced to jQuery and basic jQuery syntax
 and we will compare it to JavaScript syntax. You will be able to plug-in
 the jQuery library and discuss the history of jQuery and its
 relationship to JavaScript. You&apos;ll also use some of the selectors and
@@ -507,27 +500,22 @@ create an interactive element that could be used on a website and be
 able to identify and fix coding and logic problems while working on a
 project. You will be able to demonstrate proficiency with both
 JavaScript and jQuery for accessing and manipulating elements on a web
-page.
+page.</p>
 
 <h2 id="ch1-00-obj">1.00 Learning Objectives</h2>
 
--   Plug in the jQuery library either locally or through a CDN.
-
--   Discuss history of jQuery and its relationship to JavaScript.
-
--   Use some of the selectors and filters available in jQuery to access
-    DOM elements.
-
--   Create an interactive element that could be used on a website in
-    both JS and jQuery.
-
--   Compare the syntax between JavaScript and jQuery.
-
--   Identify and fix coding and logic problems when they emerge while
-    working on a project.
-
--   Demonstrate proficiency with both JavaScript and jQuery for
-    accessing and manipulating elements on a web page.
+<ul>
+  <li>Plug in the jQuery library either locally or through a CDN.</li>
+  <li>Discuss history of jQuery and its relationship to JavaScript.</li>
+  <li>Discuss history of jQuery and its relationship to JavaScript.</li>
+  <li>Use some of the selectors and filters available in jQuery to access DOM elements.</li>
+  <li>Create an interactive element that could be used on a website in both JS and jQuery.</li>
+  <li>Compare the syntax between JavaScript and jQuery.</li>
+  <li>Identify and fix coding and logic problems when they emerge while working 
+    on a project.</li>
+  <li>Demonstrate proficiency with both JavaScript and jQuery for accessing and 
+    manipulating elements on a web page.</li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction to jQuery (7:56)</h2>
@@ -539,15 +527,13 @@ page.
   title="1.01 Intro to jQuery"
   alt="1.01 Intro to jQuery." />
 
-Introduction to jQuery, a little bit of history.
-
-JQuery was originally created by John Resig in 2006, and it became the
+<p>Introduction to jQuery, a little bit of history.</p>
+<p>JQuery was originally created by John Resig in 2006, and it became the
 most popular JavaScript library and it&apos;s still a popular JavaScript
 library. In a recent survey, it was found that over 80 percent of
 websites are still using jQuery. It&apos;s less popular today than it was
 back in the early 2010s where it was at its height. But it&apos;s still an
-important tool to learn and good to know.
-
+important tool to learn and good to know.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. jquery advantages (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -557,7 +543,7 @@ important tool to learn and good to know.
   alt="jQuery Advantages." />
 </p>
 
-There are some specific advantages that came with jQuery when it was
+<p>There are some specific advantages that came with jQuery when it was
 invented and some of these advantages exist today, but they are somewhat
 diminished, but let&apos;s talk about them. First of all, it smoothed out
 the differences between browsers. Back in 2006, when jQuery was
@@ -566,28 +552,28 @@ jQuery was really great at smoothing out those differences from one
 browser to another. It also simplified common tasks such as traversing
 the DOM. It provided a lot of ways of getting elements on the pages that
 we didn&apos;t have with plain JavaScript back in the late 2000s, or early
-2010s.
+2010s.</p>
 
-It also provided an easier to work with event model for capturing clicks
+<p>It also provided an easier to work with event model for capturing clicks
 and scrolls and other kinds of events that users might use in the
 process of working with the page. Events that users make trigger. So it
 provided this event model that was easier to access and easier to use,
 it was easier to create interactive scripts that could hook into that
-event model in jQuery.
+event model in jQuery.</p>
 
-jQuery also provides an effects library that&apos;s very easy to use and
+<p>jQuery also provides an effects library that&apos;s very easy to use and
 really exciting and it&apos;s really a cool effects library that provided a
 great way into programming, into creating interactive elements for a
-whole generation of developers.
+whole generation of developers.</p>
 
-Then on top of that, there&apos;s a plug-in system for additional
+<p>Then on top of that, there&apos;s a plug-in system for additional
 functionality. You could create plugins that added functionality to
-jQuery and we&apos;ll take a look at this to some extent.
+jQuery and we&apos;ll take a look at this to some extent.</p>
 
-Then finally, last but not least, jQuery provides a simpler syntax and
+<p>Then finally, last but not least, jQuery provides a simpler syntax and
 that allows us to write shorter and more concise scripts and these were
 all huge advantages to jQuery and contributed to making it the most
-popular JavaScript library.
+popular JavaScript library.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 05. jquery is less useful than 2010 (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -597,7 +583,7 @@ popular JavaScript library.
   alt="jQuery is less useful now than in 2010." />
 </p>
 
-Today, jQuery is less useful than it used to be back in the early days.
+<p>Today, jQuery is less useful than it used to be back in the early days.
 Some of the things that have been smoothed over is that, remember, in
 2009, jQuery came out in 2006. In 2009, the standardizing body decided
 to make JavaScript, the scripting language for the web and at that
@@ -609,27 +595,27 @@ whether it&apos;s Apple or Microsoft or whomever, to standardize their
 implementations of JavaScript, that really helped with the development
 of JavaScript plus the release of ES6 or ES 2015 in 2015 really helped
 with a lot of the features of plain vanilla JavaScript so that we don&apos;t
-need as much from jQuery as we once did.
+need as much from jQuery as we once did.</p>
 
-We don&apos;t need to smooth out the differences between different browsers
+<p>We don&apos;t need to smooth out the differences between different browsers
 as much anymore. The implementations in different browsers are pretty
 much the same now are very similar, we don&apos;t need a lot of that
 anymore. In terms of simplifying common tasks such as traversing the
 DOM, we&apos;ve already explored <b>querySelector</b> and <b>querySelectorAll,</b>
 which are great tools for accessing elements in your DOM that are built
 into plain JavaScript now. Those have really helped minimize the need
-for jQuery to do that kind of thing.
+for jQuery to do that kind of thing.</p>
 
-Also in plain JavaScript, we now have the <b>addEventListener</b> method,
+<p>Also in plain JavaScript, we now have the <b>addEventListener</b> method,
 which is great for adding event listeners for all different types of
 events that users might trigger or might be triggered by the system.
 Using that event listener model limits the need for the easier to work
 with event model that jQuery had to offer. The <b>effects</b> library is
 interesting. The jQuery <b>effects</b> library is great, and it&apos;s really
 great to work with and it&apos;s fun to work with, and it&apos;s still useful
-from time to time.
+from time to time.</p>
 
-But these days we would much prefer to use CSS to create animation
+<p>But these days we would much prefer to use CSS to create animation
 because CSS will take advantage of the devices GPU, the graphics
 processing unit, as opposed to the CPU, the central processing unit, and
 that will make your animation smoother and work better, especially for
@@ -637,9 +623,9 @@ older, slower devices, and these kinds of things. Phones, older phones,
 this kind of stuff that the jQuery animations will feel a little bit
 clunky because jQuery is using JavaScript to create those animations.
 The effects library is not as useful today as it once was, although it
-can still be useful.
+can still be useful.</p>
 
-The two things that are still really useful about jQuery are the plugin
+<p>The two things that are still really useful about jQuery are the plugin
 system for additional functionality. There are thousands of plugins
 written for jQuery and we&apos;ll look at a few of them. But you can explore
 many on your own and the wonderful thing about plugins is that, other
@@ -647,9 +633,9 @@ people have written a whole bunch of code and you can take advantage of
 that and build all kinds of cool things from the code that others have
 written. That also helps prepare you for other types of libraries of
 code, if you get into node and NPM and these kinds of things. Doing this
-stuff with jQuery will help prepare you for that world.
+stuff with jQuery will help prepare you for that world.</p>
 
-The simpler syntax for shorter, more concise scripts is also still true.
+<p>The simpler syntax for shorter, more concise scripts is also still true.
 It&apos;s perhaps less true than it once was, but it&apos;s still true. You&apos;ll
 see, we&apos;ll do some exercises and some examples where you&apos;ll see that
 the scripts are shorter and more concise and if you&apos;re just learning
@@ -658,9 +644,9 @@ was a way into programming for a lot of people who got into JavaScript
 and jQuery back in the day. It certainly was for me personally, where I
 wanted to do something that was fun and interactive and I could write
 fewer lines of code with jQuery than with JavaScript, so that was a real
-bonus for me as I was learning JavaScript back in the day.
+bonus for me as I was learning JavaScript back in the day.</p>
 
-There are a lot of modern considerations to take into account when
+<p>There are a lot of modern considerations to take into account when
 deciding whether or not to use jQuery. Adding JQuery to your project,
 add some weight to the files, and they&apos;ll take longer to load. If
 you&apos;re just doing one simple small thing, it&apos;s probably just not worth
@@ -668,7 +654,7 @@ it to load jQuery to do that. However, if you want to get a simple
 interaction working quickly and easily, or if you want to make use of a
 jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
-basis.
+basis.</p>
 
 <h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery" target="_blank" rel="noopener noreferrer">
   1.01 jQuery-Start.zip</a></h2>
@@ -684,7 +670,7 @@ basis.
   alt="1.02 jQuery Libraries." />
 </p>
 
-What is a library anyway?
+<p>What is a library anyway?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. what is a library, anyway? (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -694,7 +680,7 @@ What is a library anyway?
   alt="What is a Library, Anyway?" />
 </p>
 
-In programming, a library is just a file with a bunch of functions in
+<p>In programming, a library is just a file with a bunch of functions in
 it. Or it could be multiple files that you link up to your project. In
 this case, you link them into your HTML file and then you can just use
 those functions. If you&apos;re not familiar with a lot of programming and
@@ -705,7 +691,7 @@ access and use in your project. And then once you&apos;ve linked it to your
 project, it&apos;s just a matter of finding out what those functions are and
 how to use them. And that&apos;s really how jQuery works. It&apos;s a file that
 you can add to your project, and when you do you have access to all the
-jQuery functions and all the functions that come along with jQuery.
+jQuery functions and all the functions that come along with jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 08. two options for plugging in jquery (13) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -715,14 +701,14 @@ jQuery functions and all the functions that come along with jQuery.
   alt="Two Options for Plugging in jQuery." />
 </p>
 
-There are two options for plugging in jQuery. The <b>first</b> is you can
+<p>There are two options for plugging in jQuery. The <b>first</b> is you can
 download the file, the actual jQuery library file, and put it in your
 folder with your other Javascript files or other files for your project,
 and then link to that file locally in your project folder. And then when
 you load your web page it will load that file along with all your other
-files.
+files.</p>
 
-Or, <b>second</b>, you can hot link to the library on a CDN or Content
+<p>Or, <b>second</b>, you can hot link to the library on a CDN or Content
 Delivery Network. So what that means is instead of putting the file in
 your project folder, you&apos;re actually linking to the file already out on
 the Internet. And a CDN or Content Delivery Network means that when you
@@ -730,7 +716,7 @@ do that, you&apos;ll actually be getting the file from the closest server to
 you. A CDN has servers all over the globe. And when you go to load a
 particular web page, it&apos;s looking at your IP address and figuring out
 where you are and then getting the file from the closest file server, so
-it will get it the fastest that it can.
+it will get it the fastest that it can.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09/10. jquery.com downloads (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3541,6 +3527,7 @@ box.
 <p align="center" width="100%">
 <img src="./images/image193.png"
   style="width:40%"
+  title="box before changes"
   alt="box before changes." />
 <img src="./images/image194.png"
   style="width:40%"
