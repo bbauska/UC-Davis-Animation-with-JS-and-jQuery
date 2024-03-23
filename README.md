@@ -2928,7 +2928,7 @@ in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-03">2.03 Example 2 (5:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. Example 2 (2.03) (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. example 2 (2.03) (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image156.png"
   style="width:40%"
@@ -2937,22 +2937,23 @@ in the next lesson.
 
 Let&apos;s take a look at Example 2.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. example, example 2 - html (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image157.png"
   style="width:50%"
-  alt="." />
+  title="Example, Example 2 - HTML"
+  alt="Example, Example 2 - HTML." />
 
 Open up the Example 2, HTML file and you&apos;ll notice that it looks very
 similar to the first example. We have the same styling up at the top of
 the page, we have a box here, we have some navigation, and then we have
 this div id set to box down here, and it&apos;s just an empty div.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. jquery helper functions (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image158.png"
   style="width:50%"
-  alt="." />
+  alt="jQuery Helper Functions." />
 
 You can see that it looks very similar here. But **jQuery** has helper
 functions in for **sliding up** and **sliding down** and **slide
@@ -2960,11 +2961,12 @@ toggle**. Because again, these are common tasks. These are common things
 that we need to do in interfaces, so they created a method that does
 specifically this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. #slideupbox.click function (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image159.png"
   style="width:50%"
-  alt="." />
+  title="#slideupbox.click function #box.slideUp('slow')"
+  alt="#slideupbox.click function #box.slideUp('slow')." />
 
 Let&apos;s take a look at what we need in order to do this in our code. The
 syntax is very similar to what we saw before. What we&apos;re going to do
@@ -2983,32 +2985,34 @@ Again, we can put in an amount of time or you could put inside quotes,
 you can put slow or something like that, and that will make that box
 slide up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. test, slideup (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160.png"
   style="width:50%"
-  alt="." />
+  title="Test, slideup"
+  alt="Test, slideup." />
 
 Let&apos;s go over and give that a try. Hopefully I did that right, I think
 I did. If I refresh this page and click &quot;Slideup,&quot; it does that
 animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161. inspect console, slideup (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image161.png"
   style="width:50%"
-  alt="." />
+  title="Inspect Console, slideup"
+  alt="Inspect Console, slideup." />
 
 It&apos;s interesting to inspect this. Watch what happens here. Actually on
 the actual box itself. Watch what happens down here, when I click
 slideup. You can see it very quickly went through some settings in here,
 as it did that and ended up with displaying that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. #slidedownbox.click function (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image162.png"
   style="width:50%"
-  alt="." />
+  alt="#slidedownbox.click function #box.slideDown('2000')." />
 
 The other ones look very similar as you can imagine. We&apos;ve got
 **slideupbox**, we&apos;ve got **slidedownbox**, and we&apos;ve got **slide
@@ -3031,13 +3035,14 @@ can actually do **easing** in and outward. Starts slow, speeds up and
 then end slow or starts fast, slows down and ends fast. You can do all
 of these different types of easing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 163. #slidedownbox.click function 'swing' (97) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image163.png"
   style="width:50%"
-  alt="." />
+  title="#slidedownbox.click funcion 'swing'"
+  alt="#slidedownbox.click funcion 'swing'." />
 
-**JQuery** has some basic **easing** built-in and you can put in here in
+**jQuery** has some basic **easing** built-in and you can put in here in
 quotes, **&quot;swing&quot;**. That will do a little bit of **easing** on this
 item. It&apos;s pretty subtle. You might not really see it, but it will
 actually work. Take a look for yourself. Slide up, slide down. Does
@@ -3062,11 +3067,12 @@ In the last lesson, we added some **easing** to our function, so that
 now it slides up using the **linear easing**, but slide down is using
 the **swing easing**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165. test, slidedown (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image165.png"
   style="width:50%"
-  alt="." />
+  title="Test, slidedown"
+  alt="Test, slidedown." />
 
 **Easing** can give your animations a little bit of personality. They
 can make them seem a little bit less mechanical, when the speed of the
@@ -3117,22 +3123,24 @@ but we can use the easings that we see here. If I want an
 **easeOutBounce**, I can actually use that animation if I want to over
 here. Let&apos;s give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 166. slidetogglebox.click function (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image166.png"
   style="width:50%"
-  alt="." />
+  title="slidetogglebox.click function"
+  alt="slidetogglebox.click function." />
 
 **&quot;easeOutBounce&quot;**. Make sure you spell it right with the capital
 letters and everything **easeOutBounce**. Make sure you spell it all
 correct and that you get the correct capital letters. Make sure you put
 it inside the quotes, and so on and so forth.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167. test, slidetoggle (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167.png"
   style="width:50%"
-  alt="." />
+  title="Test, slidetoggle"
+  alt="Test, slidetoggle." />
 
 If I save that and then come back and look at my example here, and click
 slide toggle, you can see that it does this bounce. Which is pretty
@@ -3142,11 +3150,12 @@ doing the bounce first and then it&apos;s finishing the animation, which
 looks a little weird, but you get the idea and you can try some of these
 other easings and see what personality you can get.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168. easeoutcirc, easin, easeincirc (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image168.png"
   style="width:50%"
-  alt="." />
+  title="easeOutCirc, easeIn, easeOutCirc"
+  alt="easeOutCirc, easeIn, easeOutCirc." />
 
 I really like the **easeOutCirc** ones. Yeah, **easeIn** and
 **easeOutCirc**. You can give those a try. Let&apos;s see what we can do
@@ -3156,32 +3165,35 @@ set that to three seconds. You can see how it changes the animation by
 either slowing it down or speeding it up. I think this one&apos;s speeding
 it up as it gets to the end of the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 169. slidetogglebox.click function with easeoutcirc (101) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image169.png"
   style="width:50%"
-  alt="." />
+  title="slidetogglebox.click function slideToggle, 3000 with easeOutCirc"
+  alt="slidetogglebox.click function slideToggle, 3000 with easeOutCirc." />
 
 Let&apos;s come back and try **easeOutCirc**. That&apos;s starting fast and
 ending slow. It gives the animation a little bit of personality as it
 does its thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 170. slidetogglebox.click function with easeincirc (101) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image170.png"
   style="width:50%"
-  alt="." />
+  title="slidetogglebox.click function slideToggle, 3000 with easeInCirc"
+  alt="slidetogglebox.click function slideToggle, 3000 with easeInCirc." />
 
 You could try **easeInOutCirc**. It&apos;s hard to see, but it is doing
 something there. Try these different animations. You&apos;ll notice if you
 spell them wrong, if I do, **easeoutCirc** like that, then it won&apos;t
 work quite right at all.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 171. slidetogglebox.click function with easeoutcirc & alert (102) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.png"
   style="width:50%"
-  alt="." />
+  title="slidetogglebox.click function slideToggle, 3000 with easeOutCirc, with function alert done"
+  alt="slidetogglebox.click function slideToggle, 3000 with easeOutCirc, with function alert done." />
 
 One last quick thing here before we&apos;re done with this lesson is you can
 also add the **callback** function after the **easing**. I could add a
@@ -3189,11 +3201,12 @@ function here and say done, and you&apos;ll see that when that **easing** is
 finished, when that animation is finished, that **callback** function
 will fire.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. test, function done (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.png"
   style="width:50%"
-  alt="." />
+  title="Test, function done"
+  alt="Test, function done." />
 
 Now that&apos;ll work, and it comes back and it says it&apos;s done. That gives
 us a lot of information about how to work with these **built-in**
@@ -3223,22 +3236,24 @@ It&apos;s got four buttons and we can use some built-in functions in
 **jQuery** to **fade** objects in and out, or to **fade** them to a
 particular percentage of opacity.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175. sample screen, fade out (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.png"
   style="width:50%"
-  alt="." />
+  title="Sample screen, fade out"
+  alt="Sample screen, fade out." />
 
 Here I have **fade out**, which will fade it out completely. **Fade
 in**, will fade it all the way to being visible. But then I had **fade**
 to 20 percent, which will fade it to 20 percent opacity, and then
 **fade** to 100 percent, which will **fade** it all the way in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 176. fadeoutbox click function fadeout 3000 (104) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176.png"
   style="width:50%"
-  alt="." />
+  title="fadeoutbox.click function fadeOut, 3 milliseconds"
+  alt="fadeoutbox.click function fadeOut, 3 milliseconds." />
 
 Let&apos;s take a look at how we can do that. Over here I have Example 3
 open and you can see that I have much the same styling up at the top of
@@ -3260,11 +3275,12 @@ milliseconds; 3,003 seconds is a long time, but we can actually give
 that a try. You&apos;ll see that will actually work over here. Over three
 seconds, it will become invisible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 176. fadeoutbox click function fadeout 3000, swing alert done (105) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image177.png"
   style="width:50%"
-  alt="." />
+  title="fadeoutbox click function fadeOut 3000, swing alert done"
+  alt="fadeoutbox click function fadeOut 3000, swing alert done." />
 
 We could do **fadein** as well. I can copy that and paste it or just
 type it again. It&apos;s always a good idea to do that, but we&apos;re going to
@@ -3290,11 +3306,12 @@ to add these last two here and we can look at that in the next lesson.
 
 In this lesson, we&apos;ll make these last two buttons work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 179. fadeto20box click function fadeto, 3 mill, 0.2 (106) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image179.png"
   style="width:50%"
-  alt="." />
+  title="fadeto20box click function fadeTo, 3 milliseconds, 0.2"
+  alt="fadeto20box click function fadeTo, 3 milliseconds, 0.2." />
 
 And with that, there&apos;s a fade to method that we can use in **jQuery**.
 
@@ -3314,31 +3331,34 @@ that&apos;s the first number. The second number is how much it&apos;s going to
 **fade** **to**. We want to do 0.2 like that. And now, that should
 actually work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. test, fade to 20% (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image180.png"
   style="width:50%"
-  alt="." />
+  title="Test, fadeTo 20%"
+  alt="Test, fadeTo 20%." />
 
 Let&apos;s go over and check it out. Press refresh this and click fade to,
 it fades down but it doesn&apos;t fade all the way down, it fades to 20%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 181. fadeto100box click function fadeto 3 mill, 100% (107) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image181.png"
   style="width:50%"
-  alt="." />
+  title="fadeto100box click function, fadeTo 3 milliseconds, 100%"
+  alt="fadeto100box click function, fadeTo 3 milliseconds, 100%." />
 
 We can do that and then we can do the fade to again for the last one.
 We&apos;re going to use this link **fadeTo**. When you click the fadeTo,
 it&apos;s going to fade to one. The opacity is a number between 0 and 1, 0
 is completely transparent, 1 is completely opaque.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. again, fadeto100box (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image182.png"
   style="width:50%"
-  alt="." />
+  title="Again, fadeto100box"
+  alt="Again, fadeto100box." />
 
 The 2^nd^ button has the callback function and the swing animation on
 it. And if you wanted to do some of the other easings, you would have to
@@ -4059,11 +4079,12 @@ the thing work and we&apos;ll start working on that in the next lesson.
 Now we&apos;re ready to start with writing our script to make our tabbed
 interface function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. link to jquery library (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image224.png"
   style="width:50%"
-  alt="." />
+  title="Link to jQuery library"
+  alt="Link to jQuery library." />
 </p>
 
 You can see down here at the bottom of the index.html file, I&apos;ve added
@@ -4600,7 +4621,7 @@ thing we need to do is figure out what we need to do in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image252.png"
-  style="width:50%"
+  style="width:50%"a
   alt="." />
 </p>
 
