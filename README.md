@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/21/2024 8+pm"
+date last editted: "3/22/2024 11+pm"
 output: 
   markdown:
     with some style
@@ -131,8 +131,8 @@ page.</p>
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="1.16-StartFile-FileName.pdf">1.16 Start Files: Folding Sidebar Menus with jQuery"
-    target="_blank" rel="noopener noreferrer"</a></li>
+  <li><a href="1.16-StartFile-FileName.pdf" target="_blank" rel="noopener noreferrer">
+    1.16 Start Files: Folding Sidebar Menus with jQuery"</a></li>
 </ul>
 <ol start="17">
   <li>Getting the Next UL</li>
@@ -926,7 +926,7 @@ time of this recording.</p>
   alt="1.04 Basic jQuery Syntax." />
 </p>
 
-<p>Now that you have **jQuery** working, let&apos;s do something with it. Do
+<p>Now that you have <b>jQuery</b> working, let&apos;s do something with it. Do
 something more than just to show that it&apos;s working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 23. example, basic jquery syntax - the jquery object (21) ~~~~~~~~~~~~~~~~~-->
@@ -947,11 +947,11 @@ there just so we can see that something is happening to our actual web page.</p>
   alt="Use jQuery, set h1.css color to 'red'." />
 
 If we come back over here, we can get rid of this if-else statement.
-Just delete that for a moment and let&apos;s put in a **jQuery** statement.
+Just delete that for a moment and let&apos;s put in a <b>jQuery</b> statement.
 Try this instead. There we go, dollar sign, we&apos;re going to go get the
-**h1** on the page, which is this element here, Is **jQuery** working?
-We&apos;re going to use the CSS method in **jQuery**, like that. What we&apos;re
-going to do is we&apos;re going to set the color of the **h1** to red. If we
+<b>h1</b> on the page, which is this element here, Is <b>jQuery</b> working?
+We&apos;re going to use the CSS method in <b>jQuery</b>, like that. What we&apos;re
+going to do is we&apos;re going to set the color of the <b>h1</b> to red. If we
 just do this one line and then save it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 25. test inspect, set h1 style color to 'red' (22) ~~~~~~~~~~~~~~~~~~~~-->
@@ -961,26 +961,26 @@ just do this one line and then save it.
   title="Test Inspect, set h1 style color to 'red'"
   alt="Test Inspect, set h1 style color to 'red'." />
 
-Then if you come over and run this test in **jQuery** again, you&apos;ll see
-that it turns the **h1** red here. If I inspect this element here, you
-can see that what **jQuery** has done here is it&apos;s set the style color
-red on the **h1**. Now before we did the same thing with
-**querySelector** or **querySelectorAll**. We&apos;ve done this kind of
-thing before in previous lessons, but now we&apos;re using **jQuery** to do
-it. In **jQuery** you can see we have just a simple syntax here that
+Then if you come over and run this test in <b>jQuery</b> again, you&apos;ll see
+that it turns the <b>h1</b> red here. If I inspect this element here, you
+can see that what <b>jQuery</b> has done here is it&apos;s set the style color
+red on the <b>h1</b>. Now before we did the same thing with
+<b>querySelector</b> or <b>querySelectorAll</b>. We&apos;ve done this kind of
+thing before in previous lessons, but now we&apos;re using <b>jQuery</b> to do
+it. In <b>jQuery</b> you can see we have just a simple syntax here that
 uses CSS-style selectors to access elements on the page. We&apos;ve gotten
-methods that we have access to because the **jQuery** library is plugged
+methods that we have access to because the <b>jQuery</b> library is plugged
 in that we can just use. Now if you&apos;re wondering about the dollar sign
 here.
 
-The dollar sign is just a shortcut for the word **jQuery**. I could put
-the word **jQuery** there, and over here this will run just exactly the
-same way. It will work fine with using the word **jQuery** instead of
-the dollar sign (**&dollar;**). But generally we use the dollar sign as a
+The dollar sign is just a shortcut for the word <b>jQuery</b>. I could put
+the word <b>jQuery</b> there, and over here this will run just exactly the
+same way. It will work fine with using the word <b>jQuery</b> instead of
+the dollar sign (<b>&dollar;</b>). But generally we use the dollar sign as a
 shortcut just because it keeps our script shorter, it&apos;s less typing,
 and why type all those extra characters if you can just type one? We can
 put the single dollar sign in there for that reason. This CSS method
-here is just one of the great many that **jQuery** has to offer that
+here is just one of the great many that <b>jQuery</b> has to offer that
 will help us factor web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. jquery api documentation (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -990,7 +990,7 @@ will help us factor web pages.
   title="jQuery API Documentation"
   alt="jQuery API Documentation." />
 
-You can come back here, you can go and look at the **jQuery** API
+You can come back here, you can go and look at the <b>jQuery</b> API
 documentation here. You can see that there&apos;s just tons and tons of
 different methods that you have access to as we go through and look at
 all of these.
@@ -1004,9 +1004,9 @@ all of these.
 </p>
 
 Here&apos;s the CSS one that we were just looking at, but there&apos;s tons of
-them in here. **JQuery** gives you access to all of these different
+them in here. <b>jQuery</b> gives you access to all of these different
 methods. It&apos;s like having a kit that you can use to build things for
-your web pages just by plugging them in and plugging in **jQuery** and
+your web pages just by plugging them in and plugging in <b>jQuery</b> and
 then using these methods, in accordance to the way they&apos;re described in
 the documentation. Let&apos;s try something else here. If we come back here
 and try, let&apos;s try adding a few paragraphs.
@@ -1020,7 +1020,7 @@ and try, let&apos;s try adding a few paragraphs.
 </p>
 
 Let&apos;s just add a few paragraphs. One of the nice things about
-**jQuery** is it allows you to work with collections of things. If I
+<b>jQuery</b> is it allows you to work with collections of things. If I
 come in here and just add a couple of paragraphs to the page. I&apos;m just
 going to copy that and paste it and add a few more here. Now I&apos;ve got
 three paragraphs on the page.
@@ -1033,13 +1033,13 @@ three paragraphs on the page.
   alt="Script to change paragraph color to red." />
 </p>
 
-Down here, if I change this to **p**, if we were doing this with plain
+Down here, if I change this to <b>p</b>, if we were doing this with plain
 JavaScripts, we would need some loop because we would do
-**querySelectorAll** or **getElementsByTagName** or some method like
+<b>querySelectorAll</b> or <b>getElementsByTagName</b> or some method like
 that, which would give us an array of items that we would then have to
 loop through to turn them all red. We&apos;ve done that before. You&apos;ve done
-that in some of our previous lessons. Here with **jQuery**, one of the
-things that makes **jQuery** shorter and more concise is it&apos;ll work
+that in some of our previous lessons. Here with <b>jQuery</b>, one of the
+things that makes <b>jQuery</b> shorter and more concise is it&apos;ll work
 with groups of elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 30. inspect, script change paragraph color to red (25) ~~~~~~~~~~~~~~~~~~-->
@@ -1053,11 +1053,11 @@ with groups of elements.
 I can just grab the paragraphs and say CSS color red. You&apos;ll see over
 here when I run this page, it&apos;s loading these paragraphs and it&apos;s
 turning them all red without having to do a loop. That saves me a few
-extra lines of programming. This is the thing that makes **jQuery**
+extra lines of programming. This is the thing that makes <b>jQuery</b>
 easier to get into for people who are new to programming. This whole
 thing of having to, I take this array. Now I&apos;ve got an array and I&apos;m
-going to loop through it. It&apos;s a little bit of a pain. **JQuery** takes
-some of that pain away, and that&apos;s really a nice feature of **jQuery**.
+going to loop through it. It&apos;s a little bit of a pain. <b>jQuery</b> takes
+some of that pain away, and that&apos;s really a nice feature of <b>jQuery</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-05">1.05 Using jQuery to Access Elements (8:39)</h2>
@@ -1070,7 +1070,7 @@ some of that pain away, and that&apos;s really a nice feature of **jQuery**.
   alt="1.05 Using jQuery to Access Elements." />
 </p>
 
-**jQuery** selecting elements.
+<b>jQuery</b> selecting elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. jquery - selecting elements (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1080,9 +1080,9 @@ some of that pain away, and that&apos;s really a nice feature of **jQuery**.
   alt="jQuery - Selecting Elements." />
 </p>
 
-Download and open the **page.html** file and your code editor that goes
+Download and open the <b>page.html</b> file and your code editor that goes
 along with this particular lesson and there you&apos;ll see some markup and
-we can use the **jquery** language to select different elements on the
+we can use the <b>jQuery</b> language to select different elements on the
 page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33/34. page.html - lines 01-38 (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1111,11 +1111,11 @@ content in it with some different markup with the header in each one in
 each to summon ordered lists. It&apos;s got some ideas and some classes and
 some links and some other content that we can access.
 
-And one of the beautiful things about **jQuery** is that you can access
+And one of the beautiful things about <b>jQuery</b> is that you can access
 any element on the page, usually in many different ways. It&apos;s the very
-powerful part of **jQuery** and you can think of it as the query part of
-**jQuery**, you&apos;re finding elements on the page that you can do things
-to them or with them or for them. We will be using **jQuery** to go in
+powerful part of <b>jQuery</b> and you can think of it as the query part of
+<b>jQuery</b>, you&apos;re finding elements on the page that you can do things
+to them or with them or for them. We will be using <b>jQuery</b> to go in
 and access elements on this page and we&apos;ll practice, what some of these
 different methods are and some of the different things we have available
 to us.
@@ -1142,7 +1142,7 @@ script here.
 
 If we come back over to our file, you&apos;ll notice the bottom, we don&apos;t
 have any script tags. So down here after this closing div we need to add
-the **jQuery** library, so we can use **jQuery** and then we need to use
+the <b>jQuery</b> library, so we can use <b>jQuery</b> and then we need to use
 then we need a script tag, which we can open and close.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add red border to main element (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1154,9 +1154,9 @@ then we need a script tag, which we can open and close.
 </p>
 
 And now if we wanted to do something like put a border around this main
-element here, we can very easily just use **jQuery** object. And type it
+element here, we can very easily just use <b>jQuery</b> object. And type it
 this way it&apos;ll get, there is still some syntax that you have to get
-used to with **jQuery**, so I recommend typing it this way, so you can
+used to with <b>jQuery</b>, so I recommend typing it this way, so you can
 kind of get used to it. If you do pound main and then CSS the CSS method
 that we&apos;ve already talked about and we&apos;re just going to do a border
 here. Border 2px solid red.
@@ -1173,7 +1173,7 @@ If we do that and save this document here, and then come over to our
 example page, so here&apos;s my page and if I refresh you&apos;ll see I get a
 border around the main area of the page. So that&apos;s working, so we can
 access this element, we can access all kinds of elements with
-**jQuery**.
+<b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 40. example, jquery - getting classes (30) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1184,11 +1184,11 @@ access this element, we can access all kinds of elements with
 </p>
 
 If I wanted to get the elements on the page that have the class
-**special**, if we go back to our code here, we should see that we&apos;ve
-got a class **special** in these two list items. We&apos;ve got a class
-**special** up here on this list item, so these items should be targeted
-if we change this to not **special**. And one of the things that&apos;s nice
-about **jQuery** is that if you just know CSS then how to get these
+<b>special</b>, if we go back to our code here, we should see that we&apos;ve
+got a class <b>special</b> in these two list items. We&apos;ve got a class
+<b>special</b> up here on this list item, so these items should be targeted
+if we change this to not <b>special</b>. And one of the things that&apos;s nice
+about <b>jQuery</b> is that if you just know CSS then how to get these
 selectors.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 41/42. class 'special' add red border (30) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1238,7 +1238,7 @@ page and you notice I don&apos;t have to do any kind of looping. So even if
 I was using plain javascript, even now with query selector, all I would
 have to have some sort of loop or for each method or something like
 that, to go through and turn each one of these red. Whereas in
-**jQuery** I can very simply just grab the group and apply the CSS to it
+<b>jQuery</b> I can very simply just grab the group and apply the CSS to it
 and applies it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1250,7 +1250,7 @@ and applies it.
   alt="Again, set border to red around main and h2 elements." />
 </p>
 
-So this thing returns a **jQuery** object, with these elements inside it
+So this thing returns a <b>jQuery</b> object, with these elements inside it
 and then we can apply that CSS to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. example, try these! (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1268,12 +1268,12 @@ all. I could get the even list items, or the first paragraph or the list
 item that has an a northern list inside of it or a list item that
 contains the word three. So there&apos;s like all of these different ways of
 getting, content on your page. Now some things to pay attention to is
-that, **jQuery** does change over time and some of these that I have on
+that, <b>jQuery</b> does change over time and some of these that I have on
 this slide are deprecating now.
 
 The best thing to do is, when you have a page and you have some
 elements, you need to get to be creative, use the documentation for
-**jQuery** to help you find the best way of getting to that element on
+<b>jQuery</b> to help you find the best way of getting to that element on
 the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1287,7 +1287,7 @@ the page.
   alt="1.06 jQuery Events." />
 </p>
 
-Let&apos;s look at how we can capture some events in **jQuery**.
+Let&apos;s look at how we can capture some events in <b>jQuery</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. example, jquery events (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1298,7 +1298,7 @@ Let&apos;s look at how we can capture some events in **jQuery**.
   alt="Example, jQuery Events." />
 </p>
 
-**jQuery** has its own special syntax for event handlers. So let&apos;s take
+<b>jQuery</b> has its own special syntax for event handlers. So let&apos;s take
 a look at how to do that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1312,11 +1312,11 @@ a look at how to do that.
 
 If we come back over to our test page here, you can just comment this, I
 already deleted just to get rid of it. But I&apos;m going to target anchor
-tags on the page. So again, I&apos;m going to type my **jQuery** object, and
-in there, I&apos;m going to say **a**. That&apos;s going to go in and target all
-of these **anchor** tags on the page, all of those and all of these, and
+tags on the page. So again, I&apos;m going to type my <b>jQuery</b> object, and
+in there, I&apos;m going to say <b>a</b>. That&apos;s going to go in and target all
+of these <b>anchor</b> tags on the page, all of those and all of these, and
 that&apos;s going to gather all those items and return them in this nice
-little **jQuery** object here. I&apos;m going to add a click handler.click.
+little <b>jQuery</b> object here. I&apos;m going to add a click handler.click.
 
 So this click handler is going to fire when you click on any one of
 those anchor tags, and what I&apos;m going to pass in, make sure you type it
@@ -1325,8 +1325,8 @@ function like so with parentheses and curly braces. So this is an
 anonymous function. This is a function that&apos;s just going to run when
 this click handler happens.
 
-In here, I&apos;m just going to put **console.log**, and in here, I&apos;m going
-to put **this.html**. That should put in the console the HTML of the
+In here, I&apos;m just going to put <b>console.log</b>, and in here, I&apos;m going
+to put <b>this.html</b>. That should put in the console the HTML of the
 link that I clicked. Because it&apos;s going to put this in all of the
 links, I can only click one link at a time.
 
@@ -1341,14 +1341,14 @@ links, I can only click one link at a time.
 
 Let&apos;s see what this does. If I come back to my example page here and
 refresh it, and then turn on my inspector here, and turn on the console.
-If I click a link, **this.html** I&apos;m getting link one, or if I click
+If I click a link, <b>this.html</b> I&apos;m getting link one, or if I click
 sub link one, I get sub link one, or if I click link two, I get link
 two, link four, I get link four.
 
-The thing to keep in mind is that **jQuery** is just plain JavaScript.
+The thing to keep in mind is that <b>jQuery</b> is just plain JavaScript.
 It isn&apos;t a separate thing from JavaScript, it isn&apos;t a separate
 language, it is just JavaScript and you can mix in regular JavaScript
-with **jQuery.**
+with <b>jQuery.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. summary, jquery library (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1358,23 +1358,23 @@ with **jQuery.**
   alt="Summary, jQuery Library." />
 </p>
 
-In summary, you&apos;ve learned a lot of new stuff. You can plug **jQuery**,
-like plugging the **jQuery** library either by downloading the library
-and putting it in with your files or you can use the **CDN**. You can
-use **jQuery** to capture events and to affect elements in the **DOM**,
+In summary, you&apos;ve learned a lot of new stuff. You can plug <b>jQuery</b>,
+like plugging the <b>jQuery</b> library either by downloading the library
+and putting it in with your files or you can use the <b>CDN</b>. You can
+use <b>jQuery</b> to capture events and to affect elements in the <b>DOM</b>,
 there&apos;s a lot more to learn, but this is a good introduction to what
-**jQuery** does. It&apos;s just more JavaScript, but it makes doing some
+<b>jQuery</b> does. It&apos;s just more JavaScript, but it makes doing some
 things a little bit easier, and it&apos;s still important to learn actual
 native, regular, plain vanilla JavaScript, especially as the need for
-**jQuery** in new projects is reduced.
+<b>jQuery</b> in new projects is reduced.
 
 But if you get a job and you&apos;re working on a project, it&apos;s very likely
 that you&apos;ll be working with Legacy code and you&apos;ll encounter
-**jQuery**, or if you&apos;re looking around on the Internet, you&apos;re very
-likely to come up with solutions that are **jQuery** specific. Because
+<b>jQuery</b>, or if you&apos;re looking around on the Internet, you&apos;re very
+likely to come up with solutions that are <b>jQuery</b> specific. Because
 it&apos;s been such a popular library, it&apos;s going to be around for a long
 time, and it&apos;s still important to learn how to work with it. Learning
-how to work with **jQuery** will help you learn how to work with
+how to work with <b>jQuery</b> will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.
 
 <ul>
@@ -1403,11 +1403,11 @@ Folding sidebar menus using JavaScript.
   alt="Folding Sidebar Menus Using JavaScript." />
 </p>
 
-You&apos;ve already learned a little bit of **jQuery**, but before we dive
-more into **jQuery**, we&apos;re going to do this project using plain
-JavaScript, and then we&apos;ll do the exact same project using **jQuery**.
+You&apos;ve already learned a little bit of <b>jQuery</b>, but before we dive
+more into <b>jQuery</b>, we&apos;re going to do this project using plain
+JavaScript, and then we&apos;ll do the exact same project using <b>jQuery</b>.
 We&apos;re going to do this with a few different projects so you can see the
-difference between **jQuery** and JavaScript and how they work together,
+difference between <b>jQuery</b> and JavaScript and how they work together,
 and some of the differences between the two.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55/56. the finished menus (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1431,7 +1431,7 @@ helpful for users in terms of cognitive load, you only want them to see
 a certain number of options at once.
 
 We&apos;ll look at how to build this in plain JavaScript first, and then
-we&apos;ll do the exact same project using **jQuery**.
+we&apos;ll do the exact same project using <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. a few notes about the markup (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1573,16 +1573,16 @@ Were you successful? Were you able to do it? Let&apos;s do it together.
   alt="Challenge 1 Answer." />
 </p>
 
-Down here, I&apos;m just going to make a variable, var **submenus**. Then
-assign that to **document.querySelectorAll**, and what I want to get are
-the **ul, il, ul**. There we go. Because what I want are these unordered
+Down here, I&apos;m just going to make a variable, var <b>submenus</b>. Then
+assign that to <b>document.querySelectorAll</b>, and what I want to get are
+the <b>ul, il, ul</b>. There we go. Because what I want are these unordered
 lists that are inside the list items that are inside the parent
 unordered list. I&apos;m going to get these, all of these and put them in
-here, and then I just need a loop for **var i equals 0**, i is less than
+here, and then I just need a loop for <b>var i equals 0</b>, i is less than
 submenus, dot length, i plus, plus, curly brace. Now here what we need
 to do is to put that submenu on each of these. I&apos;m going to say
 submenus dot square bracket i. Each one of these, it&apos;s going to go
-through each one of these and then do **className** equals hide menu.
+through each one of these and then do <b>className</b> equals hide menu.
 Over here it&apos;s hide menu. Hide menu, display name, and that should go
 through and put that class on all of those elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1595,7 +1595,7 @@ through and put that class on all of those elements.
 </p>
 
 Let&apos;s see if I did that right. Over here I&apos;ll go check my document
-here, and this is exactly what I did, **className**, hide menu. Let&apos;s
+here, and this is exactly what I did, <b>className</b>, hide menu. Let&apos;s
 see if that actually works. We save that, come over here and refresh the
 page and look at that. All those menus are hidden, they&apos;re set to
 display none. I could do &quot;Inspect,&quot; and you can come in here and see.
@@ -1639,8 +1639,8 @@ Let&apos;s do this together.
   alt="" />
 </p>
 
-First we need a variable, **var submenus = document.querySelectorAll('ul
-li ul');** and what do we want to get? We want to get these links here,
+First we need a variable, <b>var submenus = document.querySelectorAll('ul
+li ul');</b> and what do we want to get? We want to get these links here,
 this class menu link for this one, this one, this one down all those.
 I&apos;m going to come up share the document menu link.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1656,12 +1656,12 @@ So we&apos;ll get those document in there, and then we need to loop. Used
 your loop here, so we need a for var i equals 0, or i is less than menu
 links.length, i plus plus. Hopefully you&apos;re getting used to writing
 loops now. Then in here we&apos;re going to put an event listener on each
-one of these. So **menulinks&lbrack;i&rbrack;.addEventListener(' click',
-function(event){ event.prevenDefault(); alert("clicked!"); });** When
+one of these. So <b>menulinks&lbrack;i&rbrack;.addEventListener(' click',
+function(event){ event.prevenDefault(); alert("clicked!"); });</b> When
 you click, we&apos;re going to run an event unit run a function. Not run an
 event, we&apos;re going to run a function. We&apos;ve got this function here
 that runs. Then for right now all I want to do is pass in the event
-property, event object there, and do **event.preventDefault**.
+property, event object there, and do <b>event.preventDefault</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. test event listener menu links (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1672,7 +1672,7 @@ property, event object there, and do **event.preventDefault**.
 </p>
 
 But I have an event listener for each of these, and you can test it by
-adding **console.log** or an alert. Now if I go over here and test this, when I click
+adding <b>console.log</b> or an alert. Now if I go over here and test this, when I click
 on one of these, I get clicked! We&apos;ve put an event listener on each of the menu links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. 'this' keyword in javascript (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1687,7 +1687,7 @@ The next thing to get into is this keyword in JavaScript, and if you&apos;ve
 looked up stuff on JavaScript online, you can find that you can find a
 lot about this keyword. It can be pretty confusing. But in the context
 in which we&apos;re going to use it in this course that this keyword is
-fairly simple. It basically means that the **menu** that we clicked on,
+fairly simple. It basically means that the <b>menu</b> that we clicked on,
 we&apos;ve add an event listener to all the menus.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. test console log menu click (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1714,12 +1714,12 @@ know that, and the this keyword can help us figure that out.
   alt="Test, alert(thisMenu.innerHTML)." />
 </p>
 
-I&apos;m going to make a variable here called **thisMenu**, and I&apos;m going
-to assign the keyword **this** to it, which means **thisMenu**, the one
-that I clicked. Then I&apos;ll **console.log(thisMenu.innerHTML).** You&apos;ll
+I&apos;m going to make a variable here called <b>thisMenu</b>, and I&apos;m going
+to assign the keyword <b>this</b> to it, which means <b>thisMenu</b>, the one
+that I clicked. Then I&apos;ll <b>console.log(thisMenu.innerHTML)</b>. You&apos;ll
 see that we can actually get the HTML of the menu that we collect.
 Let&apos;s do that over here. Instead of an alert here, I&apos;m going to say
-**var thisMenu** = this keyword. That means it refers to the thing that
+<b>var thisMenu</b> = this keyword. That means it refers to the thing that
 was clicked.
 
 Then we could do either console log or we could do to learn. I&apos;m just
@@ -1844,7 +1844,7 @@ through these things.
   alt="Var thisMenu = this.parentNode.querySelector('ul');" />
 </p>
 
-What we could do instead, is we could use this menu and do **ClassName**
+What we could do instead, is we could use this menu and do <b>ClassName</b>
 equals &apos;show-menu&apos;. So we&apos;re applying that show-menu class to that
 particular menu. That should work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2000,8 +2000,8 @@ want to do is we want to duplicate this loop. We want to copy this loop and
 stick it inside this if statement. So I will make sure that all of the menus 
 get closed when you click on one that you&apos;re opening. And we&apos;re going 
 to leave the if statements if you&apos;re clicking on one to close it, it will 
-still work. And if it&apos;s set to class named **show-menu**, it&apos;ll cited 
-to **hide-menu**. That&apos;s why we want to leave the if statement here.
+still work. And if it&apos;s set to class named <b>show-menu</b>, it&apos;ll cited 
+to <b>hide-menu</b>. That&apos;s why we want to leave the if statement here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 94. test, open menu, close all others (59) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2052,7 +2052,7 @@ We&apos;re going to come over here and we&apos;re going to make a function,
 we&apos;re just going to put it here, function hideSubmenus, like that. I&apos;m
 going to move this loop so it&apos;s inside that function. Hopefully, you
 were able to do this on your own. Tab that in. Now, I&apos;ve got a function
-called **hideSubmenus**.
+called <b>hideSubmenus</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. script, hidesubmenus (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2125,8 +2125,8 @@ the end.
 
 You should be able to do this on your own, but I will show you how I did
 it here. First, I&apos;m going to just make a new file, and you call it
-**script.js**, that makes sense. Then on this file I&apos;m going to add my
-**IIFE** immediately invoked function expression, with the parentheses
+<b>script.js</b>, that makes sense. Then on this file I&apos;m going to add my
+<b>IIFE</b> immediately invoked function expression, with the parentheses
 and in there at function. The function has its own parentheses in its
 curly braces. Then we add an extra pair of closing parentheses there.
 Then we&apos;re going to click inside of here, down in it &amp; use strict
@@ -2147,10 +2147,10 @@ code.
 </p>
 
 We can take all of the stuff from here (lines 69-97), cut it, and paste
-it inside **script.js**. Now we just need to go through and clear up our
-function declarations and change this to **const**. Down here, because
-we&apos;re going to loop, this needs to be length, this **var** needs to be
-**let**. Then down here, this can be **const**. Sometimes it&apos;s nice to
+it inside <b>script.js</b>. Now we just need to go through and clear up our
+function declarations and change this to <b>const</b>. Down here, because
+we&apos;re going to loop, this needs to be length, this <b>var</b> needs to be
+<b>let</b>. Then down here, this can be <b>const</b>. Sometimes it&apos;s nice to
 have your main variables all up at the top of the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2166,9 +2166,9 @@ have your main variables all up at the top of the page.
   alt="Last 6 lines (9-21 overlap) of script.js." />
 </p>
 
-We save that file back here and an **index.html** file. We&apos;d get rid of
+We save that file back here and an <b>index.html</b> file. We&apos;d get rid of
 these script tags from down here, bottom of a page. Instead we can put
-them up here in our head. Script **SRC ="script.js"** set it to defer to
+them up here in our head. Script <b>SRC ="script.js"</b> set it to defer to
 the close script tab. Then always of course, go back and test it to make
 sure that you didn&apos;t screw something up. You can open the menus, you
 can close the menus.
@@ -2193,7 +2193,7 @@ get our final script working, get everything cleaned up in here.
 
 This is how we could do a project like this in plain JavaScript. In the
 next part of this lesson, we will look at how to do the exact same
-script, exact same thing using **jQuery**. You&apos;ll see how much shorter
+script, exact same thing using <b>jQuery</b>. You&apos;ll see how much shorter
 and how much more compact that script is.
 
 <h3 id="ch1-15-pdf">PDF of Presentation</h3>
@@ -2213,7 +2213,7 @@ and how much more compact that script is.
   title="1.16 Intro to jQuery Sidebar Folding Navigation"
   alt="1.16 Intro to jQuery Sidebar Folding Navigation." />
 
-**jquery** SideBar Folding Navigation.
+<b>jQuery</b> SideBar Folding Navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 109. intro to jquery sidebar folding navigation (66) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2222,10 +2222,10 @@ and how much more compact that script is.
   title="Intro to jQuery Sidebar Folding Navigation"
   alt="Intro to jQuery Sidebar Folding Navigation." />
 
-For this project we&apos;ll use **jQuery**. We did this exact same project
+For this project we&apos;ll use <b>jQuery</b>. We did this exact same project
 using plain JavaScript in the previous lesson. But now we&apos;re back to
 where we started with just these menus folded out and we want to do the
-whole same thing again, except using **jQuery**.
+whole same thing again, except using <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. test, menu & submenu (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2235,10 +2235,10 @@ whole same thing again, except using **jQuery**.
   alt="Test, Menu and Submenu." />
 
 This will be a really great way for you to see the difference between
-**jQuery** and JavaScript, using plain vanilla JavaScript. **jQuery** is
+<b>jQuery</b> and JavaScript, using plain vanilla JavaScript. <b>jQuery</b> is
 JavaScript, but the syntax is slightly different, and you&apos;ll see how
 much shorter this script is when we get done with it, and how easy it is
-to do this interaction using **jQuery**.
+to do this interaction using <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. example, project objective (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2249,7 +2249,7 @@ to do this interaction using **jQuery**.
 
 Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
 different about the start file in this case, is that it includes a link
-to the **jQuery** library on the CDN.
+to the <b>jQuery</b> library on the CDN.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. jquery api v3.7.1 (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2271,7 +2271,7 @@ different, is I&apos;m including this extra script.
 First thing we&apos;re going to do, is we&apos;re going to set all of those
 initial list items to not display. In the previous version of this
 project, we had some classes set up for Hide menu and Show menu. But
-here we&apos;re going to use the **CSS** property to set display to none.
+here we&apos;re going to use the <b>CSS</b> property to set display to none.
 We&apos;ll see an even easier way in just a minute.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. ul li ul display: none (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2282,8 +2282,8 @@ We&apos;ll see an even easier way in just a minute.
   alt="ul li ul display: none;" />
 
 But let&apos;s do this first so you can see what it does. Down here, I&apos;m
-going to use my **jQuery** object, and write it like this from the
-outside. I&apos;m going to use my **jQuery** object like that. I&apos;m going to
+going to use my <b>jQuery</b> object, and write it like this from the
+outside. I&apos;m going to use my <b>jQuery</b> object like that. I&apos;m going to
 use quotes to say go in and get ul, li, ul. This is the unordered list
 that&apos;s inside the list item that&apos;s inside the unordered list. That&apos;s
 these list items that are inside these unordered list items that are
@@ -2309,7 +2309,7 @@ display none over here.
   alt="Example, Hide() Helper Function." />
 
 Now, as it turns out, there&apos;s actually an easier way of doing that,
-because **jQuery** has a bunch of helper functions built in. One of them
+because <b>jQuery</b> has a bunch of helper functions built in. One of them
 is hide. Since frequently we want to hide things on our page, they
 created a helper function called hide, which hides those elements.
 That&apos;s even easier than using the CSS method here.
@@ -2325,8 +2325,8 @@ If I just put hide there, and then come back and test it, you&apos;ll see
 the menus are hidden. Not only that, but if I inspect and look in there,
 you&apos;ll see it&apos;s still says, display none there. This is actually doing
 the exact same thing but using the CSS method, but instead we&apos;re using
-the hide method. That&apos;s a convenience function that **jQuery** has
-built-in. **JQuery** is a bunch of these built-in for doing common
+the hide method. That&apos;s a convenience function that <b>jQuery</b> has
+built-in. <b>jQuery</b> is a bunch of these built-in for doing common
 tasks. We&apos;ll see another one of these convenient helper functions in
 just a minute. We&apos;ve got that going, and we&apos;re ready to start building
 in our Click-Handler and doing all that fun stuff. We&apos;ll do that in the
@@ -2359,14 +2359,14 @@ to know which menu was clicked.
   title="Example, Get the Next UL"
   alt="Example, Get the Next UL." />
 
-Once again, we&apos;re going to use the **this** keyword in order to get the
+Once again, we&apos;re going to use the <b>this</b> keyword in order to get the
 menu that was clicked. However, this time we&apos;re going to wrap it up
-inside of a **jQuery** object. So down here, you can see we&apos;ve got
-this, but it&apos;s inside a **jQuery** object. Then we&apos;re going to use the
-handy next method that **jQuery** has built in. And in the plain
+inside of a <b>jQuery</b> object. So down here, you can see we&apos;ve got
+this, but it&apos;s inside a <b>jQuery</b> object. Then we&apos;re going to use the
+handy next method that <b>jQuery</b> has built in. And in the plain
 Javascript version, remember what we had to do was we had to go get that
-parent object and then find the **ul** inside the parent. But here we
-can actually use the **next** method to get the next ul.
+parent object and then find the <b>ul</b> inside the parent. But here we
+can actually use the <b>next</b> method to get the next ul.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. html a tag menu links (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2376,8 +2376,8 @@ can actually use the **next** method to get the next ul.
   alt="HTML 'a' tag menu links." />
 
 Because remember, what users are doing is they&apos;re clicking on this link
-here, this anchor tag. And I want to get the next **ul** that comes
-after that. And **jQuery** has this helper function that&apos;s very useful
+here, this anchor tag. And I want to get the next <b>ul</b> that comes
+after that. And <b>jQuery</b> has this helper function that&apos;s very useful
 for that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. thismenu for next ul (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2388,9 +2388,9 @@ for that.
   alt="New var thisMenu for next Unordered List item." />
 
 Let&apos;s come down here and add that into here. We&apos;re going to make a
-variable, **var thisMenu** is assigned. We&apos;re going to use the
-**jQuery** object to get this. And then we&apos;re going to use the
-.**next** method to go get the next **ul**. And that will get the **ul**
+variable, <b>var thisMenu</b> is assigned. We&apos;re going to use the
+<b>jQuery</b> object to get this. And then we&apos;re going to use the
+.<b>next</b> method to go get the next <b>ul</b>. And that will get the <b>ul</b>
 that comes up after this particular anchor tag that we&apos;ve clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. console.log thismenu (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2417,11 +2417,11 @@ getting that <b>html</b>.
 The next thing we need to do is check to see if the menu is showing or
 hidden or not. And we can do that with this sort of function here. We
 could say if this menu is visible, and there&apos;s a method called is in
-**jQuery** that will allow us to check for something. Here, visible is a
+<b>jQuery</b> that will allow us to check for something. Here, visible is a
 filter that will allow us to see if a particular element is visible, in
 which case then we can hide it or we could show it. Now, we could do
 this and this works if you wanted to do it this way. And the is method
-is sometimes very helpful in **jQuery**.
+is sometimes very helpful in <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. example, do this instead (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2432,7 +2432,7 @@ is sometimes very helpful in **jQuery**.
 
 However, in this case there is another helper function, a convenient
 helper function that will do the same thing in a nice, simple way. And
-that is toggle, **thisMenu.toggle**. That&apos;s all we need to do, so that
+that is toggle, <b>thisMenu.toggle</b>. That&apos;s all we need to do, so that
 if it&apos;s showing hide it, if it&apos;s hiding show it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 125. hide all menu options, on click, toggle (75) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -2443,16 +2443,16 @@ if it&apos;s showing hide it, if it&apos;s hiding show it.
   alt="Hide all menu options, on click, toggle." />
 
 Let&apos;s add that into our script over here. I can just say
-**thisMenu.toggle**. Very helpful, convenient function in **jQuery**
+<b>thisMenu.toggle</b>. Very helpful, convenient function in <b>jQuery</b>
 that you could use in many situations.
 
 Now you&apos;ll notice that we&apos;re back to where we were after numerous
 lines of code before in plain Javascript where we can open the menus and
 we can close the menus. Unfortunately, we can still open all the menus
 and close all the menus, which is not exactly what we want. But we&apos;re
-close with just a couple lines of **jQuery**. And part of the reason why
-it&apos;s so short is that we don&apos;t need loops because **jQuery** works
-with groups of **objects** like this. And it&apos;s got these helper
+close with just a couple lines of <b>jQuery</b>. And part of the reason why
+it&apos;s so short is that we don&apos;t need loops because <b>jQuery</b> works
+with groups of <b>objects</b> like this. And it&apos;s got these helper
 functions built in, so we don&apos;t have to write the if statement and do
 all of that.
 
@@ -2482,7 +2482,7 @@ line in our script.
 
 And it&apos;s just a short simple little line that we need to add and it
 will introduce us to yet another convenient function built into
-**jQuery** which is the **not** method here. And what that does is it
+<b>jQuery</b> which is the <b>not</b> method here. And what that does is it
 excludes a particular item from a function, we can chain these functions
 together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2501,8 +2501,8 @@ be hidden already or we may want to show it, and then we can do the menu
 toggle and it will work. Just one last little line, let&apos;s go ahead and
 put this in over here.
 
-Once again I&apos;m going to use my **jQuery** object to go in and get the
-**ul li ul**. The unordered list that are inside the list items are
+Once again I&apos;m going to use my <b>jQuery</b> object to go in and get the
+<b>ul li ul</b>. The unordered list that are inside the list items are
 inside the an ordered list is our sub menus. But not this menu, the one
 that I clicked on. That one I don&apos;t want to be affected by this line at
 all. And then I&apos;m going to do hide, make sure all of those are hidden.
@@ -2528,10 +2528,10 @@ that I had before.
 
 Okay, the last step that we need to do is just make our script file and
 move this stuff over into an external script file. So let&apos;s do that
-here. Up here I&apos;m going to add **script.js**. And then I&apos;m going to
+here. Up here I&apos;m going to add <b>script.js</b>. And then I&apos;m going to
 come back here. Then I&apos;m going to add my IIFE function parentheses,
 curly braces, and then one more set of parentheses in a semi colon. And
-then I&apos;m going to come in here and add my **use strict** directive. And
+then I&apos;m going to come in here and add my <b>use strict</b> directive. And
 then I&apos;m going to grab this entire script. Cut that and stick it in
 here. Close that up. I&apos;ve got a little short script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2549,12 +2549,12 @@ here. Close that up. I&apos;ve got a little short script here.
 
 This can become constant. That&apos;s the only thing we need to take care of
 here, it&apos;s the only variable. And then over here we can get rid of this
-script tag entirely. And we can move the link to **jQuery** up to the
+script tag entirely. And we can move the link to <b>jQuery</b> up to the
 top of the page inside the head here.
 
-Don&apos;t forget to add the **defer** attribute there. And then down here
-I&apos;m going to add a script tag with src set to quote, **script.js
-defer**. And that will work, this file has to come after that file, even
+Don&apos;t forget to add the <b>defer</b> attribute there. And then down here
+I&apos;m going to add a script tag with src set to quote, <b>script.js
+defer</b>. And that will work, this file has to come after that file, even
 if we&apos;re putting him on the head of the page using the defer attribute.
 Because once again, we need to make sure that we&apos;re using these
 functions from this library here in the script so it has to load first.
@@ -2562,9 +2562,9 @@ functions from this library here in the script so it has to load first.
 And it&apos;s working just fine. I can get to my menu items. It&apos;s not a
 fancy page, but this is a good example that shows you how to take a
 script and do the same thing that we did in plain JavaScript, but using
-**jQuery**. And using some of the nifty **jQuery** helper functions such
-as **hide**, the **click handler**, the **next** method, the **not**
-method, the **toggle** method, all make it possible for us to write
+<b>jQuery</b>. And using some of the nifty <b>jQuery</b> helper functions such
+as <b>hide</b>, the <b>click handler</b>, the <b>next</b> method, the <b>not</b>
+method, the <b>toggle</b> method, all make it possible for us to write
 shorter scripts, along with the fact that you don&apos;t have to do loops.
 So that makes it much shorter and hopefully you&apos;re pretty excited about
 this.
@@ -2586,7 +2586,7 @@ this.
   title="1.19 JS and jQuery Challenges"
   alt="1.19 JS and jQuery Challenges." />
 
-JavaScript and **jQuery** challenges.
+JavaScript and <b>jQuery</b> challenges.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 134. javascript & jquery challenges (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2596,8 +2596,8 @@ JavaScript and **jQuery** challenges.
   alt="JS and jQuery Challenges." />
 
 One of the best ways of learning JavaScript is through these challenges,
-and in particular now that we&apos;re getting into **jQuery** it&apos;s
-important to get used to the **jQuery** syntax.
+and in particular now that we&apos;re getting into <b>jQuery</b> it&apos;s
+important to get used to the <b>jQuery</b> syntax.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. how to do these challenges (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2608,8 +2608,8 @@ important to get used to the **jQuery** syntax.
 
 The way these challenges work is we&apos;ll pose a challenge, I&apos;ll put
 forward a challenge, and I&apos;ll have you do it in both JavaScript and
-**jQuery**. This will really help you with the syntax of both JavaScript
-and **jQuery**, and understanding the differences between the two.
+<b>jQuery</b>. This will really help you with the syntax of both JavaScript
+and <b>jQuery</b>, and understanding the differences between the two.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136. example, challenge 1 - JS (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2628,14 +2628,14 @@ look at the solution that&apos;s fine, you can look at the solution and
 hopefully you&apos;ll go ah-ha, I see what I was supposed to do and then you
 can go back and do the challenge without looking at the solution.
 
-If you want to learn Javascript or **jQuery** you have to get used to
+If you want to learn Javascript or <b>jQuery</b> you have to get used to
 the syntax and this is the best way to get there, is to really force
 yourself to do these challenges, and do them several times, do them over
 and over again. Do them today and then do them again tomorrow, and
 tomorrow when you do them hopefully you&apos;ll be able to do more of the
 challenges without looking at the answers. Each challenge builds on the
 next so that they become more complex as they go along, and that will
-really help you learn both JavaScript and **jQuery**, and help you
+really help you learn both JavaScript and <b>jQuery</b>, and help you
 understand the differences between the syntax of how each of them work.
 
 <h3>PDF of Challenges</h3>
@@ -2649,15 +2649,15 @@ understand the differences between the syntax of how each of them work.
 
 <h3 id="ch2-00-obj">2.00 Learning Objectives</h3>
 
--   Use **jQuery** to animate elements on a web page using the helper
+-   Use <b>jQuery</b> to animate elements on a web page using the helper
     functions or custom animations.
 
 -   Use callback functions to trigger a function when an animation is
     completed.
 
--   Use **jQuery** to create a tabbed interface element for a web page.
+-   Use <b>jQuery</b> to create a tabbed interface element for a web page.
 
--   Use the **jQuery** effects library to create animations for the
+-   Use the <b>jQuery</b> effects library to create animations for the
     tabs.
 
 -   Use plain JavaScript to create the same tabbed interface.
@@ -2676,14 +2676,14 @@ understand the differences between the syntax of how each of them work.
   alt="2.00 Week/Module 2 Introduction." />
 
 Congratulations, you&apos;ve made it to the 2nd module in our 2^nd^ course
-on JavaScript. In this module, we&apos;ll be working with the **jQuery**
+on JavaScript. In this module, we&apos;ll be working with the <b>jQuery</b>
 effects library, which provides you with a lot of animation effects that
 you can use with all sorts of projects and in your interfaces. We&apos;ll
-compare that to using JavaScript and **CSS** to create your animations
+compare that to using JavaScript and <b>CSS</b> to create your animations
 and see how the two are different and what are the strengths and pros
 and cons of each as you learn and work on projects. It&apos;s a lot of fun
 and you&apos;re really going to enjoy it. Buckle in and let&apos;s get started
-with learning about the effects library in **jQuery**.
+with learning about the effects library in <b>jQuery</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Intro to jQuery Effects Library (4:05)</h2>
@@ -2695,7 +2695,7 @@ with learning about the effects library in **jQuery**.
   title="2.01 Intro to jQuery Effects Library"
   alt="2.01 Intro to jQuery Effects Library." />
 
-**jQuery** effects library.
+<b>jQuery</b> effects library.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 139. important considerations - css vs js (84) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2705,18 +2705,18 @@ with learning about the effects library in **jQuery**.
   alt="Important Considerations - CSS vs JavaScript Animations." />
 
 We&apos;ll be looking at how to use the effects library that&apos;s built into
-**jQuery**. But there&apos;s some important things to understand about
-animation in JavaScript versus animation in **CSS**. Generally, it&apos;s
-better to do animation in **CSS** if at all possible. When the animation
-is done in **CSS**, the computer&apos;s **GPU** can be used to help with the
+<b>jQuery</b>. But there&apos;s some important things to understand about
+animation in JavaScript versus animation in <b>CSS</b>. Generally, it&apos;s
+better to do animation in <b>CSS</b> if at all possible. When the animation
+is done in <b>CSS</b>, the computer&apos;s <b>GPU</b> can be used to help with the
 processing of the animation, that will make the animation smoother and
 more efficient. You&apos;ll particularly notice this on phones, especially
 older phones.
 
-However, the effects library in **jQuery** is really easy to use, and
+However, the effects library in <b>jQuery</b> is really easy to use, and
 for something minor or if you need something really quick, it can be a
 great option. In this particular lesson, we&apos;ll be looking at how to use
-the effects library in **jQuery**. I have some example files that you
+the effects library in <b>jQuery</b>. I have some example files that you
 can download and when you open them up, they look nice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 140. hide, show, toggle blue box (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2740,7 +2740,7 @@ If we go over and look at the HTML involved here, I just have some links
 with these buttons, and then I&apos;ve got this box here.
 
 I&apos;ve got a little bit of CSS as appear to make it look nice and that&apos;s
-fine. Down here, you&apos;ll notice that I have **jQuery** plugged in so
+fine. Down here, you&apos;ll notice that I have <b>jQuery</b> plugged in so
 that&apos;s all set and ready to go, and a place for us to put our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. first button, hide function (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2750,9 +2750,9 @@ that&apos;s all set and ready to go, and a place for us to put our script.
   title="First button, hide function"
   alt="First button, hide function." />
 
-Now, the first one that we&apos;re going to look at is the **hide** function
+Now, the first one that we&apos;re going to look at is the <b>hide</b> function
 (furthest left of the 3 buttons) which we&apos;ve already looked at before.
-We&apos;ve seen this **hide** function when we did the sidebar menu
+We&apos;ve seen this <b>hide</b> function when we did the sidebar menu
 exercise. But the hide function can also do animation. Let&apos;s take a
 look at how to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2764,11 +2764,11 @@ look at how to do that.
   alt="Define box hidden." />
 
 Over here, what I could do is I could type in here, I could go get this
-first link here. I&apos;m going to go get and use my **jQuery** object. Then
-I&apos;m going to get **hide** box, that link. I&apos;m going to add a quick add
+first link here. I&apos;m going to go get and use my <b>jQuery</b> object. Then
+I&apos;m going to get <b>hide</b> box, that link. I&apos;m going to add a quick add
 onto it, click. When I click it, I&apos;m going to run a function, like so.
 In that function, what I&apos;m going to do is I&apos;m going to get this
-element again using my **jQuery** object. This element box, div id pound
+element again using my <b>jQuery</b> object. This element box, div id pound
 box. I tell it to, hide. Now if we do it like this, it will work, but it
 won&apos;t do any animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2794,7 +2794,7 @@ Let&apos;s try it out. If I come over here and refresh this page and click
   alt="Test, jQuery box hide normal." />
 </p>
 
-But in **jQuery**, you can actually pass a value in here. There are a
+But in <b>jQuery</b>, you can actually pass a value in here. There are a
 few keywords that it can use. You can use normal, slow, or fast. You&apos;ll
 see now when I do refresh and click &quot;Hide,&quot; it does an animation as it
 hides that box.
@@ -2863,13 +2863,13 @@ hide the box and animate that.
 
 Let&apos;s add a couple more. We&apos;ve got a few more buttons here. Let&apos;s do
 a few more of these. I&apos;m going to do pound show box or hashtag if you
-prefer hash instead. I&apos;m going to add the **click handler** and then
+prefer hash instead. I&apos;m going to add the <b>click handler</b> and then
 put a function in here. Always type from the outside, so you get used to
 the syntax and understand which thing closes which thing. I&apos;m going to
 do function parentheses, curly braces there and move that down. Then
-I&apos;m going to do again, I&apos;m going to go get my **jQuery** object and
-get pound **showbox**. No box, just box of the same box. Instead of hide
-I&apos;m going to do **show**. Maybe we&apos;ll make this one go for 500
+I&apos;m going to do again, I&apos;m going to go get my <b>jQuery</b> object and
+get pound <b>showbox</b>. No box, just box of the same box. Instead of hide
+I&apos;m going to do <b>show</b>. Maybe we&apos;ll make this one go for 500
 milliseconds. You&apos;ll see that will work.
 
 Let&apos;s test that. We come over here and refresh this. We can hide the
@@ -2886,7 +2886,7 @@ Now toggle will both hide and show. If it&apos;s hidden, it&apos;ll show it. If
 it&apos;s showing it&apos;ll hide it. Over here again, I&apos;m going to just add
 toggle box. It&apos;s this link here. It&apos;s this link up here, toggle box.
 Then down here we&apos;re going to do box and instead of show, we&apos;re going
-to do **toggle** like that. Remember toggle is a helper function that
+to do <b>toggle</b> like that. Remember toggle is a helper function that
 allows us to do both hiding and showing and we&apos;ve seen that before. But
 now we can use it with the effects library and do some animation with
 it.
@@ -2899,8 +2899,8 @@ it.
   alt="Define toggle function, 500 milliseconds fade, test alert." />
 
 Now one of the really great things about these animations and doing this
-in JavaScript and **jQuery** is that you have a thing called a
-**callback** function. What you can do after the toggle(500) is you can
+in JavaScript and <b>jQuery</b> is that you have a thing called a
+<b>callback</b> function. What you can do after the toggle(500) is you can
 pass in a function that runs with its parentheses and curly braces like
 so. In here we could put alert (&apos;done! &apos;) something like that. This
 function will run after this animation has been completed. In fact, I&apos;m
@@ -2921,7 +2921,7 @@ else, something like that.
 Let&apos;s see how this works. The page does the alert. That&apos;s really cool
 and I could do the other way around as well. With that, we are able to
 see that we can make these functions, these animations and the
-animations can have a **callback** function that runs when the animation
+animations can have a <b>callback</b> function that runs when the animation
 is complete and this is useful. Let&apos;s take a look at the next example
 in the next lesson.
 
@@ -2955,9 +2955,9 @@ this div id set to box down here, and it&apos;s just an empty div.
   style="width:50%"
   alt="jQuery Helper Functions." />
 
-You can see that it looks very similar here. But **jQuery** has helper
-functions in for **sliding up** and **sliding down** and **slide
-toggle**. Because again, these are common tasks. These are common things
+You can see that it looks very similar here. But <b>jQuery</b> has helper
+functions in for <b>sliding up</b> and <b>sliding down</b> and <b>slide
+toggle</b>. Because again, these are common tasks. These are common things
 that we need to do in interfaces, so they created a method that does
 specifically this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2970,17 +2970,17 @@ specifically this.
 
 Let&apos;s take a look at what we need in order to do this in our code. The
 syntax is very similar to what we saw before. What we&apos;re going to do
-is, like we did before, we&apos;re going to use our **jQuery** object to go
+is, like we did before, we&apos;re going to use our <b>jQuery</b> object to go
 in and get our link here.
 
-It&apos;s pound, I&apos;ve got a **slideupbox** as a link here, so let&apos;s do
-that. **slideupbox** and we&apos;ll put a **click handler** on that. We&apos;re
-looking for **dot click**. Then in here we&apos;re going to run a function
+It&apos;s pound, I&apos;ve got a <b>slideupbox</b> as a link here, so let&apos;s do
+that. <b>slideupbox</b> and we&apos;ll put a <b>click handler</b> on that. We&apos;re
+looking for <b>dot click</b>. Then in here we&apos;re going to run a function
 with its own parentheses and curly braces. Then we&apos;re going to put our
 code inside the curly braces there, just the same way we did before.
-Again as before, we&apos;re going to go get our **jQuery** object and get
+Again as before, we&apos;re going to go get our <b>jQuery</b> object and get
 box, because that&apos;s where we&apos;re going to be moving up and down. Then
-what we&apos;re going to use here for a **jQuery** function is slide up.
+what we&apos;re going to use here for a <b>jQuery</b> function is slide up.
 Again, we can put in an amount of time or you could put inside quotes,
 you can put slow or something like that, and that will make that box
 slide up.
@@ -3015,23 +3015,23 @@ as it did that and ended up with displaying that.
   alt="#slidedownbox.click function #box.slideDown('2000')." />
 
 The other ones look very similar as you can imagine. We&apos;ve got
-**slideupbox**, we&apos;ve got **slidedownbox**, and we&apos;ve got **slide
-toggle** and they all work very similarly. I can actually copy that,
+<b>slideupbox</b>, we&apos;ve got <b>slidedownbox</b>, and we&apos;ve got <b>slide
+toggle</b> and they all work very similarly. I can actually copy that,
 paste it, and I recommend you type it actually, but for expedience sake,
 I&apos;m going to just copy and paste it and change this to slidedownbox.
-This is going to be **SlideDown** and I can choose an amount of time.
+This is going to be <b>SlideDown</b> and I can choose an amount of time.
 We&apos;re going to do two seconds, something like that. We have a longer
 time.
 
 Now, when you&apos;re working with animation, one thing to be aware of is
-that, there is such a thing as **easing**. An animation can run and it
+that, there is such a thing as <b>easing</b>. An animation can run and it
 will run for the period of time. This animation will run over two
 seconds, but it can run the exact same amount over those two seconds,
-which is **linear easing**, meaning that it&apos;s the same speed at the
-beginning as it is at the end or you can change the **easing** such that
+which is <b>linear easing</b>, meaning that it&apos;s the same speed at the
+beginning as it is at the end or you can change the <b>easing</b> such that
 it goes faster at the beginning and slower at the end or slower at the
 beginning and then speeds up towards the end of the animation, or you
-can actually do **easing** in and outward. Starts slow, speeds up and
+can actually do <b>easing</b> in and outward. Starts slow, speeds up and
 then end slow or starts fast, slows down and ends fast. You can do all
 of these different types of easing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3042,15 +3042,15 @@ of these different types of easing.
   title="#slidedownbox.click funcion 'swing'"
   alt="#slidedownbox.click funcion 'swing'." />
 
-**jQuery** has some basic **easing** built-in and you can put in here in
-quotes, **&quot;swing&quot;**. That will do a little bit of **easing** on this
+<b>jQuery</b> has some basic <b>easing</b> built-in and you can put in here in
+quotes, <b>&quot;swing&quot;</b>. That will do a little bit of <b>easing</b> on this
 item. It&apos;s pretty subtle. You might not really see it, but it will
 actually work. Take a look for yourself. Slide up, slide down. Does
 slide down, but it does a swing animation. It&apos;s not the same speed all
 the way through. It&apos;s hard to tell, but it is there, just subtle.
 
-**jQuery** has built into it some basic **easing.** There&apos;s also a
-**plug-in** and one of the strengths of **jQuery** is the **plug-in**
+<b>jQuery</b> has built into it some basic <b>easing.</b> There&apos;s also a
+<b>plug-in</b> and one of the strengths of <b>jQuery</b> is the <b>plug-in</b>
 architecture. We&apos;re going to talk about that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3063,9 +3063,9 @@ architecture. We&apos;re going to talk about that in the next lesson.
   title="2.04 Example 2: Plugin Architecture"
   alt="2.04 Example 2: Plugin Architecture." />
 
-In the last lesson, we added some **easing** to our function, so that
-now it slides up using the **linear easing**, but slide down is using
-the **swing easing**.
+In the last lesson, we added some <b>easing</b> to our function, so that
+now it slides up using the <b>linear easing</b>, but slide down is using
+the <b>swing easing</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165. test, slidedown (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3074,33 +3074,33 @@ the **swing easing**.
   title="Test, slidedown"
   alt="Test, slidedown." />
 
-**Easing** can give your animations a little bit of personality. They
+<b>Easing</b> can give your animations a little bit of personality. They
 can make them seem a little bit less mechanical, when the speed of the
 animation is not always the same all the way through the animation. But
-the **easings** that are built into **jQuery** don&apos;t give you a lot of
+the <b>easings</b> that are built into <b>jQuery</b> don&apos;t give you a lot of
 options. They are very basic.
 
-There&apos;s this amazing **plug-in (gsgd.co.uk/sandbox/jquery/easing/)**
+There&apos;s this amazing <b>plug-in (gsgd.co.uk/sandbox/jquery/easing/)</b>
 that we can use, and it allows you to choose different types of
-**easings** so that you can do some different types of things with this,
+<b>easings</b> so that you can do some different types of things with this,
 and you can go through and try some of these different settings here to
-see what they actually do. **Ease-out** will affect the animation at the
-end where **ease-in** will affect the animation at the beginning,
-**ease-out-and-in** will affect the animation at both ends. We&apos;ve got
-**ease-in-and-out**. We&apos;ve got a whole bunch of them in here for all
-these different: in **ease-out**, **ease-in** all these different
+see what they actually do. <b>Ease-out</b> will affect the animation at the
+end where <b>ease-in</b> will affect the animation at the beginning,
+<b>ease-out-and-in</b> will affect the animation at both ends. We&apos;ve got
+<b>ease-in-and-out</b>. We&apos;ve got a whole bunch of them in here for all
+these different: in <b>ease-out</b>, <b>ease-in</b> all these different
 animations in here. But in order to use this, we have to plugins
-**plug-in**.
+<b>plug-in</b>.
 
 <ul>
   <li><a href="https://tutorialzine.com/2013/04/50-amazing-jquery-plugins">
     50 Awesome jQuery Plugins</a></li>
 </ul>
 
-**jQuery** has a plug-in architecture that allows you to add more
-functionality to **jQuery**. You can see over here on our file that
+<b>jQuery</b> has a plug-in architecture that allows you to add more
+functionality to <b>jQuery</b>. You can see over here on our file that
 I&apos;ve already added the plug-in. The way this works is first we need the
-**jQuery** library, then you need the plug-in, and then we use it in our
+<b>jQuery</b> library, then you need the plug-in, and then we use it in our
 script.
 
 Down here I&apos;m going to do the third animation here for slide toggle,
@@ -3114,13 +3114,13 @@ on this website here;
     jQuery Easing</a></li>
 </ul>
 
-This is where I got the **easing** plug-in on the **CDN** that I put
-into here. That&apos;s where that came from, **Cloudflare**.
+This is where I got the <b>easing</b> plug-in on the <b>CDN</b> that I put
+into here. That&apos;s where that came from, <b>Cloudflare</b>.
 
 That comes from this website here;
 
 but we can use the easings that we see here. If I want an
-**easeOutBounce**, I can actually use that animation if I want to over
+<b>easeOutBounce</b>, I can actually use that animation if I want to over
 here. Let&apos;s give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 166. slidetogglebox.click function (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3130,8 +3130,8 @@ here. Let&apos;s give that a try.
   title="slidetogglebox.click function"
   alt="slidetogglebox.click function." />
 
-**&quot;easeOutBounce&quot;**. Make sure you spell it right with the capital
-letters and everything **easeOutBounce**. Make sure you spell it all
+<b>&quot;easeOutBounce&quot;</b>. Make sure you spell it right with the capital
+letters and everything <b>easeOutBounce</b>. Make sure you spell it all
 correct and that you get the correct capital letters. Make sure you put
 it inside the quotes, and so on and so forth.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3144,7 +3144,7 @@ it inside the quotes, and so on and so forth.
 
 If I save that and then come back and look at my example here, and click
 slide toggle, you can see that it does this bounce. Which is pretty
-interesting or you could do **easeInBounce** to get the bounce on the
+interesting or you could do <b>easeInBounce</b> to get the bounce on the
 opposite end of the animation, which might look a little weird. It&apos;s
 doing the bounce first and then it&apos;s finishing the animation, which
 looks a little weird, but you get the idea and you can try some of these
@@ -3157,9 +3157,9 @@ other easings and see what personality you can get.
   title="easeOutCirc, easeIn, easeOutCirc"
   alt="easeOutCirc, easeIn, easeOutCirc." />
 
-I really like the **easeOutCirc** ones. Yeah, **easeIn** and
-**easeOutCirc**. You can give those a try. Let&apos;s see what we can do
-with that. Over here **easeInCirc**. Again, at two seconds, that&apos;s
+I really like the <b>easeOutCirc</b> ones. Yeah, <b>easeIn</b> and
+<b>easeOutCirc</b>. You can give those a try. Let&apos;s see what we can do
+with that. Over here <b>easeInCirc</b>. Again, at two seconds, that&apos;s
 pretty slow. You can even slow down more if you wanted to see it. I&apos;ll
 set that to three seconds. You can see how it changes the animation by
 either slowing it down or speeding it up. I think this one&apos;s speeding
@@ -3172,7 +3172,7 @@ it up as it gets to the end of the animation.
   title="slidetogglebox.click function slideToggle, 3000 with easeOutCirc"
   alt="slidetogglebox.click function slideToggle, 3000 with easeOutCirc." />
 
-Let&apos;s come back and try **easeOutCirc**. That&apos;s starting fast and
+Let&apos;s come back and try <b>easeOutCirc</b>. That&apos;s starting fast and
 ending slow. It gives the animation a little bit of personality as it
 does its thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3183,9 +3183,9 @@ does its thing.
   title="slidetogglebox.click function slideToggle, 3000 with easeInCirc"
   alt="slidetogglebox.click function slideToggle, 3000 with easeInCirc." />
 
-You could try **easeInOutCirc**. It&apos;s hard to see, but it is doing
+You could try <b>easeInOutCirc</b>. It&apos;s hard to see, but it is doing
 something there. Try these different animations. You&apos;ll notice if you
-spell them wrong, if I do, **easeoutCirc** like that, then it won&apos;t
+spell them wrong, if I do, <b>easeoutCirc</b> like that, then it won&apos;t
 work quite right at all.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 171. slidetogglebox.click function with easeoutcirc & alert (102) ~~~~~~~~~~~~~-->
@@ -3196,9 +3196,9 @@ work quite right at all.
   alt="slidetogglebox.click function slideToggle, 3000 with easeOutCirc, with function alert done." />
 
 One last quick thing here before we&apos;re done with this lesson is you can
-also add the **callback** function after the **easing**. I could add a
-function here and say done, and you&apos;ll see that when that **easing** is
-finished, when that animation is finished, that **callback** function
+also add the <b>callback</b> function after the <b>easing</b>. I could add a
+function here and say done, and you&apos;ll see that when that <b>easing</b> is
+finished, when that animation is finished, that <b>callback</b> function
 will fire.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. test, function done (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3209,7 +3209,7 @@ will fire.
   alt="Test, function done." />
 
 Now that&apos;ll work, and it comes back and it says it&apos;s done. That gives
-us a lot of information about how to work with these **built-in**
+us a lot of information about how to work with these <b>built-in</b>
 animations, and we&apos;re going to do more in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3233,7 +3233,7 @@ but just slightly different.
   alt="Example, Example 3 - HTML." />
 
 It&apos;s got four buttons and we can use some built-in functions in
-**jQuery** to **fade** objects in and out, or to **fade** them to a
+<b>jQuery</b> to <b>fade</b> objects in and out, or to <b>fade</b> them to a
 particular percentage of opacity.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175. sample screen, fade out (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3243,10 +3243,10 @@ particular percentage of opacity.
   title="Sample screen, fade out"
   alt="Sample screen, fade out." />
 
-Here I have **fade out**, which will fade it out completely. **Fade
-in**, will fade it all the way to being visible. But then I had **fade**
+Here I have <b>fade out</b>, which will fade it out completely. <b>Fade
+in</b>, will fade it all the way to being visible. But then I had <b>fade</b>
 to 20 percent, which will fade it to 20 percent opacity, and then
-**fade** to 100 percent, which will **fade** it all the way in.
+<b>fade</b> to 100 percent, which will <b>fade</b> it all the way in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 176. fadeoutbox click function fadeout 3000 (104) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3257,7 +3257,7 @@ to 20 percent, which will fade it to 20 percent opacity, and then
 
 Let&apos;s take a look at how we can do that. Over here I have Example 3
 open and you can see that I have much the same styling up at the top of
-the page, as well as my navigation year and my **jQuery** libraries
+the page, as well as my navigation year and my <b>jQuery</b> libraries
 plugged in. I don&apos;t have the easing plug-in here, but you could add it
 if you wanted to add some easing to these as well.
 
@@ -3267,8 +3267,8 @@ our click handler to it. Click, and then we&apos;re going to pass in our
 anonymous function that runs when you click that thing. In here, we&apos;re
 going to go get our box.
 
-Again, we use our **jQuery** object to get pound box. Then we&apos;re going
-to do, I believe the function is **fadeout** because we&apos;re fading out
+Again, we use our <b>jQuery</b> object to get pound box. Then we&apos;re going
+to do, I believe the function is <b>fadeout</b> because we&apos;re fading out
 the first one. Yeah, fadeout. Again, we could put in normal or you could
 put fast, or you could put slow, or you could put a specific number of
 milliseconds; 3,003 seconds is a long time, but we can actually give
@@ -3282,9 +3282,9 @@ seconds, it will become invisible.
   title="fadeoutbox click function fadeOut 3000, swing alert done"
   alt="fadeoutbox click function fadeOut 3000, swing alert done." />
 
-We could do **fadein** as well. I can copy that and paste it or just
+We could do <b>fadein</b> as well. I can copy that and paste it or just
 type it again. It&apos;s always a good idea to do that, but we&apos;re going to
-use this **ID** instead. Instead of fade out, we&apos;re going to fade in. I
+use this <b>ID</b> instead. Instead of fade out, we&apos;re going to fade in. I
 could do three seconds and you could do the easing swing. It&apos;s going to
 go in quotes, &apos;&apos;swing.&apos;&apos;
 
@@ -3313,7 +3313,7 @@ In this lesson, we&apos;ll make these last two buttons work.
   title="fadeto20box click function fadeTo, 3 milliseconds, 0.2"
   alt="fadeto20box click function fadeTo, 3 milliseconds, 0.2." />
 
-And with that, there&apos;s a fade to method that we can use in **jQuery**.
+And with that, there&apos;s a fade to method that we can use in <b>jQuery</b>.
 
 So here, just as we&apos;ve done before, we can add a new event handler for
 when you click the the button has fadeto20box on here. I&apos;m going to
@@ -3326,9 +3326,9 @@ And we&apos;re going to use the fade to method. See it even comes up here,
 fade to. And we&apos;re going to fade to, the way this works is we&apos;re going
 to put in the amount of time. So we&apos;ll do, again I&apos;ll do 3000, just to
 kind of slow but gives us a sense of what that is. But then the second
-number it takes is a **duration**, an amount. Takes the **duration**,
+number it takes is a <b>duration</b>, an amount. Takes the <b>duration</b>,
 that&apos;s the first number. The second number is how much it&apos;s going to
-**fade** **to**. We want to do 0.2 like that. And now, that should
+<b>fade</b> <b>to</b>. We want to do 0.2 like that. And now, that should
 actually work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. test, fade to 20% (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3349,7 +3349,7 @@ it fades down but it doesn&apos;t fade all the way down, it fades to 20%.
   alt="fadeto100box click function, fadeTo 3 milliseconds, 100%." />
 
 We can do that and then we can do the fade to again for the last one.
-We&apos;re going to use this link **fadeTo**. When you click the fadeTo,
+We&apos;re going to use this link <b>fadeTo</b>. When you click the fadeTo,
 it&apos;s going to fade to one. The opacity is a number between 0 and 1, 0
 is completely transparent, 1 is completely opaque.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3362,18 +3362,18 @@ is completely transparent, 1 is completely opaque.
 
 The 2^nd^ button has the callback function and the swing animation on
 it. And if you wanted to do some of the other easings, you would have to
-go get that **easing plug** in and stick it after **jQuery** loads.
+go get that <b>easing plug</b> in and stick it after <b>jQuery</b> loads.
 
 But before we run our script, the order in which things loads matters
 because of the way that the functions build on each other. We need to
-have **jQuery**. In order to use **jQuery**, we would need to have the
-**easing** **plug-in** in in order to use the using plug in. Using
-**plug in** has to come after **jQuery**. All of this stuff has to go in
-order on your page for it to work properly. We can have the **callback**
+have <b>jQuery</b>. In order to use <b>jQuery</b>, we would need to have the
+<b>easing</b> <b>plug-in</b> in in order to use the using plug in. Using
+<b>plug in</b> has to come after <b>jQuery</b>. All of this stuff has to go in
+order on your page for it to work properly. We can have the <b>callback</b>
 functions. And then in the next example, an example for, we&apos;ll look at
 some custom animations where you can do some different kinds of things.
 In examples 1, 2 and 3, we&apos;ve used some of the built-in convenience
-functions that **jQuery** has built into it.
+functions that <b>jQuery</b> has built into it.
 
 For fading in and out, for sliding up and down, for hiding and showing,
 and toggling, slide toggle and doing all these kinds of things that we
@@ -3391,7 +3391,7 @@ we&apos;ll take a look at that in the next part of this lesson.
   alt="2.07 Example 4: Custom Animations - Part 1." />
 
 Next, for example 4, we&apos;re going to look at some of the custom
-animations you can use in **jQuery** and over here I have my example
+animations you can use in <b>jQuery</b> and over here I have my example
 four file open, and you&apos;ll notice that the HTML and the CSS have
 changed just a little bit.
 
@@ -3399,7 +3399,7 @@ There are more links here and my box now has some content inside the div
 box here, and you&apos;ll see that my stylings is a little bit different up
 here, if you look at the actual page, it looks like this now. We&apos;re
 going to make each of these buttons work so we can see how some custom
-animations work in **jQuery**.
+animations work in <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 184. example 4 - custom animate method; growbox (109) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3408,7 +3408,7 @@ animations work in **jQuery**.
   title="Example 4 - Custom Animate Method; growbox"
   alt="Example 4 - Custom Animate Method; growbox." />
 
-To do this, we&apos;ll use the animate method in **jQuery**, and you&apos;ll see
+To do this, we&apos;ll use the animate method in <b>jQuery</b>, and you&apos;ll see
 that it allows us to animate some, not all, but some of the CSS
 properties that we have come to know and love over the years in working
 with CSS. That gives us a lot of power, because we can actually use
@@ -3423,13 +3423,13 @@ and down or showing and hiding and doing this kind of stuff.
   alt="Define growbox, animate." />
 
 Let&apos;s give it a try and see what it does over here. Down here I&apos;m
-going to add in my script. I&apos;m going to go get my **jQuery** objects
+going to add in my script. I&apos;m going to go get my <b>jQuery</b> objects
 and I&apos;m going to get this first link up here, growbox, pound, growbox,
 and I&apos;m going to add a click event handler on there, and then I&apos;m
 going to pass in a function that runs when you click it, and
 everything&apos;s going to go inside these curly brackets here. At this
 point I want to affect box, pound box, don&apos;t forget the pound sign.
-We&apos;re going to do the animate function in **jQuery**. This will animate
+We&apos;re going to do the animate function in <b>jQuery</b>. This will animate
 the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 186. example 4 - pass in an object (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3455,11 +3455,11 @@ of storing data in JavaScript, and it comes with a key value pair.
   alt="Define growbox, animate, width 710px." />
 
 We define an object with the curly braces, and then we have a key value
-pair. In this case, the key is width, that&apos;s the **CSS** property
+pair. In this case, the key is width, that&apos;s the <b>CSS</b> property
 we&apos;re animating, and then the value is 710px, and you&apos;ll notice that
 the value goes inside quotes, but the key does not. That&apos;s a
 distinguishing aspect of objects in JavaScript in general and also in
-**jQuery**.
+<b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 188. test, growbox - move to right 710px (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3486,7 +3486,7 @@ affecting the actual text inside the box in the next lesson.
   title="2.08 Example 4: Custom Animations - 2"
   alt="2.08 Example 4: Custom Animations - 2." />
 
-For this next example, we will start with our **jQuery** object again as
+For this next example, we will start with our <b>jQuery</b> object again as
 always, and then go and get the element that we want to get, which in
 this case is pound grow box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3522,7 +3522,7 @@ We come over here. Font size. We&apos;re using the JavaScript version of
 font size rather than the CSS version, which is font dash size. We
 can&apos;t have the dash in there because JavaScript will think that looks
 like a minus sign, and so it&apos;s trying to subtract size from font and
-it&apos;s not going to work. Instead what we want is **fontSize**, colon and
+it&apos;s not going to work. Instead what we want is <b>fontSize</b>, colon and
 then I can set it to say 24 px or something like that and that should
 change the font size.
 
@@ -3639,10 +3639,10 @@ with commas.
   title="doall script"
   alt="doall script." />
 
-Let&apos;s do that. Down here, once again, I&apos;m going to use my **jQuery**
+Let&apos;s do that. Down here, once again, I&apos;m going to use my <b>jQuery</b>
 object to go get this pound, but what I want is do all. I&apos;m going to
 get pound do all. Then I&apos;m going to add a click handler. Click for when
-you click the **doall** button, and then we&apos;re going to run a function,
+you click the <b>doall</b> button, and then we&apos;re going to run a function,
 when that button is clicked, and here we have it. Here now, we want to
 effect a parentheses pound box, like so. Again, we&apos;re going to do the
 animate method. We&apos;re going to pass in our object, so we do the curly
@@ -3678,7 +3678,7 @@ should do all of those things.
 Now, the last button is to do them in a sequence. First we want to grow
 the box, then we want to grow the text, then we want to move the box. We
 want to do each one of these in a sequence. We can do that with
-**callback** functions.
+<b>callback</b> functions.
 
 Each one of these animations can have its own callback functions that
 when it finishes it calls the next one and when that one finishes it
@@ -3704,7 +3704,7 @@ another function, parentheses, curly braces. It&apos;s really easy to lose
 track of this stuff. You have to be really careful with it, but then
 I&apos;m going to put the next one inside these curly braces. I move that
 down, and I&apos;m going to do this one here. Now change that to 1500. There
-we go. That&apos;s the last one. It doesn&apos;t get a **callback** function.
+we go. That&apos;s the last one. It doesn&apos;t get a <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203. test, sequence (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3741,7 +3741,7 @@ Here are resources related to these lessons:
 <h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
-section: **Intro to jQuery Effects Library**.
+section: <b>Intro to jQuery Effects Library</b>.
 
 <ul>
   <li><a href="https://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
@@ -3758,7 +3758,7 @@ section: **Intro to jQuery Effects Library**.
   title="2.10 Intro to Tabbed Interface Using jQuery"
   alt="2.10 Intro to Tabbed Interface Using jQuery." />
 
-Tabbed interface, using **jQuery**.
+Tabbed interface, using <b>jQuery</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 205. tabbed interface - using jquery (122) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3768,7 +3768,7 @@ Tabbed interface, using **jQuery**.
   alt="Tabbed Interface - Using jQuery." />
 
 We&apos;re going to create this tabbed interface, and this is a really good
-project to see the **jQuery** effects library in practice.
+project to see the <b>jQuery</b> effects library in practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206. example, end result (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3777,7 +3777,7 @@ project to see the **jQuery** effects library in practice.
   title="Example, End Result"
   alt="Example, End Result." />
 
-We&apos;ve looked at how to use the **jQuery** effects library, and now
+We&apos;ve looked at how to use the <b>jQuery</b> effects library, and now
 we&apos;re going to use it a little bit in this project.
 
 This is a good project for seeing how that effects library can be
@@ -3855,7 +3855,7 @@ to auto so that it centers on the screen.
 
 With those two pieces in place. Then for the actual tabs, for the
 unordered list, I&apos;m going to get rid of the bullets and set them to
-display **flex**, so they go next to each other.
+display <b>flex</b>, so they go next to each other.
 
 You might wonder about the single bracket, and what this does is it
 makes sure that the unordered list, that&apos;s inside the tabs directly,
@@ -3880,7 +3880,7 @@ the next lesson.
 <h3>Start Files: Creating a Tabbed Interface with jQuery</h3>
 
 Attached is a zip file of the the things you need to begin this
-exercise. A **zip file** is defined as: a computer file whose contents
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
@@ -3984,7 +3984,7 @@ So I&apos;m going to add these two rules here.
 </p>
 
 But this is again going to target the divs that are specifically these
-divs that are labeled **tabs-1** because again I could add a div in here
+divs that are labeled <b>tabs-1</b> because again I could add a div in here
 as part of my content and I don&apos;t want that to be affected.
 
 But I want just these divs here the ones that are tab one tattoo and tab
@@ -4034,7 +4034,7 @@ will fix up the way we want our taps to look and everything to look for
 this project, switch back to the styles and add two more rules you have
 to add in here.
 
-The 1st one (**first-of-type**) is styling the **anchor** tags again,
+The 1st one (<b>first-of-type</b>) is styling the <b>anchor</b> tags again,
 this is getting our first tab up at the top of the page and I&apos;m just
 changing its color and changing it&apos;s background so it matches our
 interface. And then I&apos;m giving some styling to the paragraphs to make
@@ -4088,13 +4088,14 @@ interface function.
 </p>
 
 You can see down here at the bottom of the index.html file, I&apos;ve added
-the link to the **jQuery** library.
+the link to the <b>jQuery</b> library.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 225. #tabs > ul > li > a, click function (133) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image225.png"
   style="width:50%"
-  alt="." />
+  title="#tabs > ul > li > a, click function"
+  alt="#tabs > ul > li > a, click function." />
 </p>
 
 The first thing we want to do here is add some jQuery to gather all of
@@ -4107,14 +4108,16 @@ anonymous function that runs when you click these links. This anonymous
 function will run and is always on typing from the outside ends so that
 you don&apos;t lose any curly braces or semi-colons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 226/227. set and test color & background of tags (133) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image226.png"
   style="width:40%"
-  alt="." />
+  title="Set tabs-1, 2, 3 font color and backgroud to default"
+  alt="Set tabs-1, 2, 3 font color and backgroud to default." />
 <img src="./images/image227.png"
   style="width:40%"
-  alt="." />
+  title="Change font and background colors if tabs-# is clicked"
+  alt="Change font and background colors if tabs-# is clicked." />
 </p>
 
 Then I can click inside the curly braces and in here I want to get all
@@ -4123,11 +4126,12 @@ background color of these are all set to the default background here,
 this default color. Then I&apos;m going to take the one that I&apos;ve clicked
 and change its background color and the color of the font.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 228. key/value pairs, css background & font colors (134) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png"
   style="width:50%"
-  alt="." />
+  title="Key/value pairs, css background &amp; font colors"
+  alt="Key/value pairs, css background &amp; font colors." />
 </p>
 
 Then we can pass in key value pairs that will work with this object. We
@@ -4138,11 +4142,12 @@ and its properties can be pound cecece. That&apos;s going to set these
 colors. They immediately all of them gets set to the color of the
 background.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. all tabs set default (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png"
   style="width:50%"
-  alt="." />
+  title="All tabs set default colors"
+  alt="All tabs set default colors." />
 </p>
 
 If I come over here and test this. As soon as I click on one of these,
@@ -4163,11 +4168,12 @@ do that in the next lesson.
 
 All of the backgrounds to default color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 231. turn 'this' css background/color (135) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image231.png"
   style="width:50%"
-  alt="." />
+  title="Change color to 'this' css background and font"
+  alt="Change color to 'this' css background and font." />
 </p>
 
 Now we need to turn the background in the color of the font for the one
@@ -4202,19 +4208,20 @@ how we had our markup setup over here. Remember up here, we set these
 href&apos;s here to link to these id&apos;s down here. Really what I need to do
 is find out what href I clicked on when I clicked on one of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233.  (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 233. const thistab = this.attr 'href' (137) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image233.png"
   style="width:50%"
-  alt="." />
+  title="const thisTab = this.attr href"
+  alt="const thisTab = this.attr href." />
 </p>
 
 We can do that very easily down here, again, using this keyword. I&apos;m
 going to make a variable var, this tab. I&apos;m going to assign it a value
 it can be var it can be constant I&apos;ll just use const for now. I&apos;m
-going to use the, this keyword I&apos;m going to use in our **jQuery**
+going to use the, this keyword I&apos;m going to use in our <b>jQuery</b>
 object and I&apos;m going to use.attr, which is the attribute method in
-**jQuery** that allows me to get a particular attribute on an element
+<b>jQuery</b> that allows me to get a particular attribute on an element
 and what attribute do you want, I want the href.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. test alert, tabs-2 (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4236,12 +4243,13 @@ Now that we have that working and we&apos;re able to click on these and swap
 out the correct information there. What do we want to do? How do we want
 to actually handle this content here? What I want to do is fade out the
 content that&apos;s showing for the tab that&apos;s selected, then fade in the
-new content and that animation is going to be handled by the **jQuery**
+new content and that animation is going to be handled by the <b>jQuery</b>
 effects library. It&apos;s going to happen in 200 milliseconds. But that
 fade is important to the interface because it gives the user a clue that
 the information is actually changing. That&apos;s what we&apos;ll do in the next
 lesson.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-14">2.14 Whole Script (7:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. whole script (2.14) (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4263,7 +4271,7 @@ Now we need to fade out the current tab that is showing.
 </p>
 
 What I need to do is get the tab that&apos;s currently showing, and we can
-do that using **jQuery**. The most effective way is to use tabs, angle
+do that using <b>jQuery</b>. The most effective way is to use tabs, angle
 bracket, div:visible. We&apos;ve talked about this filter before briefly,
 and it will give us whichever one is currently set to display block.
 That&apos;s the current one that we need to set, and we&apos;re just going to
@@ -4272,11 +4280,11 @@ one that&apos;s showing. The other ones are all set to display none. Once
 this animation is finished, we need to take the one that we&apos;ve clicked
 on and feed it back in.
 
-What we need here is a **callback** function. Once this is done fading out, we want
+What we need here is a <b>callback</b> function. Once this is done fading out, we want
 to add a callback function, with its parentheses, and its current
 devices in here. I want this tab to get faded in. The way we&apos;re going
 to do is we&apos;re going to make use of our variable that we&apos;ve already
-created here. We can use our **jQuery** object to get this tab. We know
+created here. We can use our <b>jQuery</b> object to get this tab. We know
 that this thing is going to hold in either pound tab dash 1 or pound tab
 dash 2 because that&apos;s what we found when we did this alert. You get
 this one and then we can do.fadeIn over 200 milliseconds. We&apos;ll fade
@@ -4291,7 +4299,7 @@ that one in.
 </p>
 
 Now we have a nice simple script that allows us to capture these
-elements and use the **jQuery** effects library to feed them in and out.
+elements and use the <b>jQuery</b> effects library to feed them in and out.
 This isn&apos;t particularly heavy duty effects libraries stuff. It&apos;s not
 going to look terrible on mobile or anything like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4309,7 +4317,7 @@ one in, and that&apos;s working perfectly. Because of the animation, it&apos;s
 giving us a sense that the content is actually changing. That&apos;s a
 really good use of animation there and the effects library. That&apos;s
 working great. Let&apos;s just review the whole script. Here we&apos;re loading
-the **jQuery** library. 
+the <b>jQuery</b> library. 
 
 Then in our script, we&apos;re getting those anchor tags and adding clickHandler 
 to notice that a function runs when they&apos;re clicked. In the tabs we are 
@@ -4321,7 +4329,7 @@ take the corresponding div that goes with that, fade out the one that&apos;s
 currently showing, and take the corresponding div and feed it back in.
 
 That&apos;s the entire script. It&apos;s a nice simple script and does a nice
-job of making use of our effects library in **jQuery** to build
+job of making use of our effects library in <b>jQuery</b> to build
 something simple and effective that you could use in lots of websites.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. summary jquery tabs (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4332,23 +4340,24 @@ something simple and effective that you could use in lots of websites.
   alt="Summary jQuery Tabs." />
 </p>
 
-Again, in summary, this is a great use of **jQuery**, and maybe if this
+Again, in summary, this is a great use of <b>jQuery</b>, and maybe if this
 is the only thing you&apos;re putting in your webpage, you&apos;d use
-**jQuery**. It&apos;s not really worth it because you&apos;re downloading the
+<b>jQuery</b>. It&apos;s not really worth it because you&apos;re downloading the
 entire library just to make these little tabs. We&apos;ll see how to do the
 same tabs in plain JavaScript, but it&apos;s working really great, and if
-you are using **jQuery** for other things on your website, then this
+you are using <b>jQuery</b> for other things on your website, then this
 would be really good use for it as well. The last thing to do here is
 just, put the script in a separate link file, add the IIFE immediately
 invoked function expression closure, and use strict directive, and link
 it in the head of the page with the deferred property and do all that
 stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. script.js and populate it (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image240.png"
   style="width:50%"
-  alt="." />
+  title="Create script.js and populate it with functions from index.html"
+  alt="Create script.js and populate it with functions from index.html." />
 </p>
 
 Here, I can just make a new file called script.js. On that file I can
@@ -4359,11 +4368,12 @@ come back here and just copy this script from here. Already use const
 for the one variable that I have, so I don&apos;t really have to do anything
 with that. That&apos;s all fine, and that should be all good there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 241.  (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 241. call script.js from 'head' with 'defer' (142) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image241.png"
   style="width:50%"
-  alt="." />
+  title="Call script.js from 'head' with 'defer'"
+  alt="Call script.js from 'head' with 'defer'." />
 </p>
 
 Then back here I can just get rid of the stuff. Instead, I&apos;m going to
@@ -4371,15 +4381,15 @@ move these things up to the top of the page, cut them from here, and
 stick them in the head, but again, you have to add the defer attribute
 here, like that. Then for this script here, I&apos;m just going to link to
 my script tags. I mean just SRC equals quote, script.js, and then don&apos;t
-forget, **defer**, and then this thing down here can go up. There we go.
+forget, <b>defer</b>, and then this thing down here can go up. There we go.
 That should all work. Let&apos;s just test it really quickly and make sure
 it works. Refresh, and it&apos;s working great. We&apos;ve got a nice, clean,
-simple script that we can use using **jQuery**.
+simple script that we can use using <b>jQuery</b>.
 
 <h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
-section: **Creating a Tabbed Interface with jQuery**.
+section: <b>Creating a Tabbed Interface with jQuery</b>.
 
 <ul>
   <li>2.14-Tab-Interface-with-jQuery.pdf</li>
@@ -4426,7 +4436,7 @@ using jQuery except now we&apos;re going to be using plain JavaScript.
 
 To get started I have my files open in visual studio code and you can
 notice that it&apos;s a little bit different in the setup and then I&apos;ve
-added these classes; **visible, hidden, & visuallyhidden**. And we&apos;re
+added these classes; <b>visible, hidden, & visuallyhidden</b>. And we&apos;re
 going to making use of classes because we don&apos;t have the J Query
 effects library at our disposal. We&apos;re going to have to make use of CSS
 and classes to do the animation and do the hiding and showing of things.
@@ -4544,7 +4554,7 @@ working on the JavaScript in the next lesson.
 <h3>Start Files: Creating a Tabbed Interface with JavaScript</h3>
 
 Attached is a zip file of the the things you need to begin this
-exercise. A **zip file** is defined as: a computer file whose contents
+exercise. A <b>zip file<b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
@@ -4581,11 +4591,12 @@ working on the JavaScript.
 I have a linked script file here, and it&apos;s linked at the bottom of this
 file, you can see down here. I&apos;ve got my script file linked.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 251. var tabs = document.queryselectorall, #tabs > ul > li > a (149) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image251.png"
   style="width:50%"
-  alt="." />
+  title="Define var tabs = document.querySelectorAll('#tabs > ul > li > a');"
+  alt="Define var tabs = document.querySelectorAll('#tabs > ul > li > a');" />
 </p>
 
 I&apos;m going to go to that script file and just work directly in here.
@@ -4618,11 +4629,12 @@ the name of this function here and that will run this function down
 here. That&apos;s going to get us started with getting our tabs, the next
 thing we need to do is figure out what we need to do in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 252. function selecttab event, preventdefault (150) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image252.png"
   style="width:50%"a
-  alt="." />
+  title="function selectTab(event), preventDefault"
+  alt="function selectTab(event), preventDefault." />
 </p>
 
 What do we need to do in here? The first thing I&apos;m going to do is, I&apos;m
@@ -4655,8 +4667,8 @@ the class of active on it. I want to remove the class of active from all
 of these and then add it to the one that I clicked, so it gets the
 correct class on there. I&apos;m going to use a loop to do that. 
 
-In **jQuery**, we didn&apos;t really need to use loops because we could apply
-things to groups of elements using your **jQuery** object, but in plain
+In <b>jQuery</b>, we didn&apos;t really need to use loops because we could apply
+things to groups of elements using your <b>jQuery</b> object, but in plain
 JavaScript, we need to loop through and do this. Here I&apos;m going to add
 var i equals zero where i is less than tabs dot length, We&apos;re using the
 same variable that we created up here to the global scope there and then
@@ -4671,7 +4683,7 @@ the prevent default. Can use it again, your event dot target. That will
 get this item event.target.className equals active,and that will put the
 active class on the one that I clicked, so I&apos;m removing from all of
 them and then putting it on the one that I clicked. What we did in one
-line of **jQuery**, writing a little function here to do in plain
+line of <b>jQuery</b>, writing a little function here to do in plain
 JavaScript, but that should work, let&apos;s go over and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4773,7 +4785,7 @@ this old content. And when that animation that transition has finished,
 we need to do something with it, we&apos;re going to take it off, we&apos;re
 going to set it back to its basically display none at that point.
 
-And in jQuery, we have these great **callback** functions after the
+And in jQuery, we have these great <b>callback</b> functions after the
 effects library does its effects that we can use. But here we don&apos;t
 have that instead what we&apos;re going to use as an event listener. So I&apos;m
 going to put an event listener on old content to out event listener and
@@ -4970,11 +4982,11 @@ once.
 
 So now at this point we have a working functional script over here. We
 can look at the script and it&apos;s a lot more complicated than the
-**jQuery** version. I think we can all agree that this script is a lot
-more complicated in the **jQuery** version. And part of your decision as
+<b>jQuery</b> version. I think we can all agree that this script is a lot
+more complicated in the <b>jQuery</b> version. And part of your decision as
 to which one you would want to use if you wanted to include such an
 interface on a project of one sort or another is, is it worth including
-the entire **jQuery** library in order to have a shorter script here? Or
+the entire <b>jQuery</b> library in order to have a shorter script here? Or
 is it better to have the longer script and make use of CSS and do this
 kind of stuff?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4995,10 +5007,10 @@ add in here our IIFE, our immediately invoked function expression,
 like so. And then we can just make some room here and we can move this
 whole script into there.
 
-And of course we can go through and we can change **var** to **const**
+And of course we can go through and we can change <b>var</b> to <b>const</b>
 if you didn&apos;t do that right from the beginning, that could be
-**const**. This one has to be **let** because it&apos;s inside of a loop.
-Down here this one needs to be **let**. And then these can be **const**
+<b>const</b>. This one has to be <b>let</b> because it&apos;s inside of a loop.
+Down here this one needs to be <b>let</b>. And then these can be <b>const</b>
 here.
 
 But there are a few more things that I want to show you that we can do
@@ -5022,7 +5034,7 @@ Javascript next.
 </p>
 
 As mentioned in the previous lesson, this script is definitely longer
-and more complex than what we would see in it with the **jQuery**
+and more complex than what we would see in it with the <b>jQuery</b>
 script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 271. 1st 22 lines of script.js (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5065,11 +5077,11 @@ can work on arrays.
 Tabs is an array because it&apos;s going in and getting all of these tabs,
 and there&apos;s just three of them, but it&apos;s an array. The for loop is
 fine. It works fine, but it&apos;s a little bit hard to read and a little
-bit cumbersome. The **forEach** method is a little bit nicer. Let&apos;s
+bit cumbersome. The <b>forEach<b> method is a little bit nicer. Let&apos;s
 just try that and see how that looks instead. What we would do is we
-would say **tabs.forEach** like this. This is the **forEach** method.
-The **forEach** method, again, it&apos;s an array method, so it works on
-arrays. We do **tabs.forEach**, and we pass in a **callback** function
+would say <b>tabs.forEach</b> like this. This is the <b>forEach</b> method.
+The <b>forEach</b> method, again, it&apos;s an array method, so it works on
+arrays. We do <b>tabs.forEach</b>, and we pass in a <b>callback</b> function
 that runs.
 
 This function takes a variable that&apos;s going to work on each element and
@@ -5115,7 +5127,7 @@ The way they work is like this, you get rid of the word function, and
 instead over here you put what they call an arrow, which is really just
 an equals sign integrator that sign in here. If you&apos;re passing in only
 one variable, you can get rid of the parentheses. Now we have
-**tabs.forEach** **tab**, and then this becomes the function that runs.
+<b>tabs.forEach</b> <b>tab</b>, and then this becomes the function that runs.
 Now, we could do the same thing down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 275/276.  (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5130,40 +5142,40 @@ Now, we could do the same thing down here.
 
 Again, we&apos;re going to do this in more depth later to talk about arrow
 functions and when do you use them and when not to use them and what
-they&apos;re good for. It just gives us a clear **tabs.forEach tab**. You
+they&apos;re good for. It just gives us a clear <b>tabs.forEach tab</b>. You
 could even move this up, so it&apos;s all on one line. That helps with the
 clarity of the script.
 
 Again, you don&apos;t have to do any of this stuff if you don&apos;t want to.
 The script worked perfectly fine before. There&apos;s nothing wrong with
-using the **for loop** and now using the **forEach** or using the
-**arrow** functions. But it just seemed like this would be a good place
+using the <b>for loop</b> and now using the <b>forEach</b> or using the
+<b>arrow</b> functions. But it just seemed like this would be a good place
 to introduce those ideas.
 
 Just to summarize the lesson, we&apos;ve created a typical tabbed interface,
 and we&apos;ve done it with plain JavaScript. It&apos;s a little bit different
-than the version that we did in **jQuery**, and ultimately, you have to
-decide whether including the **jQuery** library and doing the shorter
+than the version that we did in <b>jQuery</b>, and ultimately, you have to
+decide whether including the <b>jQuery</b> library and doing the shorter
 script is worth it. It&apos;s not that long, it&apos;s not that bad, it&apos;s
-certainly a lot less code to download than the entire **jQuery**
+certainly a lot less code to download than the entire <b>jQuery</b>
 library.
 
-On the other hand, if you&apos;re using **jQuery** for other things in your
-project already, then using it for the **tabs** doesn&apos;t actually add
+On the other hand, if you&apos;re using <b>jQuery</b> for other things in your
+project already, then using it for the <b>tabs</b> doesn&apos;t actually add
 any extra weight, and it works. It is short and quick and right to the
 point. This is a great example of the difference between JavaScript and
-**jQuery**.
+<b>jQuery</b>.
 
 If this helps you get used to working with JavaScript and more excited
-about learning it, then by all means, use the **jQuery**. If you prefer
-to learn the plain vanilla JavaScript because **jQuery** is starting to
+about learning it, then by all means, use the <b>jQuery</b>. If you prefer
+to learn the plain vanilla JavaScript because <b>jQuery</b> is starting to
 get phased out, then this is a good example of the work you need for it
 with plain JavaScript.
 
 ## PDF of Presentation
 
 Here is a PDF of the presentation slides used in the lesson for this
-section: Creating a Tabbed **Interface with JavaScript.**.
+section: Creating a Tabbed <b>Interface with JavaScript.</b>.
 
 -   
 
@@ -5176,10 +5188,10 @@ section: Creating a Tabbed **Interface with JavaScript.**.
 
 <h2 id="ch3-00-obj">3.00 Learning Objectives</h2>
 
--   Use **jQuery** syntax to target and manipulate DOM elements on a web
+-   Use <b>jQuery</b> syntax to target and manipulate DOM elements on a web
     page.
 
--   Use the built-in **jQuery** effects library to create animations on
+-   Use the built-in <b>jQuery</b> effects library to create animations on
     the web page.
 
 -   Apply best practices when working with scripts.
@@ -5194,7 +5206,7 @@ section: Creating a Tabbed **Interface with JavaScript.**.
 Welcome to the third module in our second course in JavaScript. In this
 module, you&apos;ll create some scripts that are useful and that you can put
 on actual webpages. Plus they&apos;ll build your skills and you&apos;ll get
-better at working with JavaScript and **jQuery**, they provide a lot of
+better at working with JavaScript and <b>jQuery</b>, they provide a lot of
 practice. Let&apos;s dive in and start working on these scripts. I think
 you&apos;re going to get a lot out of them and I look forward to going
 through them with you.
@@ -5208,7 +5220,7 @@ through them with you.
   alt="." />
 </p>
 
-**jQuery** Image Slider, version 1, the basic slider.
+<b>jQuery</b> Image Slider, version 1, the basic slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 279.  (168) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5217,10 +5229,10 @@ through them with you.
   alt="." />
 </p>
 
-Learning JavaScript and **jQuery** is the most fun when you&apos;re working
+Learning JavaScript and <b>jQuery</b> is the most fun when you&apos;re working
 on projects that you could actually use. In this lesson, we&apos;re going to
 make a basic image slider that you could put on any website. Plus, along
-the way, you&apos;ll learn some new things about **jQuery** and JavaScript
+the way, you&apos;ll learn some new things about <b>jQuery</b> and JavaScript
 and get a lot of practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 280. final project (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5261,7 +5273,7 @@ some of those for this project and that&apos;s fun.
 </p>
 
 If we come over and look at the index file, you&apos;ll notice that we have
-a **div** with an ID of slider, and then an unordered list with list
+a <b>div</b> with an ID of slider, and then an unordered list with list
 items for each of the images for the slides in the slideshow. This is
 actually a fairly common setup that you will find for image slider
 scripts that you might find around the web. Then I&apos;ve just got some
@@ -5279,7 +5291,7 @@ links for the previous and next buttons.
 
 If we come over here and actually look at that HTML, you&apos;ll see that
 that&apos;s what it looks like here. I&apos;m loading my normalized script.
-I&apos;ve got my CSS. I&apos;ve got **jQuery** loaded here. I&apos;m loading an
+I&apos;ve got my CSS. I&apos;ve got <b>jQuery</b> loaded here. I&apos;m loading an
 easing plugin that we&apos;ll talk about in a bit. Then we&apos;ve got our
 script file here, and then we&apos;ve got our slides. That&apos;s all there.
 I&apos;ve got a script file here which is empty. It&apos;s where we&apos;re going to
@@ -5296,7 +5308,7 @@ about in just a minute here.
 The important way to think about this or the important strategy here is
 that the images are all going to be lined up in a row.
 
-What we have as the actual window, the **slider** **div**, is going to
+What we have as the actual window, the <b>slider</b> <b>div</b>, is going to
 have overflow hidden on it so that you can&apos;t see the other images, and
 it&apos;s going to be set to position relative so that we can absolutely
 position the string of images, the strip of images inside that window.
@@ -5328,7 +5340,7 @@ the content of the pages.
 
 If we come over here and look at this, the overflow hidden on this
 slider element here, which is, again, if we go back to the index here,
-it&apos;s this **div** here.
+it&apos;s this <b>div</b> here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 288.  (173) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5338,7 +5350,7 @@ it&apos;s this **div** here.
 </p>
 
 
-If I come and look at the page, it&apos;s this **div** here that has the
+If I come and look at the page, it&apos;s this <b>div</b> here that has the
 picture in it. That div has overflow hidden on it and it is showing only
 the slide that is in the window and the width of it is set to the same
 width as the actual images. The height is set to the same height and
@@ -5369,7 +5381,7 @@ slider declaration here. Let&apos;s do this just to see what happens.
   alt="." />
 </p>
 
-If I come over here to my styles and remove **overflow** **hidden** just
+If I come over here to my styles and remove <b>overflow</b> <b>hidden</b> just
 temporarily, I&apos;m going to just comment this out, like so and save this.
 When I come back and refresh this, you&apos;ll see that the other slides are
 all lined up. Each one is on there next to each other and they&apos;re all
@@ -5384,7 +5396,7 @@ write our JavaScript.
 <h3>Start Files: jQuery Image Sliders</h3>
 
 Attached is a zip file of the the things you need to begin this
-exercise. A **zip file** is defined as: a computer file whose contents
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
@@ -5451,9 +5463,9 @@ I&apos;m going to come back to Visual Studio code and go to my script file,
 and here I can just add in const. What did I set this for? I set this
 variable to image count. How many images do I have? I&apos;m going to set
 variable image count, I&apos;m going to make it equal to m, I&apos;m going to
-use my **jQuery** object to go in and find out how long my script is.
+use my <b>jQuery</b> object to go in and find out how long my script is.
 
-It&apos;s **&quot;#slider ul li**&quot; dot length, and that will actually go in to
+It&apos;s <b>&quot;#slider ul li</b>&quot; dot length, and that will actually go in to
 my document over here (right image) and look for this slider element,
 and then go and find the list items, and we&apos;ll find out how many are
 there. That should return to me, a five.
@@ -5468,9 +5480,9 @@ there. That should return to me, a five.
   alt="." />
 </p>
 
-Then I&apos;m going to have a variable const **imageWidth**, and I&apos;m going
-to use my **jQuery** object for that, and I&apos;m going to put in here
-**&quot;#slider, ul li :first img**&quot; dot width, and that should give me a
+Then I&apos;m going to have a variable const <b>imageWidth</b>, and I&apos;m going
+to use my <b>jQuery</b> object for that, and I&apos;m going to put in here
+<b>&quot;#slider, ul li :first img</b>&quot; dot width, and that should give me a
 number that tells me how wide might first image is. Let&apos;s see what that
 does, alert imageWidth. I&apos;m getting 400. It&apos;s telling me that it&apos;s
 400 pixels wide.
@@ -5485,7 +5497,7 @@ does, alert imageWidth. I&apos;m getting 400. It&apos;s telling me that it&apos;
 Before I move on, I&apos;m looking at my slide here and realize I&apos;m using
 this first pseudo-class here to get the first list item. What that does
 is it goes into the DOM here, and it looks at the first one of these
-list items and then gets the image. Now, as it turns out, **jQuery** has
+list items and then gets the image. Now, as it turns out, <b>jQuery</b> has
 deprecated this first pseudo-class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 298.  (178) ~~~~~~~~~~~~~~~~~~-->
@@ -5495,10 +5507,10 @@ deprecated this first pseudo-class.
   alt="." />
 </p>
 
-If you look this up on the **jQuery** website, it&apos;ll say deprecated.
+If you look this up on the <b>jQuery</b> website, it&apos;ll say deprecated.
 They don&apos;t want to use this, instead, they want to use the first
-method. Let&apos;s do that. I&apos;ll just do **jQuery: first**, in Google
-Search. You will see as of **jQuery** 3.4, the first pseudo-class is
+method. Let&apos;s do that. I&apos;ll just do <b>jQuery: first</b>, in Google
+Search. You will see as of <b>jQuery</b> 3.4, the first pseudo-class is
 deprecated. Remove it from your selectors in filter results using dot
 first instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5509,11 +5521,11 @@ first instead.
   alt="." />
 </p>
 
-It&apos;s important when you&apos;re using a library like **jQuery** to stay up
+It&apos;s important when you&apos;re using a library like <b>jQuery</b> to stay up
 on sort of the latest trends with language as best you can, it&apos;s not
 always easy to, this one slipped by me when I made this slide, but I&apos;m
 aware of it now. I&apos;m going to fix it here in the lesson. I&apos;m going to
-come over here and get rid of first here, and instead use **first** like
+come over here and get rid of first here, and instead use <b>first</b> like
 that. That should give me the same result.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 300.  (179) ~~~~~~~~~~~~~~~~~~-->
@@ -5526,12 +5538,12 @@ that. That should give me the same result.
 Let&apos;s check it. If I come over here and refresh the page, I&apos;m still
 getting 400, that&apos;s great. It is important to pay attention to these
 things as you can. I should add, while this still works currently in the
-current version of **jQuery**, it might not work in future versions of
-**jQuery**. Since I&apos;m loading this version of **jQuery** up at this
-project, unless I update my link to **jQuery** to a newer version, it
+current version of <b>jQuery</b>, it might not work in future versions of
+<b>jQuery</b>. Since I&apos;m loading this version of <b>jQuery</b> up at this
+project, unless I update my link to <b>jQuery</b> to a newer version, it
 will continue to work. This is actually fine to use for now with the
-current version of **jQuery** that we have, but going forward, we should
-use the dot **first** method instead. I just wanted to show you that.
+current version of <b>jQuery</b> that we have, but going forward, we should
+use the dot <b>first</b> method instead. I just wanted to show you that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
@@ -5570,10 +5582,10 @@ zero there, and I don&apos;t want that.
 
 I want to make sure I&apos;m getting the actual images. What I want to do to
 prevent that problem from happening is I want to add an
-**EventListener** that checks to see when all of the assets for the page
+<b>EventListener</b> that checks to see when all of the assets for the page
 have downloaded and it&apos;s not going to run the script until they are. We
-can use the **on** method in **jQuery** and the **on** method in
-**jQuery** is similar to the **addEventListener** method that we have in
+can use the <b>on</b> method in <b>jQuery</b> and the <b>on</b> method in
+<b>jQuery</b> is similar to the <b>addEventListener</b> method that we have in
 plain JavaScript and then you pass in a particular event that you&apos;re
 looking for. Then it&apos;ll run a function when that event happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5584,22 +5596,22 @@ looking for. Then it&apos;ll run a function when that event happens.
   alt="." />
 </p>
 
-Here we&apos;re going to put the **on method** on the window object and the
-window itself. We&apos;re looking for a **load** event and this **callback**
-function will run when **load** is completed, meaning all of the images
+Here we&apos;re going to put the <b>on method</b> on the window object and the
+window itself. We&apos;re looking for a <b>load</b> event and this <b>callback</b>
+function will run when <b>load</b> is completed, meaning all of the images
 for the page have downloaded. That will keep the script from running
 until the images are actually there.
 
 Let&apos;s add this onto our script and we&apos;re going to put everything
 inside this window load function for our page. I&apos;m going to add my
-**jQuery** object and I&apos;m going to pass in the window object. I&apos;m
-going to use **on** and I&apos;m going to look for the **load** event, and
-then I&apos;m going to run a **callback** function. Then everything&apos;s going
+<b>jQuery</b> object and I&apos;m going to pass in the window object. I&apos;m
+going to use <b>on</b> and I&apos;m going to look for the <b>load</b> event, and
+then I&apos;m going to run a <b>callback</b> function. Then everything&apos;s going
 to go inside of these curly braces here.
 
 While I&apos;m here, this function here, will work as a closure for the page
 for this function. This thing is all in its own closure, we can add our
-**use strict** directive, right here. We don&apos;t need to make a separate
+<b>use strict</b> directive, right here. We don&apos;t need to make a separate
 IIFE, the Immediately Invoked Function Expression. We don&apos;t need that
 because we want this function to run when the page has loaded all its
 files. When it has, then we can say, okay, now you can run, and we&apos;re
@@ -5672,7 +5684,7 @@ with the keyword let and I&apos;m going to have a counter that&apos;s also going
 to change. Then I&apos;m going to set the width of my slider UL to be that
 total width. We&apos;ll talk about that in just a minute here, let&apos;s go
 ahead and add these in. Let position equals zero, let counter equals
-zero, then I&apos;m going to use my **jQuery** object to go in and say, Okay
+zero, then I&apos;m going to use my <b>jQuery</b> object to go in and say, Okay
 pound slider ul.css. Your width is going to be total width. Let&apos;s stop
 the lesson here and then we&apos;ll talk about this more in the next lesson.
 
@@ -5687,7 +5699,7 @@ the lesson here and then we&apos;ll talk about this more in the next lesson.
 </p>
 
 In our previous video we had set this setting here which sets the width
-of our unordered list to the **totalWidth** and I just want to talk
+of our unordered list to the <b>totalWidth</b> and I just want to talk
 about this now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 311.  (20x) ~~~~~~~~~~~~~~~~~~-->
@@ -5697,10 +5709,10 @@ about this now.
   alt="." />
 </p>
 
-If we go over to the styles, you&apos;ll see on here that the slider **UL**
+If we go over to the styles, you&apos;ll see on here that the slider <b>UL</b>
 isn&apos;t given a specific width, but I want to add a width to it because
-that will make sure that when I set it to **display flex** that
-everything fits properly inside this **UL**.
+that will make sure that when I set it to <b>display flex</b> that
+everything fits properly inside this <b>UL</b>.
 
 Adding that to the script ensures that the slider is going to be the
 exact width that I need it to be, 2000 pixels.
@@ -5731,13 +5743,13 @@ this.
   alt="." />
 </p>
 
-I&apos;m going to start with my **jQuery** object and then I want to get the
+I&apos;m going to start with my <b>jQuery</b> object and then I want to get the
 element that I want to work on my pound next element which if we go back
 to the index file here is this link.
 
-Right here **id** equals **next** for this link when you click on this
+Right here <b>id</b> equals <b>next</b> for this link when you click on this
 button that says next. When we click on that, we want to have a click
-**event** **handler**. And then we&apos;re going to pass in an **anonymous**
+<b>event</b> <b>handler</b>. And then we&apos;re going to pass in an <b>anonymous</b>
 function that runs when you click function, parentheses, curly braces,
 click between the curly braces and move that down.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5748,22 +5760,22 @@ click between the curly braces and move that down.
   alt="." />
 </p>
 
-So when we&apos;re here now, we&apos;re going to take **counter**, and increment
-it plus plus. So **counter** has now gone from zero to 1 and we&apos;re
-going to set the position of the of that **slider** over to the left
+So when we&apos;re here now, we&apos;re going to take <b>counter</b>, and increment
+it plus plus. So <b>counter</b> has now gone from zero to 1 and we&apos;re
+going to set the position of the of that <b>slider</b> over to the left
 -400 pixels. So we&apos;ll set leftPosition. That variable there is going to
 be set equal to counter times image width and it should be a negative
 number, counter times imageWidth a negative so that&apos;s going to give me
-a -400 and then I also need plus **PX** and that will set that left
+a -400 and then I also need plus <b>PX</b> and that will set that left
 position to what I need it to be.
 
 I think it&apos;s a little bit easier to read if I use my tick marks, put
 the whole thing inside of tick Marks and then I&apos;m going to use the
 dollar sign and the curly braces. &dollar; and curly braces like that. So
-I&apos;ve got **counter** times **imageWidth**. So I&apos;m using my string
+I&apos;ve got <b>counter</b> times <b>imageWidth</b>. So I&apos;m using my string
 literal here to get to give me a negative to counter multiply by image
 width. That&apos;s going to generate a 400 and put a negative there and put
-a **px** at the end. That will set the left position.
+a <b>px</b> at the end. That will set the left position.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 315.  (20x) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5789,7 +5801,7 @@ it the next time it&apos;s going to be -1200. It&apos;s going to move over 400
 pixels each time.
 
 For each image, we&apos;ll set it to a speed of 700 milliseconds and then
-we&apos;ll use the **easeinQuad** **easing** method of the **easing** plugin
+we&apos;ll use the <b>easeinQuad</b> <b>easing</b> method of the <b>easing</b> plugin
 already put into the project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 314 again.  (20x) ~~~~~~~~~~~~~~~~~~-->
@@ -5804,12 +5816,12 @@ on it, our custom animate. And in there we&apos;re going to pass in an
 object and we&apos;ll get more into objects and how they work in a later
 lesson. But for right now it&apos;s just takes key value pairs. We&apos;re going
 to animate the left property and what are we going to animate it to?
-We&apos;re going to animate it to the **leftPosition**, which the first time
+We&apos;re going to animate it to the <b>leftPosition</b>, which the first time
 you click the button will be -400, then a comma and then I&apos;m going to
 say 700 because that&apos;s the only property I&apos;m actually animating.
 
 700 milliseconds is how quickly it&apos;s animating and I&apos;m going to do
-**easeInQuad**, which is the easing that I have selected for this
+<b>easeInQuad</b>, which is the easing that I have selected for this
 particular animation. You could do a different one if you wanted to, but
 that will get the correct animation. And that needs to go inside quotes.
 Now with that, this should be somewhat functioning. It&apos;ll function
@@ -5937,8 +5949,8 @@ strip, the right-hand end or a fifth image, so that if we&apos;re on the
 fifth image, we&apos;re going to decrement to four and then we&apos;re going to
 decrement it to three and then to two, and then to one and then when we
 get to under zero, we&apos;re going to set it back to the last image. Then
-we&apos;re going to leave the **leftPosition**. These two pieces
-(**counter** and **imageWidth**) stay exactly the same. In fact, we
+we&apos;re going to leave the <b>leftPosition</b>. These two pieces
+(<b>counter</b> and <b>imageWidth</b>) stay exactly the same. In fact, we
 could actually make the script, make this event handler by copying and
 pasting the next, because a bunch of it is the same.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5949,8 +5961,8 @@ pasting the next, because a bunch of it is the same.
   alt="." />
 </p>
 
-What we&apos;re changing here is instead of **next**, we&apos;re changing this
-to **previous**. The character instead of getting incremented, gets
+What we&apos;re changing here is instead of <b>next</b>, we&apos;re changing this
+to <b>previous</b>. The character instead of getting incremented, gets
 decremented minus minus. Then instead of setting counter, checking to
 see if it&apos;s the same as image count, we&apos;re going to see, is it less
 than zero? If it&apos;s less than zero, then we&apos;re going to set it to image
@@ -6007,7 +6019,7 @@ look at that in the next project.
   alt="." />
 </p>
 
-**jQuery** Image Slider Version 2.
+<b>jQuery</b> Image Slider Version 2.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 328.  (20x) ~~~~~~~~~~~~~~~~~~-->
@@ -6133,7 +6145,7 @@ look at my index here is it will take this entire a unordered list and
 make a copy of it, and stick it right here like that. That is going to
 end up looking like that when it is done when it is done cloning and
 appending. That is what it is going to do sort of in code rather than
-physically adding the **html** like I just did there. So it is going to
+physically adding the <b>html</b> like I just did there. So it is going to
 add that on there, it is going to clone it, and then appended to the
 slider and then I need to set the CSS of that of that second. A new
 ordered list.
@@ -6328,7 +6340,7 @@ explorer here, so you can see it better.
 But this function is a callback function that runs when this animation
 has completed and that&apos;s what I want to do here. I&apos;m going to click
 inside of there and move that down. Then I can say, I want to actually
-remove this first one, so I can say dollar sign, get my **jQuery**
+remove this first one, so I can say dollar sign, get my <b>jQuery</b>
 object and say here, pound slider ul.first.remove.That will take it off
 the DOM entirely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6579,12 +6591,12 @@ different types of situations that come up.
 </p>
 
 Slider, using JavaScript. In the previous lesson, we worked on making a
-Slider using **jQuery**, we did a couple versions of it. Here, we&apos;re
-going to do the same thing using plain JavaScript without **jQuery**,
+Slider using <b>jQuery</b>, we did a couple versions of it. Here, we&apos;re
+going to do the same thing using plain JavaScript without <b>jQuery</b>,
 just so you can compare the syntax and see how different it is. There
 will be a few little minor differences in the script, but it&apos;s very
-similar to what we saw with **jQuery**. Here, the animation is going to
-take place in **CSS** and we&apos;ll be using JavaScript to trigger the
+similar to what we saw with <b>jQuery</b>. Here, the animation is going to
+take place in <b>CSS</b> and we&apos;ll be using JavaScript to trigger the
 animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 359. final version sample screen (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6617,7 +6629,7 @@ they&apos;re all set up to float next to each other so that they end up in
 one long strip. And as you click on the buttons either left and right,
 the strip of slides moves in and out of the parent window showing only
 one image at a time. There&apos;s our basic strategy, very similar to what
-we had with the **jQuery** version.
+we had with the <b>jQuery</b> version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 361. example, html (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6629,7 +6641,7 @@ we had with the **jQuery** version.
 
 Now the HTML is a little bit different in this case, because instead of
 the list items just having a picture in it, like what we had for the
-**jQuery** slider, the list items have a div inside of it. And the div
+<b>jQuery</b> slider, the list items have a div inside of it. And the div
 is going to have an h2 and paragraph inside of it to create some content
 on that slide. The actual picture will be in the background of the list
 item, so that the list item is actually showing the picture as a
@@ -6672,7 +6684,7 @@ you&apos;ll see this transition left 700 milliseconds cubic-bezier with a
 bunch of numbers in here. And I&apos;ll tell you about where those come from
 in a minute. But we can see this in our CSS over here, right here. Using
 this transition we&apos;re going to transition the left property over 700
-milliseconds. That&apos;s the same as what we had in the **jQuery** version.
+milliseconds. That&apos;s the same as what we had in the <b>jQuery</b> version.
 But this cubic-bezier, where is that coming from?
 
 What I used to create those is this little web tool called CSS Easer or
@@ -6828,7 +6840,7 @@ little bit more in the next lesson.
 
 In our last lesson, we got some basic variables in place for our slider
 and they&apos;re very similar to the variables that you saw for the
-**jQuery** version of the slider. But now we&apos;re using plain JavaScript,
+<b>jQuery</b> version of the slider. But now we&apos;re using plain JavaScript,
 so the syntax is slightly different. It&apos;s a little bit longer, but
 it&apos;s not too bad.
 
@@ -6925,15 +6937,15 @@ animation over here.
 
 All I have to do is set that position left and CSS will handle the
 animation. That&apos;s one thing that&apos;s different between the JavaScript
-version and the **jQuery** version. In the **jQuery** version, we&apos;re
-using the **jQuery** animate method, which is using the built-in effects
+version and the <b>jQuery</b> version. In the <b>jQuery</b> version, we&apos;re
+using the <b>jQuery</b> animate method, which is using the built-in effects
 library for doing the animation. Here, we&apos;re just setting the CSS
 position of the CSS property to left position, which in this case is
 zero, and then we let CSS handle the animation.
 
 Because CSS uses the GPU instead of the CPU, it&apos;s nice and buttery
 smooth. It&apos;ll work well on older devices that don&apos;t have a faster
-processor. In newer device the **jQuery** will work fine, but older
+processor. In newer device the <b>jQuery</b> will work fine, but older
 devices, the CSS in particular will work a little bit better and be a
 little bit smoother, but I think it&apos;s even smoother on newer devices,
 honestly. That takes care of the if statement here. For the else, we
@@ -6985,7 +6997,7 @@ the same way. If I click &quot;Next&quot;, it&apos;s going all the way to the en
 and then back to the beginning. That&apos;s great, now we&apos;ve got that in
 place and that&apos;s all working and that&apos;s awesome. Your chore is to do
 the previous EventListener. This one&apos;s not as hard as the, the
-**jQuery** one, but it&apos;s very similar to what we have here, except
+<b>jQuery</b> one, but it&apos;s very similar to what we have here, except
 we&apos;re using the previous link and we&apos;re decrementing the counter but
 other than that it&apos;s very similar, see if you can do it on your own.
 
@@ -7036,12 +7048,12 @@ script with everything in it that we needed. You can see I left the else
 statements in here, I don&apos;t really need this, this is actually the
 longer version of it. But that&apos;s pretty cool. We&apos;ve got a full version
 of that script and you could use this on your websites and compare this
-to what we did with the **jQuery** versions.
+to what we did with the <b>jQuery</b> versions.
 
 Now if you want a challenge, try to make the version of the JavaScript
 slider work where the slides don&apos;t go all the way back to the beginning
 or go all the way back to the end when you get to the end, make it so
-that it wraps around to the second version of the **jQuery** script but
+that it wraps around to the second version of the <b>jQuery</b> script but
 just with JavaScript. Hopefully, that will work. Okay. With all that,
 hopefully, this is a great project for you and you&apos;ve learned a lot
 about JavaScript along the way.
@@ -7061,7 +7073,7 @@ about JavaScript along the way.
 
 -   Explore recursion.
 
--   Use **jQuery** syntax to create an interface element that could be
+-   Use <b>jQuery</b> syntax to create an interface element that could be
     used on any website.
 
 -   Practice using timers, recursion and callback methods.
@@ -7071,15 +7083,15 @@ about JavaScript along the way.
 ![](./3-19-images/media/image367.png){width="4.0in" height="2.264957349081365in"}
 
 Hello, you&apos;ve made it to the 4th module in our second course on
-JavaScript and **jQuery**. Congratulations, you&apos;ve learned a lot of
-JavaScript and a lot of useful **jQuery** for all of your interactive
+JavaScript and <b>jQuery</b>. Congratulations, you&apos;ve learned a lot of
+JavaScript and a lot of useful <b>jQuery</b> for all of your interactive
 projects. I think it&apos;s a lot of fun and I hope you&apos;ve enjoyed the ride
 so far. In this module, we&apos;re going to get into timers and recursion.
 These are very useful tools that will open up a whole world of
-possibilities for JavaScript and **jQuery**, and for your interactive
+possibilities for JavaScript and <b>jQuery</b>, and for your interactive
 projects. Breakout your code editor in your web browser, and let&apos;s get
 started on learning about timers and recursion in JavaScript and
-**jQuery**.
+<b>jQuery</b>.
 
 ### 4.00 JS-Timers-Examples.zip
 
@@ -7547,7 +7559,7 @@ other things that you could do.
 height="2.264957349081365in"}
 
 In this project we&apos;ll look at creating a content rotator and we&apos;ll use
-**jQuery**, and we&apos;ll use timers and recursion. This is a fun project,
+<b>jQuery</b>, and we&apos;ll use timers and recursion. This is a fun project,
 I hope you enjoy it. The finished version of the project will give you a
 quote that rotates around two different quotes after a period of time.
 And this is potentially very useful you could put this on a website to
@@ -7579,7 +7591,7 @@ Then the next paragraph fades in, waits seven seconds and then fades
 out. After the last paragraph fades out we want to go back and fade in
 the first paragraph and repeat the process indefinitely, so this is a
 really great job for recursion. We&apos;ll also be making use of the
-**jQuery** affects library a little bit along with some of the other
+<b>jQuery</b> affects library a little bit along with some of the other
 features we&apos;ve talked about in this course.
 
 So I hope you have fun with it and end up with a script that you could
@@ -7633,7 +7645,7 @@ six characters in one key. And other languages may have other characters
 associated with that as well but for English it&apos;s actually six
 characters.
 
-Okay, so we&apos;ve got that all set up, we have our **jQuery** library
+Okay, so we&apos;ve got that all set up, we have our <b>jQuery</b> library
 loaded down here and we have a script a rotator.js and that&apos;s where
 we&apos;re going to do our work over here is on the rotator.js. We&apos;ve got
 our IIFE, our immediately invoked function expression set up to keep
@@ -7711,10 +7723,10 @@ parentheses, and we&apos;ll do something in there, and then we&apos;ve got an
 else, we will do something in there.
 
 Do something else. Now, what am I checking? I&apos;m going to use my
-**jQuery** object, and the this keyword, this paragraph. Is a **jQuery**
+<b>jQuery</b> object, and the this keyword, this paragraph. Is a <b>jQuery</b>
 function that will return true or false, if something in there is true.
 If this is, and then I&apos;m going to say, if this is in here, and I can&apos;t
-remember, do I need to go and **jQuery** object for this?
+remember, do I need to go and <b>jQuery</b> object for this?
 
 I don&apos;t think I do. I think I can just put &quot;#container p:
 last-child.&quot; Is it the last one? Is it the last paragraph? I think
@@ -7770,7 +7782,7 @@ part up here in the next lesson.
 ![](./3-19-images/media/image378.png){width="4.0in"
 height="2.264957349081365in"}
 
-In the last lesson, we set our **setTimeout** to wait seven seconds and
+In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
 that&apos;s done, increment the counter and run content rotator again. Now
 we just have to handle the case of what happens if we&apos;re on the last
@@ -7815,9 +7827,9 @@ continue forever.
 In summary, hopefully through this project, you saw that you can use
 callback functions, timers, and recursions to make something like this
 content rotator work without a tremendous amount of code, especially in
-combination with **jQuery** and the built-in effects library, like the
+combination with <b>jQuery</b> and the built-in effects library, like the
 fade in and fade out. Although it would be interesting to make the same
-script work without **jQuery**, that would be a good challenge for you.
+script work without <b>jQuery</b>, that would be a good challenge for you.
 
 See if you can do that or what else could you make work with this
 script? The script is fading content in and out and we&apos;re right now
@@ -7853,14 +7865,14 @@ the function runs itself and that can be very interesting.
 
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You&apos;ve learned a lot of
-JavaScript so far, as well as tackling **jQuery** and **jQuery**
+JavaScript so far, as well as tackling <b>jQuery</b> and <b>jQuery</b>
 animation and animation using CSS and JavaScript, we&apos;ve created some
 fun interactive elements you can put on real websites. I think you&apos;ve
 learned a lot and you should be really proud of yourself.
 Congratulations for making it this far, and I look forward to seeing you
 in our third course on JavaScript.
 
-We will get even deeper into the **jQuery** library, **jQuery** plugins,
+We will get even deeper into the <b>jQuery</b> library, <b>jQuery</b> plugins,
 we&apos;ll create some more sophisticated scripts and some more complex
 scripts so that you can really develop your skills and get better at
 JavaScript. I look forward to seeing you there.
