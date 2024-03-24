@@ -4554,7 +4554,7 @@ working on the JavaScript in the next lesson.
 <h3>Start Files: Creating a Tabbed Interface with JavaScript</h3>
 
 Attached is a zip file of the the things you need to begin this
-exercise. A <b>zip file<b> is defined as: a computer file whose contents
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
@@ -4686,11 +4686,12 @@ them and then putting it on the one that I clicked. What we did in one
 line of <b>jQuery</b>, writing a little function here to do in plain
 JavaScript, but that should work, let&apos;s go over and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 255. test console, click active (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image255.png"
   style="width:50%"
-  alt="." />
+  title="Test Console, click active"
+  alt="Test Console, click active." />
 </p>
 
 If I refresh this and click "Cotton Candy", you can see it&apos;s getting
@@ -4732,15 +4733,14 @@ that we clicked on, event.target.getAttribute. We want to get the href
 attribute so that will get the href of the length that we collect and 
 put it into this step.
 
-And then we want to actually go and get that element. So I'm going to 
-have another variable thisContent and that's going to be equals 
-document.query selector(thisTab). 
+And then we want to get that element. So I'm going to have another variable 
+<b>thisContent</b> and that's going to equal <b>document.querySelector(thisTab)</b>.
 
 And then we want to go get that div for whichever one was clicked and again 
 only one of these can be clicked. So if you click on brownies it's going to 
 get the class active. 
 
-So we've got those two things and we're going to just hold off on those for a 
+So we've got those two things and we're going to hold off on those for a 
 minute and let them do their own thing in a minute. But now we need to do 
 something with the old tab and get its content, so we know what we're, what 
 we're going to do with that one. 
@@ -5213,20 +5213,22 @@ through them with you.
 
 <h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 278. basic slider (3.01) (168) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 278. basic slider (3.01) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image301.png"
   style="width:40%"
-  alt="." />
+  title="3.01 Basic Slider"
+  alt="3.01 Basic Slider." />
 </p>
 
 <b>jQuery</b> Image Slider, version 1, the basic slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 279.  (168) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 279. jquery image slider - version 1 - basic slider (168) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image279.png"
   style="width:40%"
-  alt="." />
+  title="jQuery Image Slider - Version 1 - Basic Slider"
+  alt="jQuery Image Slider - Version 1 - Basic Slider." />
 </p>
 
 Learning JavaScript and <b>jQuery</b> is the most fun when you&apos;re working
@@ -5235,7 +5237,7 @@ make a basic image slider that you could put on any website. Plus, along
 the way, you&apos;ll learn some new things about <b>jQuery</b> and JavaScript
 and get a lot of practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 280. final project (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 280. final project (168) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image280.png"
   style="width:50%"
@@ -5250,11 +5252,12 @@ side and slide over to the left-hand side as you go to the next image
 and then the other way round as you go to the previous image. We&apos;ll see
 how that actually works and how it comes out as we move along here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 281.  (160) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 281. start folder (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image281.png"
   style="width:50%"
-  alt="." />
+  title="Start Folder"
+  alt="Start Folder." />
 </p>
 
 In the start folders, you download the files that go with the
@@ -5265,11 +5268,12 @@ abandoned ghost town. It&apos;s a pretty interesting place. Great place to
 take a lot of great photos. I took some photos up there, so we&apos;ll use
 some of those for this project and that&apos;s fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 282.  (170) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 282. example, html for the folder (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image282.png"
   style="width:50%"
-  alt="." />
+  title="Example, HTML for the Folder"
+  alt="Example, HTML for the Folder." />
 </p>
 
 If we come over and look at the index file, you&apos;ll notice that we have
@@ -5279,17 +5283,19 @@ actually a fairly common setup that you will find for image slider
 scripts that you might find around the web. Then I&apos;ve just got some
 links for the previous and next buttons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 283/284.  (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 283/284. html with basic jquery image slider (170) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image283.png"
   style="width:40%"
-  alt="." />
+  title="HTML with Basic jQuery Image Slider"
+  alt="HTML with Basic jQuery Image Slider." />
 <img src="./images/image284.png"
   style="width:40%"
-  alt="." />
+  title="HTML with Basic jQuery Image Slider"
+  alt="HTML with Basic jQuery Image Slider." />
 </p>
 
-If we come over here and actually look at that HTML, you&apos;ll see that
+If we come over here and look at that HTML, you&apos;ll see that
 that&apos;s what it looks like here. I&apos;m loading my normalized script.
 I&apos;ve got my CSS. I&apos;ve got <b>jQuery</b> loaded here. I&apos;m loading an
 easing plugin that we&apos;ll talk about in a bit. Then we&apos;ve got our
@@ -5298,11 +5304,12 @@ I&apos;ve got a script file here which is empty. It&apos;s where we&apos;re goin
 write our JavaScript, and then we&apos;ve got some styles that we&apos;ll talk
 about in just a minute here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 285. project strategy (171) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285. project strategy (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image285.png"
   style="width:50%"
-  alt="." />
+  title="Project Strategy"
+  alt="Project Strategy." />
 </p>
 
 The important way to think about this or the important strategy here is
@@ -5317,11 +5324,12 @@ next image will slide in or if you click &quot;Previous&quot;, the previous
 image will slide in. That strip will basically slide back and forth left
 and right as we move through the slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 286. example, check out the styles (172) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 286. example, check out the styles (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image286.png"
   style="width:50%"
-  alt="." />
+  title="Example, Check Out the Styles"
+  alt="Example, Check Out the Styles." />
 </p>
 
 Now, one thing to check out is the way that the styling works, and it&apos;s
@@ -5331,24 +5339,25 @@ pages, and even though we&apos;re learning JavaScript, and that has to do
 with the behavior, the behavior very much is affected by the layout and
 the content of the pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 287.  (172) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 287. id slider, overflow hidden, position relative (172) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image287.png"
   style="width:50%"
-  alt="." />
+  title="Id slider, overflow hidden, position relative"
+  alt="Id slider, overflow hidden, position relative." />
 </p>
 
 If we come over here and look at this, the overflow hidden on this
 slider element here, which is, again, if we go back to the index here,
 it&apos;s this <b>div</b> here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 288.  (173) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 288. html, div id slider, ul li with images (172) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image288.png"
   style="width:50%"
-  alt="." />
+  title="HTML, div id='slider', unordered list, list items with slideshow images"
+  alt="HTML, div id='slider', unordered list, list items with slideshow images." />
 </p>
-
 
 If I come and look at the page, it&apos;s this <b>div</b> here that has the
 picture in it. That div has overflow hidden on it and it is showing only
@@ -5363,29 +5372,30 @@ Position 0, top zero, left zero puts that thing inside this container
 here. Then display flex is what makes all the images go into a row. Top
 zero, left zero puts that in the top left corner.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 289. example, images lined up (174) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. example, images lined up (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image289.png"
   style="width:50%"
-  alt="." />
+  title="Example, Images Lined Up"
+  alt="Example, Images Lined Up." />
 </p>
 
 Now, if I were to go in and mess with this just a little bit, you can
 see what it will do. For example, if I take overflow hidden out of my
 slider declaration here. Let&apos;s do this just to see what happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 290.  (174) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 290. slideshow without overflow hidden (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image290.png"
   style="width:50%"
-  alt="." />
+  title="Slideshow test, without overflow hidden"
+  alt="Slideshow test, without overflow hidden." />
 </p>
 
 If I come over here to my styles and remove <b>overflow</b> <b>hidden</b> just
-temporarily, I&apos;m going to just comment this out, like so and save this.
-When I come back and refresh this, you&apos;ll see that the other slides are
+temporarily, you&apos;ll see that the other slides are
 all lined up. Each one is on there next to each other and they&apos;re all
-lined up here. They&apos;re all in a row just lined up waiting. Just because
+lined up here. Just because
 of overflow hidden, we&apos;re not seeing them. We&apos;re only seeing what&apos;s
 actually in the window. We want to go back and put overflow hidden back
 so we&apos;re not seeing those additional slides. We&apos;re only seeing the one
@@ -5416,7 +5426,7 @@ transmission, often carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-02">3.02 Making the Script General (5:41)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 291. making the script general (3.02) (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 291. making the script general (3.02) (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image291.png"
   style="width:40%"
@@ -5428,7 +5438,7 @@ One thing we want to do as we&apos;re working on our scripts is we want to
 make them as general as possible, so that if we were to add more images
 into our slider then our script to be able to handle them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 292. example, making the script general (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 292. example, making the script general (175) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image292.png"
   style="width:50%"
@@ -5448,36 +5458,39 @@ look right if they&apos;re not anyway. I&apos;m going to assume that all these
 images are the same width, but I need to find out how wide is one of
 them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 293/294.  (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294. imagecount = slider count (175) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image293.png"
   style="width:40%"
-  alt="." />
+  title="imageCount = slider, ul li, length"
+  alt="imageCount = slider, ul li, length." />
 <img src="./images/image294.png"
   style="width:40%"
-  alt="." />
+  title="div, ul li, slideshow images"
+  alt="div, ul li, slideshow images." />
 </p>
 
-Let&apos;s go ahead and add these two variables to our script over here.
+Let&apos;s add these two variables to our script over here.
 I&apos;m going to come back to Visual Studio code and go to my script file,
 and here I can just add in const. What did I set this for? I set this
 variable to image count. How many images do I have? I&apos;m going to set
-variable image count, I&apos;m going to make it equal to m, I&apos;m going to
-use my <b>jQuery</b> object to go in and find out how long my script is.
+variable image count, I&apos;m going to make it equal to slider, length.
 
 It&apos;s <b>&quot;#slider ul li</b>&quot; dot length, and that will actually go in to
 my document over here (right image) and look for this slider element,
-and then go and find the list items, and we&apos;ll find out how many are
-there. That should return to me, a five.
+and then find the list items, and we&apos;ll find out how many are
+there. That should return to me, a five in this case.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 295/296.  (177) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 295/296. imagewidth = slider width (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image295.png"
   style="width:40%"
-  alt="." />
+  title="imageWidth = slider, ul li images, width"
+  alt="imageWidth = slider, ul li images, width." />
 <img src="./images/image296.png"
   style="width:40%"
-  alt="." />
+  title="Test, display width of all sliders"
+  alt="Test, display width of all sliders." />
 </p>
 
 Then I&apos;m going to have a variable const <b>imageWidth</b>, and I&apos;m going
@@ -5487,7 +5500,7 @@ number that tells me how wide might first image is. Let&apos;s see what that
 does, alert imageWidth. I&apos;m getting 400. It&apos;s telling me that it&apos;s
 400 pixels wide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 297.  (177) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 297.  (176) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image297.png"
   style="width:50%"
@@ -5500,11 +5513,12 @@ is it goes into the DOM here, and it looks at the first one of these
 list items and then gets the image. Now, as it turns out, <b>jQuery</b> has
 deprecated this first pseudo-class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 298.  (178) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 298. :first selector, jquery first selector (177) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image298.png"
   style="width:50%"
-  alt="." />
+  title="jQuery :first Selector"
+  alt="jQuery :first Selector." />
 </p>
 
 If you look this up on the <b>jQuery</b> website, it&apos;ll say deprecated.
@@ -5514,11 +5528,12 @@ Search. You will see as of <b>jQuery</b> 3.4, the first pseudo-class is
 deprecated. Remove it from your selectors in filter results using dot
 first instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 299.  (178) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 299. imagewidth, slider ul li img, first.width (177) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image299.png"
   style="width:50%"
-  alt="." />
+  title="imageWidth = slider ul li img, first.width"
+  alt="imageWidth = slider ul li img, first.width." />
 </p>
 
 It&apos;s important when you&apos;re using a library like <b>jQuery</b> to stay up
@@ -5528,48 +5543,52 @@ aware of it now. I&apos;m going to fix it here in the lesson. I&apos;m going to
 come over here and get rid of first here, and instead use <b>first</b> like
 that. That should give me the same result.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 300.  (179) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 300. test slideshow width, 400 (178) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image300.png"
   style="width:50%"
-  alt="." />
+  title="Test slideshow width, 400"
+  alt="Test slideshow width, 400." />
 </p>
 
-Let&apos;s check it. If I come over here and refresh the page, I&apos;m still
-getting 400, that&apos;s great. It is important to pay attention to these
-things as you can. I should add, while this still works currently in the
-current version of <b>jQuery</b>, it might not work in future versions of
-<b>jQuery</b>. Since I&apos;m loading this version of <b>jQuery</b> up at this
-project, unless I update my link to <b>jQuery</b> to a newer version, it
-will continue to work. This is actually fine to use for now with the
-current version of <b>jQuery</b> that we have, but going forward, we should
-use the dot <b>first</b> method instead. I just wanted to show you that.
+Let&apos;s check it. If I come over, I&apos;m still getting 400. It is 
+important to pay attention to these things as you can. I should add, while 
+this still works currently in the current version of <b>jQuery</b>, it might 
+not work in future versions of <b>jQuery</b>. Since I&apos;m loading this 
+version of <b>jQuery</b> up at this project, unless I update my link to 
+<b>jQuery</b> to a newer version, it will continue to work. This is actually 
+fine to use for now with the current version of <b>jQuery</b> that we have, 
+but going forward, we should use the dot <b>first</b> method instead. I just 
+wanted to show you that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 301.  (180) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 301. window load function (3.03) (179) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image301.png"
   style="width:40%"
-  alt="." />
+  title="3.03 Window Load Function"
+  alt="3.03 Window Load Function." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 302.  (180) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 302. example, window load function (179) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image302.png"
   style="width:50%"
-  alt="." />
+  title="Example, Window Load Function"
+  alt="Example, Window Load Function." />
 </p>
 
 The next thing to consider is when resources are going to load, and in
 this case, this seems to be working just fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 303.  (181) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. test slideshow, 400 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image303.png"
   style="width:50%"
-  alt="." />
+  title="Test slideshow, 400"
+  alt="Test slideshow, 400." />
 </p>
 
 If I click refresh, it&apos;s giving me a 400 here but it&apos;s loading these
@@ -5589,11 +5608,12 @@ can use the <b>on</b> method in <b>jQuery</b> and the <b>on</b> method in
 plain JavaScript and then you pass in a particular event that you&apos;re
 looking for. Then it&apos;ll run a function when that event happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 304.  (182) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 304. window on load, function (181) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image304.png"
   style="width:50%"
-  alt="." />
+  title="Window on load, function"
+  alt="Window on load, function." />
 </p>
 
 Here we&apos;re going to put the <b>on method</b> on the window object and the
@@ -5617,21 +5637,21 @@ because we want this function to run when the page has loaded all its
 files. When it has, then we can say, okay, now you can run, and we&apos;re
 going to set up these variables in alert.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 305.  (183) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 305. test slideshow, 400 (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image305.png"
   style="width:50%"
-  alt="." />
+  title="Test slideshow, 400"
+  alt="Test slideshow, 400." />
 </p>
 
-This should show absolutely no difference at this point over here in the
-front page. We should still be getting 400 but you can see that the
+We should still be getting 400 but you can see that the
 image started actually coming in because before that alert ran.That&apos;s
 one thing that&apos;s slightly different is that it&apos;s actually loading the
 images first. Because we are loading from our hard drive, it&apos;s not that
 big of a deal.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 306. example, add a few more variables (183) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 306. example, add a few more variables (182) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image306.png"
   style="width:50%"
@@ -5644,26 +5664,28 @@ to know the total width of our whole slider. For that we&apos;re going to
 take the image count and multiply it by the width of each image. That
 will give us our total width plus we&apos;ll add a px to the end of that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 307.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 307. totalwidth = imagewidth * count + 'px' (183) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image307.png"
   style="width:50%"
-  alt="." />
+  title="totalWidth = imageWidth * imageCount + 'px'"
+  alt="totalWidth = imageWidth * imageCount + 'px'." />
 </p>
 
 Let&apos;s go ahead and add that to our script now. I&apos;m going to get rid of
-this alert and just to const total width, and this is going to be equal
+this alert and just to const totalWidth, and this is going to be equal
 to image width times image count. Doesn&apos;t matter which way around it
 goes right, it&apos;s going to come up and same thing. Then we&apos;re going to
 add onto that a px at the end of there, that&apos;s going to put that in
 there.Then let&apos;s just alert out total width which is to see what we&apos;re
 getting here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 308.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 308. test, slideshow width, 2000px (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image308.png"
   style="width:50%"
-  alt="." />
+  title="Test, slideshow width, 2000px"
+  alt="Test, slideshow width, 2000px." />
 </p>
 
 I&apos;m going to come back here and now when I refresh, I&apos;m getting 2,000
@@ -5671,11 +5693,12 @@ pixels because I&apos;ve got five images, each of them is 400 pixels wide,
 that&apos;s 2,000 pixels. That&apos;s adding up and doing that properly, which
 is great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 309.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 309. slider ul css width, totalwidth (184) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image309.png"
   style="width:50%"
-  alt="." />
+  title="#slider ul, css width, totalWidth"
+  alt="#slider ul, css width, totalWidth." />
 </p>
 
 Next, I&apos;m going to need a variable for left position. This variable can
@@ -5691,22 +5714,24 @@ the lesson here and then we&apos;ll talk about this more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-04">3.04 Click Handler for Next Button (8:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 310.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 310. click handler for next button (3.04) (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image310.png"
   style="width:40%"
-  alt="." />
+  title="3.04 Click Handler for Next Button"
+  alt="3.04 Click Handler for Next Button." />
 </p>
 
 In our previous video we had set this setting here which sets the width
 of our unordered list to the <b>totalWidth</b> and I just want to talk
 about this now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 311.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. slider ul, display flex (185) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image311.png"
   style="width:50%"
-  alt="." />
+  title="#slider ul, display flex"
+  alt="#slider ul, display flex." />
 </p>
 
 If we go over to the styles, you&apos;ll see on here that the slider <b>UL</b>
@@ -5717,11 +5742,12 @@ everything fits properly inside this <b>UL</b>.
 Adding that to the script ensures that the slider is going to be the
 exact width that I need it to be, 2000 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 312.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 312. example, add click handler for "next" button (185) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image312.png"
   style="width:50%"
-  alt="." />
+  title="Example, Add Click Handler for "Next" Button"
+  alt="Example, Add Click Handler for "Next" Button." />
 </p>
 
 Now we&apos;re ready to add our click handlers and make the script work. We
@@ -5736,11 +5762,12 @@ Let&apos;s add this into our script over here again. The best way to do this
 is to type from the outside in. I&apos;m going to add an event listener like
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 313.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 313. identify id='next' in my index.html (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image313.png"
   style="width:50%"
-  alt="." />
+  title="Identify id='next' in index.html"
+  alt="Identify id='next' in index.html." />
 </p>
 
 I&apos;m going to start with my <b>jQuery</b> object and then I want to get the
@@ -5753,11 +5780,12 @@ button that says next. When we click on that, we want to have a click
 function that runs when you click function, parentheses, curly braces,
 click between the curly braces and move that down.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 314.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. next click function (187) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image314.png"
   style="width:50%"
-  alt="." />
+  title="#next click function"
+  alt="#next click function." />
 </p>
 
 So when we&apos;re here now, we&apos;re going to take <b>counter</b>, and increment
@@ -5777,20 +5805,22 @@ literal here to get to give me a negative to counter multiply by image
 width. That&apos;s going to generate a 400 and put a negative there and put
 a <b>px</b> at the end. That will set the left position.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 315.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 315. example, animate the slide strip (188) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image315.png"
   style="width:50%"
-  alt="." />
+  title="Example, Animate the Slide Strip"
+  alt="Example, Animate the Slide Strip." />
 </p>
 
 Now we want to animate that element and what will that look like?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 316.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 316. test, slider next button (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image316.png"
   style="width:50%"
-  alt="." />
+  title="Test, slider next button"
+  alt="Test, slider next button." />
 </p>
 
 It&apos;ll look like this. We&apos;re going to go get that slider and we&apos;re
@@ -5804,11 +5834,12 @@ For each image, we&apos;ll set it to a speed of 700 milliseconds and then
 we&apos;ll use the <b>easeinQuad</b> <b>easing</b> method of the <b>easing</b> plugin
 already put into the project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 314 again.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 314. slider ul animate left position, easinquad (189) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image314.png"
   style="width:50%"
-  alt="." />
+  title="Slider ul animate left position, easeInQuad"
+  alt="Slider ul animate left position, easeInQuad." />
 </p>
 
 Next, I&apos;m going to get pound slider UL and perform the animate method
@@ -5827,11 +5858,12 @@ that will get the correct animation. And that needs to go inside quotes.
 Now with that, this should be somewhat functioning. It&apos;ll function
 until we get to the end of the end of the strip.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 317.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 317. test, slide show, blank image (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image317.png"
   style="width:50%"
-  alt="." />
+  title="Test, slideshow, blank images"
+  alt="Test, slideshow, blank images." />
 </p>
 
 Let&apos;s give it a try over here. Now if I click next, it will animate
@@ -5844,11 +5876,12 @@ need to fix next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-05">3.05 Next Click Handler with If Statement (3:03)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 318.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 318. next click handler with if statement (190) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image318.png"
   style="width:40%"
-  alt="." />
+  title="3.05 Next Click Handler with If Statement"
+  alt="3.05 Next Click Handler with If Statement." />
 </p>
 
 In the previous lesson, we got our click handler working. So that you
@@ -5856,11 +5889,12 @@ can click on the the button, and the images will move forward and the
 slider will function. But when you get to the end of the strip slides
 right outside the slider window. Which is not really what we want.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 319.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 319. example, next click handler with if statement (191) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image319.png"
   style="width:50%"
-  alt="." />
+  title="Example, Next Click Handler with If Statement"
+  alt="Example, Next Click Handler with If Statement." />
 </p>
 
 What we need is an if statement to make this work. We&apos;re going to add
@@ -5872,11 +5906,12 @@ So we want a number that&apos;s either, we want countered either be zero,
 one, two, three or four. As soon as it hits five, then we&apos;re out of
 range and we want to put it back to the beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 320.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 320. in next, if counter = imagecount, then ... (191) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image320.png"
   style="width:50%"
-  alt="." />
+  title="Next button, if counter = imageCount then ..."
+  alt="Next button, if counter = imageCount then ..." />
 </p>
 
 Let&apos;s add this if statement into our script over here, to handle that.
@@ -5887,11 +5922,12 @@ Which would be exactly the same as, in this case I&apos;m not really worried
 about type coercion. But you might want to be extra careful and triple
 equals in there, and there we go.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 321.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 321. test, next button (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image321.png"
   style="width:50%"
-  alt="." />
+  title="Test, next button"
+  alt="Test, next button." />
 </p>
 
 So now if we come back and test this, refresh the page, when I click
@@ -5916,11 +5952,12 @@ next lesson and see if you got the same answer I got.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-06">3.06 Challenge Solution (5:03)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 322.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 322. challenge solution (3.06) (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image322.png"
   style="width:40%"
-  alt="." />
+  title="3.06 Challenge Solution"
+  alt="3.06 Challenge Solution." />
 </p>
 
 In the last lesson, we created the Click Event Handler for the Next
