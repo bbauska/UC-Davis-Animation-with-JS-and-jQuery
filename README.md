@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
-author: "bbauska"
-date last editted: "3/22/2024 11+pm"
+author: "Brian Bauska (bbauska)"
+date last editted: "3/24/2024 3+pm"
 output: 
   markdown:
     with some style
@@ -6745,19 +6745,22 @@ going to take effect. Or each time we change the position of the slide,
 the left position, this animation is going to take effect. And that&apos;s
 where we we&apos;ll see the actual animation for our slider.
 
-### Start Files: JavaScript Image Sliders
+<h3>Start Files: JavaScript Image Sliders</h3>
 
-### 3.13 JS-Slider-V3.zip
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders">
+    3.13 JS-Slider-V3.zip</a></li>
+</ul>
 
-> https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
-
-### 3.14 CSS for Slides and Adding Variables (8:01)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 363. css for slides and adding variables (222) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image363.png"
   style="width:40%"
-  alt="." />
+  title="3.14 CSS for Slides and Adding Variables"
+  alt="3.14 CSS for Slides and Adding Variables." />
 </p>
 
 We have a little bit more CSS to talk about before we start working on
@@ -6819,61 +6822,69 @@ variables, everything in here are local to this function. And nothing
 will be leaking into the global scope. So we don&apos;t need to worry about
 doing that for the script either, because we&apos;re putting it in this
 event listener for when the page loads.
-
-So what do I need to know? I need to know, how many slides do I have?
-How wide is each slide? What is the total width of the slider? And then
-I need to get some dumb elements that I&apos;m going to work with on my
-page, the actual slider element itself. This is just kind of make some
-shortcuts. If I make a variable called slider,
-
-I don&apos;t have to type document.querySelector every single time I want to
-work with the slider, same thing with the next button and the previous
-button. So let&apos;s go ahead and add these in over here. I&apos;m going to go
-back to my script over here and I&apos;m just going to paste this in.
-You&apos;re going to have to type it, but I&apos;m going to paste it in. I&apos;m
-going to make a variable called slide count, and I&apos;m going to use query
-selector all to go and get the length of how many list items do I
-actually have? If I were to do an alert here, you&apos;d find it, you&apos;d get
-the number of list items that I have coming up.
-
-Let&apos;s do that real quick alert. Again, I&apos;m having trouble typing
-today, slideCount. If I were to come back and refresh this, I should be
-getting a five. I&apos;ve got five slides. So that&apos;s working. The next
-thing I need to know is how wide is each slide? And there&apos;s a property
-in JavaScript called offset width. So I can go get this wrapper and say,
-well how wide is my slider wrapper? And that&apos;s how wide my width of my
-slides are going to be.
-
-So I can go and get that next over here. Oops. How wide is each slide?
-So I&apos;ve got that. The next thing I&apos;m going to need is the total slider
-width, which is going to be the slide count and it&apos;s the slide with
-with the pixels. And then I need my dom elements, which are these. The
-slider itself, the next button and the previous button. And you can get
-rid of some of the space in here if you don&apos;t want it or even get rid
-of the comments if you don&apos;t want it. It does take up kind of a lot of
-room, but I don&apos;t need this alert anymore. I can get rid of that.
-
-There we go. So now we&apos;re set up with some basic variables here. We&apos;re
-going to need a few more variables to get before we really get started
-with our next click handler. First, let&apos;s put in some questions here.
-Okay, here are a few more variables that we need. We need to know, we
-need to use the LET keyword, because these variables are going to
-change. We need to get the left position and set it to 0. We need a
-counter, and then we want to set the slider style width to the total
-width. So let&apos;s go ahead and set those as well over here. And again,
-I&apos;m going to paste these in. You&apos;re going to have to type them. So
-setting slider style.width, that&apos;s the total width. We&apos;ll actually set
-the width of that element, and we&apos;ll talk about that and look at it a
-little bit more in the next lesson.
-
-### 3.15 Adding More Variables (5:49)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x. example, adding variables (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image364.png"
-  style="width:40%"
+<img src="./images/image36x.png"
+  style="width:50%"
   alt="." />
 </p>
+What do I need to know? I need to know, how many slides I have?
+How wide is each slide? What is the total width of the slider? And then
+I need to get some elements that I&apos;m going to work with on my
+page, the actual slider element itself. If I make a variable called slider, I don't
+have to type document.querySelector every time I want to work with the slider. same
+with the next and previous buttons.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<p align="center" width="100%">
+<img src="./images/image36x.png"
+  style="width:50%"
+  alt="." />
+</p>
+
+Let's add these in over here.  I'm going to go back to my script and type it in. 
+I'm going to make a variable called sliderCount, and I'm going to use querySelectorAll
+to get the length of how many list items do I have?
+
+The next thing I need to know is how wide is each slide (slideWidth)?
+And there&apos;s a property in JavaScript called offsetWidth. I can go get this
+wrapper and say, well how wide is my slider-wrapper? The next thing I&apos;m going 
+to need is the total slider width (totalWidth), which is going to be the slide 
+count and it&apos;s the slide with the pixels. Then I need my DOM elements; the 
+slider itself, the next button and the previous button.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<p align="center" width="100%">
+<img src="./images/image36x.png"
+  style="width:50%"
+  alt="." />
+</p>
+
+We&apos;re going to need a few more variables to get before we get started
+with our next click handler. Okay, here are a few more variables that we need. 
+We need to know, we need to know the leftPosition and set it to 0. We need a
+counter, and then we want to set the slider.style.width to the totalWidth.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<p align="center" width="100%">
+<img src="./images/image36x.png"
+  style="width:50%"
+  alt="." />
+</p>
+
+Setting slider.style.width, that&apos;s the total width. We&apos;ll actually set
+the width of that element, and we&apos;ll talk about that and look at it a
+little bit more in the next lesson.
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### 3.15 Adding More Variables (5:49)
 
 In our last lesson, we got some basic variables in place for our slider
 and they&apos;re very similar to the variables that you saw for the
