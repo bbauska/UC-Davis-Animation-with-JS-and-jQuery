@@ -6451,7 +6451,7 @@ back. You&apos;ll see my solution for it in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 351. previous button click handler - part 1 (3.11) (208) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image352.png"
+<img src="./images/image351.png"
   style="width:40%"
   title="3.11 Previous Button Click Handler - Part 1"
   alt="3.11 Previous Button Click Handler - Part 1." />
