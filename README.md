@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "3/24/2024 3+pm"
+date last editted: "3/24/2024 10+pm"
 output: 
   markdown:
     with some style
@@ -159,7 +159,7 @@ will be able to use the callback functions to trigger a function when an
 animation is completed. You will be able to create a tabbed interface in
 both JavaScript and jQuery.</p>
 
-<h4>20 videos, 7 readings</h4>
+<h4>20 lessons, 7 readings</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi"
@@ -170,7 +170,7 @@ both JavaScript and jQuery.</p>
 1.  <b>Introduction to the jQuery Effects Library</b>
 
 <ul>
-  <li><a href="">2.01 Start Files: Introduction to the jQuery Effects Library (2.01-StartFile-FileName.pdf)</a></li>
+  <li><a href="">2.01 Start Files: Introduction to the jQuery Effects Library (2.01-Start-jQuery-Animation.pdf)</a></li>
 </ul>
 
 2.  <b>Example 1 Continued</b>
@@ -198,7 +198,7 @@ both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="">
-    2.10 Start Files: Creating a Tabbed Interface with jQuery -- 2.10-StartFiles-FileName.pdf</a></li>
+    2.10 PDF Files: Creating a Tabbed Interface with jQuery -- 2.10-StartFiles-FileName.pdf</a></li>
 </ul>
 
 11. <b>Styling the Anchor Tags</b>
@@ -245,7 +245,7 @@ integrated into web pages. You will also be able to compare the jQuery
 syntax to the JavaScript syntax by building a similar image slider using
 only plain JavaScript syntax and using CSS to perform the animation.</p>
 
-<h4>17 videos, 5 readings</h4>
+<h4>17 lessons, 5 readings</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj"
@@ -317,7 +317,7 @@ elements that run on a timer. You practice using jQuery syntax and
 recursion to build a simple content rotator that could be used as an
 interface element on any web page.</p>
 
-<h4>12 videos, 6 readings</h4>
+<h4>12 lessons, 6 readings</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE"
@@ -657,7 +657,7 @@ worthwhile. You have to really consider it on a project-by-project
 basis.</p>
 
 <h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery" target="_blank" rel="noopener noreferrer">
-  1.01 jQuery-Start.zip</a></h2>
+  1.01 jQuery-START.zip</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
@@ -1541,7 +1541,8 @@ lists so they have class hide-menu on them. See if you can do that, and
 when we come back in the next lesson, we&apos;ll see how I did that.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript " target="_blank" rel="noopener noreferrer">1.07 JS-Folding-Sidebar-Menu-START.zip (download)</a></li>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript " target="_blank" rel="noopener noreferrer">
+    1.07 JS-Folding-Sidebar-Menu-START.zip (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4392,11 +4393,8 @@ Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Creating a Tabbed Interface with jQuery</b>.
 
 <ul>
-  <li>2.14-Tab-Interface-with-jQuery.pdf</li>
+  <li><a href="">2.14 Tab-Interface-with-jQuery.pdf</a></li>
 </ul>
-
-> 2.14
-> Tab-Interface-with-jQuery.pdfhttps://d3c33hcgiwev3.cloudfront.net/inVXebUXQ2K1V3m1F2NiSw_d4300f49ffee4d9c8a238bbd05fb7cf1_WEB1091_M02_Tab-Interface-with-jQuery.pdf?Expires=1710460800&Signature=TUVBZ-pLZMvz3154zoz4naFbb0FFAYoUONrWf8eCnMAzchrpxJTNEPS3X4lnnVw6hnlpEJYK3k0mZWiQZ7WqCMdTBTuXTNUJURIDOmpZeiQbWldXXlrTZQfiJdJKg-fGyo05ULgyVeyJOQ-1I30oiTLVWY-S1pGcj-F6OnTGQZA\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-15">2.15 Getting the CSS Ready (5:53)</h2>
@@ -4558,7 +4556,7 @@ exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
-### zip START Files
+<h3>zip START Files</h3>
 
 <ul>
   <li><a href="">2.15 JS-Tabs-START.zip</a></li>
@@ -5220,6 +5218,7 @@ practice. Let&apos;s dive in and start working on these scripts. I think
 you&apos;re going to get a lot out of them and I look forward to going
 through them with you.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 278. basic slider (3.01) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6791,9 +6790,14 @@ where we we&apos;ll see the actual animation for our slider.
 
 <ul>
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders">
-    3.13 JS-Slider-V3.zip</a></li>
+    3.13 JS-Slider-V3-START.zip</a></li>
 </ul>
-
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6920,12 +6924,7 @@ counter, and then we want to set the slider.style.width to the totalWidth.
 Setting slider.style.width, that&apos;s the total width. We&apos;ll actually set
 the width of that element, and we&apos;ll talk about that and look at it a
 little bit more in the next lesson.
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ### 3.15 Adding More Variables (5:49)
 
 In our last lesson, we got some basic variables in place for our slider
