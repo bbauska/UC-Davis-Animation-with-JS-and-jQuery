@@ -2467,7 +2467,7 @@ opens the one that I clicked on. And we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. the whole script (1.18) (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.png"
-  style="width:50%"
+  style="width:40%"
   title="1.18 The Whole Script"
   alt="1.18 The Whole Script." />
 
@@ -2491,7 +2491,7 @@ together.
 <p align="center" width="100%">
 <img src="./images/image128.png"
   style="width:50%"
-  title="Select and hide all ul's. Toggle the clicked submenu" />
+  title="Select and hide all ul's. Toggle the clicked submenu"
   alt="Select and hide all ul's. Toggle the clicked submenu." />
 
 So here we&apos;re going to say go get all of the unordered lists that are
@@ -2539,11 +2539,11 @@ here. Close that up. I&apos;ve got a little short script here.
 <!--~~~~~~~~~~~~~~~~~~~~~ 131/132. var to const and load script.js (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.png"
-  style="width:35%"
+  style="width:45%"
   title="New script.js &amp; move script code from index.html"
   alt="New script.js &amp; move script code from index.html." />
 <img src="./images/image132.png"
-  style="width:35%"
+  style="width:45%"
   title="Call script.js in head with defer command"
   alt="Call script.js in head with defer command." />
 </p>
@@ -2650,22 +2650,17 @@ understand the differences between the syntax of how each of them work.
 
 <h3 id="ch2-00-obj">2.00 Learning Objectives</h3>
 
--   Use <b>jQuery</b> to animate elements on a web page using the helper
-    functions or custom animations.
-
--   Use callback functions to trigger a function when an animation is
-    completed.
-
--   Use <b>jQuery</b> to create a tabbed interface element for a web page.
-
--   Use the <b>jQuery</b> effects library to create animations for the
-    tabs.
-
--   Use plain JavaScript to create the same tabbed interface.
-
--   Use JavaScript to trigger CSS animations in the tabbed interface,
-    instead of a JavaScript animation library.
-
+<ul>
+  <li>Use <b>jQuery</b> to animate elements on a web page using the helper
+    functions or custom animations.</li>
+  <li>Use callback functions to trigger a function when an animation is
+    completed.</li>
+  <li>Use <b>jQuery</b> to create a tabbed interface element for a web page.</li>
+  <li>Use the <b>jQuery</b> effects library to create animations for the tabs.</li>
+  <li>Use plain JavaScript to create the same tabbed interface.</li>
+  <li>Use JavaScript to trigger CSS animations in the tabbed interface, instead 
+    of a JavaScript animation library.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-00-intro">2.00 Week/Module 2 Introduction (0:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2786,11 +2781,11 @@ Let&apos;s try it out. If I come over here and refresh this page and click
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145/146. jquery hide box & test (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png"
-  style="width:35%"
+  style="width:45%"
   title="jQuery box hide normal"
   alt="jQuery box hide normal." />
 <img src="./images/image146.png"
-  style="width:35%"
+  style="width:45%"
   title="Test, jQuery box hide normal"
   alt="Test, jQuery box hide normal." />
 </p>
@@ -2803,11 +2798,11 @@ hides that box.
 <!--~~~~~~~~~~~~~~~~~~~~ 147/148. hide box fade in 500 milliseconds (88) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png"
-  style="width:35%"
+  style="width:45%"
   title="Hide box fade in 500 milliseconds"
   alt="Hide box fade in 500 milliseconds." />
 <img src="./images/image148.png"
-  style="width:35%"
+  style="width:45%"
   title="Test, hide box fade in 500 milliseconds"
   alt="Test, hide box fade in 500 milliseconds." />
 </p>
@@ -2845,7 +2840,6 @@ the speed there.
   style="width:40%"
   title="2.02 Example 1, cont'd"
   alt="2.02 Example 1, cont'd." />
-
 
 In the last lesson, we saw that we could add a function here that will
 hide the box and animate that.
@@ -6324,11 +6318,12 @@ unordered list, the last one, the one that we added with our cloned
 unordered list. It&apos;s going to move that to left zero. So that it&apos;s
 moving it from the left side of that window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 343.  (204) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 343. slider ul last, animate left easeinquad (204) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image343.png"
   style="width:50%"
-  alt="." />
+  title="Slider ul last, animate left easeInQuad"
+  alt="Slider ul last, animate left easeInQuad." />
 </p>
 
 If we come back up here to here, it&apos;s moving it from this left corner
@@ -6350,11 +6345,12 @@ goes to zero. I&apos;m going to just use the same easing and everything else
 that I had down here. I can even just copy and paste that to move that
 into place. That moves that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 344.  (205) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 344. slider ul, first animate leftposition easeinquad (205) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image344.png"
   style="width:50%"
-  alt="." />
+  title="Slider ul, first animate leftPosition easeInQuad"
+  alt="Slider ul, first animate leftPosition easeInQuad." />
 </p>
 
 I can copy this line and paste it here, but now I&apos;m going to move the
@@ -6376,11 +6372,12 @@ remove this one. We&apos;ll look at that in the next lesson.
 
 Adding a Callback Function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 346.  (206) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 346. if counter === imagecount, clone slides (206) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image346.png"
   style="width:50%"
-  alt="." />
+  title="If counter === imageCount, clone slides"
+  alt="If counter === imageCount, clone slides." />
 </p>
 
 So far, in our next click handler, we&apos;ve checked to see if the counter
@@ -6391,11 +6388,12 @@ time, the first one and the last one. We animated the last one, it&apos;s
 left position writes that the first picture is inside the window and we
 animated the first one off the left side of the slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 347.  (206) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 347. after animation, remove slider (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image347.png"
   style="width:50%"
-  alt="." />
+  title="After completion of animation, remove slider"
+  alt="After completion of animation, remove slider." />
 </p>
 
 Then the last thing we need to do is after this animation is completed,
@@ -6436,11 +6434,12 @@ everything&apos;s back where it should be. You could add some comments if
 you need to. Sometimes it helps make sure this thing is running as a
 callback function and that these two are running at the same time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 350.  (208) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 350. now, the previous button function (208) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image350.png"
   style="width:50%"
-  alt="." />
+  title="Next, do the previous button function"
+  alt="Next, do the previous button function." />
 </p>
 
 But now the question is, can you do the previous button? Link yourself,
@@ -6482,11 +6481,12 @@ five values, so we set it to image count minus one, so it's now a four, then
 we're going to clone our unordered list and append it to the slider, just 
 like we did before. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 3xx.  (209) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 353. if previous button click, then ... (209) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image353.png"
   style="width:50%"
-  alt="." />
+  title="If previous button is clicked, then..."
+  alt="If previous button is clicked, then..." />
 </p>
 
 But here it will be helpful to go back and look at our diagram, once again. 
@@ -6501,13 +6501,16 @@ And that will push this first picture (blue box) into our slider. And then
 the same frame will go from 0 pixels to 400 pixels to move that there. 
 Hopefully the diagram helps. And maybe you drew your own diagram and trying 
 to solve this problem. 
-
-<!-- ************************** issues with image #### ********************** -->
-<!-- ************************** issues with image #### ********************** -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 352. strategy (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. strategy (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image352.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   alt="." />
 </p>
@@ -6530,9 +6533,9 @@ strip onto the screen and then we take the first one and move it so it's off
 the screen. And then we can, with our callback function, remove that first one. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 353.  (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx.  (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image353.png"
+<img src="./images/image3xx.png"
   style="width:65%"
   alt="." />
 </p>
@@ -6563,9 +6566,9 @@ this in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 354. previous button click handler - part 2 (3.12) (213) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 3xx. previous button click handler - part 2 (3.12) (213) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image354.png"
+<img src="./images/image3xx.png"
   style="width:40%"
   title="3.12 Previous Button Click Handler - Part 2"
   alt="3.12 Previous Button Click Handler - Part 2." />
@@ -6575,9 +6578,9 @@ In the last lesson, we worked out the logic of how the previous click
 handler is going to work and where we left off was actually moving
 animating these strips into place. So that&apos;s what we need to do here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 355.  (213) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx.  (213) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image355.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   alt="." />
 </p>
@@ -6603,9 +6606,9 @@ that minus 1600 pixels, the counter which is four times imageWidth which
 is 400 that&apos;s 1600, with the minus sign in front of it and with the px
 that&apos;s going to move that into the correct place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 356. script;  (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. script;  (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image356.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   alt="." />
 </p>
@@ -6630,9 +6633,9 @@ back here, refresh it, we know the next one works but does the previous
 one work? There&apos;s our first slide and boom it works. There&apos;s our 5th,
 4th, third, second first and once again we can go around that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 357. console inspect, image width (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. console inspect, image width (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image357.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   title="Console inspect, image width"
   alt="Console inspect, image width." />
@@ -6660,9 +6663,9 @@ different types of situations that come up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 358. slider using javascript (3.13) (216) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. slider using javascript (3.13) (216) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image358.png"
+<img src="./images/image3xx.png"
   style="width:40%"
   title="3.13 Slider Using JavaScript"
   alt="3.13 Slider Using JavaScript." />
@@ -6677,9 +6680,9 @@ similar to what we saw with <b>jQuery</b>. Here, the animation is going to
 take place in <b>CSS</b> and we&apos;ll be using JavaScript to trigger the
 animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 359. final version sample screen (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. final version sample screen (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image359.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   title="Final Version Sample Screen"
   alt="Final Version Sample Screen." />
@@ -6691,9 +6694,9 @@ content on them. The pictures will actually be in the background of the
 slide, and then they&apos;re going to have little bit of a title and some
 text on them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 360. basic strategy (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. basic strategy (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image360.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   title="Basic Strategy"
   alt="Basic Strategy." />
@@ -6709,9 +6712,9 @@ the strip of slides moves in and out of the parent window showing only
 one image at a time. There&apos;s our basic strategy, very similar to what
 we had with the <b>jQuery</b> version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 361. example, html (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. example, html (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image361.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   title="Example, HTML"
   alt="Example, HTML." />
@@ -6725,16 +6728,13 @@ on that slide. The actual picture will be in the background of the list
 item, so that the list item is actually showing the picture as a
 background image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 362. example, css for the wrapper (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. example, css for the wrapper (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image362.png"
+<img src="./images/image3xx.png"
   style="width:50%"
   title="Example, CSS for the Wrapper"
   alt="Example, CSS for the Wrapper." />
 </p>
-
-<!--  ************************ cut off *************************** -->
-<!--  ************************ cut off *************************** -->
 
 Now let&apos;s take a look at the CSS for the wrapper. The wrapper has a
 width of 1000 pixels and it&apos;s set to a height of 358 pixels which is
@@ -6792,18 +6792,13 @@ where we we&apos;ll see the actual animation for our slider.
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders">
     3.13 JS-Slider-V3-START.zip</a></li>
 </ul>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 363. css for slides and adding variables (222) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 3xx. css for slides and adding variables (222) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image363.png"
+<img src="./images/image3xx.png"
   style="width:40%"
   title="3.14 CSS for Slides and Adding Variables"
   alt="3.14 CSS for Slides and Adding Variables." />
