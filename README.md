@@ -5083,7 +5083,7 @@ can work on arrays.
 Tabs is an array because it&apos;s going in and getting all of these tabs,
 and there&apos;s just three of them, but it&apos;s an array. The for loop is
 fine. It works fine, but it&apos;s a little bit hard to read and a little
-bit cumbersome. The <b>forEach<b> method is a little bit nicer. Let&apos;s
+bit cumbersome. The <b>forEach</b> method is a little bit nicer. Let&apos;s
 just try that and see how that looks instead. What we would do is we
 would say <b>tabs.forEach</b> like this. This is the <b>forEach</b> method.
 The <b>forEach</b> method, again, it&apos;s an array method, so it works on
