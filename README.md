@@ -4641,11 +4641,12 @@ What do we need to do in here? The first thing I&apos;m going to do is, I&apos;m
 going to pass in the event object here, so I can do
 event.preventDefault.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 253.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 253. prevent default (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image253.png"
   style="width:50%"
-  alt="." />
+  title="Add 'prevent default' to keep hash from showing up"
+  alt="Add 'prevent default' to keep hash from showing up." />
 </p>
 
 What that will do is make it, so that when you click on the tabs over
@@ -4653,11 +4654,12 @@ here, you don&apos;t get the little hash showing up at the end of the URL. I
 don&apos;t really want that to happen. Prevent default will keep the hash
 from showing up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 254. for each tab, remove attributes (151) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image254.png"
   style="width:50%"
-  alt="." />
+  title="For each tab, remove class attributes on tabs"
+  alt="For each tab, remove class attributes on tabs." />
 </p>
 
 Then I need a little bit of a loop, I mean I just do a four loop.
@@ -4720,11 +4722,12 @@ something with our actual tab content to get it display, we have to do
 something with the new tab that we&apos;ve clicked on and the old tab that
 is going to go away.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257. grab attributes for each tab (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image257.png"
   style="width:50%"
-  alt="." />
+  title="Grab attributes for each tab"
+  alt="Grab attributes for each tab." />
 </p>
 
 The first thing we're going to do is make a variable here, for this tab 
@@ -4758,11 +4761,12 @@ to do is we're going to set its class name to visually hidden and its opacity
 to zero. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 258.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 258. css #tabs, hidden, visible & visuallyhidden (154) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image258.png"
   style="width:50%"
-  alt="." />
+  title="Add #tabs, hidden, visible and visuallyhidden"
+  alt="Add #tabs, hidden, visible and visuallyhidden." />
 </p>
 
 And that will trigger this animation which fades that opacity down to
@@ -4774,11 +4778,12 @@ that&apos;s going to set that one to visually hidden. It&apos;s still on the
 screen, but it&apos;s just been transitioned down to the opacity of zero, so
 you can&apos;t see it anymore.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 259.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 259. capture old content (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image259.png"
   style="width:50%"
-  alt="." />
+  title="Capture oldContent"
+  alt="Capture oldContent." />
 </p>
 Then what we need to do is we actually need to add an event listener to
 this old content. And when that animation that transition has finished,
@@ -4810,7 +4815,7 @@ it so displaying nine instead of display block at that point.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-18">2.18 Handling the Switch (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 260. handling the switch (2.18) (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 260. handling the switch (2.18) (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image260.png"
   style="width:40%"
@@ -4990,7 +4995,7 @@ the entire <b>jQuery</b> library in order to have a shorter script here? Or
 is it better to have the longer script and make use of CSS and do this
 kind of stuff?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269. lines 1-22 of script function (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269. lines 1-22 of script function (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png"
   style="width:50%"
@@ -5025,7 +5030,7 @@ Javascript next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-20">2.20 Cleaning Up the Code (7:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 270. cleaning up the code (2.20) (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 270. cleaning up the code (2.20) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image270.png"
   style="width:40%"
@@ -5067,11 +5072,12 @@ We&apos;ll get into these features in more depth later. This is just a good
 opportunity to introduce them. One of them is the for each method which
 can work on arrays.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 273. script.js (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 273. script.js - function selecttab (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image273.png"
   style="width:50%"
-  alt="." />
+  title="Function selectTab"
+  alt="Function selectTab." />
 </p>
 
 Tabs is an array because it&apos;s going in and getting all of these tabs,
@@ -5108,11 +5114,12 @@ I refresh this and test it, you can see that it&apos;s working exactly the
 same as it did before. You can get rid of these things here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 274. (165) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 274. function selecttab event, remove attributes (165) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image274.png"
   style="width:50%"
-  alt="." />
+  title="In function selectTab, for each event, remove attributes by class"
+  alt="In function selectTab, for each event, remove attributes by class." />
 </p>
 
 Now, even further in JavaScript, there is now a, something called an era
@@ -5130,14 +5137,16 @@ one variable, you can get rid of the parentheses. Now we have
 <b>tabs.forEach</b> <b>tab</b>, and then this becomes the function that runs.
 Now, we could do the same thing down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 275/276.  (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275/276. script.js code (165) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image275.png"
   style="width:40%"
-  alt="." />
+  title="1 thru 22 of script.js"
+  alt="1 thru 22 of script.js." />
 <img src="./images/image276.png"
   style="width:40%"
-  alt="." />
+  title="13-32 of script.js"
+  alt="13-32 of script.js." />
 </p>
 
 Again, we&apos;re going to do this in more depth later to talk about arrow
@@ -5172,12 +5181,10 @@ to learn the plain vanilla JavaScript because <b>jQuery</b> is starting to
 get phased out, then this is a good example of the work you need for it
 with plain JavaScript.
 
-## PDF of Presentation
+<h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lesson for this
 section: Creating a Tabbed <b>Interface with JavaScript.</b>.
-
--   
 
 <ul>
   <li id="ch2-20-pdf"><a href="#">
@@ -5188,19 +5195,21 @@ section: Creating a Tabbed <b>Interface with JavaScript.</b>.
 
 <h2 id="ch3-00-obj">3.00 Learning Objectives</h2>
 
--   Use <b>jQuery</b> syntax to target and manipulate DOM elements on a web
-    page.
-
--   Use the built-in <b>jQuery</b> effects library to create animations on
-    the web page.
+<ul>
+  <li>Use <b>jQuery</b> syntax to target and manipulate DOM elements on a web page.</li>
+  <li>Use the built-in <b>jQuery</b> effects library to create animations on 
+    the web page.</li>
+  <li>Apply best practices when working with scripts.</li>
+</ul>
 
 -   Apply best practices when working with scripts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 277.  (167) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 277. module 3: intermediate document manipulation & animation (167) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image277.png"
   style="width:40%"
-  alt="." />
+  title="Module 3: Intermediate Document Manipulation & Animation"
+  alt="Module 3: Intermediate Document Manipulation & Animation." />
 </p>
 
 Welcome to the third module in our second course in JavaScript. In this
@@ -5500,11 +5509,12 @@ number that tells me how wide might first image is. Let&apos;s see what that
 does, alert imageWidth. I&apos;m getting 400. It&apos;s telling me that it&apos;s
 400 pixels wide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 297.  (176) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 297. under div id slider, list item images (176) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image297.png"
   style="width:50%"
-  alt="." />
+  title="Under div id=slider, list item images"
+  alt="Under div id=slider, list item images." />
 </p>
 
 Before I move on, I&apos;m looking at my slide here and realize I&apos;m using
@@ -5964,11 +5974,12 @@ In the last lesson, we created the Click Event Handler for the Next
 button and it&apos;s your job to create the Click Event Handler for the
 previous button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 323.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 323. example, previous image click handler (193) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image323.png"
   style="width:50%"
-  alt="." />
+  title="Example, Previous Image Click Handler"
+  alt="Example, Previous Image Click Handler." />
 </p>
 
 This is the answer I came up with. I have an event handler looking for
@@ -5991,11 +6002,12 @@ we&apos;re going to leave the <b>leftPosition</b>. These two pieces
 could actually make the script, make this event handler by copying and
 pasting the next, because a bunch of it is the same.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 324.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 324. define left position of slider image (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image324.png"
   style="width:50%"
-  alt="." />
+  title="Define leftPosition of slider image"
+  alt="Define leftPosition of slider image." />
 </p>
 
 What we&apos;re changing here is instead of <b>next</b>, we&apos;re changing this
@@ -6010,11 +6022,12 @@ zero, a one, a two, a three or a four. But when it&apos;s five, that&apos;s too
 high. Image count is going to be five in this case because we have five
 images. Last two command lines remain the same.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 325.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 325. test, slideshow (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image325.png"
   style="width:50%"
-  alt="." />
+  title="Test, slideshow"
+  alt="Test, slideshow." />
 </p>
 
 Come back here, refresh the page. Our next button works, our previous
@@ -6030,11 +6043,12 @@ want to make sure that your images are all set up to be the same size to
 begin with and it&apos;ll work. You could have as many of them in there as
 you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 326.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 326. summary (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image326.png"
   style="width:50%"
-  alt="." />
+  title="Summary"
+  alt="Summary" />
 </p>
 
 Now it might seem weird that the images, when it gets to the beginning
@@ -6044,26 +6058,30 @@ project. We&apos;re going to take this script and push it further so that we
 can actually make it so that it wraps all the way around. We&apos;ll take a
 look at that in the next project.
 
--   3.06 jQuery-Image-Slider-Version-1.pdf
+<ul>
+  <li><a href="">3.06 jQuery-Image-Slider-Version-1.pdf</a></li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 327.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327. strategy for version 2 (3.07) (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image327.png"
   style="width:40%"
-  alt="." />
+  title="3.07 Strategy for Version 2"
+  alt="3.07 Strategy for Version 2." />
 </p>
 
 <b>jQuery</b> Image Slider Version 2.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 328.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 328. jquery image slider - version 2 (196) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image328.png"
   style="width:40%"
-  alt="." />
+  title="jQuery Image Slider - Version 2"
+  alt="jQuery Image Slider - Version 2." />
 </p>
 
 In this version, we&apos;re going to take the slide show that we already
@@ -6073,11 +6091,12 @@ as a strip. We&apos;re going to take this thing and make it so that it wraps
 around so it feels a little bit more natural. And I think that will be
 kind of a nice effect if this thing wraps around like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 329.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 329. strategy (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image329.png"
   style="width:50%"
-  alt="." />
+  title="Strategy"
+  alt="Strategy" />
 </p>
 
 So we&apos;re going to take the same set as files that we&apos;ve already worked
@@ -6107,11 +6126,12 @@ have kind of an unending loop of slides, whether you&apos;re going forward
 or backwards through the slides. That&apos;s the basic strategy that we&apos;re
 going to use to make this thing work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 330.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 330. example, start work on the next click handler (198) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image330.png"
   style="width:50%"
-  alt="." />
+  title="Example, Start Work on the Next Click Handler"
+  alt="Example, Start Work on the Next Click Handler." />
 </p>
 
 So the first thing we can do is to start to work on the next click
@@ -6122,14 +6142,16 @@ to the end? But the else is going to handle what happens if we&apos;re just
 on a slide in between, in which case we&apos;re just going to move forward
 in our slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 331/332.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 331/332. code in script.js (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image331.png"
   style="width:40%"
-  alt="." />
+  title="1-30 of index.html"
+  alt="1-30 of index.html." />
 <img src="./images/image332.png"
   style="width:40%"
-  alt="." />
+  title="9-29 of script.js"
+  alt="9-29 of script.js." />
 </p>
 
 So this is the exact same code that we had before. We&apos;re just going to
@@ -6145,21 +6167,23 @@ at what&apos;s next in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-08">3.08 Cloning the Unordered List (4:58)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 333.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 333. cloning the unordered list (3.08) (199) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image333.png"
   style="width:40%"
-  alt="." />
+  title="3.08 Cloning the Unordered List"
+  alt="3.08 Cloning the Unordered List." />
 </p>
 
 The next thing what we are going to do, is we are going to clone the on
 ordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 334.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 334. example, cloning the unordered list (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image334.png"
   style="width:50%"
-  alt="." />
+  title="Example, Cloning the Unordered List"
+  alt="Example, Cloning the Unordered List." />
 </p>
 
 Using the j query clone method, you can see here, we have got a clone
@@ -6167,14 +6191,16 @@ method that allow us to take that entire un ordered list to make a clone
 of it. And then we are going to append it to the slider that will put it
 at the end of the element slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 335/336.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 335/336. code in index.html (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image335.png"
   style="width:40%"
-  alt="." />
+  title="body of index.html"
+  alt="body of index.html." />
 <img src="./images/image336.png"
   style="width:40%"
-  alt="." />
+  title="More body of index.html"
+  alt="More body of index.html." />
 </p>
 
 So what that will do if we come over and look at our code here, if I
@@ -6187,11 +6213,12 @@ add that on there, it is going to clone it, and then appended to the
 slider and then I need to set the CSS of that of that second. A new
 ordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 337.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 337. strategy (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image337.png"
   style="width:50%"
-  alt="." />
+  title="Strategy"
+  alt="Strategy" />
 </p>
 
 The last one I am going to set the left to image with plus pixels so it
@@ -6208,7 +6235,7 @@ use with jQuery, and it is just a matter of looking through and seeing
 what the different functions are, and what they do and looking them up.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 338.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 338.  (201) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image338.png"
   style="width:50%"
@@ -6244,21 +6271,23 @@ next lesson will handle the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-09">3.09 Setting the Left Position (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 339.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 339. setting the left position (3.09) (202) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image339.png"
   style="width:40%"
-  alt="." />
+  title="3.09 Setting the Left Position"
+  alt="3.09 Setting the Left Position." />
 </p>
 
 Before I do the animation, I want to set the variable left position
 equal to a value where I&apos;m going to move that first unordered list to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 340.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 340. example, setting the left position (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image340.png"
   style="width:50%"
-  alt="." />
+  title="Example, Setting the Left Position"
+  alt="Example, Setting the Left Position." />
 </p>
 
 In this case, the unordered list is 2,000 pixels wide. So I&apos;m going to
@@ -6267,11 +6296,12 @@ move that entire first unordered list where it sets the correct position
 for that first unordered list, so that it&apos;s entirely off the left side
 of my slider window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 341.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 341. define leftposition = -totalwidth (203) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image341.png"
   style="width:50%"
-  alt="." />
+  title="leftPosition = -totalWidth"
+  alt="leftPosition = -totalWidth." />
 </p>
 
 Let&apos;s go ahead and do that first. I&apos;m going to put in left position
@@ -6282,11 +6312,12 @@ that into their correct place. We&apos;ve got that variable set. Now what we
 need to do is animate both unordered lists.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 342.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 342. example, animating both slide strips (203) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image342.png"
   style="width:50%"
-  alt="." />
+  title="Example, Animating Both Slide Strips"
+  alt="Example, Animating Both Slide Strips." />
 </p>
 I&apos;m going to animate the first one and the last one. They&apos;re going to
 animate at the same time. In this list, the first line moves, the second
@@ -6294,7 +6325,7 @@ unordered list, the last one, the one that we added with our cloned
 unordered list. It&apos;s going to move that to left zero. So that it&apos;s
 moving it from the left side of that window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 343.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 343.  (204) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image343.png"
   style="width:50%"
@@ -6320,7 +6351,7 @@ goes to zero. I&apos;m going to just use the same easing and everything else
 that I had down here. I can even just copy and paste that to move that
 into place. That moves that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 344.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 344.  (205) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image344.png"
   style="width:50%"
@@ -6336,16 +6367,17 @@ remove this one. We&apos;ll look at that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 345. adding a callback function (3.10) (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 345. adding a callback function (3.10) (205) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image345.png"
   style="width:40%"
-  alt="." />
+  title="3.10 Adding a Callback Function"
+  alt="3.10 Adding a Callback Function." />
 </p>
 
 Adding a Callback Function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 346.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 346.  (206) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image346.png"
   style="width:50%"
@@ -6360,7 +6392,7 @@ time, the first one and the last one. We animated the last one, it&apos;s
 left position writes that the first picture is inside the window and we
 animated the first one off the left side of the slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 347.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 347.  (206) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image347.png"
   style="width:50%"
@@ -6381,21 +6413,23 @@ remove this first one, so I can say dollar sign, get my <b>jQuery</b>
 object and say here, pound slider ul.first.remove.That will take it off
 the DOM entirely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 348.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 348. example, add a callback function (207) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image348.png"
   style="width:50%"
-  alt="." />
+  title="Example, Add a Callback Function"
+  alt="Example, Add a Callback Function." />
 </p>
 
 You can see here at my slide, that&apos;s what I have here, pound slider
 first remove, so that will take it off.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 349.  (20x) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 349. example, finally, set the counter to 0 (207) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image349.png"
   style="width:50%"
-  alt="." />
+  title="Example, Finally, Set the Counter to 0"
+  alt="Example, Finally, Set the Counter to 0." />
 </p>
 
 And then once that&apos;s off, I can set my counter to zero, and
@@ -6417,15 +6451,24 @@ back. You&apos;ll see my solution for it in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-11">3.11 Previous Button Click Handler -- Part 1 (7:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 351. previous button click handler - part 1 (3.11) (209) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 351. previous button click handler - part 1 (3.11) (208) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image352.png"
   style="width:40%"
-  alt="." />
+  title="3.11 Previous Button Click Handler - Part 1"
+  alt="3.11 Previous Button Click Handler - Part 1." />
 </p>
 
 In the last lesson, we figured out how to get the next click handler to
 function properly.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 352. example, previous button click handler (209) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image352.png"
+  style="width:50%"
+  title="Example, Previous Button Click Handler"
+  alt="Example, Previous Button Click Handler." />
+</p>
 
 Let's do it together and sort of see how it's actually going to work. So the 
 script I came up with looks like this. What's going to happen here is when you 
@@ -6440,12 +6483,11 @@ five values, so we set it to image count minus one, so it's now a four, then
 we're going to clone our unordered list and append it to the slider, just 
 like we did before. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 352. example, previous button click handler (210) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 3xx.  (209) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image352.png"
+<img src="./images/image3xx.png"
   style="width:50%"
-  title="Example, Previous Button Click Handler"
-  alt="Example, Previous Button Click Handler." />
+  alt="." />
 </p>
 
 But here it will be helpful to go back and look at our diagram, once again. 
@@ -6464,7 +6506,7 @@ to solve this problem.
 <!-- ************************** issues with image #### ********************** -->
 <!-- ************************** issues with image #### ********************** -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 352. strategy (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 352. strategy (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image352.png"
   style="width:50%"
