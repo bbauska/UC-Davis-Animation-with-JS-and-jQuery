@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "3/24/2024 10+pm"
+date last editted: "3/25/2024 11+pm"
 output: 
   markdown:
     with some style
