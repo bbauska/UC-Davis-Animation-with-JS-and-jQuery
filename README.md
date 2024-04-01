@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "3/25/2024 11+pm"
+date last editted: "3/24/2024 10+pm"
 output: 
   markdown:
     with some style
@@ -35,7 +35,7 @@ development of web page animation.</p>
 -- a landing page style website using jQuery elements to manipulate HTML 
 documents and enhance user experience. Diving deeper into the landing page 
 that will be created and break it out into individual jQuery projects. jQuery 
-events and effects will be covered while exploring more jQuery's relationship 
+events and effects will be covered while exploring more jQuery&apos;s relationship 
 with HTML documents. Finally, a focus on plugins and continue to breakdown 
 jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -434,12 +434,12 @@ include video lectures, readings, assessments, peer reviews, and an
 opportunity to contribute to the Coursera learning community in the
 discussion forums.</p>
 
-<p>In each of the lesson sections, you'll find learning objectives, lecture
+<p>In each of the lesson sections, you&apos;ll find learning objectives, lecture
 videos, readings, activities, and an opportunity to test your knowledge
-in quiz format. In some of the module sections you'll also work on
+in quiz format. In some of the module sections you&apos;ll also work on
 assignments and grade the work of your peers. A peer-review assignment,
 is one where you and your fellow learners have an opportunity to review
-and grade each other's work. We'll dive more into peer reviews later on
+and grade each other&apos;s work. We&apos;ll dive more into peer reviews later on
 in this course.</p>
 
 <p>When navigating the course, you can find available <b>course resources</b>
@@ -449,7 +449,7 @@ view transcripts, PDFs of the lecture slides, and <b>find additional
 readings or files</b>.</p>
 
 <p>If you run into any issues during this course, <b>learner support</b> is
-available to all Coursera students. The link for Coursera's Learner
+available to all Coursera students. The link for Coursera&apos;s Learner
 support is included below. The <a href="https://learner.coursera.help/hc/en-us" target="_blank" rel="noopener noreferrer">
 Help Center/Learner Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
 common problems.</p>
@@ -864,16 +864,16 @@ CDN, and one of them is jQuery.</p>
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
   style="width:50%"
-  title="jQuery 3 versions from Google's Hosted Libraries"
-  alt="jQuery 3 versions from Google's Hosted Libraries." />
+  title="jQuery 3 versions from Google&apos;s Hosted Libraries"
+  alt="jQuery 3 versions from Google&apos;s Hosted Libraries." />
 </p>
 
 <p>We can go to this link <a href="https://developers.google.com/speed/libraries/#libraries">
 here</a>, to jQuery, and you can see that 
 jQuery has three different versions, three flavors of jQuery that include 
 different features. The version 1X snippet is the oldest version of jQuery 
-and it's loading 1.12.4. This is really the 12th major version of version 
-one, essentially, and then we've got version 2.2.4, which is the second 
+and it&apos;s loading 1.12.4. This is really the 12th major version of version 
+one, essentially, and then we&apos;ve got version 2.2.4, which is the second 
 major version, and that version they did a number of things to remove support 
 for IE6, and finally, version 3.7.1 which is the current version of jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4722,34 +4722,34 @@ is going to go away.
   alt="Grab attributes for each tab." />
 </p>
 
-The first thing we're going to do is make a variable here, for this tab 
-and we're going to make that equal to event that target. Again, the one 
+The first thing we&apos;re going to do is make a variable here, for this tab 
+and we&apos;re going to make that equal to event that target. Again, the one 
 that we clicked on, event.target.getAttribute. We want to get the href 
 attribute so that will get the href of the length that we collect and 
 put it into this step.
 
-And then we want to get that element. So I'm going to have another variable 
-<b>thisContent</b> and that's going to equal <b>document.querySelector(thisTab)</b>.
+And then we want to get that element. So I&apos;m going to have another variable 
+<b>thisContent</b> and that&apos;s going to equal <b>document.querySelector(thisTab)</b>.
 
 And then we want to go get that div for whichever one was clicked and again 
-only one of these can be clicked. So if you click on brownies it's going to 
+only one of these can be clicked. So if you click on brownies it&apos;s going to 
 get the class active. 
 
-So we've got those two things and we're going to hold off on those for a 
+So we&apos;ve got those two things and we&apos;re going to hold off on those for a 
 minute and let them do their own thing in a minute. But now we need to do 
-something with the old tab and get its content, so we know what we're, what 
-we're going to do with that one. 
+something with the old tab and get its content, so we know what we&apos;re, what 
+we&apos;re going to do with that one. 
 
-We will add another variable var oldContent and I'm going to have that, equal 
-document.querySelector('.visible’); Now, in jQuery we had the colon visible 
-filter that would get visible tabs. But here since we're not using j query, 
-what we're doing instead is each of these tabs has a class of either hidden 
-or visible on it. So the one that's visible. 
+We will add another variable var oldContent and I&apos;m going to have that, equal 
+document.querySelector(&apos;.visible&apos;); Now, in jQuery we had the colon visible 
+filter that would get visible tabs. But here since we&apos;re not using j query, 
+what we&apos;re doing instead is each of these tabs has a class of either hidden 
+or visible on it. So the one that&apos;s visible. 
 
-What we're going to do is swap these classes around, so that when we click 
+What we&apos;re going to do is swap these classes around, so that when we click 
 on one of the tabs one is visible and the other hidden. But we have to do 
-an intermediary step to get the animation and fading out. What we're going 
-to do is we're going to set its class name to visually hidden and its opacity 
+an intermediary step to get the animation and fading out. What we&apos;re going 
+to do is we&apos;re going to set its class name to visually hidden and its opacity 
 to zero. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6468,20 +6468,20 @@ function properly.
   alt="Example, Previous Button Click Handler." />
 </p>
 
-Let's do it together and sort of see how it's actually going to work. So the 
-script I came up with looks like this. What's going to happen here is when you 
-click the previous link, the counter is going to get documented. And then we're 
-going to check to see if the counter is less than 0, which means we've run 
-through all of our images. And then we're going to set the counter to image 
+Let&apos;s do it together and sort of see how it&apos;s actually going to work. So the 
+script I came up with looks like this. What&apos;s going to happen here is when you 
+click the previous link, the counter is going to get documented. And then we&apos;re 
+going to check to see if the counter is less than 0, which means we&apos;ve run 
+through all of our images. And then we&apos;re going to set the counter to image 
 count -1. 
 
-So we've got five images and so we're going to set the counter back to 4. 
+So we&apos;ve got five images and so we&apos;re going to set the counter back to 4. 
 Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of those 
-five values, so we set it to image count minus one, so it's now a four, then 
-we're going to clone our unordered list and append it to the slider, just 
+five values, so we set it to image count minus one, so it&apos;s now a four, then 
+we&apos;re going to clone our unordered list and append it to the slider, just 
 like we did before. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 353. if previous button click, then ... (209) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 353. if previous button clicked, then ... (209) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image353.png"
   style="width:50%"
@@ -6491,122 +6491,109 @@ like we did before.
 
 But here it will be helpful to go back and look at our diagram, once again. 
 Looking at our diagram, this is our situation in this part down here our strip 
-is at this position and we've clicked the previous button. What we want to do 
+is at this position and we&apos;ve clicked the previous button. What we want to do 
 is we want to add the new strip and append it on bottom slider, instead of 
 appending it on the top slider.  Bottom slider, left corner is going to go 
 from -2000 pixels to -1600 pixels. 2000 because our images 400 pixels wide, 
-we've got five of them here. 
+we&apos;ve got five of them here. 
 
 And that will push this first picture (blue box) into our slider. And then 
 the same frame will go from 0 pixels to 400 pixels to move that there. 
 Hopefully the diagram helps. And maybe you drew your own diagram and trying 
 to solve this problem. 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~ CUTOFF HERE TO END OF Animation with JS and jQuery @UC-Davis
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. strategy (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 353. if previous button clicked, then ... (210) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image353.png"
   style="width:50%"
-  alt="." />
+  title="If previous button is clicked, then..."
+  alt="If previous button is clicked, then..." />
 </p>
 
-Here we are with our script here. But we're going to clone our own ordered 
-list like we did in the previous one, but I'm going to set that last one 
-that I've added into my DOM, the one that I've appended to, the slider, 
-I'm going to set the left to minus total width again. 
+Here we are with our script here. But we&apos;re going to clone our own ordered 
+list like we did in the previous one, but I&apos;m going to set that last one 
+that I&apos;ve added into my DOM, the one that I&apos;ve appended to, the slider, 
+I&apos;m going to set the left to minus total width again. 
 
-So that sets its left corner at that -2000 pixel mark. And we're going to 
+So that sets its left corner at that -2000 pixel mark. And we&apos;re going to 
 set left position to minus counter times image width. Remember the counter 
 got set to 4 here because its image count minus 1. So counter is 4. 4 times 
 400 gives us 1600 pixels. 
 
-And remember we're moving our strip from -2000 pixels to -1600 pixels to 
-move that left edge, that's way over off the side there into the correct 
-position. That's what that left position is going to be set for. Then we 
+And remember we&apos;re moving our strip from -2000 pixels to -1600 pixels to 
+move that left edge, that&apos;s way over off the side there into the correct 
+position. That&apos;s what that leftPosition is going to be set for. Then we 
 can take that last one and move it into the correct place. That moves that 
-strip onto the screen and then we take the first one and move it so it's off 
+strip onto the screen and then we take the first one and move it so it&apos;s off 
 the screen. And then we can, with our callback function, remove that first one. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx.  (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 354. else left position = counter * image width (211) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
-  style="width:65%"
-  alt="." />
+<img src="./images/image354.png"
+  style="width:50%"
+  title="Else leftPosition = counter * imageWidth"
+  alt="Else leftPosition = counter * imageWidth." />
 </p>
 
 We’re going to do the same thing we did before and add the else and move this 
-stuff in here. We're going to document the counter and then we're going to 
-set the counter to image count -1. So that all stays the same. Then we're 
+stuff in here. We&apos;re going to document the counter and then we&apos;re going to 
+set the counter to image count -1. So that all stays the same. Then we&apos;re 
 going to do the thing that we did with the cloning up here so I can actually 
 copy this. And paste it in here. But the position is going to be a little bit 
 different here. 
 
-This position, the last one is not going to be set to image with instead
-it&apos;s going to be set to get my tick marks. Minus I&apos;m going to put that
-in the tick marks, -&dollar;{Total width}. I want to set it to minus total
-whip, right left minus total width. Then I&apos;m going to set the left
-position to counter times image with plus the PX. A negative with a
-negative number there.
+This position, the last one is not going to be set to imageWidth, instead
+it&apos;s going to be set to tick marks. I&apos;m going to put that
+in the tick marks, -&dollar;{totalWidth}. I want to set it to minus totalWidth, 
+left minus totalWidth. Then I&apos;m going to set the leftPosition to counter 
+times imageWidth plus "px".
 
-So let&apos;s put that in next. So that&apos;s really this line from up here.
-I&apos;m going to put that in down here. But instead of just minus total
-width, it&apos;s going to be counter. What did I put now, I&apos;ve forgotten.
-It&apos;s minus then the counter times image width, that&apos;s what it is
-counter times not total with but image width, there we go. Plus PX when
-you need a PX, on the end of that I believe, yep, there we go. Okay
-great so then we just need to get these two pieces in here and we&apos;ll do
-this in the next lesson.
-
+So let&apos;s put that in next. I&apos;m going to put that in here. But instead 
+of minus totalWidth, it&apos;s going to be minus counter times imageWidth, 
+that&apos;s what it is counter times not totalWidth but imageWidth. Plus “px” on 
+the end of that. Now  we just need to animate the two pieces and we&apos;ll do that in 
+the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 3xx. previous button click handler - part 2 (3.12) (213) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 355. previous button click handler - part 2 (3.12) (212) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image355.png"
   style="width:40%"
   title="3.12 Previous Button Click Handler - Part 2"
   alt="3.12 Previous Button Click Handler - Part 2." />
 </p>
 
-In the last lesson, we worked out the logic of how the previous click
-handler is going to work and where we left off was actually moving
-animating these strips into place. So that&apos;s what we need to do here.
+In the last lesson, we worked out the logic of how the previous click handler is 
+going to work and where we left off was actually animating these strips into place. 
+That&apos;s what we need to do here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx.  (213) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 356. animate unordered list into position (212) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image356.png"
   style="width:50%"
-  alt="." />
+  title="Animate unordered list into position"
+  alt="Animate unordered list into position." />
 </p>
 
-So we&apos;re going to take an ordered list that we cloned in there and
+We&apos;re going to take an unordered list that we cloned in there and
 animate it into its position. And again, what we&apos;re doing is we&apos;re
-moving it from this position here, removing it from this position into
-here. And the corner we&apos;re tracking is this corner over here. So this
-corner when we added it to our done, is set to minus 2000 pixels because
-these are 400 pixels wide and there&apos;s five of them. So it&apos;s eight
-minus 2000 pixels.
+moving it from one position to another. This corner when we added it to our clone, 
+is set to minus 2000 pixels because these are 400 pixels wide and there&apos;s five 
+of them. 
 
-So we&apos;re going to move it from minus 2000 pixels to minus 1600 pixels
-which will move it over 400 pixels which will push the right side of
-this into our slider. And you can see that&apos;s what&apos;s happening here. We
-have our last element, we&apos;re animating to left position, and left
-position is now minus1600 pixels over 700 using quad.
+Next, we&apos;re going to move it from minus 2000 pixels to minus 1600 pixels
+which will move it over 400 pixels. That will push the right side of this into
+our slider.  We have our last element, we&apos;re animating to the left position, 
+and left position is now minus 1600 pixels over 700 milliseconds using easeInQuad.
 
-So let&apos;s go ahead and add this line into our script over here and
-really you could actually come up here and copy this one. And stick it
-in here. But instead of left 0, we&apos;re moving to LeftPosition. Which is
-that minus 1600 pixels, the counter which is four times imageWidth which
-is 400 that&apos;s 1600, with the minus sign in front of it and with the px
+Add this into our script. But instead of left 0, we&apos;re moving to 
+leftPosition. Which is that minus 1600 pixels, the counter which is four times imageWidth 
+which is 400 that&apos;s 1600, with the minus sign in front of it and with the px
 that&apos;s going to move that into the correct place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. script;  (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. script;  (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image3xx.png"
   style="width:50%"
@@ -6617,7 +6604,7 @@ So that gets that one into the correct place. The other one, the first
 one, this one here, I&apos;m sorry this one here first can actually copy
 this whole thing because we are going to remove it, we can come down
 here and we can add that in here. But instead of moving it to
-LeftPosition, it&apos;s going to be moved to imageWidth which up here the
+leftPosition, it&apos;s going to be moved to imageWidth which up here the
 top of our script, imageWidth is the width of that image.
 
 So we&apos;re going to need a px on there, imageWidth let&apos;s do our tick
@@ -6633,27 +6620,26 @@ back here, refresh it, we know the next one works but does the previous
 one work? There&apos;s our first slide and boom it works. There&apos;s our 5th,
 4th, third, second first and once again we can go around that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. console inspect, image width (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 358. console inspect, imagewidth (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image358.png"
   style="width:50%"
-  title="Console inspect, image width"
-  alt="Console inspect, image width." />
+  title="Console inspect, imageWidth"
+  alt="Console inspect, imageWidth." />
 </p>
 
 If you choose the inspector, you can see it actually working. I&apos;ve got
 my slider here, I&apos;ve got my unordered list inside of there, click next,
 you can see that&apos;s going to minus 400 click previous. It&apos;s going to
 zero when I click previous again, you&apos;ll see it, add the unordered
-list, move it into place and then remove the other unaltered list.
+list, move it into place and then remove the other unordered list.
 
-Now you have a slider that will work in a looping kind of way rather
-than just a strip that moves back and forth. But these types of projects
-in these types of lessons are really helpful for thinking about
-different ways and different kinds of things that you can use on your
-websites. And build that will make use of jQuery, make use of the built
-in effects library and teach you how to handle and think about these
-different types of situations that come up.
+Now you have a slider that will work in a looping kind of way rather than just 
+a strip that moves back and forth. But these types of projects in these types 
+of lessons are helpful for thinking about different ways and different kinds 
+of things that you can use on your websites. And build that will make use of 
+jQuery, make use of the built in effects library and teach you how to handle 
+and think about these different types of situations that come up.
 
 <ul>
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation ">
@@ -6663,9 +6649,9 @@ different types of situations that come up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. slider using javascript (3.13) (216) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 359. slider using javascript (3.13) (215) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image359.png"
   style="width:40%"
   title="3.13 Slider Using JavaScript"
   alt="3.13 Slider Using JavaScript." />
@@ -6680,41 +6666,40 @@ similar to what we saw with <b>jQuery</b>. Here, the animation is going to
 take place in <b>CSS</b> and we&apos;ll be using JavaScript to trigger the
 animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. final version sample screen (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 360. final version sample screen (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image360.png"
   style="width:50%"
   title="Final Version Sample Screen"
   alt="Final Version Sample Screen." />
 </p>
 
 In the end, you should get a slide that looks like this. It&apos;s a little
-bit different in that the the slides are going to have some actual
-content on them. The pictures will actually be in the background of the
-slide, and then they&apos;re going to have little bit of a title and some
-text on them.
+bit different in that the slides are going to have some actual content on them. 
+The pictures will actually be in the background of the slide, and then 
+they&apos;re going to have little bit of a title and some text on them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. basic strategy (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 361. basic strategy (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image361.png"
   style="width:50%"
   title="Basic Strategy"
   alt="Basic Strategy." />
 </p>
 
-So let&apos;s take a look at how that set up. The basic strategy is the same
+Let&apos;s take a look at how that set up. The basic strategy is the same
 and that we&apos;re going to have a parent window that has overflow hidden
 set on it. And that&apos;s going to act like a window for these slides and
 the slides are all set up, in this case I have them floated. But
 they&apos;re all set up to float next to each other so that they end up in
-one long strip. And as you click on the buttons either left and right,
+one long strip. And as you click on the buttons either left or right,
 the strip of slides moves in and out of the parent window showing only
 one image at a time. There&apos;s our basic strategy, very similar to what
 we had with the <b>jQuery</b> version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. example, html (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362. example, html (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image362.png"
   style="width:50%"
   title="Example, HTML"
   alt="Example, HTML." />
@@ -6728,9 +6713,9 @@ on that slide. The actual picture will be in the background of the list
 item, so that the list item is actually showing the picture as a
 background image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 3xx. example, css for the wrapper (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 363. example, css for the wrapper (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image363.png"
   style="width:50%"
   title="Example, CSS for the Wrapper"
   alt="Example, CSS for the Wrapper." />
@@ -6738,53 +6723,122 @@ background image.
 
 Now let&apos;s take a look at the CSS for the wrapper. The wrapper has a
 width of 1000 pixels and it&apos;s set to a height of 358 pixels which is
-really the size of my pictures. And I&apos;m setting margin auto on it to
-sort of center it on the on screen. And then position relative because
-we&apos;re going to absolutely position that string of pictures inside this
-window. This is the window that&apos;s going to show only one image. And
-then overflow hidden so you don&apos;t see the other pictures.
+the size of my pictures. And I&apos;m setting margin auto on it to center it
+on the screen. And then position relative because we&apos;re going to
+absolutely position that string of pictures inside this window. This is
+the window that&apos;s going to show only one image. And then overflow
+hidden so you don&apos;t see the other pictures.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 364. markup for javascript image slider (217) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image364.png"
+  style="width:50%"
+  title="Markup for JavaScrtip image slider"
+  alt="Markup for JavaScrtip image slider." />
+</p>
 
 And we can come over to our code over here and see this markup in place.
-So you can see here I have my div with the slider wrapper. I have an
-unaltered list with the list item. The list item has the div with the
-content which includes an h2 in a picture. And I&apos;ve got a bunch of
-these list items in here. On the CSS, you can see that I have slider up
-here set to with the 1000 pixels and the height for the picture. And
-then margin auto to center at position relative and overflow hidden.
+You can see here I have my **div** with the **slider-wrapper**. I have
+an **unordered list** with the **list item**. The **list item** has the
+**div** with the content which includes an **h2** in a picture. And
+I&apos;ve got a bunch of these **list items** in here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 365. styles for javascript image slider (218) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image365.png"
+  style="width:50%"
+  title="Styles for JavaScrtip image slider"
+  alt="Styles for JavaScrtip image slider." />
+</p>
+
+On the **CSS**, you can see that I have slider up here set to width 1000
+pixels and the height for the picture. And then margin auto to center at
+position relative and overflow hidden.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 366. slider-wrapper with background images (218) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image366.png"
+  style="width:50%"
+  title="slider-wrapper with background images for each"
+  alt="slider-wrapper with background images for each." />
+</p>
+
 Down here as you look down through the CSS here, you&apos;ll see this is
 where the background images are. It&apos;s on the list items. So the first
 list item gets this background image, second one gets that one. The
 images are here in the folder.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. example, css for the slider (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image367.png"
+  style="width:50%"
+  title="Example, CSS for the slider"
+  alt="Example, CSS for the slider." />
+</p>
 
-So I have all of my images here. So everything will sort of line up and
-go into place that way. The actual animation is happening in CSS. So
-you&apos;ll see this transition left 700 milliseconds cubic-bezier with a
-bunch of numbers in here. And I&apos;ll tell you about where those come from
-in a minute. But we can see this in our CSS over here, right here. Using
-this transition we&apos;re going to transition the left property over 700
-milliseconds. That&apos;s the same as what we had in the <b>jQuery</b> version.
+The actual animation is happening in CSS. You&apos;ll see this transition
+left 700 milliseconds cubic-bezier with a bunch of numbers in here. And
+I&apos;ll tell you about where those come from in a minute.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 368. style for slider wrapper ul and ul li (219) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image368.png"
+  style="width:50%"
+  title="Style for slider wrapper ul and ul li"
+  alt="Style for slider wrapper ul and ul li." />
+</p>
+
+But we can see this in our CSS over here, right here. Using this
+transition we&apos;re going to transition the left property over 700
+milliseconds. That&apos;s the same as what we had in the **jQuery** version.
 But this cubic-bezier, where is that coming from?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 369. cubic-bezier, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image369.png"
+  style="width:50%"
+  title="Ceaser, web animation tools website"
+  alt="Ceaser, web animation tools website." />
+</p>
 
-What I used to create those is this little web tool called CSS Easer or
-Ceasar, it&apos;s an animation tool. And you can see here, here&apos;s linear
-animation. If I click left, it just moves it at the same speed and you
-can pick one of these built in options here to see what it looks like.
-We can change the amount of time. So that&apos;s starting slow and ending
-fast. Whereas if you were to do easeOutCirc it would be the other way
-around, start fast and slow. And then down here you can see the CSS that
-you actually need for this transitional.
+What I used to create those is this little web tool called **Ceaser**,
+it&apos;s an animation tool. And you can see here, linear animation.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 370. linear, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image370.png"
+  style="width:50%"
+  title="Linear, web animation tools website"
+  alt="Linear, web animation tools website." />
+</p>
 
-But instead of transitioning all, I&apos;m just transitioning left. But you
-can see that that&apos;s the code that we need in order to do this. And you
-can even customize this. You can drag these handles and create your own
-custom using to do whatever you want it to do. And it will adjust these
-numbers accordingly.
+If I click left, it just moves it at the same speed and you can pick one
+of these built in options here to see what it looks like. We can change
+the amount of time. So that&apos;s starting slow and ending fast. Whereas if
+you were to do **easeOutCirc** it would be the other way around, start
+fast and slow.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 371. code snippet for transition left (221) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image371.png"
+  style="width:50%"
+  title="Code snippet for transition left"
+  alt="Code snippet for transition left." />
+</p>
 
-So that&apos;s where that comes from. So that&apos;s going to create the actual
-animation for the slides. So each time a slide moves, this transition is
-going to take effect. Or each time we change the position of the slide,
-the left position, this animation is going to take effect. And that&apos;s
-where we we&apos;ll see the actual animation for our slider.
+And then down here you can see the CSS that you actually need for this
+transitional. But instead of transitioning all, I&apos;m just transitioning
+left. But you can see that that&apos;s the code that we need in order to do
+this. And you can even customize this. You can drag these handles and
+create your own custom using to do whatever you want it to do. And it
+will adjust these numbers accordingly.
+
+That&apos;s going to create the actual animation for the slides. Each time a
+slide moves, this transition is going to take effect. Or each time we
+change the position of the slide, the left position, this animation is
+going to take effect. And that&apos;s where we we&apos;ll see the actual
+animation for our slider.
 
 <h3>Start Files: JavaScript Image Sliders</h3>
 
@@ -6796,373 +6850,579 @@ where we we&apos;ll see the actual animation for our slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 3xx. css for slides and adding variables (222) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 372. css for slides and adding variables (222) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image3xx.png"
+<img src="./images/image372.png"
   style="width:40%"
   title="3.14 CSS for Slides and Adding Variables"
   alt="3.14 CSS for Slides and Adding Variables." />
 </p>
 
 We have a little bit more CSS to talk about before we start working on
-our JavaScript. And the first thing is the actual slides themselves. So
-the list items that are inside the unordered list that are inside the
-slide wrapper, which are these elements here in my index page. These
-list items here.
-
-So these are my actual slides. And I want to set some styling for those.
-First of all, I&apos;m going to make sure the background image covers the
-entire list item. So even if they were to get a little bit cropped or
-something like that, then that&apos;s fine. I want to make sure the image
-covers the whole thing because it&apos;s a background image, as we see over
-here. And as we mentioned before, each slide, each list item gets its
-own background image.
-
-So those images go in the background and they cover the background of
-that list item. And then they&apos;re set to position relative because the
-content that&apos;s inside these slides, this div with the H2 and paragraph
-is going to be absolutely positioned. Basically this div here. It&apos;s
-going to be absolutely positioned here.
-
-So that it gets positioned on the slide inside of the background there
-on top of the background. So that gets, so these are set to position
-relative because those divs are positioned absolutely. And then then we
-set the width of the slide and the height of the slide and I have them
-floated left, so they all go in a line next to each other. And that
-should make them all work pretty well there.
-
-Okay, so we&apos;ve got all of that in place and working. And now we&apos;re
-ready to start working on our actual JavaScript. And for our JavaScript,
-in the j query version of this, we used the on method to make sure that
-the window has loaded. We did an on load method, and that was an event
-listener in j query to check to make sure that all those images have
-loaded.
-
-Here, we&apos;re just going to add an event listener with the add event
-listener event and the event listener method and put it right on the
-window. And we&apos;re going to check for the load event. And that will also
-do the same thing where it&apos;s going to check to make sure that all the
-assets have loaded before it runs the callback function. Which is the
-anonymous function you see on that first line of the script there. And
-everything is going to happen inside of that anonymous function that
-runs after the page has loaded.
-
-So let&apos;s go ahead and add that event listener to our script first. Come
-over to my script file and I&apos;m going to add a window, if I could type
-it, window.addEventListener. And I&apos;m looking for a load event, comma,
-I&apos;m going to run a function that runs when the page has loaded all of
-its content. So we&apos;re going to run that function and in here I&apos;m going
-to add a number of variables. And a lot of these variables are going to
-look familiar, because it&apos;s very similar to what we did with our j
-query version of the script. Also, this function here will function as a
-closure for this whole script.
-
-So I don&apos;t have to worry about adding an IIFE immediately invoked
-function expression, because this function will make sure all the
-variables, everything in here are local to this function. And nothing
-will be leaking into the global scope. So we don&apos;t need to worry about
-doing that for the script either, because we&apos;re putting it in this
-event listener for when the page loads.
+our JavaScript. And the first thing is the actual slides themselves. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x. example, adding variables (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 373. example, css for the slides (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image36x.png"
+<img src="./images/image373.png"
   style="width:50%"
-  alt="." />
-</p>
-What do I need to know? I need to know, how many slides I have?
-How wide is each slide? What is the total width of the slider? And then
-I need to get some elements that I&apos;m going to work with on my
-page, the actual slider element itself. If I make a variable called slider, I don't
-have to type document.querySelector every time I want to work with the slider. same
-with the next and previous buttons.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<p align="center" width="100%">
-<img src="./images/image36x.png"
-  style="width:50%"
-  alt="." />
+  title="Example, CSS for the slides"
+  alt="Example, CSS for the slides." />
 </p>
 
-Let's add these in over here.  I'm going to go back to my script and type it in. 
-I'm going to make a variable called sliderCount, and I'm going to use querySelectorAll
-to get the length of how many list items do I have?
-
-The next thing I need to know is how wide is each slide (slideWidth)?
-And there&apos;s a property in JavaScript called offsetWidth. I can go get this
-wrapper and say, well how wide is my slider-wrapper? The next thing I&apos;m going 
-to need is the total slider width (totalWidth), which is going to be the slide 
-count and it&apos;s the slide with the pixels. Then I need my DOM elements; the 
-slider itself, the next button and the previous button.
-
+The list items that are inside the unordered list that are inside the slide 
+wrapper, which are these elements here in my index page. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 374. html div id='slider-wrapper' (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image36x.png"
+<img src="./images/image374.png"
   style="width:50%"
-  alt="." />
+  title="HTML div id, slider-wrapper"
+  alt="HTML div id, slider-wrapper." />
 </p>
 
-We&apos;re going to need a few more variables to get before we get started
-with our next click handler. Okay, here are a few more variables that we need. 
-We need to know, we need to know the leftPosition and set it to 0. We need a
-counter, and then we want to set the slider.style.width to the totalWidth.
+These list items here. These are my actual slides. And I want to set some styling 
+for those. First of all, I&apos;m going to make sure the background image covers the 
+entire list item. Even if they were to get a little bit cropped, then that&apos;s fine. 
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36x.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!--~~~~~~~~~~~~~~~~~~~~~~ 373. example, css for the slides, again (223) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image36x.png"
+<img src="./images/image373.png"
   style="width:50%"
-  alt="." />
+  title="Example, CSS for the slides, again"
+  alt="Example, CSS for the slides, again." />
 </p>
 
-Setting slider.style.width, that&apos;s the total width. We&apos;ll actually set
-the width of that element, and we&apos;ll talk about that and look at it a
-little bit more in the next lesson.
+I want to make sure the image covers the whole thing because it&apos;s a background 
+image, as we see over here. And as we mentioned before, each slide, each list 
+item gets its own background image. 
 
-### 3.15 Adding More Variables (5:49)
-
-In our last lesson, we got some basic variables in place for our slider
-and they&apos;re very similar to the variables that you saw for the
-<b>jQuery</b> version of the slider. But now we&apos;re using plain JavaScript,
-so the syntax is slightly different. It&apos;s a little bit longer, but
-it&apos;s not too bad.
-
-Here we&apos;ve set the slider style width to total width and remember total
-width is the slide count times the slide with the px at the end. We&apos;re
-setting that locally in the style here and over here, if I come in and
-look at my slider and refresh this, and then click &quot;Inspect&quot;. I should
-see in here for the unordered list and actual number of pixels here, UL
-style with 5,000 pixels, because I&apos;ve got five slides and they&apos;re
-1,000 pixels wide, so that&apos;s 5,000 pixels. The reason why I want to set
-that here is just in case I add more slides to my slider. I could add
-more if I wanted to or remove some if I wanted to and I want to keep the
-script as general as possible.
-
-Over in the css for this, in here I have probably, I think I have 5,000
-pixels set here, I have it set here. I could remove that from here if I
-wanted to know. I don&apos;t really need it here, it&apos;s getting set on that
-element manually with an inline style and JavaScript is setting that, so
-I don&apos;t really need it here. Really I don&apos;t want it here I want it to
-be handled by the script because I want to be able to add or remove
-elements here and the script is going to override that anyway, so it&apos;s
-not even really necessary to have it there. That&apos;s a nice thing to pay
-attention to and to realize that I can take that out of there.
-
-The next thing we need to do is set up our event handler for when you
-click the next button. The first thing we&apos;ll do is handle an event for
-what happens when you click the link will pass in the event object and
-prevent default so that you don&apos;t get the little hashtag for clicking
-the next link up in the URL. It&apos;s nice. We will increment the counter
-and then we&apos;re going to have any if and else for if the counter is
-equal to the slide count, in which case we&apos;ll set the counter to zero,
-we&apos;ll set the left position to zero, and then we&apos;ll move the slider
-into position. Otherwise, we&apos;re going to just move the slider to the
-next slide.
-
-Let&apos;s go ahead and set up this event listener on our next button. Go
-back to my script here and now I can just use the handy shortcut next
-because I know that that is actually from here it&apos;s going in and
-getting my button pound next. Next, add EventListener. I&apos;m listening
-for a click and I&apos;m going to run a function when you get a click, like
-so.
-
-Then I&apos;m going to pass in evt. Sometimes people put in event, I usually
-use event because it&apos;s very clear that&apos;s what that is. Sometimes
-people just put an e for event, but e sometimes also stands for error,
-so I don&apos;t want it to stand for errors. I&apos;m going to put evt, which is
-of a nice compromise between the full word event and using the shortcut
-e.
-
-This is just a variable so you could put whatever you want. You could
-make a cheese if you wanted to do or llamas or chickens or something
-else. It&apos;s just a variable, but it represents that event object that
-we&apos;re passing into this function. The event that happens when you click
-on this next button here. Down in here we&apos;re going to do
-evt.preventDefault. That&apos;s because these buttons over here are really
-just links. If you click on the link without that, then this pound sign
-ends up in the URL, this hash and I don&apos;t really like that.
-
-The event prevent default, keeps that from happening, evt prevent
-default passing in that thing. Then we&apos;re going to have an if
-statement, if will handle what happens if the counter has gotten to the
-end of the line and in else. We also need to increment the counter.
-Counter is the same as slide count equals, equals the same as. Read that
-as the same as. Don&apos;t forget, we need to increment the counter, counter
-plus, plus. It&apos;s the same as counter equals counter plus one. Just a
-nice little shortcut there. Then if counter is the same as slide count,
-then we&apos;re going to do something in here and then we&apos;ve got an else in
-there. Then we&apos;ll pick up the rest of this next EventListener in the
-next lesson.
-
-### 3.16 Event Handler for the Next Button (7:11)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 375. each list item has a background image (224) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image365.png"
+<img src="./images/image375.png"
+  style="width:50%"
+  title="Each list item has a background image"
+  alt="Each list item has a background image." />
+</p>
+
+Those images go in the background and they cover the background of that list item. 
+And then they&apos;re set to position relative because the content that&apos;s inside these 
+slides, this <b>div</b> with the <b>h2</b> and <b>paragraph</b> is going to be 
+<b>absolutely</b> positioned.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 376. test console, slider-wrapper and slider-controls (224) ~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image376.png"
+  style="width:50%"
+  alt="Test console, slider-wrapper and slider-controls." />
+</p>
+
+This div here is going to be absolutely positioned here. These are set to 
+position relative because those divs are positioned absolutely. And then we set 
+the width of the slide and the height of the slide and I have them floated left, 
+so they all go in a line next to each other.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 377. example, add variables (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image377.png"
+  style="width:50%"
+  title="Example, Add Variables"
+  alt="Example, Add Variables." />
+</p>
+
+
+And now we&apos;re ready to start working on our actual JavaScript. And for our 
+JavaScript, in the j query version of this, we used the on method to make sure 
+that the window has loaded. We did an on load method, and that was an event 
+listener in j query to check to make sure that all those images have loaded. 
+
+Here, we&apos;re just going to add an event listener with the add event listener 
+event and the event listener method and put it right on the window. And we&apos;re 
+going to check for the load event. And that will also do the same thing where 
+it&apos;s going to check to make sure that all the assets have loaded before it 
+runs the callback function. Which is the anonymous function you see on that 
+first line of the script there. And everything is going to happen inside of 
+that anonymous function that runs after the page has loaded. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 378. add event listener to javascript (226) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image378.png"
+  style="width:50%"
+  title="Add event listener to JavaScript"
+  alt="Add event listener to JavaScript." />
+</p>
+
+Let&apos;s add that event listener to our script first. Come over to my script file 
+and I&apos;m going to add a window, if I could type it, window.addEventListener. And 
+I&apos;m looking for a load event, I&apos;m going to run a function that runs when the 
+page has loaded all of its content. In here I&apos;m going to add a number of variables. 
+A lot of these variables are going to look familiar, because it&apos;s very similar to 
+what we did with our jQuery version of the script. Also, this function here will 
+function as a closure for this whole script.
+
+I don&apos;t have to worry about adding an IIFE immediately invoked function expression, 
+because this function will make sure all the variables, everything in here are 
+local to this function. And nothing will be leaking into the global scope. We 
+don&apos;t need to worry about doing that for the script either, because we&apos;re putting 
+it in this event listener for when the page loads. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 377. again, example, add variables (227) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image377.png"
+  style="width:50%"
+  title="Example, Adding Variables, again"
+  alt="Example, Adding Variables, again." />
+</p>
+
+<p>What do I need to know? I need to know how many slides I have? How wide is each 
+slide? What is the total width of the slider? And then I need to get some 
+elements that I&apos;m going to work with on my page, the actual slider element 
+itself. If I make a variable called slider, I don&apos;t have to type 
+<b>document.querySelector</b> every time I want to work with the slider, same thing 
+with the next button and the previous button.</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 379. add variables to javascript (227) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image379.png"
+  style="width:50%"
+  title="Example, Adding Variables, again"
+  alt="Example, Adding Variables, again." />
+</p>
+
+Let&apos;s add these in over here. I&apos;m going to go back to my script over here and 
+type it in. I&apos;m going to make a variable called slideCount, and I&apos;m going to 
+use querySelectorAll to get the length of how many list items do I actually 
+have? 
+
+The next thing I need to know is how wide is each slide (slideWidth)? And there&apos;s 
+a property in JavaScript called offsetWidth. I can go get this wrapper and say, 
+well how wide is my slider-wrapper? The next thing I&apos;m going to need is the total 
+slider width (totalWidth), which is going to be the slide count and it&apos;s the slide 
+with the pixels. Then I need my DOM elements; the slider itself, the next button 
+and the previous button. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 380. example, a few more variables (228) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image380.png"
+  style="width:50%"
+  title="Example, A Few More Variables"
+  alt="Example, A Few More Variables." />
+</p>
+
+We&apos;re going to need a few more variables to get before we get started with our 
+next click handler. Okay, here are a few more variables that we need. We need 
+to know the leftPosition and set it to 0. We need a counter, and then we want 
+to set the slider.style.width to the totalWidth. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 381. set slider style width to total width (229) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image381.png"
+  style="width:50%"
+  title="Set slider style width equal to total width"
+  alt="Set slider style width equal to total width." />
+</p>
+Setting slider.style.width, that&apos;s the totalWidth. It will set the width of 
+that element, and we&apos;ll talk about that and look at it a little bit more in 
+the next lesson.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-15">3.15 Adding More Variables (5:49)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 382. adding more variables (3.15) (229) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image382.png"
   style="width:40%"
-  alt="." />
+  title="3.15 Adding More Variables"
+  alt="3.15 Adding More Variables." />
 </p>
 
-If we&apos;ve reached the end of our strip and the counter is the same as
-the slide counter, then the first thing I want to do is set that counter
-back to zero. Then I want to set this variable left position and make
-sure it&apos;s set to zero, left position. It was set to zero initially, but
-I just want to make sure it gets set to zero again and of course I
-misspelled position there. Left position, there we go. I&apos;m going to
-make sure that gets set to zero.
+In our last lesson, we got some basic variables in place for our slider and 
+they&apos;re very similar to the variables that you saw for the jQuery version of 
+the slider. But now we&apos;re using plain JavaScript, so the syntax is slightly 
+different. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 383. set slider style width to total width (230) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image383.png"
+  style="width:50%"
+  title="Set slider.style.width = totalWidth"
+  alt="Set slider.style.width = totalWidth." />
+</p>
 
-Then I&apos;m going to take my slider.style.left and set it equal to left
-position and that will put it into the correct position on the page. Now
-remember over here on the styles, when we talk about slider, we&apos;re
-talking about this unordered list here and it has the transition on it,
-so that&apos;s going to take care of the animation, I don&apos;t have to do the
-animation over here.
+Here we&apos;ve set the slider.style.width to totalWidth and remember totalWidth is 
+the slideCount times the slideWidth + “px” at the end. 
 
-All I have to do is set that position left and CSS will handle the
-animation. That&apos;s one thing that&apos;s different between the JavaScript
-version and the <b>jQuery</b> version. In the <b>jQuery</b> version, we&apos;re
-using the <b>jQuery</b> animate method, which is using the built-in effects
-library for doing the animation. Here, we&apos;re just setting the CSS
-position of the CSS property to left position, which in this case is
-zero, and then we let CSS handle the animation.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 384. inspect console, list item width (230) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image384.png"
+  style="width:50%"
+  title="Inspect console, list item width"
+  alt="Inspect console, list item width." />
+</p>
 
-Because CSS uses the GPU instead of the CPU, it&apos;s nice and buttery
-smooth. It&apos;ll work well on older devices that don&apos;t have a faster
-processor. In newer device the <b>jQuery</b> will work fine, but older
-devices, the CSS in particular will work a little bit better and be a
-little bit smoother, but I think it&apos;s even smoother on newer devices,
-honestly. That takes care of the if statement here. For the else, we
-need to increment the slide forward, if we&apos;re not at the end, we&apos;re
-just going to move that slide forward.
+We&apos;re setting that locally in the style here and over here, if I come in and 
+look at my slider and refresh this, and then click "Inspect". I should see in 
+here for the unordered list and actual number of pixels here, UL style with 
+5,000 pixels, because I&apos;ve got five slides and they&apos;re 1,000 pixels wide, so 
+that&apos;s 5,000 pixels. The reason why I want to set that here is just in case I 
+add more slides to my slider. I could add more if I wanted to or remove some if 
+I wanted to and I want to keep the script as general as possible.
 
-I&apos;m going to set left position here. Left position, I&apos;ve spelled it
-properly. I&apos;m going to use a pair of tech marks and I&apos;m going to set
-it to a &apos;negative number&apos;, and what I want it to go to whatever the
-counter is times the slide width. I&apos;m going to put in here dollar sign
-curly brace counter. If I&apos;m clicking it the first time that counters
-going to go from zero to one, that&apos;s going to be one, and then when I
-multiply it times slide width. Of course, I want to add a px in here. I
-believe the slide with doesn&apos;t have the px. No, it&apos;s just the width,
-so I need the px in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 385. style, slider-wrapper ul width (231) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image385.png"
+  style="width:50%"
+  title="CSS Style, slider-wrapper ul width"
+  alt="CSS Style, slider-wrapper ul width." />
+</p>
 
-That sets that left position there. Then I just need this, same thing
-and setting that left property to what the left position should be. That
-should, in theory work. Let&apos;s go check it out, refresh, see if I did it
-right. Notice it&apos;s nice and smooth with the animation. When I get to
-the end, it goes back to the beginning. We have a script that&apos;s working
-and this is perfectly fine the way it is, but it could be simplified a
-little bit. If we look at this, you&apos;ll notice this line is the same as
-this line, and really, if I set the counter to zero, I don&apos;t need to
-explicitly set left position to zero because this will do the same
-thing.
+Over in the css for this, in here I have probably, I think I have 5,000 pixels 
+set here, I have it set here. I could remove that from here if I wanted to know. 
+I don&apos;t really need it here, it&apos;s getting set on that element manually with an 
+inline style and JavaScript is setting that, so I don&apos;t really need it here. 
+Really I don&apos;t want it here I want it to be handled by the script because I 
+want to be able to add or remove elements here and the script is going to 
+override that anyway, so it&apos;s not even really necessary to have it there. 
+That&apos;s a nice thing to pay attention to and to realize that I can take 
+that out of there. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 386. example, next slide click handler (231) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image386.png"
+  style="width:50%"
+  title="Example, Next Slide Click Handler"
+  alt="Example, Next Slide Click Handler." />
+</p>
 
-If I could set counter to zero, zero times slide width px, is going to
-be zero, I don&apos;t really need this line either. In fact, my if statement
-could get much shorter, It could just be if counter is zero, counter is
-the same so I can set counter to zero, and then I don&apos;t really need an
-else because this is going to happen no matter what. If you wanted to
-make the script even shorter, you could put these on one line, I think
-Visual Studio Code is going to scream at me when I try to do this and
-put those back in two lines as soon as I save this.
+The next thing we need to do is set up our event handler for when you click the 
+next button. The first thing we&apos;ll do is handle an event for what happens when 
+you click the link will pass in the event object and prevent default so that 
+you don&apos;t get the little hashtag for clicking the next link up in the URL. We 
+will increment the counter and then we&apos;re going to have any if and else for if 
+the counter is equal to the slide count, in which case we&apos;ll set the counter to 
+zero, we&apos;ll set the left position to zero, and then we&apos;ll move the slider into 
+position. Otherwise, we&apos;re going to just move the slider to the next slide. 
 
-But you could even just put this all in one line. It makes this really
-nice and short and compact where setting the event prevent default, we
-increment the counter. If the counter is the same as slide count, we set
-the counter to zero and then we set the left position to whatever the
-counter is times the slide width. If it&apos;s zero, then it&apos;s going to be
-zero, and that&apos;s fine. If it&apos;s one, then it&apos;s going to be one times
-side width 1,000 pixels minus 1,000 pixels, so on and so forth. Then we
-set the slider style left to left position and let the CSS do the
-animation.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 387. next button, event listener for click (232) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image387.png"
+  style="width:50%"
+  title="Next button, event listener for click"
+  alt="Next button, event listener for click." />
+</p>
 
-Save that, and come over here and you&apos;ll notice it should work exactly
-the same way. If I click &quot;Next&quot;, it&apos;s going all the way to the end,
-and then back to the beginning. That&apos;s great, now we&apos;ve got that in
-place and that&apos;s all working and that&apos;s awesome. Your chore is to do
-the previous EventListener. This one&apos;s not as hard as the, the
-<b>jQuery</b> one, but it&apos;s very similar to what we have here, except
-we&apos;re using the previous link and we&apos;re decrementing the counter but
-other than that it&apos;s very similar, see if you can do it on your own.
+Let&apos;s set up this event listener on our next button. Go back to my script here 
+and now I can just use the handy shortcut next because I know that that is 
+actually from here it&apos;s going in and getting my button pound next. Next, add 
+EventListener. I&apos;m listening for a click and I&apos;m going to run a function when 
+you get a click, like so. Then I&apos;m going to pass in evt. It represents that 
+event object that we&apos;re passing into this function. The event that happens when 
+you click on this next button. Then we&apos;re going to do evt.preventDefault.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 388. slider-control, href is pound (#) (233) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image388.png"
+  style="width:50%"
+  title="slider-control, href is pound (#)"
+  alt="slider-control, href is pound (#)." />
+</p>
+
+That&apos;s because these buttons over here are really just links. If you click 
+on the link without that, then this pound sign ends up in the URL, this hash and 
+I don&apos;t really like that. The event prevent default, keeps that from 
+happening, evt prevent default passing in that thing. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 389. if counter = slidecount then ... (233) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image389.png"
+  style="width:50%"
+  title="If counter = slideCount then..."
+  alt="If counter = slideCount then..." />
+</p>
+Then we&apos;re going to have an if statement, if will handle what happens if 
+the counter has gotten to the end of the line and in else. We also need to 
+increment the counter. Counter is the same as slide count equals, equals the 
+same as. Read that as the same as. Don&apos;t  forget, we need to increment the 
+counter, counter plus, plus. It&apos;s the same as counter equals counter plus 
+one. Just a nice little shortcut there. Then if counter is the same as slide 
+count, then we&apos;re going to do something in here and then we&apos;ve got 
+an else in there. Then we&apos;ll pick up the rest of this next EventListener 
+in the next lesson.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+3.16 Event Handler for the Next Button (7:11)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 390. event handler for the next button (3.16) (234) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image390.png"
+  style="width:40%"
+  title="3.16 Event Handler for the Next Button"
+  alt="3.16 Event Handler for the Next Button." />
+</p>
+If we&apos;ve reached the end of our strip and the counter is the same as the 
+slide counter, then the first thing I want to do is set that counter back to 
+zero. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 391. set counter to 0, first thing (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image391.png"
+  style="width:50%"
+  title="First thing, set counter to 0"
+  alt="First thing, set counter to 0." />
+</p>
+
+Then I want to set this variable left position and make sure it&apos;s set to 
+zero, left position. It was set to zero initially, but I just want to make sure 
+it gets set to zero again.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 392. slider, style, left = leftposition (235) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image392.png"
+  style="width:50%"
+  title="slider.style.left = leftPosition"
+  alt="slider.style.left = leftPosition." />
+</p>
+
+Then I&apos;m going to take my slider.style.left and set it equal to left 
+position and that will put it into the correct position on the page. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 393. slider-wrapper ul, transition left (235) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image393.png"
+  style="width:50%"
+  title="Style slider-wrapper ul, transition left"
+  alt="Style slider-wrapper ul, transition left." />
+</p>
+
+Now remember over here on the styles, when we talk about slider, we&apos;re 
+talking about this unordered list here and it has the transition on it, so 
+that&apos;s going to take care of the animation, I don&apos;t have to do the 
+animation over here. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 394. slider style left equals leftposition (236) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image394.png"
+  style="width:50%"
+  title="slider.style.left = leftPosition"
+  alt="slider.style.left = leftPosition." />
+</p>
+
+All I have to do is set that position left and CSS will handle the animation. 
+That&apos;s one thing that&apos;s different between the JavaScript version and 
+the jQuery version. In the jQuery version, we&apos;re using the jQuery animate 
+method, which is using the built-in effects library for doing the animation. 
+Here, we&apos;re just setting the CSS position of the CSS property to leftPosition, 
+which in this case is zero, and then we let CSS handle the animation.
+
+Because CSS uses the GPU instead of the CPU, it&apos;s nice and buttery smooth. 
+It&apos;ll work well on older devices that don&apos;t have a faster processor. 
+In newer device the jQuery will work fine, but older devices, the CSS in 
+particular will work a little bit better and be a little bit smoother, but I 
+think it&apos;s even smoother on newer devices, honestly. That takes care of 
+the if statement here. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 395. leftposition equals minus counter times slide width (237) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image395.png"
+  style="width:50%"
+  title="leftPosition = negative counter times slideWidth"
+  alt="leftPosition = negative counter times slideWidth." />
+</p>
+
+For the else, we need to increment the slide forward, if we&apos;re not at the 
+end, we&apos;re just going to move that slide forward. I&apos;m going to set 
+left position here. LeftPosition. I&apos;m going to use a pair of tick marks 
+and I&apos;m going to set it to a &apos;negative number&apos;, and what I want 
+it to go to whatever the counter is times the slide width. I&apos;m going to 
+put in here dollar sign curly brace counter. 
+
+If I&apos;m clicking it the first time that counters going to go from zero to one, 
+that&apos;s going to be one, and then when I multiply it times slide width. Of 
+course, I want to add a px in here. That sets that left position there. Then I 
+just need slider.style.left = leftPosition.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 396. sample, slide title over image (237) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image396.png"
+  style="width:50%"
+  title="Sample screen, slide title over image"
+  alt="Sample screen, slide title over image." />
+</p>
+
+Let&apos;s go check it out. Notice it&apos;s nice and smooth with the animation. 
+When I get to the end, it goes back to the beginning. We have a script that&apos;s 
+working and this is perfectly fine the way it is, but it could be simplified a 
+little bit. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 397. slider left position = leftposition (238) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image397.png"
+  style="width:50%"
+  title="slider left position = leftPosition"
+  alt="slider left position = leftPosition." />
+</p>
+
+If we look at this, you&apos;ll notice this line is the same as this line, and 
+if I set the counter to zero, I don&apos;t need to explicitly set left position 
+to zero because this will do the same thing.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 398. if counter = slidecount, then... (238) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image398.png"
+  style="width:50%"
+  title="If counter = slideCount, then reset to zero"
+  alt="If counter = slideCount, then reset to zero." />
+</p>
+
+If I could set counter to zero, zero times slide width px, is going to be zero, 
+I don&apos;t really need this line either. In fact, my if statement could get 
+much shorter, It could just be if counter is zero, counter is the same so I can 
+set counter to zero, and then I don&apos;t really need an else because this is 
+going to happen no matter what. If you wanted to make the script even shorter, 
+you could put these on one line, I think Visual Studio Code is going to scream 
+at me when I try to do this and put those back in two lines as soon as I save this. 
+
+But you could even just put this all in one line. It makes this really nice and 
+short and compact where setting the event prevent default, we increment the 
+counter. If the counter is the same as slide count, we set the counter to zero 
+and then we set the left position to whatever the counter is times the slide 
+width. If it&apos;s zero, then it&apos;s going to be zero, and that&apos;s fine. 
+If it&apos;s one, then it&apos;s going to be one times side width 1,000 pixels 
+minus 1,000 pixels, so on and so forth. Then we set the slider style left to 
+left position and let the CSS do the animation.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 399. example, refactoring the next click handler (239) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image399.png"
+  style="width:50%"
+  title="Example fading away, Refacturing the Next Click Handler"
+  alt="Example fading away, Refacturing the Next Click Handler." />
+</p>
+Your chore is to do the previous EventListener.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-17">3.17 Solution for the Previous Button Challenge (4:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 400. solution for the previous button challen (3.17) (240) ~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image400.png"
+  style="width:40%"
+  title="3.17 Solution for the Previous Button Challenge"
+  alt="3.17 Solution for the Previous Button Challenge." />
+</p>
 
-![](./3-19-images/media/image366.png){width="4.0in"
-height="2.264957349081365in"}
+In the previous lesson, we completed the event handler for the next button. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 401. previous button, event handler (240) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image401.png"
+  style="width:50%"
+  title="Previous button, event handler"
+  alt="Previous button, event handler." />
+</p>
 
-In the previous lesson, we completed the event handler for the next
-button. Your challenge was to write the event handler for the previous
-button. Hopefully, you gave it a try and were able to do it. If not,
-let&apos;s do it together here. But it&apos;s good to at least try, even if you
-tried and got stuck and couldn&apos;t quite get it to work, then that&apos;s
-fine. We want to make sure we try these things because that&apos;s the way
-you learn JavaScript, and then now we&apos;ll try to do it together.
+Your challenge was to write the event handler for the previous button. 
+Hopefully, you gave it a try and were able to do it. If not, let&apos;s do it 
+together here. But it&apos;s good to at least try, even if you tried and got 
+stuck and couldn&apos;t quite get it to work, then that&apos;s fine. We want 
+to make sure we try these things because that&apos;s the way you learn JavaScript, 
+and then now we&apos;ll try to do it together. 
 
-The first thing I&apos;m going to do is just copy this entire event listener
-and paste it. A lot of it&apos;s the same. I&apos;m going to say next, instead
-of next, it&apos;s going to be previous to go with my previous variable
-here, which is getting my prev element from my HTML. Over here in the
-HTML, you can see that I set the previous button to id prev. I&apos;m
-getting previous, click evt.PreventDefault. Instead of incrementing the
-counter, we&apos;re going to decrement it minus minus.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 402. on click, prevent default, decrement counter (241) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image402.png"
+  style="width:50%"
+  title="On click, prevent default, decrement counter"
+  alt="On click, prevent default, decrement counter." />
+</p>
 
-Now I need to think about this. If the counter is equal to, is less than
-0, probably. What do I want to set it to? So if the counter is less than
-0, I want to set the counter to slideCount minus one. Remember,
-slideCount will give me a full number of slides. In this case, there&apos;s
-five, so that&apos;s going to be five. But I want my counter to be a zero, a
-one, a two, a three, or a four, those five numbers. So if counter is set
-to that.
+The first thing I&apos;m going to do is just copy this entire event listener 
+and paste it. A lot of it&apos;s the same. I&apos;m going to say next, instead 
+of next, it&apos;s going to be previous to go with my previous variable here, 
+which is getting my prev element from my HTML. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. index.html, id is prev (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image402.png"
+  style="width:50%"
+  title="index.html, id is prev"
+  alt="index.html, id is prev." />
+</p>
 
-Then the left position is going to be the same, this is going to be the
-same, this is going to be the same. It should be all I need to do to
-make this work. Let&apos;s see if it works. I&apos;m going to save that and come
-back to my slider and refresh. The next button should still work.
-Previous button works. If I click Previous again, it goes to the end of
-the slides, and then it will backup through my slides. When I get to the
-first slide, if I click &quot;Previous&quot;, it goes to the end, click Next and
-it goes to the beginning.
+Over here in the HTML, you can see that I set the previous button to id prev. 
+I&apos;m getting previous, click evt.PreventDefault. Instead of incrementing 
+the counter, we&apos;re going to decrement it minus minus.
+Now I need to think about this. If the counter is equal to, is less than 0, 
+probably. What do I want to set it to? So if the counter is less than 0, I want 
+to set the counter to slideCount minus one. Remember, slideCount will give me a 
+full number of slides. In this case, there&apos;s five, so that&apos;s going to 
+be five. But I want my counter to be a zero, a one, a two, a three, or a four, 
+those five numbers. So if counter is set to that. 
 
-So now I have a slider that is working that&apos;s going from side to side,
-and it&apos;s moving the strip along back and forth through here. That&apos;s
-it.
+Then the left position is going to be the same, this is going to be the same, 
+this is going to be the same. It should be all I need to do to make this work. 
+Let&apos;s see if it works. I&apos;m going to save that and come back to my 
+slider and refresh. The next button should still work. Previous button works. 
+If I click Previous again, it goes to the end of the slides, and then it will 
+backup through my slides. When I get to the first slide, if I click "Previous", 
+it goes to the end, click Next and it goes to the beginning.
 
-You&apos;ve completed this project. Here on this slide, you can see the full
-script with everything in it that we needed. You can see I left the else
-statements in here, I don&apos;t really need this, this is actually the
-longer version of it. But that&apos;s pretty cool. We&apos;ve got a full version
-of that script and you could use this on your websites and compare this
-to what we did with the <b>jQuery</b> versions.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. that's it! (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image402.png"
+  style="width:50%"
+  title="That's It!"
+  alt="That's It!" />
+</p>
 
-Now if you want a challenge, try to make the version of the JavaScript
-slider work where the slides don&apos;t go all the way back to the beginning
-or go all the way back to the end when you get to the end, make it so
-that it wraps around to the second version of the <b>jQuery</b> script but
-just with JavaScript. Hopefully, that will work. Okay. With all that,
-hopefully, this is a great project for you and you&apos;ve learned a lot
-about JavaScript along the way.
+You&apos;ve completed this project. Here on this slide, you can see the full 
+script with everything in it that we needed. You can see I left the else 
+statements in here, I don&apos;t really need this, this is actually the longer 
+version of it. We&apos;ve got a full version of that script and you could use 
+this on your websites and compare this to what we did with the jQuery versions.
+ 
+Now if you want a challenge, try to make the version of the JavaScript slider 
+work where the slides don&apos;t go all the way back to the beginning or go all 
+the way back to the end when you get to the end, make it so that it wraps 
+around to the second version of the jQuery script but just with JavaScript. 
+Hopefully, that will work.
 
-### 3.17 JavaScript-Image-Slider.pdf
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation">
+    3.17 JavaScript-Image-Slider.pdf</a></li>
+</ul>
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation 
 
-# Module Four: Timers and Recursion in JavaScript & jQuery
 
-# 4.00 Learning Objectives
+<h2 id="ch4">Module 4: Timers and Recursion in JavaScript & jQuery</h2>
 
--   Use JavaScript methods to keep a script from executing for a
-    specific period of time, or to run at a certain interval of time.
+<h2 id="ch4-00-obj">4.00 Learning Objectives</h2>
 
--   Use callback methods when timers end, or on an interval.
-
--   Explore recursion.
-
--   Use <b>jQuery</b> syntax to create an interface element that could be
-    used on any website.
-
--   Practice using timers, recursion and callback methods.
-
--   Make use of best practices when including scripts on websites.
+<ul>
+  <li>Use JavaScript methods to keep a script from executing for a
+    specific period of time, or to run at a certain interval of time.</li>
+  <li>Use callback methods when timers end, or on an interval.</li>
+  <li>Explore recursion.</li>
+  <li>Use <b>jQuery</b> syntax to create an interface element that could be
+    used on any website.</li>
+  <li>Practice using timers, recursion and callback methods.</li>
+  <li>Make use of best practices when including scripts on websites.</li>
+</ul>
 
 ![](./3-19-images/media/image367.png){width="4.0in" height="2.264957349081365in"}
 
