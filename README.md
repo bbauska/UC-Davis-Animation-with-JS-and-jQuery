@@ -126,15 +126,15 @@ page.</p>
 </ol>
 <ul>
   <li>1.15-Folding-Sidebar-Menus-with-JS.pdf<br>
-    Folding Sidebar Menus Using JavaScript</li>
-  <li>1.15 PDF of Presentation 1.15-FileName.pdf</li>
+    1.15-Folding-Sidebar-Menus-with-JS<br>
+	Folding Sidebar Menus Using JavaScript</li>
 </ul>
 <ol start="16">
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="./pdf/1.16-StartFile-FileName.pdf" target="_blank" rel="noopener noreferrer">
-    1.16 Start Files: Folding Sidebar Menus with jQuery"</a></li>
+  <li><a href="./pdf/1.16-jQuery-Folding-Menus.zip" target="_blank" rel="noopener noreferrer">
+    1.16-jQuery-Folding-Menus-START.zip"</a></li>
 </ul>
 <ol start="17">
   <li>Getting the Next UL</li>
@@ -164,16 +164,15 @@ both JavaScript and jQuery.</p>
 <h4>20 lessons, 7 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi"
-    target="_blank" rel="noopener noreferrer">
+  <li><a href="#">
     2.00 Learning Objectives; Animating Web Page Elements</a></li>
 </ul>
 
 1.  <b>Introduction to the jQuery Effects Library</b>
 
 <ul>
-  <li><a href="./pdf/2.01-StartjQuery-Animation.pdf">
-    2.01 Start Files: Introduction to the jQuery Effects Library (2.01-Start-jQuery-Animation.pdf)</a></li>
+  <li><a href="./zip/2.01-jQuery-Animation-START.zip">
+    2.01-jQuery-Animation-START.zip</a></li>
 </ul>
 
 2.  <b>Example 1 Continued</b>
@@ -7423,7 +7422,7 @@ Hopefully, that will work.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation">
+  <li><a href="./pdf/3.17-JS-Image-Slider.pdf">
     3.17 JavaScript-Image-Slider.pdf</a></li>
 </ul>
 
@@ -7464,7 +7463,7 @@ started on learning about timers and recursion in JavaScript and
 <h3>Start Files: JavaScript Timers Examples</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion">
+  <li><a href="./zip/4.00-JS-Timers-Examples.zip">
     4.00 JS-Timers-Examples.zip</a></li>
 </ul>
 
@@ -7479,7 +7478,7 @@ started on learning about timers and recursion in JavaScript and
   alt="4.01 Example Script #1 -- Part 1." />
 </p>
 
-JavaScript timers and recursion. 
+<p>JavaScript timers and recursion.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 407. javascript timers & recursion (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7495,7 +7494,9 @@ recursion can work in JavaScript and these are really fun methods to play with
 because you can do a lot of really interesting things with them. Occasionally, 
 you do want something to run after a certain amount of time has happened or on 
 some interval. This is where we can really get into how to do that with JavaScript.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THIS IS WHERE I LEFT OFF 4/1/2024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ THIS IS WHERE I LEFT OFF 4/1/2024 image408.png is last img ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THIS IS WHERE I LEFT OFF 4/1/2024 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7511,9 +7512,9 @@ the script here, it&apos;s a very short script. I&apos;m going to close my
 explorer here just so you can just see this line without it rapping. But
 best thing to do is to actually see the script run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 409.  (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 4xx.  (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image409.png"
+<img src="./images/image4xx.png"
   style="width:50%"
   title=""
   alt="." />
@@ -7774,7 +7775,7 @@ some timer.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation">
+  <li><a href="./pdf/4.04-JS-Timers-and-Recursion.pdf">
     4.04 JavaScript-Timers-and-Recursion.pdf</a></li>
 </ul>
 
@@ -7991,9 +7992,9 @@ other things that you could do.
 <h3>PDF &amp; Start Files</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation">
+  <li><a href="/pdf/4.07-Sliders-on-a-Timer.pdf">
     4.07 Slider-on-a-Timer.pdf</a></li>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator">
+  <li><a href="./zip/4.07-Rotator-START.zip">
     4.07 Rotator-START.zip</a></li>
 </ul>
 
@@ -8329,7 +8330,7 @@ the function runs itself and that can be very interesting.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation">
+  <li><a href="./pdf/4.11-Content-Rotator.pdf">
     4.11 Content-Rotator.pdf</a></li>
 </ul>
 
