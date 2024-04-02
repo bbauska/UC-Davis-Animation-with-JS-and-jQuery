@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "3/24/2024 10+pm"
+date last editted: "4/1/2024 4+pm"
 output: 
   markdown:
     with some style
@@ -1377,6 +1377,8 @@ time, and it&apos;s still important to learn how to work with it. Learning
 how to work with <b>jQuery</b> will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.
 
+<h3 id="ch1-06-pdf">PDF of Presentation</h3>
+
 <ul>
   <li><a href="#" target="_blank" rel="noopener noreferrer">
     1.06 Intro-to-jQuery.pdf (download)</a></li>
@@ -1539,6 +1541,8 @@ See if you can write a script that goes in and applies that sub-menu to
 that hide-menu class. We want to apply that to all of these unordered
 lists so they have class hide-menu on them. See if you can do that, and
 when we come back in the next lesson, we&apos;ll see how I did that.
+
+<h3>Start Files: JS Folding Sidebar Menu</h3>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript " target="_blank" rel="noopener noreferrer">
@@ -2333,7 +2337,7 @@ just a minute. We&apos;ve got that going, and we&apos;re ready to start building
 in our Click-Handler and doing all that fun stuff. We&apos;ll do that in the
 next lesson.
 
-<h3>zip START Files</h3>
+<h3>Start Files: jQuery Folding Menu</h3>
 
 <ul>
   <li><a href="#" target="_blank" rel="noopener noreferrer">
@@ -2823,7 +2827,7 @@ see something to demonstrate how much that affects it, you could do
 Let&apos;s see what that does. There we go. You can see that you can affect
 the speed there.
 
-<h3 id="ch2-01-zip">zip START File</h3>
+<h3>Start Files: jQuery Animation</h3>
 
 <ul>
   <li><a href="https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
@@ -3879,8 +3883,6 @@ exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
-<h3>zip START Files</h3>
-
 <ul>
   <li><a href="#">2.10 jQuery-Tabs-START.zip</a></li>
 </ul>
@@ -4549,8 +4551,6 @@ Attached is a zip file of the the things you need to begin this
 exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
-
-<h3>zip START Files</h3>
 
 <ul>
   <li><a href="">2.15 JS-Tabs-START.zip</a></li>
@@ -5412,8 +5412,6 @@ exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
--   
-
 <ul>
   <li id="ch3-01-zip"><a href="#">3.01 Slider-V1-START.zip</a></li>
 </ul>
@@ -6051,8 +6049,10 @@ project. We&apos;re going to take this script and push it further so that we
 can actually make it so that it wraps all the way around. We&apos;ll take a
 look at that in the next project.
 
+<h3>PDF of Presentation</h3>
+
 <ul>
-  <li><a href="">3.06 jQuery-Image-Slider-Version-1.pdf</a></li>
+  <li><a href="">3.06 jQuery-Image-Slider-V1.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6640,6 +6640,8 @@ of lessons are helpful for thinking about different ways and different kinds
 of things that you can use on your websites. And build that will make use of 
 jQuery, make use of the built in effects library and teach you how to handle 
 and think about these different types of situations that come up.
+
+<h3>PDF of Presentation</h3>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation ">
@@ -7402,12 +7404,12 @@ the way back to the end when you get to the end, make it so that it wraps
 around to the second version of the jQuery script but just with JavaScript. 
 Hopefully, that will work.
 
+<h3>PDF of Presentation</h3>
+
 <ul>
   <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation">
     3.17 JavaScript-Image-Slider.pdf</a></li>
 </ul>
-
-
 
 <h2 id="ch4">Module 4: Timers and Recursion in JavaScript & jQuery</h2>
 
@@ -7424,8 +7426,14 @@ Hopefully, that will work.
   <li>Make use of best practices when including scripts on websites.</li>
 </ul>
 
-![](./3-19-images/media/image367.png){width="4.0in" height="2.264957349081365in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 405. module 4 introduction (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image405.png"
+  style="width:40%"
+  title="Module 4 Introduction"
+  alt="Module 4 Introduction." />
+</p>
 Hello, you&apos;ve made it to the 4th module in our second course on
 JavaScript and <b>jQuery</b>. Congratulations, you&apos;ve learned a lot of
 JavaScript and a lot of useful <b>jQuery</b> for all of your interactive
@@ -7437,28 +7445,63 @@ projects. Breakout your code editor in your web browser, and let&apos;s get
 started on learning about timers and recursion in JavaScript and
 <b>jQuery</b>.
 
-### 4.00 JS-Timers-Examples.zip
+<h3>Start Files: JavaScript Timers Examples</h3>
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion 
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion">
+    4.00 JS-Timers-Examples.zip</a></li>
+</ul>
 
-### 4.01 Example Script #1 -- Part 1 (5:37)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-01">4.01 Example Script #1 -- Part 1 (5:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 406. example script #1 - part 1 (4.01) (244) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image406.png"
+  style="width:40%"
+  title="4.01 Example Script #1 -- Part 1"
+  alt="4.01 Example Script #1 -- Part 1." />
+</p>
 
-![](./3-19-images/media/image368.png){width="4.0in"
-height="2.264957349081365in"}
+JavaScript timers and recursion. 
 
-JavaScript timers and recursion. I have a few scripts that we can look
-at that will explain how timers and recursion can work in JavaScript and
-these are really fun methods to play with because you can do a lot of
-really interesting things with them. Occasionally, you do want something
-to run after a certain amount of time has happened or on some interval.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 407. javascript timers & recursion (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image407.png"
+  style="width:40%"
+  title="JavaScript Timers &amp; Recursion"
+  alt="JavaScript Timers &amp; Recursion." />
+</p>
 
-This is where we can really get into how to do that with JavaScript.
+I have a few scripts that we can look at that will explain how timers and 
+recursion can work in JavaScript and these are really fun methods to play with 
+because you can do a lot of really interesting things with them. Occasionally, 
+you do want something to run after a certain amount of time has happened or on 
+some interval. This is where we can really get into how to do that with JavaScript.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image408.png"
+  style="width:50%"
+  title="Example Script #1 - The Full Script"
+  alt="Example Script #1 - The Full Script." />
+</p>
+
 Let&apos;s take a look at this first script here. I have the example files
 open in my code editor here. I&apos;m looking at the example 1 and this is
 the script here, it&apos;s a very short script. I&apos;m going to close my
 explorer here just so you can just see this line without it rapping. But
 best thing to do is to actually see the script run.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 409.  (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image409.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 I&apos;m going to come over here and just open the example 1 script here and
 you&apos;ll notice that after a certain amount of time, the script starts
 adding paragraphs to this web page. If I view the inspector and look at
@@ -7473,8 +7516,9 @@ allow us to set timers. One is setTimeout() and the other one is
 setInterval(). Each of these functions takes a callback function and an
 amount of time. For setTimeOut() or for setInterval(), you will run a
 function and then you&apos;d put a comma and then the amount of time that
-you want to have a lapse before it runs or on the interval. For example,
-down here I have setTimeout wake-up.
+you want to have a lapse before it runs or on the interval. 
+
+For example, down here I have setTimeout wake-up.
 
 So it&apos;d run this function wake up after eight hours or setInterval eat
 meal, after every four hours I&apos;m getting eat a meal, something like
@@ -7515,10 +7559,16 @@ paragraphs are on the page, and so on and so forth until the page is
 completely full with the paragraphs. We&apos;ll talk about the clear
 interval method in the next lesson.
 
-### 4.02 Example Script #1 -- Part 2 (4:13)
-
-![](./3-19-images/media/image369.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-02">4.02 Example Script #1 -- Part 2 (4:13)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 4xx. example script #1 - part 2 (4.02) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.02 Example Script #1 -- Part 2"
+  alt="4.02 Example Script #1 -- Part 2." />
+</p>
 
 We&apos;re looking at the first example in our timers and recursion examples
 here. We&apos;ve already talked about how this example is using setInterval
@@ -7574,10 +7624,16 @@ paragraphs are there and putting them inside the div using innerHTML. So
 it&apos;s an important way of understanding how this one works. In the next
 lesson, we&apos;ll take a look at the next example.
 
-### 4.03 Example Script #2 (2:55)
-
-![](./3-19-images/media/image370.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx. example script #2 (4.03) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.03 Example Script #2"
+  alt="4.03 Example Script #2." />
+</p>
 
 Let&apos;s take a look at example 2. In this example, the script is going to
 
@@ -7618,10 +7674,16 @@ does something, you can apply a class to it and change that element
 based on the styling associated with that class. It could have an
 animation in there and that&apos;s really pretty cool.
 
-### 4.04 Example Script #3: Recursion (5:25)
-
-![](./3-19-images/media/image371.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 4xx. example script #3: recursion (4.04) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.04 Example Script #3: Recursion"
+  alt="4.04 Example Script #3: Recursion." />
+</p>
 
 Next, let&apos;s take a look at example three, which uses recursion. As I
 said before, set timeout runs only one time. But when you use it in a
@@ -7693,14 +7755,23 @@ could do interesting things with games, you could do interesting things
 with other types of scripts where you want them to run automatically on
 some timer.
 
-### 4.04 JavaScript-Timers-and-Recursion.pdf
+<h3>PDF of Presentation</h3>
 
-> https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation">
+    4.04 JavaScript-Timers-and-Recursion.pdf</a></li>
+</ul>
 
-### 4.05 Converting a Slider (2:55)
-
-![](./3-19-images/media/image372.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx. converting a slider (4.05) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.05 Converting a Slider"
+  alt="4.05 Converting a Slider." />
+</p>
 
 Spiders on a timer. Putting slides on a timer. In this lesson, we&apos;ll
 convert one of the slide shows that we did in the previous module, so
@@ -7738,10 +7809,16 @@ back in and it&apos;ll continue with the slides. See if you can do that on
 your own and if you get stuck or you want to see my solution, continue
 on with this presentation and with these lessons.
 
-### 4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)
-
-![](./3-19-images/media/image373.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 4xx. putting slides on a timer solution - part 1 (4.06) (2xx) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.06 Putting Slides on a Timer Solution - Part 1"
+  alt="4.06 Putting Slides on a Timer Solution - Part 1." />
+</p>
 
 Hopefully you are successful at creating your slider on a timer and were
 able to do that on your own. But if you weren&apos;t or if you want to see
@@ -7804,10 +7881,16 @@ could do to make it work so that if you hover over this, it will stop
 sliding the slides while you&apos;re hovering your mouse over the slider.
 That&apos;s your next challenge.
 
-### 4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)
-
-![](./3-19-images/media/image374.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 4xx. putting slides on a timer solution - part 2 (4.07) (2xx) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.07 Putting Slides on a Timer Solution - Part 2"
+  alt="4.07 Putting Slides on a Timer Solution - Part 2." />
+</p>
 
 Did you successfully complete the challenge? Remember again, the
 challenge was to make it so that when the mouse hovers over the slider,
@@ -7889,18 +7972,26 @@ use the buttons, it moves it manually. That would be an interesting
 modification to the script. Maybe you can come up with other ideas and
 other things that you could do.
 
-### 4.07 Slider-on-a-Timer.pdf
+<h3>PDF &amp; Start Files</h3>
 
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> 
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation">
+    4.07 Slider-on-a-Timer.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator">
+    4.07 Rotator-START.zip</a></li>
+</ul>
 
-### 4.07 Rotator-START.zip
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-08">4.08 Project Set-up (6:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx. project set-up (4.08) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.08 Project Set-up"
+  alt="4.08 Project Set-up." />
+</p>
 
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementznbz4start-files-recursive-content-rotator .unnumbered}
-
-### 4.08 Project Set-up (6:51)
-
-![](./3-19-images/media/image375.png){width="4.0in"
-height="2.264957349081365in"}
 
 In this project we&apos;ll look at creating a content rotator and we&apos;ll use
 <b>jQuery</b>, and we&apos;ll use timers and recursion. This is a fun project,
@@ -7997,10 +8088,16 @@ everything out of the global scope and we&apos;ve got our use strict
 directive in there. Okay, we&apos;re all set and ready to start working on
 our script.
 
-### 4.09 Starting the Script (4:56)
-
-![](./3-19-images/media/image376.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx. starting the script (4.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.09 Starting the Script"
+  alt="4.09 Starting the Script." />
+</p>
 
 Here we go to write our script and get our content rotator to work.
 First thing I need is a variable. Let counter and I&apos;m going to sign the
@@ -8053,10 +8150,16 @@ after we faded in, we&apos;re going to run a function and that function will
 set it to wait seven seconds, and then check to see if we&apos;re on the
 last paragraph or not.
 
-### 4.10 The If/Else Statement -- Part 1 (6:20)
-
-![](./3-19-images/media/image377.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 4xx. the if/else statement - part 1 (4.10) (2xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.10 The If/Else Statement - Part 1"
+  alt="4.10 The If/Else Statement - Part 1." />
+</p>
 
 Now that we&apos;ve faded in the first paragraph, and after that two second
 fadeIn has taken place, we&apos;re going to run a callback function. Inside
@@ -8121,10 +8224,16 @@ it&apos;s not, it&apos;ll do this, it&apos;ll increment the counter, and it&apos
 it again, and it&apos;ll keep going around. Great. We&apos;ll finish out this
 part up here in the next lesson.
 
-### 4.11 The Else/If Statement -- Part 2 (5:49)
-
-![](./3-19-images/media/image378.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 4xx. the if/else statement - part 2 (4.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.11 The If/Else Statement - Part 2"
+  alt="4.11 The If/Else Statement - Part 2." />
+</p>
 
 In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
@@ -8201,12 +8310,23 @@ of parameters. You could even use the random function to pass in random
 parameters so that you don&apos;t know what you&apos;re going to get each time
 the function runs itself and that can be very interesting.
 
-### 4.11 Content-Rotator.pdf
+<h3>PDF of Presentation</h3>
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation {#httpswww.coursera.orglearnanimation-javascript-jquerysupplementbhs7kpdf-of-presentation .unnumbered}
+<ul>
+  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation">
+    4.11 Content-Rotator.pdf</a></li>
+</ul>
 
-### 4.12 Course Summary (0:52) 
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-12">4.12 Course Summary (0:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx. course summary (4.12) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png"
+  style="width:40%"
+  title="4.12 Course Summary"
+  alt="4.12 Course Summary." />
+</p>
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You&apos;ve learned a lot of
 JavaScript so far, as well as tackling <b>jQuery</b> and <b>jQuery</b>
