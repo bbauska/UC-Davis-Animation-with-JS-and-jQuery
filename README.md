@@ -92,7 +92,7 @@ page.</p>
 </ol>
 
 <ul>
-  <li>1.01 Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
+  <li>1.01-jQuery-START.zip</li>
 </ul>
 
 <ol start="2">
@@ -103,16 +103,16 @@ page.</p>
   <li>jQuery Events</li>
 </ol>
 <ul>
-  <li>1.06 PDF of Presentation 1.06-FileName.pdf</li>
+  <li>1.06-Introduction-to-jQuery.pdf</li>
 </ul>
 
 <ol start="7">
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="./pdf/1.07-StartFile-FileName.pdf"
+  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus.zip"
     target="_blank" rel="noopener noreferrer">
-    1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
+    1.07-JS-Folding-Sidebar-Menus.zip</a></li>
 </ul>
 <ol start="8">
   <li>Challenge 1 Solution</li>
@@ -125,6 +125,8 @@ page.</p>
   <li>Challenge 8 Solution</li>
 </ol>
 <ul>
+  <li>1.15-Folding-Sidebar-Menus-with-JS.pdf<br>
+    Folding Sidebar Menus Using JavaScript</li>
   <li>1.15 PDF of Presentation 1.15-FileName.pdf</li>
 </ul>
 <ol start="16">
