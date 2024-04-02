@@ -110,7 +110,7 @@ page.</p>
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="1.07-StartFile-FileName.pdf"
+  <li><a href="./pdf/1.07-StartFile-FileName.pdf"
     target="_blank" rel="noopener noreferrer">
     1.07 Start Files: Folding Sidebar Menus with JavaScript</a></li>
 </ul>
@@ -131,7 +131,7 @@ page.</p>
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="1.16-StartFile-FileName.pdf" target="_blank" rel="noopener noreferrer">
+  <li><a href="./pdf/1.16-StartFile-FileName.pdf" target="_blank" rel="noopener noreferrer">
     1.16 Start Files: Folding Sidebar Menus with jQuery"</a></li>
 </ul>
 <ol start="17">
@@ -170,7 +170,8 @@ both JavaScript and jQuery.</p>
 1.  <b>Introduction to the jQuery Effects Library</b>
 
 <ul>
-  <li><a href="">2.01 Start Files: Introduction to the jQuery Effects Library (2.01-Start-jQuery-Animation.pdf)</a></li>
+  <li><a href="./pdf/2.01-StartjQuery-Animation.pdf">
+    2.01 Start Files: Introduction to the jQuery Effects Library (2.01-Start-jQuery-Animation.pdf)</a></li>
 </ul>
 
 2.  <b>Example 1 Continued</b>
@@ -190,15 +191,15 @@ both JavaScript and jQuery.</p>
 9.  <b>Doing All Animations at Once</b>
 
 <ul>
-  <li><a href="">
-    2.09 Additional Resources - PDF of Presentation 2.09-NameFile.pdf</a></li>
+  <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf">
+    2.09-jQuery-Effects-Library.pdf</a></li>
 </ul>
 
 10. <b>Introduction to Tabbed Interface Using jQuery</b>
 
 <ul>
-  <li><a href="">
-    2.10 PDF Files: Creating a Tabbed Interface with jQuery -- 2.10-StartFiles-FileName.pdf</a></li>
+  <li><a href="./zip/2.10-jQuery-Tabs-START.zip">
+    2.10-jQuery-Tabs-START.zip</a></li>
 </ul>
 
 11. <b>Styling the Anchor Tags</b>
@@ -210,15 +211,15 @@ both JavaScript and jQuery.</p>
 14. <b>Whole Script</b>
 
 <ul>
-  <li><a href="">2.14 PDF of Presentation 2.14-NameFile.pdf</a></li>
+  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf">
+    2.14-Tab-Interface-with-jQuery.pdf</a></li>
 </ul>
 
 15. <b>Getting the CSS Ready</b>
 
 <ul>
-  <li><a href="">
-    2.15 Start Files: Creating a Tabbed Interface with JavaScript - 
-	2.15-StartFiles-FileName.pdf</a></li>
+  <li><a href="./zip/2.15-JS-Tabs-START.zip">
+	2.15-JS-Tabs-START.zip</a></li>
 </ul>
 
 16. <b>Making the Tabs Work</b>
@@ -232,7 +233,8 @@ both JavaScript and jQuery.</p>
 20. <b>Cleaning Up the Code</b>
 
 <ul>
-  <li><a href="">2.20 PDF of Presentation 2.20-FileName.pdf</a></li>
+  <li><a href="./pdf/2.20-JS-Tabbed-Interface.pdf">
+    2.20-JS-Tabbed-Interface.pdf</a></li>
 </ul>
 
 <h2 id="ch3">Week/Module 3</h2>
@@ -256,7 +258,8 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 1.  <b>Basic Slider</b>
 
 <ul>
-  <li><a href="">3.01 Start Files: jQuery Image Sliders 3.01-StartFiles-FileName.pdf</a></li>
+  <li><a href="./zip/3.01-Slider-V1-START.zip">
+    3.01-Slider-V1-START.zip</a></li>
 </ul>
 
 2.  <b>Making the Script General</b>
@@ -270,7 +273,8 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 6.  <b>Challenge Solution</b>
 
 <ul>
-  <li><a href="">3.06 PDF of Presentation 3.06-FileName.pdf</a></li>
+  <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf">
+    3.06-jQuery-Image-Slider-V1.pdf</a></li>
 </ul>
 
 7.  <b>Strategy for Version 2</b>
@@ -292,7 +296,9 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 13. <b>Slider Using JavaScript</b>
 
 <ul>
-  <li><a href="">3.13 Start Files: JavaScript Image Sliders 3.13-StartFile.pdf</a></li>
+  <li><a href=./zip/"./zip/3.13-JS-Slider-V3-START.zip">
+    3.13-JS-Slider-V3-START.zip<br>
+	JavaScript Sliders V3</a></li>
 </ul>
 
 14. <b>CSS for Slides and Adding Variables</b>
@@ -304,7 +310,9 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 17. <b>Solution for the Previous Button Challenge</b>
 
 <ul>
-  <li><a href="">3.17 PDF of Presentation 3.17-FileName.pdf</a></li>
+  <li><a href="./pdf/3.17-JavaScript-Image-Slider.pdf">
+    3.17-JavaScript-Image-Slider.pdf<br>
+	Slider - Using JavaScript</a></li>
 </ul>
 
 <h2 id="ch4">Week/Module 4</h4>
@@ -320,10 +328,10 @@ interface element on any web page.</p>
 <h4>12 lessons, 6 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE"
+  <li><a href="./zip/4.00-JS-Timers-Example.zip"
     target="_blank" rel="noopener noreferrer">
-    4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a><br><br></li>
-  <li><a href="">4.00 Start Files; Introduction to Timers & Recursion 4.00-StartFile-FileName.pdf</a></li>
+    4.00-JS-Timers-Examples.zip<br>
+	Timers and Recursion in JavaScript &amp; jQuery</a></li>
 </ul>
 
 1.  Example Script #1 - Part 1
@@ -335,7 +343,9 @@ interface element on any web page.</p>
 4.  Example Script #3: Recursion
 
 <ul>
-  <li><a href="">4.04 PDF of Presentation 4.04-FileName.pdf</a></li>
+  <li><a href="./pdf/4.04-JavaScript-Timers-Recursion.pdf">4.04-JavaScript-Timers-Recursion.pdf<br>
+    JavaScript Timers &amp; Recursion</a></li>
+  <li><a href="./zip/4.04-JavaScript-Timers-Recursion.zip">4.04-JavaScript-Timers-Recursion.zip</a></li>
 </ul>
 
 5.  Converting a Slider
@@ -345,8 +355,10 @@ interface element on any web page.</p>
 7.  Putting Slides on a Timer Solution - Part 2
 
 <ul>
-  <li><a href="">4.07 PDF of Presentation 4.07-FileName.pdf</a><br><br></li>
-  <li><a href="">4.07 Start Files: Recursive Content Rotator 4.07-StartFile-FileName.pdf</a></li>
+  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf">4.07-Slider-on-a-Timer.pdf<br>
+    Putting Slides on a Timer</a></li>
+  <li><a href="./zip/4.07-Slider-on-a-Timer.zip">4.07-Slider-on-a-Timer.zip</a></li>
+  <li><a href="./zip/4.07-Rotator-START.zip">4.07-Rotator-START.zip</a></li>
 </ul>
 
 8.  Project Set-up
@@ -358,7 +370,9 @@ interface element on any web page.</p>
 11. The If/Else Statement - Part 2
 
 <ul>
-  <li><a href="">4.11 PDF of Presentation 4.11-FileName.pdf</a></li>
+  <li><a href="./pdf/4.11-Content-Rotator.pdf">4.11-Content-Rotator.pdf<br>
+    Using jQuery, Timers &amp; Recursion</a></li>
+  <li><a href="./zip/4.11-Content-Rotator.zip">4.11-Content-Rotator.zip</a></li>
 </ul>
 
 12. Course Summary
