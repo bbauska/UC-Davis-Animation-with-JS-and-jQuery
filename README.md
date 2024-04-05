@@ -181,7 +181,7 @@ both JavaScript and jQuery.</p>
 <ul>
   <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.01-jQuery-Animation-START.zip</a></li>
+    2.01 jQuery-Animation-START.zip</a></li>
 </ul>
 
 2.  <b>Example 1 Continued</b>
@@ -248,6 +248,7 @@ both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./pdf/2.20-JS-Tabbed-Interface.pdf">
+    target="_blank" rel="noopener noreferrer">
     2.20 JS-Tabbed-Interface.pdf</a></li>
 </ul>
 
@@ -264,7 +265,7 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 <h4>17 lessons, 5 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-<b>jQuery</b>/module-introduction-pupTj"
+  <li><a href="https://www.coursera.org/lecture/animation-javascript/jQuery/module-introduction-pupTj"
     target="_blank" rel="noopener noreferrer">
     3.00 Learning Objectives; Intermediate Document Manipulation &amp; Animation</a></li>
 </ul>
@@ -349,7 +350,7 @@ interface element on any web page.</p>
 <ul>
   <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
     target="_blank" rel="noopener noreferrer">
-    4.00-JS-Timers-Examples-START.zip<br>
+    4.00 JS-Timers-Examples-START.zip<br>
 	Timers and Recursion in JS &amp; jQuery</a></li>
 </ul>
 
@@ -364,11 +365,11 @@ interface element on any web page.</p>
 <ul>
   <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
     target="_blank" rel="noopener noreferrer">
-	4.04-JS-Timers-Recursion.pdf<br>
+	4.04 JS-Timers-Recursion.pdf<br>
     JavaScript Timers &amp; Recursion</a></li>
   <li><a href="./zip/4.04-JS-Timers-Recursion.zip" 
     target="_blank" rel="noopener noreferrer">
-	4.04-JS-Timers-Recursion.zip</a></li>
+	4.04 JS-Timers-Recursion.zip</a></li>
 </ul>
 
 5.  Converting a Slider
@@ -380,11 +381,11 @@ interface element on any web page.</p>
 <ul>
   <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
       target="_blank" rel="noopener noreferrer">
-	  4.07-Slider-on-a-Timer.pdf<br>
+	  4.07 Slider-on-a-Timer.pdf<br>
       Putting Slides on a Timer</a></li>
   <li><a href="./zip/4.07-Rotator-START.zip" 
       target="_blank" rel="noopener noreferrer">
-	  4.07-Rotator-START.zip</a></li>
+	  4.07 Rotator-START.zip</a></li>
 </ul>
 
 8.  Project Set-up
@@ -398,11 +399,11 @@ interface element on any web page.</p>
 <ul>
   <li><a href="./pdf/4.11-Content-Rotator.pdf" 
     target="_blank" rel="noopener noreferrer">
-	4.11-Content-Rotator.pdf<br>
+	4.11 Content-Rotator.pdf<br>
     Using jQuery, Timers &amp; Recursion</a></li>
   <li><a href="./zip/4.11-Content-Rotator.zip" 
     target="_blank" rel="noopener noreferrer">
-	4.11-Content-Rotator.zip</a></li>
+	4.11 Content-Rotator.zip</a></li>
 </ul>
 
 12. Course Summary
@@ -501,21 +502,25 @@ readings or files</b>.</p>
 
 <p>If you run into any issues during this course, <b>learner support</b> is
 available to all Coursera students. The link for Coursera&apos;s Learner
-support is included below. The <a href="https://learner.coursera.help/hc/en-us" target="_blank" rel="noopener noreferrer">
-Help Center/Learner Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
-common problems.</p>
+support is included below. The <a href="https://learner.coursera.help/hc/en-us" 
+target="_blank" rel="noopener noreferrer">Help Center/Learner Support</a> 
+includes topics such as account setup, payments, enrollment questions, and 
+troubleshooting common problems.</p>
 
 <p>If you find any content issues, be sure to let the course staff know by
 <b>flagging the lecture</b>, assignment, reading, or quiz and this will
 inform us of where these issues occur. Here is the link for more
-information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course" target="_blank" rel="noopener noreferrer">Flag an Issue</a> - it is also listed below.</p>
+information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course" 
+target="_blank" rel="noopener noreferrer">Flag an Issue</a> - it is also listed 
+below.</p>
 
 <p>One of the great things about Coursera courses is that they are
 self-paced. The course dates are based on the average time it takes to
 complete a course. However, if you need additional time to complete a
 course you can <b>reset your deadlines</b> with no penalties. More
 information on resetting deadlines can be found here: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines" target="_blank" rel="noopener noreferrer">Assignment Deadlines</a></p>
+<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines" 
+target="_blank" rel="noopener noreferrer">Assignment Deadlines</a></p>
 
 <p>Need additional help during your course session? Be sure to utilize the
 <b>discussion forums</b> and interact with your fellow peers. In this area,
@@ -1430,13 +1435,14 @@ time, and it&apos;s still important to learn how to work with it. Learning
 how to work with <b>jQuery</b> will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.
 
+<!--
 <h3 id="ch1-06-pdf">PDF of Presentation</h3>
 
 <ul>
-  <li><a href="#" target="_blank" rel="noopener noreferrer">
+  <li><a href="./pdf/1.06-Intro-to-jQuery.pdf" target="_blank" rel="noopener noreferrer">
     1.06 Intro-to-jQuery.pdf (download)</a></li>
 </ul>
-
+-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-07">1.07 Intro to Folding Sidebar Menus Using JS (4:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1598,9 +1604,9 @@ when we come back in the next lesson, we&apos;ll see how I did that.
 <h3>Start Files: JS Folding Sidebar Menu</h3>
 
 <ul>
-  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menu-START.zip" 
+  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    1.07 JS-Folding-Sidebar-Menu-START.zip (download)</a></li>
+    1.07 JS-Folding-Sidebar-Menus-START.zip (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2258,7 +2264,8 @@ and how much more compact that script is.
 <h3 id="ch1-15-pdf">PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/WpZJQjwpS4-WSUI8KduPlw_7ddb39e0d313448b9fc83c1e6f780df1_WEB1091_M01_Folding-Sidebar-Menus-with-JS.pdf?Expires=1710460800&Signature=dyr2YUxz0RJFQDVZ\~GQVGOaU0rAc4DIv11N206G8CcXk-WgtYCT6guroUFlzT35aCAyaC6r-2zxKuANeJ1u8g3KvJgtHnakqYC0TDWKDQUqS1LsMUZW4KxMxBvLnZX7BdWR3I\~k45KRbjX3q1nQIPc-T8-uKkQSYJw60pb6Bco0\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
+  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+    target="_blank" rel="noopener noreferrer">
     1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
 </ul>
 
@@ -2394,7 +2401,7 @@ next lesson.
 <h3>Start Files: jQuery Folding Menu</h3>
 
 <ul>
-  <li><a href=""./zip/1.16-jQuery-Folding-Menus-START.zip" 
+  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
     target="_blank" rel="noopener noreferrer">
     1.16 jQuery-Folding-Menus-START.zip (download)</a></li>
 </ul>
@@ -2701,9 +2708,9 @@ understand the differences between the syntax of how each of them work.
 <h3>PDF of Challenges</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/i4axXuqIRimGsV7qiOYpOg_cbf6c4b4aed0434b821b960e344d66f1_WEB1091_M01_JavaScript-jQuery-Challenges.pdf?Expires=1710460800&Signature=GSFa2G3WNUZWeuyW0dSm7rvqdyxGatySjKpSoPRmx6owmcPNfKfgUWDID7pOLXyKyr9aggKrDmkglcjlATZmiBQsBVW4neIDlDjrVbg-DFdYP4D10ahkCkQLGB\~SW1qOcb9kMdBogkdPB-zWoqlyAydtP2QHdRVDAj3LozFUFO8\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" 
+  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.19 JavaScript-and-jQuery-Challenges.pdf (download)</a></li>
+    1.19 JS-jQuery-Challenges.pdf (download)</a></li>
 </ul>
 
 <h2 id="ch2">Module Two: Animating Web Page Elements with jQuery and JS</h2>
@@ -3803,9 +3810,9 @@ Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Intro to jQuery Effects Library</b>.
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" 
+  <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.09 jQuery Effects-Library.pdf</a></li>
+    2.09 jQuery-Effects-Library.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3945,7 +3952,9 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li><a href="./zip/2.10-jQuery-Tabs-START.zip">2.10 jQuery-Tabs-START.zip</a></li>
+  <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	2.10 jQuery-Tabs-START.zip</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
@@ -4451,7 +4460,9 @@ Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Creating a Tabbed Interface with jQuery</b>.
 
 <ul>
-  <li><a href="">2.14 Tab-Interface-with-jQuery.pdf</a></li>
+  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
+  >
+    2.14 Tab-Interface-with-jQuery.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4615,7 +4626,9 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li><a href="a href="./zip/2.15-JS-Tabs-START.zip">2.15 JS-Tabs-START.zip</a></li>
+  <li><a href="a href="./zip/2.15-JS-Tabs-START.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.15 JS-Tabs-START.zip</a></li>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
     target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
@@ -5242,7 +5255,8 @@ Here is a PDF of the presentation slides used in the lesson for this
 section: Creating a Tabbed <b>Interface with JavaScript.</b>.
 
 <ul>
-  <li id="ch2-20-pdf"><a href="#">
+  <li id="ch2-20-pdf"><a href="./pdf/2.20-Tabbed-Interface.pdf" 
+    target="_blank" rel="noopener noreferrer">
     2.20 JS-Tabbed-Interface.pdf</a></li>
 </ul>
 
@@ -5476,7 +5490,9 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li id="ch3-01-zip"><a href="./zip/3.01-Slider-V1-START.zip">3.01 Slider-V1-START.zip</a></li>
+  <li id="ch3-01-zip"><a href="./zip/3.01-Slider-V1-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	3.01 Slider-V1-START.zip</a></li>
 </ul>
   
 <h3>Additional Resource:</h3>
@@ -6116,7 +6132,9 @@ look at that in the next project.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="">3.06 jQuery-Image-Slider-V1.pdf</a></li>
+  <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	3.06 jQuery-Image-Slider-V1.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6805,10 +6823,10 @@ hidden so you don&apos;t see the other pictures.
 </p>
 
 And we can come over to our code over here and see this markup in place.
-You can see here I have my **div** with the **slider-wrapper**. I have
-an **unordered list** with the **list item**. The **list item** has the
-**div** with the content which includes an **h2** in a picture. And
-I&apos;ve got a bunch of these **list items** in here.
+You can see here I have my <b>div</b> with the <b>slider-wrapper</b>. I have
+an <b>unordered list</b> with the <b>list item</b>. The <b>list item</b> has the
+<b>div</b> with the content which includes an <b>h2</b> in a picture. And
+I&apos;ve got a bunch of these <b>list items</b> in here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 365. styles for javascript image slider (218) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6819,7 +6837,7 @@ I&apos;ve got a bunch of these **list items** in here.
   alt="Styles for JavaScrtip image slider." />
 </p>
 
-On the **CSS**, you can see that I have slider up here set to width 1000
+On the <b>CSS</b>, you can see that I have slider up here set to width 1000
 pixels and the height for the picture. And then margin auto to center at
 position relative and overflow hidden.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6869,7 +6887,7 @@ But this cubic-bezier, where is that coming from?
   alt="Ceaser, web animation tools website." />
 </p>
 
-What I used to create those is this little web tool called **Ceaser**,
+What I used to create those is this little web tool called <b>Ceaser</b>,
 it&apos;s an animation tool. And you can see here, linear animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 370. linear, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -6883,7 +6901,7 @@ it&apos;s an animation tool. And you can see here, linear animation.
 If I click left, it just moves it at the same speed and you can pick one
 of these built in options here to see what it looks like. We can change
 the amount of time. So that&apos;s starting slow and ending fast. Whereas if
-you were to do **easeOutCirc** it would be the other way around, start
+you were to do <b>easeOutCirc</b> it would be the other way around, start
 fast and slow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 371. code snippet for transition left (221) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6910,7 +6928,8 @@ animation for our slider.
 <h3>Start Files: JavaScript Image Sliders</h3>
 
 <ul>
-  <li><a href="./zip/3.13-JS-Slider-V3-START.zip">
+  <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     3.13 JS-Slider-V3-START.zip</a></li>
 </ul>
 
@@ -7468,8 +7487,9 @@ Hopefully, that will work.</p>
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="./pdf/3.17-JS-Image-Slider.pdf">
-    3.17 JavaScript-Image-Slider.pdf</a></li>
+  <li><a href="./pdf/3.17-JS-Image-Slider.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	3.17 JavaScript-Image-Slider.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7512,8 +7532,9 @@ started on learning about <b>timers</b> and recursion in JavaScript and
 <h3>Start Files: JavaScript Timers Examples</h3>
 
 <ul>
-  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip">
-    4.00 JS-Timers-Examples-START.zip</a></li>
+  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
+    target="_blank" rel="noopener noreferrer">
+	4.00 JS-Timers-Examples-START.zip</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7608,15 +7629,15 @@ full script.
 </p>
 
 Essentially, there are two functions in JavaScript that allow us to set
-<b>timers</b>. One is **setTimeout()** and the other one is **setInterval()**.
-Each of these functions takes a **callback** function and an amount of
-time. For **setTimeOut()** or for **setInterval()**, you will run a
+<b>timers</b>. One is <b>setTimeout()</b> and the other one is <b>setInterval()</b>.
+Each of these functions takes a <b>callback</b> function and an amount of
+time. For <b>setTimeOut()</b> or for <b>setInterval()</b>, you will run a
 function and then you&apos;d put a comma and then the amount of time that
 you want to have a lapse before it runs or on the interval.
 
-For example, down here I have **setTimeout** **wakeUp**. So it&apos;d run
-this function **wakeUp** after eight hours or **setInterval**
-**eatMeal**, after every four hours I&apos;m getting **eatMeal**, something
+For example, down here I have <b>setTimeout</b> <b>wakeUp</b>. So it&apos;d run
+this function <b>wakeUp</b> after eight hours or <b>setInterval</b>
+<b>eatMeal</b>, after every four hours I&apos;m getting <b>eatMeal</b>, something
 like that. Now, you can&apos;t pass in eight hours and four hours, you pass
 in a number that represents milliseconds but it&apos;s that basic idea.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7628,8 +7649,8 @@ in a number that represents milliseconds but it&apos;s that basic idea.
   alt="." />
 </p>
 
-Let&apos;s take a look at our script here. We have a **timer** that is a
-variable and it&apos;s assigned the **setInterval()** function. If you
+Let&apos;s take a look at our script here. We have a <b>timer</b> that is a
+variable and it&apos;s assigned the <b>setInterval()</b> function. If you
 remember, this is called a function expression because in JavaScript,
 JavaScript treats functions as first-class citizens within JavaScript.
 
@@ -7639,13 +7660,13 @@ to a variable, any other piece of data, you can assign a function to a
 variable. That&apos;s one of the things that&apos;s very powerful about
 JavaScript, it allows us to assign functions to variables. I&apos;ve
 assigned this set interval method to the variable timer and then the
-**setInterval** method has a function in it and the function simply
-says, take the **div.innerHTML**, and plus equal the content.
+<b>setInterval</b> method has a function in it and the function simply
+says, take the <b>div.innerHTML</b>, and plus equal the content.
 
-We&apos;ll take some content and add it into the **div** and then we&apos;ll do
+We&apos;ll take some content and add it into the <b>div</b> and then we&apos;ll do
 that every 1,500 milliseconds or every 1.5 seconds. That&apos;s how this is
 adding the content onto the page is that timer loads, and
-**setInterval** immediately starts running and starts doing its thing
+<b>setInterval</b> immediately starts running and starts doing its thing
 and adding this content in the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7657,19 +7678,19 @@ and adding this content in the page.
 </p>
 
 Let&apos;s go look at the script again in the actual file over here. I have
-the **content** here, which is adding another **paragraph**, it&apos;s just
-a string here and then **setInterval** runs and it says take **theDiv**,
-**getElementByID('theDiv')**.
+the <b>content</b> here, which is adding another <b>paragraph</b>, it&apos;s just
+a string here and then <b>setInterval</b> runs and it says take <b>theDiv</b>,
+<b>getElementByID('theDiv')</b>.
 
-It&apos;s got some default content and it&apos;s going to set its **innerHTML**
-to **content**. In 1.5 seconds, the content is going to get switched to
-a **paragraph** and it&apos;s going to add that. It&apos;s going to set the
-**innerHTML** to that **content**. Then in another 1.5 seconds, it will
-take the content and add it again. Now, there&apos;s two **paragraphs** in
-the **content** and it&apos;s going to change the **innerHTML** and **div**
-to having the two **paragraphs** so the two **paragraphs** are on the
+It&apos;s got some default content and it&apos;s going to set its <b>innerHTML</b>
+to <b>content</b>. In 1.5 seconds, the content is going to get switched to
+a <b>paragraph</b> and it&apos;s going to add that. It&apos;s going to set the
+<b>innerHTML</b> to that <b>content</b>. Then in another 1.5 seconds, it will
+take the content and add it again. Now, there&apos;s two <b>paragraphs</b> in
+the <b>content</b> and it&apos;s going to change the <b>innerHTML</b> and <b>div</b>
+to having the two <b>paragraphs</b> so the two <b>paragraphs</b> are on the
 page, and so on and so forth until the page is completely full with the
-paragraphs. We&apos;ll talk about the **clear interval method** in the next
+paragraphs. We&apos;ll talk about the <b>clear interval method</b> in the next
 lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7694,15 +7715,15 @@ here.
   alt="." />
 </p>
 
-We&apos;ve already talked about how this example is using **setInterval** to
-keep adding **content** into the **div** and then adding these
-**paragraphs** onto the page. We have **setInterval** assigned to this
-variable timer, and down here I have an **event listener** that when you
+We&apos;ve already talked about how this example is using <b>setInterval</b> to
+keep adding <b>content</b> into the <b>div</b> and then adding these
+<b>paragraphs</b> onto the page. We have <b>setInterval</b> assigned to this
+variable timer, and down here I have an <b>event listener</b> that when you
 click this button, document get on it by ID stop.
 
-It&apos;s got an **EventListener** and when you click on it, it runs a
-function, and the function runs this method, **clearInterval** and I&apos;m
-passing in **timer**. Timer holds the **setInterval** thing here.
+It&apos;s got an <b>EventListener</b> and when you click on it, it runs a
+function, and the function runs this method, <b>clearInterval</b> and I&apos;m
+passing in <b>timer</b>. Timer holds the <b>setInterval</b> thing here.
 That&apos;s what allows me to stop the script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 418.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7715,7 +7736,7 @@ That&apos;s what allows me to stop the script.
 
 Up here, when I refresh my page, it&apos;ll automatically start adding
 content into that div. When I click stop the script, then that
-**EventListener** fires and it runs a function with **clearInterval** in
+<b>EventListener</b> fires and it runs a function with <b>clearInterval</b> in
 it and then stops that script. It clears the interval timer. Now, we
 don&apos;t need to use the function expression here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7728,7 +7749,7 @@ don&apos;t need to use the function expression here.
 </p>
 
 If I were to remove this, the page would still work and that it would
-still run set interval and start adding **div** to the content.
+still run set interval and start adding <b>div</b> to the content.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7739,7 +7760,7 @@ still run set interval and start adding **div** to the content.
 </p>
 
 If I come back here and refresh, you&apos;ll see it will continue to work in
-terms of adding that in there but the **stop** script function won&apos;t
+terms of adding that in there but the <b>stop</b> script function won&apos;t
 work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7751,10 +7772,10 @@ work.
 </p>
 
 In order to stop the script, I have to have this thing set to some
-variable so that I can pass that variable into **clearInterval** over
-here. The other option would be to put **setInterval** inside there, but
+variable so that I can pass that variable into <b>clearInterval</b> over
+here. The other option would be to put <b>setInterval</b> inside there, but
 then you need something to get it started. In order to clear the
-interval, I need to assign my **setInterval** to timer, is really that
+interval, I need to assign my <b>setInterval</b> to timer, is really that
 bottom line here in order to make that work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 422.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7769,24 +7790,24 @@ script before we finish. If I go back here and right-click and choose
 inspect, what I would like you to notice is that all of these paragraphs
 are highlighting every time the script runs in my inspector here, and
 that&apos;s because of the way the script is running. It&apos;s not just adding
-a **paragraph** to what was there before. It&apos;s replacing the entire
-contents of the **div** with all of the **paragraphs** every second and
+a <b>paragraph</b> to what was there before. It&apos;s replacing the entire
+contents of the <b>div</b> with all of the <b>paragraphs</b> every second and
 a half.
 
 That&apos;s something to pay attention to because it might not be the best
 in terms of performance to replace all of the contents, and we could
 make it so that it&apos;s just adding to the div with an append method, we
-could append to the **div** a new **paragraph** every second and a half,
+could append to the <b>div</b> a new <b>paragraph</b> every second and a half,
 and that might be a better way of running the script.
 
 But I thought that it was interesting to point out that what&apos;s
 happening here is that every second and a half, our variable, the
-**content** is getting an extra paragraph in it. The first time it runs
-as one **paragraph** in it, the second time it runs, it&apos;s got two
-**paragraphs** in it. The third time it runs, it&apos;s got three
-**paragraphs** in it, and so on. Then each time **setInterval** runs,
-it&apos;s taking however many **paragraphs** are there and putting them
-inside the **div** using **innerHTML**. So it&apos;s an important way of
+<b>content</b> is getting an extra paragraph in it. The first time it runs
+as one <b>paragraph</b> in it, the second time it runs, it&apos;s got two
+<b>paragraphs</b> in it. The third time it runs, it&apos;s got three
+<b>paragraphs</b> in it, and so on. Then each time <b>setInterval</b> runs,
+it&apos;s taking however many <b>paragraphs</b> are there and putting them
+inside the <b>div</b> using <b>innerHTML</b>. So it&apos;s an important way of
 understanding how this one works. In the next lesson, we&apos;ll take a look
 at the next example.
 
@@ -7840,14 +7861,14 @@ red to blue.
 </p>
 
 Let&apos;s take a look at what&apos;s going on with this example. I&apos;m going to
-go over to my code example 2. Down here I have a **div** with a class of
-**one** on it. That class is setting that **div** to be a 100 pixels
+go over to my code example 2. Down here I have a <b>div</b> with a class of
+<b>one</b> on it. That class is setting that <b>div</b> to be a 100 pixels
 tall by 100 pixels wide with the background color of red. Notice the
 transition is here on the classes. Transitional two seconds.
-**setTimeout** runs. Since we&apos;re running this function here.
+<b>setTimeout</b> runs. Since we&apos;re running this function here.
 
 What this function is doing is it&apos;s setting the class attribute to
-**two**, but it&apos;s not doing it for 2,000 milliseconds for two seconds.
+<b>two</b>, but it&apos;s not doing it for 2,000 milliseconds for two seconds.
 As soon as this class gets attached to it, then this class becomes
 active. The animation happens in the size and all that in the background
 color, everything gets transitioned.
@@ -7896,10 +7917,10 @@ powerful technique in JavaScript.
   alt="." />
 </p>
 
-Let&apos;s go take a look at the actual example file (**example3.html**) and
+Let&apos;s go take a look at the actual example file (<b>example3.html</b>) and
 see what happens when we run it. You&apos;ll notice it waits a certain
-amount of time and then it starts this pulsating **div** that&apos;s set to
-a circle, the different **background** color here, red to purple.
+amount of time and then it starts this pulsating <b>div</b> that&apos;s set to
+a circle, the different <b>background</b> color here, red to purple.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7920,8 +7941,8 @@ a circle, the different **background** color here, red to purple.
 </p>
 
 Let&apos;s take a look at the JavaScript that makes this work. If I come
-back here, I open **example3.html**. You can see again I have a **div**
-(**id="thediv"**) with the **class** of "**one"** on it.
+back here, I open <b>example3.html</b>. You can see again I have a <b>div</b>
+(<b>id="thediv"</b>) with the <b>class</b> of "<b>one</b>" on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7933,17 +7954,17 @@ back here, I open **example3.html**. You can see again I have a **div**
   alt="." />
 </p>
 
-Down here, I&apos;ve got, **getElementById("thediv")**, I&apos;ve got a variable
-called **currentClass**, which is set to "**one**". Then I&apos;ve got a
-function called "**classRotator**&apos;&apos;, which checks to see if the
-**currentClass** is "**one"**. I&apos;m going to **setTimeout** and I&apos;m
+Down here, I&apos;ve got, <b>getElementById("thediv")</b>, I&apos;ve got a variable
+called <b>currentClass</b>, which is set to "<b>one</b>". Then I&apos;ve got a
+function called "<b>classRotator</b>&apos;&apos;, which checks to see if the
+<b>currentClass</b> is "<b>one"</b>. I&apos;m going to <b>setTimeout</b> and I&apos;m
 going to run a function that&apos;s going to run after a two second delay.
-In this function, I&apos;m going to take the **div** and set the class name
-to "**two"**. Then I&apos;m going to set **currentClass** to "**two"**. In a
-nutshell, if it&apos;s not "**one**", then it must be "**two**" and set
-**currentClass** over a two second delay.
+In this function, I&apos;m going to take the <b>div</b> and set the class name
+to "<b>two"</b>. Then I&apos;m going to set <b>currentClass</b> to "<b>two"</b>. In a
+nutshell, if it&apos;s not "<b>one</b>", then it must be "<b>two</b>" and set
+<b>currentClass</b> over a two second delay.
 
-But notice that this function is running **classRotator**. Recursive
+But notice that this function is running <b>classRotator</b>. Recursive
 function is a function that calls itself and this is an example of a
 function that calls itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7957,7 +7978,7 @@ function that calls itself.
 To kick off that function entirely, we have to run it once down here.
 When the page loads, it runs this once, but then when it runs itself, it
 either runs itself again in the if statement or it runs itself again in
-the 'else' statement in the **setTimeout**.
+the 'else' statement in the <b>setTimeout</b>.
 
 Now, recursion is a very powerful thing and it&apos;s easy with recursion to
 get confused or to do something that will cause your script to run out
@@ -7970,8 +7991,8 @@ of memory and to run crazy and wild.
   alt="." />
 </p>
 
-For example, if I took **classRotator** and stuck it outside of the
-**setTimeout**, it would run very quickly and it would keep running
+For example, if I took <b>classRotator</b> and stuck it outside of the
+<b>setTimeout</b>, it would run very quickly and it would keep running
 itself and then it would start to get stacked up and eventually you&apos;d
 run out of memory. You&apos;d get a heap overflow error showing that
 basically JavaScript has run out of memory.
@@ -7979,15 +8000,15 @@ basically JavaScript has run out of memory.
 That can happen very easily when you&apos;re working with recursive scripts
 but when handled properly, recursion can be a very powerful feature. Not
 only that, it can be the preferred way of working with data and working
-with **setTimeout** or **setInterval**. If, for example, you&apos;re going
+with <b>setTimeout</b> or <b>setInterval</b>. If, for example, you&apos;re going
 out to the world and getting a piece of data from somewhere and then
 doing something when it comes back. Usually recursion is the better way
 to go because you can wait until it&apos;s come back before you try to do
 something with it.
 
-Whereas if you use **setInterval**, then you&apos;re more likely to try to
-do something before you get your data back. **setInterval** will run
-every x amount of seconds. **setTimeout** will wait at least two
+Whereas if you use <b>setInterval</b>, then you&apos;re more likely to try to
+do something before you get your data back. <b>setInterval</b> will run
+every x amount of seconds. <b>setTimeout</b> will wait at least two
 seconds, but maybe longer, depending on where something is in the stack
 of things to run with JavaScript. We will get more into the event loop
 in JavaScript and talk more about how that works and why it is like that
@@ -7999,10 +8020,11 @@ only calling itself after two seconds is lapsed, either here, in the
 pulsating, creepy circle that feels like it&apos;s breathing on our web page
 and you can do more stuff with that if you wanted to.
 
-### 4.04 JavaScript-Timers-and-Recursion.pdf
-
-> https://github.com/bbauska/UC-Davis-Animation-with-JS-and-jQuery/blob/main/pdf/4.04-JavaScript-Timers-Recursion.pdf
-
+<ul>
+  <li><a href="./pdf/4.04-JavaScript-Timers-Recursion.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.04 JavaScript-Timers-Recursion.pdf</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8048,8 +8070,8 @@ that hard and see if you can figure it out. To do that, get rid of the
 buttons, delete the buttons off the screen.
 
 You can delete the CSS that has to do with the buttons off the files,
-and then modify the script that&apos;s using **setInterval** or
-**setTimeout** using recursion, you can make it work either way. As an
+and then modify the script that&apos;s using <b>setInterval</b> or
+<b>setTimeout</b> using recursion, you can make it work either way. As an
 added challenge, make it so that when the user hovers their mouse over
 the slides, the slider stops. Then when they move their mouse off of it,
 it starts again.
@@ -8169,9 +8191,9 @@ the guts of that there.
 </p>
 
 The next thing I need to do here is create my function that will create
-**setInterval**, I&apos;m going to use **setInterval** for this, but you
-could also use **setTimeout** with recursion if you wanted to, but I&apos;m
-going to use **setInterval** here.
+<b>setInterval</b>, I&apos;m going to use <b>setInterval</b> for this, but you
+could also use <b>setTimeout</b> with recursion if you wanted to, but I&apos;m
+going to use <b>setInterval</b> here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 456/457.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8183,14 +8205,14 @@ going to use **setInterval** here.
   alt="." />
 </p>
 
-I&apos;m going to add **setInterval** method and pass in the anonymous
+I&apos;m going to add <b>setInterval</b> method and pass in the anonymous
 function and set it to 3,000 milliseconds, three seconds. It seems long
 enough for slides. I&apos;m going to put it here, setInterval like that. I
 pass in a function and then I&apos;m going to say over 3,000 milliseconds
 and that will run.
 
-Now **setInterval** is going to run this function and it&apos;s going to do
-the **counter**, and then it&apos;s going to check my if statements, and
+Now <b>setInterval</b> is going to run this function and it&apos;s going to do
+the <b>counter</b>, and then it&apos;s going to check my if statements, and
 it&apos;s going to do this every three seconds so that it will move the
 slides forward every three seconds.
 
@@ -8295,13 +8317,13 @@ terms of exactly the same thing that we had before.
 
 The difference now is that I can set my set interval here. I can assign
 that to a variable. I could put, &quot;let my slider equal set Interval
-slider.&quot; Then I can create an **eventListener** that will do something
-when the mouse hovers over it. I&apos;m going to make an **eventListener**
+slider.&quot; Then I can create an <b>eventListener</b> that will do something
+when the mouse hovers over it. I&apos;m going to make an <b>eventListener</b>
 for when you hover over this element on my page here.
 
 Down here I&apos;m going to do
-**document.getElementByID(slider.addEventListener)** and when the
-**addEventListener** runs. I&apos;m going to be looking for mouse over, when
+<b>document.getElementByID(slider.addEventListener)</b> and when the
+<b>addEventListener</b> runs. I&apos;m going to be looking for mouse over, when
 you mouse over I&apos;m going to run a function. When you mouse over that
 element, the Slider, I&apos;m going to say, clear interval, mySlider, and
 that will stop it from running.
@@ -8339,8 +8361,12 @@ manually. That would be an interesting modification to the script. Maybe
 you can come up with other ideas and other things that you could do.
 
 <ul>
-  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" target="_blank" rel="noopener noreferrer">4.07 Slider-on-a-Timer.pdf</a></li>
-  <li><a href="./zip/4.07-Rotator-START.zip" target="_blank" rel="noopener noreferrer">4.07 Rotator-START.zip</a></li>
+  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.07 Slider-on-a-Timer.pdf</a></li>
+  <li><a href="./zip/4.07-Rotator-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.07 Rotator-START.zip</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8412,7 +8438,7 @@ fun.
 I have this diagram that can help us simplify it and think about exactly
 how this is going to work. When the script starts it&apos;s going to set a
 counter to one and then it&apos;s going to run a function called
-**contentRotator**.
+<b>contentRotator</b>.
 
 And then on the right here I have that function content rotator and it
 starts, it fades in the first paragraph that matches the counter number
@@ -8446,7 +8472,7 @@ the set time out will go, is when we&apos;re waiting seven seconds.
 Let&apos;s get started on the script, the first thing to note on this script
 and I have my files open here in Visual Studio Code here. And the first
 thing to note is that in the CSS I have all the paragraphs inside my
-container, so here&apos;s my **div id** container, they&apos;re all set to
+container, so here&apos;s my </b>div id</b> container, they&apos;re all set to
 display none. Now, when you look at this it might look a little bit
 weird because of these things here, but this is just an html entity
 that&apos;s creating a curly quote.
@@ -8496,8 +8522,8 @@ we&apos;re going to do our work over here is on the rotator.js.
 </p>
 
 We&apos;ve got our IIFE, our immediately invoked function expression set up
-to keep everything out of the global scope and we&apos;ve got our **"use
-strict"** directive in there. Okay, we&apos;re all set and ready to start
+to keep everything out of the global scope and we&apos;ve got our <b>"use
+strict"</b> directive in there. Okay, we&apos;re all set and ready to start
 working on our script.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8522,8 +8548,8 @@ Here we go to write our script and get our content rotator to work.
 
 First thing I need is a variable. Let counter and I&apos;m going to sign the
 value of one and then I&apos;m going to make a function called
-**contentRotator**. And we&apos;ll do stuff in here. And then I&apos;m going to
-call that function **contentRotator** to get it started, and make it
+</b>contentRotator</b>. And we&apos;ll do stuff in here. And then I&apos;m going to
+call that function <b>contentRotator</b> to get it started, and make it
 work. This will get us started with our function and our let counter
 variable ,and we&apos;ll get our file all set up, and ready to go properly
 here.
@@ -8536,7 +8562,7 @@ here.
 </p>
 
 Our next job is to get our first paragraph and faded it in. We&apos;ll use
-our **counter** to do that. And the CSS and child filter to allow us to
+our </b>counter</b> to do that. And the CSS and child filter to allow us to
 get the first paragraph because remember currently all the paragraphs
 are set to display none.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8548,7 +8574,7 @@ are set to display none.
 </p>
 
 We can use our <b>jQuery</b> object to go get that first paragraph and
-faded it in. Down inside **contentRotator**. We want to use <b>jQuery</b>
+faded it in. Down inside <b>contentRotator</b>. We want to use <b>jQuery</b>
 object to get them. I'm going to use tick marks to say pound container,
 P and child parentheses. Now, if I were to put a one in here that would
 go get the first paragraph. If I were to get a two, that would get
@@ -8557,11 +8583,11 @@ you might wonder why we didn&apos;t start my counter with zero. And
 frequently we do when we&apos;re working with arrays because the first
 element in the array zero indexed.
 
-The **nth child pseudo selector** is actually indexed with **one**. So
+The <b>nth child pseudo selector</b> is actually indexed with <b>one</b>. So
 one will get me my first my first paragraph, but I don&apos;t want to put a
-one in there. I want to put the variable **counter** so I can do my
-template literal like so and put the varialbe **counter**. And that will
-go get **counter** which is a one in this case the first time this runs.
+one in there. I want to put the variable <b>counter</b> so I can do my
+template literal like so and put the varialbe <b>counter</b>. And that will
+go get <b>counter</b> which is a one in this case the first time this runs.
 So that gets that first paragraph and fades in 2,000 because remember
 this is <b>jQuery</b> effects library here. So we can actually feed in that
 first paragraph there. So that&apos;s working.
@@ -8575,14 +8601,14 @@ first paragraph there. So that&apos;s working.
 
 Now that I have faded the paragraph in. I need to wait seven seconds and
 this is going to happen after the two second fade in. Remember with
-<b>jQuery</b> we have a **callback** function that we can use with our fade
+<b>jQuery</b> we have a <b>callback</b> function that we can use with our fade
 in helper method that will allow us to do something after it has faded
 in.
 
-So after that animation has run, we want to run that **callback**
+So after that animation has run, we want to run that <b>callback</b>
 function. We want to run this function after the fade in is complete,
 and that&apos;s where we&apos;re going to put the rest of our script. Everything
-else we do is going to go inside this **callback** function.
+else we do is going to go inside this <b>callback</b> function.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
@@ -8596,7 +8622,7 @@ else we do is going to go inside this **callback** function.
 </p>
 
 Now that we&apos;ve faded in the first paragraph, and after that two second
-fadeIn has taken place, we&apos;re going to run a **callback** function.
+fadeIn has taken place, we&apos;re going to run a <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8605,9 +8631,9 @@ fadeIn has taken place, we&apos;re going to run a **callback** function.
   alt="." />
 </p>
 
-Inside that **callback** function, we&apos;re going to check to see if this
+Inside that <b>callback</b> function, we&apos;re going to check to see if this
 is the last paragraph or not. Let&apos;s get that if statement in place, and
-then we&apos;ll go forward from there. If **fadeIn** that, now we&apos;re going
+then we&apos;ll go forward from there. If <b>fadeIn</b> that, now we&apos;re going
 to do an if, if parentheses, and we&apos;ll do something in there, and then
 we&apos;ve got an else, we will do something in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8619,7 +8645,7 @@ we&apos;ve got an else, we will do something in there.
 </p>
 
 Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
-**'this'** keyword, "this" paragraph. Is a <b>jQuery</b> function that will
+<b>'this'</b> keyword, "this" paragraph. Is a <b>jQuery</b> function that will
 return true or false, if something in there is true.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8629,8 +8655,8 @@ return true or false, if something in there is true.
   alt="." />
 </p>
 
-If **'this'** is, and then I&apos;m going to say, if this is in here, I can
-put **&quot;#container p: last-child();&quot;** If it&apos;s the last child, we&apos;re
+If <b>'this'</b> is, and then I&apos;m going to say, if this is in here, I can
+put <b>&quot;#container p: last-child();&quot;</b> If it&apos;s the last child, we&apos;re
 going to do something, and then if it&apos;s not, we&apos;re going to do
 something else.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8642,13 +8668,13 @@ something else.
 </p>
 
 What we&apos;re going to do is wait seven seconds and then run the
-**contentRotator** again, or reset, and increment the **counter**, or
-reset the **counter**. We&apos;re going to wait seven seconds, **fadeIn**
-the paragraph, set the **counter** back to one, and run
-**contentRotator** again, if we&apos;re on the last paragraph. If we&apos;re
-not, we&apos;re going to wait seven seconds, **fadeOut** the paragraph,
-increment the counter and run **contentRotator** again. The only real
-difference between these two is what happens with the **counter**. Also,
+<b>contentRotator</b> again, or reset, and increment the <b>counter</b>, or
+reset the <b>counter</b>. We&apos;re going to wait seven seconds, <b>fadeIn</b>
+the paragraph, set the <b>counter</b> back to one, and run
+<b>contentRotator</b> again, if we&apos;re on the last paragraph. If we&apos;re
+not, we&apos;re going to wait seven seconds, <b>fadeOut</b> the paragraph,
+increment the counter and run <b>contentRotator</b> again. The only real
+difference between these two is what happens with the <b>counter</b>. Also,
 you&apos;ll see here where the recursion is taking place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8658,8 +8684,8 @@ you&apos;ll see here where the recursion is taking place.
   alt="." />
 </p>
 
-Let&apos;s work with the **else** statement first, because I think that
-one&apos;s a little bit easier. Let&apos;s have the **setTimeout** function in
+Let&apos;s work with the <b>else</b> statement first, because I think that
+one&apos;s a little bit easier. Let&apos;s have the <b>setTimeout</b> function in
 there, and then we&apos;ll go forward with that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 488.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8669,7 +8695,7 @@ there, and then we&apos;ll go forward with that.
   alt="." />
 </p>
 
-Down here, we&apos;re going to say, **setTimeout**, and that&apos;s going to run
+Down here, we&apos;re going to say, <b>setTimeout</b>, and that&apos;s going to run
 a function after seven seconds, we&apos;re going to take this same thing
 here, and just copy that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8681,11 +8707,11 @@ here, and just copy that.
 </p>
 
 We&apos;re going to take that same thing, and we&apos;re going to run
-**fadeOut** over two seconds, and that will fade that paragraph out
-after seven seconds. Now, when the **contentRotator** starts, it checks
+<b>fadeOut</b> over two seconds, and that will fade that paragraph out
+after seven seconds. Now, when the <b>contentRotator</b> starts, it checks
 to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait seven
-seconds, then **fadeOut**, over two seconds. When it&apos;s done fading out,
-we need another **callback** function.
+seconds, then <b>fadeOut</b>, over two seconds. When it&apos;s done fading out,
+we need another <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8695,20 +8721,20 @@ we need another **callback** function.
 </p>
 
 I&apos;m going to stick another function in here like so. It gets confusing,
-because when we have a **callback** inside of a **callback**, now,
-sometimes this is referred to as **callback** hell. But this is the way
-we need to get this thing to work well. We actually have a **callback**
-inside of **callback** inside of a **callback**. We&apos;re doing all of
-these layers of **callbacks** here, because we&apos;re fading in, we&apos;re
+because when we have a <b>callback</b> inside of a <b>callback</b>, now,
+sometimes this is referred to as <b>callback</b> hell. But this is the way
+we need to get this thing to work well. We actually have a <b>callback</b>
+inside of <b>callback</b> inside of a <b>callback</b>. We&apos;re doing all of
+these layers of <b>callbacks</b> here, because we&apos;re fading in, we&apos;re
 waiting seven seconds, we&apos;re fading out, we&apos;re doing three things, so
 we need to let those three things stack up there.
 
-Now in here what we&apos;re going to do is increment the **counter**,
-**counter++**, and run **contentRotator** again. **ContentRotator** runs
-itself when the **counter** is set to two, it&apos;ll check to see if it&apos;s
-the last child, if it&apos;s not, it&apos;ll increment the **counter**, and
+Now in here what we&apos;re going to do is increment the <b>counter</b>,
+<b>counter++</b>, and run <b>contentRotator</b> again. <b>ContentRotator</b> runs
+itself when the <b>counter</b> is set to two, it&apos;ll check to see if it&apos;s
+the last child, if it&apos;s not, it&apos;ll increment the <b>counter</b>, and
 it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out the
-**"if"** portion of the **"if/else"** in the next lesson.
+<b>"if"</b> portion of the <b>"if/else"</b> in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
@@ -8721,7 +8747,7 @@ it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out 
   alt="4.11 The Else/If Statement -- Part 2." />
 </p>
 
-In the last lesson, we set our **setTimeout** to wait seven seconds and
+In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
 that&apos;s done, increment the counter and run content rotator again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8744,15 +8770,15 @@ seconds, like so. It&apos;s going to run this function over seven seconds.
 It&apos;s going to wait seven seconds before it does this function. In here
 and this part I will copy and paste just to make sure I get it right.
 Just this piece here. I&apos;m going to say, okay, go into my container and
-get that **p: nth-child counter**, which in this case it&apos;s the last
+get that <b>p: nth-child counter</b>, which in this case it&apos;s the last
 one. Should be four in this examle.
 
-Get that one and then I&apos;m going to do **fadeOut** over two seconds,
-2,000. Then I&apos;m going to run another **callback** function. Again, I
+Get that one and then I&apos;m going to do <b>fadeOut</b> over two seconds,
+2,000. Then I&apos;m going to run another <b>callback</b> function. Again, I
 have to wait until those two seconds are over before I can do this, and
 here the one thing that&apos;s different from what I did below is the
-**counter** gets set to one, so I&apos;m setting it back to my first
-paragraph. Then I&apos;ll run **contentRotator** another time, but now with
+<b>counter</b> gets set to one, so I&apos;m setting it back to my first
+paragraph. Then I&apos;ll run <b>contentRotator</b> another time, but now with
 the paragraph counter set to one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 493.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8811,7 +8837,9 @@ parameters so that you don&apos;t know what you&apos;re going to get each time
 the function runs itself and that can be very interesting.
 
 <ul>
-  <li><a href="./pdf/4.11-Content-Rotator.pdf">4.11 Content-Rotator.pdf</a></li>
+  <li><a href="./pdf/4.11-Content-Rotator-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    4.11 Content-Rotator-with-jQuery.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
