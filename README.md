@@ -40,6 +40,7 @@ with HTML documents. Finally, a focus on plugins and continue to breakdown
 jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~ Hoverable Dropdown Menu ~~-->
+<!--~~ to come in index.html, not readme.md ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 <h3 id="ch1-obj">Learning Objectives</h3>
@@ -92,7 +93,12 @@ page.</p>
 </ol>
 
 <ul>
-  <li>1.01-jQuery-START.zip</li>
+  <li><a href="./zip/1.01-Intro-to-jQuery.pdf"
+    target="_blank" rel="noopener noreferrer">
+	1.01 Intro-to-jQuery.pdf</a></li>
+  <li><a href="./zip/1.01-jQuery-START.zip"
+    target="_blank" rel="noopener noreferrer">
+	1.01 jQuery-START.zip</a></li>
 </ul>
 
 <ol start="2">
@@ -102,17 +108,14 @@ page.</p>
   <li>Using jQuery to Access Elements</li>
   <li>jQuery Events</li>
 </ol>
-<ul>
-  <li>1.06-Introduction-to-jQuery.pdf</li>
-</ul>
 
 <ol start="7">
   <li>Introduction to Folding Sidebar Menus Using JS</li>
 </ol>
 <ul>
-  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus.zip"
+  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip"
     target="_blank" rel="noopener noreferrer">
-    1.07-JS-Folding-Sidebar-Menus.zip</a></li>
+    1.07 JS-Folding-Sidebar-Menus-START.zip</a></li>
 </ul>
 <ol start="8">
   <li>Challenge 1 Solution</li>
@@ -125,29 +128,34 @@ page.</p>
   <li>Challenge 8 Solution</li>
 </ol>
 <ul>
-  <li>1.15-Folding-Sidebar-Menus-with-JS.pdf<br>
-    1.15-Folding-Sidebar-Menus-with-JS<br>
-	Folding Sidebar Menus Using JavaScript</li>
+  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.15 Folding-Sidebar-Menus-with-JS.pdf</li>
 </ul>
 <ol start="16">
   <li>Introduction to jQuery Sidebar Folding Navigation</li>
 </ol>
 <ul>
-  <li><a href="./pdf/1.16-jQuery-Folding-Menus.zip" target="_blank" rel="noopener noreferrer">
-    1.16-jQuery-Folding-Menus-START.zip"</a></li>
+  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.16 jQuery-Folding-Menus-START.zip</a></li>
 </ul>
 <ol start="17">
   <li>Getting the Next UL</li>
   <li>The Whole Script</li>
 </ol>
 <ul>
-  <li>1.18 PDF of Presentation 1.18-FileName.pdf</li>
+  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.18 Folding-Sidebar-Menus-with-jQuery.pdf</a></li>
 </ul>
 <ol start="19">
   <li>JavaScript and jQuery Challenges Intro</li>
 </ol>
 <ul>
-  <li>1.19 JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
+  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.19 JS-jQuery-Challenges.pdf</a></li>
 </ul>
 
 <h2 id="ch2">Week/Module 2</h2>
@@ -171,7 +179,8 @@ both JavaScript and jQuery.</p>
 1.  <b>Introduction to the jQuery Effects Library</b>
 
 <ul>
-  <li><a href="./zip/2.01-jQuery-Animation-START.zip">
+  <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     2.01-jQuery-Animation-START.zip</a></li>
 </ul>
 
@@ -192,14 +201,16 @@ both JavaScript and jQuery.</p>
 9.  <b>Doing All Animations at Once</b>
 
 <ul>
-  <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf">
-    2.09-jQuery-Effects-Library.pdf</a></li>
+  <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    2.09 jQuery-Effects-Library.pdf</a></li>
 </ul>
 
 10. <b>Introduction to Tabbed Interface Using jQuery</b>
 
 <ul>
-  <li><a href="./zip/2.10-jQuery-Tabs-START.zip">
+  <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     2.10-jQuery-Tabs-START.zip</a></li>
 </ul>
 
@@ -212,15 +223,17 @@ both JavaScript and jQuery.</p>
 14. <b>Whole Script</b>
 
 <ul>
-  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf">
-    2.14-Tab-Interface-with-jQuery.pdf</a></li>
+  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    2.14 Tab-Interface-with-jQuery.pdf</a></li>
 </ul>
 
 15. <b>Getting the CSS Ready</b>
 
 <ul>
-  <li><a href="./zip/2.15-JS-Tabs-START.zip">
-	2.15-JS-Tabs-START.zip</a></li>
+  <li><a href="./zip/2.15-JS-Tabs-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	2.15 JS-Tabs-START.zip</a></li>
 </ul>
 
 16. <b>Making the Tabs Work</b>
@@ -235,7 +248,7 @@ both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./pdf/2.20-JS-Tabbed-Interface.pdf">
-    2.20-JS-Tabbed-Interface.pdf</a></li>
+    2.20 JS-Tabbed-Interface.pdf</a></li>
 </ul>
 
 <h2 id="ch3">Week/Module 3</h2>
@@ -259,8 +272,9 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 1.  <b>Basic Slider</b>
 
 <ul>
-  <li><a href="./zip/3.01-Slider-V1-START.zip">
-    3.01-Slider-V1-START.zip</a></li>
+  <li><a href="./zip/3.01-Slider-V1-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    3.01 Slider-V1-START.zip</a></li>
 </ul>
 
 2.  <b>Making the Script General</b>
@@ -274,8 +288,9 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 6.  <b>Challenge Solution</b>
 
 <ul>
-  <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf">
-    3.06-jQuery-Image-Slider-V1.pdf</a></li>
+  <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    3.06 jQuery-Image-Slider-V1.pdf</a></li>
 </ul>
 
 7.  <b>Strategy for Version 2</b>
@@ -291,14 +306,17 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 12. <b>Previous Button Click Handler - Part 2</b>
 
 <ul>
-  <li><a href="">3.12 PDF of Presentation 3.12-FileName.pdf</a></li>
+  <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    3.12 jQuery-Image-Slider-V2.pdf</a></li>
 </ul>
 
 13. <b>Slider Using JavaScript</b>
 
 <ul>
-  <li><a href=./zip/"./zip/3.13-JS-Slider-V3-START.zip">
-    3.13-JS-Slider-V3-START.zip<br>
+  <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    3.13 JS-Slider-V3-START.zip<br>
 	JavaScript Sliders V3</a></li>
 </ul>
 
@@ -329,10 +347,10 @@ interface element on any web page.</p>
 <h4>12 lessons, 6 readings</h4>
 
 <ul>
-  <li><a href="./zip/4.00-JS-Timers-Example.zip"
+  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
     target="_blank" rel="noopener noreferrer">
-    4.00-JS-Timers-Examples.zip<br>
-	Timers and Recursion in JavaScript &amp; jQuery</a></li>
+    4.00-JS-Timers-Examples-START.zip<br>
+	Timers and Recursion in JS &amp; jQuery</a></li>
 </ul>
 
 1.  Example Script #1 - Part 1
@@ -344,9 +362,13 @@ interface element on any web page.</p>
 4.  Example Script #3: Recursion
 
 <ul>
-  <li><a href="./pdf/4.04-JavaScript-Timers-Recursion.pdf">4.04-JavaScript-Timers-Recursion.pdf<br>
+  <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.04-JS-Timers-Recursion.pdf<br>
     JavaScript Timers &amp; Recursion</a></li>
-  <li><a href="./zip/4.04-JavaScript-Timers-Recursion.zip">4.04-JavaScript-Timers-Recursion.zip</a></li>
+  <li><a href="./zip/4.04-JS-Timers-Recursion.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.04-JS-Timers-Recursion.zip</a></li>
 </ul>
 
 5.  Converting a Slider
@@ -356,10 +378,13 @@ interface element on any web page.</p>
 7.  Putting Slides on a Timer Solution - Part 2
 
 <ul>
-  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf">4.07-Slider-on-a-Timer.pdf<br>
-    Putting Slides on a Timer</a></li>
-  <li><a href="./zip/4.07-Slider-on-a-Timer.zip">4.07-Slider-on-a-Timer.zip</a></li>
-  <li><a href="./zip/4.07-Rotator-START.zip">4.07-Rotator-START.zip</a></li>
+  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
+      target="_blank" rel="noopener noreferrer">
+	  4.07-Slider-on-a-Timer.pdf<br>
+      Putting Slides on a Timer</a></li>
+  <li><a href="./zip/4.07-Rotator-START.zip" 
+      target="_blank" rel="noopener noreferrer">
+	  4.07-Rotator-START.zip</a></li>
 </ul>
 
 8.  Project Set-up
@@ -371,9 +396,13 @@ interface element on any web page.</p>
 11. The If/Else Statement - Part 2
 
 <ul>
-  <li><a href="./pdf/4.11-Content-Rotator.pdf">4.11-Content-Rotator.pdf<br>
+  <li><a href="./pdf/4.11-Content-Rotator.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.11-Content-Rotator.pdf<br>
     Using jQuery, Timers &amp; Recursion</a></li>
-  <li><a href="./zip/4.11-Content-Rotator.zip">4.11-Content-Rotator.zip</a></li>
+  <li><a href="./zip/4.11-Content-Rotator.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.11-Content-Rotator.zip</a></li>
 </ul>
 
 12. Course Summary
@@ -489,14 +518,15 @@ answers, but specific course content questions can typically be found
 and answered in the discussion forums. This is also a great place to
 post your assignment if additional peer reviews are needed. Here is a
 link with more information on the discussion forums: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums">Discussion Forums</a></p>
+<a href="https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums" 
+target="_blank" rel="noopener noreferrer">Discussion Forums</a></p>
 
 <p>Because of the self-paced nature of Coursera courses, this is an
 excellent opportunity to show your commitment to your work and the work
 of your peers through academic integrity. Be sure to read the Coursera
 guidelines and the <b>Coursera Honor Code</b> here: 
-<a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code">
-Coursera Honor Code</a></p>
+<a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code" 
+target="_blank" rel="noopener noreferrer">Coursera Honor Code</a></p>
 
 <p>We look forward to having you in this course. Happy learning!</p>
 
@@ -671,7 +701,8 @@ jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
 basis.</p>
 
-<h2 id="ch1-01"><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery" target="_blank" rel="noopener noreferrer">
+<h2 id="ch1-01"><a href="./zip/1.01-jQuery-START.zip" 
+  target="_blank" rel="noopener noreferrer">
   1.01 jQuery-START.zip</a></h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -883,8 +914,8 @@ CDN, and one of them is jQuery.</p>
   alt="jQuery 3 versions from Google&apos;s Hosted Libraries." />
 </p>
 
-<p>We can go to this link <a href="https://developers.google.com/speed/libraries/#libraries">
-here</a>, to jQuery, and you can see that 
+<p>We can go to this link <a href="https://developers.google.com/speed/libraries/#libraries" 
+target="_blank" rel="noopener noreferrer">here</a>, to jQuery, and you can see that 
 jQuery has three different versions, three flavors of jQuery that include 
 different features. The version 1X snippet is the oldest version of jQuery 
 and it&apos;s loading 1.12.4. This is really the 12th major version of version 
@@ -1560,7 +1591,8 @@ when we come back in the next lesson, we&apos;ll see how I did that.
 <h3>Start Files: JS Folding Sidebar Menu</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/N853J/start-files-folding-sidebar-menus-with-javascript " target="_blank" rel="noopener noreferrer">
+  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menu-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     1.07 JS-Folding-Sidebar-Menu-START.zip (download)</a></li>
 </ul>
 
@@ -2355,7 +2387,8 @@ next lesson.
 <h3>Start Files: jQuery Folding Menu</h3>
 
 <ul>
-  <li><a href="#" target="_blank" rel="noopener noreferrer">
+  <li><a href=""./zip/1.16-jQuery-Folding-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     1.16 jQuery-Folding-Menus-START.zip (download)</a></li>
 </ul>
 
@@ -2661,7 +2694,8 @@ understand the differences between the syntax of how each of them work.
 <h3>PDF of Challenges</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/i4axXuqIRimGsV7qiOYpOg_cbf6c4b4aed0434b821b960e344d66f1_WEB1091_M01_JavaScript-jQuery-Challenges.pdf?Expires=1710460800&Signature=GSFa2G3WNUZWeuyW0dSm7rvqdyxGatySjKpSoPRmx6owmcPNfKfgUWDID7pOLXyKyr9aggKrDmkglcjlATZmiBQsBVW4neIDlDjrVbg-DFdYP4D10ahkCkQLGB\~SW1qOcb9kMdBogkdPB-zWoqlyAydtP2QHdRVDAj3LozFUFO8\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/i4axXuqIRimGsV7qiOYpOg_cbf6c4b4aed0434b821b960e344d66f1_WEB1091_M01_JavaScript-jQuery-Challenges.pdf?Expires=1710460800&Signature=GSFa2G3WNUZWeuyW0dSm7rvqdyxGatySjKpSoPRmx6owmcPNfKfgUWDID7pOLXyKyr9aggKrDmkglcjlATZmiBQsBVW4neIDlDjrVbg-DFdYP4D10ahkCkQLGB\~SW1qOcb9kMdBogkdPB-zWoqlyAydtP2QHdRVDAj3LozFUFO8\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" 
+    target="_blank" rel="noopener noreferrer">
     1.19 JavaScript-and-jQuery-Challenges.pdf (download)</a></li>
 </ul>
 
@@ -2845,8 +2879,8 @@ the speed there.
 <h3>Start Files: jQuery Animation</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/3Xl5RNS1RLW5eUTUtUS1fg_6e9d3063eee04fbdacdf3298ef2baa81_WEB1091_jQuery-Animation-START.zip?Expires=1710460800&Signature=cVi6tC9Efa73xPc6OoCOjQX77Tr-Bpr3Y1Zhd6Yi5H0Q4zJzByAc17XziZvs114jpq0OfvJXPuczyj6RPuANoWV-im0L6UbbbqHtHYpH6jkbrAZpilLw9xqw1Vayv7XPDe6Hkitr9zjMKEgXnbC3y3tagH-EJCRzE0zMgnzmQpE\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
-  target="_blank" rel="noopener noreferrer">
+  <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
+    target="_blank" rel="noopener noreferrer">
     2.01 jQuery-Animation-START.zip (download)</a></li>
 </ul>
 
@@ -3107,7 +3141,8 @@ animations in here. But in order to use this, we have to plugins
 <b>plug-in</b>.
 
 <ul>
-  <li><a href="https://tutorialzine.com/2013/04/50-amazing-jquery-plugins">
+  <li><a href="https://tutorialzine.com/2013/04/50-amazing-jquery-plugins" 
+    target="_blank" rel="noopener noreferrer">
     50 Awesome jQuery Plugins</a></li>
 </ul>
 
@@ -3124,7 +3159,8 @@ it and close it. Here we can use some of the other easings that we find
 on this website here;
 
 <ul>
-  <li><a href="https://cdnjs.com/libraries/jquery-easing">
+  <li><a href="https://cdnjs.com/libraries/jquery-easing" 
+    target="_blank" rel="noopener noreferrer">
     jQuery Easing</a></li>
 </ul>
 
@@ -3746,9 +3782,11 @@ to use this effects library coming up when we create a tabbed interface.
 Here are resources related to these lessons:
 
 <ul>
-  <li id="ch2-09-plugins"><a href="https://gsgd.co.uk/sandbox/jquery/easing/">
+  <li id="ch2-09-plugins"><a href="https://gsgd.co.uk/sandbox/jquery/easing/" 
+    target="_blank" rel="noopener noreferrer">
     2.09 jQuery Easing Plugin (shortcut)</a></li>
-  <li id="ch2-09-easing"><a href="https://cdnjs.com/libraries/jquery-easing">
+  <li id="ch2-09-easing"><a href="https://cdnjs.com/libraries/jquery-easing" 
+    target="_blank" rel="noopener noreferrer">
     2.09 jQuery Easing (shortcut)</a></li>
 </ul>
 
@@ -3758,7 +3796,8 @@ Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Intro to jQuery Effects Library</b>.
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/ipt9jX2gRvGbfY19oNbxgA_273f1d9cb53a443b95389299f4786bf1_WEB1091_M02_jQuery-Effects-Library.pdf?Expires=1710460800&Signature=hSGaHtrwgHjj8sZJqoSQR6oPeX4YPq4wyk6iIMGqq\~DPfPpEZa6Op9KptnMy7uXt8YE\~kkHerEmfynS0eY-T2oD4IrivQAqSDC\~0aLPISPEN8dDBrd1Y-hUlQOw0TUqd\~GXfcOMuUAJgywBFiT8HXzwO0QS4SwNkySDnfQvOe8E\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" 
+    target="_blank" rel="noopener noreferrer">
     2.09 jQuery Effects-Library.pdf</a></li>
 </ul>
 
@@ -3899,13 +3938,14 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li><a href="#">2.10 jQuery-Tabs-START.zip</a></li>
+  <li><a href="./zip/2.10-jQuery-Tabs-START.zip">2.10 jQuery-Tabs-START.zip</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
 
 <ul>
-  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/">
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
 </ul>
 
@@ -4568,8 +4608,9 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li><a href="">2.15 JS-Tabs-START.zip</a></li>
-  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/">
+  <li><a href="a href="./zip/2.15-JS-Tabs-START.zip">2.15 JS-Tabs-START.zip</a></li>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
 </ul>
 
@@ -5428,13 +5469,14 @@ include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
 <ul>
-  <li id="ch3-01-zip"><a href="#">3.01 Slider-V1-START.zip</a></li>
+  <li id="ch3-01-zip"><a href="./zip/3.01-Slider-V1-START.zip">3.01 Slider-V1-START.zip</a></li>
 </ul>
   
 <h3>Additional Resource:</h3>
 
 <ul>
-  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/">
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
 </ul>
 
@@ -6659,7 +6701,8 @@ and think about these different types of situations that come up.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation ">
+  <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
+    target="_blank" rel="noopener noreferrer">
     3.12 jQuery-Image-Slider-V2.pdf</a></li>
 </ul>
 
@@ -6860,7 +6903,7 @@ animation for our slider.
 <h3>Start Files: JavaScript Image Sliders</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders">
+  <li><a href="./zip/3.13-JS-Slider-V3-START.zip">
     3.13 JS-Slider-V3-START.zip</a></li>
 </ul>
 
