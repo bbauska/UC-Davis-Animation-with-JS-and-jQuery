@@ -93,7 +93,7 @@ page.</p>
 </ol>
 
 <ul>
-  <li><a href="./zip/1.01-Intro-to-jQuery.pdf"
+  <li><a href="./pdf/1.01-Intro-to-jQuery.pdf"
     target="_blank" rel="noopener noreferrer">
 	1.01 Intro-to-jQuery.pdf</a></li>
   <li><a href="./zip/1.01-jQuery-START.zip"
@@ -414,22 +414,24 @@ interface element on any web page.</p>
 >#### [<b>1.00 Welcome to JS Animation!</b>](#ch1-00-welcome)
 >#### [<b>1.00 Learning Objectives!</b>](#ch1-00-obj)
 >#### [<b>1.01 Module 1 Introduction to jQuery</b>](#ch1-01)
+
+<ul>
+  <li><a href="./zip/1.01-jQuery-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	1.01 jQuery-START.zip (download)</li>
+</ul>
+
 >#### [<b>1.02 jQuery Libraries</b>](#ch1-02)
 >#### [<b>1.03 Plugging into jQuery Libraries</b>](#ch1-03)
 >#### [<b>1.04 Basic jQuery Syntax</b>](#ch1-04)
 >#### [<b>1.05 Using jQuery to Access Elements</b>](#ch1-05)
 >#### [<b>1.06 jQuery Events</b>](#ch1-06)
-
-<ul>
-  <li><a href="">
-	1.06 Slideshow of jQuery Events.pdf (download)</a></li>
-</ul>
-
 >#### [<b>1.07 Intro to JavaScript Folding Sidebar Menus Using JS</b>](#ch1-07)
 
 <ul>
-  <li><a href="">
-	1.07 START Files: JS Folding SideBar Menus (download)</a></li>
+  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">">
+	1.07 JS-Folding-SideBar-Menus-START.zip (download)</a></li>
 </ul>
 
 >#### [<b>1.08 Challenge 1 Solution</b>](#ch1-08)
@@ -442,30 +444,35 @@ interface element on any web page.</p>
 >#### [<b>1.15 Challenge 8 Solution</b>](#ch1-15)
 
 <ul>
-  <li><a href="">
-	1.15 PDF of Presentation (download)</a></li>
+  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.15 Folding-Sidebar-Menus-with-JS.pdf</li>
 </ul>
 
 >#### [<b>1.16 Intro to jQuery Folding SideBar Menu Navigation</b>](#ch1-16)
 
 <ul>
-  <li><a href="">
-	1.16 START Files: jQuery Folding SideBar Menus (download)</a></li>
+  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.16 jQuery-Folding-Menus-START.zip</a></li>
 </ul>
+
 
 >#### [<b>1.17 Getting the Next UL</b>](#ch1-17)
 >#### [<b>1.18 The Whole Script</b>](#ch1-18)
 
 <ul>
-  <li><a href="">
-	1.18 PDF of Presentation (download)</a></li>
+  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.18 Folding-Sidebar-Menus-with-jQuery.pdf</a></li>
 </ul>
-
+	
 >#### [<b>1.19 JavaScript and jQuery Challenge Activities</b>](#ch1-19)
 
 <ul>
-  <li><a href="">
-	1.19 JS and jQuery Challenge Activities (download)</a></li>
+  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.19 JS-jQuery-Challenges.pdf</a></li>
 </ul>
 
 <h2 id="ch1-00-note">A Note From UC Davis</h2>
