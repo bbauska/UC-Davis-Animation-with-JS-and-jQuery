@@ -7565,7 +7565,7 @@ because you can do a lot of really interesting things with them. Occasionally,
 you do want something to run after a certain amount of time has happened or on 
 some interval. This is where we can really get into how to do that with JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (244) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image408.png"
   style="width:50%"
@@ -7579,7 +7579,7 @@ the script here, it&apos;s a very short script. I&apos;m going to close my
 explorer here just so you can just see this line without it rapping. But
 best thing to do is to actually see the script run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. script in example1.html (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. script in example1.html (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image409.png"
   style="width:50%"
@@ -7591,7 +7591,7 @@ I&apos;m going to come over here and just open the example 1 script here and
 you&apos;ll notice that after a certain amount of time, the script starts
 adding paragraphs to this web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 410/411. test, example inspect adding paragraph (246) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 410/411. test, example inspect adding paragraph (245) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image410.png"
   style="width:40%"
@@ -7608,7 +7608,7 @@ see that this div, it&apos;s adding another paragraph, every 1.5 seconds it
 adds another paragraph. If I want to stop the script, I can click the
 link, &quot;Stop the script,&quot; and it will stop adding paragraphs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 412. example script #1 - the full script (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 412. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image412.png"
   style="width:50%"
@@ -7620,7 +7620,7 @@ link, &quot;Stop the script,&quot; and it will stop adding paragraphs.
 Let&apos;s deconstruct how this works just a little bit here. That&apos;s the
 full script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 413.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 413.  (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image413.png"
   style="width:50%"
@@ -7641,12 +7641,12 @@ this function <b>wakeUp</b> after eight hours or <b>setInterval</b>
 like that. Now, you can&apos;t pass in eight hours and four hours, you pass
 in a number that represents milliseconds but it&apos;s that basic idea.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 414.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 414. example #1, using the setinterval function (247) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image414.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example #1, Using the setInterval Function"
+  alt="Example #1, Using the setInterval Function." />
 </p>
 
 Let&apos;s take a look at our script here. We have a <b>timer</b> that is a
@@ -7669,7 +7669,7 @@ adding the content onto the page is that timer loads, and
 <b>setInterval</b> immediately starts running and starts doing its thing
 and adding this content in the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 415.  (248) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image415.png"
   style="width:50%"
@@ -7696,7 +7696,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Example Script #1 -- Part 2 (4:13)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 416. example script #1 - part 2 (4.02) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 416. example script #1 - part 2 (4.02) (249) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image416.png"
   style="width:40%"
@@ -7707,7 +7707,7 @@ lesson.
 We&apos;re looking at the first example in our <b>timers</b> and recursion examples
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 417.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 417.  (249) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image417.png"
   style="width:50%"
@@ -7726,7 +7726,7 @@ function, and the function runs this method, <b>clearInterval</b> and I&apos;m
 passing in <b>timer</b>. Timer holds the <b>setInterval</b> thing here.
 That&apos;s what allows me to stop the script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 418.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 418.  (250) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image418.png"
   style="width:50%"
@@ -7740,7 +7740,7 @@ content into that div. When I click stop the script, then that
 it and then stops that script. It clears the interval timer. Now, we
 don&apos;t need to use the function expression here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 419.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 419.  (250) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image419.png"
   style="width:50%"
@@ -7751,7 +7751,7 @@ don&apos;t need to use the function expression here.
 If I were to remove this, the page would still work and that it would
 still run set interval and start adding <b>div</b> to the content.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 420.  (251) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image420.png"
   style="width:50%"
@@ -7763,7 +7763,7 @@ If I come back here and refresh, you&apos;ll see it will continue to work in
 terms of adding that in there but the <b>stop</b> script function won&apos;t
 work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 421.  (251) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image421.png"
   style="width:50%"
@@ -7778,7 +7778,7 @@ then you need something to get it started. In order to clear the
 interval, I need to assign my <b>setInterval</b> to timer, is really that
 bottom line here in order to make that work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 422.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 422.  (252) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image422.png"
   style="width:50%"
@@ -7814,7 +7814,7 @@ at the next example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 423. example script #2 (4.03) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 423. example script #2 (4.03) (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image423.png"
   style="width:40%"
@@ -7825,7 +7825,7 @@ at the next example.
 Let&apos;s take a look at example 2. In this example, the script is going to
 run exactly one time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 424.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 424.  (253) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image424.png"
   style="width:50%"
@@ -7836,7 +7836,7 @@ run exactly one time.
 Let&apos;s just see what it does. I&apos;m going to come over here and I change
 this to example2.html.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 425/426.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 425/426.  (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image425.png"
   style="width:40%"
@@ -7850,7 +7850,7 @@ When I refresh the page, we have a square in the page. After a certain
 amount of time, it resizes the square and changes its background color
 red to blue.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 427/428.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 427/428.  (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image427.png"
   style="width:40%"
@@ -7885,7 +7885,7 @@ associated with that class. It could have an animation in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 429. example script #3: recursion (4.04) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 429. example script #3: recursion (4.04) (255) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image429.png"
   style="width:40%"
@@ -7895,7 +7895,7 @@ associated with that class. It could have an animation in there.
 
 Next, let&apos;s take a look at example three, which uses recursion.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 430.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 430.  (255) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image430.png"
   style="width:50%"
@@ -7907,7 +7907,7 @@ As I said before, set timeout runs only one time. But when you use it in
 a recursive fashion, you can get it to repeat and this can be very
 powerful technique in JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image431.png"
   style="width:40%"
@@ -7922,7 +7922,7 @@ see what happens when we run it. You&apos;ll notice it waits a certain
 amount of time and then it starts this pulsating <b>div</b> that&apos;s set to
 a circle, the different <b>background</b> color here, red to purple.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png"
   style="width:40%"
@@ -7932,7 +7932,7 @@ a circle, the different <b>background</b> color here, red to purple.
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 435.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 435.  (257) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image435.png"
   style="width:50%"
@@ -7944,7 +7944,7 @@ Let&apos;s take a look at the JavaScript that makes this work. If I come
 back here, I open <b>example3.html</b>. You can see again I have a <b>div</b>
 (<b>id="thediv"</b>) with the <b>class</b> of "<b>one</b>" on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (257) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:40%"
@@ -7968,7 +7968,7 @@ But notice that this function is running <b>classRotator</b>. Recursive
 function is a function that calls itself and this is an example of a
 function that calls itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 438.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 438.  (258) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image438.png"
   style="width:50%"
@@ -7984,7 +7984,7 @@ Now, recursion is a very powerful thing and it&apos;s easy with recursion to
 get confused or to do something that will cause your script to run out
 of memory and to run crazy and wild.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 439.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 439.  (258) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image439.png"
   style="width:50%"
@@ -8028,7 +8028,7 @@ and you can do more stuff with that if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 440. converting a slider (4.05) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 440. converting a slider (4.05) (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image440.png"
   style="width:40%"
@@ -8038,14 +8038,16 @@ and you can do more stuff with that if you wanted to.
 
 Sliders on a timer. Putting slides on a timer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 441/442.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 441/442. slider on a timer, converting a slider (260) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image441.png"
   style="width:40%"
-  alt="." />
+  title="Slider on a Timer"
+  alt="Slider on a Timer." />
 <img src="./images/image442.png"
   style="width:40%"
-  alt="." />
+  title="Converting a Slider"
+  alt="Converting a Slider." />
 </p>
 
 In this lesson, we&apos;ll convert one of the slide shows that we did in the
@@ -8055,7 +8057,7 @@ could pick any of the three that we did in the previous lesson, or if
 you figured out how to take the JavaScript only one and make it run on a
 never ending loop. You could use that one, you could use any of them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 443.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 443.  (260) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image443.png"
   style="width:50%"
@@ -8079,7 +8081,7 @@ it starts again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 444. putting slides on a timer solution -- part 1 (4.06 (2xx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 444. putting slides on a timer solution -- part 1 (4.06) (261) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image444.png"
   style="width:40%"
@@ -8091,18 +8093,19 @@ Hopefully you are successful at creating your slider on a timer and were
 able to do that on your own. But if you weren&apos;t or if you want to see
 how I did it, I&apos;ll show you how I did it here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 445.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 445. example, remove unneeded bits (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image445.png"
   style="width:50%"
-  alt="." />
+  title="Example, Remove Unneeded Bits"
+  alt="Example, Remove Unneeded Bits." />
 </p>
 
 To start with, I&apos;m going to go into my files and I&apos;m going to remove
 this paragraph at the bottom as the previous and next buttons because we
 don&apos;t really need those anymore.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image446.png"
   style="width:40%"
@@ -8115,7 +8118,7 @@ don&apos;t really need those anymore.
 I&apos;m just going to come in here to my files here and go down and remove
 that there (line 30 in the index.html).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 448.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 448.  (262) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image448.png"
   style="width:50%"
@@ -8127,7 +8130,7 @@ styles that have to do the links because I&apos;m not going to use them
 anymore. I just think it&apos;s a good idea to remove unnecessary code if
 you&apos;re not using it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 449.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 449.  (263) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image449.png"
   style="width:50%"
@@ -8137,11 +8140,12 @@ you&apos;re not using it.
 Now our slides will not have buttons attached to them, it&apos;s just going
 to be an empty slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 450.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 450. example, remove click handlers (263) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image450.png"
   style="width:50%"
-  alt="." />
+  title="Example, Remove Click Handlers"
+  alt="Example, Remove Click Handlers." />
 </p>
 
 The next thing we need to do is remove the click handlers. For the next
@@ -8149,7 +8153,7 @@ click handler, I&apos;m going to remove the first line here and the last
 line of the click handler, and leave the guts. For the previous click
 handler, we can remove it entirely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image451.png"
   style="width:40%"
@@ -8159,7 +8163,7 @@ handler, we can remove it entirely.
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 453.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 453.  (264) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image453.png"
   style="width:50%"
@@ -8173,7 +8177,7 @@ one at all so I can just get rid of all of this down to here. This is
 closing our window on event handler for when the page loads, so we want
 to keep that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 454.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 454.  (265) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image454.png"
   style="width:50%"
@@ -8183,11 +8187,12 @@ to keep that.
 Now I&apos;m left with just the guts of my next link tenure, I&apos;ve got just
 the guts of that there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 455.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 455. example, add the setinterval function (265) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image455.png"
   style="width:50%"
-  alt="." />
+  title="Example, Add the Setinterval Function"
+  alt="Example, Add the Setinterval Function." />
 </p>
 
 The next thing I need to do here is create my function that will create
@@ -8195,7 +8200,7 @@ The next thing I need to do here is create my function that will create
 could also use <b>setTimeout</b> with recursion if you wanted to, but I&apos;m
 going to use <b>setInterval</b> here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 456/457.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 456/457.  (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image456.png"
   style="width:40%"
@@ -8219,7 +8224,7 @@ slides forward every three seconds.
 When it gets to the end of this slide deck, it&apos;ll wrap around to the
 beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 458.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 458.  (266) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image458.png"
   style="width:50%"
@@ -8230,7 +8235,7 @@ Let&apos;s test it. Have to wait three seconds for the first one to go and
 there it goes. Here we are in the last slide and a shared wraparound to
 the first slide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 459.  (267) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image459.png"
   style="width:50%"
@@ -8250,7 +8255,7 @@ challenge.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 460. putting slides on a timer solution - part 2 (4.07) (2xx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 460. putting slides on a timer solution - part 2 (4.07) (267) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image460.png"
   style="width:40%"
@@ -8260,14 +8265,14 @@ challenge.
 
 Did you successfully complete the challenge?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 461.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 461.  (268) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image461.png"
   style="width:65%"
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463.  (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image462.png"
   style="width:40%"
@@ -8277,7 +8282,7 @@ Did you successfully complete the challenge?
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 464.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 464.  (269) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image464.png"
   style="width:50%"
@@ -8287,7 +8292,7 @@ Did you successfully complete the challenge?
 Remember again, the challenge was to make it so that when the mouse
 hovers over the slider, the slider stops.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 465/466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 465/466.  (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image465.png"
   style="width:40%"
@@ -8372,7 +8377,7 @@ you can come up with other ideas and other things that you could do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-08">4.08 Project Set-up (6:51)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 467. project set-up (4.08) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 467. project set-up (4.08) (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image467.png"
   style="width:40%"
@@ -8384,14 +8389,16 @@ In this project we&apos;ll look at creating a content rotator and we&apos;ll use
 <b>jQuery</b>, and we&apos;ll use <b>timers</b> and recursion. This is a fun project,
 I hope you enjoy it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 468/469. examples, the finished project (271) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image468.png"
   style="width:40%"
-  alt="." />
+  title="Examples, The Finished Project, 1"
+  alt="Examples, The Finished Project, 1." />
 <img src="./images/image469.png"
   style="width:40%"
-  alt="." />
+  title="Examples, The Finished Project, 2"
+  alt="Examples, The Finished Project, 2." />
 </p>
 
 The finished version of the project will give you a quote that rotates
@@ -8404,11 +8411,12 @@ make something that rotated testimonials and this is way back in the
 early 2010s. So a lot of these scripts hadn&apos;t been written were easily
 accessible at that point, so I had to write one myself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 470.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 470. example, project setup (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470.png"
   style="width:50%"
-  alt="." />
+  title="Example, Project Setup"
+  alt="Example, Project Setup." />
 </p>
 
 Let&apos;s take a look at how this is set up so we can actually work with
@@ -8428,11 +8436,12 @@ features we&apos;ve talked about in this course. I hope you have fun with it
 and end up with a script that you could use for something, it&apos;s pretty
 fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 471. example, script diagram (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image471.png"
   style="width:50%"
-  alt="." />
+  title="Example, Script Diagram"
+  alt="Example, Script Diagram." />
 </p>
 
 I have this diagram that can help us simplify it and think about exactly
@@ -8450,11 +8459,12 @@ and then increment the counter. And then we run this function again, we
 run content rotator again and that&apos;s where the recursion comes in. This
 function is going to call itself and we&apos;ll be using a set time out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 472.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 472. example, starting the script (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image472.png"
   style="width:50%"
-  alt="." />
+  title="Example, Starting the Script"
+  alt="Example, Starting the Script." />
 </p>
 
 We&apos;re going to fade the paragraph in and then we&apos;re going to wait
@@ -8462,7 +8472,7 @@ seven seconds, so there&apos;s a set time out where we wait for seven
 seconds and then we&apos;re going to fade the paragraph out. That&apos;s where
 the set time out will go, is when we&apos;re waiting seven seconds.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 475.  (274) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473.png"
   style="width:50%"
@@ -8477,7 +8487,7 @@ display none. Now, when you look at this it might look a little bit
 weird because of these things here, but this is just an html entity
 that&apos;s creating a curly quote.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 474.  (275) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image474.png"
   style="width:50%"
@@ -8503,7 +8513,7 @@ six characters in one key. And other languages may have other characters
 associated with that as well but for English it&apos;s actually six
 characters.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 475.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 475.  (276) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image475.png"
   style="width:50%"
@@ -8514,7 +8524,7 @@ Okay, so we&apos;ve got that all set up, we have our <b>jQuery</b> library
 loaded down here and we have a script a rotator.js and that&apos;s where
 we&apos;re going to do our work over here is on the rotator.js.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 476.  (276) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image476.png"
   style="width:50%"
@@ -8529,7 +8539,7 @@ working on our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 477. starting the script (4.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 477. starting the script (4.09) (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image477.png"
   style="width:40%"
@@ -8539,7 +8549,7 @@ working on our script.
 
 Here we go to write our script and get our content rotator to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 478.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 478.  (277) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image478.png"
   style="width:65%"
@@ -8554,11 +8564,12 @@ work. This will get us started with our function and our let counter
 variable ,and we&apos;ll get our file all set up, and ready to go properly
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 479. example, fade in a paragraph (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image479.png"
   style="width:50%"
-  alt="." />
+  title="Example, Fade in a Paragraph"
+  alt="Example, Fade in a Paragraph." />
 </p>
 
 Our next job is to get our first paragraph and faded it in. We&apos;ll use
@@ -8566,7 +8577,7 @@ our </b>counter</b> to do that. And the CSS and child filter to allow us to
 get the first paragraph because remember currently all the paragraphs
 are set to display none.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 480.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 480.  (278) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image480.png"
   style="width:50%"
@@ -8592,11 +8603,12 @@ So that gets that first paragraph and fades in 2,000 because remember
 this is <b>jQuery</b> effects library here. So we can actually feed in that
 first paragraph there. So that&apos;s working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 481. example, add a callback function (279) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image481.png"
   style="width:50%"
-  alt="." />
+  title="Example, Add a Callback Function"
+  alt="Example, Add a Callback Function." />
 </p>
 
 Now that I have faded the paragraph in. I need to wait seven seconds and
@@ -8613,7 +8625,7 @@ else we do is going to go inside this <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 482. the if/else statement -- part 1 (4.10 (2xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 482. the if/else statement -- part 1 (4.10 (280) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image482.png"
   style="width:40%"
@@ -8624,11 +8636,12 @@ else we do is going to go inside this <b>callback</b> function.
 Now that we&apos;ve faded in the first paragraph, and after that two second
 fadeIn has taken place, we&apos;re going to run a <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 483. example, add the if/else statement (280) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image483.png"
   style="width:50%"
-  alt="." />
+  title="Example, Add the if/else Statement"
+  alt="Example, Add the if/else Statement." />
 </p>
 
 Inside that <b>callback</b> function, we&apos;re going to check to see if this
@@ -8637,7 +8650,7 @@ then we&apos;ll go forward from there. If <b>fadeIn</b> that, now we&apos;re goi
 to do an if, if parentheses, and we&apos;ll do something in there, and then
 we&apos;ve got an else, we will do something in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 484.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 484.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image484.png"
   style="width:50%"
@@ -8648,7 +8661,7 @@ Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
 <b>'this'</b> keyword, "this" paragraph. Is a <b>jQuery</b> function that will
 return true or false, if something in there is true.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 485.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image485.png"
   style="width:50%"
@@ -8660,7 +8673,7 @@ put <b>&quot;#container p: last-child();&quot;</b> If it&apos;s the last child, 
 going to do something, and then if it&apos;s not, we&apos;re going to do
 something else.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 486.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 486.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image486.png"
   style="width:50%"
@@ -8677,7 +8690,7 @@ increment the counter and run <b>contentRotator</b> again. The only real
 difference between these two is what happens with the <b>counter</b>. Also,
 you&apos;ll see here where the recursion is taking place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 487.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image487.png"
   style="width:50%"
@@ -8688,7 +8701,7 @@ Let&apos;s work with the <b>else</b> statement first, because I think that
 one&apos;s a little bit easier. Let&apos;s have the <b>setTimeout</b> function in
 there, and then we&apos;ll go forward with that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 488.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 488.  (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image488.png"
   style="width:50%"
@@ -8699,7 +8712,7 @@ Down here, we&apos;re going to say, <b>setTimeout</b>, and that&apos;s going to 
 a function after seven seconds, we&apos;re going to take this same thing
 here, and just copy that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 489.  (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image489.png"
   style="width:50%"
@@ -8713,7 +8726,7 @@ to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait se
 seconds, then <b>fadeOut</b>, over two seconds. When it&apos;s done fading out,
 we need another <b>callback</b> function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 490.  (284) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image490.png"
   style="width:50%"
@@ -8739,7 +8752,7 @@ it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 491. the else/if statement -- part 2 (4.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 491. the else/if statement -- part 2 (4.11) (285) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image491.png"
   style="width:40%"
@@ -8751,11 +8764,12 @@ In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
 that&apos;s done, increment the counter and run content rotator again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 492. is it the last paragraph? (285) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image492.png"
   style="width:50%"
-  alt="." />
+  title="Is this the last quoted paragraph?"
+  alt="Is this the last quoted paragraph?" />
 </p>
 
 Now we have to handle the case of what happens if we&apos;re on the last
@@ -8781,11 +8795,12 @@ here the one thing that&apos;s different from what I did below is the
 paragraph. Then I&apos;ll run <b>contentRotator</b> another time, but now with
 the paragraph counter set to one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 493.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 493. summary, content rotator (286) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image493.png"
   style="width:40%"
-  alt="." />
+  title="Summary, Content Rotator"
+  alt="Summary, Content Rotator." />
 </p>
 
 In summary, hopefully through this project, you saw that you can use
@@ -8800,11 +8815,12 @@ script? The script is fading content in and out and we&apos;re right now
 we&apos;re fading in and out paragraphs on our HTML here, but it really
 could be anything, and I could add paragraphs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 494. rotator.html - quoted paragraphs (287) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image494.png"
   style="width:50%"
-  alt="." />
+  title="Quoted paragraphs in rotator.html"
+  alt="Quoted paragraphs in rotator.html." />
 </p>
 
 That&apos;s another thing is that this will handle an unlimited number of
@@ -8814,14 +8830,15 @@ paragraphs, whatever it was, pictures or block quotes or other types of
 content that got rotated in and out. You could rotate anything and
 you&apos;ll see how you would need to modify the script to make that work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 495.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 495. rotator.js - lines 1-21 (287) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image495.png"
   style="width:50%"
-  alt="." />
+  title="Lines 1-21 of rotator.js"
+  alt="Lines 1-21 of rotator.js." />
 </p>
 
-Other things that are exciting about recursion in general. Or yeah, the
+Other things that are exciting about recursion in general. The
 way recursion works is that you could make a recursive function that
 takes parameters and you could run that recursive function passing in
 different parameters each time it runs. That makes recursion very
