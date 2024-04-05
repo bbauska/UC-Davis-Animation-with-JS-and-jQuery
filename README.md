@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "4/1/2024 4+pm"
+date last editted: "4/5/2024 2+pm"
 output: 
   markdown:
     with some style
@@ -264,7 +264,7 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 <h4>17 lessons, 5 readings</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj"
+  <li><a href="https://www.coursera.org/lecture/animation-javascript-<b>jQuery</b>/module-introduction-pupTj"
     target="_blank" rel="noopener noreferrer">
     3.00 Learning Objectives; Intermediate Document Manipulation &amp; Animation</a></li>
 </ul>
@@ -338,7 +338,7 @@ only plain JavaScript syntax and using CSS to perform the animation.</p>
 
 <h2>Timers and Recursion in JavaScript & jQuery</h2>
 
-<p>In this module (4), you will be introduced to the use of timers and
+<p>In this module (4), you will be introduced to the use of <b>timers</b> and
 recursion in JavaScript and use these techniques to make interface
 elements that run on a timer. You practice using jQuery syntax and
 recursion to build a simple content rotator that could be used as an
@@ -572,7 +572,7 @@ page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction to jQuery (7:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. intro to jquery (1.01) (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. intro to <b>jQuery</b> (1.01) (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png"
   style="width:40%"
@@ -846,7 +846,7 @@ is the size of maybe a medium sized image on your web page (86
 kilobytes). It&apos;s not that big. This is significantly larger
 (un-minified version of 279 kilobytes).
 
-So now we&apos;ve got jQuery, let&apos;s get it plugged into our HTML file.
+So now we&apos;ve got <b>jQuery</b>, let&apos;s get it plugged into our HTML file.
 We&apos;ll plug it into our HTML file here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -860,7 +860,7 @@ We&apos;ll plug it into our HTML file here.
   alt="1.03 Plugging into jQuery Libraries." />
 </p>
 
-Plugging in the jQuery library, now we&apos;ve downloaded jQuery, all we
+Plugging in the <b>jQuery</b> library, now we&apos;ve downloaded jQuery, all we
 need to do is add it to our file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. example, plug in jquery library (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -871,7 +871,7 @@ need to do is add it to our file.
   alt="Plug in the jQuery Library." />
 </p>
 
-<p>I want to add jQuery to my file here. I can come down here and I can add a 
+<p>I want to add <b>jQuery</b> to my file here. I can come down here and I can add a 
 script tag script, and what I&apos;m going to put in here is 
 <b>src="js/jquery-3.7.1.min.js"</b> (last updated 8/28/2023). js is my subdirectory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -883,7 +883,7 @@ script tag script, and what I&apos;m going to put in here is
   alt="script src='jquery-3.7.1.min.js' in the body of index.html." />
 </p>
 
-<p>Now jQuery is plugged in.</p>
+<p>Now <b>jQuery</b> is plugged in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. test, pop up jquery loaded (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -894,8 +894,8 @@ script tag script, and what I&apos;m going to put in here is
 </p>
 
 <p>If I test this file over here, I come over here and open a new tab and do open and 
-go into my jQuery Start folder and open this index file, it&apos;ll pop up and 
-it&apos;ll say jQuery is loaded.</p>
+go into my <b>jQuery</b> Start folder and open this index file, it&apos;ll pop up and 
+it&apos;ll say <b>jQuery</b> is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 18. example jquery snippets, the google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -905,13 +905,13 @@ it&apos;ll say jQuery is loaded.</p>
   alt="Example jQuery snippets, The Google CDN." />
 </p>
 
-<p>Even easier is to use a CDN to load jQuery, and the CDN I prefer to use is
+<p>Even easier is to use a CDN to load <b>jQuery</b>, and the CDN I prefer to use is
 the Google CDN, and I have that pulled up over here, and if you want to
 get to the CDN, the easy way to get to it is just to Google. Google
-jQuery I type CDN there we go, and you&apos;ll see Hosted Libraries on
+<b>jQuery</b> I type CDN there we go, and you&apos;ll see Hosted Libraries on
 Google. That&apos;s this link right here, and over here they&apos;ve got a lot
 of libraries that you can access through Google that they host on their
-CDN, and one of them is jQuery.</p>
+CDN, and one of them is <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19. jquery libraries in google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -922,9 +922,9 @@ CDN, and one of them is jQuery.</p>
 </p>
 
 <p>We can go to this link <a href="https://developers.google.com/speed/libraries/#libraries" 
-target="_blank" rel="noopener noreferrer">here</a>, to jQuery, and you can see that 
-jQuery has three different versions, three flavors of jQuery that include 
-different features. The version 1X snippet is the oldest version of jQuery 
+target="_blank" rel="noopener noreferrer">here</a>, to <b>jQuery</b>, and you can see that 
+<b>jQuery</b> has three different versions, three flavors of <b>jQuery</b> that include 
+different features. The version 1X snippet is the oldest version of <b>jQuery</b> 
 and it&apos;s loading 1.12.4. This is really the 12th major version of version 
 one, essentially, and then we&apos;ve got version 2.2.4, which is the second 
 major version, and that version they did a number of things to remove support 
@@ -942,7 +942,7 @@ for IE6, and finally, version 3.7.1 which is the current version of jQuery.</p>
 to get the same one that we had before, you can just copy this entire script 
 line here. Oops, wrong button here. There we go. Just copy that line, and go
 back to our file here, and paste that line in instead, and you&apos;ll see
-if we save this and come back and do testing jQuery, jQuery is loaded. Instead 
+if we save this and come back and do testing <b>jQuery</b>, <b>jQuery</b> is loaded. Instead 
 of loading from the file that I have locally here, I can now delete this file, 
 and it will work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -954,19 +954,19 @@ and it will work just fine.</p>
 </p>
 
 <p>Now if I was gone, but this will work just fine because it&apos;s actually 
-loading jQuery from the internet. Of course, if the internet&apos;s down, 
+loading <b>jQuery</b> from the internet. Of course, if the internet&apos;s down, 
 it&apos;s not going to load it, but if the internet&apos;s down, and you going 
 to get to your webpage anyway.</p>
 
-<p>It&apos;s a little bit easier to use the CDN to load jQuery
+<p>It&apos;s a little bit easier to use the CDN to load <b>jQuery</b>
 because it&apos;s just one less file and I have to download, keep track of.
-Usually we will be using this method to load jQuery, and there are times
+Usually we will be using this method to load <b>jQuery</b>, and there are times
 when you might want the older versions generally will use the newest
 version, but you might want the older versions if you&apos;re using a
-function or method in jQuery that has been deprecated, or if you&apos;re
+function or method in <b>jQuery</b> that has been deprecated, or if you&apos;re
 using a plug-in that was built using an older version, and it needs some
 functionality from the older version in order to work. But generally
-we&apos;re going to use the newest version of jQuery, version 3.7.1 at the
+we&apos;re going to use the newest version of <b>jQuery</b>, version 3.7.1 at the
 time of this recording.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-04">1.04 Basic jQuery Syntax (5:31)</h2>
@@ -2632,10 +2632,10 @@ this.
 <h3>PDF of Presentation</h3>
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/1FyX45mJQPecl-OZiWD3NQ_f6301966c767425fb4b9d170964ccaf1_WEB1091_M01_Folding-Sidebar-Menus-with-jQuery.pdf?Expires=1710460800&Signature=b8h2hUL2FvxYYcJ9UpJEv1bt5b\~1WlGopeV7ITd-TIkqLI6MABKDDlNAiBXFwa0hkbcrblCIUoz-HrLSAiBTQgyQb8mXoQlpVAdAajKadKq1yyEwOXvZTajWZxTBUx7H9qIqWX6LAmJw8yFAmQmI2clS9Pis0TT9Z-Zif4XPv94\_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
+  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
     1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5561,7 +5561,7 @@ Then I&apos;m going to have a variable const <b>imageWidth</b>, and I&apos;m goi
 to use my <b>jQuery</b> object for that, and I&apos;m going to put in here
 <b>&quot;#slider, ul li :first img</b>&quot; dot width, and that should give me a
 number that tells me how wide might first image is. Let&apos;s see what that
-does, alert imageWidth. I&apos;m getting 400. It&apos;s telling me that it&apos;s
+does, alert <b>imageWidth</b>. I&apos;m getting 400. It&apos;s telling me that it&apos;s
 400 pixels wide.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 297. under div id slider, list item images (176) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5739,7 +5739,7 @@ will give us our total width plus we&apos;ll add a px to the end of that.
 
 Let&apos;s go ahead and add that to our script now. I&apos;m going to get rid of
 this alert and just to const totalWidth, and this is going to be equal
-to image width times image count. Doesn&apos;t matter which way around it
+to <b>imageWidth</b> times imageCount. Doesn&apos;t matter which way around it
 goes right, it&apos;s going to come up and same thing. Then we&apos;re going to
 add onto that a px at the end of there, that&apos;s going to put that in
 there.Then let&apos;s just alert out total width which is to see what we&apos;re
@@ -5858,7 +5858,7 @@ it plus plus. So <b>counter</b> has now gone from zero to 1 and we&apos;re
 going to set the position of the of that <b>slider</b> over to the left
 -400 pixels. So we&apos;ll set leftPosition. That variable there is going to
 be set equal to counter times image width and it should be a negative
-number, counter times imageWidth a negative so that&apos;s going to give me
+number, counter times <b>imageWidth</b> a negative so that&apos;s going to give me
 a -400 and then I also need plus <b>PX</b> and that will set that left
 position to what I need it to be.
 
@@ -6607,15 +6607,15 @@ going to do the thing that we did with the cloning up here so I can actually
 copy this. And paste it in here. But the position is going to be a little bit 
 different here. 
 
-This position, the last one is not going to be set to imageWidth, instead
+This position, the last one is not going to be set to <b>imageWidth</b>, instead
 it&apos;s going to be set to tick marks. I&apos;m going to put that
 in the tick marks, -&dollar;{totalWidth}. I want to set it to minus totalWidth, 
 left minus totalWidth. Then I&apos;m going to set the leftPosition to counter 
-times imageWidth plus "px".
+times <b>imageWidth</b> plus "px".
 
 So let&apos;s put that in next. I&apos;m going to put that in here. But instead 
-of minus totalWidth, it&apos;s going to be minus counter times imageWidth, 
-that&apos;s what it is counter times not totalWidth but imageWidth. Plus “px” on 
+of minus totalWidth, it&apos;s going to be minus counter times <b>imageWidth</b>, 
+that&apos;s what it is counter times not totalWidth but <b>imageWidth</b>. Plus “px” on 
 the end of that. Now  we just need to animate the two pieces and we&apos;ll do that in 
 the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6653,7 +6653,7 @@ our slider.  We have our last element, we&apos;re animating to the left position
 and left position is now minus 1600 pixels over 700 milliseconds using easeInQuad.
 
 Add this into our script. But instead of left 0, we&apos;re moving to 
-leftPosition. Which is that minus 1600 pixels, the counter which is four times imageWidth 
+leftPosition. Which is that minus 1600 pixels, the counter which is four times <b>imageWidth</b> 
 which is 400 that&apos;s 1600, with the minus sign in front of it and with the px
 that&apos;s going to move that into the correct place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6668,11 +6668,11 @@ That gets that one into the correct place. The other one, the first
 one, this one here, I&apos;m sorry this one here first can actually copy
 this whole thing because we are going to remove it, we can come down
 here and we can add that in here. But instead of moving it to
-<b>leftPosition</b>, it&apos;s going to be moved to imageWidth which is the width of 
+<b>leftPosition</b>, it&apos;s going to be moved to <b>imageWidth</b> which is the width of 
 that image.
 
-So we&apos;re going to need a px on there, imageWidth let&apos;s do our tick
-marks And then I can do &dollar;{ imageWidth} px like so. I believe is that
+So we&apos;re going to need a px on there, <b>imageWidth</b> let&apos;s do our tick
+marks And then I can do &dollar;{ <b>imageWidth</b>} px like so. I believe is that
 what I had over here. I have plus px I&apos;m adding it on there, you can do
 it either way with the template literally you could add the px In there
 like that.
@@ -6858,7 +6858,7 @@ I&apos;ll tell you about where those come from in a minute.
 
 But we can see this in our CSS over here, right here. Using this
 transition we&apos;re going to transition the left property over 700
-milliseconds. That&apos;s the same as what we had in the **jQuery** version.
+milliseconds. That&apos;s the same as what we had in the <b>jQuery</b> version.
 But this cubic-bezier, where is that coming from?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 369. cubic-bezier, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -7400,13 +7400,12 @@ In the previous lesson, we completed the event handler for the next button.
   alt="Previous button, event handler." />
 </p>
 
-Your challenge was to write the event handler for the previous button. 
+<p>Your challenge was to write the event handler for the previous button. 
 Hopefully, you gave it a try and were able to do it. If not, let&apos;s do it 
 together here. But it&apos;s good to at least try, even if you tried and got 
 stuck and couldn&apos;t quite get it to work, then that&apos;s fine. We want 
 to make sure we try these things because that&apos;s the way you learn JavaScript, 
-and then now we&apos;ll try to do it together. 
-
+and then now we&apos;ll try to do it together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 402. on click, prevent default, decrement counter (241) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7416,10 +7415,10 @@ and then now we&apos;ll try to do it together.
   alt="On click, prevent default, decrement counter." />
 </p>
 
-The first thing I&apos;m going to do is just copy this entire event listener 
+<p>The first thing I&apos;m going to do is copy this entire event listener 
 and paste it. A lot of it&apos;s the same. I&apos;m going to say next, instead 
 of next, it&apos;s going to be previous to go with my previous variable here, 
-which is getting my prev element from my HTML. 
+which is getting my prev element from my HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. index.html, id is prev (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7429,23 +7428,21 @@ which is getting my prev element from my HTML.
   alt="index.html, id is prev." />
 </p>
 
-Over here in the HTML, you can see that I set the previous button to id prev. 
+<p>Over here in the HTML, you can see that I set the previous button to id prev. 
 I&apos;m getting previous, click evt.PreventDefault. Instead of incrementing 
 the counter, we&apos;re going to decrement it minus minus.
-Now I need to think about this. If the counter is equal to, is less than 0, 
-probably. What do I want to set it to? So if the counter is less than 0, I want 
+Now I need to think about this. If the counter is less than 0, I want 
 to set the counter to slideCount minus one. Remember, slideCount will give me a 
 full number of slides. In this case, there&apos;s five, so that&apos;s going to 
 be five. But I want my counter to be a zero, a one, a two, a three, or a four, 
-those five numbers. So if counter is set to that. 
+those five numbers.</p>
 
-Then the left position is going to be the same, this is going to be the same, 
-this is going to be the same. It should be all I need to do to make this work. 
-Let&apos;s see if it works. I&apos;m going to save that and come back to my 
-slider and refresh. The next button should still work. Previous button works. 
-If I click Previous again, it goes to the end of the slides, and then it will 
-backup through my slides. When I get to the first slide, if I click "Previous", 
-it goes to the end, click Next and it goes to the beginning.
+<p>Then the left position is going to be the same. It should be all I need to do to 
+make this work. Let&apos;s see if it works. I&apos;m going to save that and come 
+back to my slider and refresh. The next button should still work. Previous button 
+works. If I click Previous again, it goes to the end of the slides, and then it 
+will backup through my slides. When I get to the first slide, if I click "Previous", 
+it goes to the end, click Next and it goes to the beginning.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. that's it! (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7456,17 +7453,17 @@ it goes to the end, click Next and it goes to the beginning.
   alt="That's It!" />
 </p>
 
-You&apos;ve completed this project. Here on this slide, you can see the full 
+<p>You&apos;ve completed this project. Here on this slide, you can see the full 
 script with everything in it that we needed. You can see I left the else 
 statements in here, I don&apos;t really need this, this is actually the longer 
 version of it. We&apos;ve got a full version of that script and you could use 
-this on your websites and compare this to what we did with the jQuery versions.
+this on your websites and compare this to what we did with the jQuery versions.</p>
  
-Now if you want a challenge, try to make the version of the JavaScript slider 
+<p>Now if you want a challenge, try to make the version of the JavaScript slider 
 work where the slides don&apos;t go all the way back to the beginning or go all 
 the way back to the end when you get to the end, make it so that it wraps 
 around to the second version of the jQuery script but just with JavaScript. 
-Hopefully, that will work.
+Hopefully, that will work.</p>
 
 <h3>PDF of Presentation</h3>
 
@@ -7475,21 +7472,21 @@ Hopefully, that will work.
     3.17 JavaScript-Image-Slider.pdf</a></li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4">Module 4: Timers and Recursion in JavaScript & jQuery</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-00-obj">4.00 Learning Objectives</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Use JavaScript methods to keep a script from executing for a
     specific period of time, or to run at a certain interval of time.</li>
-  <li>Use callback methods when timers end, or on an interval.</li>
+  <li>Use callback methods when <b>timers</b> end, or on an interval.</li>
   <li>Explore recursion.</li>
   <li>Use <b>jQuery</b> syntax to create an interface element that could be
     used on any website.</li>
-  <li>Practice using timers, recursion and callback methods.</li>
+  <li>Practice using <b>timers</b>, recursion and callback methods.</li>
   <li>Make use of best practices when including scripts on websites.</li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 405. module 4 introduction (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7498,22 +7495,25 @@ Hopefully, that will work.
   title="Module 4 Introduction"
   alt="Module 4 Introduction." />
 </p>
-Hello, you&apos;ve made it to the 4th module in our second course on
+
+<p>Hello, you&apos;ve made it to the 4th module in our second course on
 JavaScript and <b>jQuery</b>. Congratulations, you&apos;ve learned a lot of
 JavaScript and a lot of useful <b>jQuery</b> for all of your interactive
 projects. I think it&apos;s a lot of fun and I hope you&apos;ve enjoyed the ride
-so far. In this module, we&apos;re going to get into timers and recursion.
+so far.</p>
+
+<p>In this module, we&apos;re going to get into <b>timers</b> and recursion.
 These are very useful tools that will open up a whole world of
 possibilities for JavaScript and <b>jQuery</b>, and for your interactive
 projects. Breakout your code editor in your web browser, and let&apos;s get
-started on learning about timers and recursion in JavaScript and
-<b>jQuery</b>.
+started on learning about <b>timers</b> and recursion in JavaScript and
+<b>jQuery</b>.</p>
 
 <h3>Start Files: JavaScript Timers Examples</h3>
 
 <ul>
-  <li><a href="./zip/4.00-JS-Timers-Examples.zip">
-    4.00 JS-Timers-Examples.zip</a></li>
+  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip">
+    4.00 JS-Timers-Examples-START.zip</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7527,7 +7527,7 @@ started on learning about timers and recursion in JavaScript and
   alt="4.01 Example Script #1 -- Part 1." />
 </p>
 
-<p>JavaScript timers and recursion.</p>
+<p>JavaScript <b>timers</b> and recursion.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 407. javascript timers & recursion (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7538,13 +7538,11 @@ started on learning about timers and recursion in JavaScript and
   alt="JavaScript Timers &amp; Recursion." />
 </p>
 
-I have a few scripts that we can look at that will explain how timers and 
+I have a few scripts that we can look at that will explain how <b>timers</b> and 
 recursion can work in JavaScript and these are really fun methods to play with 
 because you can do a lot of really interesting things with them. Occasionally, 
 you do want something to run after a certain amount of time has happened or on 
 some interval. This is where we can really get into how to do that with JavaScript.
-<!-- left off last time -->
-<!-- this should be the last modification necessary for readme.md -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7560,26 +7558,28 @@ the script here, it&apos;s a very short script. I&apos;m going to close my
 explorer here just so you can just see this line without it rapping. But
 best thing to do is to actually see the script run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 409.  (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. script in example1.html (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image409.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Script inside example1.html - adding paragraphs"
+  alt="Script inside example1.html - adding paragraphs." />
 </p>
 
 I&apos;m going to come over here and just open the example 1 script here and
 you&apos;ll notice that after a certain amount of time, the script starts
 adding paragraphs to this web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 410/411.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 410/411. test, example inspect adding paragraph (246) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image410.png"
   style="width:40%"
-  alt="." />
+  title="Test Adding another paragraph"
+  alt="Test Adding another paragraph." />
 <img src="./images/image411.png"
   style="width:40%"
-  alt="." />
+  title="Example test inspect adding another paragraph"
+  alt="Example test inspect adding another paragraph." />
 </p>
 
 If I view the inspector and look at the body here and my div, you can
@@ -7587,12 +7587,13 @@ see that this div, it&apos;s adding another paragraph, every 1.5 seconds it
 adds another paragraph. If I want to stop the script, I can click the
 link, &quot;Stop the script,&quot; and it will stop adding paragraphs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 412.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 412. example script #1 - the full script (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image412.png"
   style="width:50%"
   title=""
-  alt="." />
+  title="Example Script #1 - The Full Script"
+  alt="Example Script #1 - The Full Script." />
 </p>
 
 Let&apos;s deconstruct how this works just a little bit here. That&apos;s the
@@ -7607,7 +7608,7 @@ full script.
 </p>
 
 Essentially, there are two functions in JavaScript that allow us to set
-timers. One is **setTimeout()** and the other one is **setInterval()**.
+<b>timers</b>. One is **setTimeout()** and the other one is **setInterval()**.
 Each of these functions takes a **callback** function and an amount of
 time. For **setTimeOut()** or for **setInterval()**, you will run a
 function and then you&apos;d put a comma and then the amount of time that
@@ -7682,7 +7683,7 @@ lesson.
   alt="4.02 Example Script #1 -- Part 2." />
 </p>
 
-We&apos;re looking at the first example in our timers and recursion examples
+We&apos;re looking at the first example in our <b>timers</b> and recursion examples
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 417.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7792,7 +7793,7 @@ at the next example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 423.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 423. example script #2 (4.03) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image423.png"
   style="width:40%"
@@ -7863,7 +7864,7 @@ associated with that class. It could have an animation in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 429.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 429. example script #3: recursion (4.04) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image429.png"
   style="width:40%"
@@ -8005,11 +8006,12 @@ and you can do more stuff with that if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 440. converting a slider (4.05) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image440.png"
   style="width:40%"
-  alt="." />
+  title="4.05 Converting a Slider"
+  alt="4.05 Converting a Slider." />
 </p>
 
 Sliders on a timer. Putting slides on a timer.
@@ -8055,11 +8057,12 @@ it starts again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 444.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 444. putting slides on a timer solution -- part 1 (4.06 (2xx) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image444.png"
   style="width:40%"
-  alt="." />
+  title="4.06 Putting Slides on a Timer Solution -- Part 1"
+  alt="4.06 Putting Slides on a Timer Solution -- Part 1." />
 </p>
 
 Hopefully you are successful at creating your slider on a timer and were
@@ -8225,11 +8228,12 @@ challenge.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 460.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 460. putting slides on a timer solution - part 2 (4.07) (2xx) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image460.png"
   style="width:40%"
-  alt="." />
+  title="4.07 Putting Slides on a Timer Solution -- Part 2"
+  alt="4.07 Putting Slides on a Timer Solution -- Part 2." />
 </p>
 
 Did you successfully complete the challenge?
@@ -8254,25 +8258,22 @@ Did you successfully complete the challenge?
 <!--~~~~~~~~~~~~~~~~~~~~~ 464.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image464.png"
-  style="width:40%"
+  style="width:50%"
   alt="." />
 </p>
 
 Remember again, the challenge was to make it so that when the mouse
 hovers over the slider, the slider stops.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 465/466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image462.png"
+<img src="./images/image465.png"
   style="width:40%"
   alt="." />
-<img src="./images/image463.png"
+<img src="./images/image466.png"
   style="width:40%"
   alt="." />
 </p>
-![](./4-5-24-images/media/image465.png){width="3.5in"
-height="1.9859503499562554in"}![](./4-5-24-images/media/image466.png){width="3.5in"
-height="1.9859503499562554in"}
 
 Let&apos;s see if we can actually make that work. What I&apos;m going to do here
 is currently I have set interval running this anonymous function and it
@@ -8337,35 +8338,35 @@ not using the buttons. But then when you do use the buttons, it moves it
 manually. That would be an interesting modification to the script. Maybe
 you can come up with other ideas and other things that you could do.
 
-### 4.07 Slider-on-a-Timer.pdf
+<ul>
+  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" target="_blank" rel="noopener noreferrer">4.07 Slider-on-a-Timer.pdf</a></li>
+  <li><a href="./zip/4.07-Rotator-START.zip" target="_blank" rel="noopener noreferrer">4.07 Rotator-START.zip</a></li>
+</ul>
 
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> 
-
-### 4.07 Rotator-START.zip
-
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> 
-
-# 4.08 Project Set-up (6:51)
-
-![](./4-5-24-images/media/image467.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-08">4.08 Project Set-up (6:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 467. project set-up (4.08) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image467.png"
+  style="width:40%"
+  title="4.08 Project Set-up"
+  alt="4.08 Project Set-up." />
+</p>
 
 In this project we&apos;ll look at creating a content rotator and we&apos;ll use
-**jQuery**, and we&apos;ll use timers and recursion. This is a fun project,
+<b>jQuery</b>, and we&apos;ll use <b>timers</b> and recursion. This is a fun project,
 I hope you enjoy it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image462.png"
+<img src="./images/image468.png"
   style="width:40%"
   alt="." />
-<img src="./images/image463.png"
+<img src="./images/image469.png"
   style="width:40%"
   alt="." />
 </p>
-![](./4-5-24-images/media/image468.png){width="3.5in"
-height="1.9859503499562554in"}![](./4-5-24-images/media/image469.png){width="3.5in"
-height="1.9859503499562554in"}
 
 The finished version of the project will give you a quote that rotates
 around two different quotes after a period of time. And this is
@@ -8376,9 +8377,13 @@ I wrote this script myself because a client needed on his website to to
 make something that rotated testimonials and this is way back in the
 early 2010s. So a lot of these scripts hadn&apos;t been written were easily
 accessible at that point, so I had to write one myself.
-
-![](./4-5-24-images/media/image470.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 470.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let&apos;s take a look at how this is set up so we can actually work with
 it. The project setup is really simple, we have a page with a div with
@@ -8392,13 +8397,17 @@ Then the next paragraph fades in, waits seven seconds and then fades
 out. After the last paragraph fades out we want to go back and fade in
 the first paragraph and repeat the process indefinitely, so this is a
 really great job for recursion. We&apos;ll also be making use of the
-**jQuery** affects library a little bit along with some of the other
+<b>jQuery</b> affects library a little bit along with some of the other
 features we&apos;ve talked about in this course. I hope you have fun with it
 and end up with a script that you could use for something, it&apos;s pretty
 fun.
-
-![](./4-5-24-images/media/image471.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image471.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I have this diagram that can help us simplify it and think about exactly
 how this is going to work. When the script starts it&apos;s going to set a
@@ -8414,17 +8423,25 @@ then we&apos;re going to wait seven seconds fade the paragraph counter out
 and then increment the counter. And then we run this function again, we
 run content rotator again and that&apos;s where the recursion comes in. This
 function is going to call itself and we&apos;ll be using a set time out.
-
-![](./4-5-24-images/media/image472.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 472.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image472.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 We&apos;re going to fade the paragraph in and then we&apos;re going to wait
 seven seconds, so there&apos;s a set time out where we wait for seven
 seconds and then we&apos;re going to fade the paragraph out. That&apos;s where
 the set time out will go, is when we&apos;re waiting seven seconds.
-
-![](./4-5-24-images/media/image473.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let&apos;s get started on the script, the first thing to note on this script
 and I have my files open here in Visual Studio Code here. And the first
@@ -8433,9 +8450,13 @@ container, so here&apos;s my **div id** container, they&apos;re all set to
 display none. Now, when you look at this it might look a little bit
 weird because of these things here, but this is just an html entity
 that&apos;s creating a curly quote.
-
-![](./4-5-24-images/media/image474.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image474.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 That&apos;s the left double quote and then this one over here creates the
 right double quote and then this one in here creates an mdash. In design
@@ -8455,31 +8476,49 @@ quote, left, single curly quote and right single curly quotes, that&apos;s
 six characters in one key. And other languages may have other characters
 associated with that as well but for English it&apos;s actually six
 characters.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 475.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image475.png"
+  style="width:50%"
+  alt="." />
+</p>
 
-![](./4-5-24-images/media/image475.png){width="5.0in"
-height="2.83707239720035in"}
-
-Okay, so we&apos;ve got that all set up, we have our **jQuery** library
+Okay, so we&apos;ve got that all set up, we have our <b>jQuery</b> library
 loaded down here and we have a script a rotator.js and that&apos;s where
 we&apos;re going to do our work over here is on the rotator.js.
-
-![](./4-5-24-images/media/image476.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image476.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 We&apos;ve got our IIFE, our immediately invoked function expression set up
 to keep everything out of the global scope and we&apos;ve got our **"use
 strict"** directive in there. Okay, we&apos;re all set and ready to start
 working on our script.
 
-# 4.09 Starting the Script (4:56)
-
-![](./4-5-24-images/media/image477.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 477. starting the script (4.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image477.png"
+  style="width:40%"
+  title="4.09 Starting the Script"
+  alt="4.09 Starting the Script." />
+</p>
 
 Here we go to write our script and get our content rotator to work.
-
-![](./4-5-24-images/media/image478.png){width="6.5in"
-height="3.6881944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 478.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image478.png"
+  style="width:65%"
+  alt="." />
+</p>
 
 First thing I need is a variable. Let counter and I&apos;m going to sign the
 value of one and then I&apos;m going to make a function called
@@ -8488,20 +8527,28 @@ call that function **contentRotator** to get it started, and make it
 work. This will get us started with our function and our let counter
 variable ,and we&apos;ll get our file all set up, and ready to go properly
 here.
-
-![](./4-5-24-images/media/image479.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image479.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Our next job is to get our first paragraph and faded it in. We&apos;ll use
 our **counter** to do that. And the CSS and child filter to allow us to
 get the first paragraph because remember currently all the paragraphs
 are set to display none.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 480.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image480.png"
+  style="width:50%"
+  alt="." />
+</p>
 
-![](./4-5-24-images/media/image480.png){width="5.0in"
-height="2.83707239720035in"}
-
-We can use our **jQuery** object to go get that first paragraph and
-faded it in. Down inside **contentRotator**. We want to use **jQuery**
+We can use our <b>jQuery</b> object to go get that first paragraph and
+faded it in. Down inside **contentRotator**. We want to use <b>jQuery</b>
 object to get them. I'm going to use tick marks to say pound container,
 P and child parentheses. Now, if I were to put a one in here that would
 go get the first paragraph. If I were to get a two, that would get
@@ -8516,15 +8563,19 @@ one in there. I want to put the variable **counter** so I can do my
 template literal like so and put the varialbe **counter**. And that will
 go get **counter** which is a one in this case the first time this runs.
 So that gets that first paragraph and fades in 2,000 because remember
-this is **jQuery** effects library here. So we can actually feed in that
+this is <b>jQuery</b> effects library here. So we can actually feed in that
 first paragraph there. So that&apos;s working.
-
-![](./4-5-24-images/media/image481.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image481.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now that I have faded the paragraph in. I need to wait seven seconds and
 this is going to happen after the two second fade in. Remember with
-**jQuery** we have a **callback** function that we can use with our fade
+<b>jQuery</b> we have a **callback** function that we can use with our fade
 in helper method that will allow us to do something after it has faded
 in.
 
@@ -8533,40 +8584,62 @@ function. We want to run this function after the fade in is complete,
 and that&apos;s where we&apos;re going to put the rest of our script. Everything
 else we do is going to go inside this **callback** function.
 
-# 4.10 The If/Else Statement -- Part 1 (6:20)
-
-![](./4-5-24-images/media/image482.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 482. the if/else statement -- part 1 (4.10 (2xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image482.png"
+  style="width:40%"
+  title="4.10 The If/Else Statement -- Part 1"
+  alt="4.10 The If/Else Statement -- Part 1." />
+</p>
 
 Now that we&apos;ve faded in the first paragraph, and after that two second
 fadeIn has taken place, we&apos;re going to run a **callback** function.
-
-![](./4-5-24-images/media/image483.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image483.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Inside that **callback** function, we&apos;re going to check to see if this
 is the last paragraph or not. Let&apos;s get that if statement in place, and
 then we&apos;ll go forward from there. If **fadeIn** that, now we&apos;re going
 to do an if, if parentheses, and we&apos;ll do something in there, and then
 we&apos;ve got an else, we will do something in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 484.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image484.png"
+  style="width:50%"
+  alt="." />
+</p>
 
-![](./4-5-24-images/media/image484.png){width="5.0in"
-height="2.83707239720035in"}
-
-Now, what am I checking? I&apos;m going to use my **jQuery** object, and the
-**'this'** keyword, "this" paragraph. Is a **jQuery** function that will
+Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
+**'this'** keyword, "this" paragraph. Is a <b>jQuery</b> function that will
 return true or false, if something in there is true.
-
-![](./4-5-24-images/media/image485.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image485.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 If **'this'** is, and then I&apos;m going to say, if this is in here, I can
 put **&quot;#container p: last-child();&quot;** If it&apos;s the last child, we&apos;re
 going to do something, and then if it&apos;s not, we&apos;re going to do
 something else.
-
-![](./4-5-24-images/media/image486.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 486.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image486.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 What we&apos;re going to do is wait seven seconds and then run the
 **contentRotator** again, or reset, and increment the **counter**, or
@@ -8577,23 +8650,35 @@ not, we&apos;re going to wait seven seconds, **fadeOut** the paragraph,
 increment the counter and run **contentRotator** again. The only real
 difference between these two is what happens with the **counter**. Also,
 you&apos;ll see here where the recursion is taking place.
-
-![](./4-5-24-images/media/image487.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image487.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Let&apos;s work with the **else** statement first, because I think that
 one&apos;s a little bit easier. Let&apos;s have the **setTimeout** function in
 there, and then we&apos;ll go forward with that.
-
-![](./4-5-24-images/media/image488.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 488.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image488.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Down here, we&apos;re going to say, **setTimeout**, and that&apos;s going to run
 a function after seven seconds, we&apos;re going to take this same thing
 here, and just copy that.
-
-![](./4-5-24-images/media/image489.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image489.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 We&apos;re going to take that same thing, and we&apos;re going to run
 **fadeOut** over two seconds, and that will fade that paragraph out
@@ -8601,9 +8686,13 @@ after seven seconds. Now, when the **contentRotator** starts, it checks
 to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait seven
 seconds, then **fadeOut**, over two seconds. When it&apos;s done fading out,
 we need another **callback** function.
-
-![](./4-5-24-images/media/image490.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image490.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 I&apos;m going to stick another function in here like so. It gets confusing,
 because when we have a **callback** inside of a **callback**, now,
@@ -8621,17 +8710,27 @@ the last child, if it&apos;s not, it&apos;ll increment the **counter**, and
 it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out the
 **"if"** portion of the **"if/else"** in the next lesson.
 
-# 4.11 The Else/If Statement -- Part 2 (5:49)
-
-![](./4-5-24-images/media/image491.png){width="4.0in"
-height="2.264957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 491. the else/if statement -- part 2 (4.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image491.png"
+  style="width:40%"
+  title="4.11 The Else/If Statement -- Part 2"
+  alt="4.11 The Else/If Statement -- Part 2." />
+</p>
 
 In the last lesson, we set our **setTimeout** to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
 that&apos;s done, increment the counter and run content rotator again.
-
-![](./4-5-24-images/media/image492.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image492.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Now we have to handle the case of what happens if we&apos;re on the last
 paragraph. If we&apos;re on the last paragraph, we want to do pretty much
@@ -8655,24 +8754,32 @@ here the one thing that&apos;s different from what I did below is the
 **counter** gets set to one, so I&apos;m setting it back to my first
 paragraph. Then I&apos;ll run **contentRotator** another time, but now with
 the paragraph counter set to one.
-
-![](./4-5-24-images/media/image493.png){width="4.0in"
-height="2.2696576990376203in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 493.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image493.png"
+  style="width:40%"
+  alt="." />
+</p>
 
 In summary, hopefully through this project, you saw that you can use
-callback functions, timers, and recursions to make something like this
+callback functions, <b>timers</b>, and recursions to make something like this
 content rotator work without a tremendous amount of code, especially in
-combination with **jQuery** and the built-in effects library, like the
+combination with <b>jQuery</b> and the built-in effects library, like the
 fade in and fade out. Although it would be interesting to make the same
-script work without **jQuery**, that would be a good challenge for you.
+script work without <b>jQuery</b>, that would be a good challenge for you.
 
 See if you can do that or what else could you make work with this
 script? The script is fading content in and out and we&apos;re right now
 we&apos;re fading in and out paragraphs on our HTML here, but it really
 could be anything, and I could add paragraphs.
-
-![](./4-5-24-images/media/image494.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image494.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 That&apos;s another thing is that this will handle an unlimited number of
 paragraphs. I could just keep adding paragraphs in here in the script
@@ -8680,9 +8787,13 @@ tool, just work, that&apos;s kind of nice, but what if it wasn&apos;t
 paragraphs, whatever it was, pictures or block quotes or other types of
 content that got rotated in and out. You could rotate anything and
 you&apos;ll see how you would need to modify the script to make that work.
-
-![](./4-5-24-images/media/image495.png){width="5.0in"
-height="2.83707239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 495.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image495.png"
+  style="width:50%"
+  alt="." />
+</p>
 
 Other things that are exciting about recursion in general. Or yeah, the
 way recursion works is that you could make a recursive function that
@@ -8699,45 +8810,24 @@ of parameters. You could even use the random function to pass in random
 parameters so that you don&apos;t know what you&apos;re going to get each time
 the function runs itself and that can be very interesting.
 
-### 4.11 Content-Rotator.pdf
+<ul>
+  <li><a href="./pdf/4.11-Content-Rotator.pdf">4.11 Content-Rotator.pdf</a></li>
+</ul>
 
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation 
-
-# 4.12 Course Summary (0:52)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-12">4.12 Course Summary (0:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You&apos;ve learned a lot of
-JavaScript so far, as well as tackling **jQuery** and **jQuery**
+JavaScript so far, as well as tackling <b>jQuery</b> and <b>jQuery</b>
 animation and animation using CSS and JavaScript, we&apos;ve created some
 fun interactive elements you can put on real websites. I think you&apos;ve
 learned a lot and you should be really proud of yourself.
 Congratulations for making it this far, and I look forward to seeing you
 in our third course on JavaScript.
 
-We will get even deeper into the **jQuery** library, **jQuery** plugins,
+<p>We will get even deeper into the <b>jQuery</b> library, <b>jQuery</b> plugins,
 we&apos;ll create some more sophisticated scripts and some more complex
 scripts so that you can develop your skills and get better at
-JavaScript. I look forward to seeing you there.
+JavaScript. I look forward to seeing you there.</p>
 
-
-<!--
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ xx/xx.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/imageXXX.png"
-  style="width:40%"
-  alt="." />
-<img src="./images/imageXXX.png"
-  style="width:40%"
-  alt="." />
-</p>
--->
-<!--
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/imageXXX.png"
-  style="width:50%"
-  alt="." />
-</p>
--->
