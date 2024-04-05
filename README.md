@@ -408,7 +408,7 @@ interface element on any web page.</p>
 12. Course Summary
 
 <!-- hoverable drop-down menu -->
-
+<!-- 
 ### [<b>Week 1: jQuery Plugins and Capturing the Scroll Event</b>](#ch1)
 >#### [<b>1.00 A Note from UC Davis</b>](#ch1-00-note)
 >#### [<b>1.00 Welcome to JS Animation!</b>](#ch1-00-welcome)
@@ -473,7 +473,7 @@ interface element on any web page.</p>
   <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
     target="_blank" rel="noopener noreferrer">
 	1.19 JS-jQuery-Challenges.pdf</a></li>
-</ul>
+</ul> -->
 
 <h2 id="ch1-00-note">A Note From UC Davis</h2>
 
