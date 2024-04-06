@@ -7559,11 +7559,11 @@ started on learning about <b>timers</b> and recursion in JavaScript and
   alt="JavaScript Timers &amp; Recursion." />
 </p>
 
-I have a few scripts that we can look at that will explain how <b>timers</b> and 
+<p>I have a few scripts that we can look at that will explain how <b>timers</b> and 
 recursion can work in JavaScript and these are really fun methods to play with 
 because you can do a lot of really interesting things with them. Occasionally, 
 you do want something to run after a certain amount of time has happened or on 
-some interval. This is where we can really get into how to do that with JavaScript.
+some interval. This is where we can really get into how to do that with JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 408. example script #1 - the full script (244) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7573,11 +7573,11 @@ some interval. This is where we can really get into how to do that with JavaScri
   alt="Example Script #1 - The Full Script." />
 </p>
 
-Let&apos;s take a look at this first script here. I have the example files
+<p>Let&apos;s take a look at this first script here. I have the example files
 open in my code editor here. I&apos;m looking at the example 1 and this is
 the script here, it&apos;s a very short script. I&apos;m going to close my
 explorer here just so you can just see this line without it rapping. But
-best thing to do is to actually see the script run.
+best thing to do is to actually see the script run.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. script in example1.html (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7587,9 +7587,9 @@ best thing to do is to actually see the script run.
   alt="Script inside example1.html - adding paragraphs." />
 </p>
 
-I&apos;m going to come over here and just open the example 1 script here and
+<p>I&apos;m going to come over here and just open the example 1 script here and
 you&apos;ll notice that after a certain amount of time, the script starts
-adding paragraphs to this web page.
+adding paragraphs to this web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 410/411. test, example inspect adding paragraph (245) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7603,43 +7603,42 @@ adding paragraphs to this web page.
   alt="Example test inspect adding another paragraph." />
 </p>
 
-If I view the inspector and look at the body here and my div, you can
+<p>If I view the inspector and look at the body here and my div, you can
 see that this div, it&apos;s adding another paragraph, every 1.5 seconds it
 adds another paragraph. If I want to stop the script, I can click the
-link, &quot;Stop the script,&quot; and it will stop adding paragraphs.
+link, &quot;Stop the script,&quot; and it will stop adding paragraphs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 412. example script #1 - the full script (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image412.png"
   style="width:50%"
-  title=""
   title="Example Script #1 - The Full Script"
   alt="Example Script #1 - The Full Script." />
 </p>
 
-Let&apos;s deconstruct how this works just a little bit here. That&apos;s the
-full script.
+<p>Let&apos;s deconstruct how this works just a little bit here. That&apos;s the
+full script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 413.  (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 413. example, two functoins for timers in javascript (246) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image413.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example, Two Functions for Timers in JavaScript"
+  alt="Example, Two Functions for Timers in JavaScript." />
 </p>
 
-Essentially, there are two functions in JavaScript that allow us to set
+<p>Essentially, there are two functions in JavaScript that allow us to set
 <b>timers</b>. One is <b>setTimeout()</b> and the other one is <b>setInterval()</b>.
 Each of these functions takes a <b>callback</b> function and an amount of
 time. For <b>setTimeOut()</b> or for <b>setInterval()</b>, you will run a
 function and then you&apos;d put a comma and then the amount of time that
-you want to have a lapse before it runs or on the interval.
+you want to have a lapse before it runs or on the interval.</p>
 
-For example, down here I have <b>setTimeout</b> <b>wakeUp</b>. So it&apos;d run
+<p>For example, down here I have <b>setTimeout</b> <b>wakeUp</b>. So it&apos;d run
 this function <b>wakeUp</b> after eight hours or <b>setInterval</b>
 <b>eatMeal</b>, after every four hours I&apos;m getting <b>eatMeal</b>, something
 like that. Now, you can&apos;t pass in eight hours and four hours, you pass
-in a number that represents milliseconds but it&apos;s that basic idea.
+in a number that represents milliseconds but it&apos;s that basic idea.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 414. example #1, using the setinterval function (247) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7649,40 +7648,40 @@ in a number that represents milliseconds but it&apos;s that basic idea.
   alt="Example #1, Using the setInterval Function." />
 </p>
 
-Let&apos;s take a look at our script here. We have a <b>timer</b> that is a
+<p>Let&apos;s take a look at our script here. We have a <b>timer</b> that is a
 variable and it&apos;s assigned the <b>setInterval()</b> function. If you
 remember, this is called a function expression because in JavaScript,
-JavaScript treats functions as first-class citizens within JavaScript.
+JavaScript treats functions as first-class citizens within JavaScript.</p>
 
-You can assign a function to a variable just the same way you could
+<p>You can assign a function to a variable just the same way you could
 assign a string to a variable or a number to a variable or anything else
 to a variable, any other piece of data, you can assign a function to a
 variable. That&apos;s one of the things that&apos;s very powerful about
 JavaScript, it allows us to assign functions to variables. I&apos;ve
 assigned this set interval method to the variable timer and then the
 <b>setInterval</b> method has a function in it and the function simply
-says, take the <b>div.innerHTML</b>, and plus equal the content.
+says, take the <b>div.innerHTML</b>, and plus equal the content.</p>
 
-We&apos;ll take some content and add it into the <b>div</b> and then we&apos;ll do
+<p>We&apos;ll take some content and add it into the <b>div</b> and then we&apos;ll do
 that every 1,500 milliseconds or every 1.5 seconds. That&apos;s how this is
 adding the content onto the page is that timer loads, and
 <b>setInterval</b> immediately starts running and starts doing its thing
-and adding this content in the page.
+and adding this content in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 415.  (248) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 415. using setinterval and innerhtml, append paragraph (248) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image415.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Using setInterval and innerHTML, append paragraph"
+  alt="Using setInterval and innerHTML, append paragraph." />
 </p>
 
-Let&apos;s go look at the script again in the actual file over here. I have
+<p>Let&apos;s go look at the script again in the actual file over here. I have
 the <b>content</b> here, which is adding another <b>paragraph</b>, it&apos;s just
 a string here and then <b>setInterval</b> runs and it says take <b>theDiv</b>,
-<b>getElementByID('theDiv')</b>.
+<b>getElementByID('theDiv')</b>.</p>
 
-It&apos;s got some default content and it&apos;s going to set its <b>innerHTML</b>
+<p>It&apos;s got some default content and it&apos;s going to set its <b>innerHTML</b>
 to <b>content</b>. In 1.5 seconds, the content is going to get switched to
 a <b>paragraph</b> and it&apos;s going to add that. It&apos;s going to set the
 <b>innerHTML</b> to that <b>content</b>. Then in another 1.5 seconds, it will
@@ -7691,7 +7690,7 @@ the <b>content</b> and it&apos;s going to change the <b>innerHTML</b> and <b>div
 to having the two <b>paragraphs</b> so the two <b>paragraphs</b> are on the
 page, and so on and so forth until the page is completely full with the
 paragraphs. We&apos;ll talk about the <b>clear interval method</b> in the next
-lesson.
+lesson.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Example Script #1 -- Part 2 (4:13)</h2>
@@ -7704,103 +7703,105 @@ lesson.
   alt="4.02 Example Script #1 -- Part 2." />
 </p>
 
-We&apos;re looking at the first example in our <b>timers</b> and recursion examples
-here.
+<p>We&apos;re looking at the first example in our <b>timers</b> and recursion examples
+here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 417.  (249) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 417. on click stop button, halt recursion (249) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image417.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="On click stop button, halt recursion"
+  alt="On click stop button, halt recursion." />
 </p>
 
-We&apos;ve already talked about how this example is using <b>setInterval</b> to
+<p>We&apos;ve already talked about how this example is using <b>setInterval</b> to
 keep adding <b>content</b> into the <b>div</b> and then adding these
 <b>paragraphs</b> onto the page. We have <b>setInterval</b> assigned to this
 variable timer, and down here I have an <b>event listener</b> that when you
-click this button, document get on it by ID stop.
+click this button, clearInterval timer and stop.</p>
 
-It&apos;s got an <b>EventListener</b> and when you click on it, it runs a
+<p>It&apos;s got an <b>EventListener</b> and when you click on it, it runs a
 function, and the function runs this method, <b>clearInterval</b> and I&apos;m
 passing in <b>timer</b>. Timer holds the <b>setInterval</b> thing here.
-That&apos;s what allows me to stop the script.
+That&apos;s what allows me to stop the script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 418.  (250) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 418. test recursion, adding another paragraph (250) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image418.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Test recursion, adding another paragraph"
+  alt="Test recursion, adding another paragraph." />
 </p>
 
-Up here, when I refresh my page, it&apos;ll automatically start adding
+<p>Up here, when I refresh my page, it&apos;ll automatically start adding
 content into that div. When I click stop the script, then that
 <b>EventListener</b> fires and it runs a function with <b>clearInterval</b> in
 it and then stops that script. It clears the interval timer. Now, we
-don&apos;t need to use the function expression here.
+don&apos;t need to use the function expression here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 419.  (250) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 419. setinterval function, thediv innerhtml (250) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image419.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="setInterval function, theDiv innerHTML appends content every 1.5 seconds"
+  alt="setInterval function, theDiv innerHTML appends content every 1.5 seconds." />
 </p>
 
-If I were to remove this, the page would still work and that it would
-still run set interval and start adding <b>div</b> to the content.
+<p>If I were to remove this, the page would still work and that it would
+still run set interval and start adding <b>div</b> to the content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 420.  (251) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 420. test, stop the script, won't work (251) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image420.png"
   style="width:50%"
   title=""
-  alt="." />
+  title="Test, stop the script won't work"
+  alt="Test, stop the script won't work." />
 </p>
 
-If I come back here and refresh, you&apos;ll see it will continue to work in
+<p>If I come back here and refresh, you&apos;ll see it will continue to work in
 terms of adding that in there but the <b>stop</b> script function won&apos;t
-work.
+work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 421.  (251) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 421. set var timer to setinterval append content (251) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image421.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Set var timer = setInterval function that appends content every 1.5 seconds"
+  alt="Set var timer = setInterval function that appends content every 1.5 seconds." />
 </p>
 
-In order to stop the script, I have to have this thing set to some
+<p>In order to stop the script, I have to have this thing set to some
 variable so that I can pass that variable into <b>clearInterval</b> over
 here. The other option would be to put <b>setInterval</b> inside there, but
 then you need something to get it started. In order to clear the
 interval, I need to assign my <b>setInterval</b> to timer, is really that
-bottom line here in order to make that work.
+bottom line here in order to make that work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 422.  (252) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 422. test, adding paragraph, again & again to thediv (252) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image422.png"
   style="width:50%"
-  alt="." />
+  title="Test, adding paragraph, again &amp; again to thediv"
+  alt="Test, adding paragraph, again &amp; again to thediv." />
 </p>
 
-Now there&apos;s one other thing that I&apos;d like to be clear about with this
+<p>Now there&apos;s one other thing that I&apos;d like to be clear about with this
 script before we finish. If I go back here and right-click and choose
 inspect, what I would like you to notice is that all of these paragraphs
 are highlighting every time the script runs in my inspector here, and
 that&apos;s because of the way the script is running. It&apos;s not just adding
 a <b>paragraph</b> to what was there before. It&apos;s replacing the entire
 contents of the <b>div</b> with all of the <b>paragraphs</b> every second and
-a half.
+a half.</p>
 
-That&apos;s something to pay attention to because it might not be the best
+<p>That&apos;s something to pay attention to because it might not be the best
 in terms of performance to replace all of the contents, and we could
 make it so that it&apos;s just adding to the div with an append method, we
 could append to the <b>div</b> a new <b>paragraph</b> every second and a half,
-and that might be a better way of running the script.
+and that might be a better way of running the script.</p>
 
-But I thought that it was interesting to point out that what&apos;s
+<p>But I thought that it was interesting to point out that what&apos;s
 happening here is that every second and a half, our variable, the
 <b>content</b> is getting an extra paragraph in it. The first time it runs
 as one <b>paragraph</b> in it, the second time it runs, it&apos;s got two
@@ -7809,7 +7810,7 @@ as one <b>paragraph</b> in it, the second time it runs, it&apos;s got two
 it&apos;s taking however many <b>paragraphs</b> are there and putting them
 inside the <b>div</b> using <b>innerHTML</b>. So it&apos;s an important way of
 understanding how this one works. In the next lesson, we&apos;ll take a look
-at the next example.
+at the next example.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
@@ -7822,66 +7823,69 @@ at the next example.
   alt="4.03 Example Script #2." />
 </p>
 
-Let&apos;s take a look at example 2. In this example, the script is going to
-run exactly one time.
+<p>Let&apos;s take a look at example 2. In this example, the script is going to
+run exactly one time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 424.  (253) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 424. example 2, add paragraph once, with animation from css (253) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image424.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example 2, add paragraph once, with animation (transition) from CSS"
+  alt="Example 2, add paragraph once, with animation (transition) from CSS." />
 </p>
 
-Let&apos;s just see what it does. I&apos;m going to come over here and I change
-this to example2.html.
+<p>Let&apos;s just see what it does. I&apos;m going to come over here and I change
+this to example2.html.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 425/426.  (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 425/426. small red square, larger blue square (254) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image425.png"
   style="width:40%"
-  alt="." />
+  title="Start square, small red"
+  alt="Start square, small red." />
 <img src="./images/image426.png"
   style="width:40%"
-  alt="." />
+  title="End square, large blue"
+  alt="End square, large blue." />
 </p>
 
-When I refresh the page, we have a square in the page. After a certain
+<p>When I refresh the page, we have a square in the page. After a certain
 amount of time, it resizes the square and changes its background color
-red to blue.
+red to blue.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 427/428.  (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 427/428. style with class one or two & transition  (254) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image427.png"
   style="width:40%"
-  alt="." />
+  title="Style with classes one/two, each with transition"
+  alt="Style with classes one/two, each with transition." />
 <img src="./images/image428.png"
   style="width:40%"
-  alt="." />
+  title="Initialize theDiv with a class of one"
+  alt="Initialize theDiv with a class of one." />
 </p>
 
-Let&apos;s take a look at what&apos;s going on with this example. I&apos;m going to
+<p>Let&apos;s take a look at what&apos;s going on with this example. I&apos;m going to
 go over to my code example 2. Down here I have a <b>div</b> with a class of
 <b>one</b> on it. That class is setting that <b>div</b> to be a 100 pixels
 tall by 100 pixels wide with the background color of red. Notice the
 transition is here on the classes. Transitional two seconds.
-<b>setTimeout</b> runs. Since we&apos;re running this function here.
+<b>setTimeout</b> runs. Since we&apos;re running this function here.</p>
 
-What this function is doing is it&apos;s setting the class attribute to
+<p>What this function is doing is it&apos;s setting the class attribute to
 <b>two</b>, but it&apos;s not doing it for 2,000 milliseconds for two seconds.
 As soon as this class gets attached to it, then this class becomes
 active. The animation happens in the size and all that in the background
-color, everything gets transitioned.
+color, everything gets transitioned.</p>
 
-Second of all, you can use JavaScript to add a class or change a class
+<p>Second of all, you can use JavaScript to add a class or change a class
 on an element and when it gets that new class, it then applies all of
-the declarations or rules within that class.
+the declarations or rules within that class.</p>
 
-That&apos;s cool because it means you could have elements on your web-page
+<p>That&apos;s cool because it means you could have elements on your web-page
 and then after a certain amount of time or when a user does something,
 you can apply a class to it and change that element based on the styling
-associated with that class. It could have an animation in there.
-
+associated with that class. It could have an animation in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7893,68 +7897,74 @@ associated with that class. It could have an animation in there.
   alt="4.04 Example Script #3: Recursion." />
 </p>
 
-Next, let&apos;s take a look at example three, which uses recursion.
+<p>Next, let&apos;s take a look at example three, which uses recursion.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 430.  (255) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 430. example 3, recursion, calls itself(255) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image430.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example 3, recursion, calls itself"
+  alt="Example 3, recursion, calls itself." />
 </p>
 
-As I said before, set timeout runs only one time. But when you use it in
+<p>As I said before, set timeout runs only one time. But when you use it in
 a recursive fashion, you can get it to repeat and this can be very
-powerful technique in JavaScript.
+powerful technique in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 431/432. smaller red dot, large purple dot (256) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image431.png"
   style="width:40%"
-  alt="." />
+  title="Smallish red dot"
+  alt="Smallish red dot." />
 <img src="./images/image432.png"
   style="width:40%"
-  alt="." />
+  title="Largish purple dot"
+  alt="Largish purple dot." />
 </p>
 
-Let&apos;s go take a look at the actual example file (<b>example3.html</b>) and
+<p>Let&apos;s go take a look at the actual example file (<b>example3.html</b>) and
 see what happens when we run it. You&apos;ll notice it waits a certain
 amount of time and then it starts this pulsating <b>div</b> that&apos;s set to
-a circle, the different <b>background</b> color here, red to purple.
+a circle, the different <b>background</b> color here, red to purple.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434. div with class of one, two (256) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png"
   style="width:40%"
-  alt="." />
+  title="Style class 'one'"
+  alt="Style class 'one'." />
 <img src="./images/image434.png"
   style="width:40%"
-  alt="." />
+  title="Style class 'two'"
+  alt="Style class 'two'." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 435.  (257) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 435. script div id='thediv', class 'one' (257) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image435.png"
   style="width:50%"
-  title=""
-  alt="." />
+  title="div class = 'one'"
+  alt="div class = 'one'." />
 </p>
 
-Let&apos;s take a look at the JavaScript that makes this work. If I come
+<p>Let&apos;s take a look at the JavaScript that makes this work. If I come
 back here, I open <b>example3.html</b>. You can see again I have a <b>div</b>
-(<b>id="thediv"</b>) with the <b>class</b> of "<b>one</b>" on it.
+(<b>id="thediv"</b>) with the <b>class</b> of "<b>one</b>" on it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (257) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 436/437. set current class to 'one', run classrotator (257) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:40%"
-  alt="." />
+  title="Set currentClass to 'one'"
+  alt="Set currentClass to 'one'." />
 <img src="./images/image437.png"
   style="width:40%"
-  alt="." />
+  title="run classRotator to change class"
+  alt="run classRotator to change class." />
 </p>
 
-Down here, I&apos;ve got, <b>getElementById("thediv")</b>, I&apos;ve got a variable
+<p>Down here, I&apos;ve got, <b>getElementById("thediv")</b>, I&apos;ve got a variable
 called <b>currentClass</b>, which is set to "<b>one</b>". Then I&apos;ve got a
 function called "<b>classRotator</b>&apos;&apos;, which checks to see if the
 <b>currentClass</b> is "<b>one"</b>. I&apos;m going to <b>setTimeout</b> and I&apos;m
@@ -7962,63 +7972,65 @@ going to run a function that&apos;s going to run after a two second delay.
 In this function, I&apos;m going to take the <b>div</b> and set the class name
 to "<b>two"</b>. Then I&apos;m going to set <b>currentClass</b> to "<b>two"</b>. In a
 nutshell, if it&apos;s not "<b>one</b>", then it must be "<b>two</b>" and set
-<b>currentClass</b> over a two second delay.
+<b>currentClass</b> over a two second delay.</p>
 
-But notice that this function is running <b>classRotator</b>. Recursive
+<p>But notice that this function is running <b>classRotator</b>. Recursive
 function is a function that calls itself and this is an example of a
-function that calls itself.
+function that calls itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 438.  (258) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 438. initialize with classrotator() (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image438.png"
   style="width:50%"
-  alt="." />
+  title="Prime recursion process with classRotator()"
+  alt="Prime recursion process with classRotator()" />
 </p>
 
-To kick off that function entirely, we have to run it once down here.
+<p>To kick off that function entirely, we have to run it once down here.
 When the page loads, it runs this once, but then when it runs itself, it
 either runs itself again in the if statement or it runs itself again in
-the 'else' statement in the <b>setTimeout</b>.
+the 'else' statement in the <b>setTimeout</b>.</p>
 
-Now, recursion is a very powerful thing and it&apos;s easy with recursion to
+<p>Now, recursion is a very powerful thing and it&apos;s easy with recursion to
 get confused or to do something that will cause your script to run out
-of memory and to run crazy and wild.
+of memory and to run crazy and wild.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 439.  (258) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 439. be careful with recursion (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image439.png"
   style="width:50%"
-  alt="." />
+  title="Be careful with recursion, classRotator"
+  alt="Be careful with recursion, classRotator." />
 </p>
 
-For example, if I took <b>classRotator</b> and stuck it outside of the
+<p>For example, if I took <b>classRotator</b> and stuck it outside of the
 <b>setTimeout</b>, it would run very quickly and it would keep running
 itself and then it would start to get stacked up and eventually you&apos;d
 run out of memory. You&apos;d get a heap overflow error showing that
-basically JavaScript has run out of memory.
+basically JavaScript has run out of memory.</p>
 
-That can happen very easily when you&apos;re working with recursive scripts
+<p>That can happen very easily when you&apos;re working with recursive scripts
 but when handled properly, recursion can be a very powerful feature. Not
 only that, it can be the preferred way of working with data and working
 with <b>setTimeout</b> or <b>setInterval</b>. If, for example, you&apos;re going
 out to the world and getting a piece of data from somewhere and then
 doing something when it comes back. Usually recursion is the better way
 to go because you can wait until it&apos;s come back before you try to do
-something with it.
+something with it.</p>
 
-Whereas if you use <b>setInterval</b>, then you&apos;re more likely to try to
+<p>Whereas if you use <b>setInterval</b>, then you&apos;re more likely to try to
 do something before you get your data back. <b>setInterval</b> will run
 every x amount of seconds. <b>setTimeout</b> will wait at least two
 seconds, but maybe longer, depending on where something is in the stack
 of things to run with JavaScript. We will get more into the event loop
 in JavaScript and talk more about how that works and why it is like that
-in a later lesson.
+in a later lesson.</p>
 
-I&apos;ve got two classes and this function is calling itself, but it&apos;s
+<p>I&apos;ve got two classes and this function is calling itself, but it&apos;s
 only calling itself after two seconds is lapsed, either here, in the
 "if" or here, in the "else if". That gives us this very interesting
 pulsating, creepy circle that feels like it&apos;s breathing on our web page
-and you can do more stuff with that if you wanted to.
+and you can do more stuff with that if you wanted to.</p>
 
 <ul>
   <li><a href="./pdf/4.04-JavaScript-Timers-Recursion.pdf" 
@@ -8036,7 +8048,7 @@ and you can do more stuff with that if you wanted to.
   alt="4.05 Converting a Slider." />
 </p>
 
-Sliders on a timer. Putting slides on a timer.
+<p>Sliders on a timer. Putting slides on a timer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 441/442. slider on a timer, converting a slider (260) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8050,34 +8062,34 @@ Sliders on a timer. Putting slides on a timer.
   alt="Converting a Slider." />
 </p>
 
-In this lesson, we&apos;ll convert one of the slide shows that we did in the
+<p>In this lesson, we&apos;ll convert one of the slide shows that we did in the
 previous module, so that it runs on a timer without having to click the
 Next and Previous buttons. Basically, so that it runs automatically. You
 could pick any of the three that we did in the previous lesson, or if
 you figured out how to take the JavaScript only one and make it run on a
-never ending loop. You could use that one, you could use any of them.
+never ending loop. You could use that one, you could use any of them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 443.  (260) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 443. test, example slider previous/next (260) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image443.png"
   style="width:50%"
-  alt="." />
+  title="Test, example slider with previous/next"
+  alt="Test, example slider with previous/next." />
 </p>
 
-I&apos;m going to use this slider here that loops around and goes in any
+<p>I&apos;m going to use this slider here that loops around and goes in any
 direction this way. But I&apos;m going to make this one run on a timer. Now,
 before you follow my lesson and follow these videos showing you how to
 do it, I strongly encourage you to try to do it for yourself. It&apos;s not
 that hard and see if you can figure it out. To do that, get rid of the
-buttons, delete the buttons off the screen.
+buttons, delete the buttons off the screen.</p>
 
-You can delete the CSS that has to do with the buttons off the files,
+<p>You can delete the CSS that has to do with the buttons off the files,
 and then modify the script that&apos;s using <b>setInterval</b> or
 <b>setTimeout</b> using recursion, you can make it work either way. As an
 added challenge, make it so that when the user hovers their mouse over
 the slides, the slider stops. Then when they move their mouse off of it,
-it starts again.
-
+it starts again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8089,9 +8101,9 @@ it starts again.
   alt="4.06 Putting Slides on a Timer Solution -- Part 1." />
 </p>
 
-Hopefully you are successful at creating your slider on a timer and were
+<p>Hopefully you are successful at creating your slider on a timer and were
 able to do that on your own. But if you weren&apos;t or if you want to see
-how I did it, I&apos;ll show you how I did it here.
+how I did it, I&apos;ll show you how I did it here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 445. example, remove unneeded bits (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8101,44 +8113,48 @@ how I did it, I&apos;ll show you how I did it here.
   alt="Example, Remove Unneeded Bits." />
 </p>
 
-To start with, I&apos;m going to go into my files and I&apos;m going to remove
+<p>To start with, I&apos;m going to go into my files and I&apos;m going to remove
 this paragraph at the bottom as the previous and next buttons because we
-don&apos;t really need those anymore.
+don&apos;t really need those anymore.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 446/447. basic jquery image slider  (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image446.png"
   style="width:40%"
-  alt="." />
+  title="Basic jQuery image slider"
+  alt="Basic jQuery image slider." />
 <img src="./images/image447.png"
   style="width:40%"
-  alt="." />
+  title="Remove line 30, previous/next"
+  alt="Remove line 30, previous/next." />
 </p>
 
-I&apos;m just going to come in here to my files here and go down and remove
-that there (line 30 in the index.html).
+<p>I&apos;m just going to come in here to my files here and go down and remove
+that there (line 30 in the index.html).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 448.  (262) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 448. un-link styles used previously (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image448.png"
   style="width:50%"
-  alt="." />
+  title="Remove, un-link styles used previously"
+  alt="Remove, un-link styles used previously." />
 </p>
 
-Also, I might as well go over to my styles and remove (comment out) the
+<p>Also, I might as well go over to my styles and remove (comment out) the
 styles that have to do the links because I&apos;m not going to use them
 anymore. I just think it&apos;s a good idea to remove unnecessary code if
-you&apos;re not using it.
+you&apos;re not using it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 449.  (263) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 449. slider without prev/next buttons(263) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image449.png"
   style="width:50%"
-  alt="." />
+  title="Slider without prev/next buttons"
+  alt="Slider without prev/next buttons." />
 </p>
 
-Now our slides will not have buttons attached to them, it&apos;s just going
-to be an empty slider.
+<p>Now our slides will not have buttons attached to them, it&apos;s just going
+to be an empty slider.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 450. example, remove click handlers (263) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8148,44 +8164,48 @@ to be an empty slider.
   alt="Example, Remove Click Handlers." />
 </p>
 
-The next thing we need to do is remove the click handlers. For the next
+<p>The next thing we need to do is remove the click handlers. For the next
 click handler, I&apos;m going to remove the first line here and the last
 line of the click handler, and leave the guts. For the previous click
-handler, we can remove it entirely.
+handler, we can remove it entirely.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 451/452. script.js, 1-20, 19-38 (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image451.png"
   style="width:40%"
-  alt="." />
+  title="Script.js, lines 1-20"
+  alt="Script.js, lines 1-20." />
 <img src="./images/image452.png"
   style="width:40%"
-  alt="." />
+  title="Script.js, lines 19-38"
+  alt="Script.js, lines 19-38." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 453.  (264) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453. remove previous click function(264) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image453.png"
   style="width:50%"
-  alt="." />
+  title="Remove previous click function"
+  alt="Remove previous click function." />
 </p>
 
-Let&apos;s go over here and do that next. Done with this file, we can go
+<p>Let&apos;s go over here and do that next. Done with this file, we can go
 into our script and I&apos;m going to remove this line for my next click
 handler and the closing one down here. Then I don&apos;t need the previous
 one at all so I can just get rid of all of this down to here. This is
 closing our window on event handler for when the page loads, so we want
-to keep that.
+to keep that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 454.  (265) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454. leaving next link guts (265) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image454.png"
   style="width:50%"
-  alt="." />
+  title="Gut out to leave next link tenure"
+  alt="Gut out to leave next link tenure." />
 </p>
 
-Now I&apos;m left with just the guts of my next link tenure, I&apos;ve got just
-the guts of that there.
+<p>Now I&apos;m left with just the guts of my next link tenure, I&apos;ve got just
+the guts of that there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 455. example, add the setinterval function (265) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8195,63 +8215,66 @@ the guts of that there.
   alt="Example, Add the Setinterval Function." />
 </p>
 
-The next thing I need to do here is create my function that will create
+<p>The next thing I need to do here is create my function that will create
 <b>setInterval</b>, I&apos;m going to use <b>setInterval</b> for this, but you
 could also use <b>setTimeout</b> with recursion if you wanted to, but I&apos;m
-going to use <b>setInterval</b> here.
+going to use <b>setInterval</b> here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 456/457.  (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 456/457. add setinterval method passing anonymous function (266) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image456.png"
   style="width:40%"
-  alt="." />
+  title="Add setInterval method, passing anonymous function"
+  alt="Add setInterval method, passing anonymous function." />
 <img src="./images/image457.png"
   style="width:40%"
-  alt="." />
+  title="Check if statements, move slider forward"
+  alt="Check if statements, move slider forward." />
 </p>
 
-I&apos;m going to add <b>setInterval</b> method and pass in the anonymous
+<p>I&apos;m going to add <b>setInterval</b> method and pass in the anonymous
 function and set it to 3,000 milliseconds, three seconds. It seems long
 enough for slides. I&apos;m going to put it here, setInterval like that. I
 pass in a function and then I&apos;m going to say over 3,000 milliseconds
-and that will run.
+and that will run.</p>
 
-Now <b>setInterval</b> is going to run this function and it&apos;s going to do
+<p>Now <b>setInterval</b> is going to run this function and it&apos;s going to do
 the <b>counter</b>, and then it&apos;s going to check my if statements, and
 it&apos;s going to do this every three seconds so that it will move the
-slides forward every three seconds.
+slides forward every three seconds.</p>
 
-When it gets to the end of this slide deck, it&apos;ll wrap around to the
-beginning.
+<p>When it gets to the end of this slide deck, it&apos;ll wrap around to the
+beginning.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 458.  (266) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 458. test, 3 seconds, slide image (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image458.png"
   style="width:50%"
-  alt="." />
+  title="Test, wait 3 seconds, slide image"
+  alt="Test, wait 3 seconds, slide image." />
 </p>
 
-Let&apos;s test it. Have to wait three seconds for the first one to go and
+<p>Let&apos;s test it. Have to wait three seconds for the first one to go and
 there it goes. Here we are in the last slide and a shared wraparound to
-the first slide.
+the first slide.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 459.  (267) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 459. inspect, unordered list, verify end (267) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image459.png"
   style="width:50%"
-  alt="." />
+  title="Inspect, unordered list, verify end of slider"
+  alt="Inspect, unordered list, verify end of slider." />
 </p>
 
-If you inspect and look at the body here, look in the slider, you&apos;ll
-see the unordered list is moving along and changing its position here.
+<p>If you inspect and look at the body here, look in the slider, you&apos;ll
+see the unordered list is moving along and changing its position here.</p>
 
-When it gets to the end, you&apos;ll see the new one gets added in, moved
+<p>When it gets to the end, you&apos;ll see the new one gets added in, moved
 into place, and then the old one gets taken out right there, so that&apos;s
 working perfectly. Now, think about what you could do to make it work so
 that if you hover over this, it will stop sliding the slides while
 you&apos;re hovering your mouse over the slider. That&apos;s your next
-challenge.
-
+challenge.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8263,107 +8286,111 @@ challenge.
   alt="4.07 Putting Slides on a Timer Solution -- Part 2." />
 </p>
 
-Did you successfully complete the challenge?
+<p>Did you successfully complete the challenge?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 461.  (268) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 461. div id slider with images (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image461.png"
   style="width:65%"
-  alt="." />
+  title="div id slider with images"
+  alt="div id slider with images." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463.  (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 462/463. script.js, 1-20, 9-26 (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image462.png"
   style="width:40%"
-  alt="." />
+  alt="Script.js, 1-20." />
 <img src="./images/image463.png"
   style="width:40%"
-  alt="." />
+  alt="Script.js, 9-26." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 464.  (269) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 464. script.js, 24-41 (last half) (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image464.png"
   style="width:50%"
-  alt="." />
+  title="Script.js, 24-41 (last half)"
+  alt="Script.js, 24-41 (last half)." />
 </p>
 
-Remember again, the challenge was to make it so that when the mouse
-hovers over the slider, the slider stops.
+<p>Remember again, the challenge was to make it so that when the mouse
+hovers over the slider, the slider stops.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 465/466.  (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 465/466. add function slider, mysetinterval (269) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image465.png"
   style="width:40%"
-  alt="." />
+  title="Add function slider, mySetInterval"
+  alt="Add function slider, mySetInterval." />
 <img src="./images/image466.png"
   style="width:40%"
-  alt="." />
+  title="Add function slider, mySetInterval"
+  alt="Add function slider, mySetInterval." />
 </p>
 
-Let&apos;s see if we can actually make that work. What I&apos;m going to do here
+<p>Let&apos;s see if we can actually make that work. What I&apos;m going to do here
 is currently I have set interval running this anonymous function and it
 runs it over 3 thousand seconds. What I&apos;m going to do instead is I&apos;m
-going to make a function down here, function called, Slider.
+going to make a function down here, function called, Slider.</p>
 
-I&apos;m going to put the guts of this anonymous function, this one here,
+<p>I&apos;m going to put the guts of this anonymous function, this one here,
 inside of that function instead. I&apos;m going to take all of this stuff
 that I had moved into there, all the way down to here. I&apos;m going to cut
 it. Now we&apos;re back to just set interval with the anonymous function in
 it and comma 3 thousand back to where we were before. I&apos;m going to put
 all that stuff in here instead, inside of this function here. I&apos;ve got
-my counter and all of this stuff inside here.
+my counter and all of this stuff inside here.</p>
 
-Then here I&apos;m going to say run slider, and this is a reference to my
+<p>Then here I&apos;m going to say run slider, and this is a reference to my
 function slider. We want to wait 3 seconds and then run Slider, so then
 it&apos;s going to go find the function Slider and run. That should work in
-terms of exactly the same thing that we had before.
+terms of exactly the same thing that we had before.</p>
 
-The difference now is that I can set my set interval here. I can assign
+<p>The difference now is that I can set my setInterval here. I can assign
 that to a variable. I could put, &quot;let my slider equal set Interval
 slider.&quot; Then I can create an <b>eventListener</b> that will do something
 when the mouse hovers over it. I&apos;m going to make an <b>eventListener</b>
-for when you hover over this element on my page here.
+for when you hover over this element on my page here.</p>
 
-Down here I&apos;m going to do
+<p>Down here I&apos;m going to do
 <b>document.getElementByID(slider.addEventListener)</b> and when the
 <b>addEventListener</b> runs. I&apos;m going to be looking for mouse over, when
 you mouse over I&apos;m going to run a function. When you mouse over that
 element, the Slider, I&apos;m going to say, clear interval, mySlider, and
-that will stop it from running.
+that will stop it from running.</p>
 
-Now I&apos;ve cleared my interval and it&apos;s not going to advance the slides.
+<p>Now I&apos;ve cleared my interval and it&apos;s not going to advance the slides.
 Now I need one that will actually advance the slides when I roll off.
 Coming back here, I can actually copy this. Get interval, slider
 addEventListener, mouse out. I&apos;m going to run a function, and what am I
 going to run? I&apos;m going to say Slider. I&apos;m going to just do this
-again, so I can actually just copy that.
+again, so I can actually just copy that.</p>
 
-This is why I used Let up there instead of constants because a
+<p>This is why I used Let up there instead of constants because a
 reassigning this variable. In order to reassign it, I need to be able to
 set it to Let up there. Now if I set that to set interval slider, when I
 mouse out, sliders now going to have set interval on it again and that
 should run. Now set interval has been cleared and it&apos;s no longer
 advancing the slides. But then if I roll off of it and wait three
-seconds, it should start back up again.
+seconds, it should start back up again.</p>
 
-Look at that, it&apos;s working perfectly. Hopefully you were able to solve
+<p>Look at that, it&apos;s working perfectly. Hopefully you were able to solve
 those two challenges. If not, I recommend going through this a few
 times, do it on your own a few times. Create your own Slider, or create
 your own script where you can play around with set interval and set
-timeout.
+timeout.</p>
 
-The best way to learn JavaScript is to keep practicing with it and to
+<p>The best way to learn JavaScript is to keep practicing with it and to
 keep challenging yourself by making small experiments, taking a small
 script that you have, and then extend on it and see if you can make it
-do a little bit more.
+do a little bit more.</p>
 
-What else could you do? Could you make it so that it has the buttons for
+<p>What else could you do? Could you make it so that it has the buttons for
 advancing the slides manually, but it goes automatically when you&apos;re
 not using the buttons. But then when you do use the buttons, it moves it
 manually. That would be an interesting modification to the script. Maybe
-you can come up with other ideas and other things that you could do.
+you can come up with other ideas and other things that you could do.</p>
 
 <ul>
   <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
@@ -8385,9 +8412,9 @@ you can come up with other ideas and other things that you could do.
   alt="4.08 Project Set-up." />
 </p>
 
-In this project we&apos;ll look at creating a content rotator and we&apos;ll use
+<p>In this project we&apos;ll look at creating a content rotator and we&apos;ll use
 <b>jQuery</b>, and we&apos;ll use <b>timers</b> and recursion. This is a fun project,
-I hope you enjoy it.
+I hope you enjoy it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 468/469. examples, the finished project (271) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8401,15 +8428,15 @@ I hope you enjoy it.
   alt="Examples, The Finished Project, 2." />
 </p>
 
-The finished version of the project will give you a quote that rotates
+<p>The finished version of the project will give you a quote that rotates
 around two different quotes after a period of time. And this is
 potentially very useful you could put this on a website to rotate
-customer testimonials.
+customer testimonials.</p>
 
-I wrote this script myself because a client needed on his website to to
+<p>I wrote this script myself because a client needed on his website to to
 make something that rotated testimonials and this is way back in the
 early 2010s. So a lot of these scripts hadn&apos;t been written were easily
-accessible at that point, so I had to write one myself.
+accessible at that point, so I had to write one myself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 470. example, project setup (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8419,22 +8446,22 @@ accessible at that point, so I had to write one myself.
   alt="Example, Project Setup." />
 </p>
 
-Let&apos;s take a look at how this is set up so we can actually work with
+<p>Let&apos;s take a look at how this is set up so we can actually work with
 it. The project setup is really simple, we have a page with a div with
 four quotes in it and you could add quotes or remove quotes and put in
 more if you wanted to. And basically the quotes will all get set so that
 they&apos;re hidden so that the div is empty to begin with. Then the first
 paragraph fades in over two seconds, it stays on the screen for seven
-seconds so you can read it and then it fades out over two seconds.
+seconds so you can read it and then it fades out over two seconds.</p>
 
-Then the next paragraph fades in, waits seven seconds and then fades
+<p>Then the next paragraph fades in, waits seven seconds and then fades
 out. After the last paragraph fades out we want to go back and fade in
 the first paragraph and repeat the process indefinitely, so this is a
 really great job for recursion. We&apos;ll also be making use of the
 <b>jQuery</b> affects library a little bit along with some of the other
 features we&apos;ve talked about in this course. I hope you have fun with it
 and end up with a script that you could use for something, it&apos;s pretty
-fun.
+fun.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 471. example, script diagram (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8444,12 +8471,12 @@ fun.
   alt="Example, Script Diagram." />
 </p>
 
-I have this diagram that can help us simplify it and think about exactly
+<p>I have this diagram that can help us simplify it and think about exactly
 how this is going to work. When the script starts it&apos;s going to set a
 counter to one and then it&apos;s going to run a function called
-<b>contentRotator</b>.
+<b>contentRotator</b>.</p>
 
-And then on the right here I have that function content rotator and it
+<p>And then on the right here I have that function contentRotator and it
 starts, it fades in the first paragraph that matches the counter number
 to begin with it&apos;s counter number one. And then it asks, is it the last
 paragraph on the page? If it is then we&apos;re going to wait seven seconds,
@@ -8457,7 +8484,7 @@ fade the paragraph out and set the counter back to one. If it&apos;s not
 then we&apos;re going to wait seven seconds fade the paragraph counter out
 and then increment the counter. And then we run this function again, we
 run content rotator again and that&apos;s where the recursion comes in. This
-function is going to call itself and we&apos;ll be using a set time out.
+function is going to call itself and we&apos;ll be using a set time out.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 472. example, starting the script (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8467,25 +8494,25 @@ function is going to call itself and we&apos;ll be using a set time out.
   alt="Example, Starting the Script." />
 </p>
 
-We&apos;re going to fade the paragraph in and then we&apos;re going to wait
+<p>We&apos;re going to fade the paragraph in and then we&apos;re going to wait
 seven seconds, so there&apos;s a set time out where we wait for seven
 seconds and then we&apos;re going to fade the paragraph out. That&apos;s where
-the set time out will go, is when we&apos;re waiting seven seconds.
+the set time out will go, is when we&apos;re waiting seven seconds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 475.  (274) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 475. container with css (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473.png"
   style="width:50%"
   alt="." />
 </p>
 
-Let&apos;s get started on the script, the first thing to note on this script
+<p>Let&apos;s get started on the script, the first thing to note on this script
 and I have my files open here in Visual Studio Code here. And the first
 thing to note is that in the CSS I have all the paragraphs inside my
 container, so here&apos;s my </b>div id</b> container, they&apos;re all set to
 display none. Now, when you look at this it might look a little bit
 weird because of these things here, but this is just an html entity
-that&apos;s creating a curly quote.
+that&apos;s creating a curly quote.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 474.  (275) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8494,7 +8521,7 @@ that&apos;s creating a curly quote.
   alt="." />
 </p>
 
-That&apos;s the left double quote and then this one over here creates the
+<p>That&apos;s the left double quote and then this one over here creates the
 right double quote and then this one in here creates an mdash. In design
 typography is very important and rather than just, I could just put the
 straight up and down quotes but those don&apos;t look as good. And since I
@@ -8502,16 +8529,16 @@ want this to look a little bit nicer, I&apos;m putting in the curly quotes
 and the mdash, which is the longer dash rather than the end dash or the
 hyphen. And if you take a typography course at some point you&apos;ll learn
 all about these different glyphs that we can use when we&apos;re creating
-content.
+content.</p>
 
-The quote button on the American keyboard anyway, can really represents
+<p>The quote button on the American keyboard anyway, can really represents
 six different possible characters. There&apos;s the straight up and down,
 double quote, the left curly quote, the right curly quote and then the
 same thing for the single quotes. There&apos;s a straight up and down single
 quote, left, single curly quote and right single curly quotes, that&apos;s
 six characters in one key. And other languages may have other characters
 associated with that as well but for English it&apos;s actually six
-characters.
+characters.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 475.  (276) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8520,9 +8547,9 @@ characters.
   alt="." />
 </p>
 
-Okay, so we&apos;ve got that all set up, we have our <b>jQuery</b> library
+<p>Okay, so we&apos;ve got that all set up, we have our <b>jQuery</b> library
 loaded down here and we have a script a rotator.js and that&apos;s where
-we&apos;re going to do our work over here is on the rotator.js.
+we&apos;re going to do our work over here is on the rotator.js.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 476.  (276) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8531,10 +8558,10 @@ we&apos;re going to do our work over here is on the rotator.js.
   alt="." />
 </p>
 
-We&apos;ve got our IIFE, our immediately invoked function expression set up
+<p>We&apos;ve got our IIFE, our immediately invoked function expression set up
 to keep everything out of the global scope and we&apos;ve got our <b>"use
 strict"</b> directive in there. Okay, we&apos;re all set and ready to start
-working on our script.
+working on our script.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
@@ -8547,7 +8574,7 @@ working on our script.
   alt="4.09 Starting the Script." />
 </p>
 
-Here we go to write our script and get our content rotator to work.
+<p>Here we go to write our script and get our content rotator to work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 478.  (277) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8556,13 +8583,13 @@ Here we go to write our script and get our content rotator to work.
   alt="." />
 </p>
 
-First thing I need is a variable. Let counter and I&apos;m going to sign the
+<p>First thing I need is a variable. Let counter and I&apos;m going to sign the
 value of one and then I&apos;m going to make a function called
 </b>contentRotator</b>. And we&apos;ll do stuff in here. And then I&apos;m going to
 call that function <b>contentRotator</b> to get it started, and make it
 work. This will get us started with our function and our let counter
 variable ,and we&apos;ll get our file all set up, and ready to go properly
-here.
+here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 479. example, fade in a paragraph (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8572,10 +8599,10 @@ here.
   alt="Example, Fade in a Paragraph." />
 </p>
 
-Our next job is to get our first paragraph and faded it in. We&apos;ll use
+<p>Our next job is to get our first paragraph and faded it in. We&apos;ll use
 our </b>counter</b> to do that. And the CSS and child filter to allow us to
 get the first paragraph because remember currently all the paragraphs
-are set to display none.
+are set to display none.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 480.  (278) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8584,7 +8611,7 @@ are set to display none.
   alt="." />
 </p>
 
-We can use our <b>jQuery</b> object to go get that first paragraph and
+<p>We can use our <b>jQuery</b> object to go get that first paragraph and
 faded it in. Down inside <b>contentRotator</b>. We want to use <b>jQuery</b>
 object to get them. I'm going to use tick marks to say pound container,
 P and child parentheses. Now, if I were to put a one in here that would
@@ -8592,16 +8619,16 @@ go get the first paragraph. If I were to get a two, that would get
 second paragraph, that would get a third paragraph. So on and so forth,
 you might wonder why we didn&apos;t start my counter with zero. And
 frequently we do when we&apos;re working with arrays because the first
-element in the array zero indexed.
+element in the array zero indexed.</p>
 
-The <b>nth child pseudo selector</b> is actually indexed with <b>one</b>. So
+<p>The <b>nth child pseudo selector</b> is actually indexed with <b>one</b>. So
 one will get me my first my first paragraph, but I don&apos;t want to put a
 one in there. I want to put the variable <b>counter</b> so I can do my
 template literal like so and put the varialbe <b>counter</b>. And that will
 go get <b>counter</b> which is a one in this case the first time this runs.
 So that gets that first paragraph and fades in 2,000 because remember
 this is <b>jQuery</b> effects library here. So we can actually feed in that
-first paragraph there. So that&apos;s working.
+first paragraph there. So that&apos;s working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 481. example, add a callback function (279) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8611,16 +8638,16 @@ first paragraph there. So that&apos;s working.
   alt="Example, Add a Callback Function." />
 </p>
 
-Now that I have faded the paragraph in. I need to wait seven seconds and
+<p>Now that I have faded the paragraph in. I need to wait seven seconds and
 this is going to happen after the two second fade in. Remember with
 <b>jQuery</b> we have a <b>callback</b> function that we can use with our fade
 in helper method that will allow us to do something after it has faded
-in.
+in.</p>
 
-So after that animation has run, we want to run that <b>callback</b>
+<p>So after that animation has run, we want to run that <b>callback</b>
 function. We want to run this function after the fade in is complete,
 and that&apos;s where we&apos;re going to put the rest of our script. Everything
-else we do is going to go inside this <b>callback</b> function.
+else we do is going to go inside this <b>callback</b> function.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
@@ -8633,8 +8660,8 @@ else we do is going to go inside this <b>callback</b> function.
   alt="4.10 The If/Else Statement -- Part 1." />
 </p>
 
-Now that we&apos;ve faded in the first paragraph, and after that two second
-fadeIn has taken place, we&apos;re going to run a <b>callback</b> function.
+<p>Now that we&apos;ve faded in the first paragraph, and after that two second
+fadeIn has taken place, we&apos;re going to run a <b>callback</b> function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 483. example, add the if/else statement (280) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8644,11 +8671,11 @@ fadeIn has taken place, we&apos;re going to run a <b>callback</b> function.
   alt="Example, Add the if/else Statement." />
 </p>
 
-Inside that <b>callback</b> function, we&apos;re going to check to see if this
+<p>Inside that <b>callback</b> function, we&apos;re going to check to see if this
 is the last paragraph or not. Let&apos;s get that if statement in place, and
 then we&apos;ll go forward from there. If <b>fadeIn</b> that, now we&apos;re going
 to do an if, if parentheses, and we&apos;ll do something in there, and then
-we&apos;ve got an else, we will do something in there.
+we&apos;ve got an else, we will do something in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 484.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8657,9 +8684,9 @@ we&apos;ve got an else, we will do something in there.
   alt="." />
 </p>
 
-Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
+<p>Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
 <b>'this'</b> keyword, "this" paragraph. Is a <b>jQuery</b> function that will
-return true or false, if something in there is true.
+return true or false, if something in there is true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 485.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8668,10 +8695,10 @@ return true or false, if something in there is true.
   alt="." />
 </p>
 
-If <b>'this'</b> is, and then I&apos;m going to say, if this is in here, I can
+<p>If <b>'this'</b> is, and then I&apos;m going to say, if this is in here, I can
 put <b>&quot;#container p: last-child();&quot;</b> If it&apos;s the last child, we&apos;re
 going to do something, and then if it&apos;s not, we&apos;re going to do
-something else.
+something else.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 486.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8680,7 +8707,7 @@ something else.
   alt="." />
 </p>
 
-What we&apos;re going to do is wait seven seconds and then run the
+<p>What we&apos;re going to do is wait seven seconds and then run the
 <b>contentRotator</b> again, or reset, and increment the <b>counter</b>, or
 reset the <b>counter</b>. We&apos;re going to wait seven seconds, <b>fadeIn</b>
 the paragraph, set the <b>counter</b> back to one, and run
@@ -8688,7 +8715,7 @@ the paragraph, set the <b>counter</b> back to one, and run
 not, we&apos;re going to wait seven seconds, <b>fadeOut</b> the paragraph,
 increment the counter and run <b>contentRotator</b> again. The only real
 difference between these two is what happens with the <b>counter</b>. Also,
-you&apos;ll see here where the recursion is taking place.
+you&apos;ll see here where the recursion is taking place.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 487.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8697,9 +8724,9 @@ you&apos;ll see here where the recursion is taking place.
   alt="." />
 </p>
 
-Let&apos;s work with the <b>else</b> statement first, because I think that
+<p>Let&apos;s work with the <b>else</b> statement first, because I think that
 one&apos;s a little bit easier. Let&apos;s have the <b>setTimeout</b> function in
-there, and then we&apos;ll go forward with that.
+there, and then we&apos;ll go forward with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 488.  (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8708,9 +8735,9 @@ there, and then we&apos;ll go forward with that.
   alt="." />
 </p>
 
-Down here, we&apos;re going to say, <b>setTimeout</b>, and that&apos;s going to run
+<p>Down here, we&apos;re going to say, <b>setTimeout</b>, and that&apos;s going to run
 a function after seven seconds, we&apos;re going to take this same thing
-here, and just copy that.
+here, and just copy that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 489.  (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8719,12 +8746,12 @@ here, and just copy that.
   alt="." />
 </p>
 
-We&apos;re going to take that same thing, and we&apos;re going to run
+<p>We&apos;re going to take that same thing, and we&apos;re going to run
 <b>fadeOut</b> over two seconds, and that will fade that paragraph out
 after seven seconds. Now, when the <b>contentRotator</b> starts, it checks
 to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait seven
 seconds, then <b>fadeOut</b>, over two seconds. When it&apos;s done fading out,
-we need another <b>callback</b> function.
+we need another <b>callback</b> function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 490.  (284) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8733,22 +8760,21 @@ we need another <b>callback</b> function.
   alt="." />
 </p>
 
-I&apos;m going to stick another function in here like so. It gets confusing,
+<p>I&apos;m going to stick another function in here like so. It gets confusing,
 because when we have a <b>callback</b> inside of a <b>callback</b>, now,
 sometimes this is referred to as <b>callback</b> hell. But this is the way
 we need to get this thing to work well. We actually have a <b>callback</b>
 inside of <b>callback</b> inside of a <b>callback</b>. We&apos;re doing all of
 these layers of <b>callbacks</b> here, because we&apos;re fading in, we&apos;re
 waiting seven seconds, we&apos;re fading out, we&apos;re doing three things, so
-we need to let those three things stack up there.
+we need to let those three things stack up there.</p>
 
-Now in here what we&apos;re going to do is increment the <b>counter</b>,
+<p>Now in here what we&apos;re going to do is increment the <b>counter</b>,
 <b>counter++</b>, and run <b>contentRotator</b> again. <b>ContentRotator</b> runs
 itself when the <b>counter</b> is set to two, it&apos;ll check to see if it&apos;s
 the last child, if it&apos;s not, it&apos;ll increment the <b>counter</b>, and
 it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out the
-<b>"if"</b> portion of the <b>"if/else"</b> in the next lesson.
-
+<b>"if"</b> portion of the <b>"if/else"</b> in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8760,9 +8786,9 @@ it&apos;ll do it again, and it&apos;ll keep going around. We&apos;ll finish out 
   alt="4.11 The Else/If Statement -- Part 2." />
 </p>
 
-In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
+<p>In the last lesson, we set our <b>setTimeout</b> to wait seven seconds and
 then fade out the paragraph that&apos;s in there over two seconds and when
-that&apos;s done, increment the counter and run content rotator again.
+that&apos;s done, increment the counter and run content rotator again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 492. is it the last paragraph? (285) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8772,12 +8798,12 @@ that&apos;s done, increment the counter and run content rotator again.
   alt="Is this the last quoted paragraph?" />
 </p>
 
-Now we have to handle the case of what happens if we&apos;re on the last
+<p>Now we have to handle the case of what happens if we&apos;re on the last
 paragraph. If we&apos;re on the last paragraph, we want to do pretty much
 the same thing and I could just copy and paste this and stick it in here
-and make minor changes.
+and make minor changes.</p>
 
-Since it&apos;s so important to understand this, I&apos;m actually going to type
+<p>Since it&apos;s so important to understand this, I&apos;m actually going to type
 it again, so in here I&apos;m going to add setTimeout again and setTimeout
 runs a function over a certain amount of time, in this case, seven
 seconds, like so. It&apos;s going to run this function over seven seconds.
@@ -8785,15 +8811,15 @@ It&apos;s going to wait seven seconds before it does this function. In here
 and this part I will copy and paste just to make sure I get it right.
 Just this piece here. I&apos;m going to say, okay, go into my container and
 get that <b>p: nth-child counter</b>, which in this case it&apos;s the last
-one. Should be four in this examle.
+one. Should be four in this examle.</p>
 
-Get that one and then I&apos;m going to do <b>fadeOut</b> over two seconds,
+<p>Get that one and then I&apos;m going to do <b>fadeOut</b> over two seconds,
 2,000. Then I&apos;m going to run another <b>callback</b> function. Again, I
 have to wait until those two seconds are over before I can do this, and
 here the one thing that&apos;s different from what I did below is the
 <b>counter</b> gets set to one, so I&apos;m setting it back to my first
 paragraph. Then I&apos;ll run <b>contentRotator</b> another time, but now with
-the paragraph counter set to one.
+the paragraph counter set to one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 493. summary, content rotator (286) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8803,17 +8829,17 @@ the paragraph counter set to one.
   alt="Summary, Content Rotator." />
 </p>
 
-In summary, hopefully through this project, you saw that you can use
+<p>In summary, hopefully through this project, you saw that you can use
 callback functions, <b>timers</b>, and recursions to make something like this
 content rotator work without a tremendous amount of code, especially in
 combination with <b>jQuery</b> and the built-in effects library, like the
 fade in and fade out. Although it would be interesting to make the same
-script work without <b>jQuery</b>, that would be a good challenge for you.
+script work without <b>jQuery</b>, that would be a good challenge for you.</p>
 
-See if you can do that or what else could you make work with this
+<p>See if you can do that or what else could you make work with this
 script? The script is fading content in and out and we&apos;re right now
 we&apos;re fading in and out paragraphs on our HTML here, but it really
-could be anything, and I could add paragraphs.
+could be anything, and I could add paragraphs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 494. rotator.html - quoted paragraphs (287) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8823,12 +8849,12 @@ could be anything, and I could add paragraphs.
   alt="Quoted paragraphs in rotator.html." />
 </p>
 
-That&apos;s another thing is that this will handle an unlimited number of
+<p>That&apos;s another thing is that this will handle an unlimited number of
 paragraphs. I could just keep adding paragraphs in here in the script
 tool, just work, that&apos;s kind of nice, but what if it wasn&apos;t
 paragraphs, whatever it was, pictures or block quotes or other types of
 content that got rotated in and out. You could rotate anything and
-you&apos;ll see how you would need to modify the script to make that work.
+you&apos;ll see how you would need to modify the script to make that work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 495. rotator.js - lines 1-21 (287) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8838,20 +8864,20 @@ you&apos;ll see how you would need to modify the script to make that work.
   alt="Lines 1-21 of rotator.js." />
 </p>
 
-Other things that are exciting about recursion in general. The
+<p>Other things that are exciting about recursion in general. The
 way recursion works is that you could make a recursive function that
 takes parameters and you could run that recursive function passing in
 different parameters each time it runs. That makes recursion very
 interesting and very different than just a simple loop, because you
 could run the same program, but the program could do something different
-each time that it runs and that&apos;s very interesting to think about.
+each time that it runs and that&apos;s very interesting to think about.</p>
 
-Think about what you can do with that. There&apos;s a lot of really fun
+<p>Think about what you can do with that. There&apos;s a lot of really fun
 projects you could make where using recursion, where after a certain
 amount of time, the function runs itself again, but with a different set
 of parameters. You could even use the random function to pass in random
 parameters so that you don&apos;t know what you&apos;re going to get each time
-the function runs itself and that can be very interesting.
+the function runs itself and that can be very interesting.</p>
 
 <ul>
   <li><a href="./pdf/4.11-Content-Rotator-with-jQuery.pdf" 
@@ -8862,14 +8888,14 @@ the function runs itself and that can be very interesting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-12">4.12 Course Summary (0:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Congratulations for making it to the end of our second course on
+<p>Congratulations for making it to the end of our second course on
 JavaScript in our four-course specialization. You&apos;ve learned a lot of
 JavaScript so far, as well as tackling <b>jQuery</b> and <b>jQuery</b>
 animation and animation using CSS and JavaScript, we&apos;ve created some
 fun interactive elements you can put on real websites. I think you&apos;ve
 learned a lot and you should be really proud of yourself.
 Congratulations for making it this far, and I look forward to seeing you
-in our third course on JavaScript.
+in our third course on JavaScript.</p>
 
 <p>We will get even deeper into the <b>jQuery</b> library, <b>jQuery</b> plugins,
 we&apos;ll create some more sophisticated scripts and some more complex
