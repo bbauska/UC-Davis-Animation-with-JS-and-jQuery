@@ -3114,7 +3114,6 @@ the way through. It&apos;s hard to tell, but it is there, just subtle.
 <b>jQuery</b> has built into it some basic <b>easing.</b> There&apos;s also a
 <b>plug-in</b> and one of the strengths of <b>jQuery</b> is the <b>plug-in</b>
 architecture. We&apos;re going to talk about that in the next lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-04">2.04 Example 2: Plugin Architecture (8:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
