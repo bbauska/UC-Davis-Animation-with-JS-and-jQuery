@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "4/5/2024 2+pm"
+date last editted: "4/10/2024 Wed 3+pm"
 output: 
   markdown:
     with some style
@@ -12,8 +12,8 @@ output:
 <p align="center" width="100%">
 <img src="./images/image001.png"
   style="width:20%"
-  title="JavaScript logo"
-  alt="JavaScript logo." />
+  title="JavaScript/jQuery logo"
+  alt="JavaScript/jQuery logo." />
 <img src="./images/image002.png"
   style="width:20%"
   title="UC Davis logo"
@@ -23,7 +23,6 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="about">About this Course</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>With the general introduction of JavaScript in the first course, this
 course will focus on JavaScript libraries, specifically jQuery. The
 scripts will be geared toward <b>Document Object Model (DOM)</b>
@@ -39,381 +38,22 @@ events and effects will be covered while exploring more jQuery&apos;s relationsh
 with HTML documents. Finally, a focus on plugins and continue to breakdown 
 jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~ Hoverable Dropdown Menu ~~-->
-<!--~~ to come in index.html, not readme.md ~~-->
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
-
-<h3 id="ch1-obj">Learning Objectives</h3>
+<h2 id="obj">Course Learning Objectives</h2>
 
 <ul>
   <li>Plug in the jQuery library either locally or through a CDN.</li>
-  <li>Discuss history of jQuery and its relationship to JavaScript.</li>
-  <li>Use some of the selectors and filters available in jQuery to access DOM 
-    elements.</li>
-  <li>Create an interactive element that could be used on a website in both JS 
-    and jQuery.</li>
-  <li>Compare the syntax between JavaScript and jQuery.</li>
-  <li>Identify and fix coding and logic problems when they emerge while working 
-    on a project.</li>
-  <li>Demonstrate proficiency with both JavaScript and jQuery for accessing 
-    and manipulating elements on a web page.</li>
 </ul>
 
 <h2 id="syllabus">Syllabus</h2>
 
-<h2 id="ch1">Week/Module 1</h2>
 
-<h2>Manipulating Web Pages Elements with jQuery & JavaScript</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-<p>In this module (1), you will be introduced to jQuery and basic jQuery
-syntax and we will compare it to JavaScript syntax. You will be able to
-plug-in the jQuery library and discuss the history of jQuery and its
-relationship to JavaScript. You&apos;ll also use some of the selectors and
-filters available in jQuery to access DOM elements. You will be able to
-create an interactive element that could be used on a website and be
-able to identify and fix coding and logic problems while working on a
-project. You will be able to demonstrate proficiency with both
-JavaScript and jQuery for accessing and manipulating elements on a web
-page.</p>
-
-<h4>19 lessons, 10 readings</h4>
-
-<ul>
-  <li><h4 id="ch1-00-note">
-    1.00 A Note From UC-Davis</h4></li>
-  <li><h4 id="ch1-00-welcome">
-    1.00 Welcome to this Course!</h4></li>
-  <li><h4 id="ch1-00-intro">
-    1.00 Learning Objectives; Manipulating Web Page Elements with 
-	jQuery &amp; JavaScript</h4></li>
-</ul>
-
-<ol>
-  <li>Introduction to jQuery</li>
-</ol>
-
-<ul>
-  <li><a href="./pdf/1.01-Intro-to-jQuery.pdf"
-    target="_blank" rel="noopener noreferrer">
-	1.01 Intro-to-jQuery.pdf</a></li>
-  <li><a href="./zip/1.01-jQuery-START.zip"
-    target="_blank" rel="noopener noreferrer">
-	1.01 jQuery-START.zip</a></li>
-</ul>
-
-<ol start="2">
-  <li>jQuery Libraries</li>
-  <li>Plugging Into jQuery Libraries</li>
-  <li>Basic jQuery Syntax</li>
-  <li>Using jQuery to Access Elements</li>
-  <li>jQuery Events</li>
-</ol>
-
-<ol start="7">
-  <li>Introduction to Folding Sidebar Menus Using JS</li>
-</ol>
-<ul>
-  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip"
-    target="_blank" rel="noopener noreferrer">
-    1.07 JS-Folding-Sidebar-Menus-START.zip</a></li>
-</ul>
-<ol start="8">
-  <li>Challenge 1 Solution</li>
-  <li>Challenge 2 Solution</li>
-  <li>Challenge 3 Solution</li>
-  <li>Challenge 4 Solution</li>
-  <li>Challenge 5 Solution</li>
-  <li>Challenge 6 Solution</li>
-  <li>Challenge 7 Solution</li>
-  <li>Challenge 8 Solution</li>
-</ol>
-<ul>
-  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
-    target="_blank" rel="noopener noreferrer">
-	1.15 Folding-Sidebar-Menus-with-JS.pdf</li>
-</ul>
-<ol start="16">
-  <li>Introduction to jQuery Sidebar Folding Navigation</li>
-</ol>
-<ul>
-  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    1.16 jQuery-Folding-Menus-START.zip</a></li>
-</ul>
-<ol start="17">
-  <li>Getting the Next UL</li>
-  <li>The Whole Script</li>
-</ol>
-<ul>
-  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
-    target="_blank" rel="noopener noreferrer">
-	1.18 Folding-Sidebar-Menus-with-jQuery.pdf</a></li>
-</ul>
-<ol start="19">
-  <li>JavaScript and jQuery Challenges Intro</li>
-</ol>
-<ul>
-  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
-    target="_blank" rel="noopener noreferrer">
-	1.19 JS-jQuery-Challenges.pdf</a></li>
-</ul>
-
-<h2 id="ch2">Week/Module 2</h2>
-
-<h2>Animating Web Page Elements with jQuery & JavaScript</h2>
-
-<p>In this module (2), you will be introduced to the jQuery effects
-library, helper functions, animations and callback functions. You will
-be able to use features in jQuery to animate elements on a web page. You
-will be able to use the callback functions to trigger a function when an
-animation is completed. You will be able to create a tabbed interface in
-both JavaScript and jQuery.</p>
-
-<h4>20 lessons, 7 readings</h4>
-
-<ul>
-  <li><a href="#">
-    2.00 Learning Objectives; Animating Web Page Elements</a></li>
-</ul>
-
-1.  <b>Introduction to the jQuery Effects Library</b>
-
-<ul>
-  <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    2.01 jQuery-Animation-START.zip</a></li>
-</ul>
-
-2.  <b>Example 1 Continued</b>
-
-3.  <b>Example 2</b>
-
-4.  <b>Example 2: Plugin Architecture</b>
-
-5.  <b>Example 3: Fading Buttons</b>
-
-6.  <b>Example 3: Fade To</b>
-
-7.  <b>Example 4: Custom Animations - Part 1</b>
-
-8.  <b>Example 4: Custom Animations - Part 2</b>
-
-9.  <b>Doing All Animations at Once</b>
-
-<ul>
-  <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    2.09 jQuery-Effects-Library.pdf</a></li>
-</ul>
-
-10. <b>Introduction to Tabbed Interface Using jQuery</b>
-
-<ul>
-  <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    2.10-jQuery-Tabs-START.zip</a></li>
-</ul>
-
-11. <b>Styling the Anchor Tags</b>
-
-12. <b>Tab Styling and Colors</b>
-
-13. <b>Clicking and Fading Tabs</b>
-
-14. <b>Whole Script</b>
-
-<ul>
-  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    2.14 Tab-Interface-with-jQuery.pdf</a></li>
-</ul>
-
-15. <b>Getting the CSS Ready</b>
-
-<ul>
-  <li><a href="./zip/2.15-JS-Tabs-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-	2.15 JS-Tabs-START.zip</a></li>
-</ul>
-
-16. <b>Making the Tabs Work</b>
-
-17. <b>New Tab and Old Tab</b>
-
-18. <b>Handling the Switch</b>
-
-19. <b>Fixing a Bug</b>
-
-20. <b>Cleaning Up the Code</b>
-
-<ul>
-  <li><a href="./pdf/2.20-JS-Tabbed-Interface.pdf">
-    target="_blank" rel="noopener noreferrer">
-    2.20 JS-Tabbed-Interface.pdf</a></li>
-</ul>
-
-<h2 id="ch3">Week/Module 3</h2>
-
-<h2>Intermediate Document Manipulation & Animation</h2>
-
-<p>In this module (3), you will be able to use the jQuery syntax and the
-built-in effects library to create image sliders that could be
-integrated into web pages. You will also be able to compare the jQuery
-syntax to the JavaScript syntax by building a similar image slider using
-only plain JavaScript syntax and using CSS to perform the animation.</p>
-
-<h4>17 lessons, 5 readings</h4>
-
-<ul>
-  <li><a href="https://www.coursera.org/lecture/animation-javascript/jQuery/module-introduction-pupTj"
-    target="_blank" rel="noopener noreferrer">
-    3.00 Learning Objectives; Intermediate Document Manipulation &amp; Animation</a></li>
-</ul>
-
-1.  <b>Basic Slider</b>
-
-<ul>
-  <li><a href="./zip/3.01-Slider-V1-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    3.01 Slider-V1-START.zip</a></li>
-</ul>
-
-2.  <b>Making the Script General</b>
-
-3.  <b>Window Load Function</b>
-
-4.  <b>Click Handler for Next Button</b>
-
-5.  <b>Next Click Handler with If Statement</b>
-
-6.  <b>Challenge Solution</b>
-
-<ul>
-  <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    3.06 jQuery-Image-Slider-V1.pdf</a></li>
-</ul>
-
-7.  <b>Strategy for Version 2</b>
-
-8.  <b>Cloning the Unordered List</b>
-
-9.  <b>Setting the Left Position</b>
-
-10. <b>Adding a Callback Function</b>
-
-11. <b>Previous Button Click Handler - Part 1</b>
-
-12. <b>Previous Button Click Handler - Part 2</b>
-
-<ul>
-  <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    3.12 jQuery-Image-Slider-V2.pdf</a></li>
-</ul>
-
-13. <b>Slider Using JavaScript</b>
-
-<ul>
-  <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    3.13 JS-Slider-V3-START.zip<br>
-	JavaScript Sliders V3</a></li>
-</ul>
-
-14. <b>CSS for Slides and Adding Variables</b>
-
-15. <b>Adding More Variables</b>
-
-16. <b>Event Handler for the Next Button</b>
-
-17. <b>Solution for the Previous Button Challenge</b>
-
-<ul>
-  <li><a href="./pdf/3.17-JavaScript-Image-Slider.pdf">
-    3.17-JavaScript-Image-Slider.pdf<br>
-	Slider - Using JavaScript</a></li>
-</ul>
-
-<h2 id="ch4">Week/Module 4</h4>
-
-<h2>Timers and Recursion in JavaScript & jQuery</h2>
-
-<p>In this module (4), you will be introduced to the use of <b>timers</b> and
-recursion in JavaScript and use these techniques to make interface
-elements that run on a timer. You practice using jQuery syntax and
-recursion to build a simple content rotator that could be used as an
-interface element on any web page.</p>
-
-<h4>12 lessons, 6 readings</h4>
-
-<ul>
-  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
-    target="_blank" rel="noopener noreferrer">
-    4.00 JS-Timers-Examples-START.zip<br>
-	Timers and Recursion in JS &amp; jQuery</a></li>
-</ul>
-
-1.  Example Script #1 - Part 1
-
-2.  Example Script #1 - Part 2
-
-3.  Example Script #2
-
-4.  Example Script #3: Recursion
-
-<ul>
-  <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
-    target="_blank" rel="noopener noreferrer">
-	4.04 JS-Timers-Recursion.pdf<br>
-    JavaScript Timers &amp; Recursion</a></li>
-  <li><a href="./zip/4.04-JS-Timers-Recursion.zip" 
-    target="_blank" rel="noopener noreferrer">
-	4.04 JS-Timers-Recursion.zip</a></li>
-</ul>
-
-5.  Converting a Slider
-
-6.  Putting Slides on a Timer Solution - Part 1
-
-7.  Putting Slides on a Timer Solution - Part 2
-
-<ul>
-  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
-      target="_blank" rel="noopener noreferrer">
-	  4.07 Slider-on-a-Timer.pdf<br>
-      Putting Slides on a Timer</a></li>
-  <li><a href="./zip/4.07-Rotator-START.zip" 
-      target="_blank" rel="noopener noreferrer">
-	  4.07 Rotator-START.zip</a></li>
-</ul>
-
-8.  Project Set-up
-
-9.  Starting the Script
-
-10. The If/Else Statement - Part 1
-
-11. The If/Else Statement - Part 2
-
-<ul>
-  <li><a href="./pdf/4.11-Content-Rotator.pdf" 
-    target="_blank" rel="noopener noreferrer">
-	4.11 Content-Rotator.pdf<br>
-    Using jQuery, Timers &amp; Recursion</a></li>
-  <li><a href="./zip/4.11-Content-Rotator.zip" 
-    target="_blank" rel="noopener noreferrer">
-	4.11 Content-Rotator.zip</a></li>
-</ul>
-
-12. Course Summary
-
-<!-- hoverable drop-down menu -->
-
-### [<b>Week 1: jQuery Plugins and Capturing the Scroll Event</b>](#ch1)
->#### [<b>1.00 A Note from UC Davis</b>](#ch1-00-note)
->#### [<b>1.00 Welcome to JS Animation!</b>](#ch1-00-welcome)
->#### [<b>1.00 Learning Objectives!</b>](#ch1-00-obj)
+### [<b>Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</b>](#ch1)
+>   - #### [<b>1.00 A Note from UC Davis</b>](#ch1-00-note)
+>   - #### [<b>1.00 Welcome to this Course!</b>](#ch1-00-welcome)
+>   - #### [<b>1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &amp; JS</b>](#ch1-00-obj)
 >#### [<b>1.01 Module 1 Introduction to jQuery</b>](#ch1-01)
 
 <ul>
@@ -431,7 +71,7 @@ interface element on any web page.</p>
 
 <ul>
   <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
-    target="_blank" rel="noopener noreferrer">">
+    target="_blank" rel="noopener noreferrer">
 	1.07 JS-Folding-SideBar-Menus-START.zip (download)</a></li>
 </ul>
 
@@ -476,6 +116,82 @@ interface element on any web page.</p>
 	1.19 JS-jQuery-Challenges.pdf</a></li>
 </ul>
 
+### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
+>	- #### [**2.00 Learning Objectives; Animating Web Page Elements**](#ch2-00-obj)
+>#### [**2.01 Introduction to the jQuery Effects Library**](#ch2-01)
+>	- #### [**2.01 jQuery-Animation-START.zip**](#ch2-01-zip)
+>#### [**2.02 Example 1 continued**](#ch2-02)
+>#### [**2.03 Example 2**](#ch2-03)
+>#### [**2.04 Example 2:Plugin Architecture**](#ch2-04)
+>#### [**2.05 Example 3: Fading Buttons**](#ch2-05)
+>#### [**2.06 Example 3: Fade To**](#ch2-06)
+>#### [**2.07 Example 4: Custom Animations - Part 1**](#ch2-07)
+>#### [**2.08 Example 4: Custom Animations - Part 2**](#ch2-08)
+>#### [**2.09 Doing All Animations at Once**](#ch2-09)
+>	- #### [**2.09 jQuery-Effects-Library.pdf**](#ch2-09-pdf)
+>#### [**2.10 Intro to Tabbed Interface Using jQuery**](#ch2-10)
+>	- #### [**2.10 jQuery-Tabs-START.zip**](#ch2-10-zip)
+>#### [**2.11 Styling the Anchor Tags**](#ch2-11)
+>#### [**2.12 Tab Styling and Colors**](#ch2-12)
+>#### [**2.13 Clicking and Fading Tabs**](#ch2-13)
+>#### [**2.14 Whole Script**](#ch2-14)
+>	- #### [**2.14 Tab-Interface-with-jQuery.pdf**](#ch2-14-pdf)
+>#### [**2.15 Getting the CSS Ready**](#ch2-15)
+>	- #### [**2.15 JS-Tabs-START.zip**](#ch2-15-zip)
+>#### [**2.16 Making the Tabs Work**](#ch2-16)
+>#### [**2.17 New Tab and Old Tab**](#ch2-17)
+>#### [**2.18 Handling the Switch**](#ch2-18)
+>#### [**2.19 Fixing a Bug**](#ch2-19)
+>#### [**2.20 Cleaning Up the Code**](#ch2-20)
+	>	- #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
+
+### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
+	>	- #### [**3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation**](#ch3-00-obj)
+>#### [**3.01 Basic Slider**](#ch3-01)
+>	- #### [**3.01 Slider-V1-START.zip**](#ch3-01-zip)
+>#### [**3.02 Making the Script General**](#ch3-02)
+>#### [**3.03 Window Load Function**](#ch3-03)
+>#### [**3.04 Click Handler for Next Button**](#ch3-04)
+>#### [**3.05 Next Click Handler with If Statement**](#ch3-05)
+>#### [**3.06 Challenge Solution**](#ch3-06)
+>	- #### [**3.06 jQuery-Image-Slider-V1.pdf**](#ch3-06-pdf)
+>#### [**3.07 Strategy for Version 2**](#ch3-07)
+>#### [**3.08 Cloning the Unordered List**](#ch3-08)
+>#### [**3.09 Setting the Left Position**](#ch3-09)
+>#### [**3.10 Adding a Callback Function**](#ch3-10)
+>#### [**3.11 Previous Button Click Handler - Part 1**](#ch3-11)
+>#### [**3.12 Previous Button Click Handler - Part 2**](#ch3-12)
+>	- #### [**3.12 jQuery-Image-Slider-V2.pdf**](#ch3-12-pdf)
+>#### [**3.13 Slider Using JavaScript**](#ch3-13)
+>	- #### [**3.13 JS-Image-Slider-V3-START.zip**](#ch3-13-zip)
+>#### [**3.14 CSS for Slides and Adding Variables**](#ch3-14)
+>#### [**3.15 Adding More Variables**](#ch3-15)
+>#### [**3.16 Event Handler for the Next Button**](#ch3-16)
+>#### [**3.17 Solution for the Previous Button Challenge**](#ch3-17)
+>	- #### [**3.17 JS-Image-Slider.pdf**](#ch3-17-pdf)
+
+### [**Week 4: Timers and Recursion in JavaScript &amp; jQuery**](#ch4)
+>	- #### [**4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery**](#ch4-00-obj)
+>	- #### [**4.00 JS-Timers-Examples-START.zip**](#ch4-00-zip)
+>#### [**4.01 Example Script #1 - Part 1**](#ch4-01)
+>#### [**4.02 Example Script #1 - Part 2**](#ch4-02)
+>#### [**4.03 Example Script #2**](#ch4-03)
+>#### [**4.04 Example Script #3 - Recursion**](#ch4-04)
+>	- #### [**4.04 JS-Timers-Recursion.pdf**](#ch4-05-pdf)
+>#### [**4.05 Basic Distance Converter Project - Part 5**](#ch4-05)
+>	- #### [**4.05 Advanced Distance Converter START Files**](#ch4-05-start)
+>#### [**4.06 Putting Slides on a Timer Solution - Part 1**](#ch4-06)
+>#### [**4.07 Putting Slides on a Timer Solution - Part 2**](#ch4-07)
+>	- #### [**4.07 Slider-on-a-Timer.pdf**](#ch4-10-pdf)
+>	- #### [**4.07 Rotator-START.zip**](#ch4-07-zip)
+>#### [**4.08 Project Set-up**](#ch4-08)
+>#### [**4.09 Starting the Script**](#ch4-09)
+>#### [**4.10 The If/Else Statement - Part 1**](#ch4-10)
+>#### [**4.11 The If/Else Statement - Part 2**](#ch4-11)
+>	- #### [**4.11 Content-Rotator-with-jQuery.pdf**](#ch4-11-pdf)
+>#### [**4.12 Course Summary**](#ch4-12)
+
+---------------------------------------------------------------------------------------
 <h2 id="ch1-00-note">A Note From UC Davis</h2>
 
 <p>Welcome to this course!</p>
@@ -8866,3 +8582,5 @@ we&apos;ll create some more sophisticated scripts and some more complex
 scripts so that you can develop your skills and get better at
 JavaScript. I look forward to seeing you there.</p>
 
+
+<h6>Last updated 4/10/2024 3+ pm</h6>
