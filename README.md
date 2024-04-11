@@ -67,7 +67,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.01 jQuery-START.zip (download)</a></h4></li>
 </ul>
 
-<ol start="2">
+<ol>
   <li><h4><a href="#ch1-02">1.02 jQuery Libraries</a></h4></li>
   <li><h4><a href="#ch1-03">1.03 Plugging into jQuery Libraries</a></h4></li>
   <li><h4><a href="#ch1-04">1.04 Basic jQuery Syntax</a></h4></li>
@@ -82,7 +82,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.07 JS-Folding-SideBar-Menus-START.zip (download)</a></h4></li>
 </ul>
 
-<ol start="8">
+<ol>
   <li><h4><a href="#ch1-08">1.08 Challenge 1 Solution</a></h4></li>
   <li><h4><a href="#ch1-09">1.09 Challenge 2 Solution</a></h4></li>
   <li><h4><a href="#ch1-10">1.10 Challenge 3 Solution</a></h4></li>
@@ -409,6 +409,7 @@ page.</p>
   alt="1.01 Intro to jQuery." />
 
 <p>Introduction to jQuery, a little bit of history.</p>
+
 <p>JQuery was originally created by John Resig in 2006, and it became the
 most popular JavaScript library and it&apos;s still a popular JavaScript
 library. In a recent survey, it was found that over 80 percent of
@@ -612,7 +613,7 @@ it will get it the fastest that it can.</p>
   alt="Downloading jQuery." />
 </p>
 
-First, we&apos;ll look at downloading jQuery, and to do that, you can go to
+<p>First, we&apos;ll look at downloading jQuery, and to do that, you can go to
 <b>jquery.com</b>, and I have that website pulled up here, and you can
 click the Download jQuery link. So let&apos;s go over here. And I can click
 on download jQuery here. And that will take me to a page that, if
@@ -621,7 +622,7 @@ confusing. because we&apos;ve got a whole bunch of links here and it&apos;s not
 really clear exactly what it is you should actually be downloading. And
 then they&apos;ve got this stuff with npm and Yarn and Bower, and this
 migrate plugin and all this other stuff on the page. So it can be a
-little bit confusing.
+little bit confusing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. downloading using npm, yarn and bower (14) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -631,11 +632,11 @@ little bit confusing.
   alt="Downloading using npm, yarn, and/or bower." />
 </p>
 
-The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might be
+<p>The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might be
 using if you&apos;re in a particular environment that&apos;s using these build
 tools. But we&apos;re just going to download the actual library file itself.
 And what we want is the compressed version. There will be a compressed
-version and an uncompressed version.
+version and an uncompressed version.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript code in jquery (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -645,21 +646,21 @@ version and an uncompressed version.
   alt="JavaScript code within jQuery." />
 </p>
 
-The uncompressed version will look like this, and it looks kind of like
+<p>The uncompressed version will look like this, and it looks kind of like
 Javascript that you&apos;ve seen before with <b>var</b> and all this kind of
 stuff. The compressed version is going to remove all of the white space
 and sort of compress it down. So it&apos;s not really made for human reading
 at all, it&apos;s made just to be loaded on your computer. But it will be
 smaller. It&apos;ll be a smaller file to download and so what you want is
-the <b>compressed</b> <b>production</b> version of jQuery.
+the <b>compressed</b> <b>production</b> version of jQuery.</p>
 
-So if you click the shortcut to the compressed version, you&apos;ll get a
+<p>So if you click the shortcut to the compressed version, you&apos;ll get a
 screen full of compressed code which appears as jQuery version 3.7.1.
 Okay, so to download this, if you just right click in the white area
 here and do Save As, and I&apos;m going to save it in my Downloads into my
 jQuery Start folder, and that&apos;s where you should put it as well. So
 I&apos;m going to just put it in here and save this so that now I have a
-copy of jQuery in my jQuery Start folder here.
+copy of jQuery in my jQuery Start folder here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 13. jquery-3.7.1.min.js in folder (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -669,15 +670,14 @@ copy of jQuery in my jQuery Start folder here.
   alt="jquery-3.7.1.min.js in folder." />
 </p>
 
-Here it is, jQuery 3.7.1 min because the minified version has been
+<p>Here it is, jQuery 3.7.1 min because the minified version has been
 compressed down. And, you want to get the minified version. This version
 is the size of maybe a medium sized image on your web page (86
 kilobytes). It&apos;s not that big. This is significantly larger
-(un-minified version of 279 kilobytes).
+(un-minified version of 279 kilobytes).</p>
 
-So now we&apos;ve got <b>jQuery</b>, let&apos;s get it plugged into our HTML file.
-We&apos;ll plug it into our HTML file here.
-
+<p>So now we&apos;ve got <b>jQuery</b>, let&apos;s get it plugged into our HTML file.
+We&apos;ll plug it into our HTML file here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-03">1.03 Plugging into jQuery Libraries (5:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -689,8 +689,8 @@ We&apos;ll plug it into our HTML file here.
   alt="1.03 Plugging into jQuery Libraries." />
 </p>
 
-Plugging in the <b>jQuery</b> library, now we&apos;ve downloaded jQuery, all we
-need to do is add it to our file.
+<p>Plugging in the <b>jQuery</b> library, now we&apos;ve downloaded jQuery, all we
+need to do is add it to our file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. example, plug in jquery library (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -828,13 +828,13 @@ there just so we can see that something is happening to our actual web page.</p>
   title="Use jQuery, set h1.css color to 'red'"
   alt="Use jQuery, set h1.css color to 'red'." />
 
-If we come back over here, we can get rid of this if-else statement.
+<p>If we come back over here, we can get rid of this if-else statement.
 Just delete that for a moment and let&apos;s put in a <b>jQuery</b> statement.
 Try this instead. There we go, dollar sign, we&apos;re going to go get the
 <b>h1</b> on the page, which is this element here, Is <b>jQuery</b> working?
 We&apos;re going to use the CSS method in <b>jQuery</b>, like that. What we&apos;re
 going to do is we&apos;re going to set the color of the <b>h1</b> to red. If we
-just do this one line and then save it.
+just do this one line and then save it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 25. test inspect, set h1 style color to 'red' (22) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -843,7 +843,7 @@ just do this one line and then save it.
   title="Test Inspect, set h1 style color to 'red'"
   alt="Test Inspect, set h1 style color to 'red'." />
 
-Then if you come over and run this test in <b>jQuery</b> again, you&apos;ll see
+<p>Then if you come over and run this test in <b>jQuery</b> again, you&apos;ll see
 that it turns the <b>h1</b> red here. If I inspect this element here, you
 can see that what <b>jQuery</b> has done here is it&apos;s set the style color
 red on the <b>h1</b>. Now before we did the same thing with
@@ -853,9 +853,9 @@ it. In <b>jQuery</b> you can see we have just a simple syntax here that
 uses CSS-style selectors to access elements on the page. We&apos;ve gotten
 methods that we have access to because the <b>jQuery</b> library is plugged
 in that we can just use. Now if you&apos;re wondering about the dollar sign
-here.
+here.</p>
 
-The dollar sign is just a shortcut for the word <b>jQuery</b>. I could put
+<p>The dollar sign is just a shortcut for the word <b>jQuery</b>. I could put
 the word <b>jQuery</b> there, and over here this will run just exactly the
 same way. It will work fine with using the word <b>jQuery</b> instead of
 the dollar sign (<b>&dollar;</b>). But generally we use the dollar sign as a
@@ -863,7 +863,7 @@ shortcut just because it keeps our script shorter, it&apos;s less typing,
 and why type all those extra characters if you can just type one? We can
 put the single dollar sign in there for that reason. This CSS method
 here is just one of the great many that <b>jQuery</b> has to offer that
-will help us factor web pages.
+will help us factor web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. jquery api documentation (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -872,10 +872,10 @@ will help us factor web pages.
   title="jQuery API Documentation"
   alt="jQuery API Documentation." />
 
-You can come back here, you can go and look at the <b>jQuery</b> API
+<p>You can come back here, you can go and look at the <b>jQuery</b> API
 documentation here. You can see that there&apos;s just tons and tons of
 different methods that you have access to as we go through and look at
-all of these.
+all of these.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 27. css3() - get value of style property (24) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -885,13 +885,13 @@ all of these.
   alt=".css() - get value of style property for the first element." />
 </p>
 
-Here&apos;s the CSS one that we were just looking at, but there&apos;s tons of
+<p>Here&apos;s the CSS one that we were just looking at, but there&apos;s tons of
 them in here. <b>jQuery</b> gives you access to all of these different
 methods. It&apos;s like having a kit that you can use to build things for
 your web pages just by plugging them in and plugging in <b>jQuery</b> and
 then using these methods, in accordance to the way they&apos;re described in
 the documentation. Let&apos;s try something else here. If we come back here
-and try, let&apos;s try adding a few paragraphs.
+and try, let&apos;s try adding a few paragraphs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 28. example, basic jquery syntax - working with collections (24) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -901,11 +901,11 @@ and try, let&apos;s try adding a few paragraphs.
   alt="Example, Basic jQuery Syntax - Working with Collections." />
 </p>
 
-Let&apos;s just add a few paragraphs. One of the nice things about
+<p>Let&apos;s just add a few paragraphs. One of the nice things about
 <b>jQuery</b> is it allows you to work with collections of things. If I
 come in here and just add a couple of paragraphs to the page. I&apos;m just
 going to copy that and paste it and add a few more here. Now I&apos;ve got
-three paragraphs on the page.
+three paragraphs on the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 29. script to change paragraph color to red (25) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -915,14 +915,14 @@ three paragraphs on the page.
   alt="Script to change paragraph color to red." />
 </p>
 
-Down here, if I change this to <b>p</b>, if we were doing this with plain
+<p>Down here, if I change this to <b>p</b>, if we were doing this with plain
 JavaScripts, we would need some loop because we would do
 <b>querySelectorAll</b> or <b>getElementsByTagName</b> or some method like
 that, which would give us an array of items that we would then have to
 loop through to turn them all red. We&apos;ve done that before. You&apos;ve done
 that in some of our previous lessons. Here with <b>jQuery</b>, one of the
 things that makes <b>jQuery</b> shorter and more concise is it&apos;ll work
-with groups of elements.
+with groups of elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 30. inspect, script change paragraph color to red (25) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -932,15 +932,14 @@ with groups of elements.
   alt="Inspect, script change paragraph color to red." />
 </p>
 
-I can just grab the paragraphs and say CSS color red. You&apos;ll see over
+<p>I can just grab the paragraphs and say CSS color red. You&apos;ll see over
 here when I run this page, it&apos;s loading these paragraphs and it&apos;s
 turning them all red without having to do a loop. That saves me a few
 extra lines of programming. This is the thing that makes <b>jQuery</b>
 easier to get into for people who are new to programming. This whole
 thing of having to, I take this array. Now I&apos;ve got an array and I&apos;m
 going to loop through it. It&apos;s a little bit of a pain. <b>jQuery</b> takes
-some of that pain away, and that&apos;s really a nice feature of <b>jQuery</b>.
-
+some of that pain away, and that&apos;s really a nice feature of <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-05">1.05 Using jQuery to Access Elements (8:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -952,7 +951,7 @@ some of that pain away, and that&apos;s really a nice feature of <b>jQuery</b>.
   alt="1.05 Using jQuery to Access Elements." />
 </p>
 
-<b>jQuery</b> selecting elements.
+<p><b>jQuery</b> selecting elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. jquery - selecting elements (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -962,23 +961,22 @@ some of that pain away, and that&apos;s really a nice feature of <b>jQuery</b>.
   alt="jQuery - Selecting Elements." />
 </p>
 
-Download and open the <b>page.html</b> file and your code editor that goes
+<p>Download and open the <b>page.html</b> file and your code editor that goes
 along with this particular lesson and there you&apos;ll see some markup and
 we can use the <b>jQuery</b> language to select different elements on the
-page.
+page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33/34. page.html - lines 01-38 (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png"
-  style="width:35%"
+  style="width:40%"
   title="page.html, lines 1-21"
   alt="page.html, lines 1-21." />
 <img src="./images/image034.png"
-  style="width:35%"
+  style="width:40%"
   title="page.html, lines 22-38"
   alt="page.html, lines 22-38." />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. page.html, lines 39-51 (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -988,19 +986,19 @@ page.
   alt="page.htlm, lines 39-51." />
 </p>
 
-If we go look to this page here, you&apos;ll see that it just has some
+<p>If we go look to this page here, you&apos;ll see that it just has some
 content in it with some different markup with the header in each one in
 each to summon ordered lists. It&apos;s got some ideas and some classes and
-some links and some other content that we can access.
+some links and some other content that we can access.</p>
 
-And one of the beautiful things about <b>jQuery</b> is that you can access
+<p>And one of the beautiful things about <b>jQuery</b> is that you can access
 any element on the page, usually in many different ways. It&apos;s the very
 powerful part of <b>jQuery</b> and you can think of it as the query part of
 <b>jQuery</b>, you&apos;re finding elements on the page that you can do things
 to them or with them or for them. We will be using <b>jQuery</b> to go in
 and access elements on this page and we&apos;ll practice, what some of these
 different methods are and some of the different things we have available
-to us.
+to us.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example, jquery - getting ids (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1010,9 +1008,9 @@ to us.
   alt="Example, jQuery - Getting IDs." />
 </p>
 
-For example, if we were to try to do this, we could go back to our file,
+<p>For example, if we were to try to do this, we could go back to our file,
 we&apos;re going to have to add the, at the library again so we need the
-script here.
+script here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 37. add script shortcut to jquery min library (28) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1022,10 +1020,10 @@ script here.
   alt="Add script shortcut to jQuery min library." />
 </p>
 
-If we come back over to our file, you&apos;ll notice the bottom, we don&apos;t
+<p>If we come back over to our file, you&apos;ll notice the bottom, we don&apos;t
 have any script tags. So down here after this closing div we need to add
 the <b>jQuery</b> library, so we can use <b>jQuery</b> and then we need to use
-then we need a script tag, which we can open and close.
+then we need a script tag, which we can open and close.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add red border to main element (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1035,13 +1033,13 @@ then we need a script tag, which we can open and close.
   alt="Add red border to main element." />
 </p>
 
-And now if we wanted to do something like put a border around this main
+<p>And now if we wanted to do something like put a border around this main
 element here, we can very easily just use <b>jQuery</b> object. And type it
 this way it&apos;ll get, there is still some syntax that you have to get
 used to with <b>jQuery</b>, so I recommend typing it this way, so you can
 kind of get used to it. If you do pound main and then CSS the CSS method
 that we&apos;ve already talked about and we&apos;re just going to do a border
-here. Border 2px solid red.
+here. Border 2px solid red.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. test, red border to main (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1051,11 +1049,11 @@ here. Border 2px solid red.
   alt="Test, red border around main element." />
 </p>
 
-If we do that and save this document here, and then come over to our
+<p>If we do that and save this document here, and then come over to our
 example page, so here&apos;s my page and if I refresh you&apos;ll see I get a
 border around the main area of the page. So that&apos;s working, so we can
 access this element, we can access all kinds of elements with
-<b>jQuery</b>.
+<b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 40. example, jquery - getting classes (30) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1065,29 +1063,29 @@ access this element, we can access all kinds of elements with
   alt="Example, jQuery - Getting Classes." />
 </p>
 
-If I wanted to get the elements on the page that have the class
+<p>If I wanted to get the elements on the page that have the class
 <b>special</b>, if we go back to our code here, we should see that we&apos;ve
 got a class <b>special</b> in these two list items. We&apos;ve got a class
 <b>special</b> up here on this list item, so these items should be targeted
 if we change this to not <b>special</b>. And one of the things that&apos;s nice
 about <b>jQuery</b> is that if you just know CSS then how to get these
-selectors.
+selectors.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 41/42. class 'special' add red border (30) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png"
-  style="width:35%"
+  style="width:40%"
   title="Add red border to class special"
   alt="Add red border to class special." />
 <img src="./images/image042.png"
-  style="width:35%"
+  style="width:40%"
   title="Test, red border around class special"
   alt="Test, red border around class special." />
 </p>
 
-It&apos;s just using the same selectors you&apos;d use in CSS, so I can come
+<p>It&apos;s just using the same selectors you&apos;d use in CSS, so I can come
 over here and try that again and you can see those elements are getting
-the border around them.
+the border around them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 43. example, jquery - compound selectors (31) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1097,23 +1095,23 @@ the border around them.
   alt="Example, jQuery - Compound Selectors." />
 </p>
 
-You can also use compound selector, so if I wanted to get specifically
+<p>You can also use compound selector, so if I wanted to get specifically
 the age to inside of main we can do that as well so we can do main H
-two.
+two.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 44/45. set & test red border to main, h2 (31) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png"
-  style="width:35%"
+  style="width:40%"
   title="Set red border to main and h2 elements"
   alt="Set red border to main and h2 elements." />
 <img src="./images/image045.png"
-  style="width:35%"
+  style="width:40%"
   title="Test, red border in main and h2 elements"
   alt="Test, red border in main and h2 elements." />
 </p>
 
-Now this may not seem so special now because we have query selector and
+<p>Now this may not seem so special now because we have query selector and
 playing javascript which allows us to use compound selectors like this
 using the CSS index. You can get to these elements, easily inside of our
 page and you notice I don&apos;t have to do any kind of looping. So even if
@@ -1121,8 +1119,7 @@ I was using plain javascript, even now with query selector, all I would
 have to have some sort of loop or for each method or something like
 that, to go through and turn each one of these red. Whereas in
 <b>jQuery</b> I can very simply just grab the group and apply the CSS to it
-and applies it.
-
+and applies it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. red border around main, h2 (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1132,8 +1129,8 @@ and applies it.
   alt="Again, set border to red around main and h2 elements." />
 </p>
 
-So this thing returns a <b>jQuery</b> object, with these elements inside it
-and then we can apply that CSS to it.
+<p>So this thing returns a <b>jQuery</b> object, with these elements inside it
+and then we can apply that CSS to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. example, try these! (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1143,7 +1140,7 @@ and then we can apply that CSS to it.
   alt="Example, Try These!" />
 </p>
 
-There are more that you can try, so for example you can try Multiple
+<p>There are more that you can try, so for example you can try Multiple
 selectors, like I could say I want the H two and the paragraphs. I
 recommend trying these out I&apos;m not going to make you watch me type them
 all. I could get the even list items, or the first paragraph or the list
@@ -1151,13 +1148,12 @@ item that has an a northern list inside of it or a list item that
 contains the word three. So there&apos;s like all of these different ways of
 getting, content on your page. Now some things to pay attention to is
 that, <b>jQuery</b> does change over time and some of these that I have on
-this slide are deprecating now.
+this slide are deprecating now.</p>
 
-The best thing to do is, when you have a page and you have some
+<p>The best thing to do is, when you have a page and you have some
 elements, you need to get to be creative, use the documentation for
 <b>jQuery</b> to help you find the best way of getting to that element on
-the page.
-
+the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-06">1.06 jQuery Events (5:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1169,8 +1165,7 @@ the page.
   alt="1.06 jQuery Events." />
 </p>
 
-Let&apos;s look at how we can capture some events in <b>jQuery</b>.
-
+<p>Let&apos;s look at how we can capture some events in <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. example, jquery events (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1180,9 +1175,8 @@ Let&apos;s look at how we can capture some events in <b>jQuery</b>.
   alt="Example, jQuery Events." />
 </p>
 
-<b>jQuery</b> has its own special syntax for event handlers. So let&apos;s take
-a look at how to do that.
-
+<p><b>jQuery</b> has its own special syntax for event handlers. So let&apos;s take
+a look at how to do that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. $('a').click(function() (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1192,26 +1186,25 @@ a look at how to do that.
   alt="jQuery click function." />
 </p>
 
-If we come back over to our test page here, you can just comment this, I
+<p>If we come back over to our test page here, you can just comment this, I
 already deleted just to get rid of it. But I&apos;m going to target anchor
 tags on the page. So again, I&apos;m going to type my <b>jQuery</b> object, and
 in there, I&apos;m going to say <b>a</b>. That&apos;s going to go in and target all
 of these <b>anchor</b> tags on the page, all of those and all of these, and
 that&apos;s going to gather all those items and return them in this nice
-little <b>jQuery</b> object here. I&apos;m going to add a click handler.click.
+little <b>jQuery</b> object here. I&apos;m going to add a click handler.click.</p>
 
-So this click handler is going to fire when you click on any one of
+<p>So this click handler is going to fire when you click on any one of
 those anchor tags, and what I&apos;m going to pass in, make sure you type it
 this way, so you typing from the outside in. I&apos;m going to add in here a
 function like so with parentheses and curly braces. So this is an
 anonymous function. This is a function that&apos;s just going to run when
-this click handler happens.
+this click handler happens.</p>
 
-In here, I&apos;m just going to put <b>console.log</b>, and in here, I&apos;m going
+<p>In here, I&apos;m just going to put <b>console.log</b>, and in here, I&apos;m going
 to put <b>this.html</b>. That should put in the console the HTML of the
 link that I clicked. Because it&apos;s going to put this in all of the
-links, I can only click one link at a time.
-
+links, I can only click one link at a time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 51. test inspect, new link function (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1221,16 +1214,16 @@ links, I can only click one link at a time.
   alt="Test Inspect, New Link Function." />
 </p>
 
-Let&apos;s see what this does. If I come back to my example page here and
+<p>Let&apos;s see what this does. If I come back to my example page here and
 refresh it, and then turn on my inspector here, and turn on the console.
 If I click a link, <b>this.html</b> I&apos;m getting link one, or if I click
 sub link one, I get sub link one, or if I click link two, I get link
-two, link four, I get link four.
+two, link four, I get link four.</p>
 
-The thing to keep in mind is that <b>jQuery</b> is just plain JavaScript.
+<p>The thing to keep in mind is that <b>jQuery</b> is just plain JavaScript.
 It isn&apos;t a separate thing from JavaScript, it isn&apos;t a separate
 language, it is just JavaScript and you can mix in regular JavaScript
-with <b>jQuery.</b>
+with <b>jQuery.</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. summary, jquery library (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1240,7 +1233,7 @@ with <b>jQuery.</b>
   alt="Summary, jQuery Library." />
 </p>
 
-In summary, you&apos;ve learned a lot of new stuff. You can plug <b>jQuery</b>,
+<p>In summary, you&apos;ve learned a lot of new stuff. You can plug <b>jQuery</b>,
 like plugging the <b>jQuery</b> library either by downloading the library
 and putting it in with your files or you can use the <b>CDN</b>. You can
 use <b>jQuery</b> to capture events and to affect elements in the <b>DOM</b>,
@@ -1248,16 +1241,16 @@ there&apos;s a lot more to learn, but this is a good introduction to what
 <b>jQuery</b> does. It&apos;s just more JavaScript, but it makes doing some
 things a little bit easier, and it&apos;s still important to learn actual
 native, regular, plain vanilla JavaScript, especially as the need for
-<b>jQuery</b> in new projects is reduced.
+<b>jQuery</b> in new projects is reduced.</p>
 
-But if you get a job and you&apos;re working on a project, it&apos;s very likely
+<p>But if you get a job and you&apos;re working on a project, it&apos;s very likely
 that you&apos;ll be working with Legacy code and you&apos;ll encounter
 <b>jQuery</b>, or if you&apos;re looking around on the Internet, you&apos;re very
 likely to come up with solutions that are <b>jQuery</b> specific. Because
 it&apos;s been such a popular library, it&apos;s going to be around for a long
 time, and it&apos;s still important to learn how to work with it. Learning
 how to work with <b>jQuery</b> will help you learn how to work with
-JavaScript, so it&apos;s a two-way street.
+JavaScript, so it&apos;s a two-way street.</p>
 
 <!--
 <h3 id="ch1-06-pdf">PDF of Presentation</h3>
@@ -1278,7 +1271,7 @@ JavaScript, so it&apos;s a two-way street.
   alt="Intro to Folding Sidebar Menu Using JS." />
 </p>
 
-Folding sidebar menus using JavaScript.
+<p>Folding sidebar menus using JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 54. folding sidebar menus using js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1288,35 +1281,35 @@ Folding sidebar menus using JavaScript.
   alt="Folding Sidebar Menus Using JavaScript." />
 </p>
 
-You&apos;ve already learned a little bit of <b>jQuery</b>, but before we dive
+<p>You&apos;ve already learned a little bit of <b>jQuery</b>, but before we dive
 more into <b>jQuery</b>, we&apos;re going to do this project using plain
 JavaScript, and then we&apos;ll do the exact same project using <b>jQuery</b>.
 We&apos;re going to do this with a few different projects so you can see the
 difference between <b>jQuery</b> and JavaScript and how they work together,
-and some of the differences between the two.
+and some of the differences between the two.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55/56. the finished menus (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.png"
-  style="width:35%"
+  style="width:40%"
   title="Example, The Finished Menus &amp; Submenus"
   alt="Example, The Finished Menus &amp; Submenus." />
 <img src="./images/image056.png"
-  style="width:35%"
+  style="width:40%"
   title="Example, The Finished Menus"
   alt="Example, The Finished Menus." />
 </p>
 
-In this project, we&apos;re going to have a simple page and on the side of
+<p>In this project, we&apos;re going to have a simple page and on the side of
 the page, we have a menu, and when you click the menu item, it falls
 down and shows the sub-menu. When you click a sub-menu, well, one is
 already opened, it will close the other ones, that will limit the number
 of options your user has to see, and sometimes that can be really
 helpful for users in terms of cognitive load, you only want them to see
-a certain number of options at once.
+a certain number of options at once.</p>
 
-We&apos;ll look at how to build this in plain JavaScript first, and then
-we&apos;ll do the exact same project using <b>jQuery</b>.
+<p>We&apos;ll look at how to build this in plain JavaScript first, and then
+we&apos;ll do the exact same project using <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. a few notes about the markup (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1326,7 +1319,7 @@ we&apos;ll do the exact same project using <b>jQuery</b>.
   alt="A Few Notes About the Markup." />
 </p>
 
-Just a few notes about the markup. If you look at the markup, you&apos;ll
+<p>Just a few notes about the markup. If you look at the markup, you&apos;ll
 notice that the article comes first and the aside comes second. This is
 often important for search engine optimization, we want the important
 content further up the page. We&apos;ll use CSS flexbox with row-reverse to
@@ -1334,7 +1327,7 @@ display these next to each other, but put the navigation on the left.
 Generally, we want the article higher up on the page. Also notice that
 the navigation is following a very common markup scheme inside of a
 menu. This embedded, unordered list goes entirely inside the list item
-for the parent item. This is important to get in HTML.
+for the parent item. This is important to get in HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. article, h1, p's (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1344,8 +1337,8 @@ for the parent item. This is important to get in HTML.
   alt="Article tag followed by h1 and paragraphs." />
 </p>
 
-I have my page open and you can see the article comes first right after
-my main section opens there.
+<p>I have my page open and you can see the article comes first right after
+my main section opens there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 59. aside, nav, ul, li, ul, li - 1st li is menulink (39) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1355,12 +1348,12 @@ my main section opens there.
   alt="Aside, nav, ul, li, ul, li - the 1st li is menulink." />
 </p>
 
-Then the navigation is an unordered list with list items, but notice
+<p>Then the navigation is an unordered list with list items, but notice
 this list item is entirely enclosed in the parent list item. This is
 important to get right, and a lot of web developers get it wrong. The
 only items you&apos;re allowed to have is children of the ordered or
 unordered lists of list items. This unordered list needs to be entirely
-enclosed in this parent list item.
+enclosed in this parent list item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. sample, navigation link (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1370,8 +1363,8 @@ enclosed in this parent list item.
   alt="Sample screen, navigation link." />
 </p>
 
-These are the items that will show on the page, so over here currently
-without any JavaScript, these items will just show in here.
+<p>These are the items that will show on the page, so over here currently
+without any JavaScript, these items will just show in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 61. styles.css - main display flex, flex-direction row-reverse (40) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1381,11 +1374,11 @@ without any JavaScript, these items will just show in here.
   alt="In styles.css - main display flex, flex-direction row-reverse." />
 </p>
 
-That gets us started, and we&apos;re using just a little bit of CSS here as
+<p>That gets us started, and we&apos;re using just a little bit of CSS here as
 demonstrated on the styles to display flex for this main element, but
 use flex-direction and row-reverse to get the navigation on the left and
 the main content on the right. Now, with all that in place, let&apos;s get
-started with making this project work.
+started with making this project work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 62. example, basic strategy; show/hide menu (40) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1395,35 +1388,35 @@ started with making this project work.
   alt="Example, Basic Strategy; show/hide menu." />
 </p>
 
-The basic strategy of the script is that the sub-menu will be initially
+<p>The basic strategy of the script is that the sub-menu will be initially
 hidden, and then when you click on a parent menu, it will show the
 sub-menu. This will be accomplished by having JavaScript swap these two
-classes on the sub-menu when you click the parent menu.
+classes on the sub-menu when you click the parent menu.</p>
 
-Initially, the sub-menus, the unordered lists that are inside the list
+<p>Initially, the sub-menus, the unordered lists that are inside the list
 items that are inside the unordered lists, don&apos;t have the hide-menu
 class on them. Our first challenge is to write a loop that adds this
-class to all the sub-menus in the unordered list.
+class to all the sub-menus in the unordered list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 63/64. class hide-menu display none, show-menu display block (41) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png"
-  style="width:35%"
+  style="width:40%"
   title="New class hide-menu display none, show-menu display block"
   alt="New class hide-menu display none, show-menu display block." />
 <img src="./images/image064.png"
-  style="width:35%"
+  style="width:40%"
   title="Where to script will go in html file"
   alt="Where to script will go in html file." />
 </p>
 
-You&apos;ll see over here in the styles that these two styles are already
+<p>You&apos;ll see over here in the styles that these two styles are already
 here. Hide-menu, display: none, and show-menu display: block. Your first
 challenge is to write a little script, down here we&apos;ve got script tags.
 See if you can write a script that goes in and applies that sub-menu to
 that hide-menu class. We want to apply that to all of these unordered
 lists so they have class hide-menu on them. See if you can do that, and
-when we come back in the next lesson, we&apos;ll see how I did that.
+when we come back in the next lesson, we&apos;ll see how I did that.</p>
 
 <h3>Start Files: JS Folding Sidebar Menu</h3>
 
@@ -1444,7 +1437,7 @@ when we come back in the next lesson, we&apos;ll see how I did that.
   alt="1.08 Challenge 1 Solution." />
 </p>
 
-Were you successful? Were you able to do it? Let&apos;s do it together.
+<p>Were you successful? Were you able to do it? Let&apos;s do it together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 66. var submenus to hide/display menus (42) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1462,7 +1455,7 @@ Were you successful? Were you able to do it? Let&apos;s do it together.
   alt="Challenge 1 Answer." />
 </p>
 
-Down here, I&apos;m just going to make a variable, var <b>submenus</b>. Then
+<p>Down here, I&apos;m just going to make a variable, var <b>submenus</b>. Then
 assign that to <b>document.querySelectorAll</b>, and what I want to get are
 the <b>ul, il, ul</b>. There we go. Because what I want are these unordered
 lists that are inside the list items that are inside the parent
@@ -1473,7 +1466,7 @@ to do is to put that submenu on each of these. I&apos;m going to say
 submenus dot square bracket i. Each one of these, it&apos;s going to go
 through each one of these and then do <b>className</b> equals hide menu.
 Over here it&apos;s hide menu. Hide menu, display name, and that should go
-through and put that class on all of those elements.
+through and put that class on all of those elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 68. test inspect console, class hide-menu (44) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1483,14 +1476,14 @@ through and put that class on all of those elements.
   alt="Test inspect console, class hide-menu." />
 </p>
 
-Let&apos;s see if I did that right. Over here I&apos;ll go check my document
+<p>Let&apos;s see if I did that right. Over here I&apos;ll go check my document
 here, and this is exactly what I did, <b>className</b>, hide menu. Let&apos;s
 see if that actually works. We save that, come over here and refresh the
 page and look at that. All those menus are hidden, they&apos;re set to
 display none. I could do &quot;Inspect,&quot; and you can come in here and see.
 Click on this menu here or this one of these, one of these menus you can
 see it&apos;s got hide menu on it. Let&apos;s get that class on there. That&apos;s
-working great.
+working great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. add a click handler to main links (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1500,14 +1493,13 @@ working great.
   alt="Add a Click Handler to Main Links." />
 </p>
 
-Your next challenge is to add a click handler to the main links. These
+<p>Your next challenge is to add a click handler to the main links. These
 links here have a class on them of menulink. We want to gather those,
 and when you click on them, we want something to happen. We are going to
 need an event handler for that. For now, just pass the event object and
 prevent the default behavior from that would result from clicking the
 link. But see if you can do that on your own without looking at my
-solution. But we&apos;ll do it together in the next lesson.
-
+solution. But we&apos;ll do it together in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-09">1.09 Challenge 2 Solution (7:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1519,7 +1511,7 @@ solution. But we&apos;ll do it together in the next lesson.
   alt="1.09 Challenge 2 Solution." />
 </p>
 
-Let&apos;s do this together.
+<p>Let&apos;s do this together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. var submenu queryselectorall (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1528,10 +1520,10 @@ Let&apos;s do this together.
   alt="" />
 </p>
 
-First we need a variable, <b>var submenus = document.querySelectorAll('ul
+<p>First we need a variable, <b>var submenus = document.querySelectorAll('ul
 li ul');</b> and what do we want to get? We want to get these links here,
 this class menu link for this one, this one, this one down all those.
-I&apos;m going to come up share the document menu link.
+I&apos;m going to come up share the document menu link.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. challenge 2 answer (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1541,7 +1533,7 @@ I&apos;m going to come up share the document menu link.
   alt="Challenge 2 Answer." />
 </p>
 
-So we&apos;ll get those document in there, and then we need to loop. Used
+<p>So we&apos;ll get those document in there, and then we need to loop. Used
 your loop here, so we need a for var i equals 0, or i is less than menu
 links.length, i plus plus. Hopefully you&apos;re getting used to writing
 loops now. Then in here we&apos;re going to put an event listener on each
@@ -1550,7 +1542,7 @@ function(event){ event.prevenDefault(); alert("clicked!"); });</b> When
 you click, we&apos;re going to run an event unit run a function. Not run an
 event, we&apos;re going to run a function. We&apos;ve got this function here
 that runs. Then for right now all I want to do is pass in the event
-property, event object there, and do <b>event.preventDefault</b>.
+property, event object there, and do <b>event.preventDefault</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. test event listener menu links (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1560,9 +1552,9 @@ property, event object there, and do <b>event.preventDefault</b>.
   alt="Test new event listener menu links." />
 </p>
 
-But I have an event listener for each of these, and you can test it by
+<p>But I have an event listener for each of these, and you can test it by
 adding <b>console.log</b> or an alert. Now if I go over here and test this, when I click
-on one of these, I get clicked! We&apos;ve put an event listener on each of the menu links.
+on one of these, I get clicked! We&apos;ve put an event listener on each of the menu links.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. 'this' keyword in javascript (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1572,12 +1564,12 @@ on one of these, I get clicked! We&apos;ve put an event listener on each of the 
   alt="'This' Keyword in JavaScript." />
 </p>
 
-The next thing to get into is this keyword in JavaScript, and if you&apos;ve
+<p>The next thing to get into is this keyword in JavaScript, and if you&apos;ve
 looked up stuff on JavaScript online, you can find that you can find a
 lot about this keyword. It can be pretty confusing. But in the context
 in which we&apos;re going to use it in this course that this keyword is
 fairly simple. It basically means that the <b>menu</b> that we clicked on,
-we&apos;ve add an event listener to all the menus.
+we&apos;ve add an event listener to all the menus.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. test console log menu click (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1587,37 +1579,37 @@ we&apos;ve add an event listener to all the menus.
   alt="Test Console log menu click." />
 </p>
 
-Now when you click on one, we get an alert. But you can only click on
+<p>Now when you click on one, we get an alert. But you can only click on
 one menu at a time, so I want to know which one I clicked on. I need to
-know that, and the this keyword can help us figure that out.
+know that, and the this keyword can help us figure that out.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 76/77. var thismenu = this; alert(thismenu.innerhtml) (48) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.png"
-  style="width:35%"
+  style="width:40%"
   title="New var thisMenu = this"
   alt="New var thisMenu = this." />
 <img src="./images/image077.png"
-  style="width:35%"
+  style="width:40%"
   title="Test, alert(thisMenu.innerHTML)"
   alt="Test, alert(thisMenu.innerHTML)." />
 </p>
 
-I&apos;m going to make a variable here called <b>thisMenu</b>, and I&apos;m going
+<p>I&apos;m going to make a variable here called <b>thisMenu</b>, and I&apos;m going
 to assign the keyword <b>this</b> to it, which means <b>thisMenu</b>, the one
 that I clicked. Then I&apos;ll <b>console.log(thisMenu.innerHTML)</b>. You&apos;ll
 see that we can actually get the HTML of the menu that we collect.
 Let&apos;s do that over here. Instead of an alert here, I&apos;m going to say
 <b>var thisMenu</b> = this keyword. That means it refers to the thing that
-was clicked.
+was clicked.</p>
 
-Then we could do either console log or we could do to learn. I&apos;m just
+<p>Then we could do either console log or we could do to learn. I&apos;m just
 going to do an alert. Since we were working with alert, alert
 thisMenu.innerHTML. Instead quotes here because this was JavaScript not
 construe thisMenu.innerHTML. Alright, thisMenu.innerHTML, let see with
 architects. When I click this menu, I get an alert that says Menu 1.
 It&apos;s telling me what&apos;s the inner HTML of the menu that I clicked. Now
-we can get this menu using this keyword.
+we can get this menu using this keyword.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 78. identify list item to be shown/hidden (49) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1627,16 +1619,16 @@ we can get this menu using this keyword.
   alt="Identify list items to be shown/hidden." />
 </p>
 
-But really what we want to get to is the parent ordered list. Over here
+<p>But really what we want to get to is the parent ordered list. Over here
 we&apos;ve added a click handler onto when you click one of these links. But
 really what we want to get to is this list item. So that ultimately we
 can get down into the unordered list inside of here. The next challenge
 is now that we know, which menu we&apos;ve clicked on, we want to get to the
 unordered list inside that menu item. In other words, what we want over
 here is we have something that tells us that we&apos;ve clicked on this
-anchor tag.
+anchor tag.</p>
 
-But really what we want to get is this unordered list here, because this
+<p>But really what we want to get is this unordered list here, because this
 is the unordered list we added the class, hide menu to. Now we want to
 change the class to show menu. In other words we need to get from this
 link down here. The way we do that is through the parent. We can find
@@ -1644,7 +1636,7 @@ out, who is the parent of this item. Then on that parent do query
 selector to find the unordered list that&apos;s inside the parent list-item.
 See if you can do that part on your own, going into to try to do that
 challenge on your own, and then on the next lesson, I&apos;ll show you my
-solution for that.
+solution for that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1656,21 +1648,21 @@ solution for that.
   alt="1.10 Challenge 3 Solution." />
 </p>
 
-Were you able to figure that out? Hopefully you were.
+<p>Were you able to figure that out? Hopefully you were.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 80/81. menulink and menulinks event listeners (50) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png"
-  style="width:35%"
+  style="width:40%"
   title="Vars menulink and menulinks in event listeners"
   alt="Vars menulink and menulinks in event listeners." />
 <img src="./images/image081.png"
-  style="width:35%"
+  style="width:40%"
   title="Vars menulink and menulinks in event listeners"
   alt="Vars menulink and menulinks in event listeners." />
 </p>
 
-This is what I did, because I want to get, I&apos;m getting this, I&apos;ve got
+<p>This is what I did, because I want to get, I&apos;m getting this, I&apos;ve got
 the anchor tags as my event listeners for when I click on them, but I
 want to really get to this UR, so, down here what I did instead of just
 this, I can do this dot parent node, parent node dot query selector. You
@@ -1679,7 +1671,7 @@ parent of the anchor tag that I clicked on. The parent is the list item.
 So I&apos;m going up to the parent list. I have been looking for the UR
 that&apos;s inside that will start them, and let&apos;s leave this. We&apos;ll leave
 this alert here. But you can make it console log if you prefer. It
-doesn&apos;t really matter.
+doesn&apos;t really matter.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 82. test alert(thismenu.innerhtml) (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1689,12 +1681,12 @@ doesn&apos;t really matter.
   alt="Test alert(thisMenu.innerHTML)." />
 </p>
 
-And now when I click on menu one, I&apos;m getting all of these list items,
+<p>And now when I click on menu one, I&apos;m getting all of these list items,
 it looks kind of messy here, but it is actually working. Or if I click
 on menu two, I&apos;m getting all these list items to B to C. So, I&apos;ve got
 this whole an ordered list that I&apos;m getting here. It might be easier to
 see it if you do it in a console log. So, we can change this to council
-a log and then let&apos;s see what it does.
+a log and then let&apos;s see what it does.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. challenge 3 answer (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1946,12 +1938,12 @@ called <b>hideSubmenus</b>.
   title="Script, hidesubmenus"
   alt="Script, hidesubmenus." />
 
-I need to run that function here and run it once here and then I&apos;m
+<p>I need to run that function here and run it once here and then I&apos;m
 going to run it again down here. It just makes the code a little bit
 more readable because in here, I can see if it contains hide all the
 submenus and then show this particular menu. Otherwise, if this one
 doesn&apos;t have class list hide menu on it, said it&apos;s a hide menu and
-that should actually work.
+that should actually work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. test, hidesubmenus (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1960,9 +1952,9 @@ that should actually work.
   title="Test, hidesubmenus"
   alt="Test, hidesubmenus." />
 
-So let&apos;s just test that really quickly, make sure that that works the
+<p>So let&apos;s just test that really quickly, make sure that that works the
 way we think it should work. Back over here and refresh the page and you
-can see that it&apos;s still working just the way I intended it to work.
+can see that it&apos;s still working just the way I intended it to work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. example, challenge 7 answer (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1998,9 +1990,9 @@ answers.</p>
   title="1.15 Challenge 8 Solution"
   alt="1.15 Challenge 8 Solution." />
 
-Our last step is really to just use some best practice work and clean up
+<p>Our last step is really to just use some best practice work and clean up
 our files and make everything work the way we want it to work here at
-the end.
+the end.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 101. script.js, function 'use strict' (63) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2009,7 +2001,7 @@ the end.
   title="New file, script.js, add function with 'use strict'"
   alt="New file, script.js, add function with 'use strict'." />
 
-You should be able to do this on your own, but I will show you how I did
+<p>You should be able to do this on your own, but I will show you how I did
 it here. First, I&apos;m going to just make a new file, and you call it
 <b>script.js</b>, that makes sense. Then on this file I&apos;m going to add my
 <b>IIFE</b> immediately invoked function expression, with the parentheses
@@ -2017,47 +2009,45 @@ and in there at function. The function has its own parentheses in its
 curly braces. Then we add an extra pair of closing parentheses there.
 Then we&apos;re going to click inside of here, down in it &amp; use strict
 directive here, like so. Then in here we&apos;re going to add all of our
-code.
-
+code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. both halves of script (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png"
-  style="width:35%"
+  style="width:40%"
   title="Top half of script"
   alt="Top half of script." />
 <img src="./images/image103.png"
-  style="width:35%"
+  style="width:40%"
   title="Bottom half of script"
   alt="Bottom half of script." />
 </p>
 
-We can take all of the stuff from here (lines 69-97), cut it, and paste
+<p>We can take all of the stuff from here (lines 69-97), cut it, and paste
 it inside <b>script.js</b>. Now we just need to go through and clear up our
 function declarations and change this to <b>const</b>. Down here, because
 we&apos;re going to loop, this needs to be length, this <b>var</b> needs to be
 <b>let</b>. Then down here, this can be <b>const</b>. Sometimes it&apos;s nice to
-have your main variables all up at the top of the page.
-
+have your main variables all up at the top of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 104/105. script.js with function hidesubmenus (64) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png"
-  style="width:35%"
+  style="width:40%"
   title="First 21 lines of script.js"
   alt="First 21 lines of script.js." />
 <img src="./images/image105.png"
-  style="width:35%"
+  style="width:40%"
   title="Last 6 lines (9-21 overlap) of script.js"
   alt="Last 6 lines (9-21 overlap) of script.js." />
 </p>
 
-We save that file back here and an <b>index.html</b> file. We&apos;d get rid of
+<p>We save that file back here and an <b>index.html</b> file. We&apos;d get rid of
 these script tags from down here, bottom of a page. Instead we can put
 them up here in our head. Script <b>SRC ="script.js"</b> set it to defer to
 the close script tab. Then always of course, go back and test it to make
 sure that you didn&apos;t screw something up. You can open the menus, you
-can close the menus.
+can close the menus.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 106. index, head script src=script.js defer (65) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2066,9 +2056,9 @@ can close the menus.
   title="Index, in head add script src='script.js' defer"
   alt="Index, in head add script src='script.js' defer." />
 
-Only one menu can be opened at a time, which is exactly what I wanted
+<p>Only one menu can be opened at a time, which is exactly what I wanted
 for this particular project. That&apos;s all working great. We were able to
-get our final script working, get everything cleaned up in here.
+get our final script working, get everything cleaned up in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. example, challenge 8 answer (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2077,10 +2067,10 @@ get our final script working, get everything cleaned up in here.
   title="Example, Challenge 8 Answer"
   alt="Example, Challenge 8 Answer." />
 
-This is how we could do a project like this in plain JavaScript. In the
+<p>This is how we could do a project like this in plain JavaScript. In the
 next part of this lesson, we will look at how to do the exact same
 script, exact same thing using <b>jQuery</b>. You&apos;ll see how much shorter
-and how much more compact that script is.
+and how much more compact that script is.</p>
 
 <h3 id="ch1-15-pdf">PDF of Presentation</h3>
 
@@ -2100,7 +2090,7 @@ and how much more compact that script is.
   title="1.16 Intro to jQuery Sidebar Folding Navigation"
   alt="1.16 Intro to jQuery Sidebar Folding Navigation." />
 
-<b>jQuery</b> SideBar Folding Navigation.
+<p><b>jQuery</b> SideBar Folding Navigation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 109. intro to jquery sidebar folding navigation (66) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2109,10 +2099,10 @@ and how much more compact that script is.
   title="Intro to jQuery Sidebar Folding Navigation"
   alt="Intro to jQuery Sidebar Folding Navigation." />
 
-For this project we&apos;ll use <b>jQuery</b>. We did this exact same project
+<p>For this project we&apos;ll use <b>jQuery</b>. We did this exact same project
 using plain JavaScript in the previous lesson. But now we&apos;re back to
 where we started with just these menus folded out and we want to do the
-whole same thing again, except using <b>jQuery</b>.
+whole same thing again, except using <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. test, menu & submenu (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2121,11 +2111,11 @@ whole same thing again, except using <b>jQuery</b>.
   title="Test, Menu and Submenu"
   alt="Test, Menu and Submenu." />
 
-This will be a really great way for you to see the difference between
+<p>This will be a really great way for you to see the difference between
 <b>jQuery</b> and JavaScript, using plain vanilla JavaScript. <b>jQuery</b> is
 JavaScript, but the syntax is slightly different, and you&apos;ll see how
 much shorter this script is when we get done with it, and how easy it is
-to do this interaction using <b>jQuery</b>.
+to do this interaction using <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. example, project objective (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2134,9 +2124,9 @@ to do this interaction using <b>jQuery</b>.
   title="Example, Project Objective"
   alt="Example, Project Objective." />
 
-Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
+<p>Yeah, we&apos;re going to do the exact same thing. The only thing that&apos;s
 different about the start file in this case, is that it includes a link
-to the <b>jQuery</b> library on the CDN.
+to the <b>jQuery</b> library on the CDN.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. jquery api v3.7.1 (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2145,8 +2135,8 @@ to the <b>jQuery</b> library on the CDN.
   title="3.7.1 jquery.min.js google apis"
   alt="3.7.1 jquery.min.js google apis." />
 
-Down here at the bottom of the file, this is the only thing that&apos;s
-different, is I&apos;m including this extra script.
+<p>Down here at the bottom of the file, this is the only thing that&apos;s
+different, is I&apos;m including this extra script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example, hiding the submenus (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2155,11 +2145,11 @@ different, is I&apos;m including this extra script.
   title="Example, Hiding the Submenus"
   alt="Example, Hiding the Submenus." />
 
-First thing we&apos;re going to do, is we&apos;re going to set all of those
+<p>First thing we&apos;re going to do, is we&apos;re going to set all of those
 initial list items to not display. In the previous version of this
 project, we had some classes set up for Hide menu and Show menu. But
 here we&apos;re going to use the <b>CSS</b> property to set display to none.
-We&apos;ll see an even easier way in just a minute.
+We&apos;ll see an even easier way in just a minute.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. ul li ul display: none (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2168,14 +2158,14 @@ We&apos;ll see an even easier way in just a minute.
   title="ul li ul display: none;"
   alt="ul li ul display: none;" />
 
-But let&apos;s do this first so you can see what it does. Down here, I&apos;m
+<p>But let&apos;s do this first so you can see what it does. Down here, I&apos;m
 going to use my <b>jQuery</b> object, and write it like this from the
 outside. I&apos;m going to use my <b>jQuery</b> object like that. I&apos;m going to
 use quotes to say go in and get ul, li, ul. This is the unordered list
 that&apos;s inside the list item that&apos;s inside the unordered list. That&apos;s
 these list items that are inside these unordered list items that are
 inside this unordered list. I&apos;m going to do,.CSS &apos;&apos;display,&apos;&apos;
-&apos;&apos;none&apos;&apos;.
+&apos;&apos;none&apos;&apos;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 115. test inspect console ul style display none (69) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2184,9 +2174,9 @@ inside this unordered list. I&apos;m going to do,.CSS &apos;&apos;display,&apos;
   title="Test Inspect Console ul style display none"
   alt="Test Inspect Console ul style display none." />
 
-You&apos;ll see when I do this over here, if I test the page, they all go
+<p>You&apos;ll see when I do this over here, if I test the page, they all go
 away, and if I inspect this, you&apos;ll see they have displayed style,
-display none over here.
+display none over here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 116. example, hide() helper function (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2195,11 +2185,11 @@ display none over here.
   title="Example, Hide() Helper Function"
   alt="Example, Hide() Helper Function." />
 
-Now, as it turns out, there&apos;s actually an easier way of doing that,
+<p>Now, as it turns out, there&apos;s actually an easier way of doing that,
 because <b>jQuery</b> has a bunch of helper functions built in. One of them
 is hide. Since frequently we want to hide things on our page, they
 created a helper function called hide, which hides those elements.
-That&apos;s even easier than using the CSS method here.
+That&apos;s even easier than using the CSS method here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. $('ul li ul').hide(); (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2208,7 +2198,7 @@ That&apos;s even easier than using the CSS method here.
   title="$('ul li ul').hide();"
   alt="$('ul li ul').hide();" />
 
-If I just put hide there, and then come back and test it, you&apos;ll see
+<p>If I just put hide there, and then come back and test it, you&apos;ll see
 the menus are hidden. Not only that, but if I inspect and look in there,
 you&apos;ll see it&apos;s still says, display none there. This is actually doing
 the exact same thing but using the CSS method, but instead we&apos;re using
@@ -2217,7 +2207,7 @@ built-in. <b>jQuery</b> is a bunch of these built-in for doing common
 tasks. We&apos;ll see another one of these convenient helper functions in
 just a minute. We&apos;ve got that going, and we&apos;re ready to start building
 in our Click-Handler and doing all that fun stuff. We&apos;ll do that in the
-next lesson.
+next lesson.</p>
 
 <h3>Start Files: jQuery Folding Menu</h3>
 
@@ -2237,8 +2227,8 @@ next lesson.
   title="1.17 Getting the Next UL"
   alt="1.17 Getting the Next UL." />
 
-Just like we did in the plain Javascript version of this script, we need
-to know which menu was clicked.
+<p>Just like we did in the plain Javascript version of this script, we need
+to know which menu was clicked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. example, get the next ul (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2247,14 +2237,14 @@ to know which menu was clicked.
   title="Example, Get the Next UL"
   alt="Example, Get the Next UL." />
 
-Once again, we&apos;re going to use the <b>this</b> keyword in order to get the
+<p>Once again, we&apos;re going to use the <b>this</b> keyword in order to get the
 menu that was clicked. However, this time we&apos;re going to wrap it up
 inside of a <b>jQuery</b> object. So down here, you can see we&apos;ve got
 this, but it&apos;s inside a <b>jQuery</b> object. Then we&apos;re going to use the
 handy next method that <b>jQuery</b> has built in. And in the plain
 Javascript version, remember what we had to do was we had to go get that
 parent object and then find the <b>ul</b> inside the parent. But here we
-can actually use the <b>next</b> method to get the next ul.
+can actually use the <b>next</b> method to get the next ul.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. html a tag menu links (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2263,10 +2253,10 @@ can actually use the <b>next</b> method to get the next ul.
   title="HTML 'a' tag menu links"
   alt="HTML 'a' tag menu links." />
 
-Because remember, what users are doing is they&apos;re clicking on this link
+<p>Because remember, what users are doing is they&apos;re clicking on this link
 here, this anchor tag. And I want to get the next <b>ul</b> that comes
 after that. And <b>jQuery</b> has this helper function that&apos;s very useful
-for that.
+for that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. thismenu for next ul (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2275,11 +2265,11 @@ for that.
   title="New var thisMenu for next Unordered List item"
   alt="New var thisMenu for next Unordered List item." />
 
-Let&apos;s come down here and add that into here. We&apos;re going to make a
+<p>Let&apos;s come down here and add that into here. We&apos;re going to make a
 variable, <b>var thisMenu</b> is assigned. We&apos;re going to use the
 <b>jQuery</b> object to get this. And then we&apos;re going to use the
 .<b>next</b> method to go get the next <b>ul</b>. And that will get the <b>ul</b>
-that comes up after this particular anchor tag that we&apos;ve clicked on.
+that comes up after this particular anchor tag that we&apos;ve clicked on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. console.log thismenu (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2288,12 +2278,12 @@ that comes up after this particular anchor tag that we&apos;ve clicked on.
   title="console.log thisMenu .html"
   alt="console.log thisMenu .html." />
 
-And just to see that this works, I&apos;m going to say, <b>console.log(
+<p>And just to see that this works, I&apos;m going to say, <b>console.log(
 thisMenu. .html())</b>. This html(), this is a <b>jQuery</b> method that will
 generate the <b>html</b>. So let&apos;s see what we get if we test this. If I
 come over to my page and refresh and then turn on my inspector to get
 the Console log here and click on this menu, you can see that I&apos;m
-getting that <b>html</b>.
+getting that <b>html</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example, showing the hidden menu (74) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2302,14 +2292,14 @@ getting that <b>html</b>.
   title="Example, Showing the Hidden Menu"
   alt="Example, Showing the Hidden Menu." />
 
-The next thing we need to do is check to see if the menu is showing or
+<p>The next thing we need to do is check to see if the menu is showing or
 hidden or not. And we can do that with this sort of function here. We
 could say if this menu is visible, and there&apos;s a method called is in
 <b>jQuery</b> that will allow us to check for something. Here, visible is a
 filter that will allow us to see if a particular element is visible, in
 which case then we can hide it or we could show it. Now, we could do
 this and this works if you wanted to do it this way. And the is method
-is sometimes very helpful in <b>jQuery</b>.
+is sometimes very helpful in <b>jQuery</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. example, do this instead (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2318,10 +2308,10 @@ is sometimes very helpful in <b>jQuery</b>.
   title="Example, Do This Instead"
   alt="Example, Do This Instead." />
 
-However, in this case there is another helper function, a convenient
+<p>However, in this case there is another helper function, a convenient
 helper function that will do the same thing in a nice, simple way. And
 that is toggle, <b>thisMenu.toggle</b>. That&apos;s all we need to do, so that
-if it&apos;s showing hide it, if it&apos;s hiding show it.
+if it&apos;s showing hide it, if it&apos;s hiding show it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 125. hide all menu options, on click, toggle (75) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2330,11 +2320,11 @@ if it&apos;s showing hide it, if it&apos;s hiding show it.
   title="Hide all menu options, on click, toggle"
   alt="Hide all menu options, on click, toggle." />
 
-Let&apos;s add that into our script over here. I can just say
+<p>Let&apos;s add that into our script over here. I can just say
 <b>thisMenu.toggle</b>. Very helpful, convenient function in <b>jQuery</b>
-that you could use in many situations.
+that you could use in many situations.</p>
 
-Now you&apos;ll notice that we&apos;re back to where we were after numerous
+<p>Now you&apos;ll notice that we&apos;re back to where we were after numerous
 lines of code before in plain Javascript where we can open the menus and
 we can close the menus. Unfortunately, we can still open all the menus
 and close all the menus, which is not exactly what we want. But we&apos;re
@@ -2342,12 +2332,11 @@ close with just a couple lines of <b>jQuery</b>. And part of the reason why
 it&apos;s so short is that we don&apos;t need loops because <b>jQuery</b> works
 with groups of <b>objects</b> like this. And it&apos;s got these helper
 functions built in, so we don&apos;t have to write the if statement and do
-all of that.
+all of that.</p>
 
-The last part of the script we need to figure out is how to make it so
+<p>The last part of the script we need to figure out is how to make it so
 that when I click on one menu, it closes all of the menus and then only
-opens the one that I clicked on. And we&apos;ll do that in the next lesson.
-
+opens the one that I clicked on. And we&apos;ll do that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-18">1.18 The Whole Script (5:59)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2358,8 +2347,8 @@ opens the one that I clicked on. And we&apos;ll do that in the next lesson.
   title="1.18 The Whole Script"
   alt="1.18 The Whole Script." />
 
-To get this final piece of functionality that we want, we need one more
-line in our script.
+<p>To get this final piece of functionality that we want, we need one more
+line in our script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. example, the whole script (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2368,11 +2357,11 @@ line in our script.
   title="Example, The Whole Script"
   alt="Example, The Whole Script." />
 
-And it&apos;s just a short simple little line that we need to add and it
+<p>And it&apos;s just a short simple little line that we need to add and it
 will introduce us to yet another convenient function built into
 <b>jQuery</b> which is the <b>not</b> method here. And what that does is it
 excludes a particular item from a function, we can chain these functions
-together.
+together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 128. select all ul's, hide, toggle clicked menus (77) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2381,20 +2370,19 @@ together.
   title="Select and hide all ul's. Toggle the clicked submenu"
   alt="Select and hide all ul's. Toggle the clicked submenu." />
 
-So here we&apos;re going to say go get all of the unordered lists that are
+<p>So here we&apos;re going to say go get all of the unordered lists that are
 inside the list item, that are inside the not word lists, those are sub
 menus. But not the one that we clicked on. And we&apos;re going to hide all
 of the other ones, but not the one that we clicked on, because that may
 be hidden already or we may want to show it, and then we can do the menu
 toggle and it will work. Just one last little line, let&apos;s go ahead and
-put this in over here.
+put this in over here.</p>
 
-Once again I&apos;m going to use my <b>jQuery</b> object to go in and get the
+<p>Once again I&apos;m going to use my <b>jQuery</b> object to go in and get the
 <b>ul li ul</b>. The unordered list that are inside the list items are
 inside the an ordered list is our sub menus. But not this menu, the one
 that I clicked on. That one I don&apos;t want to be affected by this line at
-all. And then I&apos;m going to do hide, make sure all of those are hidden.
-
+all. And then I&apos;m going to do hide, make sure all of those are hidden.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. test, menu click, unclick (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2403,9 +2391,9 @@ all. And then I&apos;m going to do hide, make sure all of those are hidden.
   title="Test, menu click, unclick"
   alt="Test, menu click, unclick." />
 
-Let&apos;s come back and test it. I can open a menu, I can open the next
+<p>Let&apos;s come back and test it. I can open a menu, I can open the next
 menu, I can close the menu. And I&apos;m getting exactly the functionality
-that I had before.
+that I had before.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 130. move all to external script & use strict (78) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4751,8 +4739,8 @@ hidden class, so that the opacity comes up to 100%.</p>
 <p align="center" width="100%">
 <img src="./images/image263.png"
   style="width:50%"
-  title="SetTimeout(function(){}, 20);"
-  alt="SetTimeout(function(){}, 20);" />
+  title="setTimeout function, 20 seconds"
+  alt="setTimeout function, 20 seconds." />
 </p>
 
 <p>And to make it wait, we&apos;re going to use a method in Javascript that we
