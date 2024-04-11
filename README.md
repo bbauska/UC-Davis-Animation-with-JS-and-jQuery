@@ -143,10 +143,10 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**2.18 Handling the Switch**](#ch2-18)
 >#### [**2.19 Fixing a Bug**](#ch2-19)
 >#### [**2.20 Cleaning Up the Code**](#ch2-20)
-	>	- #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
+>	- #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
 
 ### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
-	>	- #### [**3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation**](#ch3-00-obj)
+>	- #### [**3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation**](#ch3-00-obj)
 >#### [**3.01 Basic Slider**](#ch3-01)
 >	- #### [**3.01 Slider-V1-START.zip**](#ch3-01-zip)
 >#### [**3.02 Making the Script General**](#ch3-02)
