@@ -42,7 +42,11 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-### [<b>Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</b>](#ch1)
+<!-- ### [<b>Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</b>](#ch1) -->
+
+<ol start="1">
+  <li><h3><a href="ch1">Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</a></h3></li>
+</ol>
 
 <ul>
   <li><h4><a href="#ch1-00-note" target="_blank" rel="noopener noreferrer">
@@ -52,8 +56,10 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
   <li><h4><a href="#ch1-00-obj" target="_blank" rel="noopener noreferrer">
     1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &amp; JS</a></h4></li>
 </ul>
-  
->#### [<b>1.01 Module 1 Introduction to jQuery</b>](#ch1-01)
+
+<ol>
+  <li><h4><a href="#ch1-01>Module 1 Introduction to jQuery</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./zip/1.01-jQuery-START.zip" 
@@ -61,12 +67,14 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.01 jQuery-START.zip (download)</a></h4></li>
 </ul>
 
->#### [<b>1.02 jQuery Libraries</b>](#ch1-02)
->#### [<b>1.03 Plugging into jQuery Libraries</b>](#ch1-03)
->#### [<b>1.04 Basic jQuery Syntax</b>](#ch1-04)
->#### [<b>1.05 Using jQuery to Access Elements</b>](#ch1-05)
->#### [<b>1.06 jQuery Events</b>](#ch1-06)
->#### [<b>1.07 Intro to JavaScript Folding Sidebar Menus Using JS</b>](#ch1-07)
+<ol start="2">
+  <li><h4><a href="#ch1-02">1.02 jQuery Libraries</a></h4></li>
+  <li><h4><a href="#ch1-03">1.03 Plugging into jQuery Libraries</a></h4></li>
+  <li><h4><a href="#ch1-04">1.04 Basic jQuery Syntax</a></h4></li>
+  <li><h4><a href="#ch1-05">1.05 Using jQuery to Access Elements</a></h4></li>
+  <li><h4><a href="#ch1-06">1.06 jQuery Events</a></h4></li>
+  <li><h4><a href="#ch1-07">1.07 Intro to JavaScript Folding Sidebar Menus Using JS</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
@@ -74,14 +82,16 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.07 JS-Folding-SideBar-Menus-START.zip (download)</a></h4></li>
 </ul>
 
->#### [<b>1.08 Challenge 1 Solution</b>](#ch1-08)
->#### [<b>1.09 Challenge 2 Solution</b>](#ch1-09)
->#### [<b>1.10 Challenge 3 Solution</b>](#ch1-10)
->#### [<b>1.11 Challenge 4 Solution</b>](#ch1-11)
->#### [<b>1.12 Challenge 5 Solution</b>](#ch1-12)
->#### [<b>1.13 Challenge 6 Solution</b>](#ch1-13)
->#### [<b>1.14 Challenge 7 Solution</b>](#ch1-14)
->#### [<b>1.15 Challenge 8 Solution</b>](#ch1-15)
+<ol start="8">
+  <li><h4><a href="#ch1-08">1.08 Challenge 1 Solution</a></h4></li>
+  <li><h4><a href="#ch1-09">1.09 Challenge 2 Solution</a></h4></li>
+  <li><h4><a href="#ch1-10">1.10 Challenge 3 Solution</a></h4></li>
+  <li><h4><a href="#ch1-11">1.11 Challenge 4 Solution</a></h4></li>
+  <li><h4><a href="#ch1-12">1.12 Challenge 5 Solution</a></h4></li>
+  <li><h4><a href="#ch1-13">1.13 Challenge 6 Solution</a></h4></li>
+  <li><h4><a href="#ch1-14">1.14 Challenge 7 Solution</a></h4></li>
+  <li><h4><a href="#ch1-15">1.15 Challenge 8 Solution</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
@@ -89,7 +99,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.15 Folding-Sidebar-Menus-with-JS.pdf</a></h4></li>
 </ul>
 
->#### [<b>1.16 Intro to jQuery Folding SideBar Menu Navigation</b>](#ch1-16)
+<ol>
+  <li><h4><a href="#ch1-16>1.16 Intro to jQuery Folding SideBar Menu Navigation</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
@@ -97,17 +109,20 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
     1.16 jQuery-Folding-Menus-START.zip</a></h4></li>
 </ul>
 
-
->#### [<b>1.17 Getting the Next UL</b>](#ch1-17)
->#### [<b>1.18 The Whole Script</b>](#ch1-18)
+<ol>
+  <li><h4><a href="#ch1-17>1.17 Getting the Next UL</a></h4></li>
+  <li><h4><a href="#ch1-18>1.18 The Whole Script</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
     target="_blank" rel="noopener noreferrer">
 	1.18 Folding-Sidebar-Menus-with-jQuery.pdf</a></h4></li>
 </ul>
-	
->#### [<b>1.19 JavaScript and jQuery Challenge Activities</b>](#ch1-19)
+
+<ol>
+  <li><h4><a href="#ch1-19>1.19 JavaScript and jQuery Challenge Activities</a></h4></li>
+</ol>
 
 <ul>
   <li><h4><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
