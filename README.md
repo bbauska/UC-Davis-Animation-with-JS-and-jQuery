@@ -58,7 +58,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 <ol type="1" start="01">
-  <li><h4><a href="#ch1-01>Module 1 Introduction to jQuery</a></h4></li>
+  <li><h4><a href="#ch1-01">Module 1 Introduction to jQuery</a></h4></li>
 </ol>
 
 <ul>
@@ -100,7 +100,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 <ol type="1" start="16">
-  <li><h4><a href="#ch1-16>1.16 Intro to jQuery Folding SideBar Menu Navigation</a></h4></li>
+  <li><h4><a href="#ch1-16">1.16 Intro to jQuery Folding SideBar Menu Navigation</a></h4></li>
 </ol>
 
 <ul>
@@ -110,8 +110,8 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 <ol type="1" start="17">
-  <li><h4><a href="#ch1-17>1.17 Getting the Next UL</a></h4></li>
-  <li><h4><a href="#ch1-18>1.18 The Whole Script</a></h4></li>
+  <li><h4><a href="#ch1-17">1.17 Getting the Next UL</a></h4></li>
+  <li><h4><a href="#ch1-18">1.18 The Whole Script</a></h4></li>
 </ol>
 
 <ul>
@@ -121,7 +121,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 <ol type="1" start="19">
-  <li><h4><a href="#ch1-19>1.19 JavaScript and jQuery Challenge Activities</a></h4></li>
+  <li><h4><a href="#ch1-19">1.19 JavaScript and jQuery Challenge Activities</a></h4></li>
 </ol>
 
 <ul>
