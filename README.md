@@ -118,7 +118,13 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 ### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
 >	- #### [**2.00 Learning Objectives; Animating Web Page Elements**](#ch2-00-obj)
 >#### [**2.01 Introduction to the jQuery Effects Library**](#ch2-01)
->	- #### [**2.01 jQuery-Animation-START.zip**](#ch2-01-zip)
+
+<ul>
+  <li><h4><a href="./zip/2.01-jQuery-Animation-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	2.01 jQuery-Animation-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**2.02 Example 1 continued**](#ch2-02)
 >#### [**2.03 Example 2**](#ch2-03)
 >#### [**2.04 Example 2:Plugin Architecture**](#ch2-04)
@@ -127,67 +133,155 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**2.07 Example 4: Custom Animations - Part 1**](#ch2-07)
 >#### [**2.08 Example 4: Custom Animations - Part 2**](#ch2-08)
 >#### [**2.09 Doing All Animations at Once**](#ch2-09)
+
+
 >	- #### [**2.09 jQuery-Effects-Library.pdf**](#ch2-09-pdf)
 >#### [**2.10 Intro to Tabbed Interface Using jQuery**](#ch2-10)
->	- #### [**2.10 jQuery-Tabs-START.zip**](#ch2-10-zip)
+
+<ul>
+  <li><h4><a href="./zip/2.10-jQuery-Tabs-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	2.10 jQuery-Tabs-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**2.11 Styling the Anchor Tags**](#ch2-11)
 >#### [**2.12 Tab Styling and Colors**](#ch2-12)
 >#### [**2.13 Clicking and Fading Tabs**](#ch2-13)
 >#### [**2.14 Whole Script**](#ch2-14)
->	- #### [**2.14 Tab-Interface-with-jQuery.pdf**](#ch2-14-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	2.14 Tab-Interface-with-jQuery.pdf (download)</a></h4></li>
+</ul>
+
 >#### [**2.15 Getting the CSS Ready**](#ch2-15)
->	- #### [**2.15 JS-Tabs-START.zip**](#ch2-15-zip)
+
+<ul>
+  <li><h4><a href="./zip/2.15-JS-Tabs-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	2.15 JS-Tabs-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**2.16 Making the Tabs Work**](#ch2-16)
 >#### [**2.17 New Tab and Old Tab**](#ch2-17)
 >#### [**2.18 Handling the Switch**](#ch2-18)
 >#### [**2.19 Fixing a Bug**](#ch2-19)
 >#### [**2.20 Cleaning Up the Code**](#ch2-20)
+
+<ul>
+  <li><h4><a href="./pdf/2.20-JS-Tabbed-Interace.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	2.20 JS-Tabbed-Interface.pdf (download)</a></h4></li>
+</ul>
+
 >	- #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
 
 ### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
 >	- #### [**3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation**](#ch3-00-obj)
 >#### [**3.01 Basic Slider**](#ch3-01)
->	- #### [**3.01 Slider-V1-START.zip**](#ch3-01-zip)
+
+<ul>
+  <li><h4><a href="./zip/3.01-Slider-V1-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	3.01 Slider-V1-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**3.02 Making the Script General**](#ch3-02)
 >#### [**3.03 Window Load Function**](#ch3-03)
 >#### [**3.04 Click Handler for Next Button**](#ch3-04)
 >#### [**3.05 Next Click Handler with If Statement**](#ch3-05)
 >#### [**3.06 Challenge Solution**](#ch3-06)
->	- #### [**3.06 jQuery-Image-Slider-V1.pdf**](#ch3-06-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	3.06 jQuery-Image-Slider-V1.pdf (download)</a></h4></li>
+</ul>
+
 >#### [**3.07 Strategy for Version 2**](#ch3-07)
 >#### [**3.08 Cloning the Unordered List**](#ch3-08)
 >#### [**3.09 Setting the Left Position**](#ch3-09)
 >#### [**3.10 Adding a Callback Function**](#ch3-10)
 >#### [**3.11 Previous Button Click Handler - Part 1**](#ch3-11)
 >#### [**3.12 Previous Button Click Handler - Part 2**](#ch3-12)
->	- #### [**3.12 jQuery-Image-Slider-V2.pdf**](#ch3-12-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/3.12-Slider-Using-JavaScript-V2.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	3.12 Slider-Using-JavaScript-V2.pdf (download)</a></h4></li>
+</ul>
+
 >#### [**3.13 Slider Using JavaScript**](#ch3-13)
->	- #### [**3.13 JS-Image-Slider-V3-START.zip**](#ch3-13-zip)
+
+<ul>
+  <li><h4><a href="./zip/3.13-JS-Image-Slider-V3-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	3.13 JS-Image-Slider-V3-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**3.14 CSS for Slides and Adding Variables**](#ch3-14)
 >#### [**3.15 Adding More Variables**](#ch3-15)
 >#### [**3.16 Event Handler for the Next Button**](#ch3-16)
 >#### [**3.17 Solution for the Previous Button Challenge**](#ch3-17)
->	- #### [**3.17 JS-Image-Slider.pdf**](#ch3-17-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/3.17-JS-Image-Slider.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	3.17 JS-Image-Slider.pdf (download)</a></h4></li>
+</ul>
 
 ### [**Week 4: Timers and Recursion in JavaScript &amp; jQuery**](#ch4)
 >	- #### [**4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery**](#ch4-00-obj)
->	- #### [**4.00 JS-Timers-Examples-START.zip**](#ch4-00-zip)
+
+<ul>
+  <li><h4><a href="./zip/4.00-JS-Timers-Examples-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.00 JS-Timers-Examples-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**4.01 Example Script #1 - Part 1**](#ch4-01)
 >#### [**4.02 Example Script #1 - Part 2**](#ch4-02)
 >#### [**4.03 Example Script #2**](#ch4-03)
 >#### [**4.04 Example Script #3 - Recursion**](#ch4-04)
->	- #### [**4.04 JS-Timers-Recursion.pdf**](#ch4-05-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.04 JS-Timers-Recursion.pdf (download)</a></h4></li>
+</ul>
+
 >#### [**4.05 Basic Distance Converter Project - Part 5**](#ch4-05)
->	- #### [**4.05 Advanced Distance Converter START Files**](#ch4-05-start)
+
+<ul>
+  <li><h4><a href="./zip/4.05-Advanced-Distance-Converter-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.05 Advanced-Distance-Converter-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**4.06 Putting Slides on a Timer Solution - Part 1**](#ch4-06)
 >#### [**4.07 Putting Slides on a Timer Solution - Part 2**](#ch4-07)
->	- #### [**4.07 Slider-on-a-Timer.pdf**](#ch4-10-pdf)
->	- #### [**4.07 Rotator-START.zip**](#ch4-07-zip)
+
+<ul>
+  <li><h4><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.07 Sliders-on-a-Timer.pdf (download)</a></h4></li>
+  <li><h4><a href="./zip/4.07-Rotator-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+	4.07 Rotator-START.zip (download)</a></h4></li>
+</ul>
+
 >#### [**4.08 Project Set-up**](#ch4-08)
 >#### [**4.09 Starting the Script**](#ch4-09)
 >#### [**4.10 The If/Else Statement - Part 1**](#ch4-10)
 >#### [**4.11 The If/Else Statement - Part 2**](#ch4-11)
->	- #### [**4.11 Content-Rotator-with-jQuery.pdf**](#ch4-11-pdf)
+
+<ul>
+  <li><h4><a href="./pdf/4.11-Content-Rotator-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	4.11 Content-Rotator-with-jQuery.pdf (download)</a></h4></li>
+</ul>
+
 >#### [**4.12 Course Summary**](#ch4-12)
 
 ---------------------------------------------------------------------------------------
