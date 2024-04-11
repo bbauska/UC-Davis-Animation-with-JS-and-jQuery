@@ -38,15 +38,7 @@ events and effects will be covered while exploring more jQuery&apos;s relationsh
 with HTML documents. Finally, a focus on plugins and continue to breakdown 
 jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="obj">Course Learning Objectives</h2>
-
-<ul>
-  <li>Plug in the jQuery library either locally or through a CDN.</li>
-</ul>
-
-<h2 id="syllabus">Syllabus</h2>
-
-
+<!-- <h2 id="syllabus">Syllabus</h2> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
