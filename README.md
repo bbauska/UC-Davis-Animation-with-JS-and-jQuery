@@ -185,15 +185,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
     2.20 JS-Tabbed-Interface.pdf (download)</a></h4></li>
 </ul>
 
->    - #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
-
 ### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
-
-<ul>
-  <li><h4><a href="./pdf/3.00-JS-Tabbed-Interace.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    2.20 JS-Tabbed-Interface.pdf (download)</a></h4></li>
-</ul>
 
 <ul>
   <li><h4><a href="#ch2-00-obj" 
@@ -253,6 +245,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 ### [**Week 4: Timers and Recursion in JavaScript &amp; jQuery**](#ch4)
+
 <ul>
   <li><h4><a href="#ch2-00-obj" 
     4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery</a></h4></li>
