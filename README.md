@@ -114,7 +114,6 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 ### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
->    - #### [**2.00 Learning Objectives; Animating Web Page Elements**](#ch2-00-obj)
 
 <ul>
   <li><h4><a href="#ch2-00-obj" 
