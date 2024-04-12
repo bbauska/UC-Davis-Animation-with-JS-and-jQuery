@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "4/10/2024 Wed 3+pm"
+date last editted: "4/11/2024 Thu 10+pm"
 output: 
   markdown:
     with some style
@@ -42,6 +42,12 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
+<!-- ### [<b>Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</b>](#ch1) -->
+
+<ol type="1" start="1">
+  <li><h3><a href="ch1">Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript</a></h3></li>
+</ol>
+
 <ul>
   <li><h4><a href="#ch1-00-note" target="_blank" rel="noopener noreferrer">
     1.00 A Note from UC Davis</a></h4></li>
@@ -51,75 +57,81 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
     1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &amp; JS</a></h4></li>
 </ul>
 
-### [**Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript**](#ch1)
->#### [**1.01 Introduction to jQuery**](#ch1-01)
+<ol type="1" start="01">
+  <li><h4><a href="#ch1-01">Module 1 Introduction to jQuery</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./pdf/1.01-Intro-to-jQuery.pdf" 
-    target="_blank" rel="noreferrer noopener">
-	1.01 Introduction-to-jQuery.pdf (download)</a></li>
+  <li><h4><a href="./zip/1.01-jQuery-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.01 jQuery-START.zip (download)</a></h4></li>
 </ul>
 
->#### [**1.02 jQuery Libraries**](#ch1-02)
->#### [**1.03 Plugging into jQuery Libraries**](#ch1-03)
->#### [**1.04 Basic jQuery Syntax**](#ch1-04)
->#### [**1.05 Using jQuery to Access Elements**](#ch1-05)
->#### [**1.06 jQuery Events**](#ch1-06)
->#### [**1.07 Intro to JavaScript Folding Sidebar Menus Using JS**](#ch1-07)
+<ol type="1" start="02">
+  <li><h4><a href="#ch1-02">1.02 jQuery Libraries</a></h4></li>
+  <li><h4><a href="#ch1-03">1.03 Plugging into jQuery Libraries</a></h4></li>
+  <li><h4><a href="#ch1-04">1.04 Basic jQuery Syntax</a></h4></li>
+  <li><h4><a href="#ch1-05">1.05 Using jQuery to Access Elements</a></h4></li>
+  <li><h4><a href="#ch1-06">1.06 jQuery Events</a></h4></li>
+  <li><h4><a href="#ch1-07">1.07 Intro to JavaScript Folding Sidebar Menus Using JS</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
-    target="_blank" rel="noreferrer noopener">
-	1.07 JS-Folding-Sidebar-Menus-START.zip (download)</a></li>
+  <li><h4><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.07 JS-Folding-SideBar-Menus-START.zip (download)</a></h4></li>
 </ul>
 
->#### [**1.08 Challenge 1 Solution**](#ch1-08)
->#### [**1.09 Challenge 2 Solution**](#ch1-09)
->#### [**1.10 Challenge 3 Solution**](#ch1-10)
->#### [**1.11 Challenge 4 Solution**](#ch1-11)
->#### [**1.12 Challenge 5 Solution**](#ch1-12)
->#### [**1.13 Challenge 6 Solution**](#ch1-13)
->#### [**1.14 Challenge 7 Solution**](#ch1-14)
->#### [**1.15 Challenge 8 Solution**](#ch1-15)
+<ol type="1" start="08">
+  <li><h4><a href="#ch1-08">1.08 Challenge 1 Solution</a></h4></li>
+  <li><h4><a href="#ch1-09">1.09 Challenge 2 Solution</a></h4></li>
+  <li><h4><a href="#ch1-10">1.10 Challenge 3 Solution</a></h4></li>
+  <li><h4><a href="#ch1-11">1.11 Challenge 4 Solution</a></h4></li>
+  <li><h4><a href="#ch1-12">1.12 Challenge 5 Solution</a></h4></li>
+  <li><h4><a href="#ch1-13">1.13 Challenge 6 Solution</a></h4></li>
+  <li><h4><a href="#ch1-14">1.14 Challenge 7 Solution</a></h4></li>
+  <li><h4><a href="#ch1-15">1.15 Challenge 8 Solution</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
-    target="_blank" rel="noreferrer noopener">
-	1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
+  <li><h4><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    1.15 Folding-Sidebar-Menus-with-JS.pdf</a></h4></li>
 </ul>
 
->#### [**1.16 Intro to jQuery Folding Sidebar Menu Navigation**](#ch1-16)
+<ol type="1" start="16">
+  <li><h4><a href="#ch1-16">1.16 Intro to jQuery Folding SideBar Menu Navigation</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
-    target="_blank" rel="noreferrer noopener">
-	1.16 jQuery-Folding-Menus-START.zip (download)</a></li>
+  <li><h4><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.16 jQuery-Folding-Menus-START.zip</a></h4></li>
 </ul>
 
->#### [**1.17 Getting the Next UL**](#ch1-17)
->#### [**1.18 The Whole Script**](#ch1-18)
+<ol type="1" start="17">
+  <li><h4><a href="#ch1-17">1.17 Getting the Next UL</a></h4></li>
+  <li><h4><a href="#ch1-18">1.18 The Whole Script</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
-    target="_blank" rel="noreferrer noopener">
-	1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)</a></li>
+  <li><h4><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    1.18 Folding-Sidebar-Menus-with-jQuery.pdf</a></h4></li>
 </ul>
 
->#### [**1.19 JavaScript and jQuery Challenges Intro**](#ch1-19)
+<ol type="1" start="19">
+  <li><h4><a href="#ch1-19">1.19 JavaScript and jQuery Challenge Activities</a></h4></li>
+</ol>
 
 <ul>
-  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
-    target="_blank" rel="noreferrer noopener">
-	1.19 JS-jQuery-Challenges.pdf (download)</a></li>
+  <li><h4><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    1.19 JS-jQuery-Challenges.pdf</a></h4></li>
 </ul>
 
 ### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
-
-<ul>
-  <li><h4><a href="#ch2-00-obj" 
-    2.00 Learning Objectives - Animating Web Page Elements with jQuery &amp; JS</a></h4></li>
-</ul>
-
+>    - #### [**2.00 Learning Objectives; Animating Web Page Elements**](#ch2-00-obj)
 >#### [**2.01 Introduction to the jQuery Effects Library**](#ch2-01)
 
 <ul>
@@ -137,14 +149,8 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**2.08 Example 4: Custom Animations - Part 2**](#ch2-08)
 >#### [**2.09 Doing All Animations at Once**](#ch2-09)
 
-<ul>
-  <li><h4><a href="#ch2-09">
-    2.09 Additional Resources</a></h4></li>
-  <li><h4><a href="./zip/2.09-jQuery-Effects-Library.pdf" 
-    target="_blank" rel="noopener noreferrer">
-    2.09 jQuery-Effects-Library.pdf (download)</a></h4></li>
-</ul>
 
+>    - #### [**2.09 jQuery-Effects-Library.pdf**](#ch2-09-pdf)
 >#### [**2.10 Intro to Tabbed Interface Using jQuery**](#ch2-10)
 
 <ul>
@@ -184,13 +190,10 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
     2.20 JS-Tabbed-Interface.pdf (download)</a></h4></li>
 </ul>
 
+>    - #### [**2.20 JS-Tabbed-Interface.pdf**](#ch2-20-pdf)
+
 ### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
-
-<ul>
-  <li><h4><a href="#ch2-00-obj" 
-    3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation</a></h4></li>
-</ul>
-
+>    - #### [**3.00 Learning Objectives - Intermediate Document Manipulation &amp; Animation**](#ch3-00-obj)
 >#### [**3.01 Basic Slider**](#ch3-01)
 
 <ul>
@@ -244,10 +247,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 </ul>
 
 ### [**Week 4: Timers and Recursion in JavaScript &amp; jQuery**](#ch4)
+>    - #### [**4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery**](#ch4-00-obj)
 
 <ul>
-  <li><h4><a href="#ch2-00-obj" 
-    4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery</a></h4></li>
   <li><h4><a href="./zip/4.00-JS-Timers-Examples-START.zip" 
     target="_blank" rel="noopener noreferrer">
     4.00 JS-Timers-Examples-START.zip (download)</a></h4></li>
@@ -8677,4 +8679,4 @@ scripts so that you can develop your skills and get better at
 JavaScript. I look forward to seeing you there.</p>
 
 
-<h6>Last updated 4/10/2024 3+ pm</h6>
+<h6>Last updated 4/11/2024 3+pm</h6>
