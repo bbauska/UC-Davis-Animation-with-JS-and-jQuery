@@ -42,8 +42,17 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
+<ul>
+  <li><h4><a href="#ch1-00-note" target="_blank" rel="noopener noreferrer">
+    1.00 A Note from UC Davis</a></h4></li>
+  <li><h4><a href="#ch1-00-welcome" target="_blank" rel="noopener noreferrer">
+    1.00 Welcome to this Course!</a></h4></li>
+  <li><h4><a href="#ch1-00-obj" target="_blank" rel="noopener noreferrer">
+    1.00 Learning Objectives - Manipulating Web Page Elements with jQuery &amp; JS</a></h4></li>
+</ul>
+
 ### [**Week 1: Manipulating Web Page Elements with jQuery &amp; JavaScript**](#ch1)
->#### [**1.01 **](#ch1-01)
+>#### [**1.01 Intro to jQuery**](#ch1-01)
 >#### [**1.02 jQuery Libraries**](#ch1-02)
 >#### [**1.03 Plugging into jQuery Libraries**](#ch1-03)
 >#### [**1.04 Basic jQuery Syntax**](#ch1-04)
