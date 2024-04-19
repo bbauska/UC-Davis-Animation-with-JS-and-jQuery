@@ -536,10 +536,11 @@ jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
 basis.</p>
 
-<h3 id="ch1-01"><a href="./zip/1.01-jQuery-START.zip" 
-  target="_blank" rel="noopener noreferrer">
-  1.01 jQuery-START.zip (zip)</a></h3>
-
+<ul>
+  <li id="ch1-01"><a href=".zip/1.01-jQuery-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.10 jQuery-START.zip (zip)</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
