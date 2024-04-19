@@ -3614,7 +3614,7 @@ section: <b>Intro to jQuery Effects Library</b>.
 <ul>
   <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.09 jQuery-Effects-Library.pdf</a></li>
+    2.09 jQuery-Effects-Library.pdf (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4261,9 +4261,9 @@ simple script that we can use using <b>jQuery</b>.</p>
 section: <b>Creating a Tabbed Interface with jQuery</b>.
 
 <ul>
-  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
-  >
-    2.14 Tab-Interface-with-jQuery.pdf</a></li>
+  <li><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf"
+    target="_blank" rel="noopener noreferrer">
+    2.14 Tab-Interface-with-jQuery.pdf (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5055,7 +5055,7 @@ section: Creating a Tabbed <b>Interface with JavaScript</b>.</p>
 <ul>
   <li id="ch2-20-pdf"><a href="./pdf/2.20-Tabbed-Interface.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.20 JS-Tabbed-Interface.pdf</a></li>
+    2.20 JS-Tabbed-Interface.pdf (download)</a></li>
 </ul>
 
 <h2 id="ch3">Module 3: Intermediate Document Manipulation & Animation</h2>
@@ -5927,7 +5927,7 @@ look at that in the next project.</p>
 <ul>
   <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.06 jQuery-Image-Slider-V1.pdf</a></li>
+    3.06 jQuery-Image-Slider-V1.pdf (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8169,7 +8169,7 @@ you can come up with other ideas and other things that you could do.</p>
 <ul>
   <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.07 Slider-on-a-Timer.pdf</a></li>
+    4.07 Slider-on-a-Timer.pdf (download)</a></li>
   <li><a href="./zip/4.07-Rotator-START.zip" 
     target="_blank" rel="noopener noreferrer">
     4.07 Rotator-START.zip (zip)</a></li>
