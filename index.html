@@ -3752,9 +3752,9 @@ actual text inside the box in the next lesson.</p>
   title="2.08 Example 4: Custom Animations - 2"
   alt="2.08 Example 4: Custom Animations - 2." />
 
-<p>For this next example, we will start with our <b>jQuery</b> object again
-as always, and then go and get the element that we want to get, which in
-this case is pound grow box.</p>
+<p>For this next example, we will start with our <b>jQuery</b> object again as 
+always, and then go and get the element that we want to get, which in this case 
+is pound <b>growBox</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. font size animate to 24px (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4058,7 +4058,7 @@ use this effects library coming up when we create a tabbed interface.</p>
 <img class="displayed"
   src="./images/image205.png"
   loading="lazy"
-  style="width:50%"
+  style="width:40%"
   title="Tabbed Interface - Using jQuery"
   alt="Tabbed Interface - Using jQuery." />
 
@@ -4104,7 +4104,7 @@ versions.</p>
 <img class="displayed"
   src="./images/image209.png"
   loading="lazy"
-  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  style="width:40%; float: left; margin-left: 10%; margin-bottom: 1em;"
   title="Second half; div, ul, li and tabs in HTML"
   alt="Second half; div, ul, li and tabs in HTML." />
 <p style="clear: both;"></p>
@@ -4130,8 +4130,7 @@ should really work well for us.</p>
 
 <p>From there we need to add some basic styling because currently in the
 page, if you open up the start files in the browser, they look like
-this, so there's very little styling here.
-</p>
+this, so there's very little styling here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211. css rules body, tabs, ul (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4144,21 +4143,16 @@ this, so there's very little styling here.
 <p>I've done just a little bit on my style sheet, so you can come over here
 and see styles.css. I've got this reset rule, which is not great to use
 for production websites. But for this, it's just taking margin and
-padding off of everything.
-</p>
-<p>
-Then we're just adding some padding to the body and setting the
+padding off of everything.</p>
+<p>Then we're just adding some padding to the body and setting the
 background color and the font and the color. Let's add a few rules here
 to make sure that we get this thing all in place. The first rule I'm
 going to add is for the tabs themselves, so this is the entire interface
 really. I'm just going to give it a width of 400 pixels and set margin
-to auto so that it centers on the screen.
-</p>
-<p>
-With those two pieces in place. Then for the actual tabs, for the
+to auto so that it centers on the screen.</p>
+<p>With those two pieces in place. Then for the actual tabs, for the
 unordered list, I'm going to get rid of the bullets and set them to
-display <b>flex</b>, so they go next to each other.
-</p>
+display <b>flex</b>, so they go next to each other.</p>
 <p>You might wonder about the single bracket, and what this does is it
 makes sure that the unordered list, that's inside the tabs directly, the
 direct descended is targeted.</p>
@@ -4650,8 +4644,7 @@ simple and effective that you could use in lots of websites.
   title="Summary jQuery Tabs"
   alt="Summary jQuery Tabs." />
 
-<p>
-Again, in summary, this is a great use of <b>jQuery</b>, and maybe if
+<p>Again, in summary, this is a great use of <b>jQuery</b>, and maybe if
 this is the only thing you're putting in your webpage, you'd use
 <b>jQuery</b>. It's not really worth it because you're downloading the
 entire library just to make these little tabs. We'll see how to do the
@@ -4661,8 +4654,7 @@ would be really good use for it as well. The last thing to do here is
 just, put the script in a separate link file, add the IIFE immediately
 invoked function expression closure, and use strict directive, and link
 it in the head of the page with the deferred property and do all that
-stuff.
-</p>
+stuff.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. script.js and populate it (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4821,38 +4813,36 @@ to change them.</p>
 <img class="displayed"
   src="./images/image247.png"
   loading="lazy"
-  style="width:40%"
   title="Styles.css before"
-  alt="Styles.css before." />
+  alt="Styles.css before."
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;" />
 <img class="displayed"
   src="./images/image248.png"
   loading="lazy"
-  style="width:40%"
   title="Styles.css after optimized a bit"
-  alt="Styles.css after optimized a bit." />
+  alt="Styles.css after optimized a bit."
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;" />
 <p style="clear: both;">
 
-<p>And then we've got a few helper classes down here that will be using
-hidden to set elements to display, not visible to display block and
-visually hidden. Which is going to be the opacity and that's what gets
-animated down. So you'll see how this all works in the JavaScript. But
-for right now we need to add this over onto our CSS and you're going to
-have to type it in. I'm going to paste it so you don't have to watch me
-type it because it's not that interesting to watch me type this, but I'm
-going to paste it in here. But you can stop the lesson and go in and add
-this yourself.</p>
+<p>And then we've got a few helper classes down here that will be using hidden 
+to set elements to display, not visible to display block and visually hidden. 
+Which is going to be the opacity and that's what gets animated down. You'll see 
+how this all works in the JavaScript. But for right now we need to add this over 
+onto our CSS and you're going to have to type it in. I'm going to paste it so 
+you don't have to watch me type it because it's not that interesting to watch me 
+type this, but I'm going to paste it in here. But you can stop the lesson and go 
+in and add this yourself.</p>
 
-<p>So just stop the lesson here and add these rules on your CSS tabs, angle
-bracket div set the pattern to 15 pixels, the background color and
-transition. We're going to be transitioning the opacity over 200
-milliseconds using linear easing. So it's going to be the same speed all
-the way through. And then the active class on the tabs gets its
-background color in the color and then we need these three little helper
-rules down at the bottom here. So I'm going to save that. And of course,
-visual studio code likes to have them formatted this way. I kind of
-prefer these all in one line myself because there's just one declaration
-in each. Little easier to read. But that's okay. Well that visual studio
-code have its way with it.</p>
+<p>Stop the lesson here and add these rules on your CSS tabs, angle bracket div 
+set the pattern to 15 pixels, the background color and transition. We're going 
+to be transitioning the opacity over 200 milliseconds using linear easing. So 
+it's going to be the same speed all the way through. And then the active class 
+on the tabs gets its background color in the color and then we need these three 
+little helper rules down at the bottom here. So I'm going to save that. And of 
+course, visual studio code likes to have them formatted this way. I kind of prefer 
+these all in one line myself because there's just one declaration in each. Little 
+easier to read. But that's okay. Well that visual studio code have its way with 
+it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. example, final css rules (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4862,18 +4852,17 @@ code have its way with it.</p>
   title="Example, Final CSS Rules"
   alt="Example, Final CSS Rules." />
 
-<p>So now we should have the look that we need for our tabs. If I come over
-here and refresh, it looks just like it did before. None of this is
-actually functioning yet. But the look is the same as what we had in the
-original in the original version of the Jacob version, and we'll start
-working on the JavaScript in the next lesson.</p>
+<p>So now we should have the look that we need for our tabs. If I come over here 
+and refresh, it looks just like it did before. None of this is actually functioning 
+yet. But the look is the same as what we had in the original in the original version 
+of the Jacob version, and we'll start working on the JavaScript in the next lesson.</p>
 
 <h3>Start Files: Creating a Tabbed Interface with JavaScript</h3>
 
-<p>Attached is a zip file of the the things you need to begin this
-exercise. A <b>zip file</b> is defined as: a computer file whose
-contents include one or more files that are compressed for storage or
-transmission, often carrying the extension .ZIP.</p>
+<p>Attached is a zip file of the the things you need to begin this exercise. A 
+<b>zip file</b> is defined as: a computer file whose contents include one or more 
+files that are compressed for storage or transmission, often carrying the extension 
+'.zip'.</p>
 
 <ul>
   <li><a href="a href=”./zip/2.15-JS-Tabs-START.zip"
@@ -4895,8 +4884,8 @@ transmission, often carrying the extension .ZIP.</p>
   title="2.16 Making the Tabs Work"
   alt="2.16 Making the Tabs Work." />
 
-<p>Hopefully, you got all this CSS in place and now you're ready to start
-working on the JavaScript.</p>
+<p>Hopefully, you got all this CSS in place and now you're ready to start working 
+on the JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. script src='script.js' (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4906,8 +4895,8 @@ working on the JavaScript.</p>
   title="Script src='script.js'"
   alt="Script src='script.js'." />
 
-<p>I have a linked script file here, and it's linked at the bottom of this
-file, you can see down here. I've got my script file linked.</p>
+<p>I have a linked script file here, and it's linked at the bottom of this file, 
+you can see down here. I've got my script file linked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 251. var tabs = document.queryselectorall, #tabs > ul > li > a (149) ~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5124,7 +5113,7 @@ braces and a semi colon. And in this function we're just going to set
 the class name on this too after it's transitioned so that it's
 invisible. We're just going to set the class name old content that class
 name equals hidden, because now we can just say display blocking on and
-we've transitioned it down to capacity zero. Now we can just set it so
+we've transitioned it down to opacity zero. Now we can just set it so
 displaying nine instead of display block at that point.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-18">2.18 Handling the Switch (4:50)</h2>
@@ -5147,19 +5136,15 @@ displaying nine instead of display block at that point.</p>
   title="Example, Handling the Switch"
   alt="Example, Handling the Switch." />
 
-<p>We've taken the old content. What was the element that had visible on
-it? And we've set its class individually hidden and that fades it out.
-That sets it down so its capacity is at zero over 200 milliseconds. When
-that transition has ended, we're going to run a function to set it, so
-that it's completely hidden. And that just sets it to display none, so
-that it's off the off the dumb entirely.</p>
+<p>We've taken the old content. What was the element that had visible on it? And 
+we've set its class to 'visuallyhidden' and that fades it out. That sets it down 
+so its opacity is at zero over 200 milliseconds (2 tenths of a second). When
+that transition has ended, we're going to run a function to set it, so that it's 
+completely hidden. And that just sets it to display none.</p>
 
-<p>Now, what we want to do is for the new content. We need to handle the
-new content. Which is this tab, the tab that we clicked in, the content
-that goes with it. We need to set it to be visible, but with the opacity
-at zero. And then after a very short set time out, we'll talk about set
-time every minute. But after a very short wait, we're going to change
-its opacity to one, so that it fades in.</p>
+<p>Now, we want to set the new content to be visible, but with the current 
+opacity at zero. So, after a very short time out, we'll set its opacity to 
+one, so that it fades in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 262. assigning visible and visuallyhidden classes (157) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5316,25 +5301,20 @@ CSS and do this kind of stuff?
   title="Lines 1-22 of script function"
   alt="Lines 1-22 of script function." />
 
-<p>
-Now we can do a few more things to make this a little bit better, and to
+<p>Now we can do a few more things to make this a little bit better, and to
 make it a little bit more efficient and perhaps a little bit shorter and
 easier to read and all that stuff. So we're going to add those things in
 next. The first thing of course, is to just do our best practices and
 add in here our IIFE, our immediately invoked function expression,
 (function( ){}();. And then in here we can put our use strict directive,
 like so. And then we can just make some room here and we can move this
-whole script into there.
-</p>
-<p>
-And of course we can go through and we can change <b>var</b> to
+whole script into there.</p>
+<p>And of course we can go through and we can change <b>var</b> to
 <b>const</b> if you didn't do that right from the beginning, that could
 be <b>const</b>. This one has to be <b>let</b> because it's inside of a
 loop. Down here this one needs to be <b>let</b>. And then these can be
-<b>const</b> here.
-</p>
-<p>
-But there are a few more things that I want to show you that we can do
+<b>const</b> here.</p>
+<p>But there are a few more things that I want to show you that we can do
 with this script to make it a little bit better and a little bit more
 modern. And there are things that we're going to talk about in more
 detail in a later lesson. But I think it's good to introduce them in
@@ -5342,8 +5322,7 @@ these small projects that you can get used to them before we talk about
 the theories behind them and really delve into them in more depth. I
 think it's nice to come into that kind of conversation with a little bit
 of experience with them. So we'll look at those features of Javascript
-next.
-</p>
+next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-20">2.20 Cleaning Up the Code (7:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5355,11 +5334,8 @@ next.
   title="2.20 Cleaning Up the Code"
   alt="2.20 Cleaning Up the Code." />
 
-<p>
-As mentioned in the previous lesson, this script is definitely longer
-and more complex than what we would see in it with the <b>jQuery</b>
-script.
-</p>
+<p>As mentioned in the previous lesson, this script is definitely longer and more 
+complex than what we would see in it with the <b>jQuery</b> script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 271. 1st 22 lines of script.js (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5368,7 +5344,6 @@ script.
   style="width:50%"
   title="1st 22 lines of script.js"
   alt="1st 22 lines of script.js." />
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 272. last 12 lines of script.js (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5378,16 +5353,13 @@ script.
   title="Last 12 lines of script.js"
   alt="Last 12 lines of script.js." />
 
-<p>
-There's some things about it that are always going to be a little bit
+<p>There's some things about it that are always going to be a little bit
 confusing inherited this transition and thing with that capture in once
 and for, all that stuff down there, as well as using set-time-out to
 have to wait a split-second before swapping the classes to get the
 transition to work properly. But there are few things that we can do to
-clean up the code a little bit and make it a little bit better.
-</p>
-<p>
-Again, you don't have to do any of this, you could leave the script the
+clean up the code a little bit and make it a little bit better.</p>
+<p>Again, you don't have to do any of this, you could leave the script the
 way it is, it works fine, the way it is. These are just some things that
 are worth looking at and thinking about in terms of syntax for
 JavaScript. We'll get into these features in more depth later. This is
@@ -5403,8 +5375,7 @@ method which can work on arrays.
   title="Function selectTab"
   alt="Function selectTab." />
 
-<p>
-Tabs is an array because it's going in and getting all of these tabs,
+<p>Tabs is an array because it's going in and getting all of these tabs,
 and there's just three of them, but it's an array. The for loop is fine.
 It works fine, but it's a little bit hard to read and a little bit
 cumbersome. The <b>forEach</b> method is a little bit nicer. Let's just
@@ -5412,34 +5383,27 @@ try that and see how that looks instead. What we would do is we would
 say <b>tabs.forEach</b> like this. This is the <b>forEach</b> method.
 The <b>forEach</b> method, again, it's an array method, so it works on
 arrays. We do <b>tabs.forEach</b>, and we pass in a <b>callback</b>
-function that runs.
-</p>
-<p>
-This function takes a variable that's going to work on each element and
+function that runs.</p>
+<p>This function takes a variable that's going to work on each element and
 tabs and you can call it Eachtab, where you can call it tab. I'm just
 going to call and tab. It's going to do something with tab. It's going
 to go through each of the tabs and do something with tab. What are we
 going to do here? We're going to say, okay tab.addEventListener, and
-we're going to do click.
-</p>
-<p>
-Then we're going to run this selectTab down here. This piece of code is
+we're going to do click.</p>
+<p>Then we're going to run this selectTab down here. This piece of code is
 doing exactly the same thing as this for loop here. You could either
 comment this out or deleted altogether and just use the forEach method
 here that will allow us to add an EventListener to each tab. I just
 think it's a little bit easier to read. Again, we'll get into this more
-later, but this is a good place to introduce it.
-</p>
-<p>
-We can do the same thing down here in place of this for loop down here
+later, but this is a good place to introduce it.</p>
+<p>We can do the same thing down here in place of this for loop down here
 as well. We get even just paste this in, but instead of adding an event
 listener, we can just do this instead. But instead of tabs dash, the
 square bracket i, it's just tab, tab.removesAttribute class. Again,
 we're just replacing this for loop with that. That should work just as
 well as before. Let's go over just test this really carefully here. If I
 refresh this and test it, you can see that it's working exactly the same
-as it did before. You can get rid of these things here.
-</p>
+as it did before. You can get rid of these things here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 274. function selecttab event, remove attributes (165) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5538,15 +5502,13 @@ section: Creating a Tabbed <b>Interface with JavaScript</b>.</p>
   title="Module 3: Intermediate Document Manipulation & Animation"
   alt="Module 3: Intermediate Document Manipulation & Animation." />
 
-<p>
-Welcome to the third module in our second course in JavaScript. In this
+<p>Welcome to the third module in our second course in JavaScript. In this
 module, you'll create some scripts that are useful and that you can put
 on actual webpages. Plus they'll build your skills and you'll get better
 at working with JavaScript and <b>jQuery</b>, they provide a lot of
 practice. Let's dive in and start working on these scripts. I think
 you're going to get a lot out of them and I look forward to going
-through them with you.
-</p>
+through them with you.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5597,13 +5559,12 @@ actually works and how it comes out as we move along here.</p>
   title="Start Folder"
   alt="Start Folder." />
 
-<p>In the start folders, you download the files that go with the
-assignment. In the Start Folder, you'll find there's an index HTML file,
-we've got a script file, and we've got a folder with some slides with
-some images that I took up at Bodie National Park which is an old
-abandoned ghost town. It's a pretty interesting place. Great place to
-take a lot of great photos. I took some photos up there, so we'll use
-some of those for this project and that's fun.</p>
+<p>In the start folders, you download the files that go with the assignment. In 
+the Start Folder, you'll find there's an index HTML file, we've got a script 
+file, and we've got a folder with some slides with some images that I took up 
+at Bodie National Park which is an old abandoned ghost town. It's a pretty 
+interesting place. Great place to take a lot of great photos. I took some photos 
+up there, so we'll use some of those for this project.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 282. example, html for the folder (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5613,12 +5574,11 @@ some of those for this project and that's fun.</p>
   title="Example, HTML for the Folder"
   alt="Example, HTML for the Folder." />
 
-<p>If we come over and look at the index file, you'll notice that we have a
-<b>div</b> with an ID of slider, and then an unordered list with list
-items for each of the images for the slides in the slideshow. This is
-actually a fairly common setup that you will find for image slider
-scripts that you might find around the web. Then I've just got some
-links for the previous and next buttons.</p>
+<p>If we come over and look at the index file, you'll notice that we have a <b>div</b> 
+with an ID of slider, and then an unordered list with list items for each of the 
+images for the slides in the slideshow. This is actually a fairly common setup that 
+you will find for image slider scripts that you might find around the web. Then 
+I've just got some links for the previous and next buttons.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 283/284. html with basic jquery image slider (170) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5635,13 +5595,13 @@ links for the previous and next buttons.</p>
   alt="HTML with Basic jQuery Image Slider." />
 <p style="clear: both;"></p>
 
-<p>If we come over here and look at that HTML, you'll see that that's what
-it looks like here. I'm loading my normalized script. I've got my CSS.
-I've got <b>jQuery</b> loaded here. I'm loading an easing plugin that
-we'll talk about in a bit. Then we've got our script file here, and then
-we've got our slides. That's all there. I've got a script file here
-which is empty. It's where we're going to write our JavaScript, and then
-we've got some styles that we'll talk about in just a minute here.</p>
+<p>If we come over here and look at that HTML, you'll see that that's what it 
+looks like here. I'm loading my normalized script. I've got my CSS. I've got 
+<b>jQuery</b> loaded here. I'm loading an easing plugin that we'll talk about 
+in a bit. Then we've got our script file here, and then we've got our slides. 
+That's all there. I've got a script file here which is empty. It's where we're 
+going to write our JavaScript, and then we've got some styles that we'll talk 
+about in just a minute here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285. project strategy (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5702,21 +5662,17 @@ it's this <b>div</b> here.
   title="HTML, div id='slider', unordered list, list items with slideshow images"
   alt="HTML, div id='slider', unordered list, list items with slideshow images." />
 
-<p>
-If I come and look at the page, it's this <b>div</b> here that has the
+<p>If I come and look at the page, it's this <b>div</b> here that has the
 picture in it. That div has overflow hidden on it and it is showing only
 the slide that is in the window and the width of it is set to the same
 width as the actual images. The height is set to the same height and
 then it's set to position relative so we can use absolute positioning.
-</p>
-<p>
-If you know some CSS and you know about positioning, you know that when
+</p><p>If you know some CSS and you know about positioning, you know that when
 you set a parent to relative positioning, then the child set to absolute
 positioning is going to be set in relation to that parent element.
 Position 0, top zero, left zero puts that thing inside this container
 here. Then display flex is what makes all the images go into a row. Top
-zero, left zero puts that in the top left corner.
-</p>
+zero, left zero puts that in the top left corner.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. example, images lined up (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5740,8 +5696,7 @@ slider declaration here. Let's do this just to see what happens.
   title="Slideshow test, without overflow hidden"
   alt="Slideshow test, without overflow hidden." />
 
-<p>
-If I come over here to my styles and remove <b>overflow</b>
+<p>If I come over here to my styles and remove <b>overflow</b>
 <b>hidden</b> just temporarily, you'll see that the other slides are all
 lined up. Each one is on there next to each other and they're all lined
 up here. Just because of overflow hidden, we're not seeing them. We're
@@ -5749,8 +5704,7 @@ only seeing what's actually in the window. We want to go back and put
 overflow hidden back so we're not seeing those additional slides. We're
 only seeing the one that's actually in the window. It's important to
 understand that that's how this project is set up because it has an
-effect on how we write our JavaScript.
-</p>
+effect on how we write our JavaScript.</p>
 
 <h3>Start Files: jQuery Image Sliders</h3>
 
@@ -5783,11 +5737,9 @@ carrying the extension .ZIP.</p>
   title="3.02 Making the Script General"
   alt="3.02 Making the Script General." />
 
-<p>
-One thing we want to do as we're working on our scripts is we want to
-make them as general as possible, so that if we were to add more images
-into our slider then our script to be able to handle them.
-</p>
+<p>One thing we want to do as we're working on our scripts is we want to make them 
+as general as possible, so that if we were to add more images into our slider 
+then our script to be able to handle them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 292. example, making the script general (175) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5797,20 +5749,15 @@ into our slider then our script to be able to handle them.
   title="Example, Making the Script General"
   alt="Example, Making the Script General." />
 
-<p>
-I'm going to use some variables to keep track of some things like, well,
-how many images do I actually have in my slider? I know right now that
-it's five, and I could just leave it at that, for image count, but I
-could just set image count to five. It really rather have it actually
-find out what is the length of my element here.
-</p>
-<p>
-Then I also want to find out how wide is my image, and I'm going to
-assume that all my images are the same width because the slider won't
-look right if they're not anyway. I'm going to assume that all these
-images are the same width, but I need to find out how wide is one of
-them.
-</p>
+<p>I'm going to use some variables to keep track of some things like, well, how 
+many images do I actually have in my slider? I know right now that it's five, 
+and I could just leave it at that, for image count, but I could just set image 
+count to five. It really rather have it actually find out what is the length of 
+my element here.</p>
+<p>Then I also want to find out how wide is my image, and I'm going to assume 
+that all my images are the same width because the slider won't look right if 
+they're not anyway. I'm going to assume that all these images are the same width, 
+but I need to find out how wide is one of them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294. imagecount = slider count (175) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5896,14 +5843,12 @@ Remove it from your selectors in filter results using dot first instead.</p>
   title="imageWidth = slider ul li img, first.width"
   alt="imageWidth = slider ul li img, first.width." />
 
-<p>
-It's important when you're using a library like <b>jQuery</b> to stay up
+<p>It's important when you're using a library like <b>jQuery</b> to stay up
 on sort of the latest trends with language as best you can, it's not
 always easy to, this one slipped by me when I made this slide, but I'm
 aware of it now. I'm going to fix it here in the lesson. I'm going to
 come over here and get rid of first here, and instead use <b>first</b>
-like that. That should give me the same result.
-</p>
+like that. That should give me the same result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 300. test slideshow width, 400 (178) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5913,8 +5858,7 @@ like that. That should give me the same result.
   title="Test slideshow width, 400"
   alt="Test slideshow width, 400." />
 
-<p>
-Let's check it. If I come over, I'm still getting 400. It is important
+<p>Let's check it. If I come over, I'm still getting 400. It is important
 to pay attention to these things as you can. I should add, while this
 still works currently in the current version of <b>jQuery</b>, it might
 not work in future versions of <b>jQuery</b>. Since I'm loading this
@@ -5922,8 +5866,7 @@ version of <b>jQuery</b> up at this project, unless I update my link to
 <b>jQuery</b> to a newer version, it will continue to work. This is
 actually fine to use for now with the current version of <b>jQuery</b>
 that we have, but going forward, we should use the dot <b>first</b>
-method instead. I just wanted to show you that.
-</p>
+method instead. I just wanted to show you that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5943,10 +5886,8 @@ method instead. I just wanted to show you that.
   title="Example, Window Load Function"
   alt="Example, Window Load Function." />
 
-<p>
-The next thing to consider is when resources are going to load, and in
-this case, this seems to be working just fine.
-</p>
+<p>The next thing to consider is when resources are going to load, and in
+this case, this seems to be working just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. test slideshow, 400 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5956,17 +5897,14 @@ this case, this seems to be working just fine.
   title="Test slideshow, 400"
   alt="Test slideshow, 400." />
 
-<p>
-If I click refresh, it's giving me a 400 here but it's loading these
+<p>If I click refresh, it's giving me a 400 here but it's loading these
 images. Now, I have this file local on my computer, and that's all well
 and good and fine. It's going to load it really quickly since it's local
 on my hard drive. However, if I were actually putting this on the
 internet, it's possible that, that request to find out how wide the
 images are, we'd run before the images are downloaded and I could get a
-zero there, and I don't want that.
-</p>
-<p>
-I want to make sure I'm getting the actual images. What I want to do to
+zero there, and I don't want that.</p>
+<p>I want to make sure I'm getting the actual images. What I want to do to
 prevent that problem from happening is I want to add an
 <b>EventListener</b> that checks to see when all of the assets for the
 page have downloaded and it's not going to run the script until they
@@ -5974,41 +5912,34 @@ are. We can use the <b>on</b> method in <b>jQuery</b> and the <b>on</b>
 method in <b>jQuery</b> is similar to the <b>addEventListener</b> method
 that we have in plain JavaScript and then you pass in a particular event
 that you're looking for. Then it'll run a function when that event
-happens.
-</p>
+happens.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 304. window on load, function (181) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image304.png"
   loading="lazy"
   style="width:50%"
-  title="ow on load, function"
+  title="Window on load, function"
   alt="Window on load, function." />
 
-<p>
-Here we're going to put the <b>on method</b> on the window object and
+<p>Here we're going to put the <b>on method</b> on the window object and
 the window itself. We're looking for a <b>load</b> event and this
 <b>callback</b> function will run when <b>load</b> is completed, meaning
 all of the images for the page have downloaded. That will keep the
-script from running until the images are actually there.
-</p>
-<p>
-Let's add this onto our script and we're going to put everything inside
+script from running until the images are actually there.</p>
+<p>Let's add this onto our script and we're going to put everything inside
 this window load function for our page. I'm going to add my
 <b>jQuery</b> object and I'm going to pass in the window object. I'm
 going to use <b>on</b> and I'm going to look for the <b>load</b> event,
 and then I'm going to run a <b>callback</b> function. Then everything's
-going to go inside of these curly braces here.
-</p>
-<p>
-While I'm here, this function here, will work as a closure for the page
+going to go inside of these curly braces here.</p>
+<p>While I'm here, this function here, will work as a closure for the page
 for this function. This thing is all in its own closure, we can add our
 <b>use strict</b> directive, right here. We don't need to make a
 separate IIFE, the Immediately Invoked Function Expression. We don't
 need that because we want this function to run when the page has loaded
 all its files. When it has, then we can say, okay, now you can run, and
-we're going to set up these variables in alert.
-</p>
+we're going to set up these variables in alert.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 305. test slideshow, 400 (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6018,12 +5949,10 @@ we're going to set up these variables in alert.
   title="Test slideshow, 400"
   alt="Test slideshow, 400." />
 
-<p>
-We should still be getting 400 but you can see that the image started
+<p>We should still be getting 400 but you can see that the image started
 actually coming in because before that alert ran.That's one thing that's
 slightly different is that it's actually loading the images first.
-Because we are loading from our hard drive, it's not that big of a deal.
-</p>
+Because we are loading from our hard drive, it's not that big of a deal.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 306. example, add a few more variables (182) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6033,12 +5962,10 @@ Because we are loading from our hard drive, it's not that big of a deal.
   title="Example, Add a Few More Variables"
   alt="Example, Add a Few More Variables." />
 
-<p>
-Next, we're going to add a few more variables to our project. We need to
+<p>Next, we're going to add a few more variables to our project. We need to
 know the total width of our whole slider. For that we're going to take
 the image count and multiply it by the width of each image. That will
-give us our total width plus we'll add a px to the end of that.
-</p>
+give us our total width plus we'll add a px to the end of that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 307. totalwidth = imagewidth * count + 'px' (183) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6048,15 +5975,13 @@ give us our total width plus we'll add a px to the end of that.
   title="totalWidth = imageWidth * imageCount + 'px'"
   alt="totalWidth = imageWidth * imageCount + 'px'." />
 
-<p>
-Let's go ahead and add that to our script now. I'm going to get rid of
+<p>Let's go ahead and add that to our script now. I'm going to get rid of
 this alert and just to const totalWidth, and this is going to be equal
 to <b>imageWidth</b> times imageCount. Doesn't matter which way around
 it goes right, it's going to come up and same thing. Then we're going to
 add onto that a px at the end of there, that's going to put that in
 there. Then let's just alert out total width which is to see what we're
-getting here.
-</p>
+getting here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 308. test, slideshow width, 2000px (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6066,12 +5991,10 @@ getting here.
   title="Test, slideshow width, 2000px"
   alt="Test, slideshow width, 2000px." />
 
-<p>
-I'm going to come back here and now when I refresh, I'm getting 2,000
+<p>I'm going to come back here and now when I refresh, I'm getting 2,000
 pixels because I've got five images, each of them is 400 pixels wide,
 that's 2,000 pixels. That's adding up and doing that properly, which is
-great.
-</p>
+great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 309. slider ul css width, totalwidth (184) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8670,7 +8593,7 @@ handler, we can remove it entirely.</p>
   alt="Script.js, lines 19-38." />
 <p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453. remove previous click function(264) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453. remove previous click function (264) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image453.png"
   loading="lazy"
