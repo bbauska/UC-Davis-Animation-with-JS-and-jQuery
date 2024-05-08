@@ -55,9 +55,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.01 Introduction to jQuery**](#ch1-01)
 
 <ul>
-  <li><a href="./pdf/1.01-Intro-to-jQuery.pdf" 
+  <li><a href="./pdf/1.01-jQuery-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.01 Introduction-to-jQuery.pdf (download)</a></li>
+	1.01 jQuery START (zip)</a></li>
 </ul>
 
 >#### [**1.02 jQuery Libraries**](#ch1-02)
@@ -65,12 +65,20 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.04 Basic jQuery Syntax**](#ch1-04)
 >#### [**1.05 Using jQuery to Access Elements**](#ch1-05)
 >#### [**1.06 jQuery Events**](#ch1-06)
+
+<ul>
+  <li><a href="./pdf/1.06-jQuery-Intro.pdf" 
+    target="_blank" rel="noreferrer noopener">
+	1.01 jQuery Intro (pdf)</a></li>
+</ul>
+
+
 >#### [**1.07 Intro to JavaScript Folding Sidebar Menus Using JS**](#ch1-07)
 
 <ul>
   <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.07 JS-Folding-Sidebar-Menus-START.zip (zip)</a></li>
+	1.07 JS Folding Sidebar Menus START (zip)</a></li>
 </ul>
 
 >#### [**1.08 Challenge 1 Solution**](#ch1-08)
@@ -83,9 +91,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.15 Challenge 8 Solution**](#ch1-15)
 
 <ul>
-  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+  <li><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
+	1.15 JS Folding Sidebar Menus (pdf)</a></li>
 </ul>
 
 >#### [**1.16 Intro to jQuery Folding Sidebar Menu Navigation**](#ch1-16)
@@ -93,7 +101,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.16 jQuery-Folding-Menus-START.zip (zip)</a></li>
+	1.16 jQuery Folding Sidebar Menus START (zip)</a></li>
 </ul>
 
 >#### [**1.17 Getting the Next UL**](#ch1-17)
@@ -110,7 +118,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.19 JS-jQuery-Challenges.pdf (download)</a></li>
+	1.19 JS jQuery Challenges (pdf)</a></li>
 </ul>
 
 ### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
@@ -125,7 +133,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./zip/2.01-jQuery-Animation-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.01 jQuery-Animation-START.zip (zip)</a></h4></li>
+    2.01 jQuery Animation START (zip)</a></h4></li>
 </ul>
 
 >#### [**2.02 Example 1 continued**](#ch2-02)
@@ -142,7 +150,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
     2.09 Additional Resources</a></h4></li>
   <li><h4><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.09 jQuery-Effects-Library.pdf (download)</a></h4></li>
+    2.09 jQuery Effects Library (pdf)</a></h4></li>
 </ul>
 
 >#### [**2.10 Intro to Tabbed Interface Using jQuery**](#ch2-10)
@@ -150,7 +158,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./zip/2.10-jQuery-Tabs-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.10 jQuery-Tabs-START.zip (zip)</a></h4></li>
+    2.10 jQuery Tabs START (zip)</a></h4></li>
 </ul>
 
 >#### [**2.11 Styling the Anchor Tags**](#ch2-11)
@@ -159,9 +167,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**2.14 Whole Script**](#ch2-14)
 
 <ul>
-  <li><h4><a href="./pdf/2.14-Tab-Interface-with-jQuery.pdf" 
+  <li><h4><a href="./pdf/2.14-jQuery-Tab-Interface.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.14 Tab-Interface-with-jQuery.pdf (download)</a></h4></li>
+    2.14 jQuery Tab Interface (pdf)</a></h4></li>
 </ul>
 
 >#### [**2.15 Getting the CSS Ready**](#ch2-15)
@@ -169,7 +177,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./zip/2.15-JS-Tabs-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.15 JS-Tabs-START.zip (zip)</a></h4></li>
+    2.15 JS Tabs START (zip)</a></h4></li>
 </ul>
 
 >#### [**2.16 Making the Tabs Work**](#ch2-16)
@@ -179,9 +187,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**2.20 Cleaning Up the Code**](#ch2-20)
 
 <ul>
-  <li><h4><a href="./pdf/2.20-JS-Tabbed-Interace.pdf" 
+  <li><h4><a href="./pdf/2.20-JS-Tab-Interace.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.20 JS-Tabbed-Interface.pdf (download)</a></h4></li>
+    2.20 JS Tab Interface (pdf)</a></h4></li>
 </ul>
 
 ### [**Week 3: Intermediate Document Manipulation &amp; Animation**](#ch3)
@@ -194,9 +202,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**3.01 Basic Slider**](#ch3-01)
 
 <ul>
-  <li><h4><a href="./zip/3.01-Slider-V1-START.zip" 
+  <li><h4><a href="./zip/3.01-jQuery-Slider-V1-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    3.01 Slider-V1-START.zip (zip)</a></h4></li>
+    3.01 jQuery Slider V1 START (zip)</a></h4></li>
 </ul>
 
 >#### [**3.02 Making the Script General**](#ch3-02)
@@ -208,7 +216,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.06 jQuery-Image-Slider-V1.pdf (download)</a></h4></li>
+    3.06 jQuery Image Slider V1 (pdf)</a></h4></li>
 </ul>
 
 >#### [**3.07 Strategy for Version 2**](#ch3-07)
@@ -219,17 +227,17 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**3.12 Previous Button Click Handler - Part 2**](#ch3-12)
 
 <ul>
-  <li><h4><a href="./pdf/3.12-Slider-Using-JavaScript-V2.pdf" 
+  <li><h4><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.12 Slider-Using-JavaScript-V2.pdf (download)</a></h4></li>
+    3.12 jQuery Image Slider V2 (pdf)</a></h4></li>
 </ul>
 
 >#### [**3.13 Slider Using JavaScript**](#ch3-13)
 
 <ul>
-  <li><h4><a href="./zip/3.13-JS-Image-Slider-V3-START.zip" 
+  <li><h4><a href="./zip/3.13-JS-Slider-V3-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    3.13 JS-Image-Slider-V3-START.zip (zip)</a></h4></li>
+    3.13 JS-Image Slider V3 START (zip)</a></h4></li>
 </ul>
 
 >#### [**3.14 CSS for Slides and Adding Variables**](#ch3-14)
@@ -240,17 +248,15 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./pdf/3.17-JS-Image-Slider.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.17 JS-Image-Slider.pdf (download)</a></h4></li>
+    3.17 JS Image Slider (pdf)</a></h4></li>
 </ul>
 
 ### [**Week 4: Timers and Recursion in JavaScript &amp; jQuery**](#ch4)
 
 <ul>
-  <li><h4><a href="#ch2-00-obj"> 
-    4.00 Learning Objectives - Timers and Recursion in JS &amp; jQuery</a></h4></li>
   <li><h4><a href="./zip/4.00-JS-Timers-Examples-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    4.00 JS-Timers-Examples-START.zip (zip)</a></h4></li>
+    4.00 JS Timers Examples START (zip)</a></h4></li>
 </ul>
 
 >#### [**4.01 Example Script #1 - Part 1**](#ch4-01)
@@ -261,27 +267,27 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.04 JS-Timers-Recursion.pdf (download)</a></h4></li>
+    4.04 JS Timers Recursion (pdf)</a></h4></li>
 </ul>
 
 >#### [**4.05 Basic Distance Converter Project - Part 5**](#ch4-05)
 
-<ul>
+<!-- <ul>
   <li><h4><a href="./zip/4.05-Advanced-Distance-Converter-START.zip" 
     target="_blank" rel="noopener noreferrer">
     4.05 Advanced-Distance-Converter-START.zip (zip)</a></h4></li>
-</ul>
+</ul>  -->
 
 >#### [**4.06 Putting Slides on a Timer Solution - Part 1**](#ch4-06)
 >#### [**4.07 Putting Slides on a Timer Solution - Part 2**](#ch4-07)
 
 <ul>
-  <li><h4><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
+  <li><h4><a href="./pdf/4.07-JS-Slider-on-a-Timer.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.07 Sliders-on-a-Timer.pdf (download)</a></h4></li>
-  <li><h4><a href="./zip/4.07-Rotator-START.zip" 
+    4.07 JS Slider on a Timer (pdf)</a></h4></li>
+  <li><h4><a href="./zip/4.07-jQuery-Content-Rotator-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    4.07 Rotator-START.zip (zip)</a></h4></li>
+    4.07 jQuery Content Rotator START (zip)</a></h4></li>
 </ul>
 
 >#### [**4.08 Project Set-up**](#ch4-08)
@@ -290,9 +296,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**4.11 The If/Else Statement - Part 2**](#ch4-11)
 
 <ul>
-  <li><h4><a href="./pdf/4.11-Content-Rotator-with-jQuery.pdf" 
+  <li><h4><a href="./pdf/4.11-jQuery-Content-Rotator.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.11 Content-Rotator-with-jQuery.pdf (download)</a></h4></li>
+    4.11 jQuery Content Rotator (pdf)</a></h4></li>
 </ul>
 
 >#### [**4.12 Course Summary**](#ch4-12)
