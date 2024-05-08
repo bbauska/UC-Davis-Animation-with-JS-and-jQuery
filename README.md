@@ -55,9 +55,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.01 Introduction to jQuery**](#ch1-01)
 
 <ul>
-  <li><a href="./pdf/1.01-jQuery-START.zip" 
+  <li><h4><a href="./pdf/1.01-jQuery-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.01 jQuery START (zip)</a></li>
+	1.01 jQuery START (zip)</a></h4></li>
 </ul>
 
 >#### [**1.02 jQuery Libraries**](#ch1-02)
@@ -67,18 +67,18 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.06 jQuery Events**](#ch1-06)
 
 <ul>
-  <li><a href="./pdf/1.06-jQuery-Intro.pdf" 
+  <li><h4><a href="./pdf/1.06-jQuery-Intro.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.01 jQuery Intro (pdf)</a></li>
+	1.01 jQuery Intro (pdf)</a></h4></li>
 </ul>
 
 
 >#### [**1.07 Intro to JavaScript Folding Sidebar Menus Using JS**](#ch1-07)
 
 <ul>
-  <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
+  <li><h4><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.07 JS Folding Sidebar Menus START (zip)</a></li>
+	1.07 JS Folding Sidebar Menus START (zip)</a></h4></li>
 </ul>
 
 >#### [**1.08 Challenge 1 Solution**](#ch1-08)
@@ -91,34 +91,34 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.15 Challenge 8 Solution**](#ch1-15)
 
 <ul>
-  <li><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
+  <li><h4><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.15 JS Folding Sidebar Menus (pdf)</a></li>
+	1.15 JS Folding Sidebar Menus (pdf)</a></h4></li>
 </ul>
 
 >#### [**1.16 Intro to jQuery Folding Sidebar Menu Navigation**](#ch1-16)
 
 <ul>
-  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+  <li><h4><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.16 jQuery Folding Sidebar Menus START (zip)</a></li>
+	1.16 jQuery Folding Sidebar Menus START (zip)</a></h4></li>
 </ul>
 
 >#### [**1.17 Getting the Next UL**](#ch1-17)
 >#### [**1.18 The Whole Script**](#ch1-18)
 
 <ul>
-  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+  <li><h4><a href="./pdf/1.18-jQuery-Folding-Sidebar-Menus.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)</a></li>
+	1.18 jQuery Folding Sidebar Menus (pdf)</a></h4></li>
 </ul>
 
 >#### [**1.19 JavaScript and jQuery Challenges Intro**](#ch1-19)
 
 <ul>
-  <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+  <li><h4><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.19 JS jQuery Challenges (pdf)</a></li>
+	1.19 JS &amp; jQuery Challenges (pdf)</a></h4></li>
 </ul>
 
 ### [**Week 2: Animating Web Page Elements with jQuery &amp; JavaScript**](#ch2)
