@@ -55,7 +55,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.01 Introduction to jQuery**](#ch1-01)
 
 <ul>
-  <li><h4><a href="./pdf/1.01-jQuery-Intro-START.zip" 
+  <li><h4><a href="./zip/1.01-jQuery-Intro-START.zip" 
     target="_blank" rel="noreferrer noopener">
 	1.01 jQuery Introduction START (zip)</a></h4></li>
 </ul>
@@ -5292,8 +5292,6 @@ exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.</p>
 
-<h3>jQuery Image Slider V1 START zip Files</h3>
-
 <ul>
   <li id="ch3-01-zip"><a href="./zip/3.01-jQuery-Slider-V1-START.zip" 
     target="_blank" rel="noopener noreferrer">
@@ -6722,7 +6720,7 @@ change the position of the slide, the left position, this animation is
 going to take effect. And that&apos;s where we we&apos;ll see the actual
 animation for our slider.</p>
 
-<h3>JavaScript Image Sliders START Files</h3>
+<h3>JavaScript Image Sliders START zip Files</h3>
 
 <ul>
   <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
