@@ -1,7 +1,7 @@
 ---
 title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
 author: "Brian Bauska (bbauska)"
-date last editted: "4/10/2024 Wed 3+pm"
+date last editted: "5/8/2024 Wed 11+am"
 output: 
   markdown:
     with some style
@@ -69,7 +69,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./pdf/1.06-jQuery-Intro.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.01 jQuery Intro (pdf)</a></h4></li>
+	1.06 jQuery Intro (pdf)</a></h4></li>
 </ul>
 
 
