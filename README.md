@@ -542,10 +542,12 @@ jQuery plugin, using jQuery could save you a lot of time and really be
 worthwhile. You have to really consider it on a project-by-project
 basis.</p>
 
+<h3>jQuery Introduction START zip Files</h3>
+
 <ul>
-  <li id="ch1-01"><a href=".zip/1.01-jQuery-START.zip" 
+  <li id="ch1-01"><a href=".zip/1.01-jQuery-Intro-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    1.01 jQuery-START.zip (zip)</a></li>
+    1.01 jQuery Introduction START (zip)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
@@ -1257,14 +1259,13 @@ time, and it&apos;s still important to learn how to work with it. Learning
 how to work with <b>jQuery</b> will help you learn how to work with
 JavaScript, so it&apos;s a two-way street.</p>
 
-<!--
-<h3 id="ch1-06-pdf">PDF of Presentation</h3>
+<h3 id="ch1-06-pdf">jQuery Introduction PDF Files</h3>
 
 <ul>
-  <li><a href="./pdf/1.06-Intro-to-jQuery.pdf" target="_blank" rel="noopener noreferrer">
-    1.06 Intro-to-jQuery.pdf (download)</a></li>
+  <li><a href="./pdf/1.06-jQuery-Intro.pdf" target="_blank" rel="noopener noreferrer">
+    1.06 jQuery Introduction (pdf)</a></li>
 </ul>
--->
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-07">1.07 Intro to Folding Sidebar Menus Using JS (4:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1423,12 +1424,12 @@ that hide-menu class. We want to apply that to all of these unordered
 lists so they have class hide-menu on them. See if you can do that, and
 when we come back in the next lesson, we&apos;ll see how I did that.</p>
 
-<h3>Start Files: JS Folding Sidebar Menu</h3>
+<h3>JavaScript Folding Sidebar Menus START zip Files</h3>
 
 <ul>
   <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    1.07 JS-Folding-Sidebar-Menus-START.zip (zip)</a></li>
+    1.07 JS Folding Sidebar Menus START (zip)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2077,12 +2078,12 @@ next part of this lesson, we will look at how to do the exact same
 script, exact same thing using <b>jQuery</b>. You&apos;ll see how much shorter
 and how much more compact that script is.</p>
 
-<h3 id="ch1-15-pdf">PDF of Presentation</h3>
+<h3 id="ch1-15-pdf">JS Folding Sidebar Menus PDF Files</h3>
 
 <ul>
-  <li><a href="./pdf/1.15-Folding-Sidebar-Menus-with-JS.pdf" 
+  <li><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.15 Folding-Sidebar-Menus-with-JS.pdf (download)</a></li>
+    1.15 JS Folding Sidebar Menus (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2214,12 +2215,12 @@ just a minute. We&apos;ve got that going, and we&apos;re ready to start building
 in our Click-Handler and doing all that fun stuff. We&apos;ll do that in the
 next lesson.</p>
 
-<h3>Start Files: jQuery Folding Menu</h3>
+<h3>jQuery Folding Sidebar Menus START zip Files</h3>
 
 <ul>
-  <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+  <li><a href="./zip/1.16-jQuery-Folding-Sidebar-Menus-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    1.16 jQuery-Folding-Menus-START.zip (zip)</a></li>
+    1.16 jQuery Folding Sidebar Menus START (zip)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2450,12 +2451,12 @@ shorter scripts, along with the fact that you don&apos;t have to do loops.
 So that makes it much shorter and hopefully you&apos;re pretty excited about
 this.</p>
 
-<h3>PDF of Presentation</h3>
+<h3>jQuery Folding Sidebar Menus PDF Files</h3>
 
 <ul>
-  <li><a href="./pdf/1.18-Folding-Sidebar-Menus-with-jQuery.pdf" 
+  <li><a href="./pdf/1.18-jQuery-Folding-Sidebar-Menus.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.18 Folding-Sidebar-Menus-with-jQuery.pdf (download)</a></li>
+    1.18 jQuery Folding Sidebar Menus (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
@@ -2519,12 +2520,12 @@ next so that they become more complex as they go along, and that will
 really help you learn both JavaScript and <b>jQuery</b>, and help you
 understand the differences between the syntax of how each of them work.</p>
 
-<h3>PDF of Challenges</h3>
+<h3>JavaScript &amp; jQuery Challenges PDF Files</h3>
 
 <ul>
   <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.19 JS-jQuery-Challenges.pdf (download)</a></li>
+    1.19 JS &amp; jQuery Challenges (pdf)</a></li>
 </ul>
 
 <h2 id="ch2">Module Two: Animating Web Page Elements with jQuery and JS</h2>
@@ -2704,12 +2705,12 @@ see something to demonstrate how much that affects it, you could do
 <p>Let&apos;s see what that does. There we go. You can see that you can affect
 the speed there.</p>
 
-<h3>Start Files: jQuery Animation</h3>
+<h3>jQuery Animation START zip Files</h3>
 
 <ul>
   <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.01 jQuery-Animation-START.zip (zip)</a></li>
+    2.01 jQuery Animation START (zip)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3613,7 +3614,7 @@ to use this effects library coming up when we create a tabbed interface.</p>
     2.09 jQuery Easing (shortcut)</a></li>
 </ul>
 
-<h3>PDF of Presentation</h3>
+<h3>jQuery Effects Library PDF Files</h3>
 
 <p>Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Intro to jQuery Effects Library</b>.
@@ -3621,7 +3622,7 @@ section: <b>Intro to jQuery Effects Library</b>.
 <ul>
   <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.09 jQuery-Effects-Library.pdf (download)</a></li>
+    2.09 jQuery Effects Library (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3753,7 +3754,7 @@ and now my tabs are lining up next to each other, still doesn&apos;t look
 very good, but we&apos;re getting there.We&apos;ll continue with the styling in
 the next lesson.</p>
 
-<h3>Start Files: Creating a Tabbed Interface with jQuery</h3>
+<h3>jQuery Tabbed Interface START zip Files</h3>
 
 <p>Attached is a zip file of the the things you need to begin this
 exercise. A <b>zip file</b> is defined as: a computer file whose contents
@@ -3763,7 +3764,7 @@ transmission, often carrying the extension .ZIP.</p>
 <ul>
   <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.10 jQuery-Tabs-START.zip (zip)</a></li>
+    2.10 jQuery Tabs START (zip)</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
@@ -4426,7 +4427,7 @@ actually functioning yet. But the look is the same as what we had in the
 original in the original version of the Jacob version, and we&apos;ll start
 working on the JavaScript in the next lesson.</p>
 
-<h3>Start Files: Creating a Tabbed Interface with JavaScript</h3>
+<h3>JavaScript Tabbed Interface START zip Files</h3>
 
 <p>Attached is a zip file of the the things you need to begin this
 exercise. A <b>zip file</b> is defined as: a computer file whose contents
@@ -4436,7 +4437,7 @@ transmission, often carrying the extension .ZIP.</p>
 <ul>
   <li><a href="a href="./zip/2.15-JS-Tabs-START.zip"
     target="_blank" rel="noopener noreferrer">
-    2.15 JS-Tabs-START.zip (zip)</a></li>
+    2.15 JS Tabs START (zip)</a></li>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
     target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
@@ -5060,9 +5061,9 @@ with plain JavaScript.</p>
 section: Creating a Tabbed <b>Interface with JavaScript</b>.</p>
 
 <ul>
-  <li id="ch2-20-pdf"><a href="./pdf/2.20-Tabbed-Interface.pdf" 
+  <li id="ch2-20-pdf"><a href="./pdf/2.20-JS-Tab-Interface.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.20 JS-Tabbed-Interface.pdf (download)</a></li>
+    2.20 JS Tab Interface (pdf)</a></li>
 </ul>
 
 <h2 id="ch3">Module 3: Intermediate Document Manipulation & Animation</h2>
@@ -5284,17 +5285,19 @@ that&apos;s actually in the window. It&apos;s important to understand that
 that&apos;s how this project is set up because it has an effect on how we
 write our JavaScript.</p>
 
-<h3>Start Files: jQuery Image Sliders</h3>
+<h3>jQuery Image Slider V1 START zip files</h3>
 
 <p>Attached is a zip file of the things you need to begin this
 exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.</p>
 
+<h3>jQuery Image Slider V1 START zip Files</h3>
+
 <ul>
-  <li id="ch3-01-zip"><a href="./zip/3.01-Slider-V1-START.zip" 
+  <li id="ch3-01-zip"><a href="./zip/3.01-jQuery-Slider-V1-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    3.01 Slider-V1-START.zip (zip)</a></li>
+    3.01 jQuery Image Slider V1 START (zip)</a></li>
 </ul>
   
 <h3>Additional Resource:</h3>
@@ -5929,14 +5932,13 @@ project. We&apos;re going to take this script and push it further so that we
 can actually make it so that it wraps all the way around. We&apos;ll take a
 look at that in the next project.</p>
 
-<h3>PDF of Presentation</h3>
+<h3>jQuery Image Slider V1 PDF files</h3>
 
 <ul>
   <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.06 jQuery-Image-Slider-V1.pdf (download)</a></li>
+    3.06 jQuery Image Slider V1 (pdf)</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5949,7 +5951,6 @@ look at that in the next project.</p>
 </p>
 
 <p><b>jQuery</b> Image Slider Version 2.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 328. jquery image slider - version 2 (196) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6520,12 +6521,12 @@ of things that you can use on your websites. And build that will make use of
 jQuery, make use of the built in effects library and teach you how to handle 
 and think about these different types of situations that come up.</p>
 
-<h3>PDF of Presentation</h3>
+<h3>jQuery Image Slider V2 PDF files</h3>
 
 <ul>
   <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.12 jQuery-Image-Slider-V2.pdf</a></li>
+    3.12 jQuery Image Slider V2 (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6721,12 +6722,12 @@ change the position of the slide, the left position, this animation is
 going to take effect. And that&apos;s where we we&apos;ll see the actual
 animation for our slider.</p>
 
-<h3>Start Files: JavaScript Image Sliders</h3>
+<h3>JavaScript Image Sliders START Files</h3>
 
 <ul>
   <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    3.13 JS-Slider-V3-START.zip (zip)</a></li>
+    3.13 JS Slider V3 START (zip)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7266,12 +7267,12 @@ the way back to the end when you get to the end, make it so that it wraps
 around to the second version of the jQuery script but just with JavaScript. 
 Hopefully, that will work.</p>
 
-<h3>PDF of Presentation</h3>
+<h3>JavaScript Image Slider PDF files</h3>
 
 <ul>
   <li><a href="./pdf/3.17-JS-Image-Slider.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.17 JavaScript-Image-Slider.pdf</a></li>
+    3.17 JS Image Slider (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7311,12 +7312,12 @@ projects. Breakout your code editor in your web browser, and let&apos;s get
 started on learning about <b>timers</b> and recursion in JavaScript and
 <b>jQuery</b>.</p>
 
-<h3>Start Files: JavaScript Timers Examples</h3>
+<h3>JavaScript Timers Examples START zip Files</h3>
 
 <ul>
   <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
     target="_blank" rel="noopener noreferrer">
-    4.00 JS-Timers-Examples-START.zip (zip)</a></li>
+    4.00 JS Timers Examples START (zip)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7814,9 +7815,9 @@ pulsating, creepy circle that feels like it&apos;s breathing on our web page
 and you can do more stuff with that if you wanted to.</p>
 
 <ul>
-  <li><a href="./pdf/4.04-JavaScript-Timers-Recursion.pdf" 
+  <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.04 JavaScript-Timers-Recursion.pdf</a></li>
+    4.04 JS Timers &amp; Recursion (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
@@ -8173,13 +8174,15 @@ not using the buttons. But then when you do use the buttons, it moves it
 manually. That would be an interesting modification to the script. Maybe
 you can come up with other ideas and other things that you could do.</p>
 
+<h3>JavaScript Slider on a Timer PDF Files &amp; jQuery Content Rotator START zip Files</h3>
+
 <ul>
-  <li><a href="./pdf/4.07-Slider-on-a-Timer.pdf" 
+  <li><p><a href="./pdf/4.07-JS-Slider-on-a-Timer.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.07 Slider-on-a-Timer.pdf (download)</a></li>
-  <li><a href="./zip/4.07-Rotator-START.zip" 
+    4.07 JS Slider on a Timer (pdf)</a></p></li>
+  <li><p><a href="./zip/4.07-jQuery-Content-Rotator-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    4.07 Rotator-START.zip (zip)</a></li>
+    4.07 jQuery Content Rotator START (zip)</a></p></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8661,9 +8664,9 @@ parameters so that you don&apos;t know what you&apos;re going to get each time
 the function runs itself and that can be very interesting.</p>
 
 <ul>
-  <li><a href="./pdf/4.11-Content-Rotator-with-jQuery.pdf" 
+  <li><a href="./pdf/4.11-jQuery-Content-Rotator.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.11 Content-Rotator-with-jQuery.pdf</a></li>
+    4.11 jQuery Content Rotator (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8684,4 +8687,6 @@ scripts so that you can develop your skills and get better at
 JavaScript. I look forward to seeing you there.</p>
 
 
-<h6>Last updated 4/10/2024 3+ pm</h6>
+<h6>Prior updated 4/10/2024 3+pm</h6>
+<h6>Last updated 5/8/2024 11+am</h6>
+
