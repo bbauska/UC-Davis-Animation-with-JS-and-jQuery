@@ -55,9 +55,9 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 >#### [**1.01 Introduction to jQuery**](#ch1-01)
 
 <ul>
-  <li><h4><a href="./pdf/1.01-jQuery-START.zip" 
+  <li><h4><a href="./pdf/1.01-jQuery-Intro-START.zip" 
     target="_blank" rel="noreferrer noopener">
-	1.01 jQuery START (zip)</a></h4></li>
+	1.01 jQuery Introduction START (zip)</a></h4></li>
 </ul>
 
 >#### [**1.02 jQuery Libraries**](#ch1-02)
@@ -69,7 +69,7 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 <ul>
   <li><h4><a href="./pdf/1.06-jQuery-Intro.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.06 jQuery Intro (pdf)</a></h4></li>
+	1.06 jQuery Introduction (pdf)</a></h4></li>
 </ul>
 
 
