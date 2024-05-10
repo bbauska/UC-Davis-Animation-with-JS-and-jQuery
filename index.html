@@ -940,7 +940,7 @@ need to do is add it to our file.</p>
   title="Plug in the jQuery Library"
   alt="Plug in the jQuery Library." />
 
-<p>I want to add <span class="showme">jQuery</span> to my file here. I can come down here and I
+<p>I want to add <b>jQuery</b> to my file here. I can come down here and I
 can add a script tag script, and what I'm going to put in here is
 <span class="showme">src=“js/jquery-3.7.1.min.js”</span> (last updated 8/28/2023). js is my
 subdirectory.</p>
@@ -1724,7 +1724,7 @@ when we come back in the next lesson, we'll see how I did that.</p>
   alt="Challenge 1 Answer." />
 
 <p>Down here, I'm just going to make a variable, var <b>submenus</b>. Then
-assign that to <b>document.querySelectorAll</b>, and what I want to get
+assign that to <span class="showme">document.querySelectorAll</span>, and what I want to get
 are the <b>ul, il, ul</b>. There we go. Because what I want are these
 unordered lists that are inside the list items that are inside the
 parent unordered list. I'm going to get these, all of these and put them
@@ -1789,7 +1789,8 @@ looking at my solution. But we'll do it together in the next lesson.</p>
   title="var submenu querySelectorAll()"
   alt="var submenu querySelectorAll()" />
 
-<p>First we need a variable, <b>var submenus = document.querySelectorAll(‘ul li ul’);</b> 
+<p>First we need a variable, 
+<span class="showme">var submenus = document.querySelectorAll(‘ul li ul’);</span> 
 and what do we want to get? We want to get these links here, this class menu link 
 for this one, this one, this one down all those. I'm going to come up share the 
 document menu link.</p>
@@ -4893,15 +4894,14 @@ you can see down here. I've got my script file linked.</p>
   title="Define var tabs = document.querySelectorAll('#tabs > ul > li > a');" 
   alt="Define var tabs = document.querySelectorAll('#tabs > ul > li > a');" />
 
-<p>I'm going to go to that script file and just work directly in here. I'm
-going to use var for right now, and later go in and clean up, and add
-Latin concentrate. But you could use Latin concentrate from the
-beginning here, but the first thing I want to do, is get all of my tabs
-and put them in a variable. I'm going to make a variable var tabs, and
-set that equals to document.query selectorAll. What do I want to get in
-here? I want to get very specifically the pound tabs, angle bracket, ul,
-angle bracket, LI, angle bracket a. Those elements. Using the elements
-that I want to get and assign to my tabs variable.</p>
+<p>I'm going to go to that script file and just work directly in here. I'm going 
+to use var for right now, and later go in and clean up, and add Latin concentrate. 
+But you could use Latin concentrate from the beginning here, but the first thing 
+I want to do, is get all of my tabs and put them in a variable. I'm going to make 
+a variable var tabs, and set that equal to <span class="showme">document.query 
+selectorAll</span>. What do I want to get in here? I want to get very specifically 
+the pound tabs, angle bracket, ul, angle bracket, LI, angle bracket a. Those 
+elements. Using the elements that I want to get and assign to my tabs variable.</p>
 
 <p>Then I want to add a click handler to all of them, so I'm going to use a
 loop for, var i equals zero, or i is less that tabs.length, i plus plus,
@@ -5028,7 +5028,8 @@ clicked on, event.target.getAttribute. We want to get the href attribute so
 that will get the href of the length that we collect and put it into this step.</p>
 
 <p>And then we want to get that element. So I'm going to have another variable 
-<b>thisContent</b> and that's going to equal <b>document.querySelector(thisTab)</b>.</p>
+<b>thisContent</b> and that's going to equal 
+<span class="showme">document.querySelector(thisTab)</span>.</p>
 
 <p>And then we want to go get that div for whichever one was clicked and again 
 only one of these can be clicked. So if you click on brownies it's going to get 
@@ -5039,17 +5040,16 @@ and let them do their own thing in a minute. But now we need to do something wit
 the old tab and get its content, so we know what we're, what we're going to do 
 with that one.</p>
 
-<p>We will add another variable var oldContent and I'm going to have that,
-equal document.querySelector('.visible'); Now, in jQuery we had the
-colon visible filter that would get visible tabs. But here since we're
-not using j query, what we're doing instead is each of these tabs has a
-class of either hidden or visible on it. So the one that's visible.</p>
+<p>We will add another variable var oldContent and I'm going to have that
+equal <span class="showme">document.querySelector('.visible');</span>. Now, in 
+jQuery we had the colon visible filter that would get visible tabs. But here 
+since we're not using jQuery, instead each of these tabs has a class of either 
+'hidden' or 'visible' on it. This one is 'visible'.</p>
 
-<p>What we're going to do is swap these classes around, so that when we
-click on one of the tabs one is visible and the other hidden. But we
-have to do an intermediary step to get the animation and fading out.
-What we're going to do is we're going to set its class name to visually
-hidden and its opacity to zero.</p>
+<p>What we're going to do is swap these classes around, so that when we click on 
+one of the tabs one is visible and the other hidden. But we have to do an 
+intermediary step to get the animation and fade out. What we're going to do is 
+we're going to set its class name to 'visuallyhidden' and its opacity to zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 258. css #tabs, hidden, visible & visuallyhidden (154) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5060,11 +5060,9 @@ hidden and its opacity to zero.</p>
   alt="Add #tabs, hidden, visible and visuallyhidden." />
 
 <p>And that will trigger this animation which fades that opacity down to
-zero over 200 milliseconds. Old content.class name equals what
-''visually hidden'', make sure it matches how you spelled visually
-hidden over here. I'm just going to check and make sure yeah I just did
-it all over your case, one word visually hidden. So that's going to
-that's going to set that one to visually hidden. It's still on the
+zero over 200 milliseconds. Old content.class name equals 
+<b>'visually hidden'</b>, make sure it matches how you spelled visually
+hidden over here. That is set to <b>visuallyhidden</b>. It's still on the
 screen, but it's just been transitioned down to the opacity of zero, so
 you can't see it anymore.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5371,18 +5369,21 @@ say <b>tabs.forEach</b> like this. This is the <b>forEach</b> method.
 The <b>forEach</b> method, again, it's an array method, so it works on
 arrays. We do <b>tabs.forEach</b>, and we pass in a <b>callback</b>
 function that runs.</p>
+
 <p>This function takes a variable that's going to work on each element and
 tabs and you can call it Eachtab, where you can call it tab. I'm just
 going to call and tab. It's going to do something with tab. It's going
 to go through each of the tabs and do something with tab. What are we
 going to do here? We're going to say, okay tab.addEventListener, and
 we're going to do click.</p>
+
 <p>Then we're going to run this selectTab down here. This piece of code is
 doing exactly the same thing as this for loop here. You could either
 comment this out or deleted altogether and just use the forEach method
 here that will allow us to add an EventListener to each tab. I just
 think it's a little bit easier to read. Again, we'll get into this more
 later, but this is a good place to introduce it.</p>
+
 <p>We can do the same thing down here in place of this for loop down here
 as well. We get even just paste this in, but instead of adding an event
 listener, we can just do this instead. But instead of tabs dash, the
@@ -6052,8 +6053,7 @@ pixels. We take that counter and we multiply it by the image width; 1 *
 to move it a - 400 pixels.</p>
 
 <p>Let's add this into our script over here again. The best way to do this
-is to type from the outside in. I'm going to add an event listener like
-this.</p>
+is to type from the outside in. I'm going to add an event listener like this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 313. identify id='next' in my index.html (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7390,14 +7390,12 @@ for when the page loads.
   title="Example, Adding Variables, again"
   alt="Example, Adding Variables, again." />
 
-<p>
-What do I need to know? I need to know how many slides I have? How wide
-is each slide? What is the total width of the slider? And then I need to
-get some elements that I'm going to work with on my page, the actual
-slider element itself. If I make a variable called slider, I don't have
-to type <b>document.querySelector</b> every time I want to work with the
-slider, same thing with the next button and the previous button.
-</p>
+<p>What do I need to know? I need to know how many slides I have? How wide is each 
+slide? What is the total width of the slider? And then I need to get some elements 
+that I'm going to work with on my page, the actual slider element itself. If I 
+make a variable called slider, I don't have to type 
+<span class="showme">document.querySelector</span> every time I want to work 
+with the slider, same thing with the next button and the previous button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 379. add variables to javascript (227) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7407,21 +7405,18 @@ slider, same thing with the next button and the previous button.
   title="Example, Adding Variables, again"
   alt="Example, Adding Variables, again." />
 
-<p>
-Let's add these in over here. I'm going to go back to my script over
-here and type it in. I'm going to make a variable called slideCount, and
-I'm going to use querySelectorAll to get the length of how many list
-items do I actually have?
-</p>
-<p>
-The next thing I need to know is how wide is each slide (slideWidth)?
-And there's a property in JavaScript called offsetWidth. I can go get
-this wrapper and say, well how wide is my slider-wrapper? The next thing
-I'm going to need is the total slider width (totalWidth), which is going
-to be the slide count and it's the slide with the pixels. Then I need my
-<span class="showme">DOM</span> elements; the slider itself, the next button and the previous
-button.
-</p>
+<p>Let's add these in over here. I'm going to go back to my script over here 
+and type it in. I'm going to make a variable called slideCount, and I'm going 
+to use <span class="showme">querySelectorAll</span> to get the length of how 
+many list items do I actually have?</p>
+
+<p>The next thing I need to know is how wide is each slide (slideWidth)? And 
+there's a property in JavaScript called <span class="showme">offsetWidth</span>. 
+I can go get this wrapper and say, well how wide is my slider-wrapper? The next 
+thing I'm going to need is the total slider width (totalWidth), which is going
+to be the slide count and it's the slide with the pixels. Then I need my 
+<span class="showme">DOM</span> elements; the slider itself, the next button 
+and the previous button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 380. example, a few more variables (228) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7791,7 +7786,7 @@ to do to make this work. Let's see if it works. I'm going to save that
 and come back to my slider and refresh. The next button should still
 work. Previous button works. If I click Previous again, it goes to the
 end of the slides, and then it will backup through my slides. When I get
-to the first slide, if I click “Previous”, it goes to the end, click
+to the first slide, if I click "Previous", it goes to the end, click
 Next and it goes to the beginning.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. that's it! (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7844,15 +7839,13 @@ of the jQuery script but just with JavaScript. Hopefully, that will work.</p>
   title="Module 4 Introduction"
   alt="Module 4 Introduction." />
 
-<p>
-Hello, you've made it to the 4th module in our second course on
+<p>Hello, you've made it to the 4th module in our second course on
 JavaScript and <b>jQuery</b>. Congratulations, you've learned a lot of
 JavaScript and a lot of useful <b>jQuery</b> for all of your interactive
 projects. I think it's a lot of fun and I hope you've enjoyed the ride
-so far.
-</p>
-<p>
-In this module, we're going to get into <b>timers</b> and recursion.
+so far.</p>
+
+<p>In this module, we're going to get into <b>timers</b> and recursion.
 These are very useful tools that will open up a whole world of
 possibilities for JavaScript and <b>jQuery</b>, and for your interactive
 projects. Breakout your code editor in your web browser, and let's get
@@ -7948,10 +7941,7 @@ link, "Stop the script," and it will stop adding paragraphs.</p>
   title="Example Script #1 - The Full Script"
   alt="Example Script #1 - The Full Script." />
 
-<p>
-Let's deconstruct how this works just a little bit here. That's the full
-script.
-</p>
+<p>Let's deconstruct how this works just a little bit here. That's the full script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 413. example, two functoins for timers in javascript (246) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7960,23 +7950,19 @@ script.
   style="width:50%"
   title="Example, Two Functions for Timers in JavaScript"
   alt="Example, Two Functions for Timers in JavaScript." />
-<p>
-Essentially, there are two functions in JavaScript that allow us to set
-<b>timers</b>. One is <b>setTimeout()</b> and the other one is
-<b>setInterval()</b>. Each of these functions takes a <b>callback</b>
-function and an amount of time. For <b>setTimeOut()</b> or for
-<b>setInterval()</b>, you will run a function and then you'd put a comma
-and then the amount of time that you want to have a lapse before it runs
-or on the interval.
-</p>
-<p>
-For example, down here I have <b>setTimeout</b> <b>wakeUp</b>. So it'd
-run this function <b>wakeUp</b> after eight hours or <b>setInterval</b>
-<b>eatMeal</b>, after every four hours I'm getting <b>eatMeal</b>,
-something like that. Now, you can't pass in eight hours and four hours,
-you pass in a number that represents milliseconds but it's that basic
-idea.
-</p>
+
+<p>Essentially, there are two functions in JavaScript that allow us to set 
+<b>timers</b>. One is <b>setTimeout()</b> and the other one is <b>setInterval()</b>. 
+Each of these functions takes a <b>callback</b> function and an amount of time. For 
+<b>setTimeOut()</b> or for <b>setInterval()</b>, you will run a function and then 
+you'd put a comma and then the amount of time that you want to have a lapse before 
+it runs or on the interval.</p>
+
+<p>For example, down here I have <b>setTimeout</b> <b>wakeUp</b>. So it'd run 
+this function <b>wakeUp</b> after eight hours or <b>setInterval eatMeal</b>, 
+after every four hours I'm getting <b>eatMeal</b>, something like that. Now, you 
+can't pass in eight hours and four hours, you pass in a number that represents 
+milliseconds but it's that basic idea.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 414. example #1, using the setinterval function (247) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7986,29 +7972,23 @@ idea.
   title="Example #1, Using the setInterval Function"
   alt="Example #1, Using the setInterval Function." />
 
-<p>
-Let's take a look at our script here. We have a <b>timer</b> that is a
-variable and it's assigned the <b>setInterval()</b> function. If you
-remember, this is called a function expression because in JavaScript,
-JavaScript treats functions as first-class citizens within JavaScript.
-</p>
-<p>
-You can assign a function to a variable just the same way you could
-assign a string to a variable or a number to a variable or anything else
-to a variable, any other piece of data, you can assign a function to a
-variable. That's one of the things that's very powerful about
-JavaScript, it allows us to assign functions to variables. I've assigned
-this set interval method to the variable timer and then the
-<b>setInterval</b> method has a function in it and the function simply
-says, take the <b>div.innerHTML</b>, and plus equal the content.
-</p>
-<p>
-We'll take some content and add it into the <b>div</b> and then we'll do
-that every 1,500 milliseconds or every 1.5 seconds. That's how this is
-adding the content onto the page is that timer loads, and
-<b>setInterval</b> immediately starts running and starts doing its thing
-and adding this content in the page.
-</p>
+<p>Let's take a look at our script here. We have a <b>timer</b> that is a variable 
+and it's assigned the <b>setInterval()</b> function. If you remember, this is called 
+a function expression because in JavaScript, JavaScript treats functions as 
+first-class citizens within JavaScript.</p>
+
+<p>You can assign a function to a variable just the same way you could assign a 
+string to a variable or a number to a variable or anything else to a variable, 
+any other piece of data, you can assign a function to a variable. That's one of 
+the things that's very powerful about JavaScript, it allows us to assign functions 
+to variables. I've assigned this set interval method to the variable timer and 
+then the <b>setInterval</b> method has a function in it and the function simply
+says, take the <b>div.innerHTML</b>, and plus equal the content.</p>
+
+<p>We'll take some content and add it into the <b>div</b> and then we'll do that 
+every 1,500 milliseconds or every 1.5 seconds. That's how this is adding the 
+content onto the page is that timer loads, and <b>setInterval</b> immediately 
+starts running and starts doing its thing and adding this content in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 415. using setinterval and innerhtml, append paragraph (248) ~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8018,14 +7998,12 @@ and adding this content in the page.
   title="Using setInterval and innerHTML, append paragraph"
   alt="Using setInterval and innerHTML, append paragraph." />
 
-<p>
-Let's go look at the script again in the actual file over here. I have
+<p>Let's go look at the script again in the actual file over here. I have
 the <b>content</b> here, which is adding another <b>paragraph</b>, it's
 just a string here and then <b>setInterval</b> runs and it says take
-<b>theDiv</b>, <b>getElementByID(‘theDiv’)</b>.
-</p>
-<p>
-It's got some default content and it's going to set its <b>innerHTML</b>
+<b>theDiv</b>, <b>getElementByID(‘theDiv’)</b>.</p>
+
+<p>It's got some default content and it's going to set its <b>innerHTML</b>
 to <b>content</b>. In 1.5 seconds, the content is going to get switched
 to a <b>paragraph</b> and it's going to add that. It's going to set the
 <b>innerHTML</b> to that <b>content</b>. Then in another 1.5 seconds, it
@@ -8034,8 +8012,7 @@ will take the content and add it again. Now, there's two
 <b>innerHTML</b> and <b>div</b> to having the two <b>paragraphs</b> so
 the two <b>paragraphs</b> are on the page, and so on and so forth until
 the page is completely full with the paragraphs. We'll talk about the
-<b>clear interval method</b> in the next lesson.
-</p>
+<b>clear interval method</b> in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Example Script #1 – Part 2 (4:13)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8047,8 +8024,8 @@ the page is completely full with the paragraphs. We'll talk about the
   title="4.02 Example Script #1 -- Part 2"
   alt="4.02 Example Script #1 -- Part 2." />
 
-<p>We're looking at the first example in our <b>timers</b> and recursion
-examples here.</p>
+<p>We're looking at the first example in our <b>timers</b> and recursion examples 
+here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 417. on click stop button, halt recursion (249) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
