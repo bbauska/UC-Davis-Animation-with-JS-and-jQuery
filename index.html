@@ -58,7 +58,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>With the general introduction of JavaScript in the first course, this
 course will focus on JavaScript libraries, specifically jQuery. The
-scripts will be geared toward <b>Document Object Model (DOM)</b>
+scripts will be geared toward <span class="showme">Document Object Model (DOM)</span>
 manipulation. Learners will describe the top JavaScript libraries and
 differentiate which would work best to implement and accelerate
 development of web page animation.</p>
@@ -719,12 +719,13 @@ need as much from jQuery as we once did.</p>
 as much anymore. The implementations in different browsers are pretty
 much the same now are very similar, we don't need a lot of that anymore.
 In terms of simplifying common tasks such as traversing the DOM, we've
-already explored <b>querySelector</b> and <b>querySelectorAll,</b> which
+already explored <span class="showme">querySelector</span> and 
+<span class="showme">querySelectorAll,</span> which
 are great tools for accessing elements in your DOM that are built into
 plain JavaScript now. Those have really helped minimize the need for
 jQuery to do that kind of thing.</p>
 
-<p>Also in plain JavaScript, we now have the <b>addEventListener</b>
+<p>Also in plain JavaScript, we now have the <span class="showme">addEventListener</span>
 method, which is great for adding event listeners for all different
 types of events that users might trigger or might be triggered by the
 system. Using that event listener model limits the need for the easier
@@ -856,7 +857,7 @@ it will get it the fastest that it can.
 <p style="clear: both;"></p>
 
 <p>First, we'll look at downloading jQuery, and to do that, you can go to
-<b>jquery.com</b>, and I have that website pulled up here, and you can
+<span class="showme">jquery.com</span>, and I have that website pulled up here, and you can
 click the Download jQuery link. So let's go over here. And I can click
 on download jQuery here. And that will take me to a page that, if you're
 not used to doing this kind of stuff, will look a little confusing.
@@ -873,7 +874,7 @@ all this other stuff on the page. So it can be a little bit confusing.</p>
   title="Downloading using npm, yarn, and/or bower"
   alt="Downloading using npm, yarn, and/or bower." />
 
-<p>The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might
+<p>The <span class="showme">npm, Yarn</span> and <span class="showme">Bower</span> are all build tools that you might
 be using if you're in a particular environment that's using these build
 tools. But we're just going to download the actual library file itself.
 And what we want is the compressed version. There will be a compressed
@@ -915,7 +916,7 @@ compressed down. And, you want to get the minified version. This version
 is the size of maybe a medium sized image on your web page (86
 kilobytes). It's not that big. This is significantly larger (un-minified
 version of 279 kilobytes).</p>
-<p>So now we've got <b>jQuery</b>, let's get it plugged into our HTML
+<p>So now we've got <span class="showme">jQuery</span>, let's get it plugged into our HTML
 file. We'll plug it into our HTML file here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-03">1.03 Plugging into jQuery Libraries (5:37)</h2>
@@ -928,7 +929,7 @@ file. We'll plug it into our HTML file here.</p>
   title="1.03 Plugging into jQuery Libraries"
   alt="1.03 Plugging into jQuery Libraries." />
 
-<p>Plugging in the <b>jQuery</b> library, now we've downloaded jQuery, all we 
+<p>Plugging in the <span class="showme">jQuery</span> library, now we've downloaded jQuery, all we 
 need to do is add it to our file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. example, plug in jquery library (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -939,9 +940,9 @@ need to do is add it to our file.</p>
   title="Plug in the jQuery Library"
   alt="Plug in the jQuery Library." />
 
-<p>I want to add <b>jQuery</b> to my file here. I can come down here and I
+<p>I want to add <span class="showme">jQuery</span> to my file here. I can come down here and I
 can add a script tag script, and what I'm going to put in here is
-<b>src=“js/jquery-3.7.1.min.js”</b> (last updated 8/28/2023). js is my
+<span class="showme">src=“js/jquery-3.7.1.min.js”</span> (last updated 8/28/2023). js is my
 subdirectory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 16. plug in jquery in body of index.html (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -952,7 +953,7 @@ subdirectory.</p>
   title="script src='jquery-3.7.1.min.js' in the body of index.html"
   alt="script src='jquery-3.7.1.min.js' in the body of index.html." />
 
-<p>Now <b>jQuery</b> is plugged in.</p>
+<p>Now <span class="showme">jQuery</span> is plugged in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. test, pop up jquery loaded (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -963,8 +964,8 @@ subdirectory.</p>
   alt="Test pop up, jQuery is loaded." />
 
 <p>If I test this file over here, I come over here and open a new tab and
-do open and go into my <b>jQuery</b> Start folder and open this index
-file, it'll pop up and it'll say <b>jQuery</b> is loaded.</p>
+do open and go into my <span class="showme">jQuery</span> Start folder and open this index
+file, it'll pop up and it'll say <span class="showme">jQuery</span> is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 18. example jquery snippets, the google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -975,13 +976,13 @@ file, it'll pop up and it'll say <b>jQuery</b> is loaded.</p>
   alt="Example jQuery snippets, The Google CDN." />
 
 <p>
-Even easier is to use a CDN to load <b>jQuery</b>, and the CDN I prefer
+Even easier is to use a CDN to load <span class="showme">jQuery</span>, and the CDN I prefer
 to use is the Google CDN, and I have that pulled up over here, and if
 you want to get to the CDN, the easy way to get to it is just to Google.
-Google <b>jQuery</b> I type CDN there we go, and you'll see Hosted
+Google <span class="showme">jQuery</span> I type CDN there we go, and you'll see Hosted
 Libraries on Google. That's this link right here, and over here they've
 got a lot of libraries that you can access through Google that they host
-on their CDN, and one of them is <b>jQuery</b>.
+on their CDN, and one of them is <span class="showme">jQuery</span>.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19. jquery libraries in google cdn (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
