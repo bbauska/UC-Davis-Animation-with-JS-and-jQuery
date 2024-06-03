@@ -82,14 +82,13 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery & javascript logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <header id="title-block-header">
     <h1 style="text-align:center;" class="title">Animation with JavaScript and jQuery</h1>
     <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
     <span class="citation" data-cites="Davis">@Davis</span>)</h6>
   </header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 01/02. jquery & javascript/uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 01/02. jquery & javascript/uc davis logos (01) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image001.png"
   title="jQuery and JavaScript logo"
@@ -938,18 +937,15 @@ on their CDN, and one of them is <span class="showme">jQuery</span>.
   title="jQuery 3 versions from Google&apos;s Hosted Libraries"
   alt="jQuery 3 versions from Google&apos;s Hosted Libraries." />
 
-<p>
-We can go to this link
-<a href="https://developers.google.com/speed/libraries/#libraries" 
-target="_blank" rel="noopener noreferrer">here</a>, to <b>jQuery</b>,
-and you can see that <b>jQuery</b> has three different versions, three
+<p>We can go to <a href="https://developers.google.com/speed/libraries/#libraries" 
+target="_blank" rel="noopener noreferrer">Google Hosted Libraries</a>, to 
+<b>jQuery</b> heading, and you can see that <b>jQuery</b> has three different versions, three
 flavors of <b>jQuery</b> that include different features. The version 1X
 snippet is the oldest version of <b>jQuery</b> and it's loading 1.12.4.
 This is really the 12th major version of version one, essentially, and
 then we've got version 2.2.4, which is the second major version, and
 that version they did a number of things to remove support for IE6, and
-finally, version 3.7.1 which is the current version of jQuery.
-</p>
+finally, version 3.7.1 which is the current version of jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 20. is jquery working; script load (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -959,16 +955,17 @@ finally, version 3.7.1 which is the current version of jQuery.
   title="Is jQuery Working, Script load"
   alt="Is jQuery Working, Script load." />
 
-<p>
-The most recent version, the version that we downloaded is version
-3.7.1, so to get the same one that we had before, you can just copy this
-entire script line here. Oops, wrong button here. There we go. Just copy
-that line, and go back to our file here, and paste that line in instead,
-and you'll see if we save this and come back and do testing
-<b>jQuery</b>, <b>jQuery</b> is loaded. Instead of loading from the file
-that I have locally here, I can now delete this file, and it will work
-just fine.
-</p>
+<p>The most recent version, the version that we downloaded is version 3.7.1, so 
+to get the same one that we had before, you can just copy the following command
+to the html index file.</p>
+
+<pre>&lt;script src=" 
+&lt;script src=&ldquo;https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js&rdquo;&gt;&lt;/script&gt;</pre>
+
+<p>Then go back to our file here, and paste that line in instead, and you'll see 
+if we save this and come back and do testing <b>jQuery</b>, <b>jQuery</b> is loaded. 
+Instead of loading from the file that I have locally here, I can now delete this 
+file, and it will work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. is jquery working? (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -978,14 +975,11 @@ just fine.
   title="Is jQuery Working?"
   alt="Is jQuery Working?" />
 
-<p>
-Now if I was gone, but this will work just fine because it's actually
+<p>Now if I was gone, but this will work just fine because it's actually
 loading <b>jQuery</b> from the internet. Of course, if the internet's
 down, it's not going to load it, but if the internet's down, and you
-going to get to your webpage anyway.
-</p>
-<p>
-It's a little bit easier to use the CDN to load <b>jQuery</b> because
+going to get to your webpage anyway.</p>
+<p>It's a little bit easier to use the CDN to load <b>jQuery</b> because
 it's just one less file and I have to download, keep track of. Usually
 we will be using this method to load <b>jQuery</b>, and there are times
 when you might want the older versions generally will use the newest
@@ -994,8 +988,7 @@ function or method in <b>jQuery</b> that has been deprecated, or if
 you're using a plug-in that was built using an older version, and it
 needs some functionality from the older version in order to work. But
 generally we're going to use the newest version of <b>jQuery</b>,
-version 3.7.1 at the time of this recording.
-</p>
+version 3.7.1 at the time of this recording.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-04">1.04 Basic jQuery Syntax (5:31)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1007,10 +1000,8 @@ version 3.7.1 at the time of this recording.
   title="1.04 Basic jQuery Syntax"
   alt="1.04 Basic jQuery Syntax." />
 
-<p>
-Now that you have <b>jQuery</b> working, let's do something with it. Do
-something more than just to show that it's working.
-</p>
+<p>Now that you have <b>jQuery</b> working, let's do something with it. Do
+something more than just to show that it's working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 23. example, basic jquery syntax - the jquery object (21) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1020,11 +1011,8 @@ something more than just to show that it's working.
   title="Example, Basic jQuery Syntax - The jQuery Object"
   alt="Example, Basic jQuery Syntax - The jQuery Object." />
   
-<p>
-We'll use the same file, we're just going to replace the script down
-there just so we can see that something is happening to our actual web
-page.
-</p>
+<p>We'll use the same file, we're just going to replace the script down there 
+just so we can see that something is happening to our actual web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 24. jquery set h1.css color to 'red' (22) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1062,7 +1050,8 @@ simple syntax here that uses CSS-style selectors to access elements on
 the page. We've gotten methods that we have access to because the
 <b>jQuery</b> library is plugged in that we can just use. Now if you're
 wondering about the dollar sign here.</p>
-The dollar sign is just a shortcut for the word <b>jQuery</b>. I could
+
+<p>The dollar sign is just a shortcut for the word <b>jQuery</b>. I could
 put the word <b>jQuery</b> there, and over here this will run just
 exactly the same way. It will work fine with using the word
 <b>jQuery</b> instead of the dollar sign (<b>$</b>). But generally we
@@ -1070,7 +1059,7 @@ use the dollar sign as a shortcut just because it keeps our script
 shorter, it's less typing, and why type all those extra characters if
 you can just type one? We can put the single dollar sign in there for
 that reason. This CSS method here is just one of the great many that
-<b>jQuery</b> has to offer that will help us factor web pages.
+<b>jQuery</b> has to offer that will help us factor web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. jquery api documentation (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1188,7 +1177,7 @@ on the page.</p>
   style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   title="page.html, lines 22-38"
   alt="page.html, lines 22-38." />
-<p style="clear: both;">
+<p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. page.html, lines 39-51 (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1325,7 +1314,7 @@ the age to inside of main we can do that as well so we can do main H two.</p>
   style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   title="Test, red border in main and h2 elements"
   alt="Test, red border in main and h2 elements." />
-<p style="clear: both;">
+<p style="clear: both;"></p>
 
 <p>Now this may not seem so special now because we have query selector
 and playing javascript which allows us to use compound selectors like
@@ -1908,7 +1897,7 @@ it looks kind of messy here, but it is actually working. Or if I click
 on menu two, I'm getting all these list items to B to C. So, I've got
 this whole an ordered list that I'm getting here. It might be easier to
 see it if you do it in a console log. So, we can change this to council
-a log and then let's see what it does.<p>
+a log and then let's see what it does.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. challenge 3 answer (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3832,13 +3821,11 @@ happen at the same time.</p>
   title="Example 4 - Doing All Animations At Once"
   alt="Example 4 - Doing All Animations At Once." />
   
-<p>
-They're all going to move forward at the same time. We will change both
+<p>They're all going to move forward at the same time. We will change both
 the width, the font, and the left positioning of three of these. We're
 going to change all of them at once. We can do that by just passing in
 these different properties into our object all at once, separating them
-with commas.
-</p>
+with commas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200. doall script (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3848,8 +3835,7 @@ with commas.
   title="doall script"
   alt="doall script." />
   
-<p>
-Let's do that. Down here, once again, I'm going to use my <b>jQuery</b>
+<p>Let's do that. Down here, once again, I'm going to use my <b>jQuery</b>
 object to go get this pound, but what I want is do all. I'm going to get
 pound do all. Then I'm going to add a click handler. Click for when you
 click the <b>doall</b> button, and then we're going to run a function,
@@ -3859,16 +3845,13 @@ animate method. We're going to pass in our object, so we do the curly
 braces. First we want width, 710 pixels, so I put that in here. Width,
 710 pixels and then a comma. Then we want font size, 36 pixels, I put
 that in there. Then a comma. Then we want left plus equals 300. We'll
-put that in there.
-</p>
-<p>
-You'll see now there's some extra spaces at the end. It doesn't really
+put that in there.</p>
+<p>You'll see now there's some extra spaces at the end. It doesn't really
 matter, it's fine, but you'll see with all of those in there, that now
 when I come over and test this thing, I also want to put in an amount of
 time, that will be really helpful. After the curly brace, put a comma,
 and then I'm going to put 1500. It's going to take a second-and-a-half
-to do all of these.
-</p>
+to do all of these.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. test doall, example4.html (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3878,10 +3861,8 @@ to do all of these.
   title="Test doall, example4.html"
   alt="Test doall, example4.html." />
   
-<p>
-Let's come back over here and refresh this. When I click Do All, it
-should do all of those things.
-</p>
+<p>Let's come back over here and refresh this. When I click Do All, it
+should do all of those things.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202. sequence script (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3891,22 +3872,18 @@ should do all of those things.
   title="sequence script"
   alt="sequence script." />
 
-<p>
-Now, the last button is to do them in a sequence. First we want to grow
+<p>Now, the last button is to do them in a sequence. First we want to grow
 the box, then we want to grow the text, then we want to move the box. We
 want to do each one of these in a sequence. We can do that with
-<b>callback</b> functions.
-</p>
-<p>
-Each one of these animations can have its own callback functions that
+<b>callback</b> functions.</p>
+
+<p>Each one of these animations can have its own callback functions that
 when it finishes it calls the next one and when that one finishes it
 calls the next one. It can be confusing for the syntax in order to get
 this to work, but once you understand it and know how to do it and mess
-with it a little bit, it's not too hard.
-</p>
+with it a little bit, it's not too hard.</p>
 
-<p>
-Let's do this again. I'm going to start with this one. I'm going to copy
+<p>Let's do this again. I'm going to start with this one. I'm going to copy
 that and stick it down here. Instead of getting that button, I'm going
 to get this one sequence. When you click the button Sequence, it's going
 to take box and it's going to animate the width to 710 px. I'm going to
@@ -3915,19 +3892,16 @@ going to put say 1500 for how long that animation should take place. I'm
 going to put another comma, and I'm going to add a function. It's really
 easy to get confused here because we're going to put everything into
 this function here. I'm going to make sure I click between those curly
-braces, move that down.
-</p>
+braces, move that down.</p>
 
-<p>
-Then I'm gonna go get this one, font-size 36. I'm going to put a comma
+<p>Then I'm gonna go get this one, font-size 36. I'm going to put a comma
 here and I'm going to put 1500 seconds in there. The 1500 milliseconds,
 that's 1.5 seconds. 1500 milliseconds in there, and then a comma and
 another function, parentheses, curly braces. It's really easy to lose
 track of this stuff. You have to be really careful with it, but then I'm
 going to put the next one inside these curly braces. I move that down,
 and I'm going to do this one here. Now change that to 1500. There we go.
-That's the last one. It doesn't get a <b>callback</b> function.
-</p>
+That's the last one. It doesn't get a <b>callback</b> function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203. test, sequence (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4346,7 +4320,7 @@ you don't lose any curly braces or semi-colons.</p>
   style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   title="Change font and background colors if tabs-# is clicked"
   alt="Change font and background colors if tabs-# is clicked." />
-<p style="clear: both;">
+<p style="clear: both;"></p>
 
 <p>Then I can click inside the curly braces and in here I want to get all
 of these anchor tags here, and make it so that the color and the
@@ -4497,8 +4471,7 @@ lesson.</p>
   title="Example, The Whole Script"
    alt="Example, The Whole Script." />
 
-<p>
-What I need to do is get the tab that's currently showing, and we can do
+<p>What I need to do is get the tab that's currently showing, and we can do
 that using <b>jQuery</b>. The most effective way is to use tabs, angle
 bracket, div:visible. We've talked about this filter before briefly, and
 it will give us whichever one is currently set to display block. That's
@@ -4506,10 +4479,9 @@ the current one that we need to set, and we're just going to set it
 to.fadeOut over 200 milliseconds. That will fade out the current one
 that's showing. The other ones are all set to display none. Once this
 animation is finished, we need to take the one that we've clicked on and
-feed it back in.
-</p>
-<p>
-What we need here is a <b>callback</b> function. Once this is done
+feed it back in.</p>
+
+<p>What we need here is a <b>callback</b> function. Once this is done
 fading out, we want to add a callback function, with its parentheses,
 and its current devices in here. I want this tab to get faded in. The
 way we're going to do is we're going to make use of our variable that
@@ -4517,8 +4489,7 @@ we've already created here. We can use our <b>jQuery</b> object to get
 this tab. We know that this thing is going to hold in either pound tab
 dash 1 or pound tab dash 2 because that's what we found when we did this
 alert. You get this one and then we can do.fadeIn over 200 milliseconds.
-We'll fade that one in.
-</p>
+We'll fade that one in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 237. full script in index.html (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4528,12 +4499,10 @@ We'll fade that one in.
   title="Full script in index.html"
   alt="Full script in index.html." />
 
-<p>
-Now we have a nice simple script that allows us to capture these
+<p>Now we have a nice simple script that allows us to capture these
 elements and use the <b>jQuery</b> effects library to feed them in and
 out. This isn't particularly heavy duty effects libraries stuff. It's
-not going to look terrible on mobile or anything like that.
-</p>
+not going to look terrible on mobile or anything like that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. test, highlight one tab (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4543,17 +4512,15 @@ not going to look terrible on mobile or anything like that.
   title="Test, highlight one tab"
   alt="Test, highlight one tab." />
 
-<p>
-Let's see if this actually works. Come over here, refresh the page. When
+<p>Let's see if this actually works. Come over here, refresh the page. When
 I click on Brownies, it feeds the first one out and feeds the next one
 in, and that's working perfectly. Because of the animation, it's giving
 us a sense that the content is actually changing. That's a really good
 use of animation there and the effects library. That's working great.
 Let's just review the whole script. Here we're loading the <b>jQuery</b>
-library.
-</p>
-<p>
-Then in our script, we're getting those anchor tags and adding
+library.</p>
+
+<p>Then in our script, we're getting those anchor tags and adding
 clickHandler to notice that a function runs when they're clicked. In the
 tabs we are changing all of them to be the default background color, the
 unselected color for both the background and the color of the text, then
@@ -4561,13 +4528,11 @@ the one we clicked on we're changing so that it shows the correct color
 in text for that one. We figure out, well which link did we click on,
 and then we're going to take the corresponding div that goes with that,
 fade out the one that's currently showing, and take the corresponding
-div and feed it back in.
-</p>
-<p>
-That's the entire script. It's a nice simple script and does a nice job
+div and feed it back in.</p>
+
+<p>That's the entire script. It's a nice simple script and does a nice job
 of making use of our effects library in <b>jQuery</b> to build something
-simple and effective that you could use in lots of websites.
-</p>
+simple and effective that you could use in lots of websites.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. summary jquery tabs (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4603,8 +4568,7 @@ parenthesis at the end to make it run. Then inside the curly braces, I'm
 going to use strict directive semicolon, and then I'm going to come back
 here and just copy this script from here. Already use const for the one
 variable that I have, so I don't really have to do anything with that.
-That's all fine, and that should be all good there.
-</p>
+That's all fine, and that should be all good there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 241. call script.js from 'head' with 'defer' (142) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4614,8 +4578,7 @@ That's all fine, and that should be all good there.
   title="Call script.js from 'head' with 'defer'"
   alt="Call script.js from 'head' with 'defer'." />
 
-<p>
-Then back here I can just get rid of the stuff. Instead, I'm going to
+<p>Then back here I can just get rid of the stuff. Instead, I'm going to
 move these things up to the top of the page, cut them from here, and
 stick them in the head, but again, you have to add the defer attribute
 here, like that. Then for this script here, I'm just going to link to my
@@ -4623,12 +4586,11 @@ script tags. I mean just SRC equals quote, script.js, and then don't
 forget, <b>defer</b>, and then this thing down here can go up. There we
 go. That should all work. Let's just test it really quickly and make
 sure it works. Refresh, and it's working great. We've got a nice, clean,
-simple script that we can use using <b>jQuery</b>.
-</p>
+simple script that we can use using <b>jQuery</b>.</p>
 
 <h3 id="ch2-14-pdf">jQuery Tabbed Interace PDF Files</h3>
 
-<p><p>Here is a PDF of the presentation slides used in the lessons for this
+<p>Here is a PDF of the presentation slides used in the lessons for this
 section: <b>Creating a Tabbed Interface with jQuery</b>.</p>
 
 <ul>
@@ -4692,7 +4654,7 @@ we'll use javascript to trigger the changing of these classes.</p>
   title="Lines 21-38 of styles.css"
   alt="Lines 21-38 of styles.css."
   style="width:40%; float: left; margin-left: 10%; margin-bottom: 1em;" />
-<p style="clear: both;">
+<p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. lines 49-64 of styles.css (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4742,7 +4704,7 @@ JavaScript will be moving that class active to each of these will be
 removing it from here and adding in each of these as you click on them
 to change them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 247/248. style.css optimized a bit (146) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 247/248. styles.css optimized a bit (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image247.png"
   loading="lazy"
@@ -4755,7 +4717,7 @@ to change them.</p>
   title="Styles.css after optimized a bit"
   alt="Styles.css after optimized a bit."
   style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;" />
-<p style="clear: both;">
+<p style="clear: both;"></p>
 
 <p>And then we've got a few helper classes down here that will be using hidden 
 to set elements to display, not visible to display block and visually hidden. 
@@ -6448,8 +6410,7 @@ at the end of the element slider.
   alt="More body of index.html." />
 <p style="clear: both;"></p>
 
-<p>
-So what that will do if we come over and look at our code here, if I
+<p>So what that will do if we come over and look at our code here, if I
 look at my index here is it will take this entire a unordered list and
 make a copy of it, and stick it right here like that. That is going to
 end up looking like that when it is done when it is done cloning and
@@ -6457,8 +6418,7 @@ appending. That is what it is going to do sort of in code rather than
 physically adding the <b>html</b> like I just did there. So it is going
 to add that on there, it is going to clone it, and then appended to the
 slider and then I need to set the CSS of that of that second. A new
-ordered list.
-</p>
+ordered list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 337. example, strategy (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6468,20 +6428,17 @@ ordered list.
   title="Example, Strategy to make it look lit the slides are looping"
   alt="Example, Strategy to make it look lit the slides are looping." />
 
-<p>
-The last one I am going to set the left to image with plus pixels so it
+<p>The last one I am going to set the left to image with plus pixels so it
 is going to be positioned right here because, this is our little window.
 So it is going to say, okay left, since the images 400 pixels wide, it
 is going to set the left at 400 pixels. That will put the corner, the
 left corner right up against the edge here, which is exactly where we
-want it to be. 
-</p>
-<p>
-You might be wondering how would I know about cloning in jQuery? You can
+want it to be.</p>
+
+<p>You might be wondering how would I know about cloning in jQuery? You can
 go to the jQuery documentation for all the different things that you can
 use with jQuery, and it is just a matter of looking through and seeing
-what the different functions are, and what they do and looking them up.
-</p>
+what the different functions are, and what they do and looking them up.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 338. clone, append slider, add img width to slider (201) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6491,34 +6448,30 @@ what the different functions are, and what they do and looking them up.
   title="Clone, append slider, add image width to slider position"
   alt="Clone, append slider, add image width to slider position." />
 
-<p>
-Let us add this to our script. I am going to go back to my script file here, and 
+<p>Let us add this to our script. I am going to go back to my script file here, and 
 you can leave the counter in if you want. All this stuff is going to come before 
 the counter. We are going to do the counter thing at the very end. You can leave 
 the counter in if you want or you can take it out and put it back in at the end. 
 It does not really matter. But I mean you use my jQuery object to go get pound
 slider, and get the U L. The site pound sider in ordered list. And then
 I am going to clone it dot clone. And that will make a clone of that
-annoy ordered list.
-</p>
-<p>
-And then I need to append that clone. Two slider, pound slider. Do not
+annoy ordered list.</p>
+
+<p>And then I need to append that clone. Two slider, pound slider. Do not
 forget the pound sign, send it to pound slider. And that will actually
 make when when we get to the last slide that will make a clone of it and
 put it on there. And then, I need to set the position for that one. I am
 going to say again, I am going to get my jQuery object town slider. You
-will but I want to get the last one.
-</p>
-<p>
-Now I have to so I want to get last. We are going to use this last
+will but I want to get the last one.</p>
+
+<p>Now I have to so I want to get last. We are going to use this last
 method again, I am going to get the last one, and I am going to set at
 CSS, and I am going to set the left position left. And what am I going
 to set it to you? I am going to set it to image with, yes. Image with
 plus I probably need pixels on there. Right, image with plus PX, right
 image with plus quote PX. And that will put it in exactly the correct
 spot here on the page. That will put it so it shows up at the end. The
-next lesson will handle the animation.
-</p>
+next lesson will handle the animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-09">3.09 Setting the Left Position (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6530,10 +6483,8 @@ next lesson will handle the animation.
   title="3.09 Setting the Left Position"
   alt="3.09 Setting the Left Position." />
 
-<p>
-Before I do the animation, I want to set the variable left position
-equal to a value where I'm going to move that first unordered list to.
-</p>
+<p>Before I do the animation, I want to set the variable left position
+equal to a value where I'm going to move that first unordered list to.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 340. example, setting the left position (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6543,13 +6494,11 @@ equal to a value where I'm going to move that first unordered list to.
   title="Example, Setting the Left Position"
   alt="Example, Setting the Left Position." />
 
-<p>
-In this case, the unordered list is 2,000 pixels wide. So I'm going to
+<p>In this case, the unordered list is 2,000 pixels wide. So I'm going to
 move the left position to minus 2,000 pixels. What that'll do is it'll
 move that entire first unordered list where it sets the correct position
 for that first unordered list, so that it's entirely off the left side
-of my slider window.
-</p>
+of my slider window.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 341. define leftposition = -totalwidth (203) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6559,14 +6508,12 @@ of my slider window.
   title="leftPosition = -totalWidth"
   alt="leftPosition = -totalWidth." />
 
-<p>
-Let's go ahead and do that first. I'm going to put in left position
+<p>Let's go ahead and do that first. I'm going to put in left position
 equals and then use my tick marks and a negative sign because it's going
 to be minus and then total width is going to evaluate to 2,000 pixels.
 That's going to say minus 2,000 pixels right there. That puts that into
 their correct place. We've got that variable set. Now what we need to do
-is animate both unordered lists.
-</p>
+is animate both unordered lists.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 342. example, animating both slide strips (203) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6576,13 +6523,11 @@ is animate both unordered lists.
   title="Example, Animating Both Slide Strips"
   alt="Example, Animating Both Slide Strips." />
 
-<p>
-I'm going to animate the first one and the last one. They're going to
+<p>I'm going to animate the first one and the last one. They're going to
 animate at the same time. In this list, the first line moves, the second
 unordered list, the last one, the one that we added with our cloned
 unordered list. It's going to move that to left zero. So that it's
-moving it from the left side of that window.
-</p>
+moving it from the left side of that window.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 343. slider ul last, animate left easeinquad (204) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6592,8 +6537,7 @@ moving it from the left side of that window.
   title="Slider ul last, animate left easeInQuad"
   alt="Slider ul last, animate left easeInQuad." />
 
-<p>
-If we come back up here to here, it's moving it from this left corner of
+<p>If we come back up here to here, it's moving it from this left corner of
 the window into its space here. So that's going to put that into the
 correct place, whereas the second one is going to move from this space
 all the way out, so that at this point, it's at minus 2000 pixels, which
@@ -6601,18 +6545,16 @@ will put this edge right at this edge here. You can see you're on
 getting slider. You're at last, the last one, animating it. I'm
 animating the left property to zero. So that will put it right, so that
 the first image is right in position inside my slider at 700 using
-easeInQuad, whereas the first one gets animated to left position.
-</p>
-<p>
-We just set that to minus 2,000 pixels also at the same speed using the
+easeInQuad, whereas the first one gets animated to left position.</p>
+
+<p>We just set that to minus 2,000 pixels also at the same speed using the
 same easing. So they move together. Let's go ahead and add this into our
 script over here. I'm going to say, get my pound slider ul.last. This
 one. I'm going to animate it. How am I going to animate it? I'm going to
 animate the left property to zero. That one goes to zero. Left goes to
 zero. I'm going to just use the same easing and everything else that I
 had down here. I can even just copy and paste that to move that into
-place. That moves that one.
-</p>
+place. That moves that one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 344. slider ul, first animate leftposition easeinquad (205) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6622,13 +6564,11 @@ place. That moves that one.
   title="Slider ul, first animate leftPosition easeInQuad"
   alt="Slider ul, first animate leftPosition easeInQuad." />
 
-<p>
-I can copy this line and paste it here, but now I'm going to move the
+<p>I can copy this line and paste it here, but now I'm going to move the
 first one, animate left, and it's going to get moved to left position.
 There we go. That will move both strips at the same times. Can animate
 them into their correct place. Then the last thing that we need to do is
-remove this one. We'll look at that in the next lesson.
-</p>
+remove this one. We'll look at that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6656,8 +6596,7 @@ and then added it to our slider and then set it's position into the
 correct place. Then we animated the two unordered lists at the same
 time, the first one and the last one. We animated the last one, it's
 left position writes that the first picture is inside the window and we
-animated the first one off the left side of the slider.
-</p>
+animated the first one off the left side of the slider.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 347. after animation, remove slider (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6667,22 +6606,19 @@ animated the first one off the left side of the slider.
   title="After completion of animation, remove slider"
   alt="After completion of animation, remove slider." />
 
-<p>
-Then the last thing we need to do is after this animation is completed,
+<p>Then the last thing we need to do is after this animation is completed,
 I want to remove it from the <span class="showme">DOM</span> altogether. The key word there is after
 this animation is completed. That means I need a callback function. In
 here, after the easeInQuad, you're going to put a comma, and add a
 function like so and it's wrapping around funny and includes this
-explorer here, so you can see it better.
-</p>
-<p>
-But this function is a callback function that runs when this animation
+explorer here, so you can see it better.</p>
+
+<p>But this function is a callback function that runs when this animation
 has completed and that's what I want to do here. I'm going to click
 inside of there and move that down. Then I can say, I want to actually
 remove this first one, so I can say dollar sign, get my <b>jQuery</b>
 object and say here, pound slider ul.first.remove.That will take it off
-the <span class="showme">DOM</span> entirely.
-</p>
+the <span class="showme">DOM</span> entirely.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 348. example, add a callback function (207) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6692,10 +6628,8 @@ the <span class="showme">DOM</span> entirely.
   title="Example, Add a Callback Function"
   alt="Example, Add a Callback Function." />
 
-<p>
-You can see here at my slide, that's what I have here, pound slider
-first remove, so that will take it off.
-</p>
+<p>You can see here at my slide, that's what I have here, pound slider
+first remove, so that will take it off.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 349. example, finally, set the counter to 0 (207) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6705,12 +6639,10 @@ first remove, so that will take it off.
   title="Example, Finally, Set the Counter to 0"
   alt="Example, Finally, Set the Counter to 0." />
 
-<p>
-And then once that's off, I can set my counter to zero, and everything's
+<p>And then once that's off, I can set my counter to zero, and everything's
 back where it should be. You could add some comments if you need to.
 Sometimes it helps make sure this thing is running as a callback
-function and that these two are running at the same time.
-</p>
+function and that these two are running at the same time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 350. now, the previous button function (208) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6720,11 +6652,9 @@ function and that these two are running at the same time.
   title="Next, do the previous button function"
   alt="Next, do the previous button function." />
 
-<p>
-But now the question is, can you do the previous button? Link yourself,
+<p>But now the question is, can you do the previous button? Link yourself,
 see if you can do that one, try it on your own and then we would come
-back. You'll see my solution for it in the next lesson.
-</p>
+back. You'll see my solution for it in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-11">3.11 Previous Button Click Handler – Part 1 (7:27)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6736,10 +6666,8 @@ back. You'll see my solution for it in the next lesson.
   title="3.11 Previous Button Click Handler - Part 1"
   alt="3.11 Previous Button Click Handler - Part 1." />
 
-<p>
-In the last lesson, we figured out how to get the next click handler to
-function properly.
-</p>
+<p>In the last lesson, we figured out how to get the next click handler to
+function properly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 352. example, previous button click handler (209) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6749,21 +6677,18 @@ function properly.
   title="Example, Previous Button Click Handler"
   alt="Example, Previous Button Click Handler." />
 
-<p>
-Let's do it together and sort of see how it's actually going to work. So
+<p>Let's do it together and sort of see how it's actually going to work. So
 the script I came up with looks like this. What's going to happen here
 is when you click the previous link, the counter is going to get
 documented. And then we're going to check to see if the counter is less
 than 0, which means we've run through all of our images. And then we're
-going to set the counter to image count -1.
-</p>
-<p>
-So we've got five images and so we're going to set the counter back to
+going to set the counter to image count -1.</p>
+
+<p>So we've got five images and so we're going to set the counter back to
 4. Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of
 those five values, so we set it to image count minus one, so it's now a
 four, then we're going to clone our unordered list and append it to the
-slider, just like we did before.
-</p>
+slider, just like we did before.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 353. if previous button clicked, then ... (209) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6773,21 +6698,18 @@ slider, just like we did before.
   title="If previous button is clicked, then..."
   alt="If previous button is clicked, then..." />
 
-<p>
-But here it will be helpful to go back and look at our diagram, once
+<p>But here it will be helpful to go back and look at our diagram, once
 again. Looking at our diagram, this is our situation in this part down
 here our strip is at this position and we've clicked the previous
 button. What we want to do is we want to add the new strip and append it
 on bottom slider, instead of appending it on the top slider. Bottom
 slider, left corner is going to go from -2000 pixels to -1600 pixels.
-2000 because our images 400 pixels wide, we've got five of them here.
-</p>
-<p>
-And that will push this first picture (blue box) into our slider. And
+2000 because our images 400 pixels wide, we've got five of them here.</p>
+
+<p>And that will push this first picture (blue box) into our slider. And
 then the same frame will go from 0 pixels to 400 pixels to move that
 there. Hopefully the diagram helps. And maybe you drew your own diagram
-and trying to solve this problem.
-</p>
+and trying to solve this problem.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 353. if previous button clicked, then ... (210) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6797,27 +6719,23 @@ and trying to solve this problem.
   title="If previous button is clicked, then..."
   alt="If previous button is clicked, then..." />
 
-<p>
-Here we are with our script here. But we're going to clone our own
+<p>Here we are with our script here. But we're going to clone our own
 ordered list like we did in the previous one, but I'm going to set that
 last one that I've added into my <span class="showme">DOM</span>, the one that I've appended to, the
-slider, I'm going to set the left to minus total width again.
-</p>
-<p>
-So that sets its left corner at that -2000 pixel mark. And we're going
+slider, I'm going to set the left to minus total width again.</p>
+
+<p>So that sets its left corner at that -2000 pixel mark. And we're going
 to set left position to minus counter times image width. Remember the
 counter got set to 4 here because its image count minus 1. So counter is
-4. 4 times 400 gives us 1600 pixels.
-</p>
-<p>
-And remember we're moving our strip from -2000 pixels to -1600 pixels to
+4. 4 times 400 gives us 1600 pixels.</p>
+
+<p>And remember we're moving our strip from -2000 pixels to -1600 pixels to
 move that left edge, that's way over off the side there into the correct
 position. That's what that leftPosition is going to be set for. Then we
 can take that last one and move it into the correct place. That moves
 that strip onto the screen and then we take the first one and move it so
 it's off the screen. And then we can, with our callback function, remove
-that first one.
-</p>
+that first one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 354. else left position = counter * image width (211) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6827,28 +6745,24 @@ that first one.
   title="Else leftPosition = counter * imageWidth"
   alt="Else leftPosition = counter * imageWidth." />
 
-<p>
-We’re going to do the same thing we did before and add the else and move
+<p>We’re going to do the same thing we did before and add the else and move
 this stuff in here. We're going to document the counter and then we're
 going to set the counter to image count -1. So that all stays the same.
 Then we're going to do the thing that we did with the cloning up here so
 I can actually copy this. And paste it in here. But the position is
-going to be a little bit different here.
-</p>
-<p>
-This position, the last one is not going to be set to <b>imageWidth</b>,
+going to be a little bit different here.</p>
+
+<p>This position, the last one is not going to be set to <b>imageWidth</b>,
 instead it's going to be set to tick marks. I'm going to put that in the
 tick marks, -${totalWidth}. I want to set it to minus totalWidth, left
 minus totalWidth. Then I'm going to set the leftPosition to counter
-times <b>imageWidth</b> plus “px”.
-</p>
-<p>
-So let's put that in next. I'm going to put that in here. But instead of
+times <b>imageWidth</b> plus “px”.</p>
+
+<p>So let's put that in next. I'm going to put that in here. But instead of
 minus totalWidth, it's going to be minus counter times
 <b>imageWidth</b>, that's what it is counter times not totalWidth but
 <b>imageWidth</b>. Plus “px” on the end of that. Now we just need to
-animate the two pieces and we'll do that in the next lesson.
-</p>
+animate the two pieces and we'll do that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-12">3.12 Previous Button Click Handler – Part 2 (5:17)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6860,11 +6774,9 @@ animate the two pieces and we'll do that in the next lesson.
   title="3.12 Previous Button Click Handler - Part 2"
   alt="3.12 Previous Button Click Handler - Part 2." />
 
-<p>
-In the last lesson, we worked out the logic of how the previous click
+<p>In the last lesson, we worked out the logic of how the previous click
 handler is going to work and where we left off was actually animating
-these strips into place. That's what we need to do here.
-</p>
+these strips into place. That's what we need to do here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 356. animate unordered list into position (212) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6874,27 +6786,23 @@ these strips into place. That's what we need to do here.
   title="Animate unordered list into position"
   alt="Animate unordered list into position." />
 
-<p>
-We're going to take an unordered list that we cloned in there and
+<p>We're going to take an unordered list that we cloned in there and
 animate it into its position. And again, what we're doing is we're
 moving it from one position to another. This corner when we added it to
 our clone, is set to minus 2000 pixels because these are 400 pixels wide
-and there's five of them.
-</p>
-<p>
-Next, we're going to move it from minus 2000 pixels to minus 1600 pixels
+and there's five of them.</p>
+
+<p>Next, we're going to move it from minus 2000 pixels to minus 1600 pixels
 which will move it over 400 pixels. That will push the right side of
 this into our slider. We have our last element, we're animating to the
 left position, and left position is now minus 1600 pixels over 700
-milliseconds using easeInQuad.
-</p>
-<p>
-Add this into our script. But instead of left 0, we're moving to
+milliseconds using easeInQuad.</p>
+
+<p>Add this into our script. But instead of left 0, we're moving to
 leftPosition. Which is that minus 1600 pixels, the counter which is four
 times <b>imageWidth</b> which is 400 that's 1600, with the minus sign in
 front of it and with the px that's going to move that into the correct
-place.
-</p>
+place.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 357. previous click function in script.js (214) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6904,29 +6812,25 @@ place.
   title="Previous click function within script.js"
   alt="Previous click function within script.js." />
 
-<p>
-That gets that one into the correct place. The other one, the first one,
+<p>That gets that one into the correct place. The other one, the first one,
 this one here, I'm sorry this one here first can actually copy this
 whole thing because we are going to remove it, we can come down here and
 we can add that in here. But instead of moving it to
 <b>leftPosition</b>, it's going to be moved to <b>imageWidth</b> which
-is the width of that image.
-</p>
-<p>
-So we're going to need a px on there, <b>imageWidth</b> let's do our
+is the width of that image.</p>
+
+<p>So we're going to need a px on there, <b>imageWidth</b> let's do our
 tick marks And then I can do ${ <b>imageWidth</b>} px like so. I believe
 is that what I had over here. I have plus px I'm adding it on there, you
 can do it either way with the template literally you could add the px In
-there like that.
-</p>
-<p>
-And then we are doing it over 700 milliseconds easeInQuad and then we've
+there like that.</p>
+
+<p>And then we are doing it over 700 milliseconds easeInQuad and then we've
 got a callback function again to remove that first one from the list.
 Let's see if it works. I'm going to save this, come back here, refresh
 it, we know the next one works but does the previous one work? There's
 our first slide and boom it works. There's our 5th, 4th, third, second
-first and once again we can go around that way.
-</p>
+first and once again we can go around that way.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 358. console inspect, imagewidth (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6936,22 +6840,19 @@ first and once again we can go around that way.
   title="Console inspect, imageWidth"
   alt="Console inspect, imageWidth." />
 
-<p>
-If you choose the inspector, you can see it actually working. I've got
+<p>If you choose the inspector, you can see it actually working. I've got
 my slider here, I've got my unordered list inside of there, click next,
 you can see that's going to minus 400 click previous. It's going to zero
 when I click previous again, you'll see it, add the unordered list, move
-it into place and then remove the other unordered list.
-</p>
-<p>
-Now you have a slider that will work in a looping kind of way rather
+it into place and then remove the other unordered list.</p>
+
+<p>Now you have a slider that will work in a looping kind of way rather
 than just a strip that moves back and forth. But these types of projects
 in these types of lessons are helpful for thinking about different ways
 and different kinds of things that you can use on your websites. And
 build that will make use of jQuery, make use of the built in effects
 library and teach you how to handle and think about these different
-types of situations that come up.
-</p>
+types of situations that come up.</p>
 
 <h3 id="ch3-12-pdf">jQuery Image Slider V2 PDF Files</h3>
 
@@ -7187,7 +7088,7 @@ for our slider.
 <ul>
   <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
     target="_blank" rel="noopener noreferrer">
-     3.13 JS-Slider-V3-START.zip</a></li>
+     3.13 JS Image Slider V3 START (zip)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
@@ -7802,7 +7703,7 @@ started on learning about <b>timers</b> and recursion in JavaScript and
 <ul>
   <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
     target="_blank" rel="noopener noreferrer">
-     4.00 JS-Timers-Examples-START.zip</a></li>
+     4.00 JS Timers Examples START (zip)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-01">4.01 Example Script #1 – Part 1 (5:37)</h2>
