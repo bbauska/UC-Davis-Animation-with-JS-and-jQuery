@@ -53,6 +53,36 @@
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
+  <!-- to table of contents (approx ###), if applicable was; 315 -->
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery & javascript logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <header id="title-block-header">
     <h1 style="text-align:center;" class="title">Animation with JavaScript and jQuery</h1>
     <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
@@ -90,8 +120,6 @@ while exploring more jQuery's relationship with HTML documents. Finally,
 a focus on plugins and continue to breakdown jQuery's ability to
 manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~ Hoverable Dropdown Menu ~~-->
-<!--~~ to come in index.html, not readme.md ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 <h3 id="#ch1-obj">Learning Objectives</h3>
@@ -168,14 +196,14 @@ page.</p>
 </ul>
 
 <ol start="8">
-  <li>Challenge 1 Solution</li>
-  <li>Challenge 2 Solution</li>
-  <li>Challenge 3 Solution</li>
-  <li>Challenge 4 Solution</li>
-  <li>Challenge 5 Solution</li>
-  <li>Challenge 6 Solution</li>
-  <li>Challenge 7 Solution</li>
-  <li>Challenge 8 Solution</li>
+  <li><a href="ch1-08">Challenge 1 Solution</a></li>
+  <li><a href="ch1-09">Challenge 2 Solution</a></li>
+  <li><a href="ch1-10">Challenge 3 Solution</a></li>
+  <li><a href="ch1-11">Challenge 4 Solution</a></li>
+  <li><a href="ch1-12">Challenge 5 Solution</a></li>
+  <li><a href="ch1-13">Challenge 6 Solution</a></li>
+  <li><a href="ch1-14">Challenge 7 Solution</a></li>
+  <li><a href="ch1-15">Challenge 8 Solution</a></li>
 </ol>
 
 <ul>
@@ -185,7 +213,7 @@ page.</p>
 </ul>
 
 <ol start="16">
-  <li>Introduction to jQuery Sidebar Folding Navigation</li>
+  <li><a href="ch1-16">Introduction to jQuery Sidebar Folding Navigation</a></li>
 </ol>
 
 <ul>
@@ -195,8 +223,8 @@ page.</p>
 </ul>
 
 <ol start="17">
-  <li>Getting the Next UL</li>
-  <li>The Whole Script</li>
+  <li><a href="ch1-17">Getting the Next UL</a></li>
+  <li><a href="ch1-18">The Whole Script</a></li>
 </ol>
 
 <ul>
@@ -206,7 +234,7 @@ page.</p>
 </ul>
 
 <ol start="19">
-  <li>JavaScript and jQuery Challenges Intro</li>
+  <li><a href="ch1-19">JavaScript and jQuery Challenges Intro</a></li>
 </ol>
 
 <ul>
