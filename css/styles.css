@@ -1,4 +1,4 @@
-/* css/styles.css for UofM-Intro-CSS3 */
+/* css/styles.css for UC-Davis-Animation-with-JS-and-jQuery */
 img.displayed {
   display: block;
   margin: 0 auto;
@@ -14,21 +14,10 @@ img.displayed {
 }
 font-family: Bahnschrift, Inter, Helvetic, sans-serif;
 
-<!-- font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", -->
-<!--  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; -->
-
 p { font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
     text-align: left; 
     margin-left: 5px; }
-p.em1 {
-  margin-left: 1em; }
-p.em2 {
-  margin-left: 2em; }
-p.em3 {
-  margin-left: 3em; }
-p.em4 {
-  margin-left: 4em; }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 
