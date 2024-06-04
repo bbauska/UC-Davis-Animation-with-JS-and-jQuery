@@ -6680,7 +6680,6 @@ is when you click the previous link, the counter is going to get
 documented. And then we're going to check to see if the counter is less
 than 0, which means we've run through all of our images. And then we're
 going to set the counter to image count -1.</p>
-
 <p>So we've got five images and so we're going to set the counter back to
 4. Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of
 those five values, so we set it to image count minus one, so it's now a
@@ -6702,7 +6701,6 @@ button. What we want to do is we want to add the new strip and append it
 on bottom slider, instead of appending it on the top slider. Bottom
 slider, left corner is going to go from -2000 pixels to -1600 pixels.
 2000 because our images 400 pixels wide, we've got five of them here.</p>
-
 <p>And that will push this first picture (blue box) into our slider. And
 then the same frame will go from 0 pixels to 400 pixels to move that
 there. Hopefully the diagram helps. And maybe you drew your own diagram
@@ -6720,12 +6718,10 @@ and trying to solve this problem.</p>
 ordered list like we did in the previous one, but I'm going to set that
 last one that I've added into my <span class="showme">DOM</span>, the one that I've appended to, the
 slider, I'm going to set the left to minus total width again.</p>
-
 <p>So that sets its left corner at that -2000 pixel mark. And we're going
 to set left position to minus counter times image width. Remember the
 counter got set to 4 here because its image count minus 1. So counter is
 4. 4 times 400 gives us 1600 pixels.</p>
-
 <p>And remember we're moving our strip from -2000 pixels to -1600 pixels to
 move that left edge, that's way over off the side there into the correct
 position. That's what that leftPosition is going to be set for. Then we
@@ -6748,13 +6744,11 @@ going to set the counter to image count -1. So that all stays the same.
 Then we're going to do the thing that we did with the cloning up here so
 I can actually copy this. And paste it in here. But the position is
 going to be a little bit different here.</p>
-
 <p>This position, the last one is not going to be set to <b>imageWidth</b>,
 instead it's going to be set to tick marks. I'm going to put that in the
 tick marks, -${totalWidth}. I want to set it to minus totalWidth, left
 minus totalWidth. Then I'm going to set the leftPosition to counter
 times <b>imageWidth</b> plus “px”.</p>
-
 <p>So let's put that in next. I'm going to put that in here. But instead of
 minus totalWidth, it's going to be minus counter times
 <b>imageWidth</b>, that's what it is counter times not totalWidth but
@@ -6788,13 +6782,11 @@ animate it into its position. And again, what we're doing is we're
 moving it from one position to another. This corner when we added it to
 our clone, is set to minus 2000 pixels because these are 400 pixels wide
 and there's five of them.</p>
-
 <p>Next, we're going to move it from minus 2000 pixels to minus 1600 pixels
 which will move it over 400 pixels. That will push the right side of
 this into our slider. We have our last element, we're animating to the
 left position, and left position is now minus 1600 pixels over 700
 milliseconds using easeInQuad.</p>
-
 <p>Add this into our script. But instead of left 0, we're moving to
 leftPosition. Which is that minus 1600 pixels, the counter which is four
 times <b>imageWidth</b> which is 400 that's 1600, with the minus sign in
@@ -6815,13 +6807,11 @@ whole thing because we are going to remove it, we can come down here and
 we can add that in here. But instead of moving it to
 <b>leftPosition</b>, it's going to be moved to <b>imageWidth</b> which
 is the width of that image.</p>
-
 <p>So we're going to need a px on there, <b>imageWidth</b> let's do our
 tick marks And then I can do ${ <b>imageWidth</b>} px like so. I believe
 is that what I had over here. I have plus px I'm adding it on there, you
 can do it either way with the template literally you could add the px In
 there like that.</p>
-
 <p>And then we are doing it over 700 milliseconds easeInQuad and then we've
 got a callback function again to remove that first one from the list.
 Let's see if it works. I'm going to save this, come back here, refresh
@@ -6842,7 +6832,6 @@ my slider here, I've got my unordered list inside of there, click next,
 you can see that's going to minus 400 click previous. It's going to zero
 when I click previous again, you'll see it, add the unordered list, move
 it into place and then remove the other unordered list.</p>
-
 <p>Now you have a slider that will work in a looping kind of way rather
 than just a strip that moves back and forth. But these types of projects
 in these types of lessons are helpful for thinking about different ways
@@ -6869,16 +6858,14 @@ types of situations that come up.</p>
   title="3.13 Slider Using JavaScript"
   alt="3.13 Slider Using JavaScript." />
 
-<p>
-Slider, using JavaScript. In the previous lesson, we worked on making a
+<p>Slider, using JavaScript. In the previous lesson, we worked on making a
 Slider using <b>jQuery</b>, we did a couple versions of it. Here, we're
 going to do the same thing using plain JavaScript without <b>jQuery</b>,
 just so you can compare the syntax and see how different it is. There
 will be a few little minor differences in the script, but it's very
 similar to what we saw with <b>jQuery</b>. Here, the animation is going
 to take place in <b>CSS</b> and we'll be using JavaScript to trigger the
-animation.
-</p>
+animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 360. final version sample screen (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6888,13 +6875,11 @@ animation.
   title="Final Version Sample Screen"
   alt="Final Version Sample Screen." />
 
-<p>
-In the end, you should get a slide that looks like this. It's a little
+<p>In the end, you should get a slide that looks like this. It's a little
 bit different in that the slides are going to have some actual content
 on them. The pictures will actually be in the background of the slide,
 and then they're going to have little bit of a title and some text on
-them.
-</p>
+them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 361. basic strategy (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6904,8 +6889,7 @@ them.
   title="Basic Strategy"
   alt="Basic Strategy." />
 
-<p>
-Let's take a look at how that set up. The basic strategy is the same and
+<p>Let's take a look at how that set up. The basic strategy is the same and
 that we're going to have a parent window that has overflow hidden set on
 it. And that's going to act like a window for these slides and the
 slides are all set up, in this case I have them floated. But they're all
@@ -6913,8 +6897,7 @@ set up to float next to each other so that they end up in one long
 strip. And as you click on the buttons either left or right, the strip
 of slides moves in and out of the parent window showing only one image
 at a time. There's our basic strategy, very similar to what we had with
-the <b>jQuery</b> version.
-</p>
+the <b>jQuery</b> version.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362. example, html (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6924,15 +6907,13 @@ the <b>jQuery</b> version.
   title="Example, HTML"
   alt="Example, HTML." />
 
-<p>
-Now the HTML is a little bit different in this case, because instead of
+<p>Now the HTML is a little bit different in this case, because instead of
 the list items just having a picture in it, like what we had for the
 <b>jQuery</b> slider, the list items have a div inside of it. And the
 div is going to have an h2 and paragraph inside of it to create some
 content on that slide. The actual picture will be in the background of
 the list item, so that the list item is actually showing the picture as
-a background image.
-</p>
+a background image.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 363. example, css for the wrapper (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6942,15 +6923,13 @@ a background image.
   title="Example, CSS for the Wrapper"
   alt="Example, CSS for the Wrapper." />
 
-<p>
-Now let's take a look at the CSS for the wrapper. The wrapper has a
+<p>Now let's take a look at the CSS for the wrapper. The wrapper has a
 width of 1000 pixels and it's set to a height of 358 pixels which is the
 size of my pictures. And I'm setting margin auto on it to center it on
 the screen. And then position relative because we're going to absolutely
 position that string of pictures inside this window. This is the window
 that's going to show only one image. And then overflow hidden so you
-don't see the other pictures.
-</p>
+don't see the other pictures.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 364. markup for javascript image slider (217) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6960,13 +6939,11 @@ don't see the other pictures.
   title="Markup for JavaScrtip image slider"
   alt="Markup for JavaScrtip image slider." />
 
-<p>
-And we can come over to our code over here and see this markup in place.
+<p>And we can come over to our code over here and see this markup in place.
 You can see here I have my <b>div</b> with the <b>slider-wrapper</b>. I
 have an <b>unordered list</b> with the <b>list item</b>. The <b>list
 item</b> has the <b>div</b> with the content which includes an <b>h2</b>
-in a picture. And I've got a bunch of these <b>list items</b> in here.
-</p>
+in a picture. And I've got a bunch of these <b>list items</b> in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 365. styles for javascript image slider (218) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6976,11 +6953,9 @@ in a picture. And I've got a bunch of these <b>list items</b> in here.
   title="Styles for JavaScrtip image slider"
   alt="Styles for JavaScrtip image slider." />
 
-<p>
-On the <b>CSS</b>, you can see that I have slider up here set to width
+<p>On the <b>CSS</b>, you can see that I have slider up here set to width
 1000 pixels and the height for the picture. And then margin auto to
-center at position relative and overflow hidden.
-</p>
+center at position relative and overflow hidden.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 366. slider-wrapper with background images (218) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6990,12 +6965,10 @@ center at position relative and overflow hidden.
   title="slider-wrapper with background images for each"
   alt="slider-wrapper with background images for each." />
 
-<p>
-Down here as you look down through the CSS here, you'll see this is
+<p>Down here as you look down through the CSS here, you'll see this is
 where the background images are. It's on the list items. So the first
 list item gets this background image, second one gets that one. The
-images are here in the folder.
-</p>
+images are here in the folder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. example, css for the slider (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7005,11 +6978,9 @@ images are here in the folder.
   title="Example, CSS for the slider"
   alt="Example, CSS for the slider." />
 
-<p>
-The actual animation is happening in CSS. You'll see this transition
+<p>The actual animation is happening in CSS. You'll see this transition
 left 700 milliseconds cubic-bezier with a bunch of numbers in here. And
-I'll tell you about where those come from in a minute.
-</p>
+I'll tell you about where those come from in a minute.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 368. style for slider wrapper ul and ul li (219) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7019,12 +6990,10 @@ I'll tell you about where those come from in a minute.
   title="Style for slider wrapper ul and ul li"
   alt="Style for slider wrapper ul and ul li." />
 
-<p>
-But we can see this in our CSS over here, right here. Using this
+<p>But we can see this in our CSS over here, right here. Using this
 transition we're going to transition the left property over 700
 milliseconds. That's the same as what we had in the <b>jQuery</b>
-version. But this cubic-bezier, where is that coming from?
-</p>
+version. But this cubic-bezier, where is that coming from?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 369. cubic-bezier, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7034,11 +7003,9 @@ version. But this cubic-bezier, where is that coming from?
   title="Ceaser, web animation tools website"
   alt="Ceaser, web animation tools website." />
 
-<p>
-What I used to create those is this little web tool called
+<p>What I used to create those is this little web tool called
 <b>Ceaser</b>, it's an animation tool. And you can see here, linear
-animation.
-</p>
+animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 370. linear, easing animation tool website (220) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7048,13 +7015,11 @@ animation.
   title="Linear, web animation tools website"
   alt="Linear, web animation tools website." />
 
-<p>
-If I click left, it just moves it at the same speed and you can pick one
+<p>If I click left, it just moves it at the same speed and you can pick one
 of these built in options here to see what it looks like. We can change
 the amount of time. So that's starting slow and ending fast. Whereas if
 you were to do <b>easeOutCirc</b> it would be the other way around,
-start fast and slow.
-</p>
+start fast and slow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 371. code snippet for transition left (221) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7064,21 +7029,17 @@ start fast and slow.
   title="Code snippet for transition left"
   alt="Code snippet for transition left." />
 
-<p>
-And then down here you can see the CSS that you actually need for this
+<p>And then down here you can see the CSS that you actually need for this
 transitional. But instead of transitioning all, I'm just transitioning
 left. But you can see that that's the code that we need in order to do
 this. And you can even customize this. You can drag these handles and
 create your own custom using to do whatever you want it to do. And it
-will adjust these numbers accordingly.
-</p>
-<p>
-That's going to create the actual animation for the slides. Each time a
+will adjust these numbers accordingly.</p>
+<p>That's going to create the actual animation for the slides. Each time a
 slide moves, this transition is going to take effect. Or each time we
 change the position of the slide, the left position, this animation is
 going to take effect. And that's where we we'll see the actual animation
-for our slider.
-</p>
+for our slider.</p>
 
 <h3 id="ch3-13-zip">JavaScript Image Slider V3 START zip Files</h3>
 
@@ -7098,10 +7059,8 @@ for our slider.
   title="3.14 CSS for Slides and Adding Variables"
   alt="3.14 CSS for Slides and Adding Variables." />
 
-<p>
-We have a little bit more CSS to talk about before we start working on
-our JavaScript. And the first thing is the actual slides themselves.
-</p>
+<p>We have a little bit more CSS to talk about before we start working on
+our JavaScript. And the first thing is the actual slides themselves.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 373. example, css for the slides (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7111,10 +7070,8 @@ our JavaScript. And the first thing is the actual slides themselves.
   title="Example, CSS for the slides"
   alt="Example, CSS for the slides." />
 
-<p>
-The list items that are inside the unordered list that are inside the
-slide wrapper, which are these elements here in my index page.
-</p>
+<p>The list items that are inside the unordered list that are inside the
+slide wrapper, which are these elements here in my index page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 374. html div id='slider-wrapper' (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7124,12 +7081,10 @@ slide wrapper, which are these elements here in my index page.
   title="HTML div id, slider-wrapper"
   alt="HTML div id, slider-wrapper." />
 
-<p>
-These list items here. These are my actual slides. And I want to set
+<p>These list items here. These are my actual slides. And I want to set
 some styling for those. First of all, I'm going to make sure the
 background image covers the entire list item. Even if they were to get a
-little bit cropped, then that's fine.
-</p>
+little bit cropped, then that's fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 373. example, css for the slides, again (223) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7139,11 +7094,9 @@ little bit cropped, then that's fine.
   title="Example, CSS for the slides, again"
   alt="Example, CSS for the slides, again." />
   
-<p>
-I want to make sure the image covers the whole thing because it's a
+<p>I want to make sure the image covers the whole thing because it's a
 background image, as we see over here. And as we mentioned before, each
-slide, each list item gets its own background image.
-</p>
+slide, each list item gets its own background image.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 375. each list item has a background image (224) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7153,12 +7106,10 @@ slide, each list item gets its own background image.
   title="Each list item has a background image"
   alt="Each list item has a background image." />
 
-<p>
-Those images go in the background and they cover the background of that
+<p>Those images go in the background and they cover the background of that
 list item. And then they're set to position relative because the content
 that's inside these slides, this <b>div</b> with the <b>h2</b> and
-<b>paragraph</b> is going to be <b>absolutely</b> positioned.
-</p>
+<b>paragraph</b> is going to be <b>absolutely</b> positioned.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 376. test console, slider-wrapper and slider-controls (224) ~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7168,12 +7119,10 @@ that's inside these slides, this <b>div</b> with the <b>h2</b> and
   title="Test console, slider-wrapper and slider-controls"
   alt="Test console, slider-wrapper and slider-controls." />
 
-<p>
-This div here is going to be absolutely positioned here. These are set
+<p>This div here is going to be absolutely positioned here. These are set
 to position relative because those divs are positioned absolutely. And
 then we set the width of the slide and the height of the slide and I
-have them floated left, so they all go in a line next to each other.
-</p>
+have them floated left, so they all go in a line next to each other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 377. example, add variables (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7206,24 +7155,20 @@ runs after the page has loaded.</p>
   title="Add event listener to JavaScript"
   alt="Add event listener to JavaScript." />
 
-<p>
-Let's add that event listener to our script first. Come over to my
+<p>Let's add that event listener to our script first. Come over to my
 script file and I'm going to add a window, if I could type it,
 window.addEventListener. And I'm looking for a load event, I'm going to
 run a function that runs when the page has loaded all of its content. In
 here I'm going to add a number of variables. A lot of these variables
 are going to look familiar, because it's very similar to what we did
 with our jQuery version of the script. Also, this function here will
-function as a closure for this whole script.
-</p>
-<p>
-I don't have to worry about adding an IIFE immediately invoked function
+function as a closure for this whole script.</p>
+<p>I don't have to worry about adding an IIFE immediately invoked function
 expression, because this function will make sure all the variables,
 everything in here are local to this function. And nothing will be
 leaking into the global scope. We don't need to worry about doing that
 for the script either, because we're putting it in this event listener
-for when the page loads.
-</p>
+for when the page loads.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 377. again, example, add variables (227) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8147,7 +8092,6 @@ after a two second delay. In this function, I'm going to take the
 <b>currentClass</b> to “<b>two”</b>. In a nutshell, if it's not
 “<b>one</b>”, then it must be “<b>two</b>” and set <b>currentClass</b>
 over a two second delay.</p>
-
 <p>But notice that this function is running <b>classRotator</b>. Recursive
 function is a function that calls itself and this is an example of a
 function that calls itself.</p>
@@ -8164,7 +8108,6 @@ function that calls itself.</p>
 When the page loads, it runs this once, but then when it runs itself, it
 either runs itself again in the if statement or it runs itself again in
 the ‘else’ statement in the <b>setTimeout</b>.</p>
-
 <p>Now, recursion is a very powerful thing and it's easy with recursion to
 get confused or to do something that will cause your script to run out
 of memory and to run crazy and wild.</p>
@@ -8182,7 +8125,6 @@ of memory and to run crazy and wild.</p>
 itself and then it would start to get stacked up and eventually you'd
 run out of memory. You'd get a heap overflow error showing that
 basically JavaScript has run out of memory.</p>
-
 <p>That can happen very easily when you're working with recursive scripts
 but when handled properly, recursion can be a very powerful feature. Not
 only that, it can be the preferred way of working with data and working
@@ -8191,7 +8133,6 @@ going out to the world and getting a piece of data from somewhere and
 then doing something when it comes back. Usually recursion is the better
 way to go because you can wait until it's come back before you try to do
 something with it.</p>
-
 <p>Whereas if you use <b>setInterval</b>, then you're more likely to try to
 do something before you get your data back. <b>setInterval</b> will run
 every x amount of seconds. <b>setTimeout</b> will wait at least two
@@ -8199,7 +8140,6 @@ seconds, but maybe longer, depending on where something is in the stack
 of things to run with JavaScript. We will get more into the event loop
 in JavaScript and talk more about how that works and why it is like that
 in a later lesson.</p>
-
 <p>I've got two classes and this function is calling itself, but it's only
 calling itself after two seconds is lapsed, either here, in the “if” or
 here, in the “else if”. That gives us this very interesting pulsating,
@@ -8593,7 +8533,7 @@ you can come up with other ideas and other things that you could do.</p>
   <li><a href="./pdf/4.07-JS-Slider-on-a-Timer.pdf" 
     target="_blank" rel="noopener noreferrer">
      4.07 JS Slider on a Timer (pdf)</a></li>
-  <li><a href="./zip/4.07-jQuery-Rotator-START.zip" 
+  <li><a href="./zip/4.07-jQuery-Content-Rotator-START.zip" 
     target="_blank" rel="noopener noreferrer">
     4.07 jQuery Content Rotator START (zip)</a></li>
 </ul>
@@ -9102,7 +9042,6 @@ put on real websites. I think you've learned a lot and you should be proud of
 yourself. Congratulations for making it this far, and I look forward to seeing 
 you in our third course on JavaScript, <b>"Interactivity with JavaScript and 
 jQuery"</b>.</p>
-
 <p>We will get even deeper into the <b>jQuery</b> library, <b>jQuery</b> plugins, 
 we'll create some more sophisticated scripts and some more complex scripts so 
 that you can develop your skills and get better at JavaScript. I look forward to 
