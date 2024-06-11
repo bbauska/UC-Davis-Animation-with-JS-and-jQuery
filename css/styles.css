@@ -14,15 +14,24 @@ img.displayed {
 }
 font-family: Bahnschrift, Inter, Helvetic, sans-serif;
 
-p { font-size: 15px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: left; 
-    margin-left: 5px; }
+p { 
+  font-size: 15px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left; 
+  margin-left: 5px; 
+}
+
+blockquote { 
+  font-size: 15px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left; 
+  margin-left: 5px; 
+}
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 
 a {
-  text-decoration: none; 
+  text-decoration: rgb(0, 255, 0); 
 }
 a[href]:hover {
   color: #00000;
@@ -71,7 +80,7 @@ body {
     border-radius: 1px;  /* 4px */
   }
   #myBtn:hover {
-    background-color: #555;  /* very dark gray */
+    background-color: #ff9d9d;  /* pale red/pink tone, 555 = very dark gray */
   }
 
 details {
