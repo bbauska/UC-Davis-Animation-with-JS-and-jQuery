@@ -72,7 +72,6 @@ jQuery&apos;s ability to manipulate HTML and CSS.</p>
 	1.06 jQuery Introduction (pdf)</a></h4></li>
 </ul>
 
-
 >#### [**1.07 Intro to JavaScript Folding Sidebar Menus Using JS**](#ch1-07)
 
 <ul>
@@ -401,7 +400,6 @@ page.</p>
   <li>Demonstrate proficiency with both JavaScript and jQuery for accessing and 
     manipulating elements on a web page.</li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction to jQuery (7:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
