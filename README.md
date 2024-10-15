@@ -8386,11 +8386,12 @@ our </b>counter</b> to do that. And the CSS and child filter to allow us to
 get the first paragraph because remember currently all the paragraphs
 are set to display none.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 480.  (278) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 480. nth-child pseudo selector with counter (278) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image480.png"
   style="width:50%"
-  alt="." />
+  title="nth-child pseudo selector with counter, fadeIn and callback"
+  alt="nth-child pseudo selector with counter, fadeIn and callback." />
 </p>
 
 <p>We can use our <b>jQuery</b> object to go get that first paragraph and
@@ -8459,22 +8460,24 @@ then we&apos;ll go forward from there. If <b>fadeIn</b> that, now we&apos;re goi
 to do an if, if parentheses, and we&apos;ll do something in there, and then
 we&apos;ve got an else, we will do something in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 484.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 484. funtion contentrotator, if 'this' then, else (281) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image484.png"
   style="width:50%"
-  alt="." />
+  title="function contentRotator, if 'this' then, else"
+  alt="function contentRotator, if 'this' then, else." />
 </p>
 
 <p>Now, what am I checking? I&apos;m going to use my <b>jQuery</b> object, and the
 <b>'this'</b> keyword, "this" paragraph. Is a <b>jQuery</b> function that will
 return true or false, if something in there is true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 485.  (281) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 485. if this is the last child, then, else (281) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image485.png"
   style="width:50%"
-  alt="." />
+  title="If container (this) is the last paragraph (child) then, else"
+  alt="If container (this) is the last paragraph (child) then, else." />
 </p>
 
 <p>If <b>'this'</b> is, and then I&apos;m going to say, if this is in here, I can
@@ -8482,11 +8485,12 @@ put <b>&quot;#container p: last-child();&quot;</b> If it&apos;s the last child, 
 going to do something, and then if it&apos;s not, we&apos;re going to do
 something else.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 486.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 486. example, what happens in the selection; contentrotator function (282) ~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image486.png"
   style="width:50%"
-  alt="." />
+  title="Example, What Happens in the Selection; contentRotator function"
+  alt="Example, What Happens in the Selection; contentRotator function." />
 </p>
 
 <p>What we&apos;re going to do is wait seven seconds and then run the
@@ -8499,33 +8503,36 @@ increment the counter and run <b>contentRotator</b> again. The only real
 difference between these two is what happens with the <b>counter</b>. Also,
 you&apos;ll see here where the recursion is taking place.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 487.  (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 487. example, if/else settimeout callback function (282) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image487.png"
   style="width:50%"
-  alt="." />
+  title="Example, Else Statement setTimeout callback function"
+  alt="Example, Else Statement setTimeout callback function." />
 </p>
 
 <p>Let&apos;s work with the <b>else</b> statement first, because I think that
 one&apos;s a little bit easier. Let&apos;s have the <b>setTimeout</b> function in
 there, and then we&apos;ll go forward with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 488. settimeout, fadeout,  (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 488. settimeout, callback function (283) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image488.png"
   style="width:50%"
-  alt="." />
+  title="Else, if not last child, execute setTimeout for 7 seconds and callback itself"
+  alt="Else, if not last child, execute setTimeout for 7 seconds and callback itself." />
 </p>
 
 <p>Down here, we&apos;re going to say, <b>setTimeout</b>, and that&apos;s going to run
 a function after seven seconds, we&apos;re going to take this same thing
 here, and just copy that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 489. else, not last child (283) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 489. else, not last child, settimeout fadeout (283) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image489.png"
   style="width:50%"
-  alt="." />
+  title="Else, if not the last child, execute setTimeout and fadeOut to next paragraph"
+  alt="Else, if not the last child, execute setTimeout and fadeOut to next paragraph." />
 </p>
 
 <p>We&apos;re going to take that same thing, and we&apos;re going to run
@@ -8535,11 +8542,12 @@ to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait se
 seconds, then <b>fadeOut</b>, over two seconds. When it&apos;s done fading out,
 we need another <b>callback</b> function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 490.  (284) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 490. content rotator function in rotator.js (284) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image490.png"
   style="width:50%"
-  alt="." />
+  title="contentRotator example using the callback function"
+  alt="contentRotator example using the callback function." />
 </p>
 
 <p>I&apos;m going to stick another function in here like so. It gets confusing,
