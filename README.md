@@ -612,6 +612,7 @@ it will get it the fastest that it can.</p>
   style="width:45%"
   title="jQuery.com - what is jQuery"
   alt="jQuery.com - what is jQuery." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image010.png?raw=true"
   style="width:45%"
   title="Downloading jQuery"
@@ -977,6 +978,7 @@ page.</p>
   style="width:40%"
   title="page.html, lines 1-21"
   alt="page.html, lines 1-21." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image034.png"
   style="width:40%"
   title="page.html, lines 22-38"
@@ -1082,6 +1084,7 @@ selectors.</p>
   style="width:40%"
   title="Add red border to class special"
   alt="Add red border to class special." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image042.png"
   style="width:40%"
   title="Test, red border around class special"
@@ -1110,6 +1113,7 @@ two.</p>
   style="width:40%"
   title="Set red border to main and h2 elements"
   alt="Set red border to main and h2 elements." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image045.png"
   style="width:40%"
   title="Test, red border in main and h2 elements"
@@ -1298,6 +1302,7 @@ and some of the differences between the two.</p>
   style="width:40%"
   title="Example, The Finished Menus &amp; Submenus"
   alt="Example, The Finished Menus &amp; Submenus." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image056.png"
   style="width:40%"
   title="Example, The Finished Menus"
@@ -1408,6 +1413,7 @@ class to all the sub-menus in the unordered list.</p>
   style="width:40%"
   title="New class hide-menu display none, show-menu display block"
   alt="New class hide-menu display none, show-menu display block." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image064.png"
   style="width:40%"
   title="Where to script will go in html file"
@@ -1593,6 +1599,7 @@ know that, and the this keyword can help us figure that out.</p>
   style="width:40%"
   title="New var thisMenu = this"
   alt="New var thisMenu = this." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image077.png"
   style="width:40%"
   title="Test, alert(thisMenu.innerHTML)"
@@ -1660,6 +1667,7 @@ solution for that.</p>
   style="width:40%"
   title="Vars menulink and menulinks in event listeners"
   alt="Vars menulink and menulinks in event listeners." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image081.png"
   style="width:40%"
   title="Vars menulink and menulinks in event listeners"
@@ -2021,6 +2029,7 @@ code.</p>
   style="width:40%"
   title="Top half of script"
   alt="Top half of script." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image103.png"
   style="width:40%"
   title="Bottom half of script"
@@ -2040,6 +2049,7 @@ have your main variables all up at the top of the page.</p>
   style="width:40%"
   title="First 21 lines of script.js"
   alt="First 21 lines of script.js." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image105.png"
   style="width:40%"
   title="Last 6 lines (9-21 overlap) of script.js"
@@ -2421,6 +2431,7 @@ here. Close that up. I&apos;ve got a little short script here.</p>
   style="width:45%"
   title="New script.js &amp; move script code from index.html"
   alt="New script.js &amp; move script code from index.html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image132.png"
   style="width:45%"
   title="Call script.js in head with defer command"
@@ -2664,6 +2675,7 @@ won&apos;t do any animation.</p>
   style="width:45%"
   title="jQuery box hide normal"
   alt="jQuery box hide normal." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image146.png"
   style="width:45%"
   title="Test, jQuery box hide normal"
@@ -2681,6 +2693,7 @@ hides that box.</p>
   style="width:45%"
   title="Hide box fade in 500 milliseconds"
   alt="Hide box fade in 500 milliseconds." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image148.png"
   style="width:45%"
   title="Test, hide box fade in 500 milliseconds"
@@ -2730,6 +2743,7 @@ hide the box and animate that.</p>
   style="width:45%"
   title="Add showbox click, fade 500 milliseconds"
   alt="Add showbox click, fade 500 milliseconds." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image152.png"
   style="width:45%"
   title="Test showbox click, fade 500 milliseconds"
@@ -3422,6 +3436,7 @@ box.</p>
   style="width:40%"
   title="box before changes"
   alt="box before changes." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image194.png"
   style="width:40%"
   title="box class after position absolute &amp; left 50px;"
@@ -3679,6 +3694,7 @@ versions.</p>
   style="width:40%"
   title="First half; div, ul, li and tabs in HTML"
   alt="First half; div, ul, li and tabs in HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image209.png"
   style="width:40%"
   title="Second half; div, ul, li and tabs in HTML"
@@ -3991,6 +4007,7 @@ you don&apos;t lose any curly braces or semi-colons.</p>
   style="width:40%"
   title="Set tabs-1, 2, 3 font color and backgroud to default"
   alt="Set tabs-1, 2, 3 font color and backgroud to default." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image227.png"
   style="width:40%"
   title="Change font and background colors if tabs-# is clicked"
@@ -4322,6 +4339,7 @@ And we&apos;ll use javascript to trigger the changing of these classes.</p>
   style="width:40%"
   title="Lines 1-20 of styles.css"
   alt="Lines 1-20 of styles.css." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image246.png"
   style="width:40%"
   title="Lines 21-38 of styles.css"
@@ -4383,6 +4401,7 @@ to change them.</p>
   style="width:40%"
   title="Styles.css before"
   alt="Styles.css before." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image248.png"
   style="width:40%"
   title="Styles.css after optimized a bit"
@@ -5015,6 +5034,7 @@ Now, we could do the same thing down here.</p>
   style="width:40%"
   title="Lines 1 thru 22 of script.js"
   alt="Lines 1 thru 22 of script.js." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image276.png"
   style="width:40%"
   title="Lines 13-32 of script.js"
@@ -5169,6 +5189,7 @@ links for the previous and next buttons.</p>
   style="width:40%"
   title="HTML with Basic jQuery Image Slider"
   alt="HTML with Basic jQuery Image Slider." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image284.png"
   style="width:40%"
   title="HTML with Basic jQuery Image Slider"
@@ -5345,6 +5366,7 @@ them.</p>
   style="width:40%"
   title="imageCount = slider, ul li, length"
   alt="imageCount = slider, ul li, length." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image294.png"
   style="width:40%"
   title="div, ul li, slideshow images"
@@ -5368,6 +5390,7 @@ there. That should return to me, a five in this case.</p>
   style="width:40%"
   title="imageWidth = slider, ul li images, width"
   alt="imageWidth = slider, ul li images, width." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image296.png"
   style="width:40%"
   title="Test, display width of all sliders"
@@ -6020,6 +6043,7 @@ in our slides.</p>
   style="width:40%"
   title="1-30 of index.html"
   alt="1-30 of index.html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image332.png"
   style="width:40%"
   title="9-29 of script.js"
@@ -6069,6 +6093,7 @@ at the end of the element slider.</p>
   style="width:40%"
   title="body of index.html"
   alt="body of index.html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image336.png"
   style="width:40%"
   title="More body of index.html"
@@ -7621,6 +7646,7 @@ this to example2.html.</p>
   style="width:40%"
   title="Start square, small red"
   alt="Start square, small red." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image426.png"
   style="width:40%"
   title="End square, large blue"
@@ -7637,6 +7663,7 @@ red to blue.</p>
   style="width:40%"
   title="Style with classes one/two, each with transition"
   alt="Style with classes one/two, each with transition." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image428.png"
   style="width:40%"
   title="Initialize theDiv with a class of one"
@@ -7695,6 +7722,7 @@ powerful technique in JavaScript.</p>
   style="width:40%"
   title="Smallish red dot"
   alt="Smallish red dot." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image432.png"
   style="width:40%"
   title="Largish purple dot"
@@ -7712,6 +7740,7 @@ a circle, the different <b>background</b> color here, red to purple.</p>
   style="width:40%"
   title="Style class 'one'"
   alt="Style class 'one'." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image434.png"
   style="width:40%"
   title="Style class 'two'"
@@ -7736,6 +7765,7 @@ back here, I open <b>example3.html</b>. You can see again I have a <b>div</b>
   style="width:40%"
   title="Set currentClass to 'one'"
   alt="Set currentClass to 'one'." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image437.png"
   style="width:40%"
   title="run classRotator to change class"
@@ -7836,6 +7866,7 @@ and you can do more stuff with that if you wanted to.</p>
   style="width:40%"
   title="Slider on a Timer"
   alt="Slider on a Timer." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image442.png"
   style="width:40%"
   title="Converting a Slider"
@@ -7903,6 +7934,7 @@ don&apos;t really need those anymore.</p>
   style="width:40%"
   title="Basic jQuery image slider"
   alt="Basic jQuery image slider." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image447.png"
   style="width:40%"
   title="Remove line 30, previous/next"
@@ -7955,6 +7987,7 @@ handler, we can remove it entirely.</p>
   style="width:40%"
   title="Script.js, lines 1-20"
   alt="Script.js, lines 1-20." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image452.png"
   style="width:40%"
   title="Script.js, lines 19-38"
@@ -8006,6 +8039,7 @@ going to use <b>setInterval</b> here.</p>
   style="width:40%"
   title="Add setInterval method, passing anonymous function"
   alt="Add setInterval method, passing anonymous function." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image457.png"
   style="width:40%"
   title="Check if statements, move slider forward"
@@ -8080,9 +8114,12 @@ challenge.</p>
 <p align="center" width="100%">
 <img src="./images/image462.png"
   style="width:40%"
+  title="Script.js, 1-20"
   alt="Script.js, 1-20." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image463.png"
   style="width:40%"
+  title="Script.js, 9-26"
   alt="Script.js, 9-26." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8103,6 +8140,7 @@ hovers over the slider, the slider stops.</p>
   style="width:40%"
   title="Add function slider, mySetInterval"
   alt="Add function slider, mySetInterval." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image466.png"
   style="width:40%"
   title="Add function slider, mySetInterval"
@@ -8204,6 +8242,7 @@ I hope you enjoy it.</p>
   style="width:40%"
   title="Examples, The Finished Project, 1"
   alt="Examples, The Finished Project, 1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image469.png"
   style="width:40%"
   title="Examples, The Finished Project, 2"
@@ -8285,7 +8324,8 @@ the set time out will go, is when we&apos;re waiting seven seconds.</p>
 <p align="center" width="100%">
 <img src="./images/image473.png"
   style="width:50%"
-  alt="." />
+  title="Container with CSS"
+  alt="Container with CSS." />
 </p>
 
 <p>Let&apos;s get started on the script, the first thing to note on this script
