@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@bbauska" />
   <meta name="twitter:creator" content="@bbauska" />
-  <meta property="og:url" content="https://google.com" />
+  <meta property="og:url" content="https://animate-js.bauska.org" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="UC @Davis' Animation with JS and jQuery" />
   <meta property="og:description" content="UC @Davis' Animation with JS and jQuery: 
@@ -55,10 +55,10 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script>
-  <!-- get the button -->
+  // get the button
   var mybutton = document.getElementById("myBtn");
 
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  // when the user scrolls down 10px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
@@ -68,13 +68,16 @@
       mybutton.style.display = "none";
     }
   }
-
+  // when the user clicks on the button, scroll to the table of contents near top of document.
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
   <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
   <!-- to table of contents (approx ###), if applicable was; 315 -->
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+  <!-- function topFunction() { -->
+  <!--   document.body.scrollTop = 0; -->
+  <!--   document.documentElement.scrollTop = 0; -->
+  <!--  } -->
 </script>
 <!-- jQuery -->
 <!--  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>  -->
@@ -91,6 +94,7 @@
   title="jQuery and JavaScript logo"
   alt="jQuery and JavaScript logo."
   style="width:30%; float: left; margin-left: 20%; margin-bottom: 1em;" />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image002.png"
   title="UC Davis logo"
@@ -116,7 +120,7 @@ while exploring more jQuery's relationship with HTML documents. Finally,
 a focus on plugins and continue to breakdown jQuery's ability to
 manipulate HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
 
 <h3 id="#ch1-obj">Learning Objectives</h3>
 
@@ -136,18 +140,16 @@ manipulate HTML and CSS.</p>
 
 <h2 id="#syllabus">Syllabus</h2>
 
-<h2 id="#ch1">Week/Module 1 Manipulating Web Pages' Elements with jQuery &amp; 
-JavaScript</h2>
+<h2 id="#ch1">Week/Module 1 Manipulating Web Pages' Elements with jQuery &amp; JavaScript</h2>
 
-<p>In this first 1 week module (1), you will be introduced to jQuery and basic 
-jQuery syntax and we will compare it to JavaScript syntax. You will be able to
-plug-in the jQuery library and discuss the history of jQuery and its relationship 
-to JavaScript. You'll also use some of the selectors and filters available in 
-jQuery to access <span class="showme">DOM</span> elements. You will be able to 
-create an interactive element that could be used on a website and be able to 
-identify and fix coding and logic problems while working on a project. You will 
-be able to demonstrate proficiency with both JavaScript and jQuery for accessing 
-and manipulating elements on a web page.</p>
+<p>In this first 1 week module (1), you will be introduced to jQuery and basic jQuery 
+syntax and we will compare it to JavaScript syntax. You will be able to plug-in the 
+jQuery library and discuss the history of jQuery and its relationship to JavaScript. 
+You'll also use some of the selectors and filters available in jQuery to access 
+<span class="showme">DOM</span> elements. You will be able to create an interactive 
+element that could be used on a website and be able to identify and fix coding and logic 
+problems while working on a project. You will be able to demonstrate proficiency with 
+both JavaScript and jQuery for accessing and manipulating elements on a web page.</p>
 
 <h6>19 lessons, 4 pdfs, 3 zips</h6>
 
@@ -163,8 +165,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./zip/1.01-jQuery-Intro-START.zip" 
+    aria-label="1.01 jQuery Intro START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     1.01 jQuery Intro START (download ZIP)</a></li>
+    1.01 jQuery Intro START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -177,8 +180,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./pdf/1.06-jQuery-Intro.pdf" 
+    aria-label="1.06 jQuery Introduction (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.06 jQuery Introduction (display PDF)</a></li>
+    1.06 jQuery Introduction (display PDF)</a></li>
 </ul>
 
 <blockquote>
@@ -187,8 +191,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
+    aria-label="1.07 JS Folding Sidebar Menu START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     1.07 JS Folding Sidebar Menus START (download ZIP)</a></li>
+    1.07 JS Folding Sidebar Menus START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -204,8 +209,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
+    aria-label="1.15 JS Folding Sidebar Menus (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.15 JS Folding Sidebar Menus (display PDF)</a></li>
+    1.15 JS Folding Sidebar Menus (display PDF)</a></li>
 </ul>
 
 <blockquote>
@@ -214,8 +220,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./zip/1.16-jQuery-Folding-Sidebar-Menus-START.zip" 
+    aria-label="1.16 jQuery Folding Sidebar Menus START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     1.16 jQuery Folding Sidebar Menus START (download ZIP)</a></li>
+    1.16 jQuery Folding Sidebar Menus START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -225,8 +232,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./pdf/1.18-jQuery-Folding-Sidebar-Menus.pdf" 
+    aria-label="1.18 jQuery Folding Sidebar Menus (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.18 jQuery Folding Sidebar Menus (display PDF)</a></li>
+    1.18 jQuery Folding Sidebar Menus (display PDF)</a></li>
 </ul>
 
 <blockquote>
@@ -235,8 +243,9 @@ and manipulating elements on a web page.</p>
 
 <ul>
   <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+    aria-label="1.19 JS &amp; jQuery Challenges (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.19 JS &amp; jQuery Challenges (display PDF)</a></li>
+    1.19 JS &amp; jQuery Challenges (display PDF)</a></li>
 </ul>
 
 <h2 id="#ch2">Week/Module 2 Animating Web Page Elements with jQuery &amp; JavaScript</h2>
@@ -260,8 +269,9 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
+    aria-label="2.01 jQuery Animation START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     2.01 jQuery Animation START (download ZIP)</a></li>
+    2.01 jQuery Animation START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -277,8 +287,9 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
+    aria-label="2.09 jQuery Effects Library (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     2.09 jQuery Effects Library (display PDF)</a></li>
+    2.09 jQuery Effects Library (display PDF)</a></li>
 </ul>
 
 <blockquote>
@@ -287,8 +298,9 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
+    aria-label="2.10 jQuery Tabs START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     2.10 jQuery Tabs START (download ZIP)</a></li>
+    2.10 jQuery Tabs START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -300,6 +312,7 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./pdf/2.14-jQuery-Tab-Interface.pdf" 
+    aria-label="2.14 jQuery Tabbed Interface (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     2.14 jQuery Tabbed Interface (display PDF)</a></li>
 </ul>
@@ -310,6 +323,7 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./zip/2.15-JS-Tabs-START.zip" 
+    aria-label="2.15 JS Tabs START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     2.15 JS Tabs START (download ZIP)</a></li>
 </ul>
@@ -324,6 +338,7 @@ to create a tabbed interface in both JavaScript and jQuery.</p>
 
 <ul>
   <li><a href="./pdf/2.20-JS-Tab-Interface.pdf" 
+    aria-label="2.20 JS Tabbed Interface (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     2.20 JS Tabbed Interface (display PDF)</a></li>
 </ul>
@@ -348,8 +363,9 @@ slider using only plain JavaScript syntax and using CSS to perform the animation
 
 <ul>
   <li><a href="./zip/3.01-jQuery-Slider-V1-START.zip" 
+    aria-label="3.01 jQuery Image Slider V1 START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     3.01 jQuery Image Slider V1 START (download ZIP)</a></li>
+    3.01 jQuery Image Slider V1 START (download ZIP)</a></li>
 </ul>
 
 <blockquote>
@@ -362,8 +378,9 @@ slider using only plain JavaScript syntax and using CSS to perform the animation
 
 <ul>
   <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
+    aria-label="3.06 jQuery Image Slider V1 (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     3.06 jQuery Image Slider V1 (display PDF)</a></li>
+    3.06 jQuery Image Slider V1 (display PDF)</a></li>
 </ul>
 
 <blockquote>
@@ -377,6 +394,7 @@ slider using only plain JavaScript syntax and using CSS to perform the animation
 
 <ul>
   <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
+    aria-label="3.12 jQuery Image Slider V2 (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     3.12 jQuery Image Slider V2 (display PDF)</a></li>
 </ul>
@@ -387,6 +405,7 @@ slider using only plain JavaScript syntax and using CSS to perform the animation
 
 <ul>
   <li><a href="./zip/3.13-JS-Image-Slider-V3-START.zip" 
+    aria-label="3.13 JS Image Slider V3 START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     3.13 JS Image Slider V3 START (download ZIP)</a></li>
 </ul>
@@ -400,6 +419,7 @@ slider using only plain JavaScript syntax and using CSS to perform the animation
 
 <ul>
   <li><a href="./pdf/3.17-JS-Image-Slider.pdf" 
+    aria-label="3.17 JS Image Slider (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     3.17 JS Image Slider (dispay PDF)</a></li>
 </ul>
@@ -417,6 +437,7 @@ could be used as an interface element on any web page.</p>
   <li><a href="#ch4-00-obj">
     4.00 Learning Objectives; Timers and Recursion in JavaScript &amp; jQuery</a><br><br></li>
   <li><a href="./zip/4.00-JS-Timers-Examples-START.zip" 
+    aria-label="4.00 JS Timers Examples START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     4.00 JS Timers Examples START (download ZIP)</a></li>
 </ul>
@@ -430,9 +451,11 @@ could be used as an interface element on any web page.</p>
 
 <ul>
   <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
+    aria-label="4.04 JS Timers &amp; Recursion (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     4.04 JS Timers &amp; Recursion (display PDF)</a><br><br></li>
   <li><a href="./zip/4.04-JS-Timers-Recursion.zip" 
+    aria-label="4.04 JS Timers &amp; Recursion (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     4.04 JS Timers &amp; Recursion (download ZIP)</a></li>
 </ul>
@@ -445,9 +468,11 @@ could be used as an interface element on any web page.</p>
 
 <ul>
   <li><a href="./pdf/4.07-JS-Slider-on-a-Timer.pdf" 
+    aria-label="4.07 JS Slider on a Timer (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     4.07 JS Slider on a Timer (display PDF)</a><br><br></li>
   <li><a href="./zip/4.07-jQuery-Content-Rotator-START.zip" 
+    aria-label="4.07 jQuery Content Rotator START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     4.07 jQuery Content Rotator START (download ZIP)</a></li>
 </ul>
@@ -461,6 +486,7 @@ could be used as an interface element on any web page.</p>
 
 <ul>
   <li><a href="./pdf/4.11-jQuery-Content-Rotator.pdf" 
+    aria-label="4.11 jQuery Content Rotator (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     4.11 jQuery Content Rotator (display PDF)</a></li>
 </ul>
@@ -605,33 +631,28 @@ JavaScript was not implemented evenly across browsers and jQuery was
 really great at smoothing out those differences from one browser to
 another. It also simplified common tasks such as traversing the <span class="showme">DOM</span>. It
 provided a lot of ways of getting elements on the pages that we didn't
-have with plain JavaScript back in the late 2000s, or early 2010s.
-</p>
-<p>
-It also provided an easier to work with event model for capturing clicks
+have with plain JavaScript back in the late 2000s, or early 2010s.</p>
+
+<p>It also provided an easier to work with event model for capturing clicks
 and scrolls and other kinds of events that users might use in the
 process of working with the page. Events that users make trigger. So it
 provided this event model that was easier to access and easier to use,
 it was easier to create interactive scripts that could hook into that
-event model in jQuery.
-</p>
-<p>
-jQuery also provides an effects library that's very easy to use and
+event model in jQuery.</p>
+
+<p>jQuery also provides an effects library that's very easy to use and
 really exciting and it's really a cool effects library that provided a
 great way into programming, into creating interactive elements for a
-whole generation of developers.
-</p>
-<p>
-Then on top of that, there's a plug-in system for additional
+whole generation of developers.</p>
+
+<p>Then on top of that, there's a plug-in system for additional
 functionality. You could create plugins that added functionality to
-jQuery and we'll take a look at this to some extent.
-</p>
-<p>
-Then finally, last but not least, jQuery provides a simpler syntax and
+jQuery and we'll take a look at this to some extent.</p>
+
+<p>Then finally, last but not least, jQuery provides a simpler syntax and
 that allows us to write shorter and more concise scripts and these were
 all huge advantages to jQuery and contributed to making it the most
-popular JavaScript library.
-</p>
+popular JavaScript library.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 05. jquery is less useful than 2010 (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -718,6 +739,7 @@ worthwhile. You have to really consider it on a project-by-project basis.</p>
 
 <ul>
   <li><a href="./zip/1.01-jQuery-Intro-START.zip" 
+    aria-label="1.01 jQuery Introduction START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
 	1.01 jQuery Introduction START (download ZIP)</a></li>
 </ul>
@@ -788,6 +810,7 @@ it will get it the fastest that it can.
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="jQuery.com - what is jQuery"
   alt="jQuery.com - what is jQuery." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image010.png?raw=true"
   loading="lazy"
@@ -917,8 +940,7 @@ file, it'll pop up and it'll say <span class="showme">jQuery</span> is loaded.</
   title="Example jQuery snippets, The Google CDN"
   alt="Example jQuery snippets, The Google CDN." />
 
-<p>
-Even easier is to use a CDN to load <span class="showme">jQuery</span>, and the CDN I prefer
+<p>Even easier is to use a CDN to load <span class="showme">jQuery</span>, and the CDN I prefer
 to use is the Google CDN, and I have that pulled up over here, and if
 you want to get to the CDN, the easy way to get to it is just to Google.
 Google <span class="showme">jQuery</span> I type CDN there we go, and you'll see Hosted
@@ -1169,6 +1191,7 @@ on the page.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="page.html, lines 1-21"
   alt="page.html, lines 1-21." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image034.png"
   loading="lazy"
@@ -1277,6 +1300,7 @@ get these selectors.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Add red border to class special"
   alt="Add red border to class special." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image042.png"
   loading="lazy"
@@ -1307,6 +1331,7 @@ the age to inside of main we can do that as well so we can do main H two.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Set red border to main and h2 elements"
   alt="Set red border to main and h2 elements." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image045.png"
   loading="lazy"
@@ -1490,6 +1515,7 @@ they work together, and some of the differences between the two.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Example, The Finished Menus &amp; Submenus"
   alt="Example, The Finished Menus &amp; Submenus." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image056.png"
   loading="lazy"
@@ -1603,6 +1629,7 @@ class to all the sub-menus in the unordered list.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="New class hide-menu display none, show-menu display block"
   alt="New class hide-menu display none, show-menu display block." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image064.png"
   loading="lazy"
@@ -1623,8 +1650,9 @@ when we come back in the next lesson, we'll see how I did that.</p>
 
 <ul>
   <li><a href="./zip/1.07-JS-Folding-Sidebar-Menus-START.zip" 
+    aria-label="1.07 JS Folding Sidebar Menus START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     1.07 JS Folding Sidebar Menus START (download ZIP)</a></li>
+    1.07 JS Folding Sidebar Menus START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-08">1.08 Challenge 1 Solution (3:23)</h2>
@@ -1793,6 +1821,7 @@ know that, and the this keyword can help us figure that out.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="New var thisMenu = this"
   alt="New var thisMenu = this." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image077.png"
   loading="lazy"
@@ -1863,6 +1892,7 @@ solution for that.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Vars menulink and menulinks in event listeners"
   alt="Vars menulink and menulinks in event listeners." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image081.png"
   loading="lazy"
@@ -2241,6 +2271,7 @@ add all of our code.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Top half of script"
   alt="Top half of script." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image103.png"
   loading="lazy"
@@ -2264,6 +2295,7 @@ the top of the page.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="First 21 lines of script.js"
   alt="First 21 lines of script.js." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image105.png"
   loading="lazy"
@@ -2308,8 +2340,9 @@ that script is.</p>
 
 <ul>
   <li><a href="./pdf/1.15-JS-Folding-Sidebar-Menus.pdf" 
+    aria-label="1.15 JS Folding Sidebar Menus (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.15 JS Folding Sidebar Menus (display PDF)</a></li>
+    1.15 JS Folding Sidebar Menus (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-16">1.16 Intro to jQuery Sidebar Folding Navigation (4:35)</h2>
@@ -2453,8 +2486,9 @@ next lesson.</p>
 
 <ul>
   <li><a href="./zip/1.16-jQuery-Folding-Menus-START.zip" 
+    aria-label="1.16 jQuery Folding Menus START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     1.16 jQuery Folding Menus START (download ZIP)</a></li>
+    1.16 jQuery Folding Menus START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-17">1.17 Getting the Next UL (4:40)</h2>
@@ -2672,6 +2706,7 @@ here. Close that up. I've got a little short script here.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="New script.js &amp; move script code from index.html"
   alt="New script.js &amp; move script code from index.html." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image132.png"
   loading="lazy"
@@ -2706,8 +2741,9 @@ you're pretty excited about this.</p>
 
 <ul>
   <li><a href="./pdf/1.18-jQuery-Folding-Sidebar-Menus.pdf" 
+    aria-label="1.18 jQuery Folding Sidebar Menus (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.18 jQuery Folding Sidebar Menus (display PDF)</a></li>
+    1.18 jQuery Folding Sidebar Menus (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
@@ -2780,8 +2816,9 @@ understand the differences between the syntax of how each of them work.</p>
 
 <ul>
   <li><a href="./pdf/1.19-JS-jQuery-Challenges.pdf" 
+    aria-label="1.19 JS &amp; jQuery Challenges (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     1.19 JS &amp; jQuery Challenges (display PDF)</a></li>
+    1.19 JS &amp; jQuery Challenges (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module Two: Animating Web Page Elements with jQuery and JS</h2>
@@ -2933,6 +2970,7 @@ but it won't do any animation.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="jQuery box hide normal"
   alt="jQuery box hide normal." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image146.png"
   loading="lazy"
@@ -2954,6 +2992,7 @@ hides that box.
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Hide box fade in 500 milliseconds"
   alt="Hide box fade in 500 milliseconds." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image148.png"
   loading="lazy"
@@ -2976,15 +3015,15 @@ see something to demonstrate how much that affects it, you could do
   title="Hide, Show, Toggle Boxes"
   alt="Hide, Show, Toggle Boxes." />
 
-<p>Let's see what that does. There we go. You can see that you can affect
-the speed there.</p>
+<p>Let's see what that does. There we go. You can see that you can affect the speed there.</p>
 
 <h3>jQeury Animation START zip Files</h3>
 
 <ul>
   <li><a href="./zip/2.01-jQuery-Animation-START.zip" 
+    aria-label="2.01 jQuery Animation START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     2.01 jQuery Animation START (download ZIP)</a></li>
+    2.01 jQuery Animation START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-02">2.02 Example 1, cont’d (4:36)</h2>
@@ -3007,6 +3046,7 @@ hide the box and animate that.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Add showbox click, fade 500 milliseconds"
   alt="Add showbox click, fade 500 milliseconds." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image152.png"
   loading="lazy"
@@ -3262,8 +3302,9 @@ plugins <b>plug-in</b>.</p>
 
 <ul>
   <li><a href="https://tutorialzine.com/2013/04/50-amazing-jquery-plugins" 
+    aria-label="50 Awesome jQuery Plugins (shortcut)." 
     target="_blank" rel="noopener noreferrer">
-     50 Awesome jQuery Plugins</a></li>
+    50 Awesome jQuery Plugins</a></li>
 </ul>
 
 <p><b>jQuery</b> has a plug-in architecture that allows you to add more
@@ -3280,8 +3321,9 @@ on this website here;</p>
 
 <ul>
   <li><a href="https://cdnjs.com/libraries/jquery-easing" 
+    aria-label="jQuery Easing (shortcut)." 
     target="_blank" rel="noopener noreferrer">
-     jQuery Easing</a></li>
+    jQuery Easing</a></li>
 </ul>
 
 <p>This is where I got the <b>easing</b> plug-in on the <b>CDN</b> that I put 
@@ -3929,9 +3971,11 @@ use this effects library coming up when we create a tabbed interface.</p>
 
 <ul>
   <li id="ch2-09-plugins"><a href="https://gsgd.co.uk/sandbox/jquery/easing/" 
+    aria-label="2.09 jQuery Easing Plugin (shortcut)." 
     target="_blank" rel="noopener noreferrer">
      2.09 jQuery Easing Plugin (shortcut)</a></li>
   <li id="ch2-09-easing"><a href="https://cdnjs.com/libraries/jquery-easing" 
+    aria-label="2.09 jQuery Easing (shortcut)." 
     target="_blank" rel="noopener noreferrer">
     2.09 jQuery Easing (shortcut)</a></li>
 </ul>
@@ -3943,8 +3987,9 @@ use this effects library coming up when we create a tabbed interface.</p>
 
 <ul>
   <li><a href="./pdf/2.09-jQuery-Effects-Library.pdf" 
+    aria-label="2.09 jQuery Effects Library (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     2.09 jQuery Effects Library (display PDF)</a></li>
+    2.09 jQuery Effects Library (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-10">2.10 Intro to Tabbed Interface Using jQuery (5:27)</h2>
@@ -4091,16 +4136,18 @@ transmission, often carrying the extension .ZIP.</p>
 
 <ul>
   <li><a href="./zip/2.10-jQuery-Tabs-START.zip" 
+    aria-label="2.10 jQuery Tabs START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     2.10 jQuery Tabs START (download ZIP)</a></li>
+    2.10 jQuery Tabs START (download ZIP)</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
 
 <ul>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    aria-label="How to open a zip file for either Mac or PC." 
     target="_blank" rel="noopener noreferrer">
-     How to open a zip file for either Mac or PC</a></li>
+    How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-11">2.11 Styling the Anchor Tags (5:32)</h2>
@@ -4596,7 +4643,9 @@ simple script that we can use using <b>jQuery</b>.</p>
 section: <b>Creating a Tabbed Interface with jQuery</b>.</p>
 
 <ul>
-  <li><a href="./pdf/2.14-jQuery-Tab-Interface.pdf" >
+  <li><a href="./pdf/2.14-jQuery-Tab-Interface.pdf" 
+    aria-label="2.14 jQuery Tabbed Interface (display PDF)." 
+    target="_blank" rel="noopener noreferrer">
     2.14 jQuery Tabbed Interface (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4763,11 +4812,13 @@ files that are compressed for storage or transmission, often carrying the extens
 
 <ul>
   <li><a href="./zip/2.15-JS-Tabs-START.zip"
+    aria-label="2.15 JS Tabs START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     2.15 JS Tabs START (download ZIP)</a></li>
+    2.15 JS Tabs START (download ZIP)</a></li>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    aria-label="How to open a zip file for either Mac or PC." 
     target="_blank" rel="noopener noreferrer">
-     How to open a zip file for either Mac or PC</a>
+    How to open a zip file for either Mac or PC</a>
   </li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5382,8 +5433,9 @@ section: Creating a Tabbed <b>Interface with JavaScript</b>.</p>
 
 <ul>
   <li><a href="./pdf/2.20-JS-Tab-Interface.pdf" 
+    aria-label="2.20 JS Tabbed Interface (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     2.20 JS Tabbed Interface (display PDF)</a></li>
+    2.20 JS Tabbed Interface (display PDF)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5613,14 +5665,16 @@ carrying the extension .ZIP.</p>
 
 <ul>
   <li><a href="./zip/3.01-jQuery-Slider-V1-START.zip" 
+    aria-label="3.01 jQuery Slider V1 START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     3.01 jQuery Slider V1 START (download ZIP)</a></li>
+    3.01 jQuery Slider V1 START (download ZIP)</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
 
 <ul>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    aria-label="How to open a zip file for either Mac or PC." 
     target="_blank" rel="noopener noreferrer">
     How to open a zip file for either Mac or PC</a></li>
 </ul>
@@ -6249,6 +6303,7 @@ look at that in the next project.</p>
 
 <ul>
   <li><a href="./pdf/3.06-jQuery-Image-Slider-V1.pdf" 
+    aria-label="3.06 jQuery Image Slider V1 (display PDF)." 
     target="_blank" rel="noopener noreferrer">
     3.06 jQuery Image Slider V1 (display PDF)</a></li>
 </ul>
@@ -6389,6 +6444,7 @@ at the end of the element slider.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="body of index.html"
   alt="body of index.html." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image336.png"
   loading="lazy"
@@ -6845,8 +6901,9 @@ types of situations that come up.</p>
 
 <ul>
   <li><a href="./pdf/3.12-jQuery-Image-Slider-V2.pdf" 
+    aria-label="3.12 jQuery Image Slider V2 (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     3.12 jQuery Image Slider V2 (display PDF)</a></li>
+    3.12 jQuery Image Slider V2 (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
@@ -7047,8 +7104,9 @@ for our slider.</p>
 
 <ul>
   <li><a href="./zip/3.13-JS-Slider-V3-START.zip" 
+    aria-label="3.13 JS Image Slider V3 START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     3.13 JS Image Slider V3 START (download ZIP)</a></li>
+    3.13 JS Image Slider V3 START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
@@ -7603,8 +7661,9 @@ of the jQuery script but just with JavaScript. Hopefully, that will work.</p>
 
 <ul>
   <li><a href="./pdf/3.17-JS-Image-Slider.pdf" 
+    aria-label="3.17 JS Image Slider (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     3.17 JS Image Slider (display PDF)</a></li>
+    3.17 JS Image Slider (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4">Module 4: Timers and Recursion in JavaScript &amp; jQuery</h2>
@@ -7646,9 +7705,10 @@ started on learning about <b>timers</b> and recursion in JavaScript and
 <h3 id="ch4-00-zip">JavaScript Timers Examples START zip Files</h3>
 
 <ul>
-  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip"
+  <li><a href="./zip/4.00-JS-Timers-Examples-START.zip" 
+    aria-label="4.00 JS Timers Examples START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
-     4.00 JS Timers Examples START (download ZIP)</a></li>
+    4.00 JS Timers Examples START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-01">4.01 Example Script #1 – Part 1 (5:37)</h2>
@@ -7711,6 +7771,7 @@ adding paragraphs to this web page.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Test Adding another paragraph"
   alt="Test Adding another paragraph." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image411.png"
   loading="lazy"
@@ -7953,6 +8014,7 @@ this to example2.html.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Start square, small red"
   alt="Start square, small red." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image426.png"
   loading="lazy"
@@ -7972,6 +8034,7 @@ red to blue.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Style with classes one/two, each with transition"
   alt="Style with classes one/two, each with transition." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image428.png"
   loading="lazy"
@@ -8033,6 +8096,7 @@ powerful technique in JavaScript.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Smallish red dot"
   alt="Smallish red dot." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image432.png"
   loading="lazy"
@@ -8053,6 +8117,7 @@ to a circle, the different <b>background</b> color here, red to purple.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Style class 'one'"
   alt="Style class 'one'." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image434.png"
   loading="lazy"
@@ -8080,6 +8145,7 @@ here, I open <b>example3.html</b>. You can see again I have a <b>div</b>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Set currentClass to 'one'"
   alt="Set currentClass to 'one'." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image437.png"
   loading="lazy"
@@ -8161,8 +8227,9 @@ do more stuff with that if you wanted to.</p>
 
 <ul>
   <li><a href="./pdf/4.04-JS-Timers-Recursion.pdf" 
+    aria-label="4.04 JS Timers &amp; Recursion (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     4.04 JS Timers &amp; Recursion (display PDF)</a></li>
+    4.04 JS Timers &amp; Recursion (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
@@ -8184,6 +8251,7 @@ do more stuff with that if you wanted to.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Slider on a Timer"
   alt="Slider on a Timer." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image442.png"
   loading="lazy"
@@ -8254,6 +8322,7 @@ don't really need those anymore.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Basic jQuery image slider"
   alt="Basic jQuery image slider." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image447.png"
   loading="lazy"
@@ -8309,6 +8378,7 @@ handler, we can remove it entirely.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Script.js, lines 1-20"
   alt="Script.js, lines 1-20." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image452.png"
   loading="lazy"
@@ -8363,6 +8433,7 @@ but I'm going to use <b>setInterval</b> here.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Add setInterval method, passing anonymous function"
   alt="Add setInterval method, passing anonymous function." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image457.png"
   loading="lazy"
@@ -8441,6 +8512,7 @@ you're hovering your mouse over the slider. That's your next challenge.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Script.js, 1-20"
   alt="Script.js, 1-20." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image463.png"
   loading="lazy"
@@ -8467,6 +8539,7 @@ hovers over the slider, the slider stops.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Add function slider, mySetInterval"
   alt="Add function slider, mySetInterval." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image466.png"
   loading="lazy"
@@ -8543,9 +8616,11 @@ you can come up with other ideas and other things that you could do.</p>
 
 <ul>
   <li><a href="./pdf/4.07-JS-Slider-on-a-Timer.pdf" 
+    aria-label="4.07 JS Slider on a Timers (display PDF)." 
     target="_blank" rel="noopener noreferrer">
      4.07 JS Slider on a Timer (display PDF)</a></li>
   <li><a href="./zip/4.07-jQuery-Content-Rotator-START.zip" 
+    aria-label="4.07 jQuery Content Rotator START (download ZIP)." 
     target="_blank" rel="noopener noreferrer">
     4.07 jQuery Content Rotator START (download ZIP)</a></li>
 </ul>
@@ -8571,6 +8646,7 @@ project, I hope you enjoy it.</p>
   style="width:40%; float: left; margin-left: 7%; margin-bottom: 1em;"
   title="Examples, The Finished Project, 1"
   alt="Examples, The Finished Project, 1." />
+&nbsp;&nbsp;&nbsp;
 <img class="displayed"
   src="./images/image469.png"
   loading="lazy"
@@ -8856,6 +8932,7 @@ something, and then if it's not, we're going to do something else.</p>
   src="./images/image486.png"
   loading="lazy"
   style="width:50%"
+  title="Example, What Happens in the Selection; contentRotator function"
   alt="Example, What Happens in the Selection; contentRotator function." />
 
 <p>What we're going to do is wait seven seconds and then run the
@@ -9040,8 +9117,9 @@ be very interesting.</p>
 
 <ul>
   <li><a href="./pdf/4.11-jQuery-Content-Rotator.pdf" 
+    aria-label="4.11 jQuery Content Rotator (display PDF)." 
     target="_blank" rel="noopener noreferrer">
-     4.11 jQuery Content Rotator (display PDF)</a></li>
+    4.11 jQuery Content Rotator (display PDF)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-12">4.12 Course Summary (0:52)</h2>
@@ -9059,13 +9137,15 @@ we'll create some more sophisticated scripts and some more complex scripts so
 that you can develop your skills and get better at JavaScript. I look forward to 
 seeing you there.</p>
 
-<h6>...the end</h6>
-<h6>Prior Updated 4/9/2024 6+ pm</h6>
-<h6>Previous Updated 4/25/2024 12+ pm</h6>
-<h6>Prior Updated 5/2/2024 12+ pm</h6>
-<h6>Last Updated 5/8/2024 1+ am</h6>
-<h6>Last Updated 6/3/2024 1+ am</h6>
-<h6>Last Updated 6/11/2024 11+ am</h6>
-<h6>Last Updated 6/18/2024 11+ pm</h6>
+<h6>...the end<br/>
+Prior Updated 4/9/2024 6+ pm<br/>
+Previous Updated 4/25/2024 12+ pm<br/>
+Prior Updated 5/2/2024 12+ pm<br/>
+Last Updated 5/8/2024 1+ am<br/>
+Last Updated 6/3/2024 1+ am<br/>
+Last Updated 6/11/2024 11+ am<br/>
+Last Updated 6/18/2024 11+ pm<br/>
+Last Updated 10/14/2024 9+ pm</h6>
+
 </body>
 </html>
