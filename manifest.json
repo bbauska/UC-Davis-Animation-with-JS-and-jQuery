@@ -1,6 +1,9 @@
 {
- "name": "Animation with JS",
- "icons": [
+  "name": "Animation with JavaScript",
+  "short_name": "JS Animation", 
+  "start_url": "/js-animation.bauska.org",
+  "display": "standalone",  
+  "icons": [
   {
    "src": "\/images/android-icon-36x36.png",
    "sizes": "36x36",
